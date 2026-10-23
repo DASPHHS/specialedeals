@@ -59,7 +59,7 @@ try{
    const link=document.createElement("a");link.className="buy";link.href=promo.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Controleer voorwaarden ↗";
    card.append(label,title,detail,link);promoParent.append(card);
   }
-  if(!shown.length)promoParent.textContent="Geen passende actiecodes of winacties in de gescande feeds.";
+  if(!shown.length)promoParent.textContent=!Object.prototype.hasOwnProperty.call(data,"promotions")?"De gepubliceerde scan is nog van de oude versie. Voer de vernieuwde workflow uit.":"Geen passende actiecodes of winacties aangetroffen in de bereikbare bronnen; dit betekent niet dat er online geen acties zijn.";
  };
  promoButtons.forEach(([id,kind])=>document.getElementById(id).addEventListener("click",()=>renderPromos(kind)));
  renderPromos("all");

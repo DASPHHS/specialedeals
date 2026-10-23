@@ -11,7 +11,7 @@ def fetch(url):
     with urllib.request.urlopen(req,timeout=18) as r:
         if r.status!=200: raise ValueError("HTTP "+str(r.status))
         return r.read(2_000_000).decode("utf-8",errors="replace")
-def strip(s): return re.sub(r"\\s+"," ",html.unescape(re.sub("<[^>]+>"," ",s or ""))).strip()
+def strip(s): return re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]+>"," ",s or ""))).strip()
 def score(title):
     t=title.casefold(); points=0; matches=[]
     for brand in cfg["brands"]:
@@ -20,7 +20,7 @@ def score(title):
         if any(w.casefold() in t for w in words):points+=12
     for term in cfg["exclude"]:
         if term.casefold() in t:points-=50
-    if re.search(r"\\b(47(?: 1/3)?|xl)\\b",t):points+=8
+    if re.search(r"\b(47(?: 1/3)?|xl)\b",t):points+=8
     return points, matches
 def rss_items(text,source):
     root=ET.fromstring(text)
@@ -69,6 +69,6 @@ def main():
             seen.add(key);selected.append({**item,"score":s,"matched":m,"price":None,"priceVerified":False})
     selected.sort(key=lambda x:x["score"],reverse=True)
     out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
-    (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\\n")
+    (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"count":len(selected),"sources":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

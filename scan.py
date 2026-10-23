@@ -81,8 +81,9 @@ def main():
     for item in results:
         s,m=score(item["title"])
         key=item["url"].split("?")[0].rstrip("/").casefold()
-        if s>=cfg["minScore"] and key not in seen:
-            seen.add(key);selected.append({**item,"score":s,"matched":m,"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None})
+        minimum=cfg.get("discoveryMode",{}).get("minimumCategoryScore",cfg["minScore"])
+        if s>=minimum and key not in seen:
+            seen.add(key);selected.append({**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None})
     selected.sort(key=lambda x:x["score"],reverse=True)
     out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
     (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")

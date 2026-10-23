@@ -31,11 +31,10 @@ def score(title):
     if re.search(r"\b(47(?: 1/3)?|xl)\b",t):points+=8
     return points, matches
 def extract_price(raw):
-    """Only a clearly labelled euro amount; feed price remains unverified."""
-    amounts=re.findall(r"(?:€|EUR\\s*)\\s*(\\d{1,5}(?:[.,]\\d{2})?)(?!\\d)",raw,re.I)
-    if len(amounts)!=1:return None
-    value=float(amounts[0].replace(",","."))
-    return value if 1<=value<=10000 else None
+    """Return a feed-indicated euro price only if unambiguous, never 'verified'."""
+    matches = re.findall(r"(?:€\\s*|EUR\\s+)(\\d{1,5}(?:[.,]\\d{2})?)(?!\\d)", raw, flags=re.I)
+    values = {float(value.replace(",", ".")) for value in matches}
+    return next(iter(values)) if len(values) == 1 and 0.5 <= next(iter(values)) <= 10000 else None
 
 def rss_items(text,source):
     root=ET.fromstring(text)

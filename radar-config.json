@@ -110,5 +110,56 @@
       "url": "https://www.ibood.com/nl/s-nl",
       "kind": "ibood"
     }
+  ],
+  "targetAudience": "heren (kleding/schoenen), unisex en algemeen toepasbare lifestyledeals",
+  "excludeGendered": [
+    "dames",
+    "women",
+    "womens",
+    "women's",
+    "vrouw",
+    "vrouwen",
+    "meisjes",
+    "girls",
+    "femme",
+    "ladies",
+    "bh",
+    "beha",
+    "bikini",
+    "lingerie",
+    "jurk",
+    "rokken",
+    "handtas"
+  ],
+  "menswearKeywords": [
+    "heren",
+    "men",
+    "mens",
+    "men's",
+    "mannen",
+    "unisex"
+  ],
+  "apparelTerms": [
+    "schoen",
+    "sneaker",
+    "jacket",
+    "jas",
+    "broek",
+    "shirt",
+    "hoodie",
+    "pullover",
+    "sweater",
+    "sweatshirt",
+    "vest",
+    "sokken",
+    "ondergoed",
+    "kleding",
+    "outfit",
+    "boots",
+    "laarzen",
+    "shorts",
+    "trui",
+    "polo",
+    "sandal"
   ]
 }

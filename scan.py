@@ -15,11 +15,11 @@ def strip(s): return re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]+>"," ",s or "
 def score(title):
     t=title.casefold(); points=0; matches=[]
     # Explicit women's products are outside the target profile.
-    if any(re.search(r"(?<!\\w)"+re.escape(term.casefold())+r"(?!\\w)",t) for term in cfg.get("excludeGendered",[])):
+    if any(re.search(r"(?<!\w)"+re.escape(term.casefold())+r"(?!\w)",t) for term in cfg.get("excludeGendered",[])):
         return -1000, []
     # Apparel and footwear must explicitly be for men or unisex.
     apparel=any(term in t for term in cfg.get("apparelTerms",[]))
-    men=any(re.search(r"(?<!\\w)"+re.escape(term.casefold())+r"(?!\\w)",t) for term in cfg.get("menswearKeywords",[]))
+    men=any(re.search(r"(?<!\w)"+re.escape(term.casefold())+r"(?!\w)",t) for term in cfg.get("menswearKeywords",[]))
     if apparel and not men:
         return -1000, []
     for brand in cfg["brands"]:
@@ -30,6 +30,13 @@ def score(title):
         if term.casefold() in t:points-=50
     if re.search(r"\b(47(?: 1/3)?|xl)\b",t):points+=8
     return points, matches
+def extract_price(raw):
+    """Only a clearly labelled euro amount; feed price remains unverified."""
+    amounts=re.findall(r"(?:€|EUR\\s*)\\s*(\\d{1,5}(?:[.,]\\d{2})?)(?!\\d)",raw,re.I)
+    if len(amounts)!=1:return None
+    value=float(amounts[0].replace(",","."))
+    return value if 1<=value<=10000 else None
+
 def rss_items(text,source):
     root=ET.fromstring(text)
     out=[]
@@ -42,7 +49,9 @@ def rss_items(text,source):
         if not link:
             x=entry.find("{http://www.w3.org/2005/Atom}link")
             link=x.attrib.get("href","") if x is not None else ""
-        if title and link.startswith("http"):out.append({"title":title,"url":link,"source":source})
+        description=value("description") or value("{http://www.w3.org/2005/Atom}summary")
+        price=extract_price(title+" "+strip(description))
+        if title and link.startswith("http"):out.append({"title":title,"url":link,"source":source,"price":price})
     return out
 class IboodParser(HTMLParser):
     def __init__(self): super().__init__();self.links=[];self.current=None
@@ -74,7 +83,7 @@ def main():
         s,m=score(item["title"])
         key=item["url"].split("?")[0].rstrip("/").casefold()
         if s>=cfg["minScore"] and key not in seen:
-            seen.add(key);selected.append({**item,"score":s,"matched":m,"price":None,"priceVerified":False})
+            seen.add(key);selected.append({**item,"score":s,"matched":m,"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None})
     selected.sort(key=lambda x:x["score"],reverse=True)
     out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
     (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")

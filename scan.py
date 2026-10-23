@@ -14,6 +14,14 @@ def fetch(url):
 def strip(s): return re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]+>"," ",s or ""))).strip()
 def score(title):
     t=title.casefold(); points=0; matches=[]
+    # Explicit women's products are outside the target profile.
+    if any(re.search(r"(?<!\\w)"+re.escape(term.casefold())+r"(?!\\w)",t) for term in cfg.get("excludeGendered",[])):
+        return -1000, []
+    # Apparel and footwear must explicitly be for men or unisex.
+    apparel=any(term in t for term in cfg.get("apparelTerms",[]))
+    men=any(re.search(r"(?<!\\w)"+re.escape(term.casefold())+r"(?!\\w)",t) for term in cfg.get("menswearKeywords",[]))
+    if apparel and not men:
+        return -1000, []
     for brand in cfg["brands"]:
         if brand.casefold() in t: points+=32;matches.append(brand)
     for group,words in cfg["categories"].items():

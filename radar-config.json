@@ -66,7 +66,10 @@
       "stofzuiger",
       "dyson",
       "braadpan",
-      "luchtzuiveraar"
+      "luchtzuiveraar",
+      "airfryer",
+      "koffiemachine",
+      "keukenmachine"
     ],
     "technologie": [
       "apple",
@@ -77,7 +80,10 @@
       "smart home",
       "home assistant",
       "sonos",
-      "philips hue"
+      "philips hue",
+      "robot",
+      "noise cancelling",
+      "koptelefoon"
     ]
   },
   "exclude": [
@@ -161,5 +167,15 @@
     "trui",
     "polo",
     "sandal"
-  ]
+  ],
+  "discoveryMode": {
+    "allowRelevantUnknownBrands": true,
+    "minimumCategoryScore": 12,
+    "preferredSorting": "personal_relevance",
+    "secondarySorting": [
+      "verified_discount_percent",
+      "verified_absolute_savings"
+    ],
+    "cashback": "bonus_only_after_eligibility_confirmation"
+  }
 }

@@ -1,29 +1,80 @@
 {
-  "updatedAt": "2026-10-23T18:30:48.956194+00:00",
+  "updatedAt": "2026-10-23T21:03:20.413037+00:00",
   "deals": [
     {
-      "title": "Apple AirPods 5 (met ANC) | Amazon DE",
-      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-5-met-anc-amazon-de-423385",
+      "title": "Bose Quietcomfort Ultra - laagste prijs ooit",
+      "url": "https://nl.pepper.com/aanbiedingen/bose-quietcomfort-ultra-laagste-prijs-ooit-423422",
+      "source": "Pepper NL (RSS kandidaat)",
+      "price": 227.97,
+      "score": 32,
+      "matched": [
+        "bose"
+      ],
+      "discovery": false,
+      "priceVerified": false,
+      "priceOrigin": "feed"
+    },
+    {
+      "title": "Siemens EQ.6 Plus S100 TE651209RW - Volautomatische espressomachine @ MediaMarkt",
+      "url": "https://nl.pepper.com/aanbiedingen/siemens-eq6-plus-s100-te651209rw-volautomatische-espressomachine-at-mediamarkt-423423",
       "source": "Pepper NL (RSS kandidaat)",
       "price": null,
-      "score": 44,
-      "matched": [
-        "apple"
-      ],
+      "score": 12,
+      "matched": [],
+      "discovery": true,
       "priceVerified": false,
       "priceOrigin": null
     },
     {
-      "title": "185° - Dreame L40 Ultra AE robotstofzuiger met dweilfunctie @ MediaMarkt",
-      "url": "https://nl.pepper.com/aanbiedingen/dreame-l40-ultra-ae-robotstofzuiger-met-dweilfunctie-at-mediamarkt-423360",
-      "source": "Pepper NL hot (RSS kandidaat)",
+      "title": "Tineco Floor One Switch S6 Stretch Nat- en Droogstofzuiger (Multifunctioneel & 180° plat)",
+      "url": "https://nl.pepper.com/aanbiedingen/tineco-floor-one-switch-s6-stretch-nat-en-droogstofzuiger-multifunctioneel-180-plat-423418",
+      "source": "Pepper NL (RSS kandidaat)",
+      "price": 329.99,
+      "score": 12,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": "feed"
+    },
+    {
+      "title": "Noord-Brabant Outdoor op 23 Oktober 2026 UITagenda Activiteiten (406 x) - DagjeWeg.NL",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc1ZnOS0yVmw5dWpDQXlLTHBWQlpwd09GRXNpWXFTNWd5ZWhTTXB3NldHU3piSV8wWk5ZZEdURFI1Y29UcnFHUWp2ZWRiR1Z4MnpHWW15amtBQ1E1bWM1WmE4dUxiendSNVlWTFdfbVVLMWJMcU55QXgzTkU0VVlhYkJVUXA?oc=5",
+      "source": "Winacties sport en technologie",
       "price": null,
-      "score": 44,
-      "matched": [
-        "robotstofzuiger"
-      ],
+      "score": 12,
+      "matched": [],
+      "discovery": true,
       "priceVerified": false,
       "priceOrigin": null
+    },
+    {
+      "title": "Almere Outdoor op 21 Oktober 2026 UITagenda Activiteiten (28 x) - DagjeWeg.NL",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyMEVZeFFTSm9ERHcwbWZrNkdQUk1JNl8yQXh0VGdQajhvYzRtR2wwMVpqRVV3UWRiWUNma2ZfMUhlZnlxZTB5ZXBEQTVzcERySDR4WUVYMjRyaVBZdHVfN1dldFo0anM2RnFUQi1zUFM?oc=5",
+      "source": "Winacties sport en technologie",
+      "price": null,
+      "score": 12,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": null
+    }
+  ],
+  "promotions": [
+    {
+      "title": "Winactie | Maak kans op 3 nachten in berghotel Forsthofalm in Leogang - Snowrepublic",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWE85bms1RW1NekRmeUZaSUkwT0VuSjRJdFNxZFRYMkhLRWoxS0Z5QW9jaTk1eGlWTWU2R0ZJTzlvQUZUbTZYc1p0RTlhZm5DV3VmMGlpb1hIYkkwYklwRUc5SnFxT0FtMERsZDVJSWkxd0VNV0Vnbk1KU1NIMEdGU0swbFpLR2t4cmFhR2RQNWVKYjlfRURFVjMtd1U?oc=5",
+      "source": "Winacties wonen en reizen",
+      "price": null,
+      "score": 0,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": null,
+      "kind": "winactie",
+      "verified": false,
+      "code": null,
+      "deadline": null,
+      "conditionsVerified": false
     }
   ],
   "sources": [
@@ -41,6 +92,21 @@
       "source": "iBOOD",
       "status": "error",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Winacties sport en technologie",
+      "status": "ok",
+      "items": 17
+    },
+    {
+      "source": "Winacties wonen en reizen",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Kortingscodes premium merken",
+      "status": "empty",
+      "items": 0
     }
   ],
   "note": "Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."

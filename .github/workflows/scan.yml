@@ -17,6 +17,7 @@ jobs:
         run: |
           python -m py_compile scan.py
           python -m json.tool radar-config.json > /dev/null
+          python -m unittest test_scan.py -v
       - name: Scan feeds
         run: python scan.py
       - name: Publiceer resultaten

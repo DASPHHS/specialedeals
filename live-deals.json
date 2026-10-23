@@ -1,38 +1,29 @@
 {
-  "updatedAt": "2026-10-23T17:23:41.400753+00:00",
+  "updatedAt": "2026-10-23T18:30:48.956194+00:00",
   "deals": [
     {
       "title": "Apple AirPods 5 (met ANC) | Amazon DE",
       "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-5-met-anc-amazon-de-423385",
       "source": "Pepper NL (RSS kandidaat)",
+      "price": null,
       "score": 44,
       "matched": [
         "apple"
       ],
-      "price": null,
-      "priceVerified": false
+      "priceVerified": false,
+      "priceOrigin": null
     },
     {
-      "title": "317° - Apple AirPods 5 (met ANC) | Amazon DE",
-      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-5-met-anc-amazon-de-423385",
-      "source": "Pepper NL hot (RSS kandidaat)",
-      "score": 44,
-      "matched": [
-        "apple"
-      ],
-      "price": null,
-      "priceVerified": false
-    },
-    {
-      "title": "164° - Dreame L40 Ultra AE robotstofzuiger met dweilfunctie @ MediaMarkt",
+      "title": "185° - Dreame L40 Ultra AE robotstofzuiger met dweilfunctie @ MediaMarkt",
       "url": "https://nl.pepper.com/aanbiedingen/dreame-l40-ultra-ae-robotstofzuiger-met-dweilfunctie-at-mediamarkt-423360",
       "source": "Pepper NL hot (RSS kandidaat)",
+      "price": null,
       "score": 44,
       "matched": [
         "robotstofzuiger"
       ],
-      "price": null,
-      "priceVerified": false
+      "priceVerified": false,
+      "priceOrigin": null
     }
   ],
   "sources": [

@@ -85,12 +85,26 @@ def main():
             statuses.append({"source":src["name"],"status":"ok" if items else "empty","items":len(items)})
             results+=items
         except Exception as e:statuses.append({"source":src["name"],"status":"error","error":str(e)[:180]})
+    # Extra discovery queries. Google News RSS is a discovery source, not proof of validity.
+    searches=[
+        ("Winacties sport en technologie","(winactie OR prijsvraag OR giveaway) (padel OR apple OR dyson OR salomon)"),
+        ("Winacties wonen en reizen","(winactie OR prijsvraag OR maak kans) (wellness OR hotel OR keukenmachine OR rituals)"),
+        ("Kortingscodes premium merken","(kortingscode OR actiecode OR promocode) (davines OR salomon OR arcteryx OR nike OR rituals)"),
+    ]
+    for name,query in searches:
+        try:
+            url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query+" when:7d","hl":"nl","gl":"NL","ceid":"NL:nl"})
+            items=rss_items(fetch(url),name)
+            statuses.append({"source":name,"status":"ok" if items else "empty","items":len(items)})
+            results.extend(items)
+        except Exception as e:
+            statuses.append({"source":name,"status":"error","error":str(e)[:180]})
     seen=set();selected=[];promotions=[]
     for item in results:
-        s,m=score(item["title"])
+        s,m=score(item["title"])\n        kind=promotion_kind(item["title"])\n        # Competition candidates may be useful even where a brand is not named.\n        if kind!="deal" and s<0: continue
         key=item["url"].split("?")[0].rstrip("/").casefold()
         minimum=cfg.get("discoveryMode",{}).get("minimumCategoryScore",cfg["minScore"])
-        if s>=minimum and key not in seen:
+        if (s>=minimum or (kind!="deal" and s>=0 and any(w in item["title"].casefold() for w in ("padel","wellness","hotel","keuken","rituals","apple","dyson","salomon")))) and key not in seen:
             seen.add(key)
             entry={**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None}
             kind=promotion_kind(item["title"])
@@ -102,5 +116,5 @@ def main():
     promotions.sort(key=lambda x:x["score"],reverse=True)
     out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"promotions":promotions[:60],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
     (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
-    print(json.dumps({"count":len(selected),"sources":statuses},ensure_ascii=False))
+    print(json.dumps({"count":len(selected),"promotions":len(promotions),"sources":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

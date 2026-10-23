@@ -25,7 +25,36 @@
     "home assistant",
     "robotstofzuiger",
     "kruimeldief",
-    "padelballen"
+    "padelballen",
+    "aēsop",
+    "aesop",
+    "diptyque",
+    "byredo",
+    "acqua di parma",
+    "molton brown",
+    "l'occitane",
+    "neom",
+    "cereria mollá",
+    "smeg",
+    "kitchenaid",
+    "zwilling",
+    "wmf",
+    "fissler",
+    "miele",
+    "vitra",
+    "hay",
+    "muuto",
+    "georg jensen",
+    "ferm living",
+    "boska",
+    "bamix",
+    "jura",
+    "delonghi",
+    "de'longhi",
+    "breville",
+    "bowers & wilkins",
+    "bang & olufsen",
+    "bose"
   ],
   "categories": {
     "sport": [
@@ -56,7 +85,13 @@
       "janzen",
       "rituals",
       "marie-stella-maris",
-      "parfum"
+      "parfum",
+      "niche parfum",
+      "nicheparfum",
+      "handzeep",
+      "douchegel",
+      "skincare",
+      "geurstokjes"
     ],
     "wonen": [
       "berger",
@@ -69,7 +104,17 @@
       "luchtzuiveraar",
       "airfryer",
       "koffiemachine",
-      "keukenmachine"
+      "keukenmachine",
+      "designlamp",
+      "design verlichting",
+      "servies",
+      "bestek",
+      "kookgerei",
+      "designstoel",
+      "interieur",
+      "keukengerei",
+      "espressoapparaat",
+      "pannenset"
     ],
     "technologie": [
       "apple",
@@ -176,6 +221,18 @@
       "verified_discount_percent",
       "verified_absolute_savings"
     ],
-    "cashback": "bonus_only_after_eligibility_confirmation"
+    "cashback": "bonus_only_after_eligibility_confirmation",
+    "sortOptions": [
+      "relevance",
+      "discount_pct",
+      "savings_eur",
+      "lowest_price"
+    ]
+  },
+  "discounts": {
+    "requireVerifiedReferencePrice": true,
+    "requireVerifiedCurrentPrice": true,
+    "additionalBenefitsOnlyWhenConfirmed": true,
+    "excludeUnverifiedCashbackFromEffectivePrice": true
   }
 }

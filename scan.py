@@ -32,7 +32,7 @@ def score(title):
     return points, matches
 def extract_price(raw):
     """Return a feed-indicated euro price only if unambiguous, never 'verified'."""
-    matches = re.findall(r"(?:€\\s*|EUR\\s+)(\\d{1,5}(?:[.,]\\d{2})?)(?!\\d)", raw, flags=re.I)
+    matches = re.findall(r"(?:€\s*|EUR\s+)(\d{1,5}(?:[.,]\d{2})?)(?!\d)", raw, flags=re.I)
     values = {float(value.replace(",", ".")) for value in matches}
     return next(iter(values)) if len(values) == 1 and 0.5 <= next(iter(values)) <= 10000 else None
 

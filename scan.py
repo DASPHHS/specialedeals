@@ -101,7 +101,10 @@ def main():
             statuses.append({"source":name,"status":"error","error":str(e)[:180]})
     seen=set();selected=[];promotions=[]
     for item in results:
-        s,m=score(item["title"])\n        kind=promotion_kind(item["title"])\n        # Competition candidates may be useful even where a brand is not named.\n        if kind!="deal" and s<0: continue
+        s,m=score(item["title"])
+        kind=promotion_kind(item["title"])
+        # Competition candidates may be useful even where a brand is not named.
+        if kind!="deal" and s<0: continue
         key=item["url"].split("?")[0].rstrip("/").casefold()
         minimum=cfg.get("discoveryMode",{}).get("minimumCategoryScore",cfg["minScore"])
         if (s>=minimum or (kind!="deal" and s>=0 and any(w in item["title"].casefold() for w in ("padel","wellness","hotel","keuken","rituals","apple","dyson","salomon")))) and key not in seen:

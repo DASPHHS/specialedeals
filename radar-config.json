@@ -1,0 +1,114 @@
+{
+  "updated": "2026-10-23",
+  "brands": [
+    "giraffe",
+    "original blend",
+    "head pro s",
+    "bullpadel premium pro",
+    "metalbone carbon",
+    "arcteryx",
+    "arc'teryx",
+    "salomon",
+    "davines",
+    "janzen",
+    "rituals",
+    "marie-stella-maris",
+    "maison berger",
+    "lampe berger",
+    "dyson",
+    "apple",
+    "sage",
+    "le creuset",
+    "demeyere",
+    "sonos",
+    "philips hue",
+    "home assistant",
+    "robotstofzuiger",
+    "kruimeldief",
+    "padelballen"
+  ],
+  "categories": {
+    "sport": [
+      "padel",
+      "racket",
+      "ballen",
+      "sport",
+      "tennis"
+    ],
+    "koffie": [
+      "koffie",
+      "coffee",
+      "bonen",
+      "espresso"
+    ],
+    "outdoor": [
+      "outdoor",
+      "salomon",
+      "hoka",
+      "arcteryx",
+      "arc'teryx",
+      "wandelen",
+      "trail"
+    ],
+    "verzorging": [
+      "davines",
+      "shampoo",
+      "janzen",
+      "rituals",
+      "marie-stella-maris",
+      "parfum"
+    ],
+    "wonen": [
+      "berger",
+      "huisparfum",
+      "geur",
+      "keuken",
+      "stofzuiger",
+      "dyson",
+      "braadpan",
+      "luchtzuiveraar"
+    ],
+    "technologie": [
+      "apple",
+      "ipad",
+      "iphone",
+      "macbook",
+      "homekit",
+      "smart home",
+      "home assistant",
+      "sonos",
+      "philips hue"
+    ]
+  },
+  "exclude": [
+    "hoesje",
+    "telefoonhoes",
+    "poster",
+    "sticker",
+    "sleutelhanger",
+    "screensaver"
+  ],
+  "preferredSizes": [
+    "XL",
+    "47",
+    "47 1/3"
+  ],
+  "minScore": 20,
+  "sourceFeeds": [
+    {
+      "name": "Pepper NL (RSS kandidaat)",
+      "url": "https://nl.pepper.com/rss",
+      "kind": "rss"
+    },
+    {
+      "name": "Pepper NL hot (RSS kandidaat)",
+      "url": "https://nl.pepper.com/rss/hot",
+      "kind": "rss"
+    },
+    {
+      "name": "iBOOD",
+      "url": "https://www.ibood.com/nl/s-nl",
+      "kind": "ibood"
+    }
+  ]
+}

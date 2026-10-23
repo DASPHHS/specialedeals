@@ -66,6 +66,14 @@ class IboodParser(HTMLParser):
             title=strip(" ".join(self.current["parts"]))
             if 12<len(title)<220:self.links.append({"title":title,"url":self.current["url"],"source":"iBOOD"})
             self.current=None
+def promotion_kind(title):
+    t=title.casefold()
+    if any(w in t for w in ("winactie","prijsvraag","win een","maak kans","giveaway","verloting")):
+        return "winactie"
+    if any(w in t for w in ("kortingscode","kortingscodes","actiecode","couponcode","voucher code","promocode","code:")):
+        return "kortingscode"
+    return "deal"
+
 def main():
     results=[]; statuses=[]
     for src in cfg["sourceFeeds"]:
@@ -77,15 +85,22 @@ def main():
             statuses.append({"source":src["name"],"status":"ok" if items else "empty","items":len(items)})
             results+=items
         except Exception as e:statuses.append({"source":src["name"],"status":"error","error":str(e)[:180]})
-    seen=set();selected=[]
+    seen=set();selected=[];promotions=[]
     for item in results:
         s,m=score(item["title"])
         key=item["url"].split("?")[0].rstrip("/").casefold()
         minimum=cfg.get("discoveryMode",{}).get("minimumCategoryScore",cfg["minScore"])
         if s>=minimum and key not in seen:
-            seen.add(key);selected.append({**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None})
+            seen.add(key)
+            entry={**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None}
+            kind=promotion_kind(item["title"])
+            if kind=="deal":selected.append(entry)
+            else:
+                entry.update({"kind":kind,"verified":False,"code":None,"deadline":None,"conditionsVerified":False})
+                promotions.append(entry)
     selected.sort(key=lambda x:x["score"],reverse=True)
-    out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
+    promotions.sort(key=lambda x:x["score"],reverse=True)
+    out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"promotions":promotions[:60],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
     (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"count":len(selected),"sources":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

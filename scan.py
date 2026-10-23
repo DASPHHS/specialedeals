@@ -64,7 +64,7 @@ def main():
     seen=set();selected=[]
     for item in results:
         s,m=score(item["title"])
-        key=(item["title"].casefold(),item["url"])
+        key=item["url"].split("?")[0].rstrip("/").casefold()
         if s>=cfg["minScore"] and key not in seen:
             seen.add(key);selected.append({**item,"score":s,"matched":m,"price":None,"priceVerified":False})
     selected.sort(key=lambda x:x["score"],reverse=True)

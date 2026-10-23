@@ -14,5 +14,9 @@ class ScannerTests(unittest.TestCase):
     def test_men_lifestyle(self):
         score, _ = scan.score("Adidas Metalbone Carbon padelracket")
         self.assertGreater(score, 0)
+    def test_promotion_classification(self):
+        self.assertEqual(scan.promotion_kind("Winactie: maak kans op een Dyson"), "winactie")
+        self.assertEqual(scan.promotion_kind("15% kortingscode op Rituals"), "kortingscode")
+        self.assertEqual(scan.promotion_kind("Apple MacBook aanbieding"), "deal")
 if __name__ == "__main__":
     unittest.main()

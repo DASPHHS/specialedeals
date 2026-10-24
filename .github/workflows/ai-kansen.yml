@@ -16,12 +16,12 @@ jobs:
       - name: Test and refresh AI opportunities
         run: |
           python -m unittest test_ai_kansen.py -v
-          python ai_kansen_scan.py
+          python ai_kansen_research.py
       - name: Publish changed AI insights
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ai-kansen.json
+          git add ai-kansen-kandidaten.json
           if ! git diff --cached --quiet; then
             git commit -m "Update curated AI and Reddit opportunities"
             git push

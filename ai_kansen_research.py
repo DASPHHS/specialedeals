@@ -2,7 +2,7 @@
 """Research-only opportunity scan: broad Reddit and official sources.
 No unverified Reddit/social results are added to the public curated ideas page.
 """
-import datetime, json, pathlib, re, urllib.request, xml.etree.ElementTree as ET, html
+import datetime, json, pathlib, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, html
 ROOT=pathlib.Path(__file__).resolve().parent
 HEAD={"User-Agent":"DASPHHS-SlimmeKansenResearch/1.1 (research only)"}
 FEEDS=[
@@ -19,6 +19,7 @@ FEEDS=[
 ("Reddit r/ADHD","https://www.reddit.com/r/ADHD/top/.rss?t=week"),
 ("OpenAI News","https://openai.com/news/rss.xml"),
 ("n8n blog","https://blog.n8n.io/rss/"),
+("Hacker News","https://hnrss.org/newest?q=automation+AI"),
 ]
 TOPICS={
 "Automatisering":("automate","automation","shortcut","nfc","workflow","home assistant","api","script","homekit","smartthings","agent","trigger"),
@@ -49,7 +50,9 @@ def parse(raw,name):
  return out
 def main():
  sources=[];candidates=[]
- for name,url in FEEDS:
+ news_queries=[("Apple Opdrachten en automatisering","Apple Shortcuts automation workflow new feature"),("AI hulpmiddelen onderwijs","AI education workflow tools teachers"),("AI-automatisering diensten","ChatGPT agent automations n8n Gmail GitHub"),("Besparen slimme technologie","smart home money saving automation")]
+ feeds=FEEDS+[(name,"https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q+" when:7d","hl":"nl","gl":"NL","ceid":"NL:nl"})) for name,q in news_queries]
+ for name,url in feeds:
   try:
    req=urllib.request.Request(url,headers=HEAD)
    with urllib.request.urlopen(req,timeout=12) as r:body=r.read(900000).decode("utf-8","replace")
@@ -61,7 +64,7 @@ def main():
   key=c["url"].split("?")[0].rstrip("/")
   if key not in seen:seen.add(key);unique.append(c)
  report={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),
- "items":unique[:150],"totalMatched":len(unique),"sources":sources,
+ "items":unique[:80],"totalMatched":len(unique),"sources":sources,
  "note":"Research only; needs exact instructions, a real source, availability, costs and personal usefulness check prior to publication."}
  (ROOT/"ai-kansen-kandidaten.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
  print(json.dumps({"research_candidates":len(report["items"]),"sources":sources},ensure_ascii=False))

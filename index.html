@@ -78,7 +78,15 @@ $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
 function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=ok+" bereikt · "+errors+" fouten";
 const parent=$("sourceRows");parent.replaceChildren();app.sources.forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" items":""))))}
-function loadDeals(d){app.deals=d.deals||[];app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;
+function usableCandidate(d){
+ if(d.sourceType!=="search")return true;
+ let host="";try{host=new URL(d.url).hostname.toLowerCase()}catch{return false}
+ const allow=["tennisdiscount.nl","deonlinedrogist.nl","hollandandbarrett.nl","all4running.nl","koolesport.nl","supersales.nl","rituals.com","giraffecoffee.com","coolblue.nl","zalando-lounge.nl","bergfreunde.nl","otrium.nl","padel-point.nl","notino.nl","stockverkopen.nl","yoursamplesale.nl","weleda.nl","zalando.nl","bestsecret.com","veepee.nl","alltricks.nl","padelxpert.nl"];
+ if(!allow.some(x=>host===x||host.endsWith("."+x)))return false;
+ const t=((d.title||"")+" "+new URL(d.url).pathname).toLowerCase();
+ return ["aanbieding","korting","sale","outlet","actie","deal","sample","discount","prijs","%"].some(x=>t.includes(x))
+}
+function loadDeals(d){app.deals=(d.deals||[]).filter(usableCandidate);app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;
 $("matchcount").textContent=app.deals.length+app.samples.length;
 draw("firstcards",app.deals.slice(0,6),"candidate");draw("samplecards",app.samples,"sample");draw("promos",app.promos,"candidate");
 const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();const select=$("group");groups.forEach(g=>{let o=document.createElement("option");o.value=g;o.textContent=g;select.append(o)});

@@ -68,6 +68,59 @@
       "category": "Verzorging & geuren",
       "checkedOn": "2026-10-24",
       "note": "Adviesprijskorting, geen onafhankelijk bewezen marktvoordeel."
+    },
+    {
+      "title": "HOKA Arahi 8 Black/Skyward Blue, maat 47⅓",
+      "brand": "HOKA",
+      "store": "Koole Sport Vlaardingen",
+      "price": 120,
+      "referencePrice": 160,
+      "url": "https://vl.koolesport.nl/product/17442/hoka-arahi-8-black-skyward-blue/123439",
+      "shippingKnown": false,
+      "stockObservation": "Maat US12.5/47⅓ op de productpagina; voorraad per maat niet vastgesteld",
+      "category": "Outdoor & herenkleding",
+      "checkedOn": "2026-10-24",
+      "note": "25% van-prijskorting voor deze schoen; de juiste maat staat genoemd, maar beschikbaarheid en verzendkosten moeten worden gecontroleerd."
+    },
+    {
+      "title": "Adidas Arrow Hit Carbon ’26 padelracket",
+      "brand": "Adidas",
+      "store": "Tennisdiscount",
+      "price": 125,
+      "referencePrice": 269.99,
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-arrow-hit-carbon-26.html",
+      "shippingKnown": true,
+      "shipping": "Gratis NL-verzending vanaf €50",
+      "stockObservation": "9 stuks volgens productpagina (momentopname)",
+      "category": "Padel & sport",
+      "checkedOn": "2026-10-24",
+      "note": "Alternatief carbon padelracket; winkel noemt 54% van-prijskorting. Minder gericht op jouw expliciete Metalbone-voorkeur."
+    },
+    {
+      "title": "Weleda Skin Food Body Lotion 250 ml",
+      "brand": "Weleda",
+      "store": "De Online Drogist",
+      "price": 11.24,
+      "referencePrice": 14.99,
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "shippingKnown": false,
+      "stockObservation": "Volgens catalogusartikel",
+      "category": "Verzorging & geuren",
+      "checkedOn": "2026-10-24",
+      "note": "25% onder opgegeven adviesprijs; vergelijk verzendkosten en andere aanbieders."
+    },
+    {
+      "title": "Davines OI Shampoo 280 ml — vergelijkingsprijs",
+      "brand": "Davines",
+      "store": "Supersales (vergelijker)",
+      "price": 26.75,
+      "referencePrice": null,
+      "url": "https://www.supersales.nl/mooi-gezond?merk=davines",
+      "shippingKnown": false,
+      "stockObservation": "Prijs van meerdere aanbieders gebundeld; voorraad per aanbieder onbekend",
+      "category": "Verzorging & geuren",
+      "checkedOn": "2026-10-24",
+      "note": "Geen bewezen korting: vergelijksite noemt deze vanaf-prijs. Kies eerst de exacte webshop en controleer de totaalprijs."
     }
   ]
 }

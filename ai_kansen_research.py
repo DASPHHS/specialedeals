@@ -29,7 +29,7 @@ TOPICS={
 }
 ACTION=("i built","i made","how i","guide","tutorial","saved me","built a","new feature","released","automated","workflow","tool","setup","tips","works","hack","launched","i use","automation","shortcut","made this","open source")
 EXCLUDE=("meme","political","drama","venting","giveaway","shitpost","my diagnosis","medical advice")
-def clean(s):return re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",s or ""))).strip()
+def clean(s):return re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",s or ""))).strip()
 def parse(raw,name):
  root=ET.fromstring(raw);out=[]
  for e in list(root.findall(".//item"))+list(root.findall(".//{http://www.w3.org/2005/Atom}entry")):

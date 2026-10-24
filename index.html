@@ -1,146 +1,103 @@
-<!doctype html>
-<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Speciale Deals | Persoonlijke radar</title>
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Speciale Deals | Persoonlijke premiumdeals</title>
 <style>
-:root{font-family:Inter,system-ui,-apple-system,sans-serif;color:#e9f0f9;background:#0b1220}*{box-sizing:border-box}body{margin:0}header{background:linear-gradient(125deg,#182d49,#111c31);padding:38px max(22px,calc((100vw - 1150px)/2));border-bottom:1px solid #34455b}h1{font-size:clamp(30px,5vw,50px);letter-spacing:-1.5px;margin:0 0 10px}header p{color:#afc1d4;margin:0;line-height:1.5}main{max-width:1150px;margin:auto;padding:24px}nav{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}button,.chip{background:#22334d;color:#dce8f6;border:1px solid #3c536d;padding:10px 14px;border-radius:12px;cursor:pointer}button.active{background:#bbf7d0;color:#103322;border-color:#bbf7d0}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.stat{background:#17243a;border:1px solid #304258;border-radius:16px;padding:17px}.stat strong{display:block;font-size:27px;margin:7px 0}.muted{color:#a9bbcf;font-size:13px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}input{background:#152339;color:#fff;border:1px solid #52647b;border-radius:12px;padding:13px;min-width:240px;flex:1}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:16px}.card{background:#152238;border:1px solid #30435a;border-radius:18px;padding:19px;display:flex;flex-direction:column;gap:12px}.top{display:flex;justify-content:space-between;align-items:center;gap:8px}.tag{font-size:11px;color:#cef3df;background:#214638;border-radius:20px;padding:5px 9px}.type{font-size:11px;color:#d2dcf0}.card h3{margin:0;font-size:20px}.price{font-weight:800;font-size:27px}.compare{color:#bbcce0;font-size:13px;min-height:35px}.card p{font-size:14px;line-height:1.5;margin:0;color:#d7e3f1;flex:1}.buy{display:block;background:#d5f9e6;color:#102a22;padding:12px;border-radius:10px;text-decoration:none;text-align:center;font-weight:700}.small{font-size:11px;color:#8da7bf}.panel{margin-top:28px;background:#17253c;border:1px solid #344b64;padding:20px;border-radius:18px}a{color:#bfe3ff}.terms{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.term{background:#263c58;border-radius:20px;padding:7px 11px;font-size:12px}.term button{padding:0 0 0 8px;border:none;background:transparent;color:#ffb1b1}footer{color:#91a6bd;padding:20px 0 35px;font-size:12px}.hide{display:none}
+:root{font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e8f0f9;background:#0c1526}*{box-sizing:border-box}body{margin:0}a{color:#9fd9ff}button,input,select{font:inherit}button{cursor:pointer}
+header{padding:26px max(18px,calc((100vw - 1130px)/2));background:linear-gradient(135deg,#152d42,#14362e);border-bottom:1px solid #3d5d63}
+header h1{font-size:clamp(28px,6vw,42px);margin:4px 0}header p{color:#c5d9e0;margin:5px 0}
+main{max-width:1130px;margin:0 auto;padding:18px}
+nav{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 20px}
+nav button{background:#1b2e46;border:1px solid #344e66;border-radius:11px;color:#d7e8f8;padding:10px 13px}
+nav button.active{background:#c6f4dc;color:#123a2d;border-color:#c6f4dc;font-weight:650}
+.section{display:none}.section.show{display:block}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.tile{padding:15px;background:#172a3f;border:1px solid #35495f;border-radius:13px}.tile strong{font-size:25px;display:block;margin:4px 0}.small,.muted{font-size:13px;color:#adc0d2}
+.panel{background:#16253b;border:1px solid #344961;border-radius:16px;padding:18px;margin:16px 0}
+.panel h2{font-size:23px;margin:0 0 6px}.panel h3{font-size:18px;margin:0 0 8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:14px 0}
+.card{border:1px solid #39516b;border-radius:12px;background:#1b2d45;padding:15px;display:flex;flex-direction:column;gap:8px;min-height:180px}
+.card h3{font-size:17px;line-height:1.35;margin:0}.card p{margin:0;font-size:13px;color:#bdcfdf}
+.card a{display:block;align-self:flex-start;margin-top:auto;font-weight:650;overflow-wrap:anywhere}
+.tag{display:inline-block;width:fit-content;background:#27455a;border:1px solid #3e6171;padding:3px 8px;border-radius:9px;font-size:12px;color:#e7f9ff}
+.price{font-size:20px;font-weight:730}.empty{padding:18px;border:1px dashed #567087;border-radius:12px;color:#b9ccdc}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.toolbar input,.toolbar select,input[type=number],input[type=text]{border:1px solid #4c6580;background:#102038;color:white;border-radius:10px;padding:11px}
+.toolbar input{flex:2;min-width:180px}.toolbar select{flex:1;min-width:140px}
+.more,.btn{color:#12332a;background:#b9ebd2;border:0;border-radius:10px;padding:10px 13px;font-weight:650}
+.secondary{background:#233954;border:1px solid #4d6882;color:#f3f8ff;border-radius:10px;padding:10px}
+.note{border-left:3px solid #80b9c2;padding:10px 13px;color:#ccdee9;background:#142d40;border-radius:5px;margin:10px 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+label{display:block;margin:12px 0 5px}footer{font-size:12px;color:#90a6bc;text-align:center;padding:18px}
+.links{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.links a{color:#e1f1ff;background:#243d57;border:1px solid #3d596b;text-decoration:none;border-radius:9px;padding:8px 11px;font-size:13px}
+details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-weight:600}
+@media(max-width:620px){.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
 </style></head><body>
-<header><div class="muted">DASPHHS / persoonlijke kooprader</div><h1>Speciale Deals<span style="color:#9cf5c1">.</span></h1><p>Alleen producten die je interesseren. Kijk naar echte prijzen, vergelijk alternatieven en voorkom schijnkorting.</p></header>
-<main><div class="panel" style="margin-top:0;border-color:#356852"><strong>Nieuw: AI Kansen</strong><p class="muted">De nieuwste praktische AI-mogelijkheden en interessante Reddit-vondsten, geselecteerd op jouw werk en dagelijks leven.</p><a class="buy" href="./ai-kansen.html">Bekijk AI Kansen ↗</a></div><section class="stats"><div class="stat"><span class="muted">Bevestigde buitenkansen</span><strong id="count">0</strong><span class="muted">Alleen met gecontroleerde winkelprijs</span></div><div class="stat"><span class="muted">Bronnen</span><strong>Meerdere</strong><span class="muted">Pepper is uitsluitend ontdekking</span></div><div class="stat"><span class="muted">Laatste scan</span><strong id="scanDate">Nog niet</strong><span class="muted">Prijzen uit feeds zijn indicatief</span></div></section>
-<section class="panel"><h2>Mijn beste aanbiedingen</h2><p class="muted">Standaard uitsluitend persoonlijk passende en volledig geverifieerde buitenkansen. Feedkandidaten zijn apart te bekijken.</p><label style="display:block;margin:12px 0"><input type="checkbox" id="showCandidates" style="min-width:initial;width:auto;flex:none"> Toon ook ongecontroleerde kandidaten uit Pepper en andere bronnen</label><div id="feedstatus" class="small">Nog geen scanresultaten gepubliceerd.</div><div class="toolbar"><input id="dealquery" placeholder="Zoek gevonden deals..."/><select id="dealselect" style="background:#152339;color:white;border:1px solid #52647b;border-radius:12px;padding:12px"><option value="all">Alle meldingen</option><option value="priced">Met prijsindicatie</option><option value="unpriced">Zonder prijs</option></select><select id="dealsort" style="background:#152339;color:white;border:1px solid #52647b;border-radius:12px;padding:12px"><option value="relevance">Meest relevant</option><option value="discount_pct">Hoogste korting %</option><option value="savings_eur">Grootste besparing €</option><option value="lowest_price">Laagste prijs</option></select></div><div id="sortnote" class="small">Kortingsranglijsten vereisen gecontroleerde winkel- en referentieprijzen.</div><section class="cards" id="livecards" style="margin-top:14px"></section></section><section class="panel"><h2>Kortingscodes en winacties</h2><p class="muted">Alleen persoonlijk relevante kandidaten uit de feeds. Er wordt geen code als werkend of prijsvraag als actueel gepresenteerd zonder controle van de voorwaarden.</p><div class="toolbar"><button id="promoAll" class="active">Alles</button><button id="promoCodes">Kortingscodes</button><button id="promoWins">Winacties</button></div><section id="promocards" class="cards"><p>Resultaten verschijnen na de eerstvolgende scan.</p></section></section><section class="panel" id="ing-punten"><h2>ING Punten · voordeel voor jou</h2><p class="muted">Vergelijk wat je écht bespaart, niet alleen het percentage op de ING-pagina. Alleen bevestigde aanbiedingen krijgen een koopadvies.</p><div class="stats"><div class="stat"><span class="muted">Mijn puntensaldo</span><strong id="ingbalance" style="font-size:24px">Niet ingesteld</strong><span class="small">Alleen lokaal opgeslagen; geen toegang tot je ING-rekening.</span></div><div class="stat"><span class="muted">Beste keuze</span><strong style="font-size:19px">Nog geen bewezen topdeal</strong><span class="small">Vergelijk ING-eindprijs inclusief punten en bijbetaling met andere aanbieders.</span></div></div>
-<div class="panel"><h3>Mijn persoonlijke ING-aanbiedingen</h3><p><strong>Greetz standaardkaart:</strong> 250 ING Punten voor een kaartvoucher, met voorwaarden en beschikbaarheid. Dit is een concreet voorbeeld, geen bewijs dat dit de beste puntenbesteding is. <a href="https://hulp.greetz.nl/nl/articles/472231-ing-punten" target="_blank" rel="noopener">Bekijk voorwaarden ↗</a></p><p class="small">Vooral interessant voor jou: Rituals en andere verzorging, wellness/hotels, herenmode, sport, Dyson/Apple en vouchers voor aankopen die je toch al doet. Producten zonder controle van punten, bijbetaling, verzendkosten en vergelijkbare winkelprijs krijgen geen koopadvies.</p><p><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de actuele ING Winkel ↗</a></p></div>
-<div class="panel"><h3>Mijn ING-punten instellen</h3><label for="ingpoints">Beschikbare punten (optioneel)</label><input id="ingpoints" inputmode="numeric" type="number" min="0" step="1" placeholder="Bijv. 51000"><button id="ingSave" type="button">Bewaar puntenstand op dit apparaat</button><p id="ingSaved" class="small" aria-live="polite"></p></div></section>
-<section class="panel" id="wishlist"><h2>Mijn verlanglijst en koopprijzen</h2><p class="muted">Voeg producten toe met een maximale totaalprijs. Deze lijst wordt lokaal op dit apparaat bewaard. Pas wanneer de lijst gekoppeld is aan de scanner kan een prijsgrens automatisch een melding veroorzaken.</p><label for="wishProduct">Product / gewenste variant en maat</label><input id="wishProduct" placeholder="Bijv. HOKA Arahi EU 47⅓"><label for="wishPrice">Maximale prijs incl. verzending (€)</label><input type="number" min="0" step=".01" id="wishPrice" placeholder="Bijv. 100"><button type="button" id="wishAdd">Toevoegen</button><div id="wishItems" class="terms"></div><p id="wishMessage" class="small" aria-live="polite"></p></section>
-<section class="panel" id="discovery"><h2>Ook interessant voor jou</h2><p>De premiumradar zoekt daarnaast naar nieuwe merken die aansluiten bij outdoor, padel, hoogwaardige verzorging, design en elektronica. Wellness- en hoteldeals voor twee kunnen ook worden opgenomen, mits de eindprijs en boekingsvoorwaarden worden gecontroleerd.</p><p class="muted">Nieuwe merken en belevenissen zijn suggesties, geen persoonlijke topdeal totdat product, prijs en voorwaarden passen.</p></section><section class="panel" id="alerts"><h2>Mijn Deals Alert</h2><p>Dezelfde persoonlijke interesses voor dit dashboard en je e-mailradar, zonder supermarkten of recepten.</p>
-<div class="stats"><div class="stat"><span class="muted">Uurlijkse buitenkanscontrole</span><strong style="font-size:18px">Actief in ChatGPT</strong><span class="muted">Mail bij nieuwe, onafhankelijk gecontroleerde deal; geen dubbele meldingen</span></div><div class="stat"><span class="muted">Dagelijks overzicht</span><strong style="font-size:18px">Actief in ChatGPT</strong><span class="muted">Afzonderlijke Speciale Deals-e-mail</span></div></div>
-<div class="panel"><h3>Wat volg ik?</h3><div id="alerttopics">Laden…</div><p class="small">De echte alertcriteria staan centraal in <a href="./alert-profiel.json" target="_blank" rel="noopener">dit gedeelde profiel</a>. Persoonlijke maten en minimale kortingen worden ook daar beheerd. De website heeft geen toegang om zelfstandig je ChatGPT-taken te wijzigen.</p></div>
-<div class="panel"><h3>Een alert instellen of aanpassen</h3><p class="muted">Maak hier je wijzigingsverzoek aan. Kopieer het naar ChatGPT: daar wordt zowel de dagelijkse als de uurlijkse alert bijgewerkt, zodat de meldingen echt veranderen.</p>
-<label for="alertitem">Merk, product, maat of interesse</label><input id="alertitem" placeholder="Bijv. HOKA Arahi EU 47⅓" style="width:100%;max-width:500px">
-<label for="alertlimit">Minimale korting consumentenproducten (%)</label><input id="alertlimit" type="number" min="0" max="95" value="25" style="width:100%;max-width:150px">
-<button type="button" id="copyalert">Kopieer verzoek voor ChatGPT</button><p id="alertstatus" class="small" aria-live="polite"></p></div>
-<div class="note"><strong>Let op:</strong> GitHub toont gevonden feedkandidaten, geen onafhankelijk bevestigde deals. Alleen de aparte Deals Alert-controle kan na verificatie een e-mail sturen. Medische behandelingen worden op kwaliteit én totaalprijs beoordeeld, niet alleen op korting.</div></section>
-<section class="panel"><h2>Producten die ik volg</h2><p class="muted">Deze producten worden gevolgd. Zonder bevestigde aanbiedingsprijs verschijnt er geen verzonnen dealprijs.</p><section class="cards" id="cards"></section></section>
-<section class="panel"><h2>Mijn zoektermen</h2><p>Voeg merken, uitvoeringen of trefwoorden toe. Ze blijven op dit apparaat bewaard. Nieuwe termen krijgen direct een zoeklink, maar nog geen geautomatiseerde prijsmonitoring.</p><div class="terms" id="terms"></div><form id="addForm" class="toolbar"><input id="newTerm" placeholder="Bijv. Salomon XT-6 maat 47 1/3"><button type="submit">Term toevoegen</button></form><div id="searchLinks"></div></section>
-
-<footer>Vaste voorbeeldprijzen zijn verwijderd. Prijzen uit feeds zijn niet onafhankelijk gecontroleerd. Verzendkosten, voorraad, maat en kortingsvoorwaarden kunnen wijzigen. Actiedrempels zijn persoonlijke koopgrenzen, geen marktfeiten. Geselecteerde categorieën kun je later uitbreiden via GitHub.</footer>
-</main>
-<script>
-const deals=[
-{n:"Giraffe Original Blend koffie",url:"https://giraffecoffee.com/products/original-blend",cat:"Koffie"},
-{n:"Premium padelballen Head Pro S+ of Bullpadel Premium Pro",url:"https://nl.pepper.com/search?q=padelballen",cat:"Padel"},
-{n:"Adidas Metalbone Carbon",url:"https://nl.pepper.com/search?q=metalbone%20carbon",cat:"Padel"},
-{n:"Arc'teryx herenkleding maat XL",url:"https://nl.pepper.com/search?q=arcteryx",cat:"Outdoor"},
-{n:"Salomon herenschoenen maat 47 / 47⅓",url:"https://nl.pepper.com/search?q=salomon",cat:"Outdoor"},
-{n:"Weleda Skin Food (Original, Light, Body Butter)",url:"https://www.google.com/search?q=Weleda+Skin+Food+aanbieding+Veepee+Kruidvat+Etos+Notino",cat:"Verzorging"},
-{n:"Davines shampoo",url:"https://nl.pepper.com/search?q=davines",cat:"Verzorging"},
-{n:"Janzen Earth, Rituals, Marie-Stella-Maris",url:"https://www.ing.nl/particulier/ing-punten/populaire-deals",cat:"Verzorging"},
-{n:"Lampe Berger en luxe huisparfums",url:"https://nl.pepper.com/search?q=lampe%20berger",cat:"Wonen"},
-{n:"Apple, Dyson en smart-homeapparatuur",url:"https://nl.pepper.com/search?q=dyson",cat:"Technologie"}
-];
-function render(){
-const parent=document.getElementById("cards"); parent.replaceChildren();
-for(const d of deals){const card=document.createElement("article");card.className="card";
-const label=document.createElement("span");label.className="tag";label.textContent="Volglijst · "+d.cat;
-const title=document.createElement("h3");title.textContent=d.n;
-const note=document.createElement("p");note.textContent="Geen actuele winkelprijs bevestigd. Bekijk nieuwe matches onderaan.";
-const link=document.createElement("a");link.className="buy";link.href=d.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Zoek dit product ↗";
-card.append(label,title,note,link);parent.append(card)}
-}
-const defaults=["Giraffe Original Blend","Head Pro S+","Metalbone Carbon","Arc'teryx XL","Salomon 47 1/3","Davines shampoo","Weleda Skin Food","Janzen Earth","Rituals","Marie-Stella-Maris","Lampe Berger","Dyson handheld","Apple","Bijenkorf keuken"];
-let terms;try{terms=JSON.parse(localStorage.getItem("specialedeals_terms"))||defaults}catch(e){terms=defaults.slice()}
-function safe(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function drawTerms(){document.getElementById("terms").innerHTML=terms.map((t,i)=>'<span class="term">'+safe(t)+' <button aria-label="Verwijder term" data-i="'+i+'">×</button></span>').join("");document.getElementById("searchLinks").innerHTML=terms.map(t=>'<a style="display:inline-block;margin:5px 10px 5px 0;font-size:13px" target="_blank" rel="noopener" href="https://www.google.com/search?q='+encodeURIComponent(t+' aanbieding Nederland')+'">'+safe(t)+' ↗</a>').join("");try{localStorage.setItem("specialedeals_terms",JSON.stringify(terms))}catch(e){}}
-document.getElementById("terms").onclick=e=>{if(e.target.dataset.i!==undefined){terms.splice(Number(e.target.dataset.i),1);drawTerms()}};document.getElementById("addForm").onsubmit=e=>{e.preventDefault();let v=document.getElementById("newTerm").value.trim();if(v&&!terms.some(x=>x.toLowerCase()===v.toLowerCase()))terms.push(v);document.getElementById("newTerm").value="";drawTerms()};render();drawTerms();
-(async function(){
-try{
- const res=await fetch("live-deals.json?ts="+Date.now());
- if(!res.ok)throw Error("no data");
- const data=await res.json();
- document.getElementById("feedstatus").textContent="Laatste scan: "+new Date(data.updatedAt).toLocaleString("nl-NL")+" | "+(data.sources||[]).map(s=>s.source+": "+s.status+" ("+(s.items||0)+")").join(" · ");
- const promotions=data.promotions||[];
- const promoParent=document.getElementById("promocards");
- const promoButtons=[["promoAll","all"],["promoCodes","kortingscode"],["promoWins","winactie"]];
- const renderPromos=(kind)=>{
-  promoButtons.forEach(([id,k])=>document.getElementById(id).classList.toggle("active",k===kind));
-  promoParent.replaceChildren();
-  const shown=promotions.filter(p=>kind==="all"||p.kind===kind);
-  for(const promo of shown){
-   if(!/^https:\/\//.test(promo.url||""))continue;
-   const card=document.createElement("article");card.className="card";
-   const label=document.createElement("span");label.className="tag";label.textContent=promo.kind==="winactie"?"Winactie · nog te controleren":"Actiecode · nog te controleren";
-   const title=document.createElement("h3");title.textContent=promo.title||"Actie";
-   const detail=document.createElement("p");detail.textContent="Bron: "+(promo.source||"onbekend")+". Geldigheid, eventuele code, einddatum en deelnamevoorwaarden nog niet bevestigd.";
-   const link=document.createElement("a");link.className="buy";link.href=promo.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Controleer voorwaarden ↗";
-   card.append(label,title,detail,link);promoParent.append(card);
-  }
-  if(!shown.length)promoParent.textContent=!Object.prototype.hasOwnProperty.call(data,"promotions")?"De gepubliceerde scan is nog van de oude versie. Voer de vernieuwde workflow uit.":"Geen passende actiecodes of winacties aangetroffen in de bereikbare bronnen; dit betekent niet dat er online geen acties zijn.";
- };
- promoButtons.forEach(([id,kind])=>document.getElementById(id).addEventListener("click",()=>renderPromos(kind)));
- renderPromos("all");
- const cards=document.getElementById("livecards");
- const personalMatch=d=>{
-  const t=(d.title||"").toLocaleLowerCase("nl-NL");
-  const needles=["arc'teryx","arcteryx","salomon","hoka","weleda","skin food","giraffe original","metalbone","padelballen","head pro s","bullpadel premium","davines","rituals","janzen","apple","dyson","ralph lauren","tommy hilfiger","sample sale"];
-  if(!needles.some(n=>t.includes(n)))return false;
-  if(/\b(dames|women|womens|vrouw|vrouwen|meisjes|girls)\b/i.test(t))return false;
-  if(/\b(iphone hoes|cover|accessoire|sticker|poster)\b/i.test(t))return false;
-  return true;
- };
- const candidates=(data.deals||[]).filter(personalMatch);
- const items=candidates.slice(0,80);
- const verified=d=>d.priceVerified===true&&d.referencePriceVerified===true&&Number.isFinite(d.price)&&Number.isFinite(d.referencePrice)&&d.referencePrice>d.price&&d.allInVerified===true&&d.stockVerified===true&&d.variantVerified===true;
-
- document.getElementById("count").textContent=items.filter(verified).length;
- document.getElementById("scanDate").textContent=new Date(data.updatedAt).toLocaleDateString("nl-NL",{day:"numeric",month:"short"});
- const drawDeals=()=>{
- cards.replaceChildren();
- const q=document.getElementById("dealquery").value.toLowerCase().trim(),filter=document.getElementById("dealselect").value;
- const mode=document.getElementById("dealsort").value;
- document.getElementById("sortnote").textContent=mode==="relevance"?"Gesorteerd op persoonlijke relevantie.":mode==="lowest_price"?"Alleen bij de verkoper geverifieerde prijzen tellen mee voor laagste prijs.":"Korting en besparing worden alleen berekend uit geverifieerde winkel- én referentieprijzen. Onbekende waarden staan onderaan.";
- const visible=items.filter(d=>(document.getElementById("showCandidates").checked||verified(d))&&(d.title||"").toLowerCase().includes(q)&&(filter==="all"||(filter==="priced"&&typeof d.price==="number")||(filter==="unpriced"&&typeof d.price!=="number"))).sort((a,b)=>{const mode=document.getElementById("dealsort").value;const verified=d=>d.priceVerified===true&&d.referencePriceVerified===true&&Number.isFinite(d.price)&&Number.isFinite(d.referencePrice)&&d.referencePrice>d.price;const metric=d=>mode==="discount_pct"?(verified(d)?(d.referencePrice-d.price)/d.referencePrice:null):mode==="savings_eur"?(verified(d)?d.referencePrice-d.price:null):mode==="lowest_price"?(d.priceVerified===true&&Number.isFinite(d.price)?d.price:null):d.score||0;if(mode==="relevance")return metric(b)-metric(a);const av=metric(a),bv=metric(b);if(av===null)return bv===null?(b.score||0)-(a.score||0):1;if(bv===null)return -1;return mode==="lowest_price"?av-bv:bv-av});
- for(const d of visible){
-  const card=document.createElement("article");card.className="card";
-  const title=document.createElement("h3");title.textContent=d.title||"Deal";
-  const tag=document.createElement("span");tag.className="tag";tag.textContent=(d.discovery?"Ontdekking · ":"Gevolgd · ")+(d.source||"Feed");
-  const p=document.createElement("p");p.textContent=typeof d.price==="number" ? "In feed genoemde prijs: "+new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(d.price)+". Niet gecontroleerd bij de verkoper. Controleer verzendkosten en voorraad." : "Geen prijs in feed gevonden. Bekijk de aanbieding voor winkelprijs en verzendkosten.";
-  const link=document.createElement("a");link.className="buy";link.target="_blank";link.rel="noopener noreferrer";link.textContent="Bekijk aanbieding ↗";
-  if(/^https:\/\//.test(d.url||""))link.href=d.url;else continue;
-  card.append(tag,title,p,link);cards.append(card);
- }
- if(!visible.length)cards.textContent=document.getElementById("showCandidates").checked?"Geen persoonlijk passende kandidaten gevonden.":"Nog geen volledig geverifieerde buitenkansen. Zet eventueel ‘Toon ook ongecontroleerde kandidaten’ aan om vondsten te bekijken.";
- };
- document.getElementById("showCandidates").addEventListener("change",drawDeals);
- document.getElementById("dealquery").addEventListener("input",drawDeals);
- document.getElementById("dealselect").addEventListener("change",drawDeals);
- document.getElementById("dealsort").addEventListener("change",drawDeals);
- drawDeals();
-}catch(e){document.getElementById("feedstatus").textContent="Nog geen gepubliceerde scanresultaten. Voer de workflow één keer uit."}
-})();
-
-(async()=>{try{
- const resp=await fetch("./alert-profiel.json",{cache:"no-store"});if(!resp.ok)throw Error(resp.status);
- const profile=await resp.json();
- const topics=document.getElementById("alerttopics");
- topics.replaceChildren();
- for(const group of profile.groups||[]){const d=document.createElement("details");d.open=true;
- const summary=document.createElement("summary");summary.textContent=group.title;
- const p=document.createElement("p");p.className="small";p.textContent=(group.items||[]).join(" · ");
- d.append(summary,p);topics.append(d);}
-}catch(e){document.getElementById("alerttopics").textContent="Profiel kon niet worden geladen. Bekijk de taakinstellingen in ChatGPT."}})();
-document.getElementById("copyalert").addEventListener("click",async()=>{
- const term=document.getElementById("alertitem").value.trim();
- const threshold=document.getElementById("alertlimit").value;
- if(!term){document.getElementById("alertstatus").textContent="Vul eerst een merk, product of interesse in.";return}
- const msg="Werk mijn bestaande Speciale Deals-radar bij: voeg toe of wijzig "+term+". Hanteer voor consumentenproducten minimaal "+threshold+"% verifieerbare korting en controleer de laagste all-in prijs, maat en voorraad. Werk ZOWEL mijn uurlijkse 'Uitzonderlijke premiumdeal e-mail' als de dagelijkse 'Dagelijkse Speciale Deals e-mail' bij én synchroniseer alert-profiel.json in DASPHHS/specialedeals. Laat Koopkracht ongemoeid. Geen dubbele alerts.";
- try{await navigator.clipboard.writeText(msg);document.getElementById("alertstatus").textContent="Gekopieerd. Plak dit in ChatGPT om de alerts echt te wijzigen."}
- catch(e){document.getElementById("alertstatus").textContent=msg}
+<header><div class="small">Jouw persoonlijke premiumradar · volledig los van Koopkracht</div><h1>Speciale Deals<span style="color:#95f4bb">.</span></h1><p>Relevante vondsten, écht gecontroleerde koopjes en alerts op één overzichtelijke plek.</p></header>
+<main>
+<nav>
+<button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Bronnen</button><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
+</nav>
+<section id="today" class="section show">
+<div class="summary">
+<div class="tile"><span class="muted">Persoonlijke kandidaten</span><strong id="matchcount">–</strong><span class="small">Niet automatisch koopadvies</span></div>
+<div class="tile"><span class="muted">Gecontroleerde winkelprijzen</span><strong id="shopcount">–</strong><span class="small">Verzendkosten kunnen ontbreken</span></div>
+<div class="tile"><span class="muted">Bronnen onderzocht</span><strong id="sourcecount">–</strong><span class="small" id="sourcestatus">Laatste run onbekend</span></div>
+</div>
+<div class="panel"><h2>Voor jou gevonden</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
+<div class="panel"><h2>Winkelprijzen die al zijn gevonden</h2><p class="muted">Concrete winkelwaarnemingen, apart van de automatische feed. Geen volledige prijsvergelijking of bewezen goedkoopste totaalprijs.</p><div id="observations" class="cards"></div></div>
+<div class="panel"><h2>Bewezen buitenkansen</h2><div id="topverified" class="empty">Nog geen deal waarvoor actuele winkelprijs, normale marktprijs, juiste uitvoering, voorraad én totale bezorgprijs gezamenlijk zijn bevestigd. De scanner levert kandidaten; hij kan dat niet zelfstandig bewijzen.</div></div>
+</section>
+<section id="found" class="section"><h2>Alle persoonlijke vondsten</h2><p class="muted">De scanner kijkt naar jouw merken, maten en interesses; geen willekeurige Pepper-lijst. Kandidaten moeten bij de aanbieder gecontroleerd worden.</p>
+<div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Alle bronnen</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Winkels</option></select></div>
+<p class="small" id="foundCount"></p><div id="allcards" class="cards"></div><button class="more" id="loadMore" hidden>Toon 10 meer</button>
+</section>
+<section id="samples" class="section"><h2>Sample sales en archive sales</h2><p class="muted">Alleen evenementen met een duidelijke persoonlijke merkmatch. De aangekondigde merkverkoop is nog geen bewijs dat jouw maat en de kortingen goed zijn.</p><div id="samplecards" class="cards"></div><div class="note">Ook gecontroleerd als ontdekkingsbronnen: Stockverkopen.nl, Your Sample Sale, Lounge by Zalando en Veepee. Achter een login kunnen data en artikelprijzen ontbreken.</div></section>
+<section id="ing" class="section"><h2>ING Punten · echte besparing</h2><div class="panel"><div class="two"><div class="tile"><span class="muted">Mijn puntenstand</span><strong id="ingbalance">–</strong><span class="small">Alleen lokaal op jouw apparaat</span></div><div class="tile"><span class="muted">Bewezen voordelige ING-deals</span><strong>Nog niet vastgesteld</strong><span class="small">Actuele puntenprijzen en bijbetalingen vereisen controle in de ING Winkel</span></div></div>
+<label for="ingPoints">Mijn ING-puntensaldo</label><input type="number" min="0" id="ingPoints" placeholder="Bijvoorbeeld 51000"><button class="secondary" id="ingSave">Puntenstand bewaren</button><p id="ingmsg" class="small"></p>
+<div class="note">Bij vouchers vergelijk ik een aankoop die je toch zou doen met de contante eindprijs, verzendkosten, geldigheid en hoeveelheid benodigde punten. Een hoog kortingspercentage alleen zegt weinig.</div><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de ING Puntenwinkel ↗</a></div></section>
+<section id="settings" class="section"><h2>Mijn alertvoorkeuren</h2><div class="panel">
+<h3>Mijn persoonlijke volglijst</h3><p class="muted" id="watchlist">Merken laden…</p>
+<h3>Mijn maximale koopprijzen</h3><p class="muted">Hieronder kun je een prijsgrens vastleggen. Deze wordt alleen op dit apparaat bewaard; de uurlijkse e-mailtaak verandert hierdoor nog niet automatisch.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Voeg toe</button><div id="wishRows" class="links"></div>
+<h3>Alert veranderen</h3><p>Je bestaande uurlijkse en dagelijkse e-mailcontrole worden in ChatGPT uitgevoerd. Een wijziging van die taken kun je hier voorbereiden.</p><div class="toolbar"><input id="alertItem" placeholder="Bijv. ook HOKA Mafate maat 47⅓"><input id="alertMin" type="number" min="0" max="90" value="25" placeholder="Korting %"></div><button class="more" id="copyPrompt">Kopieer wijziging voor ChatGPT</button><p id="copyStatus" class="small"></p></div>
+</section>
+<section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
+<footer>Geen automatische aankopen. Feedkandidaten, actuele prijswaarnemingen en werkelijk geverifieerde deals worden bewust gescheiden.</footer>
+</main><script>
+const $=id=>document.getElementById(id);
+const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
+const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
+const app={deals:[],samples:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
+function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
+function card(d,kind){const c=el("article","card");const status=el("span","tag",kind==="store"?"Winkelprijs gezien · bezorgen controleren":kind==="sample"?"Sale-kandidaat · details controleren":"Onbevestigde vondst");const h=el("h3",null,d.title);c.append(status,h);
+ if(kind==="store"){const p=el("strong","price",money(d.price));const ref=el("p",null,"Winkel: "+d.store+" · op "+d.checkedOn);const compare=el("p",null,"Winkelprijs genoemd · adviesprijs "+money(d.referencePrice)+" · bezorgen/alternatieve winkels nog controleren.");const n=el("p",null,d.note||"");c.append(p,ref,compare,n)}
+ else{const p=el("p",null,d.source+" · "+(d.category||"Persoonlijke match"));const price=el("p",null,d.price!=null?"Vermelde feedprijs "+money(d.price)+"; niet geverifieerd.":"Geen betrouwbaar geverifieerde prijs.");c.append(p,price);if(kind==="sample")c.append(el("p",null,"Datum, toegang, maten en prijzen bij organisator controleren."))}
+ if(validUrl(d.url)){const a=el("a",null,kind==="store"?"Controleer bij winkel ↗":"Bekijk oorspronkelijke bron ↗");a.href=d.url;a.rel="noopener noreferrer";a.target="_blank";c.append(a)}return c}
+function draw(target,items,kind){const p=$(target);p.replaceChildren();if(!items.length){p.append(el("div","empty","Geen passende actuele vondsten uit de beschikbare bronnen."));return}items.forEach(x=>p.append(card(x,kind)))}
+function show(tab){document.querySelectorAll("nav [data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));document.querySelectorAll(".section").forEach(s=>s.classList.toggle("show",s.id===tab));window.scrollTo?.(0,0)}
+document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
+function renderFound(){const q=$("q").value.trim().toLowerCase(),group=$("group").value,src=$("sourceType").value;const items=app.deals.filter(x=>(!q||(x.title||"").toLowerCase().includes(q))&&(!group||x.category===group)&&(!src||x.sourceType===src));$("foundCount").textContent=items.length+" passende vermeldingen. Met 'Toon 10 meer' kun je verder kijken.";draw("allcards",items.slice(0,app.limit),"candidate");$("loadMore").hidden=items.length<=app.limit}
+$("loadMore").onclick=()=>{app.limit+=10;renderFound()};
+["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
+function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=ok+" bereikt · "+errors+" fouten";
+const parent=$("sourceRows");parent.replaceChildren();app.sources.forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" items":""))))}
+function loadDeals(d){app.deals=d.deals||[];app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;
+$("matchcount").textContent=app.deals.length+app.samples.length;
+draw("firstcards",app.deals.slice(0,6),"candidate");draw("samplecards",app.samples,"sample");draw("promos",app.promos,"candidate");
+const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();const select=$("group");groups.forEach(g=>{let o=document.createElement("option");o.value=g;o.textContent=g;select.append(o)});
+const sources=$("retailerLinks");sources.replaceChildren();app.shops.forEach(s=>{if(!validUrl(s.url))return;let a=el("a",null,s.name+" · "+s.category);a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";sources.append(a)});
+drawStatus();renderFound()}
+function loadObs(o){app.observations=o.offers||[];$("shopcount").textContent=app.observations.length;draw("observations",app.observations,"store")}
+const wishKey="specialedeals_wishlist_v1";let wishes=[];try{wishes=JSON.parse(localStorage.getItem(wishKey)||"[]")}catch{}
+function renderWishes(){const p=$("wishRows");p.replaceChildren();wishes.forEach((x,i)=>{const b=el("button","secondary",x.name+" · max "+money(x.max)+" ×");b.onclick=()=>{wishes.splice(i,1);localStorage.setItem(wishKey,JSON.stringify(wishes));renderWishes()};p.append(b)})}
+$("wishAdd").onclick=()=>{const n=$("wishName").value.trim(),v=Number($("wishMax").value);if(!n||!Number.isFinite(v)||v<=0)return;wishes.push({name:n,max:v});localStorage.setItem(wishKey,JSON.stringify(wishes));$("wishName").value="";$("wishMax").value="";renderWishes()};renderWishes();
+const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
+$("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
+$("copyPrompt").onclick=async()=>{const name=$("alertItem").value.trim(),min=$("alertMin").value;if(!name){$("copyStatus").textContent="Vul eerst een nieuwe interesse in.";return}const msg="Wijzig de bestaande Speciale Deals-uurlijkse en dagelijkse ChatGPT-taken en het profiel in DASPHHS/specialedeals. Voeg toe: "+name+". Minimale gewenste korting "+min+"%, verifieer ook de eindprijs, juiste maat, voorraad en dubbelmeldingen. Laat Koopkracht ongemoeid.";try{await navigator.clipboard.writeText(msg);$("copyStatus").textContent="Gekopieerd. Plak in ChatGPT om de taken echt aan te passen."}catch{$("copyStatus").textContent=msg}};
+Promise.allSettled([
+fetch("./live-deals.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}),
+fetch("./winkel-waarnemingen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
+fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json())
+]).then(([feed,obs,profile])=>{
+if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
+if(obs.status==="fulfilled")loadObs(obs.value);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
+if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });
-(()=>{
-const key="specialedeals_wishlist_v1",balanceKey="specialedeals_ing_balance_v1";
-let list=[];try{list=JSON.parse(localStorage.getItem(key)||"[]")}catch{}
-const el=id=>document.getElementById(id);
-const draw=()=>{el("wishItems").replaceChildren();list.forEach((x,i)=>{const tag=document.createElement("span");tag.className="term";tag.textContent=x.name+" · max € "+Number(x.max).toFixed(2).replace(".",",")+" ";const b=document.createElement("button");b.textContent="×";b.setAttribute("aria-label","Verwijder "+x.name);b.onclick=()=>{list.splice(i,1);localStorage.setItem(key,JSON.stringify(list));draw()};tag.append(b);el("wishItems").append(tag)})};
-el("wishAdd").onclick=()=>{const name=el("wishProduct").value.trim(),price=Number(el("wishPrice").value);if(!name||!el("wishPrice").value||!Number.isFinite(price)||price<=0){el("wishMessage").textContent="Vul een product en een positieve maximumprijs in.";return}list.push({name,max:price});localStorage.setItem(key,JSON.stringify(list));draw();el("wishProduct").value="";el("wishPrice").value="";el("wishMessage").textContent="Lokaal bewaard. Nog geen automatische prijsalert."};
-const current=localStorage.getItem(balanceKey);if(current!==null){el("ingpoints").value=current;el("ingbalance").textContent=Number(current).toLocaleString("nl-NL")+" punten"}
-el("ingSave").onclick=()=>{const raw=el("ingpoints").value;if(raw===""||!Number.isSafeInteger(Number(raw))||Number(raw)<0){el("ingSaved").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(balanceKey,raw);el("ingbalance").textContent=Number(raw).toLocaleString("nl-NL")+" punten";el("ingSaved").textContent="Alleen op dit apparaat bewaard."};draw();
-})();
 </script></body></html>

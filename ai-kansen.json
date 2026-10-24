@@ -1,66 +1,117 @@
 {
-  "updatedAt": "2026-10-24T21:00:00Z",
-  "editorial": true,
+  "updatedAt": "2026-10-24T20:48:47.365Z",
+  "mode": "practical-ideas-and-news",
   "items": [
     {
-      "date": "2026-10-24",
-      "title": "Apple Shortcuts: notificatie als trigger",
-      "why": "Gebruik een iPhone-notificatie met specifiek trefwoord als startpunt voor een automatisering. Bijvoorbeeld meldingen van je wasmachine of woningbeveiliging, mits de betreffende app herkenbare meldingen levert.",
-      "action": "Waarom jij: je wilt SmartThings- en iPhone-notificaties omzetten in overzichtelijke acties. Eerst nagaan of de iPhone-trigger met die app betrouwbaar werkt.",
-      "source": "Apple Developer (WWDC26)",
-      "url": "https://developer.apple.com/videos/play/wwdc2026/310/",
-      "area": "iPhone",
-      "status": "Nieuwe technische mogelijkheid, appafhankelijk"
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Laat iOS een Shortcut bouwen uit je eigen beschrijving",
-      "why": "Apple Intelligence kan op geschikte iPhones met iOS 27 een Shortcut opbouwen uit een omschrijving en daarna aanpassingen maken.",
-      "action": "Waarom jij: van een kleine dagelijkse irritatie naar een persoonlijke automatisering zonder zelf tientallen Shortcuts-blokken te programmeren.",
+      "type": "nu",
+      "title": "NFC-sticker bij de vaatwasser",
+      "example": "Tik met je iPhone op een NFC-sticker na het bijvullen van vaatwasserzout. Een Opdracht registreert de datum en plant een volgende herinnering.",
+      "why": "Geen losse huishoudtaak meer onthouden. Ook toepasbaar bij waterfilter of koffieapparaat.",
+      "availability": "NFC-trigger in Apple Opdrachten is beschikbaar; de opdracht moet je nog instellen.",
+      "link": "https://support.apple.com/en-gb/guide/shortcuts/apde31e9638b/9.0/ios/26",
       "source": "Apple Support",
-      "url": "https://support.apple.com/guide/iphone/apple-intelligence-stay-organized-dom122pp864g/27/ios/27",
-      "area": "iPhone",
-      "status": "Officieel; regio/toestel afhankelijk"
+      "category": "Thuis",
+      "date": "2026-10-24"
     },
     {
-      "date": "2026-10-24",
-      "title": "NFC-stickers als onderhoudsgeheugen",
-      "why": "Een Reddit-gebruiker plakt NFC-tags bij apparaten en tikt met de iPhone om vast te leggen wanneer een klus écht is gedaan. Varianten zetten de volgende herinnering vanaf dat moment.",
-      "action": "Waarom jij: zout bijvullen, ontkalken en onderhoud onthouden zonder telkens handmatig een lijst bij te houden. Ervaring, geen geverifieerd kant-en-klaar product.",
-      "source": "Reddit r/shortcuts",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1u9ybqh/i_stuck_nfc_tags_all_over_my_house_now_my_chores/",
-      "area": "Thuis",
-      "status": "Communityvoorbeeld, zelf te testen"
+      "type": "nu",
+      "title": "Gmail van stagescholen direct laten signaleren",
+      "example": "Nieuwe Gmail van een stageschool → AI controleert of er een actie of datum in staat en bereidt een concept of taakoverzicht voor.",
+      "why": "Een concrete manier om stageverzoeken sneller af te handelen en minder te vergeten.",
+      "availability": "Gebeurtenisgestuurde ChatGPT Work-taak voor daarvoor geschikte accounts; autorisatie nodig.",
+      "link": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "source": "OpenAI Help",
+      "category": "Werk",
+      "date": "2026-10-24"
     },
     {
-      "date": "2026-10-24",
-      "title": "Je kalender bepaalt automatisch je wekker",
-      "why": "Gebruikers van Apple Shortcuts laten hun agenda controleren en passen vertrektijd- of ochtendwekkers aan op locaties en afspraken.",
-      "action": "Waarom jij: wisselende les-, stage- en padelafspraken zonder iedere avond je eerste afspraak op te zoeken.",
-      "source": "Reddit r/shortcuts",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1u8a7l0/what_small_but_useful_shortcuts_do_you_have_for/",
-      "area": "Planning",
-      "status": "Communityworkflow, vereist testen"
+      "type": "nu",
+      "title": "Bij opening van een app een persoonlijke reminder",
+      "example": "Open je bankapp of Trello → iPhone Opdrachten kan een trigger starten met een gerichte herinnering of je gewenste dashboard.",
+      "why": "Een taak precies tonen wanneer je de betreffende app toch gebruikt.",
+      "availability": "App-gebaseerde triggers bestaan in Apple Opdrachten; vervolgacties zelf instellen.",
+      "link": "https://support.apple.com/en-gb/guide/shortcuts/apde31e9638b/9.0/ios/26",
+      "source": "Apple Support",
+      "category": "Planning",
+      "date": "2026-10-24"
     },
     {
-      "date": "2026-10-24",
-      "title": "Gezamenlijke huishoudagent die e-mails en agenda afstemt",
-      "why": "Google Labs CC kan gedeelde e-mails, agenda, taken en formulieren omzetten in een gezamenlijke dagbrief voor maximaal zes personen.",
-      "action": "Waarom jij: agenda's, huishoudzaken en administratieve verplichtingen combineren. Nu alleen een VS-experiment; dus idee voor later, geen direct beschikbare oplossing in Nederland.",
-      "source": "Google Labs",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
-      "area": "Thuis",
-      "status": "Beperkt beschikbaar: VS"
+      "type": "bouwen",
+      "title": "Een automatische contractenbespaarradar",
+      "example": "Een agent leest contract-einddatums uit je eigen overzicht en signaleert tijdig of verlengen of overstappen voordeliger is, inclusief cashback en overstapkosten.",
+      "why": "Toepasbaar op internet/tv, energie, mobiel en verzekeringen. Geen generieke prijsalert, maar een besluit op het juiste moment.",
+      "availability": "Idee; koppeling met betrouwbare actuele tarieven, contractgegevens en voorwaarden ontbreekt nog.",
+      "link": "https://github.com/DASPHHS/specialedeals",
+      "source": "Eigen concept",
+      "category": "Geld",
+      "date": "2026-10-24"
     },
     {
-      "date": "2026-10-24",
-      "title": "Een assistent die via iMessage acties oppakt",
-      "why": "Caddy en vergelijkbare 2026-agenten kunnen gesprekken en berichten gebruiken om kalenderacties en reminders te identificeren, zonder dat je een apart dashboard blijft openen.",
-      "action": "Waarom jij: je wilt zo min mogelijk appwisselingen. Eerst privacy, Nederland-beschikbaarheid, koppelingen en prijzen beoordelen.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "area": "AI-agenten",
-      "status": "Marktontwikkeling; niet getest"
+      "type": "bouwen",
+      "title": "Slimme takenbak uit mail en notificaties",
+      "example": "Niet iedere melding in Trello gooien: AI detecteert alleen acties, voegt een deadline toe, voorkomt duplicaten en groepeert werk en privé.",
+      "why": "Minder administratieve rommel en minder vergeten taken.",
+      "availability": "De Gmail-route is gedeeltelijk uitvoerbaar; iPhone-notificaties van willekeurige apps zijn niet algemeen uitleesbaar.",
+      "link": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "source": "Eigen concept + OpenAI",
+      "category": "Planning",
+      "date": "2026-10-24"
+    },
+    {
+      "type": "bouwen",
+      "title": "Je persoonlijke prijsreferentie per terugkerende aankoop",
+      "example": "Een agent bewaart bij Giraffe-koffie, Weleda en padelballen de gangbare prijs per eenheid en mailt alleen als de echte eindprijs uitzonderlijk laag is.",
+      "why": "Voorkomt schijnkorting en herhaalde handmatige prijscontroles.",
+      "availability": "Idee; vraagt betrouwbare historische prijsregistratie en prijsbronnen.",
+      "link": "https://github.com/DASPHHS/specialedeals",
+      "source": "Eigen Speciale Deals-concept",
+      "category": "Geld",
+      "date": "2026-10-24"
+    },
+    {
+      "type": "bouwen",
+      "title": "Automatisch de beste voorbereiding voor een stagedag",
+      "example": "Vóór je eerste stagebezoek: dagroute, adressen, lesbeoordelingspunten, relevante e-mails en afspraken in één briefing.",
+      "why": "Minder schakelen tussen agenda, mail en documenten.",
+      "availability": "Idee; koppelingen, rechten en onderwijsprivacy moeten worden uitgewerkt.",
+      "link": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
+      "source": "Eigen concept + OpenAI",
+      "category": "Werk",
+      "date": "2026-10-24"
+    },
+    {
+      "type": "nieuw",
+      "title": "ChatGPT-taken reageren nu op nieuwe Gmail-berichten",
+      "example": "Een agent hoeft niet steeds op de klok je postvak te doorzoeken: een nieuw bericht van een geselecteerde afzender kan de taak zelf starten.",
+      "why": "Interessant voor werkmail en administratieve deadlines.",
+      "availability": "Officieel beschikbaar voor in aanmerking komende accounts; controleer trigger en autorisaties.",
+      "link": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "source": "OpenAI Help",
+      "category": "AI",
+      "date": "2026-10-24"
+    },
+    {
+      "type": "nieuw",
+      "title": "GitHub-pullrequest kan AI-feedback automatisch starten",
+      "example": "Bij een pullrequest in een van je projecten kan een AI-taak de wijziging samenvatten en risico’s opsommen.",
+      "why": "Handig bij toekomstige verbeteringen van je dealsites.",
+      "availability": "Ondersteunt specifieke PR-events; niet elke Actions-storing of repo-activiteit.",
+      "link": "https://learn.chatgpt.com/docs/automations",
+      "source": "ChatGPT Learn",
+      "category": "AI",
+      "date": "2026-10-24"
+    },
+    {
+      "type": "nieuw",
+      "title": "Apple Opdrachten heeft bruikbare fysieke triggers",
+      "example": "NFC-tags, opladers, app-openingen, locaties en alarms kunnen een persoonlijke automatisering starten.",
+      "why": "Nieuwe toepassingen combineren met iPhone, Mac en SmartThings waar integraties dat toelaten.",
+      "availability": "Officiële iPhone-functionaliteit; specifieke derde-appkoppelingen controleren.",
+      "link": "https://support.apple.com/en-gb/guide/shortcuts/apde31e9638b/9.0/ios/26",
+      "source": "Apple Support",
+      "category": "iPhone",
+      "date": "2026-10-24"
     }
-  ]
+  ],
+  "note": "Geen Reddit-tips automatisch publiceren; alleen na beoordeling met concrete use case, bewijs en bron."
 }

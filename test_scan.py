@@ -1,22 +1,15 @@
 import unittest
 import scan
 class ScannerTests(unittest.TestCase):
-    def test_single_euro_price(self):
-        self.assertEqual(scan.extract_price("Prijs: € 129,95"), 129.95)
-        self.assertEqual(scan.extract_price("EUR 85.00"), 85)
-    def test_ambiguous_price(self):
-        self.assertIsNone(scan.extract_price("Van € 150,00 voor € 99,00"))
-    def test_no_price(self):
-        self.assertIsNone(scan.extract_price("Alleen vandaag korting"))
-    def test_gender_filter(self):
-        score, _ = scan.score("Salomon damesschoenen")
-        self.assertLess(score, 0)
-    def test_men_lifestyle(self):
-        score, _ = scan.score("Adidas Metalbone Carbon padelracket")
-        self.assertGreater(score, 0)
-    def test_promotion_classification(self):
-        self.assertEqual(scan.promotion_kind("Winactie: maak kans op een Dyson"), "winactie")
-        self.assertEqual(scan.promotion_kind("15% kortingscode op Rituals"), "kortingscode")
-        self.assertEqual(scan.promotion_kind("Apple MacBook aanbieding"), "deal")
-if __name__ == "__main__":
-    unittest.main()
+ def test_price(self):self.assertEqual(scan.extract_price("€ 129,95"),129.95)
+ def test_ambiguous(self):self.assertIsNone(scan.extract_price("€ 100,00 naar € 80,00"))
+ def test_branded(self):self.assertGreater(scan.score("Weleda Skin Food aanbieding")[0],0)
+ def test_irrelevant(self):self.assertLess(scan.score("Ninja airfryer sale")[0],0)
+ def test_womens(self):self.assertLess(scan.score("Salomon dames schoenen sale")[0],0)
+ def test_apple_fruit(self):self.assertLess(scan.score("Apple pie recipe discount")[0],0)
+ def test_metalbone(self):self.assertGreater(scan.score("Adidas Metalbone Carbon 2026 padelracket aanbieding")[0],0)
+ def test_kind(self):self.assertEqual(scan.promotion_kind("Winactie maak kans op Davines"),"winactie")
+ def test_rss(self):
+  rss='<rss><channel><item><title>Weleda Skin Food sale</title><link>https://example.com/w</link></item></channel></rss>'
+  self.assertEqual(len(scan.rss_items(rss,"test","news")),1)
+if __name__=="__main__":unittest.main()

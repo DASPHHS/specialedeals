@@ -111,7 +111,49 @@
       "source": "Apple Support",
       "category": "iPhone",
       "date": "2026-10-24"
+    },
+    {
+      "type": "gezondheid",
+      "title": "Tanden laten teruggroeien: TRG035",
+      "example": "Japans onderzoek naar een antilichaam tegen USAG-1 dat tandaanleg kan stimuleren, aanvankelijk gericht op mensen met aangeboren ontbrekende tanden.",
+      "why": "Mogelijk een fundamenteel alternatief voor implantaten in de toekomst. Geen bewijs dat je hiermee nu een verloren volwassen tand kunt terugkrijgen.",
+      "availability": "Experimenteel. Fase I afgerond; fase IIa voorbereid. Niet beschikbaar als gewone tandheelkundige behandeling.",
+      "link": "https://toregem.co.jp/en/",
+      "source": "Toregem BioPharma + Japans onderzoeksregister",
+      "category": "Tanden",
+      "date": "2026-10-24",
+      "evidence": "early_human_safety",
+      "personalRelevance": "Tandheelkundige regeneratie",
+      "doNow": "Voor een concreet tandprobleem reguliere tandartsopties blijven volgen; niet wachten op TRG035."
+    },
+    {
+      "type": "gezondheid",
+      "title": "Tandglazuur versterken: remineralisatie en biomimetische peptiden",
+      "example": "Bij een vroege witte ontkalkingsvlek kan de tandarts beoordelen of fluoride of een geschikte remineraliserende behandeling verdere schade kan stoppen.",
+      "why": "Een bestaande mogelijkheid om beginnende schade te beperken, plus actieve ontwikkeling van biomimetische producten.",
+      "availability": "Remineralisatie van vroege laesies is klinisch relevant; volledige teruggroei van verdwenen tanddelen niet aangetoond.",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13303244/",
+      "source": "Wetenschappelijk overzicht (2026)",
+      "category": "Tanden",
+      "date": "2026-10-24",
+      "evidence": "clinical_for_early_lesions",
+      "personalRelevance": "Gebitsbehoud en herstel",
+      "doNow": "Bespreek individuele cariësrisico's en vroegtijdige glazuurschade met tandarts."
+    },
+    {
+      "type": "gezondheid",
+      "title": "Clascoteron 5%: nieuwe behandeling tegen haarverlies",
+      "example": "Een hoofdhuidoplossing gericht op lokale androgeenwerking; recente fase-3-gegevens maken dit een middel om op de voet te volgen.",
+      "why": "Kan later interessant zijn bij androgenetisch haarverlies, vooral als alternatieven voor bestaande medicatie gewenst zijn.",
+      "availability": "Onderzoeksbehandeling voor haarverlies; geen gegarandeerd verkrijgbare standaardbehandeling in Nederland.",
+      "link": "https://www.dermatologytimes.com/view/clascoterone-5-topical-solution-shows-long-term-promise-for-male-pattern-hair-loss",
+      "source": "Dermatology Times, 18 september 2026",
+      "category": "Haar",
+      "date": "2026-10-24",
+      "evidence": "phase_3_report",
+      "personalRelevance": "Haarbehoud en haarlijn",
+      "doNow": "Geen zelfmedicatie; dermatoloog kan huidige bewezen behandelopties en risico's afwegen."
     }
   ],
-  "note": "Geen Reddit-tips automatisch publiceren; alleen na beoordeling met concrete use case, bewijs en bron."
+  "note": "Gezondheidsitems onderscheiden bewijsniveau, klinische beschikbaarheid en persoonlijke relevantie; geen koopadvies voor onderzoeksmiddelen."
 }

@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+  "offers": [
+    {
+      "title": "Adidas Metalbone Carbon '26",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
+      "category": "Padel & sport",
+      "price": 125.0,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "ADIDAS METALBONE CARBON &#039;26",
+      "availabilityText": "https://schema.org/OutOfStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    },
+    {
+      "title": "Adidas Metalbone HRD+ '26",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
+      "category": "Padel & sport",
+      "price": 200.0,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "ADIDAS METALBONE HRD+ &#039;26",
+      "availabilityText": "https://schema.org/InStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    },
+    {
+      "title": "HEAD Padel Pro S+ 24x3 ballen",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html",
+      "category": "Padel & sport",
+      "price": 114.95,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "HEAD PADEL PRO S + 24X3 ST",
+      "availabilityText": "https://schema.org/InStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    },
+    {
+      "title": "Weleda Skin Food crème 75 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
+      "category": "Verzorging & geuren",
+      "price": 8.99,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "Weleda Skin Food Crème 75ML",
+      "availabilityText": "http://schema.org/InStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    },
+    {
+      "title": "Weleda Skin Food Light 75 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm",
+      "category": "Verzorging & geuren",
+      "price": 8.24,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "Weleda Skin Food Light Crème 75ML",
+      "availabilityText": "http://schema.org/InStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    },
+    {
+      "title": "Weleda Skin Food Bodybutter 150 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm",
+      "category": "Verzorging & geuren",
+      "price": 11.99,
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "titleOnPage": "Weleda Skin Food Bodybutter 150ML",
+      "availabilityText": "http://schema.org/InStock",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
+      "referencePrice": null,
+      "allInVerified": false,
+      "marketComparisonVerified": false,
+      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+    }
+  ],
+  "checks": [
+    {
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    },
+    {
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    },
+    {
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    },
+    {
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    },
+    {
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    },
+    {
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm",
+      "checkedAt": "2026-10-24T21:17:39.176033+00:00",
+      "status": "observed",
+      "method": "product_jsonld"
+    }
+  ],
+  "note": "Exact merchant structured product prices, not independently compared market prices or guaranteed shipping total. Items with unavailable data omitted."
+}

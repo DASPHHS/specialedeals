@@ -1,5 +1,11 @@
 name: AI Kansen radar
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'ai_kansen_research.py'
+      - 'test_ai_kansen.py'
+      - '.github/workflows/ai-kansen.yml'
   workflow_dispatch:
   schedule:
     - cron: '40 6 * * *'
@@ -15,6 +21,7 @@ jobs:
           python-version: '3.12'
       - name: Test and refresh AI opportunities
         run: |
+          python -m py_compile ai_kansen_research.py
           python -m unittest test_ai_kansen.py -v
           python ai_kansen_research.py
       - name: Publish changed AI insights

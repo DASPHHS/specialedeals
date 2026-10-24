@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-10-23T21:03:20.413037+00:00",
+  "updatedAt": "2026-10-24T12:01:42.596431+00:00",
   "deals": [
     {
-      "title": "Bose Quietcomfort Ultra - laagste prijs ooit",
-      "url": "https://nl.pepper.com/aanbiedingen/bose-quietcomfort-ultra-laagste-prijs-ooit-423422",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": 227.97,
+      "title": "384° - [bol.com][dagdeal]Tot 25% - 50% select-korting op geselecteerde pannen van Demeyere",
+      "url": "https://nl.pepper.com/aanbiedingen/bolcom-tot-25-select-korting-op-geselecteerde-pannen-van-demeyere-423431",
+      "source": "Pepper NL hot (RSS kandidaat)",
+      "price": null,
       "score": 32,
       "matched": [
-        "bose"
+        "demeyere"
       ],
       "discovery": false,
-      "priceVerified": false,
-      "priceOrigin": "feed"
-    },
-    {
-      "title": "Siemens EQ.6 Plus S100 TE651209RW - Volautomatische espressomachine @ MediaMarkt",
-      "url": "https://nl.pepper.com/aanbiedingen/siemens-eq6-plus-s100-te651209rw-volautomatische-espressomachine-at-mediamarkt-423423",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": null,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
       "priceVerified": false,
       "priceOrigin": null
     },
     {
-      "title": "Tineco Floor One Switch S6 Stretch Nat- en Droogstofzuiger (Multifunctioneel & 180° plat)",
-      "url": "https://nl.pepper.com/aanbiedingen/tineco-floor-one-switch-s6-stretch-nat-en-droogstofzuiger-multifunctioneel-180-plat-423418",
+      "title": "[LOKAAL] Hema Mijdrecht koffiebonen 50% 9,99 a kg",
+      "url": "https://nl.pepper.com/aanbiedingen/lokaal-hema-mijdrecht-koffiebonen-50-999-a-kg-423452",
       "source": "Pepper NL (RSS kandidaat)",
-      "price": 329.99,
+      "price": 9.99,
+      "score": 12,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": "feed"
+    },
+    {
+      "title": "218° - Instant Pot Duo Crisp 7,6L: grote multicooker én airfryer in één voor €189 bij Joybuy",
+      "url": "https://nl.pepper.com/aanbiedingen/instant-pot-duo-crisp-76l-grote-multicooker-en-airfryer-in-een-voor-eur189-bij-joybuy-423435",
+      "source": "Pepper NL hot (RSS kandidaat)",
+      "price": 189.0,
       "score": 12,
       "matched": [],
       "discovery": true,
@@ -39,17 +39,6 @@
     {
       "title": "Noord-Brabant Outdoor op 23 Oktober 2026 UITagenda Activiteiten (406 x) - DagjeWeg.NL",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc1ZnOS0yVmw5dWpDQXlLTHBWQlpwd09GRXNpWXFTNWd5ZWhTTXB3NldHU3piSV8wWk5ZZEdURFI1Y29UcnFHUWp2ZWRiR1Z4MnpHWW15amtBQ1E1bWM1WmE4dUxiendSNVlWTFdfbVVLMWJMcU55QXgzTkU0VVlhYkJVUXA?oc=5",
-      "source": "Winacties sport en technologie",
-      "price": null,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": null
-    },
-    {
-      "title": "Almere Outdoor op 21 Oktober 2026 UITagenda Activiteiten (28 x) - DagjeWeg.NL",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyMEVZeFFTSm9ERHcwbWZrNkdQUk1JNl8yQXh0VGdQajhvYzRtR2wwMVpqRVV3UWRiWUNma2ZfMUhlZnlxZTB5ZXBEQTVzcERySDR4WUVYMjRyaVBZdHVfN1dldFo0anM2RnFUQi1zUFM?oc=5",
       "source": "Winacties sport en technologie",
       "price": null,
       "score": 12,
@@ -96,12 +85,12 @@
     {
       "source": "Winacties sport en technologie",
       "status": "ok",
-      "items": 17
+      "items": 16
     },
     {
       "source": "Winacties wonen en reizen",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Kortingscodes premium merken",

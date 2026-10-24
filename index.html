@@ -77,8 +77,8 @@ try{
   const t=(d.title||"").toLocaleLowerCase("nl-NL");
   const needles=["arc'teryx","arcteryx","salomon","hoka","weleda","skin food","giraffe original","metalbone","padelballen","head pro s","bullpadel premium","davines","rituals","janzen","apple","dyson","ralph lauren","tommy hilfiger","sample sale"];
   if(!needles.some(n=>t.includes(n)))return false;
-  if(/\\b(dames|women|womens|vrouw|vrouwen|meisjes|girls)\\b/i.test(t))return false;
-  if(/\\b(iphone hoes|cover|accessoire|sticker|poster)\\b/i.test(t))return false;
+  if(/\b(dames|women|womens|vrouw|vrouwen|meisjes|girls)\b/i.test(t))return false;
+  if(/\b(iphone hoes|cover|accessoire|sticker|poster)\b/i.test(t))return false;
   return true;
  };
  const candidates=(data.deals||[]).filter(personalMatch);

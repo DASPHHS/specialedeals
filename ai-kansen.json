@@ -1,31 +1,66 @@
 {
-  "updatedAt": "2026-10-24T20:00:00Z",
+  "updatedAt": "2026-10-24T21:00:00Z",
+  "editorial": true,
   "items": [
     {
-      "title": "Gmail: automatisch reageren op nieuwe mail met een ChatGPT-taak",
-      "why": "In ChatGPT Work kan een gebeurtenisgestuurde taak starten bij een nieuwe Gmail-mail, bijvoorbeeld om belangrijke stage- of werkmail te beoordelen. Dit is geen automatische verwerking van alle iPhone-notificaties.",
-      "action": "Open Work, verbind Gmail, stel als trigger 'nieuwe e-mail' in en als voorwaarde een specifieke afzender of onderwerp. Laat eerst alleen een samenvatting maken; verstuur of verwijder geen mail zonder toestemming.",
-      "url": "https://help.openai.com/nl-nl/articles/10291617-scheduled-tasks-in-chatgpt",
-      "source": "OpenAI Help",
       "date": "2026-10-24",
-      "status": "Officiële documentatie; beschikbaarheid/instellingen controleren",
-      "group": "werk",
-      "cost": "Geen afzonderlijke prijs bevestigd; vereist geschikte toegang en gekoppelde Gmail",
-      "effort": "10–20 min configuratie als beschikbaar",
-      "evidence": "Documentatie beschrijft gebeurtenisgestuurde Gmail-taken in Work."
+      "title": "Apple Shortcuts: notificatie als trigger",
+      "why": "Gebruik een iPhone-notificatie met specifiek trefwoord als startpunt voor een automatisering. Bijvoorbeeld meldingen van je wasmachine of woningbeveiliging, mits de betreffende app herkenbare meldingen levert.",
+      "action": "Waarom jij: je wilt SmartThings- en iPhone-notificaties omzetten in overzichtelijke acties. Eerst nagaan of de iPhone-trigger met die app betrouwbaar werkt.",
+      "source": "Apple Developer (WWDC26)",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/310/",
+      "area": "iPhone",
+      "status": "Nieuwe technische mogelijkheid, appafhankelijk"
     },
     {
-      "title": "Gerichte meldingen voor je GitHub-automatiseringen",
-      "why": "Een gebeurtenisgestuurde ChatGPT-taak kan reageren op ondersteunde GitHub-activiteiten. Bruikbaar om fouten en wijzigingen in je eigen projecten sneller op te merken, mits de gewenste gebeurtenis ondersteund wordt.",
-      "action": "Controleer in Work of de gewenste repositorygebeurtenis beschikbaar is. Stel een taak in die een concreet probleem meldt en de relevante link toevoegt.",
-      "url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
-      "source": "OpenAI Help",
       "date": "2026-10-24",
-      "status": "Officiële documentatie; concrete trigger te controleren",
-      "group": "praktisch",
-      "cost": "Geen afzonderlijke prijs bevestigd",
-      "effort": "10–20 min configuratie als ondersteund",
-      "evidence": "Documentatie noemt GitHub-eventtaken, niet elke mogelijke workflow-trigger."
+      "title": "Laat iOS een Shortcut bouwen uit je eigen beschrijving",
+      "why": "Apple Intelligence kan op geschikte iPhones met iOS 27 een Shortcut opbouwen uit een omschrijving en daarna aanpassingen maken.",
+      "action": "Waarom jij: van een kleine dagelijkse irritatie naar een persoonlijke automatisering zonder zelf tientallen Shortcuts-blokken te programmeren.",
+      "source": "Apple Support",
+      "url": "https://support.apple.com/guide/iphone/apple-intelligence-stay-organized-dom122pp864g/27/ios/27",
+      "area": "iPhone",
+      "status": "Officieel; regio/toestel afhankelijk"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "NFC-stickers als onderhoudsgeheugen",
+      "why": "Een Reddit-gebruiker plakt NFC-tags bij apparaten en tikt met de iPhone om vast te leggen wanneer een klus écht is gedaan. Varianten zetten de volgende herinnering vanaf dat moment.",
+      "action": "Waarom jij: zout bijvullen, ontkalken en onderhoud onthouden zonder telkens handmatig een lijst bij te houden. Ervaring, geen geverifieerd kant-en-klaar product.",
+      "source": "Reddit r/shortcuts",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1u9ybqh/i_stuck_nfc_tags_all_over_my_house_now_my_chores/",
+      "area": "Thuis",
+      "status": "Communityvoorbeeld, zelf te testen"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Je kalender bepaalt automatisch je wekker",
+      "why": "Gebruikers van Apple Shortcuts laten hun agenda controleren en passen vertrektijd- of ochtendwekkers aan op locaties en afspraken.",
+      "action": "Waarom jij: wisselende les-, stage- en padelafspraken zonder iedere avond je eerste afspraak op te zoeken.",
+      "source": "Reddit r/shortcuts",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1u8a7l0/what_small_but_useful_shortcuts_do_you_have_for/",
+      "area": "Planning",
+      "status": "Communityworkflow, vereist testen"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Gezamenlijke huishoudagent die e-mails en agenda afstemt",
+      "why": "Google Labs CC kan gedeelde e-mails, agenda, taken en formulieren omzetten in een gezamenlijke dagbrief voor maximaal zes personen.",
+      "action": "Waarom jij: agenda's, huishoudzaken en administratieve verplichtingen combineren. Nu alleen een VS-experiment; dus idee voor later, geen direct beschikbare oplossing in Nederland.",
+      "source": "Google Labs",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+      "area": "Thuis",
+      "status": "Beperkt beschikbaar: VS"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Een assistent die via iMessage acties oppakt",
+      "why": "Caddy en vergelijkbare 2026-agenten kunnen gesprekken en berichten gebruiken om kalenderacties en reminders te identificeren, zonder dat je een apart dashboard blijft openen.",
+      "action": "Waarom jij: je wilt zo min mogelijk appwisselingen. Eerst privacy, Nederland-beschikbaarheid, koppelingen en prijzen beoordelen.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "area": "AI-agenten",
+      "status": "Marktontwikkeling; niet getest"
     }
   ]
 }

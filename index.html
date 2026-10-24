@@ -96,7 +96,17 @@ function card(d,kind){
 function draw(target,items,kind){const p=$(target);p.replaceChildren();if(!items.length){p.append(el("div","empty","Geen passende actuele vondsten uit de beschikbare bronnen."));return}items.forEach(x=>p.append(card(x,kind)))}
 function show(tab){document.querySelectorAll("nav [data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));document.querySelectorAll(".section").forEach(s=>s.classList.toggle("show",s.id===tab));window.scrollTo?.(0,0)}
 document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
-function renderFound(){const q=$("q").value.trim().toLowerCase(),group=$("group").value,src=$("sourceType").value;const items=app.deals.filter(x=>(!q||(x.title||"").toLowerCase().includes(q))&&(!group||x.category===group)&&(!src||x.sourceType===src));$("foundCount").textContent=items.length+" passende vermeldingen. Met 'Toon 10 meer' kun je verder kijken.";draw("allcards",items.slice(0,app.limit),"candidate");$("loadMore").hidden=items.length<=app.limit}
+function renderFound(){
+ const q=$("q").value.trim().toLowerCase(),category=$("group").value,source=$("sourceType").value;
+ const items=[...app.observations.map(x=>({...x,sourceType:"retailer"})),...app.deals]
+  .filter(x=>(!q||[x.title,x.store||"",x.category||""].join(" ").toLowerCase().includes(q))&&(!category||x.category===category)&&(!source||source===x.sourceType))
+  .sort((a,b)=>(a.sourceType==="retailer"?stockInfo(a).order:5)-(b.sourceType==="retailer"?stockInfo(b).order:5));
+ $("foundCount").textContent=items.length+" persoonlijke vondsten, waarvan "+app.observations.length+" winkelprijscontroles.";
+ const parent=$("allcards");parent.replaceChildren();
+ items.slice(0,app.limit).forEach(x=>parent.append(card(x,x.sourceType==="retailer"?"store":"candidate")));
+ if(!items.length)parent.append(el("div","empty","Geen persoonlijke vondsten met deze filters."));
+ $("loadMore").hidden=items.length<=app.limit;
+}
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
 function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=ok+" bereikt · "+errors+" fouten";

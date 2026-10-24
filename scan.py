@@ -102,6 +102,16 @@ def discovery():
    statuses.append({"source":"Merkscan "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
    raw_items.extend(rows)
   except Exception as e:statuses.append({"source":"Merkscan "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
+ # Secondary broad RSS discovery, explicitly kept as unverified search leads.
+ # This adds retailer and outlet coverage where the news RSS has no product offers.
+ for i,q in enumerate(CFG.get("broadSearchQueries",[])):
+  try:
+   url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q+" Nederland","format":"rss","setlang":"nl-NL"})
+   rows=rss_items(fetch(url),"Gerichte winkelscan","search")
+   statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   raw_items.extend(rows)
+  except Exception as e:
+   statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
  return raw_items,statuses
 def main():
  raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()

@@ -1,35 +1,31 @@
 {
-  "updatedAt": "2026-10-24T00:00:00Z",
+  "updatedAt": "2026-10-24T20:00:00Z",
   "items": [
     {
-      "title": "ChatGPT Work voor meerstapswerk",
-      "why": "Laat AI research, bestanden en ondersteunde websites combineren voor een concreet eindresultaat. Sluit aan bij lesvoorbereiding en je projecten.",
-      "action": "Probeer: analyseer een lesontwerp en maak een bruikbare feedbackversie. Controleer de uitkomst.",
-      "url": "https://help.openai.com/en/articles/20001275",
+      "title": "Gmail: automatisch reageren op nieuwe mail met een ChatGPT-taak",
+      "why": "In ChatGPT Work kan een gebeurtenisgestuurde taak starten bij een nieuwe Gmail-mail, bijvoorbeeld om belangrijke stage- of werkmail te beoordelen. Dit is geen automatische verwerking van alle iPhone-notificaties.",
+      "action": "Open Work, verbind Gmail, stel als trigger 'nieuwe e-mail' in en als voorwaarde een specifieke afzender of onderwerp. Laat eerst alleen een samenvatting maken; verstuur of verwijder geen mail zonder toestemming.",
+      "url": "https://help.openai.com/nl-nl/articles/10291617-scheduled-tasks-in-chatgpt",
       "source": "OpenAI Help",
       "date": "2026-10-24",
-      "status": "Officiële documentatie",
-      "group": "werk"
+      "status": "Officiële documentatie; beschikbaarheid/instellingen controleren",
+      "group": "werk",
+      "cost": "Geen afzonderlijke prijs bevestigd; vereist geschikte toegang en gekoppelde Gmail",
+      "effort": "10–20 min configuratie als beschikbaar",
+      "evidence": "Documentatie beschrijft gebeurtenisgestuurde Gmail-taken in Work."
     },
     {
-      "title": "n8n Assistant: automatiseringen in gewone taal",
-      "why": "Kan workflows plannen en opbouwen in n8n. Interessant voor Trello, mail en slimme huishoudtaken, maar vergt inrichting en controle.",
-      "action": "Test eerst één simpele Gmail-naar-Trello-workflow zonder gevoelige acties.",
-      "url": "https://blog.n8n.io/introducing-n8n-assistant/",
-      "source": "n8n",
-      "date": "2026-09-09",
-      "status": "Officiële productinformatie",
-      "group": "praktisch"
-    },
-    {
-      "title": "ChatGPT geplande taken voor terugkerende controles",
-      "why": "Automatiseer vaste overzichten en meldingen zonder telkens handmatig dezelfde vraag te stellen.",
-      "action": "Gebruik één herhaaltaak voor je wekelijkse onderwijsplanning en behoud menselijke controle.",
-      "url": "https://help-lb.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "title": "Gerichte meldingen voor je GitHub-automatiseringen",
+      "why": "Een gebeurtenisgestuurde ChatGPT-taak kan reageren op ondersteunde GitHub-activiteiten. Bruikbaar om fouten en wijzigingen in je eigen projecten sneller op te merken, mits de gewenste gebeurtenis ondersteund wordt.",
+      "action": "Controleer in Work of de gewenste repositorygebeurtenis beschikbaar is. Stel een taak in die een concreet probleem meldt en de relevante link toevoegt.",
+      "url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
       "source": "OpenAI Help",
       "date": "2026-10-24",
-      "status": "Officiële documentatie",
-      "group": "praktisch"
+      "status": "Officiële documentatie; concrete trigger te controleren",
+      "group": "praktisch",
+      "cost": "Geen afzonderlijke prijs bevestigd",
+      "effort": "10–20 min configuratie als ondersteund",
+      "evidence": "Documentatie noemt GitHub-eventtaken, niet elke mogelijke workflow-trigger."
     }
   ]
 }

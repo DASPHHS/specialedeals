@@ -1,0 +1,73 @@
+{
+  "updated": "2026-10-24",
+  "note": "Exact-product official retailer pages. Parse structured product data; not marketplace price history.",
+  "targets": [
+    {
+      "title": "Adidas Metalbone Carbon '26",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
+      "require": [
+        "metalbone",
+        "carbon"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel"
+    },
+    {
+      "title": "Adidas Metalbone HRD+ '26",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
+      "require": [
+        "metalbone",
+        "hrd"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel"
+    },
+    {
+      "title": "HEAD Padel Pro S+ 24x3 ballen",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html",
+      "require": [
+        "head",
+        "pro",
+        "24"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel"
+    },
+    {
+      "title": "Weleda Skin Food crème 75 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
+      "require": [
+        "skin food",
+        "75"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    },
+    {
+      "title": "Weleda Skin Food Light 75 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm",
+      "require": [
+        "skin food",
+        "light"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    },
+    {
+      "title": "Weleda Skin Food Bodybutter 150 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm",
+      "require": [
+        "skin food",
+        "body"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 {
-  "updatedAt": "2026-10-24T22:07:46.781921+00:00",
+  "updatedAt": "2026-10-24T22:13:25.892413+00:00",
+  "diagnostics": {
+    "irrelevant": 60,
+    "source_quality": 147,
+    "duplicate": 0
+  },
   "deals": [],
   "samples": [],
   "promotions": [],
@@ -121,6 +126,56 @@
     },
     {
       "source": "Merkscan 22",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 1",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 2",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 3",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 4",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 5",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 6",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 7",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 8",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 9",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Samplezoekopdracht 10",
       "status": "empty",
       "items": 0
     },
@@ -403,7 +458,7 @@
     }
   ],
   "coverage": {
-    "searchQueries": 22,
+    "searchQueries": 47,
     "sourcesConfigured": 2,
     "scannedItems": 207,
     "personalMatches": 0

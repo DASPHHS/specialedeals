@@ -1,64 +1,24 @@
-<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Slimme Kansen | Ideeën, automatiseringen en ontwikkelingen</title>
-<style>
-:root{font:15px/1.5 system-ui,-apple-system,sans-serif;background:#f5f7fa;color:#183047}*{box-sizing:border-box}
-body{margin:0}header{background:#172e45;color:#fff;padding:24px max(18px,calc((100vw - 1120px)/2))}header a{color:#cdf2de;text-decoration:none}header h1{font-size:clamp(28px,5vw,42px);margin:8px 0 5px}header p{color:#c9d5e0;margin:0}
-main{max-width:1120px;margin:auto;padding:22px 18px 30px}.intro{background:#fff;border:1px solid #dce4eb;border-radius:14px;padding:16px;margin-bottom:18px}h2{font-size:22px;margin:4px 0 10px}p{margin:5px 0 10px}.sub{color:#637589;font-size:13px}
-.tabs,.chips{display:flex;gap:7px;flex-wrap:wrap;margin:14px 0}button{cursor:pointer;font:inherit;border:1px solid #cdd8e3;border-radius:10px;padding:9px 13px;background:#fff;color:#183950}button.selected{background:#173f61;color:#fff;border-color:#173f61}
-.bar{display:grid;grid-template-columns:minmax(170px,1fr) minmax(130px,210px) auto;gap:9px;margin:12px 0 6px}input,select{font:inherit;border:1px solid #c9d5df;border-radius:10px;padding:10px;background:#fff;color:#1a2e45;min-width:0}.switch{display:flex;align-items:center;gap:7px;font-size:13px;white-space:nowrap}.switch input{width:17px;height:17px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px;margin-top:15px}.card{background:#fff;border:1px solid #dde5ec;border-radius:14px;padding:17px;display:flex;flex-direction:column;gap:9px;min-height:220px}
-.card h3{font-size:18px;line-height:1.35;margin:0}.card p{font-size:14px;margin:0}.badge{display:inline-flex;font-size:12px;line-height:1.3;padding:4px 8px;border-radius:100px;background:#edf3f7;color:#34526d;width:max-content;max-width:100%;white-space:normal}
-.top{display:flex;justify-content:space-between;align-items:start;gap:6px}.star{font-size:19px;border:0;padding:0 7px;color:#62788a;background:transparent}.star[aria-pressed=true]{color:#af7518}.explanation{background:#f5f8fb;border-radius:9px;padding:10px;font-size:13px;color:#455b6d}
-.details{border-top:1px solid #edf1f5;padding-top:7px}.details summary{cursor:pointer;font-size:13px;color:#155d91;font-weight:600}.details p{margin-top:7px;font-size:13px}
-.card a{color:#156093;font-size:13px;margin-top:auto}.footer{margin:24px 0 0;color:#6b7988;font-size:12px}.more{display:block;margin:20px auto 0;background:#153e62;color:white;border-color:#153e62}
-@media(max-width:700px){.bar{grid-template-columns:1fr 1fr}.bar input[type=search]{grid-column:1/-1}.grid{grid-template-columns:1fr}.switch{align-self:center}}
-</style></head><body><header><a href="./">← Terug naar Speciale Deals</a><h1>Slimme Kansen</h1><p>Nieuwe ideeën die je tijd, geld of gedoe kunnen besparen — zorgvuldig geselecteerd, niet gebouwd.</p></header>
-<main><div class="intro"><strong>Jouw ideeënradar</strong><p>Veel meer dan AI-nieuws: automatisering, werk, huishouden, geld, sport, gezondheid en ervaringen. De ideeën zijn toekomstplannen, géén draaiende functies. De eerste selectie is gebaseerd op je interesses; nooit alles op dezelfde hoop.</p></div>
-<div class="tabs" aria-label="Onderdelen">
-<button class="selected" data-tab="bouwen">Interessant om te bouwen</button><button data-tab="nu">Nu te gebruiken</button><button data-tab="nieuw">Nieuw & relevant</button><button data-tab="gezondheid">Gezondheid & uiterlijk</button>
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Slimme Kansen | Persoonlijke ideeënradar</title>
+<style>:root{font:15px/1.55 system-ui,-apple-system,sans-serif;background:#f4f7fb;color:#172a3c}*{box-sizing:border-box}body{margin:0}header{padding:26px max(18px,calc((100vw - 1080px)/2));background:linear-gradient(130deg,#142d4a,#173e38);color:white}h1{font-size:clamp(28px,5vw,40px);margin:8px 0}header a{color:#c8f3d9}main{max-width:1080px;margin:auto;padding:20px}h2{font-size:23px}.small{font-size:13px;color:#5b7081}.note{background:white;border:1px solid #dfe6eb;border-radius:13px;padding:14px;margin-bottom:14px}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:17px 0}.tabs button{border-radius:10px;padding:10px 13px;background:white;border:1px solid #c4d3df;color:#1a3f5f;cursor:pointer;font:inherit}.tabs button.active{color:white;background:#19466b;border-color:#19466b}.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}.toolbar input,.toolbar select{font:inherit;border:1px solid #b6cbd8;border-radius:10px;background:#fff;padding:11px;color:#172a3c}.toolbar input{flex:2;min-width:180px}.toolbar select{flex:1;min-width:160px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}.card{background:white;border:1px solid #dae4ec;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:9px}.card h3{font-size:18px;line-height:1.3;margin:0}.card p{font-size:14px;margin:0}.meta{font-size:12px;color:#547080}.status{background:#edf4f8;color:#37566c;padding:6px 9px;border-radius:8px;font-size:12px}.card a{margin-top:auto;color:#08639f}button.more{margin-top:16px;background:#1e614d;border:0;color:white;padding:11px 16px;border-radius:10px;cursor:pointer;font:inherit}.hidden{display:none}footer{padding:24px 0;color:#687e8c;font-size:12px}@media(max-width:630px){.cards{grid-template-columns:1fr}}</style></head><body>
+<header><a href="./">← Speciale Deals</a><h1>Slimme Kansen</h1><p>Persoonlijke automatiseringen, verrassende ideeën en nieuwe technologie die jou tijd, geld of gedoe kan besparen.</p></header>
+<main><div class="note"><strong>Geen lijst met algemene AI-tips.</strong><p class="small">Elk bouwidee laat zien wat er in jouw dagelijks leven gebeurt, waarom het nuttig is en welke koppelingen nodig zijn. Nieuwe technologie en medische ontwikkelingen staan apart, met hun echte beschikbaarheidsstatus.</p></div>
+<div class="tabs"><button class="active" data-tab="bouwen">Interessant om te bouwen <span id="total"></span></button><button data-tab="nu">Nu gebruiken</button><button data-tab="nieuw">Nieuwe ontwikkelingen</button><button data-tab="gezondheid">Gezondheid & uiterlijk</button></div>
+<div id="build" class="content">
+<p class="small">Sorteer op persoonlijke impact of filter op jouw leefdomein. Dit zijn voorstellen om later te kiezen, niet automatisch geïnstalleerde functionaliteit.</p>
+<div class="toolbar"><input id="buildsearch" placeholder="Zoek bijv. stage, geld, padel, huishouden, iPhone…"><select id="buildcategory"><option value="">Alle leefgebieden</option></select><select id="buildorder"><option value="priority">Meest waardevol voor mij</option><option value="easy">Eerst eenvoudig uitvoerbaar</option><option value="name">Alfabetisch</option></select></div>
+<p id="buildcount" class="small"></p><section id="buildcards" class="cards"></section><button id="buildmore" class="more" hidden>Toon 10 extra ideeën</button>
 </div>
-<section id="buildArea"><h2>Wat zou jouw leven slimmer maken?</h2><p class="sub" id="buildCount">Catalogus laden…</p>
-<div class="bar"><input type="search" id="buildSearch" placeholder="Zoek een onderwerp of oplossing…"><select id="sortIdeas" aria-label="Sorteer ideeën"><option value="best">Meest relevant eerst</option><option value="easy">Makkelijkst te bouwen</option><option value="az">Alfabetisch</option></select><label class="switch"><input type="checkbox" id="onlySaved"> Alleen bewaard</label></div>
-<div class="chips" id="buildCategories"></div><div class="grid" id="buildCards"></div><button class="more" id="showMore" hidden>Toon 10 meer ideeën</button>
-<p class="footer">Prioriteit is een persoonlijke inschatting, geen bewezen opbrengst. Sterk samenhangende ideeën kunnen later worden samengevoegd tot één agent. Bewaarde ideeën blijven alleen in deze browser.</p></section>
-<section id="otherArea" hidden><h2 id="otherTitle"></h2><p class="sub" id="otherCount"></p><div class="grid" id="otherCards"></div><p class="footer">Nieuws en communityinzichten vereisen bewijs- en beschikbaarheidscontrole. Onderzoekskandidaten worden niet automatisch als werkende tips gepubliceerd.</p></section>
-</main><script>
-const $=id=>document.getElementById(id);
-let tab="bouwen",category="Alles",limit=10,buildIdeas=[],otherIdeas=[];
-const key="slimme-kansen-bewaard-v1";
-let saved;try{saved=new Set(JSON.parse(localStorage.getItem(key)||"[]"))}catch{saved=new Set()}
-const cmp=(a,b)=>Number(b.score||0)-Number(a.score||0);
-const complexity={Laag:1,Middel:2,Hoog:3};
-function node(tag,text,className){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;return e}
-function link(url,label){const a=node("a",label);a.href=url;a.rel="noopener noreferrer";a.target="_blank";return a}
-function updateTabs(){document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("selected",b.dataset.tab===tab));$("buildArea").hidden=tab!=="bouwen";$("otherArea").hidden=tab==="bouwen";if(tab==="bouwen")drawBuild();else drawOther()}
-document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{tab=b.dataset.tab;updateTabs()});
-function drawCategories(){const cats=["Alles",...new Set(buildIdeas.map(x=>x.category))];$("buildCategories").replaceChildren();for(const cat of cats){const b=node("button",cat);b.classList.toggle("selected",category===cat);b.onclick=()=>{category=cat;limit=10;drawCategories();drawBuild()};$("buildCategories").append(b)}}
-function drawBuild(){
-const q=$("buildSearch").value.toLocaleLowerCase("nl-NL").trim(),only=$("onlySaved").checked;
-const ordered=buildIdeas.filter(x=>(category==="Alles"||x.category===category)&&(!only||saved.has(x.id))&&[x.title,x.category,x.example,x.why,x.needs].join(" ").toLocaleLowerCase("nl-NL").includes(q));
-const sort=$("sortIdeas").value;
-ordered.sort(sort==="easy"?(a,b)=>(complexity[a.complexity]||3)-(complexity[b.complexity]||3)||cmp(a,b):sort==="az"?(a,b)=>a.title.localeCompare(b.title,"nl"):cmp);
-$("buildCount").textContent=ordered.length+" van "+buildIdeas.length+" ideeën · "+new Set(buildIdeas.map(x=>x.category)).size+" thema’s · kies wat je interessant vindt";
-$("buildCards").replaceChildren();
-for(const x of ordered.slice(0,limit)){
-const c=node("article",undefined,"card");
-const top=node("div",undefined,"top");const badges=node("div",undefined,"top");badges.append(node("span",x.category,"badge"),node("span","Impact "+x.score+"/5","badge"));
-const star=node("button",saved.has(x.id)?"★":"☆","star");star.type="button";star.setAttribute("aria-label","Bewaar of verwijder idee: "+x.title);star.setAttribute("aria-pressed",saved.has(x.id)?"true":"false");star.onclick=()=>{if(saved.has(x.id))saved.delete(x.id);else saved.add(x.id);localStorage.setItem(key,JSON.stringify([...saved]));drawBuild()};top.append(badges,star);
-c.append(top,node("h3",x.title),node("p",x.example),node("p","Voordeel: "+x.why,"explanation"));
-const d=node("details",undefined,"details");const s=node("summary","Wat heb je nodig? · "+x.complexity);d.append(s,node("p",x.needs));c.append(d,node("span","Idee · nog niet gebouwd of getest","sub"));$("buildCards").append(c)
-}
-if(!ordered.length)$("buildCards").append(node("p","Geen ideeën met deze filters."));
-$("showMore").hidden=ordered.length<=limit;$("showMore").textContent="Toon 10 meer ideeën ("+Math.min(10,ordered.length-limit)+" van "+(ordered.length-limit)+" resterend)";
-}
-$("showMore").onclick=()=>{limit+=10;drawBuild()};
-$("buildSearch").oninput=()=>{limit=10;drawBuild()};$("sortIdeas").onchange=()=>{limit=10;drawBuild()};$("onlySaved").onchange=()=>{limit=10;drawBuild()};
-function drawOther(){
-const labels={nu:"Direct bruikbare mogelijkheden",nieuw:"Ontwikkelingen die relevant kunnen worden",gezondheid:"Gezondheid en uiterlijk — bewijs vóór claims"};
-$("otherTitle").textContent=labels[tab]||"Nieuwe kansen";
-const arr=otherIdeas.filter(x=>x.type===tab);$("otherCount").textContent=arr.length+" geselecteerde items";$("otherCards").replaceChildren();
-for(const x of arr){const c=node("article",undefined,"card");c.append(node("span",(x.category||"Kans")+" · "+(x.source||"Bron"),"badge"),node("h3",x.title),node("p",x.example),node("p",x.why,"explanation"),node("p",x.availability||"Beschikbaarheid niet bevestigd","sub"));if(x.link&&/^https:\/\//.test(x.link))c.append(link(x.link,"Bekijk originele bron ↗"));$("otherCards").append(c)}
-if(!arr.length)$("otherCards").textContent="Geen geselecteerde vondsten.";
-}
-Promise.all([fetch("./bouwideeen.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Ideas unavailable");return r.json()}),fetch("./ai-kansen.json?ts="+Date.now(),{cache:"no-store"}).then(r=>r.json())]).then(([a,b])=>{buildIdeas=a.items||[];otherIdeas=b.items||[];drawCategories();updateTabs()}).catch(()=>{$("buildCount").textContent="Laden mislukt. Probeer de pagina later opnieuw."});
+<div id="other" class="content hidden"><p id="otherInfo" class="small"></p><section id="othercards" class="cards"></section></div>
+<footer>Reddit en nieuwsfeeds worden gebruikt voor ontdekking, maar ongecontroleerde posts verschijnen niet automatisch als bewijs. De ideeën zijn concepten; sommige vereisen toegangsrechten, betaalde services of eigen ontwikkeling.</footer></main>
+<script>
+const $=id=>document.getElementById(id),box=(tag,className,t)=>{const e=document.createElement(tag);if(className)e.className=className;if(t!==undefined)e.textContent=t;return e};
+let ideas=[],other=[],active="bouwen",visible=10;
+const small=x=>box("p","small",x);
+function renderIdea(item){const c=box("article","card");c.append(box("span","meta",item.category+" · Impact "+item.score+"/5 · Inrichting "+item.complexity),box("h3",null,item.title));let example=box("p");const strong=box("strong",null,"Bij jou: ");example.append(strong,document.createTextNode(item.example));c.append(example,box("p",null,"Winst: "+item.why),box("div","status","Nodig: "+item.needs),small("Status: bouwidee, nog niet gerealiseerd of getest"));return c}
+function renderOther(item){const c=box("article","card");c.append(box("span","meta",(item.category||"Ontwikkeling")+" · "+(item.source||"Bron")),box("h3",null,item.title));let desc=box("p");desc.append(box("strong",null,"Voorbeeld: "),document.createTextNode(item.example||""));c.append(desc,box("p",null,"Waarom interessant: "+(item.why||"")),box("div","status",item.availability||"Status niet bevestigd"));if(item.link?.startsWith("https://")){let a=box("a",null,"Bekijk originele bron ↗");a.href=item.link;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}return c}
+function renderBuild(){let q=$("buildsearch").value.trim().toLowerCase(),cat=$("buildcategory").value,order=$("buildorder").value;let selected=ideas.filter(x=>(!cat||cat===x.category)&&(!q||[x.title,x.example,x.why,x.category,x.needs].join(" ").toLowerCase().includes(q)));selected.sort((a,b)=>order==="name"?a.title.localeCompare(b.title):order==="easy"?({"Laag":1,"Middel":2,"Hoog":3}[a.complexity]||3)-({"Laag":1,"Middel":2,"Hoog":3}[b.complexity]||3)||b.score-a.score:b.score-a.score);$("buildcount").textContent=selected.length+" concrete ideeën · "+Math.min(visible,selected.length)+" getoond";const p=$("buildcards");p.replaceChildren();selected.slice(0,visible).forEach(x=>p.append(renderIdea(x)));if(!selected.length)p.append(box("p","small","Geen ideeën met deze zoekopdracht."));$("buildmore").hidden=visible>=selected.length}
+function renderOtherTab(){let selected=other.filter(x=>x.type===active);$("otherInfo").textContent=selected.length+" geselecteerde mogelijkheden. Beschikbaarheid en bewijs verschillen per item.";const p=$("othercards");p.replaceChildren();selected.forEach(x=>p.append(renderOther(x)));if(!selected.length)p.append(box("p","small","Nog geen goed onderbouwde resultaten."))}
+function openTab(t){active=t;document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));$("build").classList.toggle("hidden",t!=="bouwen");$("other").classList.toggle("hidden",t==="bouwen");if(t==="bouwen")renderBuild();else renderOtherTab()}
+document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>openTab(b.dataset.tab));["buildsearch","buildcategory","buildorder"].forEach(id=>$(id).addEventListener(id==="buildsearch"?"input":"change",()=>{visible=10;renderBuild()}));$("buildmore").onclick=()=>{visible+=10;renderBuild()};
+Promise.allSettled([fetch("./bouwideeen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),fetch("./ai-kansen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json())]).then(([a,b])=>{if(a.status==="fulfilled"){ideas=a.value.items||[];$("total").textContent="("+ideas.length+")";const cats=[...new Set(ideas.map(x=>x.category))].sort();cats.forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;$("buildcategory").append(o)})}else{$("buildcount").textContent="Ideeënbibliotheek tijdelijk onbereikbaar."}if(b.status==="fulfilled")other=b.value.items||[];renderBuild()});
 </script></body></html>

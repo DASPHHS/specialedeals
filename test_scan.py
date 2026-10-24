@@ -8,6 +8,12 @@ class ScannerTests(unittest.TestCase):
  def test_womens(self):self.assertLess(scan.score("Salomon dames schoenen sale")[0],0)
  def test_apple_fruit(self):self.assertLess(scan.score("Apple pie recipe discount")[0],0)
  def test_metalbone(self):self.assertGreater(scan.score("Adidas Metalbone Carbon 2026 padelracket aanbieding")[0],0)
+ def test_sample_aliases(self):
+  self.assertTrue(scan.is_sample("Ralph Lauren magazijnverkoop in Rotterdam"))
+  self.assertTrue(scan.is_sample("Nike warehouse sale Amsterdam"))
+  self.assertFalse(scan.is_sample("Kuyichi jeans normaal"))
+ def test_broad_brand_filter(self):
+  self.assertLess(scan.score("willekeurige matrassen aanbieding")[0],0)
  def test_kind(self):self.assertEqual(scan.promotion_kind("Winactie maak kans op Davines"),"winactie")
  def test_rss(self):
   rss='<rss><channel><item><title>Weleda Skin Food sale</title><link>https://example.com/w</link></item></channel></rss>'

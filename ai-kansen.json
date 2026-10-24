@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:23:33.420Z",
+  "updatedAt": "2026-10-24T22:06:10.075Z",
   "mode": "practical-ideas-and-news",
   "items": [
     {
@@ -175,7 +175,51 @@
       "source": "Giraffe Coffee (officiële winkel)",
       "category": "Besparen & koffie",
       "date": "2026-10-24"
+    },
+    {
+      "type": "nu",
+      "title": "iOS 27: automatisch reageren wanneer je een specifieke melding ontvangt",
+      "example": "Maak een iPhone-opdracht die start wanneer een notificatie van een gekozen app binnenkomt. Onderzoek hiermee of SmartThings-wasmeldingen een herkenbare trigger opleveren; filter op de daadwerkelijke tekst vóór je een herinnering aanmaakt.",
+      "why": "Een concrete route naar de wasmachine- of woningalert die je wilt, zonder standaard elke melding handmatig over te nemen.",
+      "availability": "Apple bevestigt een notificatietrigger in iOS 27; daadwerkelijke app-/toegangsbeperkingen en automatisch uitvoeren moeten op jouw iPhone worden getest. Niet alle meldingen bieden vrij uitleesbare inhoud.",
+      "link": "https://support.apple.com/en-mide/149045",
+      "source": "Apple Support (iOS 27)",
+      "category": "iPhone & huishouden",
+      "date": "2026-10-25"
+    },
+    {
+      "type": "nu",
+      "title": "iOS 27: screenshot wordt automatisch een bruikbare actie",
+      "example": "Als je een screenshot van een offerte, afspraak of productdeal opslaat, kan een nieuwe automatisering starten. Gebruik tekstextractie om datum, product en eventuele bedragen voor te stellen voordat je ze bewaart.",
+      "why": "Je maakt regelmatig screenshots van prijzen, apparaten, klusproblemen en afspraken. Zo hoeven die niet meer in je fotobibliotheek te verdwijnen.",
+      "availability": "Apple bevestigt screenshot-gebeurtenissen en verbeterde tekstextractie in iOS 27. De specifieke workflow moet nog worden ingericht; niet automatisch zonder controle gegevens naar externe apps sturen.",
+      "link": "https://support.apple.com/en-mide/149045",
+      "source": "Apple Support (iOS 27)",
+      "category": "iPhone & administratie",
+      "date": "2026-10-25"
+    },
+    {
+      "type": "nu",
+      "title": "iOS 27: laat de iPhone een eigen Shortcut maken uit gewone taal",
+      "example": "Beschrijf letterlijk: 'Als ik de vaatwasser heb bijgevuld, registreer de datum en herinner me over zes weken.' Laat Opdrachten een eerste versie maken en controleer de stappen.",
+      "why": "Je hoeft bij een nieuw idee niet meer alle technische Shortcut-acties zelf bij elkaar te zoeken.",
+      "availability": "Apple noemt natuurlijke-taal-aanmaak voor Shortcuts in iOS 27 op geschikte Apple Intelligence-apparaten. Nederlandse taal ondersteund, maar het blijft nodig de gemaakte opdracht te controleren.",
+      "link": "https://support.apple.com/en-mide/149045",
+      "source": "Apple Support (iOS 27)",
+      "category": "iPhone & automatisering",
+      "date": "2026-10-25"
+    },
+    {
+      "type": "nieuw",
+      "title": "ChatGPT Work: nieuwe Gmail kan direct een werktaak starten",
+      "example": "Bij een nieuwe e-mail van een stageschool laat je een event-gestuurde taak een korte samenvatting, ontbrekende informatie en een voorstel voor je takenlijst maken. Niet automatisch antwoord versturen.",
+      "why": "Een trigger op een échte gebeurtenis werkt gerichter dan elk uur je hele inbox doorzoeken.",
+      "availability": "OpenAI bevestigt Gmail-eventtaken voor daarvoor geschikte Work-accounts, met toestemming en ondersteunde triggers. Beschikbaarheid en eventuele taaklimiet in jouw account controleren.",
+      "link": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "source": "OpenAI Help (officiële documentatie)",
+      "category": "Werk & Gmail",
+      "date": "2026-10-25"
     }
   ],
-  "note": "Gezondheidsitems onderscheiden bewijsniveau, klinische beschikbaarheid en persoonlijke relevantie; geen koopadvies voor onderzoeksmiddelen."
+  "note": "Vier praktische kansen met gecontroleerde officiële documentatie toegevoegd op 25 oktober 2026; beschikbaarheid kan toestel/plan-afhankelijk zijn."
 }

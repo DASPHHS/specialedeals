@@ -9,6 +9,9 @@ on:
       - 'merchant_check.py'
       - 'test_merchant_check.py'
       - 'shop-targets.json'
+      - 'watchlist.json'
+      - 'watchlist_issue.py'
+      - 'test_watchlist_issue.py'
       - '.github/workflows/scan.yml'
   workflow_dispatch:
   schedule:
@@ -27,7 +30,7 @@ jobs:
         run: |
           python -m py_compile scan.py
           python -m json.tool radar-config.json > /dev/null
-          python -m unittest test_scan.py test_merchant_check.py -v
+          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py -v
           python -m json.tool shop-targets.json > /dev/null
       - name: Scan feeds
         run: python scan.py

@@ -55,7 +55,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <div class="note">Bij vouchers vergelijk ik een aankoop die je toch zou doen met de contante eindprijs, verzendkosten, geldigheid en hoeveelheid benodigde punten. Een hoog kortingspercentage alleen zegt weinig.</div><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de ING Puntenwinkel ↗</a></div></section>
 <section id="settings" class="section"><h2>Mijn alertvoorkeuren</h2><div class="panel">
 <h3>Mijn persoonlijke volglijst</h3><p class="muted" id="watchlist">Merken laden…</p>
-<h3>Mijn maximale koopprijzen</h3><p class="muted">Hieronder kun je een prijsgrens vastleggen. Deze wordt alleen op dit apparaat bewaard; de uurlijkse e-mailtaak verandert hierdoor nog niet automatisch.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Voeg toe</button><div id="wishRows" class="links"></div>
+<h3>Mijn echte productalerts instellen</h3><p class="muted">Vul product en maximale prijs in. De knop opent GitHub om de wijziging te bevestigen. Daarna bewaart GitHub de alert voor je scanner en de ChatGPT-alerttaak. Je GitHub-account moet ingelogd zijn. Je volglijst is openbaar: voer geen privégegevens in.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Alert instellen via GitHub</button><p id="watchStatus" class="small">Gegevens worden niet opgeslagen voordat je de GitHub-aanvraag bevestigt.</p><div id="wishRows" class="links"></div>
 <h3>Alert veranderen</h3><p>Je bestaande uurlijkse en dagelijkse e-mailcontrole worden in ChatGPT uitgevoerd. Een wijziging van die taken kun je hier voorbereiden.</p><div class="toolbar"><input id="alertItem" placeholder="Bijv. ook HOKA Mafate maat 47⅓"><input id="alertMin" type="number" min="0" max="90" value="25" placeholder="Korting %"></div><button class="more" id="copyPrompt">Kopieer wijziging voor ChatGPT</button><p id="copyStatus" class="small"></p></div>
 </section>
 <section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div><h3>Controle van exacte productpagina’s</h3><div id="merchantChecks" class="small">Nog geen automatische winkelcontrole gepubliceerd.</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
@@ -151,9 +151,33 @@ function loadObs(o,m){
  choices.forEach(x=>{let o=document.createElement("option");o.value=x;o.textContent=x;sel.append(o)});sel.value=current;
  renderFound();
 }
-const wishKey="specialedeals_wishlist_v1";let wishes=[];try{wishes=JSON.parse(localStorage.getItem(wishKey)||"[]")}catch{}
-function renderWishes(){const p=$("wishRows");p.replaceChildren();wishes.forEach((x,i)=>{const b=el("button","secondary",x.name+" · max "+money(x.max)+" ×");b.onclick=()=>{wishes.splice(i,1);localStorage.setItem(wishKey,JSON.stringify(wishes));renderWishes()};p.append(b)})}
-$("wishAdd").onclick=()=>{const n=$("wishName").value.trim(),v=Number($("wishMax").value);if(!n||!Number.isFinite(v)||v<=0)return;wishes.push({name:n,max:v});localStorage.setItem(wishKey,JSON.stringify(wishes));$("wishName").value="";$("wishMax").value="";renderWishes()};renderWishes();
+let savedWatches=[];
+const WATCH_URL="https://github.com/DASPHHS/specialedeals/issues/new";
+function watchIssue(action,name,price){
+ const body="SPECIALDEALS-WATCH-V1\nactie="+action+"\nproduct="+name+"\n"+(action==="toevoegen"?"maxprijs="+price+"\n":"");
+ const title="Speciale Deals alert "+action+": "+name;
+ return WATCH_URL+"?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body);
+}
+function renderWatches(){
+ const p=$("wishRows");p.replaceChildren();
+ if(!savedWatches.length){p.append(el("p","small","Nog geen online ingestelde productprijsalerts."));return}
+ savedWatches.forEach(item=>{
+  const c=el("span","tag",item.product+" · max "+money(item.maxPriceEUR)+" ");
+  const b=el("button","secondary","Verwijder");
+  b.style.marginLeft="8px";
+  b.onclick=()=>window.open(watchIssue("verwijderen",item.product)," _blank".trim());
+  c.append(b);p.append(c)
+ });
+}
+$("wishAdd").onclick=()=>{
+ const name=$("wishName").value.trim(),raw=$("wishMax").value,price=Number(raw);
+ if(name.length<3||name.length>120||!/^\d{1,5}(?:\.\d{1,2})?$/.test(raw)||!Number.isFinite(price)||price<0.5||price>10000){
+  $("watchStatus").textContent="Vul een product (3–120 tekens) en een maximumprijs tussen €0,50 en €10.000 in.";return
+ }
+ $("watchStatus").textContent="GitHub wordt geopend. Bevestig daar met ‘Submit new issue’. De site bewaart zelf geen serveralert.";
+ const url=watchIssue("toevoegen",name,raw);
+ const win=window.open(url,"_blank","noopener,noreferrer");if(!win)$("watchStatus").textContent="Pop-up geblokkeerd: "+url;
+};
 const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
 $("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
 $("copyPrompt").onclick=async()=>{const name=$("alertItem").value.trim(),min=$("alertMin").value;if(!name){$("copyStatus").textContent="Vul eerst een nieuwe interesse in.";return}const msg="Wijzig de bestaande Speciale Deals-uurlijkse en dagelijkse ChatGPT-taken en het profiel in DASPHHS/specialedeals. Voeg toe: "+name+". Minimale gewenste korting "+min+"%, verifieer ook de eindprijs, juiste maat, voorraad en dubbelmeldingen. Laat Koopkracht ongemoeid.";try{await navigator.clipboard.writeText(msg);$("copyStatus").textContent="Gekopieerd. Plak in ChatGPT om de taken echt aan te passen."}catch{$("copyStatus").textContent=msg}};
@@ -161,10 +185,12 @@ Promise.allSettled([
 fetch("./live-deals.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}),
 fetch("./winkel-waarnemingen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
 fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
-fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not scanned");return r.json()})
-]).then(([feed,obs,profile,merchant])=>{
+fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not scanned");return r.json()}),
+fetch("./watchlist.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not available");return r.json()})
+]).then(([feed,obs,profile,merchant,watches])=>{
 if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
 if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status==="fulfilled"?obs.value:null,merchant.status==="fulfilled"?merchant.value:null);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
+if(watches.status==="fulfilled"){savedWatches=watches.value.items||[];renderWatches()}else{$("watchStatus").textContent="Servervolglijst tijdelijk niet bereikbaar."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });
 </script></body></html>

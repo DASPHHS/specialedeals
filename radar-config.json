@@ -339,6 +339,31 @@
       "name": "Sample Sale Amsterdam Noord",
       "url": "https://samplesaleamsterdamnoord.nl/",
       "category": "Sample sales"
+    },
+    {
+      "name": "De Gezondheidslijn",
+      "url": "https://www.degezondheidslijn.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "KoopjesDrogisterij",
+      "url": "https://www.koopjesdrogisterij.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Ecco Verde",
+      "url": "https://www.ecco-verde.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "DAKA Sport",
+      "url": "https://www.daka.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "SneakerPicks",
+      "url": "https://sneakerpicks.nl/status",
+      "category": "Schoenen en prijsvergelijking"
     }
   ],
   "inclusion": "Only explicit exact brand/product matches. Broad category-only nonmatches are not included.",

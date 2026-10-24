@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:41:42.395359+00:00",
+  "updatedAt": "2026-10-24T21:45:00.081124+00:00",
   "products": {
     "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html": [
       {
@@ -76,6 +76,20 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 29.85,
         "stock": "tegenstrijdige voorraadinformatie"
+      }
+    ],
+    "Tennis-Voordeel|https://tennis-voordeel.nl/adidas-metalbone-carbon-2026/": [
+      {
+        "at": "2026-10-24T21:45:00.081124+00:00",
+        "price": 182.9,
+        "stock": "nabestelling"
+      }
+    ],
+    "Padel Voordeel|https://padel-voordeel.nl/adidas-metalbone-carbon-2026/": [
+      {
+        "at": "2026-10-24T21:45:00.081124+00:00",
+        "price": 182.9,
+        "stock": "nabestelling"
       }
     ]
   },

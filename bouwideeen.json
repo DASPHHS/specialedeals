@@ -12,7 +12,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Leesrechten op agenda en relevante mail verlenen; stel een testbrief voor één werkdag samen.",
+      "personalUse": "Eén overzicht voordat je begint: eerste les, eventuele rit en hoogstens drie echte prioriteiten.",
+      "featuredRank": 4
     },
     {
       "id": "bouw-002",
@@ -36,7 +39,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Kies twee urgente terugkerende taken en stel een duidelijke eindvoorwaarde in.",
+      "personalUse": "Herinnering stopt pas wanneer je de taak echt bevestigt als gedaan.",
+      "featuredRank": 14
     },
     {
       "id": "bouw-004",
@@ -60,7 +66,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Maak reistijdvelden zichtbaar bij stagebezoeken en afspraken buiten de deur.",
+      "personalUse": "Voeg realistische vertrektijd en parkeerbuffer toe, zonder dubbele ritten.",
+      "featuredRank": 19
     },
     {
       "id": "bouw-006",
@@ -120,7 +129,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Volg uitgaande e-mails met gevraagde antwoorden, niet ieder verzonden bericht.",
+      "personalUse": "Stel na afgesproken termijn een opvolgvoorstel op; niet automatisch versturen.",
+      "featuredRank": 15
     },
     {
       "id": "bouw-011",
@@ -132,7 +144,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Bezoekplaatsen, lesuren, duo's en startpunt in één afgeschermde bron zetten.",
+      "personalUse": "Maximaal drie bezoeken per dag met geografisch slimme route en zo min mogelijk wachten.",
+      "featuredRank": 3
     },
     {
       "id": "bouw-012",
@@ -144,7 +159,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Begin met één BVI/OTL-rubric en één geanonimiseerd portfolio.",
+      "personalUse": "Per leeruitkomst aantoonbaar/niet aantoonbaar met bewijsverwijzing; docentoordeel blijft leidend.",
+      "featuredRank": 7
     },
     {
       "id": "bouw-013",
@@ -240,7 +258,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Jouw vaste contracten en einddata vastleggen, dan prijsvergelijkingen op dezelfde diensten en voorwaarden laten uitvoeren.",
+      "personalUse": "Begin met KPN, Odido en Vattenfall; toon verlengprijs, overstappen en totaalkosten na 12 maanden.",
+      "featuredRank": 1
     },
     {
       "id": "bouw-021",
@@ -288,7 +309,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Een lijst van jouw exacte Apple, Dyson, HOKA en premiumproducten met EAN/uitvoering vastleggen.",
+      "personalUse": "Voorkom nepkortingen rond Black Friday dankzij normale marktprijs en prijsverloop.",
+      "featuredRank": 11
     },
     {
       "id": "bouw-025",
@@ -300,7 +324,10 @@
       "score": 4,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Leg je ING-puntenstand vast en selecteer vouchers voor aankopen die je al van plan was.",
+      "personalUse": "Vergelijk punten, bijbetaling, verzendkosten en beste cashprijs voor dezelfde aankoop.",
+      "featuredRank": 17
     },
     {
       "id": "bouw-026",
@@ -336,7 +363,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Begin met lijst geplande glas-, kozijn- en isolatiemaatregelen, voeg gemeente en woningsituatie toe.",
+      "personalUse": "Alleen regelingen tonen met bevestigde actuele voorwaarden en aanvraagperiode.",
+      "featuredRank": 12
     },
     {
       "id": "bouw-029",
@@ -360,7 +390,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Controleren of SmartThings de was-klaar-gebeurtenis via een ondersteunde integratie kan leveren; pas daarna Trello koppelen.",
+      "personalUse": "Alleen een kaart als de was werkelijk klaar is, nooit elke telefoontekst zomaar uitlezen.",
+      "featuredRank": 2
     },
     {
       "id": "bouw-031",
@@ -372,7 +405,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Een privézaakdossier maken met lekkagefoto's, rapporten, mails en offertes.",
+      "personalUse": "Volgende stap voor verzekeraar en aannemer wordt automatisch voorgesteld, zonder aansprakelijkheid te verzinnen.",
+      "featuredRank": 6
     },
     {
       "id": "bouw-032",
@@ -432,7 +468,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://www.ema.europa.eu/en/medicines"
+      "source": "https://www.ema.europa.eu/en/medicines",
+      "nextStep": "Monitor regulatoren en gepubliceerd klinisch onderzoek op relevante en onverwachte ontwikkelingen.",
+      "personalUse": "Meld pas bij veiligheidsinformatie, behandeltoelating of klinisch bewijs met toepasbaarheid in NL.",
+      "featuredRank": 16
     },
     {
       "id": "bouw-037",
@@ -504,7 +543,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://github.com/DASPHHS/specialedeals"
+      "source": "https://github.com/DASPHHS/specialedeals",
+      "nextStep": "Drie smashes met dezelfde camerahoek opnemen; vergelijk contactpunt en timing met coachfeedback.",
+      "personalUse": "Kleine gerichte drills om vaker gecontroleerd hard te smashen.",
+      "featuredRank": 9
     },
     {
       "id": "bouw-043",
@@ -564,7 +606,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://github.com/DASPHHS/specialedeals"
+      "source": "https://github.com/DASPHHS/specialedeals",
+      "nextStep": "Totaalprijsregels vastzetten: 2 personen, maximaal €100 per kamer per nacht, toeslagen inbegrepen.",
+      "personalUse": "Alleen verifieerbare deals met data en volledige eindprijs.",
+      "featuredRank": 10
     },
     {
       "id": "bouw-048",
@@ -624,7 +669,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Zoek eerst alleen Gmail-facturen en bijlagen uit bekende webshops; maak geen automatische verwijderacties.",
+      "personalUse": "Bij een kapotte Dyson direct aankoopdatum, garantieduur en factuur vinden.",
+      "featuredRank": 5
     },
     {
       "id": "bouw-053",
@@ -636,7 +684,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Begin met read-only Gmail-filters voor deadlines, financiële mails en stageverzoeken.",
+      "personalUse": "Minder inboxruis: alleen voorstellen die echt om actie vragen.",
+      "featuredRank": 8
     },
     {
       "id": "bouw-054",
@@ -648,7 +699,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Maak een afgeschermde index van geselecteerde Drive/Dropbox- en mailbestanden.",
+      "personalUse": "Vraag 'wat sprak de loodgieter af?' en krijg een citaat plus bronlink, geen verzonnen antwoord.",
+      "featuredRank": 13
     },
     {
       "id": "bouw-055",
@@ -684,7 +738,10 @@
       "score": 5,
       "complexity": "Hoog",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://developers.google.com/apps-script/guides/triggers/installable"
+      "source": "https://developers.google.com/apps-script/guides/triggers/installable",
+      "nextStep": "Onderzoek Reddit-ideeën alleen wanneer stappen reproduceerbaar en bronclaims controleerbaar zijn.",
+      "personalUse": "Een slimme iPhone- of AI-workflow krijgt een voorbeeld voor jouw leven in plaats van een losse link.",
+      "featuredRank": 18
     },
     {
       "id": "bouw-058",
@@ -756,7 +813,10 @@
       "score": 5,
       "complexity": "Middel",
       "status": "Concept — niet gebouwd of getest",
-      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios"
+      "source": "https://support.apple.com/nl-nl/guide/shortcuts/apde31e9638b/ios",
+      "nextStep": "Controleer bekende accounts op publiek gemelde datalekken via vertrouwde dienst en geef herstelstappen.",
+      "personalUse": "Alleen concrete beveiligingsmaatregelen wanneer er werkelijk een risico bekend is.",
+      "featuredRank": 20
     },
     {
       "id": "bouw-064",
@@ -883,5 +943,6 @@
     "total": 73,
     "categories": 12
   },
-  "criteria": "Handige levensverbetering, haalbare input, betrouwbaar voordeel, begrijpelijke uitkomst; geen vast maximum"
+  "criteria": "Handige levensverbetering, haalbare input, betrouwbaar voordeel, begrijpelijke uitkomst; geen vast maximum",
+  "editorial": "20 ideeën extra uitgewerkt met specifieke eerste stap en toepassing. De overige ideeën blijven afzonderlijke bouwconcepten."
 }

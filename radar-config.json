@@ -220,6 +220,131 @@
       "name": "Top4Running",
       "url": "https://top4running.nl/",
       "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Kruidvat",
+      "url": "https://www.kruidvat.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Rituals",
+      "url": "https://www.rituals.com/nl-nl/home",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Davines",
+      "url": "https://nl.davines.com/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Janzen",
+      "url": "https://www.janzen.com/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Douglas",
+      "url": "https://www.douglas.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Giraffe Coffee",
+      "url": "https://giraffecoffee.com/",
+      "category": "Koffie"
+    },
+    {
+      "name": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padel-rackets/weekend-aanbieding-padel-rackets-/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "PadelXpert",
+      "url": "https://www.padelexpert.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Tennis-Point",
+      "url": "https://www.tennis-point.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Smashinn",
+      "url": "https://www.tradeinn.com/smashinn/nl",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Decathlon",
+      "url": "https://www.decathlon.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "i-Run",
+      "url": "https://www.i-run.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Bever",
+      "url": "https://www.bever.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Bergfreunde",
+      "url": "https://www.bergfreunde.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Zalando",
+      "url": "https://www.zalando.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Showroomprivé",
+      "url": "https://www.showroomprive.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Limango",
+      "url": "https://www.limango.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Catawiki",
+      "url": "https://www.catawiki.com/nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Supersales",
+      "url": "https://www.supersales.nl/",
+      "category": "Vergelijker"
+    },
+    {
+      "name": "Coolblue",
+      "url": "https://www.coolblue.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Amac",
+      "url": "https://www.amac.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Back Market",
+      "url": "https://www.backmarket.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Swappie",
+      "url": "https://swappie.com/nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Sample Sale Amsterdam Noord",
+      "url": "https://samplesaleamsterdamnoord.nl/",
+      "category": "Sample sales"
     }
   ],
   "inclusion": "Only explicit exact brand/product matches. Broad category-only nonmatches are not included.",

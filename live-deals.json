@@ -1,137 +1,366 @@
 {
-  "updatedAt": "2026-10-24T19:30:18.952704+00:00",
+  "updatedAt": "2026-10-24T21:12:26.523573+00:00",
   "deals": [
     {
       "title": "Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
       "url": "https://nl.pepper.com/aanbiedingen/apple-watch-series-11-46-mm-gps-cellular-zilver-aluminium-sportband-sm-flash-sale-423511",
-      "source": "Pepper NL (RSS kandidaat)",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Sat, 24 Oct 2026 18:54:33 +0200",
       "price": null,
-      "score": 56,
+      "score": 55,
       "matched": [
         "apple"
       ],
-      "discovery": false,
-      "priceVerified": false,
-      "priceOrigin": null
-    },
-    {
-      "title": "313° - Rituals discovery set",
-      "url": "https://nl.pepper.com/aanbiedingen/rituals-discovery-set-423496",
-      "source": "Pepper NL hot (RSS kandidaat)",
-      "price": 24.72,
-      "score": 44,
-      "matched": [
-        "rituals"
-      ],
-      "discovery": false,
-      "priceVerified": false,
-      "priceOrigin": "feed"
-    },
-    {
-      "title": "Sony INZONE Mouse-A – Draadloze Pro Esports Gaming Muis (48,4g, 8000 Hz, 30.000 DPI, Optische Switches) - Laagste prijs ooit",
-      "url": "https://nl.pepper.com/aanbiedingen/sony-inzone-mouse-a-draadloze-pro-esports-gaming-muis-484g-8000-hz-30000-dpi-optische-switches-laagste-prijs-ooit-423523",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": null,
-      "score": 12,
-      "matched": [],
+      "category": "Technologie & wonen",
       "discovery": true,
       "priceVerified": false,
-      "priceOrigin": null
-    },
-    {
-      "title": "iFLOOR 5 nat/droog stofzuiger",
-      "url": "https://nl.pepper.com/aanbiedingen/ifloor-5-natdroog-stofzuiger-423506",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": 129.99,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": "feed"
-    },
-    {
-      "title": "Ninja airfryer pro 6.2 liter (blauwe)",
-      "url": "https://nl.pepper.com/aanbiedingen/ninja-airfryer-pro-62-liter-423503",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": 84.99,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": "feed"
-    },
-    {
-      "title": "Ninja airfryer pro 6.2 liter",
-      "url": "https://nl.pepper.com/aanbiedingen/ninja-airfryer-pro-62-liter-423505",
-      "source": "Pepper NL (RSS kandidaat)",
-      "price": 84.99,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": "feed"
-    },
-    {
-      "title": "Noord-Brabant Outdoor op 23 Oktober 2026 UITagenda Activiteiten (406 x) - DagjeWeg.NL",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc1ZnOS0yVmw5dWpDQXlLTHBWQlpwd09GRXNpWXFTNWd5ZWhTTXB3NldHU3piSV8wWk5ZZEdURFI1Y29UcnFHUWp2ZWRiR1Z4MnpHWW15amtBQ1E1bWM1WmE4dUxiendSNVlWTFdfbVVLMWJMcU55QXgzTkU0VVlhYkJVUXA?oc=5",
-      "source": "Winacties sport en technologie",
-      "price": null,
-      "score": 12,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": null
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
     }
   ],
-  "promotions": [
-    {
-      "title": "Winactie | Maak kans op 3 nachten in berghotel Forsthofalm in Leogang - Snowrepublic",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWE85bms1RW1NekRmeUZaSUkwT0VuSjRJdFNxZFRYMkhLRWoxS0Z5QW9jaTk1eGlWTWU2R0ZJTzlvQUZUbTZYc1p0RTlhZm5DV3VmMGlpb1hIYkkwYklwRUc5SnFxT0FtMERsZDVJSWkxd0VNV0Vnbk1KU1NIMEdGU0swbFpLR2t4cmFhR2RQNWVKYjlfRURFVjMtd1U?oc=5",
-      "source": "Winacties wonen en reizen",
-      "price": null,
-      "score": 0,
-      "matched": [],
-      "discovery": true,
-      "priceVerified": false,
-      "priceOrigin": null,
-      "kind": "winactie",
-      "verified": false,
-      "code": null,
-      "deadline": null,
-      "conditionsVerified": false
-    }
-  ],
+  "samples": [],
+  "promotions": [],
   "sources": [
     {
-      "source": "Pepper NL (RSS kandidaat)",
+      "source": "Pepper Nederland",
       "status": "ok",
       "items": 30
     },
     {
-      "source": "Pepper NL hot (RSS kandidaat)",
+      "source": "Pepper Hot",
       "status": "ok",
       "items": 30
     },
     {
       "source": "iBOOD",
       "status": "error",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 403: Forbidden",
+      "items": 0
     },
     {
-      "source": "Winacties sport en technologie",
-      "status": "ok",
-      "items": 15
+      "source": "Merkscan 1",
+      "status": "empty",
+      "items": 0
     },
     {
-      "source": "Winacties wonen en reizen",
-      "status": "ok",
-      "items": 2
+      "source": "Merkscan 2",
+      "status": "empty",
+      "items": 0
     },
     {
-      "source": "Kortingscodes premium merken",
+      "source": "Merkscan 3",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 4",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 5",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 6",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 7",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 8",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 9",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 10",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 11",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 12",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 13",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 14",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 15",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 16",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 17",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 18",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 19",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 20",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 21",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Merkscan 22",
       "status": "empty",
       "items": 0
     }
   ],
-  "note": "Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."
+  "retailers": [
+    {
+      "name": "Weleda",
+      "url": "https://www.weleda.nl/categorie/lichaam/ingredient/skin-food-86",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Holland & Barrett",
+      "url": "https://www.hollandandbarrett.nl/shop/brands/weleda/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Veepee",
+      "url": "https://www.veepee.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Lounge by Zalando",
+      "url": "https://www.zalando-lounge.nl/merken-outlet/",
+      "category": "Outlet"
+    },
+    {
+      "name": "BestSecret",
+      "url": "https://www.bestsecret.com/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Otrium",
+      "url": "https://www.otrium.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "ING Punten",
+      "url": "https://www.ing.nl/punten/",
+      "category": "Vouchers"
+    },
+    {
+      "name": "Stockverkopen",
+      "url": "https://www.stockverkopen.nl/",
+      "category": "Sample sales"
+    },
+    {
+      "name": "Your Sample Sale",
+      "url": "https://yoursamplesale.nl/evenementen/",
+      "category": "Sample sales"
+    },
+    {
+      "name": "Pepper",
+      "url": "https://nl.pepper.com/",
+      "category": "Community"
+    },
+    {
+      "name": "iBOOD",
+      "url": "https://www.ibood.com/nl/s-nl",
+      "category": "Dagdeals"
+    },
+    {
+      "name": "Notino",
+      "url": "https://www.notino.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Padel-Point",
+      "url": "https://www.padel-point.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "All4running",
+      "url": "https://www.all4running.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Top4Running",
+      "url": "https://top4running.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Kruidvat",
+      "url": "https://www.kruidvat.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Rituals",
+      "url": "https://www.rituals.com/nl-nl/home",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Davines",
+      "url": "https://nl.davines.com/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Janzen",
+      "url": "https://www.janzen.com/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Douglas",
+      "url": "https://www.douglas.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Giraffe Coffee",
+      "url": "https://giraffecoffee.com/",
+      "category": "Koffie"
+    },
+    {
+      "name": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padel-rackets/weekend-aanbieding-padel-rackets-/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "PadelXpert",
+      "url": "https://www.padelexpert.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Tennis-Point",
+      "url": "https://www.tennis-point.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Smashinn",
+      "url": "https://www.tradeinn.com/smashinn/nl",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "Decathlon",
+      "url": "https://www.decathlon.nl/",
+      "category": "Padel & sport"
+    },
+    {
+      "name": "i-Run",
+      "url": "https://www.i-run.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Bever",
+      "url": "https://www.bever.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Bergfreunde",
+      "url": "https://www.bergfreunde.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Zalando",
+      "url": "https://www.zalando.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "Showroomprivé",
+      "url": "https://www.showroomprive.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Limango",
+      "url": "https://www.limango.nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Catawiki",
+      "url": "https://www.catawiki.com/nl/",
+      "category": "Outlet"
+    },
+    {
+      "name": "Supersales",
+      "url": "https://www.supersales.nl/",
+      "category": "Vergelijker"
+    },
+    {
+      "name": "Coolblue",
+      "url": "https://www.coolblue.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Amac",
+      "url": "https://www.amac.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Back Market",
+      "url": "https://www.backmarket.nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Swappie",
+      "url": "https://swappie.com/nl/",
+      "category": "Technologie"
+    },
+    {
+      "name": "Sample Sale Amsterdam Noord",
+      "url": "https://samplesaleamsterdamnoord.nl/",
+      "category": "Sample sales"
+    }
+  ],
+  "coverage": {
+    "searchQueries": 22,
+    "sourcesConfigured": 3,
+    "scannedItems": 60,
+    "personalMatches": 1
+  },
+  "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."
 }

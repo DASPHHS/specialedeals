@@ -1,0 +1,28 @@
+name: AI Kansen radar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 6 * * *'
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and refresh AI opportunities
+        run: |
+          python -m unittest test_ai_kansen.py -v
+          python ai_kansen_scan.py
+      - name: Publish changed AI insights
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-kansen.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update curated AI and Reddit opportunities"
+            git push
+          fi

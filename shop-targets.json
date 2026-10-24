@@ -47,7 +47,8 @@
         "75"
       ],
       "category": "Verzorging & geuren",
-      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
+      "comparisonGroup": "weleda-skin-food-original-75ml"
     },
     {
       "title": "Weleda Skin Food Light 75 ml",
@@ -182,6 +183,70 @@
       "shippingNote": "Verzendkosten van Padel Voordeel bij afrekenen controleren",
       "comparisonGroup": "adidas-metalbone-carbon-2026",
       "exactModel": "AR2AA2U22"
+    },
+    {
+      "title": "Weleda Skin Food 75 ml",
+      "store": "De Gezondheidslijn",
+      "url": "https://www.degezondheidslijn.nl/skin-food-weleda-75ml/",
+      "require": [
+        "skin",
+        "food",
+        "75"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Controleer bezorgkosten en minimum voor gratis verzending",
+      "comparisonGroup": "weleda-skin-food-original-75ml"
+    },
+    {
+      "title": "Weleda Skin Food 75 ml",
+      "store": "KoopjesDrogisterij",
+      "url": "https://www.koopjesdrogisterij.nl/weleda-skin-food-75ml-902367.html",
+      "require": [
+        "skin",
+        "food",
+        "75"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Controleer verzendkosten en staffelprijs",
+      "comparisonGroup": "weleda-skin-food-original-75ml"
+    },
+    {
+      "title": "Weleda Skin Food 75 ml",
+      "store": "Holland & Barrett",
+      "url": "https://www.hollandandbarrett.nl/shop/product/weleda-skin-food-6100136393",
+      "require": [
+        "skin",
+        "food",
+        "75"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending volgens winkel vanaf €29,99",
+      "comparisonGroup": "weleda-skin-food-original-75ml"
+    },
+    {
+      "title": "Weleda Skin Food 75 ml",
+      "store": "Ecco Verde",
+      "url": "https://www.ecco-verde.nl/weleda/skin-food?sai=32293",
+      "require": [
+        "skin",
+        "food",
+        "75"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Verzendkosten op productpagina, buiten artikelprijs",
+      "comparisonGroup": "weleda-skin-food-original-75ml"
+    },
+    {
+      "title": "HOKA Arahi 8 heren (maat 47⅓ te kiezen)",
+      "store": "DAKA Sport",
+      "url": "https://www.daka.nl/p/hoka-m-arahi-8-sku_101363",
+      "require": [
+        "arahi",
+        "8"
+      ],
+      "category": "Outdoor & herenkleding",
+      "shippingNote": "Maat en bezorgkosten bij de winkel selecteren",
+      "variantNote": "Maat EU47⅓ en kleurenvariant niet onafhankelijk geselecteerd"
     }
   ]
 }

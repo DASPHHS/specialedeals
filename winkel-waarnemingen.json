@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-10-24",
+  "note": "Handmatig waargenomen winkelprijzen op publicatiepagina's. Geen live-controle of berekende all-in bezorgprijs; geen gegarandeerde voorraad.",
+  "offers": [
+    {
+      "title": "Weleda Skin Food Crème 75 ml",
+      "brand": "Weleda",
+      "store": "De Online Drogist",
+      "price": 8.99,
+      "referencePrice": 11.99,
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "shippingKnown": false,
+      "stockObservation": "> 50 (volgens winkelpagina)",
+      "category": "Verzorging & geuren",
+      "checkedOn": "2026-10-24",
+      "note": "25% onder genoemde adviesprijs, maar niet bewezen goedkoopste all-in."
+    },
+    {
+      "title": "Weleda Skin Food Light 75 ml",
+      "brand": "Weleda",
+      "store": "De Online Drogist",
+      "price": 8.24,
+      "referencePrice": 10.99,
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "shippingKnown": false,
+      "stockObservation": "> 50 (volgens winkelpagina)",
+      "category": "Verzorging & geuren",
+      "checkedOn": "2026-10-24",
+      "note": "Exacte variant. Verzendkosten en bundelprijzen nog te vergelijken."
+    },
+    {
+      "title": "Weleda Skin Food Body Butter 150 ml",
+      "brand": "Weleda",
+      "store": "De Online Drogist",
+      "price": 11.99,
+      "referencePrice": 15.99,
+      "url": "https://www.deonlinedrogist.nl/weleda-m-77.html?filter_423=Weleda+Skin+Food",
+      "shippingKnown": false,
+      "stockObservation": "> 50 (volgens winkelpagina)",
+      "category": "Verzorging & geuren",
+      "checkedOn": "2026-10-24",
+      "note": "Adviesprijskorting, geen onafhankelijk bewezen marktvoordeel."
+    }
+  ]
+}

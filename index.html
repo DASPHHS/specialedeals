@@ -28,7 +28,7 @@ nav button.active{background:#c6f4dc;color:#123a2d;border-color:#c6f4dc;font-wei
 label{display:block;margin:12px 0 5px}footer{font-size:12px;color:#90a6bc;text-align:center;padding:18px}
 .links{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.links a{color:#e1f1ff;background:#243d57;border:1px solid #3d596b;text-decoration:none;border-radius:9px;padding:8px 11px;font-size:13px}
 details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-weight:600}
-@media(max-width:620px){.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
+@media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
 </style></head><body>
 <header><div class="small">Jouw persoonlijke premiumradar · volledig los van Koopkracht</div><h1>Speciale Deals<span style="color:#95f4bb">.</span></h1><p>Relevante vondsten, écht gecontroleerde koopjes en alerts op één overzichtelijke plek.</p></header>
 <main>
@@ -141,7 +141,11 @@ function loadObs(o,m){
  }else $("merchantUpdated").textContent="Nog geen automatisch gecontroleerde winkelprijzen beschikbaar.";
  draw("observations",app.observations,"store");
  const first=$("firstcards");first.replaceChildren();
- const highlighted=app.observations.filter(x=>stockInfo(x).order<3&&x.variantVerified!==false).slice(0,6);
+ const candidates=app.observations.filter(x=>stockInfo(x).order<3&&x.variantVerified!==false);
+ const highlighted=[],usedBrands=new Set();
+ function brand(x){return (x.title||"").split(/\s+/)[0].toLowerCase().replace(/[^a-z]/g,"")}
+ for(const item of candidates){const b=brand(item);if(!usedBrands.has(b)){highlighted.push(item);usedBrands.add(b)}if(highlighted.length>=6)break}
+ for(const item of candidates){if(highlighted.length>=6)break;if(!highlighted.includes(item))highlighted.push(item)}
  highlighted.forEach(x=>first.append(card(x,"store")));
  app.deals.slice(0,2).forEach(x=>first.append(card(x,"candidate")));
  if(!highlighted.length&&!app.deals.length)first.append(el("div","empty","Geen recente persoonlijke productvondsten."));

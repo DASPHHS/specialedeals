@@ -1,12 +1,6 @@
 {
-  "updatedAt": "2026-10-24T21:54:02.028528+00:00",
-  "items": [
-    {
-      "product": "TEST-ALERT-VERBINDING",
-      "maxPriceEUR": 1.0,
-      "createdAt": "2026-10-24T21:54:02.028519+00:00"
-    }
-  ],
+  "updatedAt": "2026-10-24T21:54:37.150553+00:00",
+  "items": [],
   "visibility": "public repository",
   "note": "New watch alerts are published publicly here. Never enter personal medical or secret information."
 }

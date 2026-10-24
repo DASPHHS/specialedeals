@@ -52,7 +52,17 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <section id="samples" class="section"><h2>Sample sales en archive sales</h2><p class="muted">Alleen evenementen met een duidelijke persoonlijke merkmatch. De aangekondigde merkverkoop is nog geen bewijs dat jouw maat en de kortingen goed zijn.</p><div id="samplecards" class="cards"></div><div class="note">Ook gecontroleerd als ontdekkingsbronnen: Stockverkopen.nl, Your Sample Sale, Lounge by Zalando en Veepee. Achter een login kunnen data en artikelprijzen ontbreken.</div></section>
 <section id="ing" class="section"><h2>ING Punten · echte besparing</h2><div class="panel"><div class="two"><div class="tile"><span class="muted">Mijn puntenstand</span><strong id="ingbalance">–</strong><span class="small">Alleen lokaal op jouw apparaat</span></div><div class="tile"><span class="muted">Bewezen voordelige ING-deals</span><strong>Nog niet vastgesteld</strong><span class="small">Actuele puntenprijzen en bijbetalingen vereisen controle in de ING Winkel</span></div></div>
 <label for="ingPoints">Mijn ING-puntensaldo</label><input type="number" min="0" id="ingPoints" placeholder="Bijvoorbeeld 51000"><button class="secondary" id="ingSave">Puntenstand bewaren</button><p id="ingmsg" class="small"></p>
-<div class="note">Bij vouchers vergelijk ik een aankoop die je toch zou doen met de contante eindprijs, verzendkosten, geldigheid en hoeveelheid benodigde punten. Een hoog kortingspercentage alleen zegt weinig.</div><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de ING Puntenwinkel ↗</a></div></section>
+<div class="note">ING-acties achter je banklogin zijn niet automatisch uitleesbaar. Je kunt hieronder wél direct uitrekenen hoeveel je maximaal aan euro's bespaart ten opzichte van dezelfde aankoop zonder punten. Deze vergelijking waardeert de ingeleverde punten nog niet als geld.</div>
+<h3>Vergelijk een ING Punten-aanbieding</h3>
+<p class="muted">Vul de cijfers van een concrete aanbieding zelf in. Geen automatische koppeling of live-prijsbewijs.</p>
+<div class="two">
+ <div><label for="ingCompareName">Product of voucher</label><input id="ingCompareName" type="text" placeholder="Bijv. Rituals cadeaubon" style="width:100%"></div>
+ <div><label for="ingComparePoints">Benodigde punten</label><input id="ingComparePoints" type="number" min="1" step="1" placeholder="Bijv. 1500" style="width:100%"></div>
+ <div><label for="ingCompareCash">ING bijbetaling (€)</label><input id="ingCompareCash" type="number" min="0" step=".01" placeholder="0,00" style="width:100%"></div>
+ <div><label for="ingCompareShip">ING verzendkosten (€)</label><input id="ingCompareShip" type="number" min="0" step=".01" placeholder="0,00" style="width:100%"></div>
+ <div><label for="ingCompareMarket">Beste vergelijkbare contante eindprijs (€)</label><input id="ingCompareMarket" type="number" min="0" step=".01" placeholder="30,00" style="width:100%"></div>
+</div>
+<button class="more" id="ingCompare">Bereken het voordeel</button><p class="note" id="ingCompareResult" aria-live="polite">Vul de velden in om een vergelijkbare ING-aanbieding te beoordelen.</p><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de ING Puntenwinkel ↗</a></div></section>
 <section id="settings" class="section"><h2>Mijn alertvoorkeuren</h2><div class="panel">
 <h3>Mijn persoonlijke volglijst</h3><p class="muted" id="watchlist">Merken laden…</p>
 <h3>Mijn echte productalerts instellen</h3><p class="muted">Vul product en maximale prijs in. De knop opent GitHub om de wijziging te bevestigen. Daarna bewaart GitHub de alert voor je scanner en de ChatGPT-alerttaak. Je GitHub-account moet ingelogd zijn. Je volglijst is openbaar: voer geen privégegevens in.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Alert instellen via GitHub</button><p id="watchStatus" class="small">Gegevens worden niet opgeslagen voordat je de GitHub-aanvraag bevestigt.</p><div id="wishRows" class="links"></div>
@@ -185,6 +195,21 @@ $("wishAdd").onclick=()=>{
 };
 const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
 $("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
+$("ingCompare").onclick=()=>{
+ const points=Number($("ingComparePoints").value),cash=Number($("ingCompareCash").value),shipping=Number($("ingCompareShip").value),other=Number($("ingCompareMarket").value);
+ if(![points,cash,shipping,other].every(Number.isFinite)||!Number.isInteger(points)||points<1||cash<0||shipping<0||other<=0||
+   [$("ingComparePoints"),$("ingCompareCash"),$("ingCompareShip"),$("ingCompareMarket")].some(x=>x.value.trim()==="")){
+  $("ingCompareResult").textContent="Vul geldige punten, bijbetaling, verzending en een vergelijking in.";return;
+ }
+ const spent=cash+shipping,benefit=other-spent,perPoint=benefit/points*100;
+ const budgetRaw=localStorage.getItem(ingKey);
+ const beyond=budgetRaw!==null&&Number(budgetRaw)<points;
+ const label=$("ingCompareName").value.trim()||"Deze aanbieding";
+ $("ingCompareResult").textContent=label+": "+(benefit>0?"maximaal "+money(benefit)+" contant prijsverschil vóór waardering van de punten.":"geen aantoonbaar contant prijsvoordeel.")+
+ " Impliciete waarde: "+(benefit>0?perPoint.toFixed(2).replace(".",","):"0")+" eurocent per gebruikt punt."+
+ (beyond?" Je opgegeven puntensaldo is te laag voor deze aanbieding.":"")+
+ " Let op: alleen zinvol als het exact dezelfde aankoop betreft en alle voorwaarden kloppen. Geen onafhankelijk gecontroleerd koopadvies.";
+};
 $("copyPrompt").onclick=async()=>{const name=$("alertItem").value.trim(),min=$("alertMin").value;if(!name){$("copyStatus").textContent="Vul eerst een nieuwe interesse in.";return}const msg="Wijzig de bestaande Speciale Deals-uurlijkse en dagelijkse ChatGPT-taken en het profiel in DASPHHS/specialedeals. Voeg toe: "+name+". Minimale gewenste korting "+min+"%, verifieer ook de eindprijs, juiste maat, voorraad en dubbelmeldingen. Laat Koopkracht ongemoeid.";try{await navigator.clipboard.writeText(msg);$("copyStatus").textContent="Gekopieerd. Plak in ChatGPT om de taken echt aan te passen."}catch{$("copyStatus").textContent=msg}};
 Promise.allSettled([
 fetch("./live-deals.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}),

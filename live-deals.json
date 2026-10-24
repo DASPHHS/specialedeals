@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-24T22:13:25.892413+00:00",
+  "updatedAt": "2026-10-24T22:14:30.154889+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 147,
+    "source_quality": 137,
     "duplicate": 0
   },
   "deals": [],
@@ -192,7 +192,7 @@
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -227,7 +227,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -237,12 +237,12 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -460,7 +460,7 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 207,
+    "scannedItems": 197,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."

@@ -1,24 +1,48 @@
 {
-  "updatedAt": "2026-10-24T12:01:42.596431+00:00",
+  "updatedAt": "2026-10-24T19:30:18.952704+00:00",
   "deals": [
     {
-      "title": "384° - [bol.com][dagdeal]Tot 25% - 50% select-korting op geselecteerde pannen van Demeyere",
-      "url": "https://nl.pepper.com/aanbiedingen/bolcom-tot-25-select-korting-op-geselecteerde-pannen-van-demeyere-423431",
-      "source": "Pepper NL hot (RSS kandidaat)",
+      "title": "Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
+      "url": "https://nl.pepper.com/aanbiedingen/apple-watch-series-11-46-mm-gps-cellular-zilver-aluminium-sportband-sm-flash-sale-423511",
+      "source": "Pepper NL (RSS kandidaat)",
       "price": null,
-      "score": 32,
+      "score": 56,
       "matched": [
-        "demeyere"
+        "apple"
       ],
       "discovery": false,
       "priceVerified": false,
       "priceOrigin": null
     },
     {
-      "title": "[LOKAAL] Hema Mijdrecht koffiebonen 50% 9,99 a kg",
-      "url": "https://nl.pepper.com/aanbiedingen/lokaal-hema-mijdrecht-koffiebonen-50-999-a-kg-423452",
+      "title": "313° - Rituals discovery set",
+      "url": "https://nl.pepper.com/aanbiedingen/rituals-discovery-set-423496",
+      "source": "Pepper NL hot (RSS kandidaat)",
+      "price": 24.72,
+      "score": 44,
+      "matched": [
+        "rituals"
+      ],
+      "discovery": false,
+      "priceVerified": false,
+      "priceOrigin": "feed"
+    },
+    {
+      "title": "Sony INZONE Mouse-A – Draadloze Pro Esports Gaming Muis (48,4g, 8000 Hz, 30.000 DPI, Optische Switches) - Laagste prijs ooit",
+      "url": "https://nl.pepper.com/aanbiedingen/sony-inzone-mouse-a-draadloze-pro-esports-gaming-muis-484g-8000-hz-30000-dpi-optische-switches-laagste-prijs-ooit-423523",
       "source": "Pepper NL (RSS kandidaat)",
-      "price": 9.99,
+      "price": null,
+      "score": 12,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": null
+    },
+    {
+      "title": "iFLOOR 5 nat/droog stofzuiger",
+      "url": "https://nl.pepper.com/aanbiedingen/ifloor-5-natdroog-stofzuiger-423506",
+      "source": "Pepper NL (RSS kandidaat)",
+      "price": 129.99,
       "score": 12,
       "matched": [],
       "discovery": true,
@@ -26,10 +50,21 @@
       "priceOrigin": "feed"
     },
     {
-      "title": "218° - Instant Pot Duo Crisp 7,6L: grote multicooker én airfryer in één voor €189 bij Joybuy",
-      "url": "https://nl.pepper.com/aanbiedingen/instant-pot-duo-crisp-76l-grote-multicooker-en-airfryer-in-een-voor-eur189-bij-joybuy-423435",
-      "source": "Pepper NL hot (RSS kandidaat)",
-      "price": 189.0,
+      "title": "Ninja airfryer pro 6.2 liter (blauwe)",
+      "url": "https://nl.pepper.com/aanbiedingen/ninja-airfryer-pro-62-liter-423503",
+      "source": "Pepper NL (RSS kandidaat)",
+      "price": 84.99,
+      "score": 12,
+      "matched": [],
+      "discovery": true,
+      "priceVerified": false,
+      "priceOrigin": "feed"
+    },
+    {
+      "title": "Ninja airfryer pro 6.2 liter",
+      "url": "https://nl.pepper.com/aanbiedingen/ninja-airfryer-pro-62-liter-423505",
+      "source": "Pepper NL (RSS kandidaat)",
+      "price": 84.99,
       "score": 12,
       "matched": [],
       "discovery": true,
@@ -85,7 +120,7 @@
     {
       "source": "Winacties sport en technologie",
       "status": "ok",
-      "items": 16
+      "items": 15
     },
     {
       "source": "Winacties wonen en reizen",

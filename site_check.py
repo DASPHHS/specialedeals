@@ -64,7 +64,7 @@ for row in live.get("deals",[]):
  if row.get("priceVerified") is True or row.get("allInVerified") is True:
   raise RuntimeError("Discovery lead falsely marked as verified")
 index=(ROOT/"index.html").read_text(encoding="utf-8")
-for phrase in ("stockInfo(d)","app.observations","marketComparisonVerified","watchlist.json","ingCompare"):
+for phrase in ("stockInfo(d)","app.observations","Nog geen onafhankelijke marktprijsvergelijking","watchlist.json","ingCompare"):
  if phrase not in index:raise RuntimeError("Dashboard missing safety/alert behavior "+phrase)
 
 print("Website and JSON quality checks passed.")

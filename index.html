@@ -120,7 +120,7 @@ function renderFound(){
 }
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
-function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=ok+" bereikt · "+errors+" fouten";
+function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL")+" · ":"") +ok+" bereikt · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
 const parent=$("sourceRows");parent.replaceChildren();
 const merks=app.sources.filter(s=>s.source.startsWith("Merkscan"));
 parent.append(el("p",null,merks.length+" gerichte merkzoekopdrachten, waarvan "+merks.filter(s=>s.items>0).length+" met gevonden artikelen."));
@@ -134,7 +134,7 @@ function usableCandidate(d){
  const t=((d.title||"")+" "+new URL(d.url).pathname).toLowerCase();
  return ["aanbieding","korting","sale","outlet","actie","deal","sample","discount","prijs","%"].some(x=>t.includes(x))
 }
-function loadDeals(d){app.deals=(d.deals||[]).filter(usableCandidate);app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;
+function loadDeals(d){app.deals=(d.deals||[]).filter(usableCandidate);app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;app.feedUpdated=d.updatedAt||null;
 $("matchcount").textContent=app.deals.length+app.samples.length;
 draw("firstcards",app.deals.slice(0,6),"candidate");draw("samplecards",app.samples,"sample");draw("promos",app.promos,"candidate");
 const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();const select=$("group");groups.forEach(g=>{let o=document.createElement("option");o.value=g;o.textContent=g;select.append(o)});

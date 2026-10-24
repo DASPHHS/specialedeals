@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+  "checkedAt": "2026-10-24T21:41:04.904179+00:00",
   "offers": [
     {
       "title": "Adidas Metalbone Carbon '26",
@@ -7,16 +7,20 @@
       "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
       "category": "Padel & sport",
       "price": 125.0,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
-      "titleOnPage": "ADIDAS METALBONE CARBON &#039;26",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
+      "titleOnPage": "ADIDAS METALBONE CARBON '26",
       "availabilityText": "https://schema.org/OutOfStock",
+      "stockStatus": "uitverkocht",
       "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 125.0,
+      "ownHistoryHigh90d": 125.0
     },
     {
       "title": "Adidas Metalbone HRD+ '26",
@@ -24,16 +28,20 @@
       "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
       "category": "Padel & sport",
       "price": 200.0,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
-      "titleOnPage": "ADIDAS METALBONE HRD+ &#039;26",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
+      "titleOnPage": "ADIDAS METALBONE HRD+ '26",
       "availabilityText": "https://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 200.0,
+      "ownHistoryHigh90d": 200.0
     },
     {
       "title": "HEAD Padel Pro S+ 24x3 ballen",
@@ -41,16 +49,20 @@
       "url": "https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html",
       "category": "Padel & sport",
       "price": 114.95,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "HEAD PADEL PRO S + 24X3 ST",
       "availabilityText": "https://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €50 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 114.95,
+      "ownHistoryHigh90d": 114.95
     },
     {
       "title": "Weleda Skin Food crème 75 ml",
@@ -58,16 +70,20 @@
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
       "category": "Verzorging & geuren",
       "price": 8.99,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Weleda Skin Food Crème 75ML",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 8.99,
+      "ownHistoryHigh90d": 8.99
     },
     {
       "title": "Weleda Skin Food Light 75 ml",
@@ -75,16 +91,20 @@
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm",
       "category": "Verzorging & geuren",
       "price": 8.24,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Weleda Skin Food Light Crème 75ML",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 8.24,
+      "ownHistoryHigh90d": 8.24
     },
     {
       "title": "Weleda Skin Food Bodybutter 150 ml",
@@ -92,16 +112,20 @@
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm",
       "category": "Verzorging & geuren",
       "price": 11.99,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Weleda Skin Food Bodybutter 150ML",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 11.99,
+      "ownHistoryHigh90d": 11.99
     },
     {
       "title": "Bullpadel Premium Pro 24x3 ballen",
@@ -109,16 +133,20 @@
       "url": "https://www.tennisdiscount.nl/padelballen/bullpadel-premium-pro-24x3-st.html",
       "category": "Padel & sport",
       "price": 107.95,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "BULLPADEL PREMIUM PRO 24X3 ST",
       "availabilityText": "https://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Winkelvoorwaarden en actuele bezorgkosten controleren",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 107.95,
+      "ownHistoryHigh90d": 107.95
     },
     {
       "title": "Weleda Skin Food Dagcrème 40 ml",
@@ -126,16 +154,20 @@
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-dagcreme-40ml.htm",
       "category": "Verzorging & geuren",
       "price": 14.24,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Weleda Skin Food Voedende Dagcrème 40ML",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 14.24,
+      "ownHistoryHigh90d": 14.24
     },
     {
       "title": "Weleda Skin Food Nachtcrème 40 ml",
@@ -143,16 +175,20 @@
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-nachtcreme-40ml.htm",
       "category": "Verzorging & geuren",
       "price": 14.99,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Weleda Skin Food Voedende Nachtcrème 40ML",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": true,
       "variantNote": "",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 14.99,
+      "ownHistoryHigh90d": 14.99
     },
     {
       "title": "Giraffe Coffee Original Blend — prijs vanaf",
@@ -160,16 +196,20 @@
       "url": "https://giraffecoffee.com/products/original-blend",
       "category": "Koffie",
       "price": 35.0,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "Original Blend - 1000 gram koffiebonen",
       "availabilityText": "http://schema.org/InStock",
+      "stockStatus": "volgens winkel op voorraad",
       "shippingNote": "Verschillende verpakkingsformaten/abonnementen; variant en bezorgkosten nog selecteren",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": false,
       "variantNote": "Varianten 350g en 1000g; getoonde structured price hoeft niet voor 1000g te zijn",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 35.0,
+      "ownHistoryHigh90d": 35.0
     },
     {
       "title": "Davines OI Shampoo — prijs vanaf",
@@ -177,103 +217,118 @@
       "url": "https://nl.davines.com/products/oi-shampoo",
       "category": "Verzorging & geuren",
       "price": 29.85,
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "titleOnPage": "OI Shampoo",
       "availabilityText": "https://schema.org/InStock",
+      "stockStatus": "tegenstrijdige voorraadinformatie",
       "shippingNote": "Verschillende inhoudsmaten; bezorgkosten/variant nog controleren",
       "referencePrice": null,
       "allInVerified": false,
       "marketComparisonVerified": false,
       "variantVerified": false,
       "variantNote": "Meerdere maten; prijs hoeft niet voor 280ml te zijn",
-      "status": "Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"
+      "status": "Winkelprijs waargenomen; geen bewezen marktdeal",
+      "priceHistoryCount": 1,
+      "ownHistoryLow90d": 29.85,
+      "ownHistoryHigh90d": 29.85
     }
   ],
   "checks": [
     {
       "store": "Tennisdiscount",
       "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "uitverkocht"
     },
     {
       "store": "Tennisdiscount",
       "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "Tennisdiscount",
       "url": "https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "De Online Drogist",
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "De Online Drogist",
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "De Online Drogist",
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "Tennisdiscount",
       "url": "https://www.tennisdiscount.nl/padelballen/bullpadel-premium-pro-24x3-st.html",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "De Online Drogist",
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-dagcreme-40ml.htm",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "De Online Drogist",
       "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-nachtcreme-40ml.htm",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "Giraffe Coffee",
       "url": "https://giraffecoffee.com/products/original-blend",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "volgens winkel op voorraad"
     },
     {
       "store": "Davines",
       "url": "https://nl.davines.com/products/oi-shampoo",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "observed",
-      "method": "product_jsonld"
+      "method": "product_jsonld",
+      "stockStatus": "tegenstrijdige voorraadinformatie"
     },
     {
       "store": "Alltricks",
       "url": "https://www.alltricks.nl/F-245939-outdoor-schoenen/P-3210490-salomon_x_ultra_5_gtx_wandelschoenen_bruin_heren",
-      "checkedAt": "2026-10-24T21:19:20.837279+00:00",
+      "checkedAt": "2026-10-24T21:41:04.904179+00:00",
       "status": "unavailable",
       "error": "HTTP Error 403: Forbidden"
     }
   ],
-  "note": "Exact merchant structured product prices, not independently compared market prices or guaranteed shipping total. Items with unavailable data omitted."
+  "note": "Productprijzen rechtstreeks uit winkeldata. Bij tegenstrijdige voorraad, varianten of onbekende verzending GEEN bevestigde koopalert."
 }

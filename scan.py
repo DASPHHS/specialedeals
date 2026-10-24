@@ -1,123 +1,125 @@
 #!/usr/bin/env python3
-"""Speciale Deals: conservative daily feed collector, no fabricated prices."""
-import json, re, urllib.request, urllib.parse, html, datetime, pathlib, xml.etree.ElementTree as ET
+"""Personal Speciale Deals *discovery* scanner.
+Brings together targeted RSS and brand-specific Google News queries.
+No feed mention is labeled an independently verified deal.
+"""
+import datetime, html, json, pathlib, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from html.parser import HTMLParser
-
 ROOT=pathlib.Path(__file__).resolve().parent
-cfg=json.loads((ROOT/"radar-config.json").read_text())
-headers={"User-Agent":"SpecialeDeals/1.0 (personal price discovery; contact via repository)"}
+CFG=json.loads((ROOT/"radar-config.json").read_text())
+HEADERS={"User-Agent":"Mozilla/5.0 (compatible; PersonalDealDiscovery/1.2; RSS reader)"}
 def fetch(url):
-    req=urllib.request.Request(url,headers=headers)
-    with urllib.request.urlopen(req,timeout=18) as r:
-        if r.status!=200: raise ValueError("HTTP "+str(r.status))
-        return r.read(2_000_000).decode("utf-8",errors="replace")
-def strip(s): return re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]+>"," ",s or ""))).strip()
+ req=urllib.request.Request(url,headers=HEADERS)
+ with urllib.request.urlopen(req,timeout=18) as r:
+  if r.status!=200:raise ValueError("HTTP "+str(r.status))
+  return r.read(1500000).decode("utf-8","replace")
+def strip(s): return re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",s or ""))).strip()
+def cleanlink(url):
+ url=strip(url)
+ if not url.startswith("https://"):return ""
+ return url
 def score(title):
-    t=title.casefold(); points=0; matches=[]
-    # Explicit women's products are outside the target profile.
-    if any(re.search(r"(?<!\w)"+re.escape(term.casefold())+r"(?!\w)",t) for term in cfg.get("excludeGendered",[])):
-        return -1000, []
-    # Apparel and footwear must explicitly be for men or unisex.
-    apparel=any(term in t for term in cfg.get("apparelTerms",[]))
-    men=any(re.search(r"(?<!\w)"+re.escape(term.casefold())+r"(?!\w)",t) for term in cfg.get("menswearKeywords",[]))
-    if apparel and not men:
-        return -1000, []
-    for brand in cfg["brands"]:
-        if brand.casefold() in t: points+=32;matches.append(brand)
-    for group,words in cfg["categories"].items():
-        if any(w.casefold() in t for w in words):points+=12
-    for term in cfg["exclude"]:
-        if term.casefold() in t:points-=50
-    if re.search(r"\b(47(?: 1/3)?|xl)\b",t):points+=8
-    return points, matches
+ t=title.casefold()
+ if any(w in t for w in CFG["excludeTerms"]):return -1000,[]
+ matched=[]
+ for brand in CFG["brands"]:
+  if brand.casefold() in t:matched.append(brand)
+ if not matched:return -1000,[]
+ # Ambiguous words: 'Apple' must be actual tech, not generic fruit.
+ if "apple" in matched and not any(w in t for w in ("iphone","ipad","macbook","airpods","apple watch","imac","apple pencil","apple tv","apple silicon","apple store","apple computer")):matched.remove("apple")
+ # 'Adidas/Nike' without an apparel/sports or sale context is not enough
+ if matched and all(w in ("nike","adidas") for w in matched) and not any(w in t for w in ("schoen","sneaker","heren","sale","outlet","korting","padel","racket","sample","kleding","shirt","jas")):return -1000,[]
+ if not matched:return -1000,[]
+ if any(x in t for x in ("dames","women","womens","girls","meisjes")):return -1000,[]
+ base=35+min(20,8*len(matched))
+ if any(w in t for w in ("aanbieding","deal","korting","sale","outlet","uitverkoop","prijs","sample","discount")):base+=12
+ if any(w in t for w in ("xl","47 1/3","47⅓","maat 47")):base+=9
+ if any(w in t for w in ("sample sale","archive sale")):base+=8
+ return base,matched
+def category(title):
+ t=title.casefold()
+ for name,terms in CFG["groups"].items():
+  if any(w in t for w in terms):return name
+ return "Overig"
 def extract_price(raw):
-    """Return a feed-indicated euro price only if unambiguous, never 'verified'."""
-    matches = re.findall(r"(?:€\s*|EUR\s+)(\d{1,5}(?:[.,]\d{2})?)(?!\d)", raw, flags=re.I)
-    values = {float(value.replace(",", ".")) for value in matches}
-    return next(iter(values)) if len(values) == 1 and 0.5 <= next(iter(values)) <= 10000 else None
-
-def rss_items(text,source):
-    root=ET.fromstring(text)
-    out=[]
-    for entry in list(root.findall(".//item"))+list(root.findall(".//{http://www.w3.org/2005/Atom}entry")):
-        def value(tag):
-            x=entry.find(tag)
-            return ("".join(x.itertext()) if x is not None else "").strip()
-        title=strip(value("title") or value("{http://www.w3.org/2005/Atom}title"))
-        link=value("link")
-        if not link:
-            x=entry.find("{http://www.w3.org/2005/Atom}link")
-            link=x.attrib.get("href","") if x is not None else ""
-        description=value("description") or value("{http://www.w3.org/2005/Atom}summary")
-        price=extract_price(title+" "+strip(description))
-        if title and link.startswith("http"):out.append({"title":title,"url":link,"source":source,"price":price})
-    return out
-class IboodParser(HTMLParser):
-    def __init__(self): super().__init__();self.links=[];self.current=None
-    def handle_starttag(self,tag,attrs):
-        a=dict(attrs)
-        if tag=="a" and a.get("href","").startswith(("/nl/","/offers/","https://www.ibood.com/")):
-            self.current={"url":urllib.parse.urljoin("https://www.ibood.com",a["href"]),"parts":[]}
-        if self.current and tag in ("h2","h3","span","p"):self.current["parts"].append(" ")
-    def handle_data(self,data):
-        if self.current:self.current["parts"].append(data)
-    def handle_endtag(self,tag):
-        if tag=="a" and self.current:
-            title=strip(" ".join(self.current["parts"]))
-            if 12<len(title)<220:self.links.append({"title":title,"url":self.current["url"],"source":"iBOOD"})
-            self.current=None
+ vals=re.findall(r"(?:€\s*|EUR\s+)(\d{1,5}(?:[.,]\d{2})?)(?!\d)",raw,re.I)
+ numbers={float(v.replace(",",".")) for v in vals}
+ return next(iter(numbers)) if len(numbers)==1 and .5<=next(iter(numbers))<=10000 else None
+def rss_items(raw,source,kind):
+ root=ET.fromstring(raw);items=[]
+ nodes=root.findall(".//item")+root.findall(".//{http://www.w3.org/2005/Atom}entry")
+ for e in nodes:
+  def val(key):
+   x=e.find(key)
+   return "".join(x.itertext()).strip() if x is not None else ""
+  title=strip(val("title") or val("{http://www.w3.org/2005/Atom}title"))
+  url=val("link");desc=strip(val("description") or val("{http://www.w3.org/2005/Atom}summary"))
+  if not url:
+   a=e.find("{http://www.w3.org/2005/Atom}link")
+   if a is not None:url=a.attrib.get("href","")
+  url=cleanlink(url)
+  if not title or not url:continue
+  date=strip(val("pubDate") or val("published") or val("{http://www.w3.org/2005/Atom}published"))
+  items.append({"title":title[:230],"url":url,"source":source,"sourceType":kind,"published":date[:60],"price":extract_price(title+" "+desc) if kind=="community" else None})
+ return items
+class Links(HTMLParser):
+ def __init__(self): super().__init__();self.links=[];self.active=None
+ def handle_starttag(self,tag,attrs):
+  a=dict(attrs)
+  if tag=="a" and a.get("href","").startswith(("/nl/","/offers/","https://www.ibood.com/")):
+   self.active={"url":urllib.parse.urljoin("https://www.ibood.com",a["href"]),"parts":[]}
+ def handle_data(self,data):
+  if self.active:self.active["parts"].append(data)
+ def handle_endtag(self,tag):
+  if tag=="a" and self.active:
+   title=strip(" ".join(self.active["parts"]))
+   if 8<len(title)<230:self.links.append({"title":title,"url":self.active["url"],"source":"iBOOD","sourceType":"retailer","price":None})
+   self.active=None
 def promotion_kind(title):
-    t=title.casefold()
-    if any(w in t for w in ("winactie","prijsvraag","win een","maak kans","giveaway","verloting")):
-        return "winactie"
-    if any(w in t for w in ("kortingscode","kortingscodes","actiecode","couponcode","voucher code","promocode","code:")):
-        return "kortingscode"
-    return "deal"
-
+ t=title.casefold()
+ if any(w in t for w in ("winactie","maak kans","giveaway","prijsvraag")):return "winactie"
+ if any(w in t for w in ("kortingscode","promocode","actiecode","couponcode")):return "kortingscode"
+ return "deal"
+def is_sample(title):
+ t=title.casefold()
+ return "sample sale" in t or "sample-sale" in t or "archive sale" in t or "stock sale" in t
+def discovery():
+ raw_items=[];statuses=[]
+ for source in CFG["sourceFeeds"]:
+  try:
+   content=fetch(source["url"])
+   if source["kind"]=="rss":rows=rss_items(content,source["name"],source.get("type","feed"))
+   else:
+    p=Links();p.feed(content);rows=p.links
+   statuses.append({"source":source["name"],"status":"ok" if rows else "empty","items":len(rows)})
+   raw_items.extend(rows)
+  except Exception as e:statuses.append({"source":source["name"],"status":"error","error":str(e)[:120],"items":0})
+ for i,q in enumerate(CFG["priorityQueries"]):
+  try:
+   query=q+" when:7d"
+   url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"nl","gl":"NL","ceid":"NL:nl"})
+   rows=rss_items(fetch(url),"Gerichte merkzoekopdracht","news")
+   statuses.append({"source":"Merkscan "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   raw_items.extend(rows)
+  except Exception as e:statuses.append({"source":"Merkscan "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
+ return raw_items,statuses
 def main():
-    results=[]; statuses=[]
-    for src in cfg["sourceFeeds"]:
-        try:
-            raw=fetch(src["url"])
-            if src["kind"]=="rss":items=rss_items(raw,src["name"])
-            else:
-                parser=IboodParser();parser.feed(raw);items=parser.links
-            statuses.append({"source":src["name"],"status":"ok" if items else "empty","items":len(items)})
-            results+=items
-        except Exception as e:statuses.append({"source":src["name"],"status":"error","error":str(e)[:180]})
-    # Extra discovery queries. Google News RSS is a discovery source, not proof of validity.
-    searches=[
-        ("Winacties sport en technologie","(winactie OR prijsvraag OR giveaway) (padel OR apple OR dyson OR salomon)"),
-        ("Winacties wonen en reizen","(winactie OR prijsvraag OR maak kans) (wellness OR hotel OR keukenmachine OR rituals)"),
-        ("Kortingscodes premium merken","(kortingscode OR actiecode OR promocode) (davines OR salomon OR arcteryx OR nike OR rituals)"),
-    ]
-    for name,query in searches:
-        try:
-            url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query+" when:7d","hl":"nl","gl":"NL","ceid":"NL:nl"})
-            items=rss_items(fetch(url),name)
-            statuses.append({"source":name,"status":"ok" if items else "empty","items":len(items)})
-            results.extend(items)
-        except Exception as e:
-            statuses.append({"source":name,"status":"error","error":str(e)[:180]})
-    seen=set();selected=[];promotions=[]
-    for item in results:
-        s,m=score(item["title"])
-        kind=promotion_kind(item["title"])
-        # Competition candidates may be useful even where a brand is not named.
-        if kind!="deal" and s<0: continue
-        key=item["url"].split("?")[0].rstrip("/").casefold()
-        minimum=max(25,cfg.get("minScore",20))
-        if (s>=minimum and bool(m)) and key not in seen:
-            seen.add(key)
-            entry={**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None}
-            kind=promotion_kind(item["title"])
-            if kind=="deal":selected.append(entry)
-            else:
-                entry.update({"kind":kind,"verified":False,"code":None,"deadline":None,"conditionsVerified":False})
-                promotions.append(entry)
-    # Discovery feed is never a verified-deal feed. Keep relevant brand matches only.\n    selected.sort(key=lambda x:x["score"],reverse=True)
-    promotions.sort(key=lambda x:x["score"],reverse=True)
-    out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"promotions":promotions[:60],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
-    (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
-    print(json.dumps({"count":len(selected),"promotions":len(promotions),"sources":statuses},ensure_ascii=False))
+ raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()
+ for item in raw:
+  title=item["title"];relevance,matches=score(title)
+  if relevance<CFG["minScore"]:continue
+  # Distinct titles, not repeated Google News syndications.
+  key=re.sub(r"[^a-z0-9]","",title.casefold())[:100]
+  if key in seen:continue
+  seen.add(key)
+  item.update({"score":relevance,"matched":matches,"category":category(title),"discovery":True,"priceVerified":False,"allInVerified":False,"stockVerified":False,"variantVerified":False,"referencePriceVerified":False,"status":"Kandidaat: controle vereist","referencePrice":None,"checkedAt":None})
+  k=promotion_kind(title)
+  if is_sample(title):item["kind"]="sample_sale";samples.append(item)
+  elif k!="deal":item["kind"]=k;item["verified"]=False;promos.append(item)
+  else:deals.append(item)
+ for group in (deals,samples,promos):group.sort(key=lambda d:(d["score"],d["sourceType"]!="news"),reverse=True)
+ now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ result={"updatedAt":now,"deals":deals[:150],"samples":samples[:50],"promotions":promos[:70],"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"]),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ (ROOT/"live-deals.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
+ print(json.dumps({"deals":len(deals),"samples":len(samples),"promotions":len(promos),"coverage":result["coverage"],"failed":sum(s["status"]=="error" for s in statuses)}))
 if __name__=="__main__":main()

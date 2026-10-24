@@ -54,6 +54,12 @@ def normalize(s):
 def matches(name,required):
  t=normalize(name)
  return all(normalize(word) in t for word in required)
+def same_observed_product(left,right):
+ # Product names and configured catalogue labels are insufficient evidence.
+ gtin=bool(left.get("gtin")) and left.get("gtin")==right.get("gtin")
+ mpn=bool(left.get("mpn")) and left.get("mpn")==right.get("mpn")
+ return gtin or mpn
+
 def availability(value):
  v=str(value).casefold()
  if "outofstock" in v or "soldout" in v or "discontinued" in v:return "uitverkocht"
@@ -151,10 +157,8 @@ def main():
    confirmed=[]
    for other in items:
     if other["url"]==entry["url"]:continue
-    same_gtin=(entry.get("gtin") and entry.get("gtin")==other.get("gtin"))
-    same_mpn=(entry.get("mpn") and entry.get("mpn")==other.get("mpn"))
-    if same_gtin or same_mpn:
-     confirmed.append({"store":other["store"],"price":other["price"],"url":other["url"],"identityMatch":"GTIN" if same_gtin else "MPN"})
+    if same_observed_product(entry,other):
+     confirmed.append({"store":other["store"],"price":other["price"],"url":other["url"],"identityMatch":"GTIN" if entry.get("gtin") and entry.get("gtin")==other.get("gtin") else "MPN"})
    if confirmed:
     entry["otherTrackedShopPrices"]=confirmed
     entry["lowestTrackedProductPrice"]=min([entry["price"]]+[other["price"] for other in confirmed])

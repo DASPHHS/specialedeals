@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2026-10-24T21:41:42.395359+00:00",
+  "products": {
+    "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 125.0,
+        "stock": "uitverkocht"
+      }
+    ],
+    "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 200.0,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Tennisdiscount|https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 114.95,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 8.99,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 8.24,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-bodybutter-150ml.htm": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 11.99,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Tennisdiscount|https://www.tennisdiscount.nl/padelballen/bullpadel-premium-pro-24x3-st.html": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 107.95,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-dagcreme-40ml.htm": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 14.24,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-nachtcreme-40ml.htm": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 14.99,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Giraffe Coffee|https://giraffecoffee.com/products/original-blend": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 35.0,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Davines|https://nl.davines.com/products/oi-shampoo": [
+      {
+        "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 29.85,
+        "stock": "tegenstrijdige voorraadinformatie"
+      }
+    ]
+  },
+  "note": "Historical OBSERVED prices from monitored merchant; not a comparison of multiple merchants."
+}

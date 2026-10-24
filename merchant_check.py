@@ -88,12 +88,13 @@ def find_observation(body,target):
     if isinstance(spec,dict):price=asprice(spec.get("price"))
    if price is not None:
     status=classify_stock(offers.get("availability")," ".join(parser.visible))
-    return {"price":price,"titleOnPage":html.unescape(name),"currency":offers.get("priceCurrency","EUR"),
+    product_codes={"gtin":str(product.get("gtin13") or product.get("gtin") or "").strip(),"mpn":str(product.get("mpn") or "").strip()}
+    return {"gtin":product_codes["gtin"],"mpn":product_codes["mpn"],"price":price,"titleOnPage":html.unescape(name),"currency":offers.get("priceCurrency","EUR"),
       "availability":str(offers.get("availability") or ""),"stockStatus":status,"method":"product_jsonld"}
  name=parser.meta.get("og:title","")
  price=asprice(parser.meta.get("product:price:amount"))
  if price is not None and matches(name,target["require"]):
-  return {"price":price,"titleOnPage":html.unescape(name),"currency":parser.meta.get("product:price:currency","EUR"),
+  return {"gtin":"","mpn":"","price":price,"titleOnPage":html.unescape(name),"currency":parser.meta.get("product:price:currency","EUR"),
     "availability":"","stockStatus":"onbekend","method":"exact_title_product_meta"}
  return None
 
@@ -135,23 +136,30 @@ def main():
       "shippingNote":target["shippingNote"],"referencePrice":None,"allInVerified":False,
       "marketComparisonVerified":False,"variantVerified":not bool(target.get("variantNote")),
       "variantNote":target.get("variantNote",""),"comparisonGroup":target.get("comparisonGroup"),
-      "exactModel":target.get("exactModel"),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"})
+      "exactModel":target.get("exactModel"),"gtin":result.get("gtin",""),"mpn":result.get("mpn",""),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"})
   except Exception as exc:outcome.update(status="unavailable",error=str(exc)[:150])
   checks.append(outcome)
- # Compare matching exact models only, where merchant product prices are observed.
- # This is not a comparison of shipping and not a verified 'best all-in' deal.
+ # Compare only independently observed identical manufacturer part numbers or GTIN.
+ # Similar names / configured IDs alone are not evidence of exact identical variants.
  groups={}
  for entry in entries:
-  g=entry.get("comparisonGroup")
-  if g and entry["variantVerified"] and entry["stockStatus"]=="volgens winkel op voorraad":
-   groups.setdefault(g,[]).append(entry)
- for g,items in groups.items():
-  if len(items)<2:continue
-  lowest=min(x["price"] for x in items)
+  group=entry.get("comparisonGroup")
+  if group and entry["variantVerified"] and entry["stockStatus"]=="volgens winkel op voorraad":
+   groups.setdefault(group,[]).append(entry)
+ for group,items in groups.items():
   for entry in items:
-   entry["otherTrackedShopPrices"]=[{"store":other["store"],"price":other["price"],"url":other["url"]} for other in items if other["url"]!=entry["url"]]
-   entry["lowestTrackedProductPrice"]=lowest
-   entry["lowestOfTrackedStores"]=entry["price"]==lowest
+   confirmed=[]
+   for other in items:
+    if other["url"]==entry["url"]:continue
+    same_gtin=(entry.get("gtin") and entry.get("gtin")==other.get("gtin"))
+    same_mpn=(entry.get("mpn") and entry.get("mpn")==other.get("mpn"))
+    if same_gtin or same_mpn:
+     confirmed.append({"store":other["store"],"price":other["price"],"url":other["url"],"identityMatch":"GTIN" if same_gtin else "MPN"})
+   if confirmed:
+    entry["otherTrackedShopPrices"]=confirmed
+    entry["lowestTrackedProductPrice"]=min([entry["price"]]+[other["price"] for other in confirmed])
+    entry["lowestOfTrackedStores"]=entry["price"]==entry["lowestTrackedProductPrice"]
+    entry["marketComparisonVerified"]=False  # Shipping and checkout still not verified.
  update_history(entries,now)
  payload={"checkedAt":now,"offers":entries,"checks":checks,
    "note":"Productprijzen rechtstreeks uit winkeldata. Bij tegenstrijdige voorraad, varianten of onbekende verzending GEEN bevestigde koopalert."}

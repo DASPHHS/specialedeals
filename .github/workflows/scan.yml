@@ -12,6 +12,9 @@ on:
       - 'watchlist.json'
       - 'watchlist_issue.py'
       - 'test_watchlist_issue.py'
+      - 'site_check.py'
+      - 'index.html'
+      - 'ai-kansen.html'
       - '.github/workflows/scan.yml'
   workflow_dispatch:
   schedule:
@@ -36,6 +39,8 @@ jobs:
         run: python scan.py
       - name: Check exact merchant product prices
         run: python merchant_check.py
+      - name: Test dashboard and published JSON schema
+        run: python site_check.py
       - name: Publiceer resultaten
         run: |
           git config user.name "github-actions[bot]"

@@ -68,6 +68,77 @@
       ],
       "category": "Verzorging & geuren",
       "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    },
+    {
+      "title": "Bullpadel Premium Pro 24x3 ballen",
+      "store": "Tennisdiscount",
+      "url": "https://www.tennisdiscount.nl/padelballen/bullpadel-premium-pro-24x3-st.html",
+      "require": [
+        "bullpadel",
+        "premium",
+        "24"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Winkelvoorwaarden en actuele bezorgkosten controleren"
+    },
+    {
+      "title": "Weleda Skin Food Dagcrème 40 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-dagcreme-40ml.htm",
+      "require": [
+        "skin food",
+        "dagcr"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    },
+    {
+      "title": "Weleda Skin Food Nachtcrème 40 ml",
+      "store": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-nachtcreme-40ml.htm",
+      "require": [
+        "skin food",
+        "nachtcr"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel"
+    },
+    {
+      "title": "Giraffe Coffee Original Blend — prijs vanaf",
+      "store": "Giraffe Coffee",
+      "url": "https://giraffecoffee.com/products/original-blend",
+      "require": [
+        "original",
+        "blend"
+      ],
+      "category": "Koffie",
+      "shippingNote": "Verschillende verpakkingsformaten/abonnementen; variant en bezorgkosten nog selecteren",
+      "variantNote": "Varianten 350g en 1000g; getoonde structured price hoeft niet voor 1000g te zijn"
+    },
+    {
+      "title": "Davines OI Shampoo — prijs vanaf",
+      "store": "Davines",
+      "url": "https://nl.davines.com/products/oi-shampoo",
+      "require": [
+        "oi",
+        "shampoo"
+      ],
+      "category": "Verzorging & geuren",
+      "shippingNote": "Verschillende inhoudsmaten; bezorgkosten/variant nog controleren",
+      "variantNote": "Meerdere maten; prijs hoeft niet voor 280ml te zijn"
+    },
+    {
+      "title": "Salomon X Ultra 5 GTX Bruin heren — maatcontrole vereist",
+      "store": "Alltricks",
+      "url": "https://www.alltricks.nl/F-245939-outdoor-schoenen/P-3210490-salomon_x_ultra_5_gtx_wandelschoenen_bruin_heren",
+      "require": [
+        "salomon",
+        "x ultra",
+        "5"
+      ],
+      "category": "Outdoor & herenkleding",
+      "shippingNote": "Maat 47⅓ en bezorgkosten op productpagina apart controleren",
+      "variantNote": "Aanbieding kan per schoenmaat verschillen; maat niet automatisch bevestigd"
     }
   ]
 }

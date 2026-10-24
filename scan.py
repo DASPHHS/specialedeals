@@ -8,6 +8,22 @@ from html.parser import HTMLParser
 ROOT=pathlib.Path(__file__).resolve().parent
 CFG=json.loads((ROOT/"radar-config.json").read_text())
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; PersonalDealDiscovery/1.2; RSS reader)"}
+
+def load_watches():
+ try:
+  data=json.loads((ROOT/"watchlist.json").read_text(encoding="utf-8"))
+  return [str(x["product"]).strip() for x in data.get("items",[]) if isinstance(x,dict) and str(x.get("product","")).strip()][:100]
+ except (OSError,ValueError,KeyError):
+  return []
+WATCHES=load_watches()
+def normalized_tokens(value):
+ stop={"maat","eu","us","heren","dames","euro","prijs","sale","korting","aanbieding","47","47⅓"}
+ return [w for w in re.findall(r"[a-zà-ÿ0-9]+",value.casefold()) if w not in stop and len(w)>1]
+def watch_match(title,watch):
+ words=normalized_tokens(watch)
+ titlewords=set(normalized_tokens(title))
+ return len(words)>=2 and all(word in titlewords for word in words)
+
 def fetch(url):
  req=urllib.request.Request(url,headers=HEADERS)
  with urllib.request.urlopen(req,timeout=18) as r:
@@ -24,6 +40,8 @@ def score(title):
  matched=[]
  for brand in CFG["brands"]:
   if brand.casefold() in t:matched.append(brand)
+ for watch in WATCHES:
+  if watch_match(title,watch):matched.append("watch:"+watch)
  if not matched:return -1000,[]
  # Ambiguous words: 'Apple' must be actual tech, not generic fruit.
  if "apple" in matched and not any(w in t for w in ("iphone","ipad","macbook","airpods","apple watch","imac","apple pencil","apple tv","apple silicon","apple store","apple computer")):matched.remove("apple")
@@ -104,7 +122,7 @@ def discovery():
    statuses.append({"source":source["name"],"status":"ok" if rows else "empty","items":len(rows)})
    raw_items.extend(rows)
   except Exception as e:statuses.append({"source":source["name"],"status":"error","error":str(e)[:120],"items":0})
- for i,q in enumerate(CFG["priorityQueries"]):
+ for i,q in enumerate(CFG["priorityQueries"]+["\""+w+"\" aanbieding korting" for w in WATCHES[:12]]):
   try:
    query=q+" when:7d"
    url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"nl","gl":"NL","ceid":"NL:nl"})

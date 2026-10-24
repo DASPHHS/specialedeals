@@ -54,7 +54,11 @@
     "breville",
     "bowers & wilkins",
     "bang & olufsen",
-    "bose"
+    "bose",
+    "weleda",
+    "skin food",
+    "weleda skin food",
+    "veepee"
   ],
   "categories": {
     "sport": [
@@ -91,7 +95,11 @@
       "handzeep",
       "douchegel",
       "skincare",
-      "geurstokjes"
+      "geurstokjes",
+      "skin food",
+      "weleda",
+      "huidcrème",
+      "body butter"
     ],
     "wonen": [
       "berger",
@@ -234,5 +242,17 @@
     "requireVerifiedCurrentPrice": true,
     "additionalBenefitsOnlyWhenConfirmed": true,
     "excludeUnverifiedCashbackFromEffectivePrice": true
-  }
+  },
+  "retailersToWatch": [
+    "Veepee",
+    "Weleda",
+    "Kruidvat",
+    "Etos",
+    "Notino"
+  ],
+  "featuredWatches": [
+    "Weleda Skin Food original 30 ml / 75 ml",
+    "Weleda Skin Food Light",
+    "Weleda Skin Food Body Butter"
+  ]
 }

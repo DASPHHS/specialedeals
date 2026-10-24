@@ -1,5 +1,5 @@
 import unittest
-from merchant_check import find_observation,asprice
+from merchant_check import find_observation,asprice,classify_stock,availability
 TARGET={"require":["metalbone","carbon"]}
 class MerchantTests(unittest.TestCase):
  def test_jsonld(self):
@@ -16,4 +16,13 @@ class MerchantTests(unittest.TestCase):
   self.assertEqual(find_observation(h,TARGET)["price"],125)
  def test_range(self):self.assertIsNone(asprice("99,99-199,99"))
  def test_empty(self):self.assertIsNone(find_observation("<div>€125</div>",TARGET))
+ def test_structured_outofstock(self):
+  self.assertEqual(availability("https://schema.org/OutOfStock"),"uitverkocht")
+ def test_stock_conflict(self):
+  self.assertEqual(classify_stock("https://schema.org/OutOfStock","Op voorraad: 6 Items"),"tegenstrijdige voorraadinformatie")
+ def test_in_stock(self):
+  self.assertEqual(classify_stock("https://schema.org/InStock","Op voorraad: 2 Items"),"volgens winkel op voorraad")
+ def test_html_conflict(self):
+  h='<script type="application/ld+json">{"@type":"Product","name":"Adidas Metalbone Carbon 26","offers":{"price":125,"availability":"https://schema.org/OutOfStock"}}</script><p>Op voorraad: 6 Items</p>'
+  self.assertEqual(find_observation(h,TARGET)["stockStatus"],"tegenstrijdige voorraadinformatie")
 if __name__=="__main__":unittest.main()

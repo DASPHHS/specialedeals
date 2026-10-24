@@ -77,7 +77,11 @@ function renderFound(){const q=$("q").value.trim().toLowerCase(),group=$("group"
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
 function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=ok+" bereikt · "+errors+" fouten";
-const parent=$("sourceRows");parent.replaceChildren();app.sources.forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" items":""))))}
+const parent=$("sourceRows");parent.replaceChildren();
+const merks=app.sources.filter(s=>s.source.startsWith("Merkscan"));
+parent.append(el("p",null,merks.length+" gerichte merkzoekopdrachten, waarvan "+merks.filter(s=>s.items>0).length+" met gevonden artikelen."));
+app.sources.filter(s=>!s.source.startsWith("Merkscan")).forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" berichten":""))));
+if(merks.length){const detail=document.createElement("details");detail.append(el("summary",null,"Technische details per merkzoekopdracht"));merks.forEach(s=>detail.append(el("p",null,s.source+" · "+s.status+" · "+(s.items||0)+" vermeldingen")));parent.append(detail)}}
 function usableCandidate(d){
  if(d.sourceType!=="search")return true;
  let host="";try{host=new URL(d.url).hostname.toLowerCase()}catch{return false}

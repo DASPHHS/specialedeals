@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:17:39.094210+00:00",
+  "updatedAt": "2026-10-24T21:19:20.773566+00:00",
   "deals": [
     {
       "title": "Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
@@ -170,7 +170,7 @@
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -428,7 +428,7 @@
   "coverage": {
     "searchQueries": 22,
     "sourcesConfigured": 2,
-    "scannedItems": 210,
+    "scannedItems": 209,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."

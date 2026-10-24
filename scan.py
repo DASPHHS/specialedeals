@@ -83,6 +83,16 @@ def promotion_kind(title):
 def is_sample(title):
  t=title.casefold()
  return "sample sale" in t or "sample-sale" in t or "archive sale" in t or "stock sale" in t
+def search_quality(item):
+ if item.get("sourceType")!="search":return True
+ url=item.get("url","")
+ host=(urllib.parse.urlparse(url).hostname or "").lower()
+ allowed=CFG.get("allowedDiscoveryDomains",[])
+ if not any(host==d or host.endswith("."+d) for d in allowed):return False
+ t=(item.get("title","")+" "+urllib.parse.urlparse(url).path).casefold()
+ # Do not publish brand homepages, Wikipedia, US retailers or generic catalogs
+ return any(term in t for term in ("aanbieding","korting","sale","outlet","actie","deal","sample","discount","weekend-aanbieding","prijs","%","clearance","special"))
+
 def discovery():
  raw_items=[];statuses=[]
  for source in CFG["sourceFeeds"]:
@@ -117,6 +127,7 @@ def main():
  raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()
  for item in raw:
   title=item["title"];relevance,matches=score(title)
+  if not search_quality(item):continue
   if relevance<CFG["minScore"]:continue
   # Distinct titles, not repeated Google News syndications.
   key=re.sub(r"[^a-z0-9]","",title.casefold())[:100]

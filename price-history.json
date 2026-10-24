@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:14:30.230998+00:00",
+  "updatedAt": "2026-10-24T22:16:27.293699+00:00",
   "products": {
     "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html": [
       {
@@ -90,6 +90,27 @@
         "at": "2026-10-24T21:45:00.081124+00:00",
         "price": 182.9,
         "stock": "nabestelling"
+      }
+    ],
+    "De Gezondheidslijn|https://www.degezondheidslijn.nl/skin-food-weleda-75ml/": [
+      {
+        "at": "2026-10-24T22:16:27.293699+00:00",
+        "price": 7.9,
+        "stock": "onbekend"
+      }
+    ],
+    "KoopjesDrogisterij|https://www.koopjesdrogisterij.nl/weleda-skin-food-75ml-902367.html": [
+      {
+        "at": "2026-10-24T22:16:27.293699+00:00",
+        "price": 8.29,
+        "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Ecco Verde|https://www.ecco-verde.nl/weleda/skin-food?sai=32293": [
+      {
+        "at": "2026-10-24T22:16:27.293699+00:00",
+        "price": 10.49,
+        "stock": "volgens winkel op voorraad"
       }
     ]
   },

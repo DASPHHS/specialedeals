@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-24T22:14:30.154889+00:00",
+  "updatedAt": "2026-10-24T22:16:27.205001+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 137,
+    "source_quality": 147,
     "duplicate": 0
   },
   "deals": [],
@@ -192,7 +192,7 @@
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -227,7 +227,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -237,12 +237,12 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -455,12 +455,37 @@
       "name": "Sample Sale Amsterdam Noord",
       "url": "https://samplesaleamsterdamnoord.nl/",
       "category": "Sample sales"
+    },
+    {
+      "name": "De Gezondheidslijn",
+      "url": "https://www.degezondheidslijn.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "KoopjesDrogisterij",
+      "url": "https://www.koopjesdrogisterij.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "Ecco Verde",
+      "url": "https://www.ecco-verde.nl/",
+      "category": "Verzorging & geuren"
+    },
+    {
+      "name": "DAKA Sport",
+      "url": "https://www.daka.nl/",
+      "category": "Outdoor & herenkleding"
+    },
+    {
+      "name": "SneakerPicks",
+      "url": "https://sneakerpicks.nl/status",
+      "category": "Schoenen en prijsvergelijking"
     }
   ],
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 197,
+    "scannedItems": 207,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."

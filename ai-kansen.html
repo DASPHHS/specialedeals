@@ -8,11 +8,11 @@
 <label class="small"><input type="checkbox" id="onlyFav"> Toon alleen ideeën die ik bewaar (alleen op dit apparaat)</label><div class="toolbar"><input id="buildsearch" placeholder="Zoek bijv. stage, geld, padel, huishouden, iPhone…"><select id="buildcategory"><option value="">Alle leefgebieden</option></select><select id="buildorder"><option value="priority">Meest waardevol voor mij</option><option value="easy">Eerst eenvoudig uitvoerbaar</option><option value="name">Alfabetisch</option></select></div>
 <p id="buildcount" class="small"></p><section id="buildcards" class="cards"></section><button id="buildmore" class="more" hidden>Toon 10 extra ideeën</button>
 </div>
-<div id="other" class="content hidden"><p id="otherInfo" class="small"></p><section id="othercards" class="cards"></section></div>
+<div id="other" class="content hidden"><p id="otherInfo" class="small"></p><section id="othercards" class="cards"></section><div id="researchPanel" class="note hidden" style="margin-top:20px"><strong>Net ontdekt — nog niet gecontroleerd</strong><p class="small" id="researchStatus">Live bronnen worden gecontroleerd.</p><section id="researchCards" class="cards"></section></div></div>
 <footer>Reddit en nieuwsfeeds worden gebruikt voor ontdekking, maar ongecontroleerde posts verschijnen niet automatisch als bewijs. De ideeën zijn concepten; sommige vereisen toegangsrechten, betaalde services of eigen ontwikkeling.</footer></main>
 <script>
 const $=id=>document.getElementById(id),box=(tag,className,t)=>{const e=document.createElement(tag);if(className)e.className=className;if(t!==undefined)e.textContent=t;return e};
-let ideas=[],other=[],active="bouwen",visible=10;
+let ideas=[],other=[],research=[],active="bouwen",visible=10;
 const faveKey="slimme-kansen-favorieten-v1";let fav=[];try{fav=JSON.parse(localStorage.getItem(faveKey)||"[]")}catch(e){}
 const small=x=>box("p","small",x);
 function renderIdea(item){const c=box("article","card");c.append(box("span","meta",item.category+" · Impact "+item.score+"/5 · Inrichting "+item.complexity),box("h3",null,item.title));let example=box("p");const strong=box("strong",null,"Bij jou: ");example.append(strong,document.createTextNode(item.example));c.append(example,box("p",null,"Winst: "+item.why),box("div","status","Nodig: "+item.needs),small("Status: bouwidee, nog niet gerealiseerd of getest"));
@@ -24,8 +24,26 @@ b.onclick=()=>{fav=fav.includes(item.id)?fav.filter(x=>x!==item.id):[...fav,item
 c.append(b);return c}
 function renderOther(item){const c=box("article","card");c.append(box("span","meta",(item.category||"Ontwikkeling")+" · "+(item.source||"Bron")),box("h3",null,item.title));let desc=box("p");desc.append(box("strong",null,"Voorbeeld: "),document.createTextNode(item.example||""));c.append(desc,box("p",null,"Waarom interessant: "+(item.why||"")),box("div","status",item.availability||"Status niet bevestigd"));if(item.link?.startsWith("https://")){let a=box("a",null,"Bekijk originele bron ↗");a.href=item.link;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}return c}
 function renderBuild(){let q=$("buildsearch").value.trim().toLowerCase(),cat=$("buildcategory").value,order=$("buildorder").value;let selected=ideas.filter(x=>(!cat||cat===x.category)&&(!$("onlyFav").checked||fav.includes(x.id))&&(!q||[x.title,x.example,x.why,x.category,x.needs,x.nextStep||"",x.personalUse||""].join(" ").toLowerCase().includes(q)));selected.sort((a,b)=>order==="name"?a.title.localeCompare(b.title):order==="easy"?({"Laag":1,"Middel":2,"Hoog":3}[a.complexity]||3)-({"Laag":1,"Middel":2,"Hoog":3}[b.complexity]||3)||b.score-a.score:(a.featuredRank||999)-(b.featuredRank||999)||b.score-a.score);$("buildcount").textContent=selected.length+" concrete ideeën · "+Math.min(visible,selected.length)+" getoond";const p=$("buildcards");p.replaceChildren();selected.slice(0,visible).forEach(x=>p.append(renderIdea(x)));if(!selected.length)p.append(box("p","small","Geen ideeën met deze zoekopdracht."));$("buildmore").hidden=visible>=selected.length}
-function renderOtherTab(){let selected=other.filter(x=>x.type===active);$("otherInfo").textContent=selected.length+" geselecteerde mogelijkheden. Beschikbaarheid en bewijs verschillen per item.";const p=$("othercards");p.replaceChildren();selected.forEach(x=>p.append(renderOther(x)));if(!selected.length)p.append(box("p","small","Nog geen goed onderbouwde resultaten."))}
+function renderOtherTab(){let selected=other.filter(x=>x.type===active);$("otherInfo").textContent=selected.length+" geselecteerde mogelijkheden. Beschikbaarheid en bewijs verschillen per item.";const p=$("othercards");p.replaceChildren();selected.forEach(x=>p.append(renderOther(x)));if(!selected.length)p.append(box("p","small","Nog geen goed onderbouwde resultaten."));
+const panel=$("researchPanel");panel.classList.toggle("hidden",active!=="nieuw");
+if(active==="nieuw")renderResearch();
+}
+function renderResearch(){
+ const p=$("researchCards");p.replaceChildren();
+ const priority=research.filter(x=>{
+  const t=(x.title||"").toLowerCase();
+  return (/reddit r\/shortcuts|n8n blog|openai news/i).test(x.source||"")&&
+    /(apple pay|shortcut|habit|automation|automatis|n8n|chatgpt work|codex for every role|agent workflow|new feature)/i.test(t) &&
+    !/(no longer function|disable|error|not running|anyone else|how itau|patch the planet|scale engineering)/i.test(t);
+ }).slice(0,10);
+ priority.forEach(x=>{
+  const c=box("article","card");c.append(box("span","meta",x.source+" · ONGEVERIFIEERDE ONDERZOEKSLEAD"),box("h3",null,x.title));
+  const a=box("a",null,"Lees oorspronkelijke bron ↗");a.href=x.url;a.target="_blank";a.rel="noopener noreferrer";c.append(a);p.append(c);
+ });
+ $("researchStatus").textContent=priority.length+" concrete onderzoekskandidaten uit nieuws en Reddit. Dit zijn geen bewezen functies of persoonlijke aanbevelingen.";
+ if(!priority.length)p.append(box("p","small","Er zijn momenteel geen passende nieuwe onderzoekskandidaten."));
+}
 function openTab(t){active=t;document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));$("build").classList.toggle("hidden",t!=="bouwen");$("other").classList.toggle("hidden",t==="bouwen");if(t==="bouwen")renderBuild();else renderOtherTab()}
 document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>openTab(b.dataset.tab));["buildsearch","buildcategory","buildorder","onlyFav"].forEach(id=>$(id).addEventListener(id==="buildsearch"?"input":"change",()=>{visible=10;renderBuild()}));$("buildmore").onclick=()=>{visible+=10;renderBuild()};
-Promise.allSettled([fetch("./bouwideeen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),fetch("./ai-kansen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json())]).then(([a,b])=>{if(a.status==="fulfilled"){ideas=a.value.items||[];$("total").textContent="("+ideas.length+")";const cats=[...new Set(ideas.map(x=>x.category))].sort();cats.forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;$("buildcategory").append(o)})}else{$("buildcount").textContent="Ideeënbibliotheek tijdelijk onbereikbaar."}if(b.status==="fulfilled")other=b.value.items||[];renderBuild()});
+Promise.allSettled([fetch("./bouwideeen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),fetch("./ai-kansen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),fetch("./ai-kansen-kandidaten.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("pending scan");return r.json()})]).then(([a,b,c])=>{if(a.status==="fulfilled"){ideas=a.value.items||[];$("total").textContent="("+ideas.length+")";const cats=[...new Set(ideas.map(x=>x.category))].sort();cats.forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;$("buildcategory").append(o)})}else{$("buildcount").textContent="Ideeënbibliotheek tijdelijk onbereikbaar."}if(b.status==="fulfilled")other=b.value.items||[];if(c.status==="fulfilled")research=c.value.items||[];renderBuild()});
 </script></body></html>

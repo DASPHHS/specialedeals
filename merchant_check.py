@@ -83,7 +83,7 @@ def main():
     outcome.update(status="observed",method=result["method"])
     entries.append({"title":target["title"],"store":target["store"],"url":target["url"],"category":target["category"],"price":result["price"],
        "checkedAt":now,"titleOnPage":result["titleOnPage"],"availabilityText":result["availability"],"shippingNote":target["shippingNote"],
-       "referencePrice":None,"allInVerified":False,"marketComparisonVerified":False,"status":"Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"})
+       "referencePrice":None,"allInVerified":False,"marketComparisonVerified":False,"variantVerified":not bool(target.get("variantNote")),"variantNote":target.get("variantNote",""),"status":"Geobserveerde winkelprijs: onafhankelijke vergelijking ontbreekt"})
   except Exception as exc:
    outcome.update(status="unavailable",error=str(exc)[:150])
   checks.append(outcome)

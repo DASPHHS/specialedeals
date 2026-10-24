@@ -9,6 +9,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '40 6 * * *'
+concurrency:
+  group: specialedeals-ai-research
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -31,5 +34,6 @@ jobs:
           git add ai-kansen-kandidaten.json
           if ! git diff --cached --quiet; then
             git commit -m "Update curated AI and Reddit opportunities"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi

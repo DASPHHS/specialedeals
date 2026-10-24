@@ -19,6 +19,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '15 7,12,17,21 * * *'
+concurrency:
+  group: specialedeals-scanner
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -48,5 +51,6 @@ jobs:
           git add live-deals.json merchant-observations.json price-history.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi

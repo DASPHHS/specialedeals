@@ -100,7 +100,7 @@ def promotion_kind(title):
  return "deal"
 def is_sample(title):
  t=title.casefold()
- return "sample sale" in t or "sample-sale" in t or "archive sale" in t or "stock sale" in t
+ return any(w in t for w in ("sample sale","sample-sale","archive sale","stock sale","warehouse sale","sampleverkoop","stockverkoop","magazijnverkoop"))
 def search_quality(item):
  if item.get("sourceType")!="search":return True
  url=item.get("url","")
@@ -130,6 +130,16 @@ def discovery():
    statuses.append({"source":"Merkscan "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
    raw_items.extend(rows)
   except Exception as e:statuses.append({"source":"Merkscan "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
+ # Officially announced future premium-brand sales can be published weeks ahead.
+ # Discovery is not confirmation of dates, admission, prices, or user sizes.
+ for i,q in enumerate(CFG.get("sampleSearchQueries",[])):
+  try:
+   url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q+" when:60d","hl":"nl","gl":"NL","ceid":"NL:nl"})
+   rows=rss_items(fetch(url),"Gerichte sample-sale-zoekopdracht","news")
+   statuses.append({"source":"Samplezoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   raw_items.extend(rows)
+  except Exception as exc:
+   statuses.append({"source":"Samplezoekopdracht "+str(i+1),"status":"error","error":str(exc)[:120],"items":0})
  # Secondary broad RSS discovery, explicitly kept as unverified search leads.
  # This adds retailer and outlet coverage where the news RSS has no product offers.
  for i,q in enumerate(CFG.get("broadSearchQueries",[])):
@@ -143,13 +153,14 @@ def discovery():
  return raw_items,statuses
 def main():
  raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()
+ rejected={"irrelevant":0,"source_quality":0,"duplicate":0}
  for item in raw:
   title=item["title"];relevance,matches=score(title)
-  if not search_quality(item):continue
-  if relevance<CFG["minScore"]:continue
+  if not search_quality(item):rejected["source_quality"]+=1;continue
+  if relevance<CFG["minScore"]:rejected["irrelevant"]+=1;continue
   # Distinct titles, not repeated Google News syndications.
   key=re.sub(r"[^a-z0-9]","",title.casefold())[:100]
-  if key in seen:continue
+  if key in seen:rejected["duplicate"]+=1;continue
   seen.add(key)
   item.update({"score":relevance,"matched":matches,"category":category(title),"discovery":True,"priceVerified":False,"allInVerified":False,"stockVerified":False,"variantVerified":False,"referencePriceVerified":False,"status":"Kandidaat: controle vereist","referencePrice":None,"checkedAt":None})
   k=promotion_kind(title)
@@ -158,7 +169,7 @@ def main():
   else:deals.append(item)
  for group in (deals,samples,promos):group.sort(key=lambda d:(d["score"],d["sourceType"]!="news"),reverse=True)
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- result={"updatedAt":now,"deals":deals[:150],"samples":samples[:50],"promotions":promos[:70],"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"]),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ result={"updatedAt":now,"diagnostics":rejected,"deals":deals[:150],"samples":samples[:50],"promotions":promos[:70],"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
  (ROOT/"live-deals.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
  print(json.dumps({"deals":len(deals),"samples":len(samples),"promotions":len(promos),"coverage":result["coverage"],"failed":sum(s["status"]=="error" for s in statuses)}))
 if __name__=="__main__":main()

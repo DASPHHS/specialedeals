@@ -106,8 +106,8 @@ def main():
         # Competition candidates may be useful even where a brand is not named.
         if kind!="deal" and s<0: continue
         key=item["url"].split("?")[0].rstrip("/").casefold()
-        minimum=cfg.get("discoveryMode",{}).get("minimumCategoryScore",cfg["minScore"])
-        if (s>=minimum or (kind!="deal" and s>=0 and any(w in item["title"].casefold() for w in ("padel","wellness","hotel","keuken","rituals","apple","dyson","salomon")))) and key not in seen:
+        minimum=max(25,cfg.get("minScore",20))
+        if (s>=minimum and bool(m)) and key not in seen:
             seen.add(key)
             entry={**item,"score":s,"matched":m,"discovery":not bool(m),"priceVerified":False,"priceOrigin":"feed" if item.get("price") is not None else None}
             kind=promotion_kind(item["title"])
@@ -115,7 +115,7 @@ def main():
             else:
                 entry.update({"kind":kind,"verified":False,"code":None,"deadline":None,"conditionsVerified":False})
                 promotions.append(entry)
-    selected.sort(key=lambda x:x["score"],reverse=True)
+    # Discovery feed is never a verified-deal feed. Keep relevant brand matches only.\n    selected.sort(key=lambda x:x["score"],reverse=True)
     promotions.sort(key=lambda x:x["score"],reverse=True)
     out={"updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),"deals":selected[:100],"promotions":promotions[:60],"sources":statuses,"note":"Feedvermeldingen zijn niet onafhankelijk geverifieerd; prijs, voorraad en geldigheid moeten op winkelwebsite worden gecontroleerd."}
     (ROOT/"live-deals.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")

@@ -134,9 +134,24 @@ def main():
       "availabilityText":result["availability"],"stockStatus":result["stockStatus"],
       "shippingNote":target["shippingNote"],"referencePrice":None,"allInVerified":False,
       "marketComparisonVerified":False,"variantVerified":not bool(target.get("variantNote")),
-      "variantNote":target.get("variantNote",""),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"})
+      "variantNote":target.get("variantNote",""),"comparisonGroup":target.get("comparisonGroup"),
+      "exactModel":target.get("exactModel"),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"})
   except Exception as exc:outcome.update(status="unavailable",error=str(exc)[:150])
   checks.append(outcome)
+ # Compare matching exact models only, where merchant product prices are observed.
+ # This is not a comparison of shipping and not a verified 'best all-in' deal.
+ groups={}
+ for entry in entries:
+  g=entry.get("comparisonGroup")
+  if g and entry["variantVerified"] and entry["stockStatus"]=="volgens winkel op voorraad":
+   groups.setdefault(g,[]).append(entry)
+ for g,items in groups.items():
+  if len(items)<2:continue
+  lowest=min(x["price"] for x in items)
+  for entry in items:
+   entry["otherTrackedShopPrices"]=[{"store":other["store"],"price":other["price"],"url":other["url"]} for other in items if other["url"]!=entry["url"]]
+   entry["lowestTrackedProductPrice"]=lowest
+   entry["lowestOfTrackedStores"]=entry["price"]==lowest
  update_history(entries,now)
  payload={"checkedAt":now,"offers":entries,"checks":checks,
    "note":"Productprijzen rechtstreeks uit winkeldata. Bij tegenstrijdige voorraad, varianten of onbekende verzending GEEN bevestigde koopalert."}

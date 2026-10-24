@@ -130,15 +130,26 @@ const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();c
 const sources=$("retailerLinks");sources.replaceChildren();app.shops.forEach(s=>{if(!validUrl(s.url))return;let a=el("a",null,s.name+" · "+s.category);a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";sources.append(a)});
 drawStatus();renderFound()}
 function loadObs(o,m){
- const merged=new Map();
- (o?.offers||[]).forEach(x=>merged.set(x.url,x));
- (m?.offers||[]).forEach(x=>{if(x.price!==null&&x.price!==undefined)merged.set(x.url,x)});
- app.observations=[...merged.values()].sort((a,b)=>a.store.localeCompare(b.store));
+ // Never recycle a stale, unverified editorial snapshot as an automatically checked deal.
+ app.observations=(m?.offers||[]).filter(x=>Number.isFinite(x.price)&&x.checkedAt)
+  .sort((a,b)=>stockInfo(a).order-stockInfo(b).order||a.store.localeCompare(b.store));
  $("shopcount").textContent=app.observations.length;
+ if(m?.checkedAt){
+  const age=(Date.now()-new Date(m.checkedAt).getTime())/3600000;
+  $("merchantUpdated").textContent="Laatste productcontrole: "+new Date(m.checkedAt).toLocaleString("nl-NL")+(age>48?" — scan te oud voor actuele claims":"");
+ }else $("merchantUpdated").textContent="Nog geen automatisch gecontroleerde winkelprijzen beschikbaar.";
  draw("observations",app.observations,"store");
- // Show concrete product observations before editorial/feed discoveries.
- const first=$("firstcards");if(app.observations.length){first.replaceChildren();app.observations.slice(0,4).forEach(x=>first.append(card(x,"store")));app.deals.slice(0,2).forEach(x=>first.append(card(x,"candidate")))}
- if(m?.checks){const target=$("merchantChecks");target.replaceChildren();m.checks.forEach(x=>target.append(el("p",null,x.store+" · "+x.status+(x.error?" · "+x.error:""))))}
+ const first=$("firstcards");first.replaceChildren();
+ const highlighted=app.observations.filter(x=>stockInfo(x).order<3&&x.variantVerified!==false).slice(0,6);
+ highlighted.forEach(x=>first.append(card(x,"store")));
+ app.deals.slice(0,2).forEach(x=>first.append(card(x,"candidate")));
+ if(!highlighted.length&&!app.deals.length)first.append(el("div","empty","Geen recente persoonlijke productvondsten."));
+ const old=$("merchantChecks");old.replaceChildren();
+ if(m?.checks)m.checks.forEach(x=>old.append(el("p",null,x.store+" · "+x.status+(x.stockStatus?" · "+x.stockStatus:"")+(x.error?" · "+x.error:""))));
+ const choices=[...new Set([...app.deals,...app.observations].map(x=>x.category).filter(Boolean))].sort();
+ const sel=$("group"),current=sel.value;sel.replaceChildren();let opt=document.createElement("option");opt.value="";opt.textContent="Alle categorieën";sel.append(opt);
+ choices.forEach(x=>{let o=document.createElement("option");o.value=x;o.textContent=x;sel.append(o)});sel.value=current;
+ renderFound();
 }
 const wishKey="specialedeals_wishlist_v1";let wishes=[];try{wishes=JSON.parse(localStorage.getItem(wishKey)||"[]")}catch{}
 function renderWishes(){const p=$("wishRows");p.replaceChildren();wishes.forEach((x,i)=>{const b=el("button","secondary",x.name+" · max "+money(x.max)+" ×");b.onclick=()=>{wishes.splice(i,1);localStorage.setItem(wishKey,JSON.stringify(wishes));renderWishes()};p.append(b)})}

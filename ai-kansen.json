@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2026-10-24T00:00:00Z",
+  "items": [
+    {
+      "title": "ChatGPT Work voor meerstapswerk",
+      "why": "Laat AI research, bestanden en ondersteunde websites combineren voor een concreet eindresultaat. Sluit aan bij lesvoorbereiding en je projecten.",
+      "action": "Probeer: analyseer een lesontwerp en maak een bruikbare feedbackversie. Controleer de uitkomst.",
+      "url": "https://help.openai.com/en/articles/20001275",
+      "source": "OpenAI Help",
+      "date": "2026-10-24",
+      "status": "Officiële documentatie",
+      "group": "werk"
+    },
+    {
+      "title": "n8n Assistant: automatiseringen in gewone taal",
+      "why": "Kan workflows plannen en opbouwen in n8n. Interessant voor Trello, mail en slimme huishoudtaken, maar vergt inrichting en controle.",
+      "action": "Test eerst één simpele Gmail-naar-Trello-workflow zonder gevoelige acties.",
+      "url": "https://blog.n8n.io/introducing-n8n-assistant/",
+      "source": "n8n",
+      "date": "2026-09-09",
+      "status": "Officiële productinformatie",
+      "group": "praktisch"
+    },
+    {
+      "title": "ChatGPT geplande taken voor terugkerende controles",
+      "why": "Automatiseer vaste overzichten en meldingen zonder telkens handmatig dezelfde vraag te stellen.",
+      "action": "Gebruik één herhaaltaak voor je wekelijkse onderwijsplanning en behoud menselijke controle.",
+      "url": "https://help-lb.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+      "source": "OpenAI Help",
+      "date": "2026-10-24",
+      "status": "Officiële documentatie",
+      "group": "praktisch"
+    }
+  ]
+}

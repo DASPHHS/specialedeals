@@ -1,7 +1,12 @@
 import unittest
-from merchant_check import find_observation,asprice,classify_stock,availability
+from merchant_check import find_observation,asprice,classify_stock,availability,same_observed_product
 TARGET={"require":["metalbone","carbon"]}
 class MerchantTests(unittest.TestCase):
+ def test_competitor_identity(self):
+  self.assertTrue(same_observed_product({"gtin":"1234567890123"},{"gtin":"1234567890123"}))
+  self.assertTrue(same_observed_product({"mpn":"AR2AA2U22"},{"mpn":"AR2AA2U22"}))
+  self.assertFalse(same_observed_product({"gtin":"1234567890123"},{"gtin":"1234567890124"}))
+  self.assertFalse(same_observed_product({"title":"Adidas Metalbone Carbon"},{"title":"Adidas Metalbone Carbon"}))
  def test_product_gtin(self):
   h='<script type="application/ld+json">{"@type":"Product","name":"Adidas Metalbone Carbon 26","gtin13":"8436548240123","offers":{"price":125,"priceCurrency":"EUR"}}</script>'
   self.assertEqual(find_observation(h,TARGET)["gtin"],"8436548240123")

@@ -58,7 +58,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <h3>Mijn maximale koopprijzen</h3><p class="muted">Hieronder kun je een prijsgrens vastleggen. Deze wordt alleen op dit apparaat bewaard; de uurlijkse e-mailtaak verandert hierdoor nog niet automatisch.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Voeg toe</button><div id="wishRows" class="links"></div>
 <h3>Alert veranderen</h3><p>Je bestaande uurlijkse en dagelijkse e-mailcontrole worden in ChatGPT uitgevoerd. Een wijziging van die taken kun je hier voorbereiden.</p><div class="toolbar"><input id="alertItem" placeholder="Bijv. ook HOKA Mafate maat 47⅓"><input id="alertMin" type="number" min="0" max="90" value="25" placeholder="Korting %"></div><button class="more" id="copyPrompt">Kopieer wijziging voor ChatGPT</button><p id="copyStatus" class="small"></p></div>
 </section>
-<section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
+<section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div><h3>Controle van exacte productpagina’s</h3><div id="merchantChecks" class="small">Nog geen automatische winkelcontrole gepubliceerd.</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
 <footer>Geen automatische aankopen. Feedkandidaten, actuele prijswaarnemingen en werkelijk geverifieerde deals worden bewust gescheiden.</footer>
 </main><script>
 const $=id=>document.getElementById(id);
@@ -84,7 +84,17 @@ draw("firstcards",app.deals.slice(0,6),"candidate");draw("samplecards",app.sampl
 const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();const select=$("group");groups.forEach(g=>{let o=document.createElement("option");o.value=g;o.textContent=g;select.append(o)});
 const sources=$("retailerLinks");sources.replaceChildren();app.shops.forEach(s=>{if(!validUrl(s.url))return;let a=el("a",null,s.name+" · "+s.category);a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";sources.append(a)});
 drawStatus();renderFound()}
-function loadObs(o){app.observations=o.offers||[];$("shopcount").textContent=app.observations.length;draw("observations",app.observations,"store")}
+function loadObs(o,m){
+ const merged=new Map();
+ (o?.offers||[]).forEach(x=>merged.set(x.url,x));
+ (m?.offers||[]).forEach(x=>{if(x.price!==null&&x.price!==undefined)merged.set(x.url,x)});
+ app.observations=[...merged.values()].sort((a,b)=>a.store.localeCompare(b.store));
+ $("shopcount").textContent=app.observations.length;
+ draw("observations",app.observations,"store");
+ // Show concrete product observations before editorial/feed discoveries.
+ const first=$("firstcards");if(app.observations.length){first.replaceChildren();app.observations.slice(0,4).forEach(x=>first.append(card(x,"store")));app.deals.slice(0,2).forEach(x=>first.append(card(x,"candidate")))}
+ if(m?.checks){const target=$("merchantChecks");target.replaceChildren();m.checks.forEach(x=>target.append(el("p",null,x.store+" · "+x.status+(x.error?" · "+x.error:""))))}
+}
 const wishKey="specialedeals_wishlist_v1";let wishes=[];try{wishes=JSON.parse(localStorage.getItem(wishKey)||"[]")}catch{}
 function renderWishes(){const p=$("wishRows");p.replaceChildren();wishes.forEach((x,i)=>{const b=el("button","secondary",x.name+" · max "+money(x.max)+" ×");b.onclick=()=>{wishes.splice(i,1);localStorage.setItem(wishKey,JSON.stringify(wishes));renderWishes()};p.append(b)})}
 $("wishAdd").onclick=()=>{const n=$("wishName").value.trim(),v=Number($("wishMax").value);if(!n||!Number.isFinite(v)||v<=0)return;wishes.push({name:n,max:v});localStorage.setItem(wishKey,JSON.stringify(wishes));$("wishName").value="";$("wishMax").value="";renderWishes()};renderWishes();
@@ -94,10 +104,11 @@ $("copyPrompt").onclick=async()=>{const name=$("alertItem").value.trim(),min=$("
 Promise.allSettled([
 fetch("./live-deals.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}),
 fetch("./winkel-waarnemingen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
-fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json())
-]).then(([feed,obs,profile])=>{
+fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
+fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not scanned");return r.json()})
+]).then(([feed,obs,profile,merchant])=>{
 if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
-if(obs.status==="fulfilled")loadObs(obs.value);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
+if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status==="fulfilled"?obs.value:null,merchant.status==="fulfilled"?merchant.value:null);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });
 </script></body></html>

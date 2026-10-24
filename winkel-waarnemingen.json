@@ -1,7 +1,35 @@
 {
   "checkedOn": "2026-10-24",
-  "note": "Handmatig waargenomen winkelprijzen op publicatiepagina's. Geen live-controle of berekende all-in bezorgprijs; geen gegarandeerde voorraad.",
+  "note": "Handmatig waargenomen winkelprijzen op 24 oktober 2026. Voorraad en prijzen kunnen wijzigen. De 'van-prijs' is winkelreferentie, geen onafhankelijke prijshistorie. Alle aanbiedingen alsnog controleren.",
   "offers": [
+    {
+      "title": "Adidas Metalbone Carbon ’26 padelracket",
+      "brand": "Adidas",
+      "store": "Tennisdiscount",
+      "price": 125,
+      "referencePrice": 269.99,
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html",
+      "shippingKnown": true,
+      "shipping": "Gratis vanaf €50 binnen Nederland",
+      "stockObservation": "6 stuks op productpagina (momentopname)",
+      "category": "Padel & sport",
+      "checkedOn": "2026-10-24",
+      "note": "Winkel toont €125 en gratis NL-verzending. Van-prijs is winkelreferentie, niet onafhankelijke marktprijshistorie. Eerder als alert gemeld."
+    },
+    {
+      "title": "Adidas Metalbone HRD+ ’26 padelracket",
+      "brand": "Adidas",
+      "store": "Tennisdiscount",
+      "price": 200,
+      "referencePrice": 389.99,
+      "url": "https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-hrd-26.html",
+      "shippingKnown": true,
+      "shipping": "Gratis vanaf €50 binnen Nederland",
+      "stockObservation": "2 stuks op productpagina (momentopname)",
+      "category": "Padel & sport",
+      "checkedOn": "2026-10-24",
+      "note": "Aanvallend hard racket, winkel toont €200 met gratis NL-verzending. Van-prijs is winkelreferentie, geen onafhankelijke historie. Eerder als alert gemeld."
+    },
     {
       "title": "Weleda Skin Food Crème 75 ml",
       "brand": "Weleda",

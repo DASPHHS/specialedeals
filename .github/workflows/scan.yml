@@ -1,5 +1,12 @@
 name: Speciale Deals dagelijkse scan
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scan.py'
+      - 'radar-config.json'
+      - 'test_scan.py'
+      - '.github/workflows/scan.yml'
   workflow_dispatch:
   schedule:
     - cron: '15 7,17 * * *'

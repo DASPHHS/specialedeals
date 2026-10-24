@@ -137,12 +137,6 @@
       "url": "https://nl.pepper.com/rss/hot",
       "kind": "rss",
       "type": "community"
-    },
-    {
-      "name": "iBOOD",
-      "url": "https://www.ibood.com/nl/s-nl",
-      "kind": "html",
-      "type": "retailer"
     }
   ],
   "specialistRetailers": [
@@ -348,5 +342,19 @@
     }
   ],
   "inclusion": "Only explicit exact brand/product matches. Broad category-only nonmatches are not included.",
-  "disclaimer": "RSS and Google News articles only signal candidates. Not verified product offers."
+  "disclaimer": "RSS and Google News articles only signal candidates. Not verified product offers.",
+  "broadSearchQueries": [
+    "Weleda Skin Food aanbieding",
+    "Adidas Metalbone Carbon 2026 aanbieding",
+    "Salomon heren schoenen sale",
+    "HOKA Arahi heren sale",
+    "Davines shampoo korting",
+    "Rituals Janzen sale",
+    "Giraffe Coffee Original Blend aanbieding",
+    "Dyson sale Nederland",
+    "Ralph Lauren Tommy Hilfiger outlet",
+    "sample sale Ralph Lauren heren Nederland",
+    "padelballen korting Head Bullpadel",
+    "Arc'teryx heren outlet Nederland"
+  ]
 }

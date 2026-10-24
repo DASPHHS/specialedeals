@@ -71,6 +71,7 @@ function stockInfo(d){
  const stale=d.checkedAt?Date.now()-new Date(d.checkedAt).getTime()>48*3600*1000:true;
  if(stale)return {text:"Oude scan — controleer opnieuw",order:4};
  if(st==="uitverkocht")return {text:"Winkeldata: uitverkocht",order:3};
+ if(st==="nabestelling"||st==="voorbestelling")return {text:"Nog niet direct leverbaar: "+st,order:3};
  if(st==="tegenstrijdige voorraadinformatie")return {text:"Voorraadsignalen spreken elkaar tegen",order:3};
  if(st==="volgens winkel op voorraad")return {text:"Winkeldata melden voorraad — opnieuw controleren",order:0};
  return {text:"Voorraad onbekend",order:2};

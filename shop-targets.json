@@ -139,6 +139,43 @@
       "category": "Outdoor & herenkleding",
       "shippingNote": "Maat 47⅓ en bezorgkosten op productpagina apart controleren",
       "variantNote": "Aanbieding kan per schoenmaat verschillen; maat niet automatisch bevestigd"
+    },
+    {
+      "title": "HOKA Arahi 8 Black/Skyward Blue EU 47⅓",
+      "store": "Koole Sport Vlaardingen",
+      "url": "https://vl.koolesport.nl/product/17442/hoka-arahi-8-black-skyward-blue/123439",
+      "require": [
+        "hoka",
+        "arahi",
+        "8"
+      ],
+      "category": "Outdoor & herenkleding",
+      "shippingNote": "Winkelverzending en maatvoorraad vooraf controleren",
+      "variantNote": "Prijs voor variantpagina EU 47⅓; winkelmaat en actuele beschikbaarheid bij afrekenen herbevestigen"
+    },
+    {
+      "title": "Adidas Metalbone Carbon 2026",
+      "store": "Tennis-Voordeel",
+      "url": "https://tennis-voordeel.nl/adidas-metalbone-carbon-2026/",
+      "require": [
+        "adidas",
+        "metalbone",
+        "carbon"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Verzendkosten van Tennis-Voordeel bij afrekenen controleren"
+    },
+    {
+      "title": "Adidas Metalbone Carbon 2026",
+      "store": "Padel Voordeel",
+      "url": "https://padel-voordeel.nl/adidas-metalbone-carbon-2026/",
+      "require": [
+        "adidas",
+        "metalbone",
+        "carbon"
+      ],
+      "category": "Padel & sport",
+      "shippingNote": "Verzendkosten van Padel Voordeel bij afrekenen controleren"
     }
   ]
 }

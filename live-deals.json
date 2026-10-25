@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T12:46:25.458863+00:00",
+  "updatedAt": "2026-10-25T12:47:10.797476+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 149,
+    "source_quality": 141,
     "duplicate": 0
   },
   "deals": [],
@@ -197,12 +197,12 @@
     {
       "source": "Winkelzoekopdracht 4",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -227,7 +227,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -485,9 +485,9 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 209,
+    "scannedItems": 201,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T12:46:25.458863+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T12:47:10.797476+00:00"
 }

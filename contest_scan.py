@@ -38,7 +38,7 @@ def main():
  now=datetime.datetime.now(datetime.timezone.utc).isoformat();target=ROOT/'contest-candidates.json'
  old=json.loads(target.read_text()) if target.exists() else {'candidates':[]}
  # Source failures never wipe previously collected candidates.
- candidates={r['id']:r for r in old.get('candidates',[]) if relevant(r.get('title',''),r.get('sourceUrl',''))}
+ candidates={r['id']:r for r in old.get('candidates',[]) if not r.get('reason','').startswith('Alleen zoekresultaat') or relevant(r.get('title',''),r.get('sourceUrl',''))}
  for row in build(rows,now):candidates[row['id']]=row
  target.write_text(json.dumps({'updatedAt':now,'candidates':list(candidates.values()),'sources':sources,'complete':not any(s['status']=='error' for s in sources),'note':'Discovery only. No automatic participation. No universal coverage claim.'},ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'queries':len(queries),'candidates':len(candidates),'failed':sum(s['status']=='error' for s in sources)}))

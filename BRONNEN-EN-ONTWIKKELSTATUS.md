@@ -4,7 +4,7 @@ Bijgewerkt: 25 oktober 2026. Dit document beschrijft implementatie en ontbrekend
 
 ## Acceptatie en afbakening
 
-Eén dashboard voor persoonlijke premiumdeals, Nederlandse/internationale winacties, sample sales, contractbesparingen, AI en innovaties. Herenmaten en persoonlijke merken uit README zijn leidend. Boodschappenmaatje, AH/Jumbo/Lidl en recepten worden niet gewijzigd. Geen willekeurige aantallimiet op gepubliceerde deals.
+Eén dashboard voor persoonlijke premiumdeals, Nederlandse/internationale winacties, sample sales, contractbesparingen, AI en innovaties. Herenmaten en persoonlijke merken uit README zijn leidend. Boodschappenmaatje, AH/Jumbo/Lidl en recepten worden niet gewijzigd. Geen willekeurige aantallimiet op gepubliceerde deals. De winactiefilter verwijdert zoekruis zoals Windows, WinRAR en woordenboekpagina’s; 52 bestaande ruisrecords zijn verwijderd.
 
 ## Bronstrategie
 
@@ -38,7 +38,7 @@ GitHub-planningen kunnen vertragen of vervallen. Daarom wordt actualiteit opnieu
 
 | Functie | Implementatiestatus | Acceptatie |
 |---|---|---|
-| Eén navigatie en dashboard | Gebouwd | Browsercontrole en live controle vereist bij publicatie |
+| Eén navigatie en dashboard | Gebouwd | 40 tests en DOM-navigatiecontrole geslaagd; livecontrole bij publicatie |
 | Bestaande detailmodules in dashboard | Gebouwd | Zelfde oorsprong, behoud bestaande lokale opslag, lazy loading |
 | Deals/filters/productwaarnemingen | Gedeeltelijk | Winkelwaarneming is geen koopadvies |
 | Bronstatus inclusief ouderdom en deeluitval | Gebouwd en unit-getest | Nooit vers bestand met mislukte bronnen als werkt labelen |
@@ -63,3 +63,5 @@ GitHub-planningen kunnen vertragen of vervallen. Daarom wordt actualiteit opnieu
 3. Private contractgegevens en meldketen aansluiten zonder publicatie van persoonsgegevens.
 4. Rente-adapter met bewezen officiële bron en vergelijkbare financieringsscenario's.
 5. Accountfeeds uitsluitend aansluiten wanneer credentials en rechten beschikbaar zijn.
+
+Publicatiebotsing vastgesteld in run 40193373320: beide scanners lazen de event-commit, waarna system-health.json conflicteerde. Beide workflows halen nu expliciet de actuele main-branch op binnen dezelfde concurrency-groep. Handmatig onderzochte kandidaten blijven behouden bij de ruisfilter.

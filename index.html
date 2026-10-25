@@ -38,9 +38,9 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <button class="active" data-tab="today">Voor jou</button><button data-tab="found">Deals</button><button data-tab="contests">Winacties</button><button data-tab="samples">Sample sales</button><button data-tab="saving">Besparen</button><button data-tab="ideas">AI & innovaties</button><button data-tab="sources">Scanstatus</button><button data-tab="settings">Instellingen</button>
 </nav>
 <p id="healthBanner" class="note" role="status">Scanstatus laden…</p>
-<section id="contests" class="section module"><iframe title="Winacties en deelnamevoorwaarden" data-src="./winacties.html?embedded=1"></iframe></section>
-<section id="saving" class="section module"><iframe title="Contracten en besparingen" data-src="./besparen.html?embedded=1"></iframe></section>
-<section id="ideas" class="section module"><iframe title="AI-toepassingen en innovaties" data-src="./ai-kansen.html?embedded=1"></iframe></section>
+<section id="contests" class="section module"><h2>Winacties</h2><p class="muted">Bekijk open acties en controleer per actie de voorwaarden voor deelname vanuit Nederland.</p><iframe title="Winacties en deelnamevoorwaarden" data-src="./winacties.html?embedded=1"></iframe></section>
+<section id="saving" class="section module"><h2>Contracten en besparen</h2><p class="muted">Bekijk overstapmomenten en vergelijk jaarlijkse kosten. Invoer blijft op dit apparaat.</p><iframe title="Contracten en besparingen" data-src="./besparen.html?embedded=1"></iframe></section>
+<section id="ideas" class="section module"><h2>AI en innovaties</h2><p class="muted">Direct bruikbare toepassingen, persoonlijke bouwideeën en ontwikkelingen met hun beschikbaarheidsstatus.</p><iframe title="AI-toepassingen en innovaties" data-src="./ai-kansen.html?embedded=1"></iframe></section>
 <section id="today" class="section show">
 <div class="summary">
 <div class="tile"><span class="muted">Persoonlijke kandidaten</span><strong id="matchcount">–</strong><span class="small">Niet automatisch koopadvies</span></div>
@@ -97,7 +97,7 @@ function card(d,kind){
  c.append(el("span","tag",kind==="store"?stockInfo(d).text:kind==="sample"?"Sample-sale-kandidaat":"Kandidaat — niet onafhankelijk gecontroleerd"),el("h3",null,d.title));
  if(kind==="store"){
   c.append(el("strong","price",money(d.price)));
-  c.append(el("p",null,d.store+" · gecontroleerd "+(d.checkedAt?new Date(d.checkedAt).toLocaleString("nl-NL"):"datum onbekend")));
+  c.append(el("p",null,d.store+" · gecontroleerd "+(d.checkedAt?new Date(d.checkedAt).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"}):"datum onbekend")));
   if(d.variantVerified===false)c.append(el("p",null,"Maat of verpakking NIET bevestigd: "+(d.variantNote||"meerdere varianten")));
   if(Number.isFinite(d.ownHistoryLow90d)&&Number.isFinite(d.ownHistoryHigh90d)&&d.priceHistoryCount>1)
    c.append(el("p",null,"Eigen winkelhistorie: "+money(d.ownHistoryLow90d)+"–"+money(d.ownHistoryHigh90d)+" ("+d.priceHistoryCount+" metingen)"));
@@ -131,7 +131,7 @@ function renderFound(){
 }
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
-function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL")+" · ":"") +ok+" bereikt · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
+function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+" · ":"") +ok+" bereikt · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
 const parent=$("sourceRows");parent.replaceChildren();
 const merks=app.sources.filter(s=>(s.source||"").startsWith("Merkscan"));
 parent.append(el("p",null,merks.length+" gerichte merkzoekopdrachten, waarvan "+merks.filter(s=>s.items>0).length+" met gevonden artikelen."));
@@ -158,7 +158,7 @@ function loadObs(o,m){
  $("shopcount").textContent=app.observations.length;
  if(m?.checkedAt){
   const age=(Date.now()-new Date(m.checkedAt).getTime())/3600000;
-  $("merchantUpdated").textContent="Laatste productcontrole: "+new Date(m.checkedAt).toLocaleString("nl-NL")+(age>48?" — scan te oud voor actuele claims":"");
+  $("merchantUpdated").textContent="Laatste productcontrole: "+new Date(m.checkedAt).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+(age>48?" — scan te oud voor actuele claims":"");
  }else $("merchantUpdated").textContent="Nog geen automatisch gecontroleerde winkelprijzen beschikbaar.";
  draw("observations",app.observations,"store");
  const first=$("firstcards");first.replaceChildren();
@@ -210,8 +210,8 @@ document.querySelectorAll('.module iframe').forEach(frame=>frame.addEventListene
  try{const doc=frame.contentDocument;const style=doc.createElement('style');style.textContent='body{max-width:none!important;margin:0!important;padding:0!important}body>header,body>nav,body>h1,body>p:has(>a[href="./"]){display:none!important}main{max-width:none!important;padding:0!important}';doc.head.append(style);const resize=()=>{frame.style.height=Math.max(400,doc.documentElement.scrollHeight)+'px'};new ResizeObserver(resize).observe(doc.body);resize()}catch{frame.title+=' (open opnieuw bij een laadfout)'}
 }));
 show(location.hash.slice(1)||'today');
-const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
-$("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
+const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"});$("ingPoints").value=balance}
+$("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"});$("ingmsg").textContent="Alleen lokaal opgeslagen."};
 $("ingCompare").onclick=()=>{
  const points=Number($("ingComparePoints").value),cash=Number($("ingCompareCash").value),shipping=Number($("ingCompareShip").value),other=Number($("ingCompareMarket").value);
  if(![points,cash,shipping,other].every(Number.isFinite)||!Number.isInteger(points)||points<1||cash<0||shipping<0||other<=0||

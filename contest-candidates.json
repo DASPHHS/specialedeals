@@ -1,6 +1,120 @@
 {
   "updatedAt": "2026-10-25T12:17:02.534720+00:00",
-  "candidates": [],
+  "candidates": [
+    {
+      "id": "journaway-zuidafrika-20261024",
+      "title": "Zuid-Afrika: reisactie met fout in reisvoorwaarden",
+      "sourceUrl": "https://www.journaway.com/nl/verloting/zuidafrika",
+      "category": "Winacties",
+      "checkedAt": "2026-10-24T06:43:59.793600Z",
+      "status": "candidate",
+      "reason": "Rondreis voor twee tot €4.000 met vluchten, hotels en huurauto; 18+ en Nederland toegestaan, verplichte nieuwsbrief. Sluit volgens voorwaarden 25 oktober 23.59 uur. Nog geen bevestigde winactie: uiterste reisstart wordt als ongeldige datum 31-06-2028 vermeld; de sociale deelnamebeschrijving wijkt af van het formulier.",
+      "tags": [
+        "Winacties"
+      ]
+    },
+    {
+      "id": "swiss-herfst-20261023",
+      "title": "Zwitserlandreis: voorwaarden nog niet volledig leesbaar",
+      "sourceUrl": "https://www.myswitzerland.com/nl-nl/interesses/zomer-herfst/herfst/herfstcompetition/",
+      "category": "Winacties",
+      "checkedAt": "2026-10-23T06:47:17.629206Z",
+      "status": "candidate",
+      "reason": "Officiële pagina noemt een week voor twee met vluchten/trein en sluiting 8 november; prijs pas vanaf herfst 2027 te gebruiken. Deelnamevoorwaarden/formulier niet volledig leesbaar. Nog niet in de bevestigde winacties.",
+      "tags": [
+        "Reizen"
+      ]
+    },
+    {
+      "id": "snow-forsthofalm-20261023",
+      "title": "Forsthofalm: drie nachten, privacyvoorwaarden verschillen",
+      "sourceUrl": "https://www.snowrepublic.nl/winactie-maak-kans-op-3-nachten-in-berghotel-forsthofalm-in-leogang/",
+      "category": "Winacties",
+      "checkedAt": "2026-10-23T06:47:17.629206Z",
+      "status": "candidate",
+      "reason": "Drie nachten halfpension voor twee, t/m 15 november. Pagina zegt gegevens alleen voor winnaarcontact; algemene voorwaarden staan direct marketing toe. Daarom kandidaat totdat de tegenstrijdigheid is opgehelderd.",
+      "tags": [
+        "Reizen"
+      ]
+    },
+    {
+      "id": "plus-mocktail-20261024",
+      "title": "PLUS mocktailwedstrijd: deelnemende winkel nog controleren",
+      "sourceUrl": "https://www.plus.nl/voorwaarden/winactie-mocktail",
+      "category": "Winacties",
+      "checkedAt": "2026-10-24T06:46:28.819153Z",
+      "status": "candidate",
+      "reason": "Gratis creatieve wedstrijd voor een Spiegelau-glazenset van €27,50 per deelnemende winkel. Een eigen recept met foto onder de lokale Facebook-winpost is vereist; nieuwsbrief niet verplicht. Voor Bleiswijk is geen deelnemende winkel bevestigd, daarom kandidaat. Winnaar moet snel reageren; publiciteitsmedewerking geldt.",
+      "tags": [
+        "Huis & tuin"
+      ]
+    },
+    {
+      "id": "apukka-lapland-intl",
+      "title": "Lapland voor twee: sluitingsdatum ontbreekt",
+      "sourceUrl": "https://apukkaresort.fi/late-winter-vacation-in-lapland/",
+      "category": "Winacties",
+      "checkedAt": "2026-10-25T08:30:43.516453Z",
+      "status": "candidate",
+      "reason": "Finse organisator. Wereldwijde gratis deelname volgens voorwaarden; nieuwsbrief en e-mailbevestiging vereist. Reis 1 maart–4 april 2027, vlucht/trein zelf betalen. Trekking 6 november is geen bevestigde inschrijfdeadline.",
+      "tags": [
+        "Reizen",
+        "Internationaal"
+      ]
+    },
+    {
+      "id": "utracks-intl",
+      "title": "UTracks-reisvoucher: tegenstrijdige sluitingstijd",
+      "sourceUrl": "https://www.utracks.com/Competition",
+      "category": "Winacties",
+      "checkedAt": "2026-10-25T08:30:43.516453Z",
+      "status": "candidate",
+      "reason": "EU-inwoners 18+ toegestaan. USD 3.000 op één reis in 2027 voor maximaal twee; geen vluchten. Nieuwsbrief, blog en vijf foto’s bij winst vereist. Pagina noemt zowel middernacht als 12.00 AEST op 7 december; eerst sluiting laten verduidelijken.",
+      "tags": [
+        "Reizen",
+        "Internationaal"
+      ]
+    },
+    {
+      "id": "ohuhu-intl",
+      "title": "Ohuhu markers en tegoed: account en voorwaarden controleren",
+      "sourceUrl": "https://eu.ohuhu.com/blogs/news/ohuhu-spooky-doors-2026-create-unlock-win",
+      "category": "Winacties",
+      "checkedAt": "2026-10-25T08:30:43.516453Z",
+      "status": "candidate",
+      "reason": "Wereldwijde Golden Door Run t/m 29 oktober 23.59 PDT; drie hoofdprijzen met markers en USD300 tegoed. Gratis account verplicht. Volledige campagnevoorwaarden via JavaScript niet gelezen; geen bevestigde deelnameklaar-status.",
+      "tags": [
+        "Reizen",
+        "Internationaal"
+      ]
+    },
+    {
+      "id": "landscape-intl",
+      "title": "Landscape Alliance: internationale fotoprijzen",
+      "sourceUrl": "https://photocompetition.landscapealliance.org/",
+      "category": "Winacties",
+      "checkedAt": "2026-10-25T08:30:43.516453Z",
+      "status": "candidate",
+      "reason": "18+, wereldwijd; USD500/400/300, deadline31 oktober. Eigen foto’s sinds2021, geen AI of herkenbare minderjarigen; gebruikslicentie geldt. Geen expliciete gratis-deelnamebepaling in gelezen pagina gevonden: aanvullende controle nodig. Fotowedstrijd vereist eigen werk.",
+      "tags": [
+        "Reizen",
+        "Internationaal"
+      ]
+    },
+    {
+      "id": "ivn-tastytuiny-2026",
+      "title": "Twee eetbare Tasty Tuiny-pakketten voor vergroening",
+      "sourceUrl": "https://www.ivn.nl/provincies/zuid-holland/nieuws/een-bloeiende-lente-plant-je-in-de-herfst-winactie/",
+      "category": "Winacties",
+      "checkedAt": "2026-10-25T08:41:53.300402Z",
+      "status": "candidate",
+      "reason": "Twee pakketten van €74,95; vertel welke plek je wilt vergroenen. Aanmelden vóór 15 november. Officieel nieuwsbericht gelezen, ingebed formulier en volledige voorwaarden nog niet uitleesbaar; woon-/verzendvoorwaarden eerst controleren.",
+      "tags": [
+        "Tuin",
+        "Verduurzaming"
+      ]
+    }
+  ],
   "sources": [
     {
       "query": "gratis winactie auto elektrische auto",

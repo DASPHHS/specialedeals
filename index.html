@@ -51,6 +51,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 </div>
 <div class="panel"><div class="section-heading"><h2>Winacties met deadline</h2><button class="secondary" data-open="contests">Alle winacties</button></div><div id="featuredContests" class="cards"><p class="muted">Acties laden…</p></div></div>
 <div class="panel"><div class="section-heading"><h2>Sample sales om te bekijken</h2><button class="secondary" data-open="samples">Alle sample sales</button></div><p class="muted">Gepubliceerde evenementen, geen garantie op jouw maat of daadwerkelijke korting.</p><div id="featuredEvents" class="cards"><p class="muted">Evenementen laden…</p></div></div>
+<div class="panel" id="comparablePricesPanel"><div class="section-heading"><h2>Hetzelfde product, andere winkelprijs</h2><button class="secondary" data-open="found">Bekijk alle producten</button></div><p class="muted">Alleen identieke productcodes bij meerdere winkels met voorraadsignaal. Een artikelprijsverschil is nog géén besparing inclusief verzending.</p><div id="comparablePrices" class="cards"><p class="muted">Prijsverschillen laden…</p></div><p id="comparisonUpdated" class="small"></p></div>
 <details class="panel" id="dealResearch"><summary>Productdeals in onderzoek <span id="dealResearchCount"></span></summary><p class="muted">Nog niet onafhankelijk bevestigde deals blijven gescheiden van koopadvies.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke dealvondsten</button></details>
 <details class="panel" id="rawPrices"><summary>Losse winkelprijsmetingen, geen bewezen deals</summary><div><p class="muted">Alleen om prijzen te onderzoeken, zonder bewezen marktvoordeel of totale bezorgprijs.</p><p class="small" id="merchantUpdated">Automatische productscan laden…</p><div id="observations" class="cards"></div></div></details>
 <details class="panel" id="scanStats"><summary>Technische statistieken</summary><div class="summary">
@@ -89,7 +90,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
 const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
-const app={deals:[],samples:[],events:[],contests:[],internationalStores:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
+const app={deals:[],samples:[],events:[],contests:[],internationalStores:[],priceComparisons:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function stockInfo(d){
  const st=d.stockStatus||"onbekend";
@@ -173,6 +174,30 @@ document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>show(b.dataset
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
 document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
 
+
+function renderPriceComparisons(){
+ const panel=$("comparablePrices"),rows=app.priceComparisons;
+ panel.replaceChildren();
+ let shown=0;
+ for(const c of rows){
+  if(!c || c.allInVerified || c.purchaseSavingsVerified || !Array.isArray(c.offers) || c.offers.length<2)continue;
+  if(!Number.isFinite(c.articlePriceDifferenceEUR)||c.articlePriceDifferenceEUR<=0)continue;
+  const sorted=[...c.offers].filter(x=>Number.isFinite(x.priceEUR)&&validUrl(x.url)).sort((a,b)=>a.priceEUR-b.priceEUR);
+  if(sorted.length<2)continue;
+  const cardEl=el("article","card");
+  cardEl.append(el("span","tag","Zelfde productcode · geen gegarandeerde besparing"));
+  cardEl.append(el("h3",null,c.product));
+  cardEl.append(el("strong","price",money(sorted[0].priceEUR)+" vs. "+money(sorted.at(-1).priceEUR)));
+  cardEl.append(el("p",null,"Verschil artikelprijs: "+money(c.articlePriceDifferenceEUR)+" ("+c.articlePriceDifferencePct+"%)."));
+  cardEl.append(el("p",null,"Controleer bij bestelling de totale verzendkosten, jouw uitvoering en voorraad."));
+  for(const offer of sorted.slice(0,4)){
+   const a=el("a",null,offer.store+" · "+money(offer.priceEUR)+" · bekijk artikel");
+   a.href=offer.url;a.target="_blank";a.rel="noopener noreferrer";cardEl.append(a);
+  }
+  panel.append(cardEl);shown++;
+ }
+ if(!shown)panel.append(el("p","empty","Nog geen actuele identieke producten met aantoonbaar verschillende winkelprijzen. De controles blijven doorlopen."));
+}
 function renderInternational(){
  const stores=app.internationalStores, parent=$("internationalShops");parent.replaceChildren();
  $("intlCount").textContent="("+stores.length+")";
@@ -311,13 +336,15 @@ fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if
 fetch("./watchlist.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not available");return r.json()}),
 fetch("./sample-events.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Sample agenda unavailable");return r.json()}),
 fetch("./contests.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Contest data unavailable");return r.json()}),
-fetch("./international-stores.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("International stores unavailable");return r.json()})
-]).then(([feed,obs,profile,merchant,watches,sampleEvents,contests,international])=>{
+fetch("./international-stores.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("International stores unavailable");return r.json()}),
+fetch("./price-comparisons.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("No comparison scan yet");return r.json()})
+]).then(([feed,obs,profile,merchant,watches,sampleEvents,contests,international,comparisons])=>{
 if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
 if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status==="fulfilled"?obs.value:null,merchant.status==="fulfilled"?merchant.value:null);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
 if(sampleEvents.status==="fulfilled"){app.events=sampleEvents.value.events||[];renderSamples()}else{$("featuredEvents").textContent="Sample-saleagenda kon niet worden geladen."}
 if(contests.status==="fulfilled"){app.contests=contests.value.contests||[];renderContests()}else{$("featuredContests").textContent="Winactiegegevens konden niet worden geladen."}
 if(international.status==="fulfilled"){app.internationalStores=international.value.retailers||[];renderInternational();renderFound()}else{$("internationalShops").textContent="Buitenlandse verzendvoorwaarden zijn momenteel niet bereikbaar."}
+if(comparisons.status==="fulfilled"){app.priceComparisons=comparisons.value.comparisons||[];$("comparisonUpdated").textContent="Laatste vergelijking: "+new Date(comparisons.value.updatedAt).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+" · alleen waargenomen artikelprijzen, geen checkoutbewijs.";renderPriceComparisons();}else{$("comparablePrices").textContent="De eerste winkeloverstijgende vergelijking is nog niet gepubliceerd."}
 if(watches.status==="fulfilled"){savedWatches=watches.value.items||[];renderWatches()}else{$("watchStatus").textContent="Servervolglijst tijdelijk niet bereikbaar."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });

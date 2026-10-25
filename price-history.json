@@ -1,9 +1,14 @@
 {
-  "updatedAt": "2026-10-24T22:16:27.293699+00:00",
+  "updatedAt": "2026-10-25T08:47:17.055508+00:00",
   "products": {
     "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 125.0,
+        "stock": "uitverkocht"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 125.0,
         "stock": "uitverkocht"
       }
@@ -13,11 +18,21 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 200.0,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 200.0,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "Tennisdiscount|https://www.tennisdiscount.nl/padelballen/head-padel-pro-s-24x3-st.html": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 114.95,
+        "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 114.95,
         "stock": "volgens winkel op voorraad"
       }
@@ -27,11 +42,21 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 8.99,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 8.99,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-light-75ml.htm": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 8.24,
+        "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 8.24,
         "stock": "volgens winkel op voorraad"
       }
@@ -41,11 +66,21 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 11.99,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 11.99,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "Tennisdiscount|https://www.tennisdiscount.nl/padelballen/bullpadel-premium-pro-24x3-st.html": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 107.95,
+        "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 107.95,
         "stock": "volgens winkel op voorraad"
       }
@@ -55,11 +90,21 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 14.24,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 14.24,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "De Online Drogist|https://www.deonlinedrogist.nl/drogist/weleda-skin-food-voedende-nachtcreme-40ml.htm": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 14.99,
+        "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 14.99,
         "stock": "volgens winkel op voorraad"
       }
@@ -69,11 +114,21 @@
         "at": "2026-10-24T21:41:42.395359+00:00",
         "price": 35.0,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 35.0,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "Davines|https://nl.davines.com/products/oi-shampoo": [
       {
         "at": "2026-10-24T21:41:42.395359+00:00",
+        "price": 29.85,
+        "stock": "tegenstrijdige voorraadinformatie"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 29.85,
         "stock": "tegenstrijdige voorraadinformatie"
       }
@@ -83,11 +138,21 @@
         "at": "2026-10-24T21:45:00.081124+00:00",
         "price": 182.9,
         "stock": "nabestelling"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 182.9,
+        "stock": "nabestelling"
       }
     ],
     "Padel Voordeel|https://padel-voordeel.nl/adidas-metalbone-carbon-2026/": [
       {
         "at": "2026-10-24T21:45:00.081124+00:00",
+        "price": 182.9,
+        "stock": "nabestelling"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 182.9,
         "stock": "nabestelling"
       }
@@ -97,6 +162,11 @@
         "at": "2026-10-24T22:16:27.293699+00:00",
         "price": 7.9,
         "stock": "onbekend"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 7.9,
+        "stock": "onbekend"
       }
     ],
     "KoopjesDrogisterij|https://www.koopjesdrogisterij.nl/weleda-skin-food-75ml-902367.html": [
@@ -104,11 +174,21 @@
         "at": "2026-10-24T22:16:27.293699+00:00",
         "price": 8.29,
         "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
+        "price": 8.29,
+        "stock": "volgens winkel op voorraad"
       }
     ],
     "Ecco Verde|https://www.ecco-verde.nl/weleda/skin-food?sai=32293": [
       {
         "at": "2026-10-24T22:16:27.293699+00:00",
+        "price": 10.49,
+        "stock": "volgens winkel op voorraad"
+      },
+      {
+        "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 10.49,
         "stock": "volgens winkel op voorraad"
       }

@@ -1,11 +1,100 @@
 {
-  "updatedAt": "2026-10-24T22:16:27.205001+00:00",
+  "updatedAt": "2026-10-25T08:47:16.970533+00:00",
   "diagnostics": {
-    "irrelevant": 60,
-    "source_quality": 147,
+    "irrelevant": 56,
+    "source_quality": 140,
     "duplicate": 0
   },
-  "deals": [],
+  "deals": [
+    {
+      "title": "Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
+      "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Sun, 25 Oct 2026 08:12:06 +0100",
+      "price": 65.25,
+      "score": 55,
+      "matched": [
+        "nike"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "287° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
+      "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
+      "source": "Pepper Hot",
+      "sourceType": "community",
+      "published": "Sun, 25 Oct 2026 08:53:32 +0100",
+      "price": 65.25,
+      "score": 55,
+      "matched": [
+        "nike"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "165° - Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
+      "url": "https://nl.pepper.com/aanbiedingen/apple-watch-series-11-46-mm-gps-cellular-zilver-aluminium-sportband-sm-flash-sale-423511",
+      "source": "Pepper Hot",
+      "sourceType": "community",
+      "published": "Sun, 25 Oct 2026 07:03:52 +0100",
+      "price": 399.0,
+      "score": 55,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "Polo Ralph Lauren Gorham Down Jacket - Gewatteerde jas",
+      "url": "https://nl.pepper.com/aanbiedingen/polo-ralph-lauren-gorham-down-jacket-gewatteerde-jas-423555",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Sun, 25 Oct 2026 03:02:47 +0100",
+      "price": 231.0,
+      "score": 43,
+      "matched": [
+        "ralph lauren"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    }
+  ],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -191,8 +280,8 @@
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -202,7 +291,7 @@
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -485,8 +574,8 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 207,
-    "personalMatches": 0
+    "scannedItems": 200,
+    "personalMatches": 4
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."
 }

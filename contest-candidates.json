@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:45:08.024600+00:00",
+  "updatedAt": "2026-10-25T08:47:02.203153+00:00",
   "candidates": [
     {
       "id": "journaway-zuidafrika-20261024",
@@ -113,169 +113,349 @@
         "Tuin",
         "Verduurzaming"
       ]
+    },
+    {
+      "id": "dd30c88e47beeefda00e",
+      "title": "Unable to install the new duckduckgo windows app on Windows 10.",
+      "sourceUrl": "https://www.reddit.com/r/duckduckgo/comments/11gqn1v/unable_to_install_the_new_duckduckgo_windows_app/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "e1f5876104f7edba4c3a",
+      "title": "WinRAR download free and support: WinRAR",
+      "sourceUrl": "https://www.win-rar.com/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "b6a87d1c373ff1f83233",
+      "title": "Experience the Windows difference with Windows 11 OS, Laptops, PCs ...",
+      "sourceUrl": "https://www.microsoft.com/en-us/windows/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "dc4d6791b1e11e4107b8",
+      "title": "Microsoft Store - Download apps, games & more for your Windows PC",
+      "sourceUrl": "https://apps.microsoft.com/home",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "75c53dea0c41a141c79a",
+      "title": "WinRAR download free and support: WinRAR Download Latest Version",
+      "sourceUrl": "https://www.win-rar.com/download.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "6e1e9d9768dd713648d2",
+      "title": "Windy: Wind map & weather forecast",
+      "sourceUrl": "https://www.windy.com/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "f840ca9f3ee8ac31b20e",
+      "title": "WIN Definition & Meaning - Merriam-Webster",
+      "sourceUrl": "https://www.merriam-webster.com/dictionary/win",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "ea10859a7ab3481e25c0",
+      "title": "Home - WIN",
+      "sourceUrl": "https://winnyc.org/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "ab2049a91d21c41f2437",
+      "title": "Windows App - Free download and install on Windows | Microsoft Store",
+      "sourceUrl": "https://apps.microsoft.com/detail/9n1f85v9t8bn",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "b531853cf984fb29a881",
+      "title": "Install Windows Updates | Microsoft Support",
+      "sourceUrl": "https://support.microsoft.com/en-us/windows/deployment/updates-lifecycle/install-windows-updates",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "8540dccad06db9848b71",
+      "title": "Las Vegas Car Shows | 2026 Las Vegas Concours at Wynn",
+      "sourceUrl": "https://www.lasvegasconcours.com/",
+      "category": "Auto’s",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "4d2b258c54f3dc45cbb5",
+      "title": "Concours - Wikipedia",
+      "sourceUrl": "https://en.m.wikipedia.org/wiki/Concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "2948d2ddf0e2a8102a06",
+      "title": "CONCOURS Definition & Meaning - Merriam-Webster",
+      "sourceUrl": "https://www.merriam-webster.com/dictionary/concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "cebcd333b1656dfa9271",
+      "title": "CONCOURS Definition & Meaning | Dictionary.com",
+      "sourceUrl": "https://www.dictionary.com/browse/concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "46d23106afa320d64af4",
+      "title": "Kawasaki Concours - Wikipedia",
+      "sourceUrl": "https://en.m.wikipedia.org/wiki/Kawasaki_Concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "302620a32d5c01944085",
+      "title": "concours - Wiktionary, the free dictionary",
+      "sourceUrl": "https://en.m.wiktionary.org/wiki/concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "482d9237ab995f0b7d1e",
+      "title": "Concours Owners Group - Home",
+      "sourceUrl": "https://concours.org/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "c8e5fe3e8b994c907932",
+      "title": "Concours — Wikipédia",
+      "sourceUrl": "https://fr.m.wikipedia.org/wiki/Concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "522e1fede08bbc30358f",
+      "title": "CONCOURS definition and meaning | Collins English Dictionary",
+      "sourceUrl": "https://www.collinsdictionary.com/dictionary/english/concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
+    },
+    {
+      "id": "d682bc8550b139629c95",
+      "title": "Concours - definition of concours by The Free Dictionary",
+      "sourceUrl": "https://www.thefreedictionary.com/concours",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T08:47:02.203153+00:00",
+      "status": "candidate",
+      "reason": "Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren."
     }
   ],
   "sources": [
     {
       "query": "gratis winactie auto elektrische auto",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:44.225812+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.655808+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "winactie verbouwing renovatie keuken badkamer",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:44.444181+00:00",
+      "checkedAt": "2026-10-25T08:47:01.560976+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "winactie tuin tuinrenovatie gereedschap",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:44.292449+00:00",
+      "checkedAt": "2026-10-25T08:47:01.686290+00:00",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "query": "winactie warmtepomp isolatie verduurzaming",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:44.227867+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.565962+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "winactie huishoudelijke apparatuur keukenapparatuur",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:46.631921+00:00",
+      "checkedAt": "2026-10-25T08:47:01.651883+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "winactie geldprijs gratis Nederland",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:46.591433+00:00",
+      "checkedAt": "2026-10-25T08:47:01.657315+00:00",
       "status": "ok",
-      "items": 10
+      "items": 14
     },
     {
       "query": "winactie droomreis Nederlanders",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:46.668031+00:00",
+      "checkedAt": "2026-10-25T08:47:01.737079+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "winactie site:gratiz.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:46.734561+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.814939+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "winactie site:prijzenzolder.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:50.036873+00:00",
+      "checkedAt": "2026-10-25T08:47:01.777321+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "winactie site:prijsvragengala.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:49.955985+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.781621+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "winactie site:acties.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T08:44:49.934670+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.838257+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "win a car competition Netherlands residents free",
       "language": "en",
-      "checkedAt": "2026-10-25T08:44:49.884242+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.897109+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "home renovation giveaway Europe Netherlands",
       "language": "en",
-      "checkedAt": "2026-10-25T08:44:55.653809+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.876303+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "kitchen appliance giveaway worldwide free",
       "language": "en",
-      "checkedAt": "2026-10-25T08:44:55.735883+00:00",
+      "checkedAt": "2026-10-25T08:47:01.910465+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "garden tools giveaway Europe",
       "language": "en",
-      "checkedAt": "2026-10-25T08:44:55.689638+00:00",
+      "checkedAt": "2026-10-25T08:47:01.938176+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "cash competition worldwide Netherlands",
       "language": "en",
-      "checkedAt": "2026-10-25T08:44:55.732163+00:00",
+      "checkedAt": "2026-10-25T08:47:02.022032+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "travel competition worldwide residents terms",
       "language": "en",
-      "checkedAt": "2026-10-25T08:45:00.875942+00:00",
+      "checkedAt": "2026-10-25T08:47:02.050469+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "Gewinnspiel Auto Teilnahme Niederlande kostenlos",
       "language": "de",
-      "checkedAt": "2026-10-25T08:45:00.816892+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:01.996599+00:00",
+      "status": "ok",
+      "items": 10
     },
     {
       "query": "Gewinnspiel Küche Garten europaweit",
       "language": "de",
-      "checkedAt": "2026-10-25T08:45:00.795537+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:02.028517+00:00",
+      "status": "ok",
+      "items": 7
     },
     {
       "query": "Gewinnspiel Wärmepumpe Renovierung Niederlande",
       "language": "de",
-      "checkedAt": "2026-10-25T08:45:00.835705+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:02.202706+00:00",
+      "status": "ok",
+      "items": 1
     },
     {
       "query": "concours voiture ouvert Pays-Bas gratuit",
       "language": "fr",
-      "checkedAt": "2026-10-25T08:45:07.940197+00:00",
+      "checkedAt": "2026-10-25T08:47:02.184298+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "concours rénovation maison Europe",
       "language": "fr",
-      "checkedAt": "2026-10-25T08:45:08.023995+00:00",
+      "checkedAt": "2026-10-25T08:47:02.123778+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "concours voyage ouvert résidents Pays-Bas",
       "language": "fr",
-      "checkedAt": "2026-10-25T08:45:07.987785+00:00",
-      "status": "empty",
-      "items": 0
+      "checkedAt": "2026-10-25T08:47:02.158056+00:00",
+      "status": "ok",
+      "items": 10
     }
   ],
   "complete": true,

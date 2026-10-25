@@ -18,8 +18,12 @@ class ContestLinks(HTMLParser):
   host=urllib.parse.urlparse(url).hostname or ''
   # Tracking links are not official participation URLs.
   tracking=('glp8.net','secureomg.nl','tidd.ly','go2cloud.org','tjorven.nl','fr135.net')
+  source_host=urllib.parse.urlparse(self.source['url']).hostname or ''
+  path=urllib.parse.urlparse(url).path
+  if 'prijsvragen.nl' in source_host and (host!=source_host or not path.startswith('/winactie/')):self.href=None;return
+  if host==source_host and 'prijsvragen.nl' not in source_host:self.href=None;return
   if url.rstrip('/')==self.source['url'].rstrip('/'):self.href=None;return
-  if len(title)>12 and re.search(r'\bwin\b|winactie|prijsvraag|giveaway|gewinnspiel',title,re.I) and not any(host==h or host.endswith('.'+h) for h in tracking):
+  if len(title)>12 and (path.startswith('/winactie/') or re.search(r'\bwin\b|winactie|prijsvraag|giveaway|gewinnspiel',title,re.I)) and not any(host==h or host.endswith('.'+h) for h in tracking):
    self.rows.append({'title':title,'url':url,'discoveredVia':self.source['url'],'discoverySource':self.source['name']})
   self.href=None
 
@@ -31,7 +35,7 @@ def direct_lookup(source):
 
 def classify(title):
  t=title.casefold()
- if re.search(r'(jaar|maanden|levenslang).*gratis|gratis.*(jaar|maanden)|year.*free',t):return 'Lang gratis'
+ if re.search(r'jaar lang|maanden.*gratis|gratis.*jaar|levenslang|year.*free',t):return 'Lang gratis'
  for name,words in [('Auto’s',['auto','car ','voiture','ev ','tesla']),('Renovatie & verduurzaming',['renovat','verbouw','warmtepomp','isolat','energie','solar','wärmepumpe']),('Tuin',['tuin','garden','garten','gereedschap']),('Apparatuur & gadgets',['keuken','kitchen','appliance','apparat','gadgets','dyson']),('Geld',['geld','cash','money','€']),('Reizen',['reis','travel','vakantie','voyage'])]:
   if any(w in t for w in words):return name
  return 'Overige prijzen'
@@ -53,7 +57,7 @@ def build(rows,now):
  out={}
  for row in rows:
   title=row.get('title','');url=row.get('url','')
-  if not url.startswith('https://') or not (relevant(title,url) or (row.get('discoveredVia') and re.search(r'\bwin\b',title,re.I))):continue
+  if not url.startswith('https://') or not (relevant(title,url) or row.get('discoveredVia')):continue
   key=hashlib.sha256(url.split('#')[0].encode()).hexdigest()[:20]
   out[key]={'id':key,'title':title,'sourceUrl':url,'category':classify(title),'checkedAt':now,'status':'candidate','reason':'Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren.'}
   out[key].update({k:row[k] for k in ('discoveredVia','discoverySource') if k in row})

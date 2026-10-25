@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T20:45:29.591994+00:00",
+  "updatedAt": "2026-10-25T20:46:22.224657+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 159,
+    "source_quality": 168,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Mechanical engineering Recent Questions | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/mechanical-engineering-recent",
+        "title": "Error 0x8000FFFF: Gatastrophic failure - answers.microsoft.com",
+        "url": "https://answers.microsoft.com/en-us/msoffice/forum/all/error-0x8000ffff-gatastrophic-failure-filesave/046c6c4b-ba74-42e3-b6ab-c4286b87b3d0",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Find the equivalent resistance between terminals a | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/find-equivalent-resistance-terminals-b-figure-figure-1-part-find-equivalent-resistance-ter-q4454034",
+        "title": "Bed & Breakfast – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/bed-and-breakfast/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Which of the following events in American foreign - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/following-events-american-foreign-policy-occurred-first-multiple-choice-korean-war-war-kos-q169042104",
+        "title": "De Maashorst – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/omgeving/de-maashorst/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved What were the Oslo Accords?a. an outline that hoped - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/oslo-accords--outline-hoped-bring-peace-middle-east-b-pact-stop-conflict-kosovo-c-commerci-q178093928",
+        "title": "Omgeving – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/omgeving/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Sunset Corporation, with E & P of $400,000, makes a - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/sunset-corporation-e-p-400-000-makes-cash-distribution-120-000-shareholder-shareholder-s-b-q15604649",
+        "title": "Reservering plaatsen - B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/reservering-plaatsen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Which of the following are examples of presidential | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/following-examples-presidential-dominance-congress-controlling-foreign-policy-check-apply--q76859644",
+        "title": "VVV – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/omgeving/vvv/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved I am not sure what type of reasoning used in the the - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/sure-type-reasoning-used-statement--see-work-around-world-women-women-international-worthy-q29746548",
+        "title": "Aanvraag – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/aanvraag/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Utilizing the information gleaned from your study of - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/utilizing-information-gleaned-study-microstates-outside-sources-find-helpful-evaluate-foll-q94882265",
+        "title": "Brobbelbies – B en B de Maashorst",
+        "url": "https://www.benbdemaashorst.nl/bed-and-breakfast/brobbelbies/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Which country is far from the big markets? a. | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/country-far-big-markets--vietnam-b-kosovo-c-costa-rica-d-australia-q102345629",
+        "title": "Officiële website AFC Ajax Amsterdam - Ajax.nl",
+        "url": "https://www.ajax.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Nursing Questions and Answers | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/nursing-archive",
+        "title": "Ajax Showtime - Nieuws over Ajax, Jong Ajax en Ajax-jeugd",
+        "url": "https://www.ajaxshowtime.com/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -308,12 +308,12 @@
     {
       "source": "Winkelzoekopdracht 1",
       "status": "ok",
-      "items": 10
+      "items": 1
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -328,7 +328,7 @@
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -348,7 +348,7 @@
     {
       "source": "Winkelzoekopdracht 9",
       "status": "ok",
-      "items": 10
+      "items": 1
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -357,13 +357,13 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -377,8 +377,8 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -397,18 +397,18 @@
     },
     {
       "source": "Internationale zoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 9
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -427,13 +427,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 219,
+    "scannedItems": 228,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T20:45:29.591994+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T20:46:22.224657+00:00"
 }

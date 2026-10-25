@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-10-25",
+  "destinationCountry": "NL",
+  "scope": "Only named foreign retailers with official evidence they deliver to the Netherlands. Shipping is never final until confirmed for the selected product and basket.",
+  "pricingRule": "Compare identical size/SKU on item price + shipping to NL + destination VAT + customs/duties + handling. Never label tariff estimates as all-in verified checkout totals.",
+  "retailers": [
+    {
+      "id": "bergfreunde-eu",
+      "name": "Bergfreunde EU",
+      "country": "DE",
+      "currency": "EUR",
+      "baseUrl": "https://www.bergfreunde.eu/",
+      "category": "Outdoor & herenkleding",
+      "interests": [
+        "Arc'teryx XL",
+        "Salomon EU47/47⅓",
+        "HOKA EU47⅓"
+      ],
+      "dealLandingUrl": "https://www.bergfreunde.eu/outlet/brands/arcteryx/for--men/",
+      "shippingPolicyUrl": "https://www.bergfreunde.eu/delivery-and-payment/",
+      "shippingToNL": "confirmed_store_level",
+      "shipping": {
+        "mode": "checkout_required",
+        "reason": "Official regional pages currently display varying Netherlands tariffs; use the destination-specific cart amount."
+      },
+      "taxes": {
+        "fulfilmentRegion": "EU_assumed_verify_checkout",
+        "customs": "not_expected_if_dispatched_from_EU"
+      },
+      "returns": "Check NL return label, shipping charges and exceptions",
+      "productDeliveryVerified": false,
+      "status": "confirmed_shop_shipping_only"
+    },
+    {
+      "id": "bike24",
+      "name": "BIKE24",
+      "country": "DE",
+      "currency": "EUR",
+      "baseUrl": "https://www.bike24.nl/",
+      "category": "Sport & outdoor",
+      "interests": [
+        "Salomon",
+        "HOKA",
+        "sportkleding",
+        "padelaccessoires indien leverbaar"
+      ],
+      "dealLandingUrl": "https://www.bike24.nl/",
+      "shippingPolicyUrl": "https://www.bike24.nl/verzendkosten",
+      "shippingToNL": "confirmed_store_level",
+      "shipping": {
+        "mode": "threshold_estimate",
+        "thresholdEUR": 100,
+        "belowEUR": 5.99,
+        "atOrAboveEUR": 2.99,
+        "excludes": "oversized, bicycles, special delivery, specific courier charges; checkout overrides"
+      },
+      "taxes": {
+        "fulfilmentRegion": "EU_assumed_verify_checkout",
+        "customs": "not_expected_if_dispatched_from_EU"
+      },
+      "returns": "Check actual return costs and return period",
+      "productDeliveryVerified": false,
+      "status": "confirmed_shop_shipping_only"
+    },
+    {
+      "id": "runnerinn",
+      "name": "Runnerinn / Tradeinn",
+      "country": "ES",
+      "currency": "EUR",
+      "baseUrl": "https://www.tradeinn.com/runnerinn/nl",
+      "category": "Hardloopschoenen & sport",
+      "interests": [
+        "Salomon EU47/47⅓",
+        "HOKA EU47⅓",
+        "sportkleding"
+      ],
+      "dealLandingUrl": "https://www.tradeinn.com/runnerinn/nl",
+      "shippingPolicyUrl": "https://www.tradeinn.com/runnerinn/nl/help/st",
+      "shippingToNL": "confirmed_store_level",
+      "shipping": {
+        "mode": "checkout_required",
+        "reason": "Fee depends on item dimensions, weight, shipping option and NL delivery destination."
+      },
+      "taxes": {
+        "fulfilmentRegion": "EU_assumed_verify_checkout",
+        "customs": "not_expected_if_dispatched_from_EU"
+      },
+      "returns": "Check return-label costs and brand-level international delivery restrictions",
+      "productDeliveryVerified": false,
+      "status": "confirmed_shop_shipping_only"
+    },
+    {
+      "id": "smashinn",
+      "name": "Smashinn / Tradeinn",
+      "country": "ES",
+      "currency": "EUR",
+      "baseUrl": "https://www.tradeinn.com/smashinn/nl",
+      "category": "Padel & sport",
+      "interests": [
+        "Adidas Metalbone",
+        "HEAD Pro S",
+        "premium padelballen"
+      ],
+      "dealLandingUrl": "https://www.tradeinn.com/smashinn/nl",
+      "shippingPolicyUrl": "https://www.tradeinn.com/runnerinn/nl/help/st",
+      "shippingToNL": "confirmed_store_level",
+      "shipping": {
+        "mode": "checkout_required",
+        "reason": "Tradeinn-wide delivery framework; recheck exact Smashinn product restrictions and basket rate."
+      },
+      "taxes": {
+        "fulfilmentRegion": "EU_assumed_verify_checkout",
+        "customs": "not_expected_if_dispatched_from_EU"
+      },
+      "returns": "Check returns and sender restrictions per product",
+      "productDeliveryVerified": false,
+      "status": "confirmed_shop_shipping_only"
+    }
+  ],
+  "internationalOutsideEU": {
+    "policy": "research_only_until_full_landed_cost_known",
+    "note": "A shop saying 'ships worldwide' is insufficient. Calculate currency FX, NL VAT, import duty, carrier handling, shipping and returns. Customs exemptions/tariffs depend on current rules, goods and dispatch country."
+  }
+}

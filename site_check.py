@@ -92,4 +92,11 @@ if '<details class="panel" id="rawPrices">' not in index:
 ai=(ROOT/"ai-kansen.html").read_text(encoding="utf-8")
 if 'active="nu"' not in ai or 'openTab("nu")' not in ai:
  raise RuntimeError("AI page must start with currently applicable options")
+# Price observations are evidence, not deals; enforce separation.
+if 'source==="retailer"?app.observations' not in index:
+ raise RuntimeError("Retailer observations must only appear in the explicit price-source filter")
+if 'highlighted.forEach(x=>first.append(card(x,"store")))' in index:
+ raise RuntimeError("Unverified shop prices must not be shown as personal top picks")
+if 'zonder resultaten' not in index:
+ raise RuntimeError("Source overview must disclose zero-result searches")
 print("Website and JSON quality checks passed.")

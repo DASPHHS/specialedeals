@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:41:32.493772+00:00",
+  "updatedAt": "2026-10-25T18:42:34.883446+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 109,
+    "source_quality": 89,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Bing",
-        "url": "https://www.bing.com/version",
+        "title": "HEMA.nl - Met liefde gemaakt - Echt HEMA",
+        "url": "https://www.hema.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Bing - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Microsoft_Bing",
+        "title": "HEMA.nl",
+        "url": "https://www.hema.nl/i",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bing Search Testing Related Searches Based On Your Browsing",
-        "url": "https://www.seroundtable.com/bing-related-searches-based-on-your-browsing-42302.html",
+        "title": "HEMA - maakt het dagelijks leven leuker",
+        "url": "https://www.hema.com/nl-be",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bing previous versions documentation | Microsoft Learn",
-        "url": "https://learn.microsoft.com/nl-nl/previous-versions/bing/",
+        "title": "Welcome | HEMA",
+        "url": "https://www.hema.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bing",
-        "url": "https://www.bing.com/RelatedSearch",
+        "title": "HEMA - Winkels en openingstijden",
+        "url": "https://winkels.hema.nl/nl",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Template:Latest stable software release/Microsoft Bing - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Template:Latest_stable_software_release/Microsoft_Bing",
+        "title": "HEMA Foto: Grootste assortiment foto artikelen online - HEMA",
+        "url": "https://foto.hema.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "How To See All Bing Related Searches - Techdows",
-        "url": "https://techdows.com/how-to-see-all-bing-related-searches.html",
+        "title": "Hema - Welkom",
+        "url": "https://cc.hema.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Zoeken - Microsoft Bing",
-        "url": "https://be.bing.com/",
+        "title": "HEMA - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/HEMA",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Download Microsoft Bing Search APKs for Android - APKMirror",
-        "url": "https://www.apkmirror.com/apk/microsoft-corporation/bing/",
+        "title": "HEMA Amsterdam-Nieuwendijk - Winkels - Echt HEMA",
+        "url": "https://winkels.hema.nl/nl/amsterdam/hema-amsterdam-nieuwendijk",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "How To See All Bing Related Searches | Het Snijpunt",
-        "url": "https://hetsnijpunt.nl/how-to-see-all-bing-related-searches/",
+        "title": "HEMA draai en win",
+        "url": "https://win.hema.nl/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,8 +307,8 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -337,13 +337,13 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 9
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -367,8 +367,8 @@
     },
     {
       "source": "Winkelzoekopdracht 13",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -378,7 +378,7 @@
     {
       "source": "Winkelzoekopdracht 15",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 169,
+    "scannedItems": 149,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:41:32.493772+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:42:34.883446+00:00"
 }

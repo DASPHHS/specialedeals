@@ -1,19 +1,21 @@
 {
-  "updatedAt": "2026-10-25T18:41:51.864257+00:00",
+  "updatedAt": "2026-10-25T18:42:52.446424+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
-      "state": "werkt",
-      "checkedAt": "2026-10-25T18:41:32.493772+00:00",
+      "state": "gedeeltelijk",
+      "checkedAt": "2026-10-25T18:42:34.883446+00:00",
       "maxAgeHours": 8,
       "successful": 61,
       "unsuccessful": 0,
-      "total": 61
+      "total": 61,
+      "personalMatches": 0,
+      "detail": "Geen passende persoonlijke product-/sampledealvondsten ondanks bereikbare bronnen"
     },
     {
       "name": "Productprijzen controleren",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T18:41:32.593240+00:00",
+      "checkedAt": "2026-10-25T18:42:34.949045+00:00",
       "maxAgeHours": 8,
       "successful": 18,
       "unsuccessful": 4,
@@ -22,7 +24,7 @@
     {
       "name": "Winacties ontdekken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T18:41:03.310546+00:00",
+      "checkedAt": "2026-10-25T18:42:12.301030+00:00",
       "maxAgeHours": 8,
       "successful": 26,
       "unsuccessful": 1,
@@ -57,7 +59,12 @@
     {
       "name": "Winacties beoordelen",
       "state": "gedeeltelijk",
-      "detail": "Automatische ontdekking; Nederlandse toelating, regels en deadlines vereisen inhoudelijke controle."
+      "detail": "Relevantie en deadlines worden gerangschikt; alleen officiële regels en bevestigde NL-toelating zijn deelnameklaar. Geen verzonnen winkansen."
+    },
+    {
+      "name": "Internationale deals naar NL",
+      "state": "gedeeltelijk",
+      "detail": "Geselecteerde Europese shops en gepubliceerde NL-verzendvoorwaarden geregistreerd; exacte maat, afrekenprijs en onafhankelijke marktvergelijking zijn niet overal bevestigd."
     }
   ]
 }

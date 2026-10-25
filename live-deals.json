@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:50:14.498307+00:00",
+  "updatedAt": "2026-10-25T09:24:20.601810+00:00",
   "diagnostics": {
     "irrelevant": 56,
     "source_quality": 150,
@@ -29,7 +29,7 @@
       "checkedAt": null
     },
     {
-      "title": "316° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
+      "title": "410° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -51,7 +51,7 @@
       "checkedAt": null
     },
     {
-      "title": "165° - Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
+      "title": "168° - Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
       "url": "https://nl.pepper.com/aanbiedingen/apple-watch-series-11-46-mm-gps-cellular-zilver-aluminium-sportband-sm-flash-sale-423511",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -110,162 +110,194 @@
     },
     {
       "source": "Merkscan 1",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 2",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 3",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 4",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 5",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 6",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 7",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 8",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 9",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 10",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 11",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 12",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 13",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 14",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 15",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 16",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 17",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 18",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 19",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 20",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 21",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Merkscan 22",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 2",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 3",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 4",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 5",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 6",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 7",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 8",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 9",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 10",
-      "status": "empty",
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
       "items": 0
     },
     {

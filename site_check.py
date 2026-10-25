@@ -99,4 +99,16 @@ if 'highlighted.forEach(x=>first.append(card(x,"store")))' in index:
  raise RuntimeError("Unverified shop prices must not be shown as personal top picks")
 if 'zonder resultaten' not in index:
  raise RuntimeError("Source overview must disclose zero-result searches")
+# Sample-sale and contest cards must show real dated opportunities rather than blank panels.
+events=json.loads((ROOT/"sample-events.json").read_text(encoding="utf-8"))
+if not isinstance(events.get("events"),list):raise RuntimeError("Sample events list missing")
+for e in events["events"]:
+ for field in ("title","startDate","endDate","url","verification"):
+  if not isinstance(e.get(field),str) or not e[field]:
+   raise RuntimeError("Sample event missing "+field)
+ if e["endDate"]<e["startDate"]:raise RuntimeError("Sample event end before start")
+ if not e["url"].startswith("https://"):raise RuntimeError("Invalid sample-event URL")
+for phrase in ('id="featuredEvents"','id="featuredContests"','id="samplecount"','id="contestcount"',
+               'sample-events.json','contests.json','function renderSamples','function renderContests'):
+ if phrase not in index:raise RuntimeError("Homepage missing a meaningful opportunity module "+phrase)
 print("Website and JSON quality checks passed.")

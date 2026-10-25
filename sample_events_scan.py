@@ -95,6 +95,8 @@ def parse_listings(markup, today=None):
         # Reject sales which explicitly stop below the watched EU47+ shoe size.
         if re.search(r"heren[^.]{0,65}(?:maat|maten)[^\d]{0,8}40\s*[-–]\s*46\b", text):
             continue
+        if "klein aanbod herenschoenen" in text and "damesschoenen" in text:
+            continue
         # Listing is a lead, not a confirmed discount or particular clothing size.
         lead = {"title": title[:160], "url": url, "startDate": start.isoformat(),
                 "endDate": end.isoformat(), "city": "", "category": "Herenmode / sport",

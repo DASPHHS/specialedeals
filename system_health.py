@@ -32,7 +32,15 @@ def build(root=ROOT, now=None):
     ]:
         try:
             data = json.loads((root/file).read_text())
-            modules.append(assess(label, data, stamp, checks, good, hours, now))
+            quality = assess(label, data, stamp, checks, good, hours, now)
+            if label == 'Deals ontdekken':
+                found = int(data.get('coverage', {}).get('personalMatches', 0))
+                quality['personalMatches'] = found
+                quality['detail'] = ('Geen passende persoonlijke product-/sampledealvondsten ondanks bereikbare bronnen'
+                                     if found == 0 else str(found) + ' kandidaten; prijs en voorraad nog niet onafhankelijk geverifieerd')
+                if found == 0 and quality['state'] == 'werkt':
+                    quality['state'] = 'gedeeltelijk'
+            modules.append(quality)
         except (OSError, ValueError):
             modules.append(dict(name=label, state='mislukt', checkedAt=None, total=0, successful=0, unsuccessful=0, maxAgeHours=hours))
     return dict(updatedAt=now.isoformat(), modules=modules,
@@ -40,7 +48,8 @@ def build(root=ROOT, now=None):
                     dict(name='Dagelijkse e-mail', state='niet geverifieerd', detail='De GitHub-scanner verstuurt geen e-mail. Een afzonderlijke taak vereist controle van uitvoering en bezorging.'),
                     dict(name='Hypotheekrente onder 3,6%', state='niet geverifieerd', detail='Geen bankrentefeed in deze scanner. Een private alerttaak is geen gecontroleerde rentevergelijking op deze site.'),
                     dict(name='Contractbesparingen', state='gedeeltelijk', detail='Lokale berekening beschikbaar. Geen automatische contract- of offertesynchronisatie.'),
-                    dict(name='Winacties beoordelen', state='gedeeltelijk', detail='Automatische ontdekking; Nederlandse toelating, regels en deadlines vereisen inhoudelijke controle.'),
+                    dict(name='Winacties beoordelen', state='gedeeltelijk', detail='Relevantie en deadlines worden gerangschikt; alleen officiële regels en bevestigde NL-toelating zijn deelnameklaar. Geen verzonnen winkansen.'),
+                    dict(name='Internationale deals naar NL', state='gedeeltelijk', detail='Geselecteerde Europese shops en gepubliceerde NL-verzendvoorwaarden geregistreerd; exacte maat, afrekenprijs en onafhankelijke marktvergelijking zijn niet overal bevestigd.'),
                 ])
 
 

@@ -2,7 +2,7 @@
 
 **Dashboard:** https://dasphhs.github.io/specialedeals/  
 **Slimme Kansen:** https://dasphhs.github.io/specialedeals/ai-kansen.html  
-**Koopkracht:** een ANDER project (https://github.com/DASPHHS/koopkracht) dat hier niet wordt gewijzigd.
+**Hernoemde boodschappen- en receptenrepository:** volledig afzonderlijk en strikt buiten scope; vanuit dit project nooit benaderen of wijzigen.
 
 ## Wat daadwerkelijk geautomatiseerd is
 
@@ -88,3 +88,17 @@ De eigenaar-private Sites-versie blijft de opslag voor voorraad, profiel en deel
 ## Dashboardverbetering 25 oktober 2026
 
 Eén hoofdnavigatie met ingebouwde detailmodules en deeplinks. `system_health.py` en `system-health-ui.js` tonen bronuitval, ontbrekende modules en veroudering apart. Automatische discovery elke vier uur, zonder publicatielimiet voor deals. Totale ontdekuitval bewaart vorige vondsten met hun oude bewijsstatus. Ontwikkelstatus en bronkeuzes: [BRONNEN-EN-ONTWIKKELSTATUS.md](BRONNEN-EN-ONTWIKKELSTATUS.md). Dagmail en hypotheekfeed zijn niet door de repo geverifieerd.
+
+
+## Internationale productdeals met Nederlandse bezorging (25 oktober 2026)
+
+- `international-stores.json` registreert uitsluitend buitenlandse winkels waarvoor een **officiële Nederlandse verzendmogelijkheid** is vastgesteld, met bronlinks, regio en verzendbeleid. Op dit moment onder andere Bergfreunde (DE), BIKE24 (DE) en de Runnerinn/Smashinn-kanalen van Tradeinn (ES).
+- `radar-config.json` bevat aparte internationale zoekopdrachten; `scan.py` verwerkt deze als **onbevestigde ontdekresultaten** en telt nul-resultaatbronnen eerlijk mee.
+- Twee concrete internationale Arc'teryx-productpagina's zijn toegevoegd aan de productobservatie, met XL-uitvoering en buitenlandse afrekenkosten expliciet **niet bevestigd**.
+- `international_delivery.py` berekent hoogstens een standaardtariefindicatie richting Nederland. Alleen werkelijk gecontroleerde variant, NL-afleverbaarheid, onafhankelijke marktvergelijking, btw/douane en checkout-totaal mogen een koopklare deal vormen. Retour- en garantievoorwaarden blijven zichtbaar als beslisinformatie.
+- Het onderdeel Deals bevat een afzonderlijke weergave van buitenlandse winkels en een landfilter. Buitenlandse winkelvermeldingen zijn niet automatisch een geverifieerd koopje.
+- De winactiepagina gebruikt `contest-ranking.mjs`: persoonlijke relevantie, prijswaarde, naderende einddatum, optionele nieuwsbrieven, benodigde inspanning en uitsluitend onderbouwde winkansgegevens. Onbevestigde Nederlandse deelname verschijnt niet als deelnameklaar.
+- `system_health.py` markeert 0 persoonlijke dealmatches als **gedeeltelijk**, zelfs als alle bronverzoeken technisch geslaagd zijn.
+- `PRIVACY-EN-INTEGRATIE.md` legt vast welke contract-, deelname- en e-mailgegevens nooit in het openbare project mogen belanden. De daadwerkelijke private sync is nog **niet gerealiseerd**.
+
+Status na codewijziging: alle bovenstaande onderdelen zijn gebouwd, maar echte end-to-end internationale checkoutvergelijkingen en volautomatische persoonlijke contractinvulling zijn **nog te ontwikkelen**. Alleen succesvolle Actions- en Pages-runs bewijzen de technische publicatie, niet dat er al bewezen buitenlandse koopdeals zijn.

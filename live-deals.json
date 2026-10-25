@@ -1,35 +1,13 @@
 {
-  "updatedAt": "2026-10-25T09:24:20.601810+00:00",
+  "updatedAt": "2026-10-25T11:02:28.183710+00:00",
   "diagnostics": {
-    "irrelevant": 56,
-    "source_quality": 150,
+    "irrelevant": 58,
+    "source_quality": 144,
     "duplicate": 0
   },
   "deals": [
     {
-      "title": "Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
-      "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
-      "source": "Pepper Nederland",
-      "sourceType": "community",
-      "published": "Sun, 25 Oct 2026 08:12:06 +0100",
-      "price": 65.25,
-      "score": 55,
-      "matched": [
-        "nike"
-      ],
-      "category": "Outdoor & herenkleding",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
-    {
-      "title": "410° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
+      "title": "597° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -51,7 +29,7 @@
       "checkedAt": null
     },
     {
-      "title": "168° - Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
+      "title": "178° - Apple Watch Series 11 (46 mm, GPS + Cellular, Zilver Aluminium, Sportband S/M) - Flash Sale",
       "url": "https://nl.pepper.com/aanbiedingen/apple-watch-series-11-46-mm-gps-cellular-zilver-aluminium-sportband-sm-flash-sale-423511",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -62,28 +40,6 @@
         "apple"
       ],
       "category": "Technologie & wonen",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
-    {
-      "title": "Polo Ralph Lauren Gorham Down Jacket - Gewatteerde jas",
-      "url": "https://nl.pepper.com/aanbiedingen/polo-ralph-lauren-gorham-down-jacket-gewatteerde-jas-423555",
-      "source": "Pepper Nederland",
-      "sourceType": "community",
-      "published": "Sun, 25 Oct 2026 03:02:47 +0100",
-      "price": 231.0,
-      "score": 43,
-      "matched": [
-        "ralph lauren"
-      ],
-      "category": "Outdoor & herenkleding",
       "discovery": true,
       "priceVerified": false,
       "allInVerified": false,
@@ -110,194 +66,162 @@
     },
     {
       "source": "Merkscan 1",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 2",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 3",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 4",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 5",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 6",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 7",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 8",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 9",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 10",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 11",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 12",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 13",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 14",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 15",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 16",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 17",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 18",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 19",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 20",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 21",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Merkscan 22",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 2",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 3",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 4",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 5",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 6",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 7",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 8",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 9",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
       "source": "Samplezoekopdracht 10",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
+      "status": "empty",
       "items": 0
     },
     {
@@ -318,12 +242,12 @@
     {
       "source": "Winkelzoekopdracht 4",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -606,8 +530,8 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 210,
-    "personalMatches": 4
+    "scannedItems": 204,
+    "personalMatches": 2
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."
 }

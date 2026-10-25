@@ -3,7 +3,8 @@
 import json, pathlib, re, subprocess, sys
 ROOT=pathlib.Path(__file__).resolve().parent
 PAGES={"index.html":('firstcards','observations','merchantUpdated','wishAdd','watchStatus','sourceRows','ingCompare','ingCompareResult','ingPoints'),
-       "ai-kansen.html":('buildcards','buildcategory','othercards','researchPanel','researchCards')}
+       "ai-kansen.html":('buildcards','buildcategory','othercards','researchPanel','researchCards'),
+       "besparen.html":('contracts','strategyCards','strategyCount','strategyCategory','contractDealResult','benefitType','compareCurrent')}
 for file,ids in PAGES.items():
  html=(ROOT/file).read_text(encoding="utf-8")
  for identifier in ids:
@@ -145,4 +146,27 @@ for entry in comparisons["comparisons"]:
   raise RuntimeError("Comparison must have a positive documented article price gap")
 if 'id="comparablePrices"' not in index or 'price-comparisons.json' not in index or 'renderPriceComparisons' not in index:
  raise RuntimeError("Homepage missing comparable product prices")
+# Audited money-saving strategies are not the same as a confirmed customer discount.
+strategies=json.loads((ROOT/"bespaarstrategien.json").read_text(encoding="utf-8"))
+if not isinstance(strategies.get("items"),list):raise RuntimeError("Savings strategies missing")
+if len(strategies["items"])<7:raise RuntimeError("Strategies incomplete")
+ids=set()
+for st in strategies["items"]:
+ if st.get("id") in ids:raise RuntimeError("Duplicate money-saving strategy")
+ ids.add(st["id"])
+ if not isinstance(st.get("actions"),list) or not st["actions"]:
+  raise RuntimeError("Strategy missing concrete actions")
+ if not str(st.get("url","")).startswith("https://"):
+  raise RuntimeError("Strategy missing secure direct source URL")
+ if st.get("sourceType") not in ("officiele_aanbieder","reddit_ervaringen"):
+  raise RuntimeError("Strategy missing source evidence category")
+html=(ROOT/"besparen.html").read_text(encoding="utf-8")
+for phrase in ("bespaar-strategie-ui.mjs","bespaar-calculator.mjs" if False else "contractDealCompare",
+               'id="strategyCards"','id="compareCurrent"','id="benefitType"'):
+ if phrase not in html:raise RuntimeError("Savings calculator UI incomplete "+phrase)
+workflow=(ROOT/".github/workflows/scan.yml").read_text(encoding="utf-8")
+if "python strategie_scan.py" not in workflow or "node test_bespaar_calculator.mjs" not in workflow:
+ raise RuntimeError("Recurring strategy research and tests not configured")
+if "python scripts/household_scan.py" in workflow:
+ raise RuntimeError("Grocery scanner must not be called from Kansenkompas")
 print("Website and JSON quality checks passed.")

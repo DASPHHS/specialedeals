@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-25T20:57:48.411184+00:00",
+  "updatedAt": "2026-10-25T20:59:27.691184+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T20:57:28.695670+00:00",
+      "checkedAt": "2026-10-25T20:59:11.628124+00:00",
       "maxAgeHours": 8,
       "successful": 61,
       "unsuccessful": 0,
@@ -15,7 +15,7 @@
     {
       "name": "Productprijzen controleren",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T20:57:28.768861+00:00",
+      "checkedAt": "2026-10-25T20:59:11.714868+00:00",
       "maxAgeHours": 8,
       "successful": 18,
       "unsuccessful": 4,
@@ -24,7 +24,7 @@
     {
       "name": "Winacties ontdekken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T20:57:08.193332+00:00",
+      "checkedAt": "2026-10-25T20:58:55.208338+00:00",
       "maxAgeHours": 8,
       "successful": 26,
       "unsuccessful": 1,
@@ -41,6 +41,11 @@
     }
   ],
   "capabilities": [
+    {
+      "name": "Bespaarstrategieën Meervoordeel, drogist en Reddit",
+      "state": "gedeeltelijk",
+      "detail": "6/6 officiële bronpagina's met verwachte voorwaarden; 0 onbevestigde Reddit-onderzoekskandidaten. Strategieën zijn bruikbaar als controlelijst, maar niet automatisch uitgevoerd."
+    },
     {
       "name": "Dagelijkse e-mail",
       "state": "niet geverifieerd",

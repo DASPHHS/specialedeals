@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-10-25T20:57:11.862156+00:00",
+  "updatedAt": "2026-10-25T20:58:57.762789+00:00",
   "officialSources": [
     {
       "name": "MeerVoordeel Ziggo",
       "url": "https://meervoordeel.nl/ziggo/korting-of-cadeau",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "MeerVoordeel voorwaarden",
       "url": "https://meervoordeel.nl/ziggo",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "MeerVoordeel hollandsnieuwe",
       "url": "https://meervoordeel.nl/hollandsnieuwe",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist prijzen",
       "url": "https://www.deonlinedrogist.nl/recommended-prices-and-offers",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist verzending",
       "url": "https://www.deonlinedrogist.nl/shipping-and-delivery",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist spaarprogramma",
       "url": "https://www.deonlinedrogist.nl/blog/spaarprogramma/",
       "status": "terms_found",
-      "checkedAt": "2026-10-25T20:57:11.862156+00:00",
+      "checkedAt": "2026-10-25T20:58:57.762789+00:00",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     }
   ],

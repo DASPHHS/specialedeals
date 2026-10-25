@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-25",
-  "profile": "Persoonlijke premiumdeals; geen supermarktboodschappen of recepten.",
+  "profile": "Persoonlijke premiumdeals in Nederland én buitenlandse winkels met aantoonbare levering naar Nederland; geen supermarktboodschappen, algemene winkelacties of recepten.",
   "minScore": 35,
   "targetAudience": "Heren XL, schoenen 47/47⅓; unisex luxe verzorging, koffie, padel, premium gadgets, reizen en verblijven.",
   "preferredSizes": [
@@ -366,7 +366,7 @@
       "category": "Schoenen en prijsvergelijking"
     }
   ],
-  "inclusion": "Only explicit exact brand/product matches. Broad category-only nonmatches are not included.",
+  "inclusion": "Explicit brand/product matches including EU/foreign sellers that publish Netherlands shipping. Price leads are research until exact variant, VAT/duties, NL delivery and all-in independent price comparison verified.",
   "disclaimer": "RSS and Google News articles only signal candidates. Not verified product offers.",
   "broadSearchQueries": [
     "\"Weleda Skin Food\" aanbieding site:deonlinedrogist.nl",
@@ -414,7 +414,11 @@
     "samplesaleamsterdamnoord.nl",
     "deonlinedrogist.nl",
     "alltricks.nl",
-    "bol.com"
+    "bol.com",
+    "bergfreunde.eu",
+    "bike24.com",
+    "bike24.nl",
+    "tradeinn.com"
   ],
   "sampleSearchQueries": [
     "Ralph Lauren sample sale Nederland 2026",
@@ -448,5 +452,19 @@
     "officialTermsRequired": true,
     "foreignPrizes": "Check taxes, delivery, travel, installation and Netherlands eligibility",
     "personalData": "Never commit personal contact details or participation history"
-  }
+  },
+  "internationalQueries": [
+    "\"Arc'teryx\" men sale site:bergfreunde.eu/outlet/",
+    "\"Salomon\" men shoes sale site:bergfreunde.eu/",
+    "\"HOKA\" men sale site:bergfreunde.eu/",
+    "\"Salomon\" shoes sale site:bike24.com/",
+    "\"HOKA\" shoes sale site:bike24.com/",
+    "\"HOKA\" shoes discount site:tradeinn.com/runnerinn/",
+    "\"Salomon\" discounted site:tradeinn.com/runnerinn/",
+    "\"Adidas Metalbone\" sale site:tradeinn.com/smashinn/",
+    "\"HEAD Pro S\" padel balls site:tradeinn.com/smashinn/",
+    "\"Rituals\" sale EU shipping Netherlands",
+    "\"Dyson\" deals EU store shipping Netherlands",
+    "\"Arc'teryx\" XL sale EU ships Netherlands"
+  ]
 }

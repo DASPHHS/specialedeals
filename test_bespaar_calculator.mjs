@@ -1,0 +1,25 @@
+import assert from "node:assert/strict";
+import {compareContract} from "./bespaar-calculator.mjs";
+const base={months:12,promoMonths:12,currentMonthly:76.40,
+ introMonthly:34.95,normalMonthly:76.40,activationEUR:0,
+ benefitType:"cash",benefitEUR:100,giftCopayEUR:0};
+const cash=compareContract(base);
+assert.equal(cash.status,"estimate_only");
+assert.equal(cash.possibleEconomicDifferenceEUR,597.40);
+assert.equal(cash.realizedSavingsEUR,null);
+assert.equal(cash.allConditionsVerified,false);
+const gift=compareContract({...base,promoMonths:0,benefitType:"gift",benefitEUR:200});
+assert.equal(gift.userGiftValueEUR,200);
+assert.equal(gift.cashCostEUR,916.80);
+assert.equal(gift.possibleEconomicDifferenceEUR,200);
+const giftFull=compareContract({...base,promoMonths:0,benefitType:"gift",benefitEUR:200,giftCopayEUR:149});
+assert.equal(giftFull.possibleEconomicDifferenceEUR,51);
+const noGift=compareContract({...base,benefitType:"none",benefitEUR:500,giftCopayEUR:500});
+assert.equal(noGift.possibleEconomicDifferenceEUR,497.40);
+assert.equal(compareContract({...base,promoMonths:18}).status,"invalid_input");
+assert.equal(compareContract({...base,benefitType:"other"}).status,"invalid_input");
+assert.equal(compareContract({...base,currentMonthly:-3}).status,"invalid_input");
+const twentyfour=compareContract({...base,months:24,promoMonths:6,benefitType:"none",introMonthly:20,normalMonthly:50,currentMonthly:60});
+assert.equal(twentyfour.chargesEUR,1020);
+assert.equal(twentyfour.possibleEconomicDifferenceEUR,420);
+console.log("Full-term gift/cashback comparisons passed.");

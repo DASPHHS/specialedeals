@@ -84,4 +84,12 @@ for filename in ("index.html","ai-kansen.html","winacties.html"):
  if re.search(r'href\s*=\s*["\']\s*javascript:',markup,re.I):
   raise RuntimeError(filename+": unsafe javascript link")
 
+# Prevent reintroducing grocery dashboards into this personal opportunities project.
+if 'householdCards' in index or "fetch('./household.json" in index:
+ raise RuntimeError("Grocery/household feed must not be rendered in Kansenkompas")
+if '<details class="panel" id="rawPrices">' not in index:
+ raise RuntimeError("Unverified shop observations should not dominate homepage")
+ai=(ROOT/"ai-kansen.html").read_text(encoding="utf-8")
+if 'active="nu"' not in ai or 'openTab("nu")' not in ai:
+ raise RuntimeError("AI page must start with currently applicable options")
 print("Website and JSON quality checks passed.")

@@ -4,7 +4,7 @@ Bijgewerkt: 25 oktober 2026. Dit document beschrijft implementatie en ontbrekend
 
 ## Acceptatie en afbakening
 
-Eén dashboard voor persoonlijke premiumdeals, Nederlandse/internationale winacties, sample sales, contractbesparingen, AI en innovaties. Herenmaten en persoonlijke merken uit README zijn leidend. Boodschappenmaatje, AH/Jumbo/Lidl en recepten worden niet gewijzigd. Geen willekeurige aantallimiet op gepubliceerde deals. De winactiefilter verwijdert zoekruis zoals Windows, WinRAR en woordenboekpagina’s; 52 bestaande ruisrecords zijn verwijderd.
+Eén dashboard voor persoonlijke premiumdeals, Nederlandse/internationale winacties, sample sales, contractbesparingen, AI en innovaties. Herenmaten en persoonlijke merken uit README zijn leidend. Boodschappenmaatje, AH/Jumbo/Lidl en recepten worden niet gewijzigd. Geen willekeurige aantallimiet op gepubliceerde deals. De winactiefilter verwijdert zoekruis zoals Windows, WinRAR en woordenboekpagina’s; 45 bestaande ruisrecords zijn verwijderd.
 
 ## Bronstrategie
 
@@ -17,6 +17,8 @@ Eén dashboard voor persoonlijke premiumdeals, Nederlandse/internationale winact
 | Sample sales | Gerichte merkzoekopdrachten | Elke 4 uur | Aankondigingen | Datum, locatie, toegang en maten verifiëren; geen login-scraping |
 | AI/gezondheid | Bestaande officiële/Reddit-onderzoekssignalen | Dagelijks | Ontdekking | Primaire publicatie, beschikbaarheid en bewijsniveau beoordelen |
 | Awin productfeeds | Publisher Product API / downloadfeed | Voorstel: elke 4 uur | Productidentiteit, prijs, variantvelden indien geleverd | Account, partnership en feedrechten ontbreken; niet aangesloten |
+| Daisycon | REST/JSON publisher-API, productfeeds en promoties | Voorstel: elke 4 uur | Partnerdata binnen toegestane campagnes | Account, OAuth en campagnerechten ontbreken; niet aangesloten |
+| Reddit | Officiële OAuth Data API voor structurele toegang | Dagelijks | Onderzoekssignalen | Huidige openbare uitlezing geeft deels 429; geen betrouwbare volledige dekking |
 | ING/Veepee/BestSecret | Geautoriseerde accounttoegang | Niet aangesloten | Geen automatische claim | Geen publieke bruikbare feed geverifieerd |
 | Hypotheek | Nog geen aangesloten rente-adapter | Niet geverifieerd | Geen huidige rentemeting | Officiële tarieven per aanbieder, NHG/LTV, rentevast, voorwaarden en timestamp |
 | E-mail | Afzonderlijke private taak | Niet geverifieerd in repo | Geen bezorgbewijs | Uitvoerings- en bezorgcontrole, deduplicatie en meldhistorie |
@@ -51,6 +53,11 @@ GitHub-planningen kunnen vertragen of vervallen. Daarom wordt actualiteit opnieu
 
 ## Primaire documentatie geraadpleegd
 
+- https://daisycon.com/en/developers/api/
+- https://faq-publisher.daisycon.com/hc/en-us/articles/24827817954193-Daisycon-API
+- https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki
+- https://schema.org/Offer
+- https://schema.org/OfferShippingDetails
 - https://docs.github.com/en/actions/how-tos/troubleshoot-workflows
 - https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
 - https://help.awin.com/developers/docs/introduction-1

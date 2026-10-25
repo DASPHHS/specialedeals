@@ -67,4 +67,21 @@ index=(ROOT/"index.html").read_text(encoding="utf-8")
 for phrase in ("stockInfo(d)","app.observations","Nog geen onafhankelijke marktprijsvergelijking","watchlist.json","ingCompare"):
  if phrase not in index:raise RuntimeError("Dashboard missing safety/alert behavior "+phrase)
 
+# Every generated public dataset must be structurally valid and timestamped.
+for file in ("merchant-observations.json","live-deals.json","watchlist.json"):
+ doc=json.loads((ROOT/file).read_text(encoding="utf-8"))
+ timestamp=doc.get("checkedAt") or doc.get("updatedAt")
+ if not isinstance(timestamp,str) or not timestamp:raise RuntimeError(file+": missing scan/update timestamp")
+# Explicitly reject a false positive when product variants are not verified.
+for entry in data.get("offers",[]):
+ if entry.get("variantVerified") is False and entry.get("allInVerified") is True:
+  raise RuntimeError("Unverified variant cannot be an all-in verified deal")
+ if entry.get("stockStatus") in ("uitverkocht","tegenstrijdige voorraadinformatie") and entry.get("allInVerified") is True:
+  raise RuntimeError("Unavailable or contradictory stock cannot be a verified deal")
+# All outgoing links in public HTML must avoid javascript: navigation.
+for filename in ("index.html","ai-kansen.html","winacties.html"):
+ markup=(ROOT/filename).read_text(encoding="utf-8")
+ if re.search(r'href\s*=\s*["\']\s*javascript:',markup,re.I):
+  raise RuntimeError(filename+": unsafe javascript link")
+
 print("Website and JSON quality checks passed.")

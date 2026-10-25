@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:30:16.508962+00:00",
+  "updatedAt": "2026-10-25T12:34:21.755379+00:00",
   "items": [
     {
       "title": "This is an iOS app that logs every Apple Pay payment automatically, including in-app ones like Uber that the Wallet automation misses",
@@ -725,7 +725,7 @@
     {
       "source": "Hacker News",
       "status": "unavailable",
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "The read operation timed out"
     },
     {
       "source": "Apple Opdrachten en automatisering",

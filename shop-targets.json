@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-24",
-  "note": "Exact-product official retailer pages. Parse structured product data; not marketplace price history.",
+  "note": "Exacte Nederlandse én internationale productpagina's. Buitenlandse tarieven en producttoelating altijd voor NL controleren; prijs vanaf is geen bewezen XL-deal.",
   "targets": [
     {
       "title": "Adidas Metalbone Carbon '26",
@@ -247,6 +247,37 @@
       "category": "Outdoor & herenkleding",
       "shippingNote": "Maat en bezorgkosten bij de winkel selecteren",
       "variantNote": "Maat EU47⅓ en kleurenvariant niet onafhankelijk geselecteerd"
+    },
+    {
+      "title": "Arc'teryx Atom Hoody heren, XL te verifiëren",
+      "store": "Bergfreunde EU",
+      "storeId": "bergfreunde-eu",
+      "merchantCountry": "DE",
+      "url": "https://www.bergfreunde.eu/arcteryx-atom-hoody-synthetic-jacket/",
+      "require": [
+        "atom",
+        "hoody"
+      ],
+      "category": "Outdoor & herenkleding",
+      "shippingNote": "Buitenlandse verzending naar Nederland mogelijk; exacte kosten en gekozen maat bij afrekenen controleren",
+      "variantNote": "Vanafprijs voor kleur/maat; XL niet zelfstandig geselecteerd",
+      "comparisonGroup": "arcteryx-atom-hoody"
+    },
+    {
+      "title": "Arc'teryx Atom SL Hoody heren, XL te verifiëren",
+      "store": "Bergfreunde EU",
+      "storeId": "bergfreunde-eu",
+      "merchantCountry": "DE",
+      "url": "https://www.bergfreunde.eu/arcteryx-atom-sl-hoody-synthetic-jacket/",
+      "require": [
+        "atom",
+        "sl",
+        "hoody"
+      ],
+      "category": "Outdoor & herenkleding",
+      "shippingNote": "Buitenlandse verzending naar Nederland mogelijk; exacte kosten en gekozen maat bij afrekenen controleren",
+      "variantNote": "Vanafprijs voor kleur/maat; XL niet zelfstandig geselecteerd",
+      "comparisonGroup": "arcteryx-atom-sl-hoody"
     }
   ]
 }

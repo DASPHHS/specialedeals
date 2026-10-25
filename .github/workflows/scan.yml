@@ -4,6 +4,13 @@ on:
     branches: [main]
     paths:
       - 'scan.py'
+      - 'strategie_scan.py'
+      - 'bespaarstrategien.json'
+      - 'bespaar-calculator.mjs'
+      - 'bespaar-strategie-ui.mjs'
+      - 'test_bespaar_calculator.mjs'
+      - 'test_strategie_scan.py'
+      - 'besparen.html'
       - 'contest_scan.py'
       - 'sample_events_scan.py'
       - 'international_delivery.py'
@@ -15,7 +22,6 @@ on:
       - 'test_sample_events.py'
       - 'contest-searches.json'
       - 'contest-sources.json'
-      - 'scripts/household_scan.py'
       - 'winacties.html'
       - 'contest-ui.js'
       - 'radar-config.json'
@@ -57,22 +63,27 @@ jobs:
           python-version: '3.12'
       - name: Check scanner syntax and configuration
         run: |
-          python -m py_compile scan.py international_delivery.py price_comparisons.py
+          python -m py_compile scan.py international_delivery.py price_comparisons.py strategie_scan.py
           python -m json.tool radar-config.json > /dev/null
-          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py test_international_delivery.py test_price_comparisons.py -v
+          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py test_international_delivery.py test_price_comparisons.py test_strategie_scan.py -v
           python -m json.tool shop-targets.json > /dev/null
           python -m json.tool international-stores.json > /dev/null
       - name: Controleer nieuwe modules
         run: |
-          python -m py_compile contest_scan.py scripts/household_scan.py sample_events_scan.py
+          python -m py_compile contest_scan.py sample_events_scan.py
           node --check contest-ui.js
           node --check contest-ranking.mjs
           node test_contest_ranking.mjs
+          node --check bespaar-calculator.mjs
+          node --check bespaar-strategie-ui.mjs
+          node test_bespaar_calculator.mjs
           python -m unittest test_contests.py test_sample_events.py -v
       - name: Ontdek internationale winacties
         run: python contest_scan.py
       - name: Ontdek actuele sample sales
         run: python sample_events_scan.py
+      - name: Onderzoek bespaarstrategieën en voorwaarden
+        run: python strategie_scan.py
       - name: Scan feeds
         run: python scan.py
       - name: Check exact merchant product prices
@@ -88,7 +99,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json
+          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json strategie-scan.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
             git pull --rebase origin main

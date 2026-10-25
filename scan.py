@@ -16,6 +16,10 @@ def load_watches():
  except (OSError,ValueError,KeyError):
   return []
 WATCHES=load_watches()
+try:
+ INTERNATIONAL=json.loads((ROOT/"international-stores.json").read_text(encoding="utf-8"))["retailers"]
+except (OSError,ValueError,KeyError):
+ INTERNATIONAL=[]
 def normalized_tokens(value):
  stop={"maat","eu","us","heren","dames","euro","prijs","sale","korting","aanbieding","47","47⅓"}
  return [w for w in re.findall(r"[a-zà-ÿ0-9]+",value.casefold()) if w not in stop and len(w)>1]
@@ -144,12 +148,22 @@ def discovery():
  # This adds retailer and outlet coverage where the news RSS has no product offers.
  for i,q in enumerate(CFG.get("broadSearchQueries",[])):
   try:
-   url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q+" Nederland","format":"rss","setlang":"nl-NL"})
+   url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss","setlang":"nl-NL","cc":"nl"})
    rows=rss_items(fetch(url),"Gerichte winkelscan","search")
    statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
    raw_items.extend(rows)
   except Exception as e:
    statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
+ # Search foreign EU merchants that officially publish NL delivery. Each hit stays
+ # a research lead, with no assumption about shipping for the chosen item.
+ for i,q in enumerate(CFG.get("internationalQueries",[])):
+  try:
+   url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss","setlang":"en-US","cc":"nl"})
+   rows=rss_items(fetch(url),"Internationale winkelscan","search")
+   statuses.append({"source":"Internationale zoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   raw_items.extend(rows)
+  except Exception as exc:
+   statuses.append({"source":"Internationale zoekopdracht "+str(i+1),"status":"error","error":str(exc)[:120],"items":0})
  return raw_items,statuses
 def main():
  raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()
@@ -176,7 +190,7 @@ def main():
   else:deals.append(item)
  for group in (deals,samples,promos):group.sort(key=lambda d:(d["score"],d["sourceType"]!="news"),reverse=True)
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- result={"updatedAt":now,"diagnostics":{**rejected,"examples":diagnostic_samples,"sourceQualityExamples":source_quality_examples},"deals":deals,"samples":samples,"promotions":promos,"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ result={"updatedAt":now,"diagnostics":{**rejected,"examples":diagnostic_samples,"sourceQualityExamples":source_quality_examples},"deals":deals,"samples":samples,"promotions":promos,"sources":statuses,"retailers":CFG["specialistRetailers"]+[{"name":r["name"],"url":r["dealLandingUrl"],"category":"Internationaal · "+r["category"],"shippingPolicyUrl":r["shippingPolicyUrl"],"shippingToNL":r["shippingToNL"],"country":r["country"]} for r in INTERNATIONAL],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+len(CFG.get("internationalQueries",[]))+min(12,len(WATCHES)),"internationalQueries":len(CFG.get("internationalQueries",[])),"internationalShops":len(INTERNATIONAL),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
  if statuses and all(x["status"]=="error" for x in statuses):
   try:
    previous=json.loads((ROOT/"live-deals.json").read_text())

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-25T18:40:48.398772+00:00",
+  "updatedAt": "2026-10-25T18:41:51.864257+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
       "state": "werkt",
-      "checkedAt": "2026-10-25T18:40:32.384356+00:00",
+      "checkedAt": "2026-10-25T18:41:32.493772+00:00",
       "maxAgeHours": 8,
       "successful": 61,
       "unsuccessful": 0,
@@ -13,7 +13,7 @@
     {
       "name": "Productprijzen controleren",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T18:40:32.470585+00:00",
+      "checkedAt": "2026-10-25T18:41:32.593240+00:00",
       "maxAgeHours": 8,
       "successful": 18,
       "unsuccessful": 4,
@@ -22,7 +22,7 @@
     {
       "name": "Winacties ontdekken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T18:40:11.888162+00:00",
+      "checkedAt": "2026-10-25T18:41:03.310546+00:00",
       "maxAgeHours": 8,
       "successful": 26,
       "unsuccessful": 1,

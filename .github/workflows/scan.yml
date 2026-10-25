@@ -6,6 +6,11 @@ on:
       - 'scan.py'
       - 'contest_scan.py'
       - 'sample_events_scan.py'
+      - 'international_delivery.py'
+      - 'international-stores.json'
+      - 'test_international_delivery.py'
+      - 'contest-ranking.mjs'
+      - 'test_contest_ranking.mjs'
       - 'sample-events.json'
       - 'test_sample_events.py'
       - 'contest-searches.json'
@@ -50,14 +55,17 @@ jobs:
           python-version: '3.12'
       - name: Check scanner syntax and configuration
         run: |
-          python -m py_compile scan.py
+          python -m py_compile scan.py international_delivery.py
           python -m json.tool radar-config.json > /dev/null
-          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py -v
+          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py test_international_delivery.py -v
           python -m json.tool shop-targets.json > /dev/null
+          python -m json.tool international-stores.json > /dev/null
       - name: Controleer nieuwe modules
         run: |
           python -m py_compile contest_scan.py scripts/household_scan.py sample_events_scan.py
           node --check contest-ui.js
+          node --check contest-ranking.mjs
+          node test_contest_ranking.mjs
           python -m unittest test_contests.py test_sample_events.py -v
       - name: Ontdek internationale winacties
         run: python contest_scan.py

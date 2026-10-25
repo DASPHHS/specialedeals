@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "profile": "Persoonlijke premiumdeals; geen supermarktboodschappen of recepten.",
   "minScore": 35,
   "targetAudience": "Heren XL, schoenen 47/47⅓; unisex luxe verzorging, koffie, padel, premium gadgets, reizen en verblijven.",
@@ -427,5 +427,26 @@
     "Rituals sample sale magazijnverkoop Nederland 2026",
     "Davines sample sale warehouse Nederland 2026",
     "Ralph Lauren Tommy Hilfiger merken sample sale agenda 2026"
-  ]
+  ],
+  "contestFocus": [
+    "Geld",
+    "Reizen",
+    "Auto’s en EV",
+    "Renovatie",
+    "Verduurzaming",
+    "Tuin",
+    "Keukenapparatuur",
+    "Huishoudelijke apparaten",
+    "Gadgets"
+  ],
+  "contestPolicy": {
+    "eligibleResidence": "Netherlands",
+    "noPurchase": true,
+    "noPaidSMS": true,
+    "noGamblingService": true,
+    "multipleEmailsAreSamePerson": true,
+    "officialTermsRequired": true,
+    "foreignPrizes": "Check taxes, delivery, travel, installation and Netherlands eligibility",
+    "personalData": "Never commit personal contact details or participation history"
+  }
 }

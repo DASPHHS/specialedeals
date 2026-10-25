@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-25T12:47:24.461961+00:00",
+  "updatedAt": "2026-10-25T12:52:57.213886+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
       "state": "werkt",
-      "checkedAt": "2026-10-25T12:47:10.797476+00:00",
+      "checkedAt": "2026-10-25T12:52:39.963536+00:00",
       "maxAgeHours": 8,
       "successful": 49,
       "unsuccessful": 0,
@@ -13,7 +13,7 @@
     {
       "name": "Productprijzen controleren",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-25T12:47:10.886368+00:00",
+      "checkedAt": "2026-10-25T12:52:40.051489+00:00",
       "maxAgeHours": 8,
       "successful": 16,
       "unsuccessful": 4,
@@ -21,12 +21,12 @@
     },
     {
       "name": "Winacties ontdekken",
-      "state": "werkt",
-      "checkedAt": "2026-10-25T12:46:52.614937+00:00",
+      "state": "gedeeltelijk",
+      "checkedAt": "2026-10-25T12:52:21.356665+00:00",
       "maxAgeHours": 8,
-      "successful": 23,
-      "unsuccessful": 0,
-      "total": 23
+      "successful": 26,
+      "unsuccessful": 1,
+      "total": 27
     },
     {
       "name": "AI en innovaties onderzoeken",

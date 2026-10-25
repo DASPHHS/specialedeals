@@ -111,4 +111,26 @@ for e in events["events"]:
 for phrase in ('id="featuredEvents"','id="featuredContests"','id="samplecount"','id="contestcount"',
                'sample-events.json','contests.json','function renderSamples','function renderContests'):
  if phrase not in index:raise RuntimeError("Homepage missing a meaningful opportunity module "+phrase)
+# NL-shipping foreign retailers are documented, but item-level NL delivery
+# and complete checkout prices may not be asserted from shop-level policies.
+intl=json.loads((ROOT/"international-stores.json").read_text(encoding="utf-8"))
+if intl.get("destinationCountry")!="NL" or not isinstance(intl.get("retailers"),list):
+ raise RuntimeError("International shops require an NL destination registry")
+for shop in intl["retailers"]:
+ for k in ("id","name","country","baseUrl","shippingPolicyUrl","shippingToNL"):
+  if not isinstance(shop.get(k),str) or not shop[k]:
+   raise RuntimeError("Foreign retailer missing "+k)
+ if shop["shippingToNL"]!="confirmed_store_level":
+  raise RuntimeError("International shop lacks explicit Netherlands delivery")
+ if shop.get("productDeliveryVerified") is not False:
+  raise RuntimeError("Unverified foreign item delivery must not be asserted")
+ if not shop["baseUrl"].startswith("https://") or not shop["shippingPolicyUrl"].startswith("https://"):
+  raise RuntimeError("International retailer URL must be secure")
+for phrase in ('international-stores.json','id="internationalShops"','id="region"','function renderInternational'):
+ if phrase not in index:raise RuntimeError("Dashboard missing foreign retailer integration "+phrase)
+for row in data.get("offers",[]):
+ if row.get("merchantCountry") and row.get("destinationCountry")=="NL" and row.get("allInVerified"):
+  raise RuntimeError("Unverified foreign checkout must not be marked all-in")
+if not (ROOT/"PRIVACY-EN-INTEGRATIE.md").exists():
+ raise RuntimeError("Private data handling specification missing")
 print("Website and JSON quality checks passed.")

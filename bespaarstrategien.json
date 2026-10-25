@@ -1,0 +1,202 @@
+{
+  "updatedAt": "2026-10-25",
+  "purpose": "Herhaalbare, onderbouwde bespaarstrategieën voor persoonlijke niet-supermarktdeals; geen automatische besparing of gepersonaliseerde geschiktheidsclaim.",
+  "items": [
+    {
+      "id": "meervoordeel_ziggo",
+      "title": "Internetcontract: cashback versus welkomstcadeau",
+      "category": "Contracten",
+      "priority": 99,
+      "effort": "10-20 minuten",
+      "status": "aanbod_voorwaarden_gevonden",
+      "merchant": "MeerVoordeel.nl",
+      "url": "https://meervoordeel.nl/ziggo/korting-of-cadeau",
+      "policyUrl": "https://meervoordeel.nl/ziggo",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "Binnen circa 60 dagen vóór contracteinde of zodra nieuwe Ziggo-cadeau/kortingactie verschijnt",
+      "why": "Een cadeau met hoge winkeladvieswaarde kan minder voordeel opleveren dan lagere maandlasten. Vergelijk 12 en 24 maanden totale kosten en jouw bruikbare cadeauwaarde.",
+      "actions": [
+        "Controleer of je nieuwe klant bent of minstens zes maanden geen Ziggo-abonnement had; de actie is niet voor bestaande Ziggo-klanten.",
+        "Vraag twee schriftelijke offertes voor identieke snelheid en TV-bundel, één met geldkorting/cashback en één met cadeau.",
+        "Vul beide mogelijkheden in de totaalkostencalculator; waardeer een cadeau hoogstens op wat je er zelf werkelijk voor zou uitgeven.",
+        "Controleer verplicht claimmoment en deadline: claim na betaling van de eerste factuur; doorgaans maximaal zes maanden om te claimen."
+      ],
+      "conditions": "Nieuwe Ziggo-klant of meer dan 6 maanden geen klant volgens aanbiedervoorwaarden. Actie, pakket, looptijd en giftwijzigingen altijd opnieuw controleren.",
+      "basis": "Officiële site biedt vergelijking voor TV versus 12 maanden korting plus €100 cashback; geen individueel bewezen besparing."
+    },
+    {
+      "id": "meervoordeel_simonly",
+      "title": "Sim only: houd de volledige 24-maandsprijs tegen het licht",
+      "category": "Contracten",
+      "priority": 95,
+      "effort": "5-10 minuten",
+      "status": "aanbod_voorwaarden_gevonden",
+      "merchant": "MeerVoordeel.nl / hollandsnieuwe",
+      "url": "https://meervoordeel.nl/hollandsnieuwe",
+      "policyUrl": "https://meervoordeel.nl/veelgestelde-vragen",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "Mobiele verlengdatum, Black Friday en bundelwijziging",
+      "why": "Sommige 24-maandsbundels tonen een tijdelijke maandprijs en +10 GB. De werkelijke kosten moeten over alle maanden worden berekend.",
+      "actions": [
+        "Controleer netwerkdekking, benodigde data, nummerbehoud en maandlasten na de eerste twaalf maanden.",
+        "Bereken de hele 24-maandsprijs en eventuele activeringskosten. Waardeer extra data niet als geld wanneer je die niet gebruikt.",
+        "Vergelijk ook rechtstreeks bij de provider en onafhankelijke alternatieven.",
+        "Bij een cadeauclaim gelden andere betaalmomenten dan bij Ziggo; controleer de actuele voorwaarden."
+      ],
+      "conditions": "Prijs vanaf €4,50 tijdens de promotie volgens officiële pagina; 24 maanden looptijd, later tarief niet als identiek veronderstellen.",
+      "basis": "Officieel geadverteerde nieuwe-klanten-/promotiebundel, geen individueel passend contract bevestigd."
+    },
+    {
+      "id": "retention_negotiation",
+      "title": "Vraag vóór verlenging een concreet klantbehoudvoorstel",
+      "category": "Contracten",
+      "priority": 94,
+      "effort": "10-20 minuten",
+      "status": "herhaalbare_community_tactiek",
+      "merchant": "KPN / Odido / Ziggo / energieaanbieder",
+      "url": "https://www.reddit.com/r/zuinig/comments/1ro414d/reminder_om_je_internet_ook_te_verlengen/",
+      "policyUrl": "https://www.reddit.com/r/zuinig/comments/1vov2mo/internet/",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "30 tot 60 dagen voor contracteinde",
+      "why": "Gebruikers melden regelmatig scherpere behoudsaanbiedingen wanneer ze een concreet vergelijkbaar overstapaanbod voorleggen. Dit is een onderhandelingsmethode, geen gegarandeerde korting.",
+      "actions": [
+        "Leg de huidige volledige jaar-/24-maandskosten naast twee vergelijkbare aanbiedingen, inclusief kortingen en cashback.",
+        "Vraag de afdeling contractverlenging om een gespecificeerde aanbieding voor precies dezelfde diensten.",
+        "Vergelijk werkelijk aantal kortingsmaanden en standaardtarief ná de promotie.",
+        "Leg pas iets vast nadat looptijd en totale kosten op papier bevestigd zijn."
+      ],
+      "conditions": "Uitkomst verschilt per aanbieder en account; opzeggen enkel volgens contractvoorwaarden.",
+      "basis": "Reddit-gebruikerservaringen, geen officiële garantie of algemene statistiek."
+    },
+    {
+      "id": "energy_retention",
+      "title": "Energie vergelijken: eerst jaarkosten, daarna behoudsaanbod",
+      "category": "Contracten",
+      "priority": 92,
+      "effort": "15-25 minuten",
+      "status": "herhaalbare_community_tactiek",
+      "merchant": "Energieleveranciers",
+      "url": "https://www.reddit.com/r/zuinig/comments/1w39vrk/energiecontract_verlengd_succesje/",
+      "policyUrl": "https://www.independer.nl/energie/info/energie-vergelijken.aspx",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "Vóór aflopen vaste energieperiode; controleren op mogelijke opzegvergoeding",
+      "why": "Een dalend voorschot kan duurder zijn dan een hoger voorschot met lagere jaarafrekening. Cashback moet bij verbruik, tarieven en vaste kosten worden meegerekend.",
+      "actions": [
+        "Haal echt jaarverbruik, teruglevering, vaste leveringskosten, belastingen en einddatum uit de rekening.",
+        "Vergelijk offertes met exact hetzelfde jaarverbruik, teruglevering en contractduur.",
+        "Vraag eigen leverancier om een schriftelijk verlengvoorstel en eventueel behoudsbonus.",
+        "Neem een eventuele opzegvergoeding en cashbackvoorwaarden mee; geef geen overspannen garantie."
+      ],
+      "conditions": "Werkelijke uitkomst afhankelijk van verbruik, netbeheerder en tarieven; informatie is niet automatisch op site gekoppeld.",
+      "basis": "Publieke ervaringspost en onafhankelijke rekenmethode, geen individuele offerte."
+    },
+    {
+      "id": "drogist_unit_price",
+      "title": "De Online Drogist: kijk voorbij de korting op adviesprijs",
+      "category": "Verzorging",
+      "priority": 91,
+      "effort": "2-5 minuten",
+      "status": "officiele_voorwaarden",
+      "merchant": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/recommended-prices-and-offers",
+      "policyUrl": "https://www.deonlinedrogist.nl/shipping-and-delivery",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "Weleda Skin Food, Davines of ander persoonlijk verzorgingsproduct afgeprijsd",
+      "why": "Getoonde 15% of 25% onder adviesprijs zegt niet of het goedkoper is dan dezelfde EAN elders.",
+      "actions": [
+        "Controleer EAN en inhoud (ml) bij minimaal twee onafhankelijke winkels.",
+        "Bij 1+1: controleer of de promotie pas vanaf twee stuks geldt en of werkelijk minimaal twee stuks nodig zijn.",
+        "Vul bezorgkosten naar Nederland in: officieel €3,95 onder €25 en gratis vanaf €25, maar controleer betaalpagina.",
+        "Koop niet onnodig extra producten enkel om de verzenddrempel te halen."
+      ],
+      "conditions": "Voor 1+1 worden bij minimaal twee deelnemende producten twee productprijzen afzonderlijk met 50% verlaagd; deelnameregels per product.",
+      "basis": "Officiële korting-methodiek en verzendvoorwaarden."
+    },
+    {
+      "id": "drogist_loyalty",
+      "title": "De Online Drogist: spaarpunten alleen waarderen na verzilvering",
+      "category": "Verzorging",
+      "priority": 74,
+      "effort": "2-5 minuten",
+      "status": "officiele_voorwaarden",
+      "merchant": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/blog/spaarprogramma/",
+      "policyUrl": "https://www.deonlinedrogist.nl/kortingscodes.php",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "Herhaalaankoop verzorging of koffie-gerelateerde producten",
+      "why": "Bij elke €1 aankoop ontvang je volgens het programma een punt; 400 punten kunnen bijvoorbeeld €5 shoptegoed opleveren. Een punt is géén directe geldbesparing op de huidige order.",
+      "actions": [
+        "Controleer bestaande puntstand in eigen account.",
+        "Bereken werkelijke winkelmandprijs zonder en met inwisselbare beloning.",
+        "Gebruik niet meer dan één beloning per bestelling, conform programma.",
+        "Controleer beperkingen op stapelen met actiecodes en beschikbaarheid van beloningen."
+      ],
+      "conditions": "Punten worden op artikelen verdiend, niet op verzendkosten; retouren kunnen punten terugboeken.",
+      "basis": "Officieel spaarprogramma en kortingscodebeleid."
+    },
+    {
+      "id": "drogist_member",
+      "title": "Controleer lidmaatschapsvoordeel vóór een bestelling",
+      "category": "Verzorging",
+      "priority": 60,
+      "effort": "1-3 minuten",
+      "status": "alleen_indien_lid",
+      "merchant": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/fnv-ledenvoordeel",
+      "policyUrl": "https://www.deonlinedrogist.nl/kortingscodes.php",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "De Online Drogist bestelling, alleen voor geverifieerde kwalificerende leden",
+      "why": "Een ledenkorting kan gunstig zijn op producten zonder actieprijs, maar mag niet met actiecodes of lopende aanbiedingen worden verward.",
+      "actions": [
+        "Controleer eerst daadwerkelijk recht op de ledenactie; geen lidmaatschap aannemen.",
+        "Bereken op niet-afgeprijsde deelnemende producten het voordeel na verzendkosten.",
+        "Controleer vervaldatum, uitzonderingen en of de actiecode niet met andere kortingen te combineren is."
+      ],
+      "conditions": "Bij de FNV-actie 10% tot 31 december 2026 volgens aanbiederspagina; niet op aanbiedingen, zelfzorgmedicatie en zuigelingenvoeding; gebruik vereist lidmaatschapsgegevens.",
+      "basis": "Officiële ledenvoorwaarden; pas toepasbaar als recht op korting is vastgesteld."
+    },
+    {
+      "id": "price_history",
+      "title": "Bewijs de echte korting met een prijsverleden",
+      "category": "Premium producten",
+      "priority": 89,
+      "effort": "2-10 minuten",
+      "status": "herhaalbare_community_tactiek",
+      "merchant": "Meerdere verkopers",
+      "url": "https://www.reddit.com/r/zuinig/comments/1f42bm4/deal_app_gebouwd_voor_het_vinden_van_aanbiedingen/",
+      "policyUrl": "https://www.reddit.com/r/zuinig/comments/1p2v6gb/black_friday_wat_zoeken_jullie/",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "Black Friday, sample sales, Pepper-tip, cashback, buitenlandse webdeal",
+      "why": "Korting ten opzichte van een adviesprijs is geen onafhankelijke marktprijs. Vergelijk exacte uitvoering, 90-daagse prijsreeks en echte kosten bij meerdere aanbieders.",
+      "actions": [
+        "Noteer EAN/SKU, maat, kleur, winkelprijs en verzendkosten.",
+        "Controleer historische laagste prijs en minstens één betrouwbare concurrent.",
+        "Beoordeel een deal op jouw normale aanschafbehoefte, niet op hoog marketingpercentage.",
+        "Verifieer buitenlandse leveringskosten en retourtarief voor Nederland."
+      ],
+      "conditions": "Korte prijshistorie is geen marktbewijs; Reddit levert ideeën, geen koopverificatie.",
+      "basis": "Communityfeedback op Nederlandse dealtools en ervaring met actiewebsites."
+    },
+    {
+      "id": "secondhand_watch",
+      "title": "Premium spullen tweedehands volgen in plaats van impulsief kopen",
+      "category": "Premium producten",
+      "priority": 67,
+      "effort": "5-10 minuten",
+      "status": "herhaalbare_community_tactiek",
+      "merchant": "Marktplaats / Vinted",
+      "url": "https://www.reddit.com/r/zuinig/comments/1ggfg8q",
+      "policyUrl": "https://www.reddit.com/r/zuinig/comments/1ggfg8q",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "Premium schoenen, jassen of interieur zonder spoed",
+      "why": "Tweedehands zoekalerts kunnen een aanzienlijk lager totaalbedrag opleveren voor dezelfde kwaliteit, maar bieden andere risico's.",
+      "actions": [
+        "Maak per exacte maat/model een zoekalert.",
+        "Controleer echtheid, staat, maat en veilige betaling.",
+        "Neem verzending, service, garantie en eventuele schoonmaakkosten mee."
+      ],
+      "conditions": "Resultaten wisselen; geen automatische aankoop of garantie.",
+      "basis": "Nederlandse communityervaring, niet een actuele productdeal."
+    }
+  ]
+}

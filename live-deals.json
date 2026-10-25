@@ -1,9 +1,83 @@
 {
-  "updatedAt": "2026-10-25T16:05:24.235274+00:00",
+  "updatedAt": "2026-10-25T16:06:12.773751+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 149,
-    "duplicate": 0
+    "source_quality": 135,
+    "duplicate": 0,
+    "examples": [
+      {
+        "why": "irrelevant",
+        "title": "ASUS MB166C (15,6\" • 1920x1080 (Full HD) @ 60Hz • IPS • 5ms) portable monitor @ Amazon.nl",
+        "url": "https://nl.pepper.com/aanbiedingen/asus-mb166c-156-1920x1080-full-hd-at-60hz-ips-5ms-portable-monitor-at-amazonnl-423638",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Vuilniszak voor Brabantia Touch Bin 23-30 liter",
+        "url": "https://nl.pepper.com/aanbiedingen/deiss-vuilniszak-voor-brabantia-touch-bin-423633",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "LEGO Animal Crossing 77055 Kleermakerij van de zusjes Able (322 stenen) voor €20,00 (-50% t.o.v. adviesprijs) + meer LEG",
+        "url": "https://nl.pepper.com/aanbiedingen/lego-animal-crossing-77055-kleermakerij-van-de-zusjes-able-322-stenen-voor-eur2000-50-tov-adviesprijs-meer-lego-deals-at-mediamarkt-423632",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Fischer DUOPOWER 5 x 25 professionele pluggen (100 stuks)",
+        "url": "https://nl.pepper.com/aanbiedingen/fischer-duopower-5-x-25-professionele-pluggen-100-stuks-423631",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "[Steam] Stronghold Collection – 5 volledige RTS-klassiekers (Stronghold HD, Crusader HD & Extreme, Stronghold 2 & Legend",
+        "url": "https://nl.pepper.com/aanbiedingen/steam-stronghold-collection-5-volledige-rts-klassiekers-stronghold-hd-crusader-hd-extreme-stronghold-2-legends-voor-eur374-85-423629",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "[Select deal] Soundcore Sleep A30 Slaapkoptelefoon by Anker",
+        "url": "https://nl.pepper.com/aanbiedingen/select-deal-soundcore-sleep-a30-slaapkoptelefoon-by-anker-423628",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Tot 70% korting op Gamma vloerkleden",
+        "url": "https://nl.pepper.com/kortingscode/tot-70-korting-op-gamma-vloerkleden-423627",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Lenovo Legion Gaming PC bij BOL [Select] nu voor maar €2.299",
+        "url": "https://nl.pepper.com/aanbiedingen/lenovo-legion-gaming-pc-bij-bol-select-nu-voor-maar-eur2299-423621",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Mad Mia: 3e item gratis",
+        "url": "https://nl.pepper.com/kortingscode/mad-mia-3e-item-gratis-423626",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "PARKSIDE Schroevendraaierset met wandhouder",
+        "url": "https://nl.pepper.com/aanbiedingen/parkside-schroevendraaierset-met-wandhouder-423625",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Makita 18V LXT accuboor brushless DDF490WF incl. 3Ah accu + snellader",
+        "url": "https://nl.pepper.com/aanbiedingen/makita-18v-lxt-accuboor-brushless-ddf490wf-incl-3ah-accu-snellader-423623",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "AH Power All in 1 vaatwastabletten: 2,35 cent per stuk – 40 stuks voor € 0,94!",
+        "url": "https://nl.pepper.com/aanbiedingen/ah-power-all-in-1-vaatwastabletten-235-cent-per-stuk-40-stuks-voor-eur-094-423622",
+        "source": "Pepper Nederland"
+      }
+    ]
   },
   "deals": [],
   "samples": [],
@@ -192,7 +266,7 @@
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -202,7 +276,7 @@
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -227,12 +301,12 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 11",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -242,7 +316,7 @@
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -485,9 +559,9 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 209,
+    "scannedItems": 195,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T16:05:24.235274+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T16:06:12.773751+00:00"
 }

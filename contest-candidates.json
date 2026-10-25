@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:46:52.614937+00:00",
+  "updatedAt": "2026-10-25T12:51:37.455491+00:00",
   "candidates": [
     {
       "id": "journaway-zuidafrika-20261024",
@@ -113,171 +113,871 @@
         "Tuin",
         "Verduurzaming"
       ]
+    },
+    {
+      "id": "652b054fd9bc48751c6b",
+      "title": "Prijsvraag aanmelden",
+      "sourceUrl": "https://www.prijsvragen.nl/prijsvraag-aanmelden.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "4a1ea97e98f82c9c5e18",
+      "title": "Hoe win je Prijsvragen en Winacties?",
+      "sourceUrl": "https://www.prijsvragen.nl/help.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "e79e79dc3f48a929a263",
+      "title": "Hoe win je prijspuzzels en puzzelprijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/hoe-win-je-prijspuzzels.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d037658ff61c06992994",
+      "title": "Win Shoptegoed",
+      "sourceUrl": "https://www.prijsvragen.nl/win-shoptegoed-geld.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d108396e36cf42790aba",
+      "title": "Win weekend weg",
+      "sourceUrl": "https://www.prijsvragen.nl/win-een-weekend-weg.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "17c5ee0154934683cab5",
+      "title": "Wonen Winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/woonproductenwinnen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "18cb440aed21b386c628",
+      "title": "Vrouwen Winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/vrouwen-winacties.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "324b4b065cb244e80046",
+      "title": "50+ winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/50plus.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "1c0aac1dcecec2801596",
+      "title": "Win Festival tickets",
+      "sourceUrl": "https://www.prijsvragen.nl/festivals.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "90476cba1c77deb23e44",
+      "title": "Win bioscoopkaarten",
+      "sourceUrl": "https://www.prijsvragen.nl/win-bioscoopkaarten.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d35fc39a50f07eeba907",
+      "title": "Disney winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/disney.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "c1009ffdc0a686f5ef49",
+      "title": "Win kaartjes vakantiebeurs",
+      "sourceUrl": "https://www.prijsvragen.nl/vakantiebeurs.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "3b51efc717145fc218a6",
+      "title": "Win kaartjes Huishoudbeurs",
+      "sourceUrl": "https://www.prijsvragen.nl/huishoudbeurs.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "2f50bcf0b959021364ba",
+      "title": "Winacties van TV",
+      "sourceUrl": "https://www.prijsvragen.nl/tv-reclame.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "9151c139ec271570887a",
+      "title": "Facebook winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/facebook.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "9b2542124a0d0a1b8c85",
+      "title": "Quizzen winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/quizzen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "2cbd4928d91702630c22",
+      "title": "Sms, app & winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/smsenwin.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "dfdfbbeabdfec231997b",
+      "title": "WK voetbal Winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/wkkaartenwinnen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "228e23e3729e571cf50b",
+      "title": "Win een wintersport",
+      "sourceUrl": "https://www.prijsvragen.nl/winter.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d5ea54cd596ff22bacad",
+      "title": "Win iPad of Tablet",
+      "sourceUrl": "https://www.prijsvragen.nl/ipadwinnen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "ce356f08b525257d08a3",
+      "title": "Win een fiets prijs",
+      "sourceUrl": "https://www.prijsvragen.nl/win-een-fiets-prijs.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "bc7ad2cc715b93a54cd3",
+      "title": "Win een smartphone",
+      "sourceUrl": "https://www.prijsvragen.nl/mobielwinnen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "eec7e13631c422c5c45a",
+      "title": "Win reisspullen",
+      "sourceUrl": "https://www.prijsvragen.nl/win-reis-spullen.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "3b63a9a9c3344bcb6eac",
+      "title": "Win voor je Valentijn",
+      "sourceUrl": "https://www.prijsvragen.nl/valentijnsdag.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "fba762fb81dbbf9ec651",
+      "title": "Winacties met Pasen",
+      "sourceUrl": "https://www.prijsvragen.nl/pasen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "685ef354145b69f91243",
+      "title": "Halloween winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/halloween.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "03d968943fccd20f79d2",
+      "title": "Autorace Winacties",
+      "sourceUrl": "https://www.prijsvragen.nl/autowinnen.html/#autorace-winacties",
+      "category": "Auto’s",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/autowinnen.html",
+      "discoverySource": "Prijsvragen.nl auto"
+    },
+    {
+      "id": "cbc43f3fa6db442fa88e",
+      "title": "Truckstart mail & win autoprijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/winactie/truckstart-mail-win-autoprijzen.html",
+      "category": "Auto’s",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/autowinnen.html",
+      "discoverySource": "Prijsvragen.nl auto"
+    },
+    {
+      "id": "b1fd4632b7e4d0bbdb8f",
+      "title": "Speel het GP-spel en win gave Formule 1 prijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/winactie/win-speel-het-gp-spel-en-win-gave-formule-1-prijzen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/autowinnen.html",
+      "discoverySource": "Prijsvragen.nl auto"
+    },
+    {
+      "id": "4376c519c93ab7a6fe9f",
+      "title": "Win een gratis laadpaal voor je auto met installatie door Essent",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-gratis-laadpaal-voor-je-auto-met-installatie-door-essent.html",
+      "category": "Auto’s",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/autowinnen.html",
+      "discoverySource": "Prijsvragen.nl auto"
+    },
+    {
+      "id": "502a64dac3d80f97fe9e",
+      "title": "Win een e-bike",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-e-bike.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/autowinnen.html",
+      "discoverySource": "Prijsvragen.nl auto"
+    },
+    {
+      "id": "d61f45185812ab98c9a7",
+      "title": "Help : Hoe win ik een vakantie?",
+      "sourceUrl": "https://www.prijsvragen.nl/hoe-win-ik-een-vakantie.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "ee8a0cb536129879fc74",
+      "title": "Win een reischeque van Suntip t.w.v. €200",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-reischeque-van-suntip-twv-euro200.html",
+      "category": "Geld",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "7ced3ca565cccc48727d",
+      "title": "Muziek winacties, entreetickets, reizen en meer mooie prijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/winactie/win-muziek-winacties-entreetickets-reizen-en-meer-mooie-prijzen.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "3cd082fdc89665a9c843",
+      "title": "Win een reis voor 2 personen van Effeweg busreizen",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-reis-voor-2-personen-van-effeweg-busreizen.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d07e40991f2de47c18b0",
+      "title": "Win een weekend op Vakantiepark De Krim Texel",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-weekend-op-vakantiepark-de-krim-texel.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d9004215aea5cb748989",
+      "title": "Win een hotel verblijf op Bonaire",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-hotel-verblijf-op-bonaire.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "10adcc640111d0621ae1",
+      "title": "Win een Neleman Wijnreis naar Spanje t.w.v. €1500",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-neleman-wijnreis-naar-spanje-twv-euro1500.html",
+      "category": "Geld",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "06d749d8089d6c5b9d7b",
+      "title": "Win een fantastische prijs bij Plus Online",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-fantastische-prijs-bij-plus-online.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "003dbf545b0ded529878",
+      "title": "Win een vakantie naar Slagharen of hotel-arrangement",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-vakantie-naar-slagharen-of-hotel-arrangement.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "d11b47123d0d408e4939",
+      "title": "Win een vakantie van Corendon naar de zon",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-vakantie-van-corendon-naar-de-zon.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "95f4c7bf34907600c7eb",
+      "title": "Win een snowparty trip met Mar+in Garrix",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-snowparty-trip-met-marin-garrix.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "51c5acd3b10da5a4089d",
+      "title": "Win €50.000 vakantiegeld of een droomauto",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-euro50000-vakantiegeld-of-een-droomauto.html",
+      "category": "Auto’s",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "c14deea6530f7aff74e3",
+      "title": "Win een stedentrip Londen met Stenaline",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-stedentrip-londen-met-stenaline.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "feaae4f56a8657226f19",
+      "title": "Win vakantie, tickets, reizen, uitjes en spullen met bieden",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-vakantie-tickets-reizen-uitjes-en-spullen-met-bieden.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "eb553e1373b8393f10eb",
+      "title": "Win een Bongo hotelbon Duizend-en-één Nacht",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-bongo-hotelbon-duizend-en-een-nacht.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "2d20b9ec62c13650d757",
+      "title": "Win een reischeque van €1000 en een reischeque van €400",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-reischeque-van-euro1000-en-een-reischeque-van-400.html",
+      "category": "Geld",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "0cf302046cf934272226",
+      "title": "Win een vakantie naar de Wadden en Waddengebied prijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-vakantie-naar-de-wadden-en-waddengebied-prijzen.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "599d045f1171e43790a9",
+      "title": "Win een reis de ruimte in als eerste Pizzabezorger van New York Pizza",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-reis-de-ruimte-in-als-eerste-pizzabezorger-van-new-york-pizza.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "b4a901b96d2350bc784b",
+      "title": "Win een Tui reischeque of mooie prijzen",
+      "sourceUrl": "https://www.prijsvragen.nl/winnen/win-een-tui-reischeque-twv-425.html",
+      "category": "Reizen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "75b348a4cb25614e5b23",
+      "title": "Win een ruimtevlucht als pizzabezorger",
+      "sourceUrl": "https://www.prijsvragen.nl/winactie/win-win-een-ruimtevlucht-als-pizzabezorger.html",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "discoverySource": "Prijsvragen.nl vakanties"
+    },
+    {
+      "id": "846406a39867eca76d1f",
+      "title": "win acties.nl",
+      "sourceUrl": "https://www.winacties.nl/",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "0e1b79e21da0b8fdc88b",
+      "title": "Baby winacties",
+      "sourceUrl": "https://www.winacties.nl/baby-winacties",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "37b50bd6e22251f4633b",
+      "title": "Enquete winacties",
+      "sourceUrl": "https://www.winacties.nl/enquetes-invullen",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "0b80d089bd4cb38ba06e",
+      "title": "Facebook winacties",
+      "sourceUrl": "https://www.winacties.nl/facebook",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "c0b3c5ca705085178d41",
+      "title": "Loterij Geld winacties",
+      "sourceUrl": "https://www.winacties.nl/geld-winnen-loterij",
+      "category": "Geld",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "f1a7390d961e86759f04",
+      "title": "Vul in & winacties",
+      "sourceUrl": "https://www.winacties.nl/vul-in-en-win",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "15125fed9d1edde0d378",
+      "title": "Winacties voor vrouwen",
+      "sourceUrl": "https://www.winacties.nl/voor-vrouwen",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "e682ca3ec7ac2c785b7f",
+      "title": "Klik hier en win Prijsvragen.nl De beste prijsvragen gids met winacties, gratis prijsvragen, spelletjes en wedstrijden.",
+      "sourceUrl": "https://www.prijsvragen.nl",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "3656e74c800b164d69a2",
+      "title": "Klik hier en win Babydozen.net Beste gratis babydozen en baby producten voor ouders.",
+      "sourceUrl": "https://www.babydozen.net",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
+    },
+    {
+      "id": "aca3c6ef4448ec79b375",
+      "title": "Klik hier en win Winactie.nl Nog een fijne winactie.nl site met spelletjes, prijsvragen en winacties",
+      "sourceUrl": "https://www.winactie.nl",
+      "category": "Overige prijzen",
+      "checkedAt": "2026-10-25T12:51:37.455491+00:00",
+      "status": "candidate",
+      "reason": "Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.",
+      "discoveredVia": "https://www.winacties.nl/reizen-vliegtickets",
+      "discoverySource": "Winacties.nl reizen"
     }
   ],
   "sources": [
     {
       "query": "gratis winactie auto elektrische auto",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.904453+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:02.983383+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie verbouwing renovatie keuken badkamer",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.838040+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:02.986256+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie tuin tuinrenovatie gereedschap",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.864948+00:00",
-      "status": "ok",
-      "items": 7
-    },
-    {
-      "query": "winactie warmtepomp isolatie verduurzaming",
-      "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.854497+00:00",
-      "status": "ok",
-      "items": 7
-    },
-    {
-      "query": "winactie huishoudelijke apparatuur keukenapparatuur",
-      "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.938345+00:00",
+      "checkedAt": "2026-10-25T12:51:02.993458+00:00",
       "status": "ok",
       "items": 10
     },
     {
+      "query": "winactie warmtepomp isolatie verduurzaming",
+      "language": "nl",
+      "checkedAt": "2026-10-25T12:51:03.027361+00:00",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "query": "winactie huishoudelijke apparatuur keukenapparatuur",
+      "language": "nl",
+      "checkedAt": "2026-10-25T12:51:08.421314+00:00",
+      "status": "empty",
+      "items": 0
+    },
+    {
       "query": "winactie geldprijs gratis Nederland",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.944175+00:00",
-      "status": "ok",
-      "items": 7
+      "checkedAt": "2026-10-25T12:51:08.425604+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie droomreis Nederlanders",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:51.954965+00:00",
+      "checkedAt": "2026-10-25T12:51:08.422049+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "winactie site:gratiz.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:52.082176+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:08.315378+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie site:prijzenzolder.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:52.058172+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:13.741260+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie site:prijsvragengala.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:52.098610+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:13.781306+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "winactie site:acties.nl",
       "language": "nl",
-      "checkedAt": "2026-10-25T12:46:52.066956+00:00",
-      "status": "ok",
-      "items": 7
+      "checkedAt": "2026-10-25T12:51:13.813276+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "win a car competition Netherlands residents free",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.299383+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:13.724479+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "home renovation giveaway Europe Netherlands",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.186610+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:19.141556+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "kitchen appliance giveaway worldwide free",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.250727+00:00",
+      "checkedAt": "2026-10-25T12:51:18.977068+00:00",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "query": "garden tools giveaway Europe",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.205345+00:00",
+      "checkedAt": "2026-10-25T12:51:19.022697+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "cash competition worldwide Netherlands",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.339904+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:19.053416+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "travel competition worldwide residents terms",
       "language": "en",
-      "checkedAt": "2026-10-25T12:46:52.351265+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:24.411063+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "Gewinnspiel Auto Teilnahme Niederlande kostenlos",
       "language": "de",
-      "checkedAt": "2026-10-25T12:46:52.372237+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:24.393342+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "Gewinnspiel Küche Garten europaweit",
       "language": "de",
-      "checkedAt": "2026-10-25T12:46:52.560694+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:24.401162+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "Gewinnspiel Wärmepumpe Renovierung Niederlande",
       "language": "de",
-      "checkedAt": "2026-10-25T12:46:52.484545+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:24.396209+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "concours voiture ouvert Pays-Bas gratuit",
       "language": "fr",
-      "checkedAt": "2026-10-25T12:46:52.613874+00:00",
+      "checkedAt": "2026-10-25T12:51:29.665632+00:00",
       "status": "ok",
       "items": 10
     },
     {
       "query": "concours rénovation maison Europe",
       "language": "fr",
-      "checkedAt": "2026-10-25T12:46:52.503680+00:00",
-      "status": "ok",
-      "items": 10
+      "checkedAt": "2026-10-25T12:51:29.721373+00:00",
+      "status": "empty",
+      "items": 0
     },
     {
       "query": "concours voyage ouvert résidents Pays-Bas",
       "language": "fr",
-      "checkedAt": "2026-10-25T12:46:52.614609+00:00",
+      "checkedAt": "2026-10-25T12:51:29.586794+00:00",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "GratiZ prijsvragen",
+      "url": "https://www.gratiz.nl/prijsvragen",
+      "method": "direct_html",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "items": 0
+    },
+    {
+      "source": "Prijsvragen.nl auto",
+      "url": "https://www.prijsvragen.nl/autowinnen.html",
+      "method": "direct_html",
+      "status": "ok",
+      "items": 80
+    },
+    {
+      "source": "Prijsvragen.nl vakanties",
+      "url": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
+      "method": "direct_html",
+      "status": "ok",
+      "items": 95
+    },
+    {
+      "source": "Winacties.nl reizen",
+      "url": "https://www.winacties.nl/reizen-vliegtickets",
+      "method": "direct_html",
       "status": "ok",
       "items": 10
     }
   ],
-  "complete": true,
+  "complete": false,
   "note": "Discovery only. No automatic participation. No universal coverage claim."
 }

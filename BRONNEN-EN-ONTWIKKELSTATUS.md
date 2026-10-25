@@ -72,3 +72,7 @@ GitHub-planningen kunnen vertragen of vervallen. Daarom wordt actualiteit opnieu
 5. Accountfeeds uitsluitend aansluiten wanneer credentials en rechten beschikbaar zijn.
 
 Publicatiebotsing vastgesteld in run 40193373320: beide scanners lazen de event-commit, waarna system-health.json conflicteerde. Beide workflows halen nu expliciet de actuele main-branch op binnen dezelfde concurrency-groep. Handmatig onderzochte kandidaten blijven behouden bij de ruisfilter.
+
+## Directe winactiebronnen
+
+`contest-sources.json` registreert vier directe HTML-overzichten: GratiZ, Prijsvragen.nl auto, Prijsvragen.nl reizen en Winacties.nl reizen. `contest_scan.py` leest deze naast de bestaande meertalige zoekopdrachten. Iedere kandidaat bewaart vindplaats en bronnaam. Bekende trackinglinks worden uitgesloten. De bronstatus meldt uitleesfouten en lege resultaten. Dit zijn HTML-adapters, geen geclaimde publieke API's. De bron garandeert geen actuele deadline of NL-toelating: inhoudelijke controle blijft vereist voordat een kandidaat in 'Gecontroleerd en open' terechtkomt. De standaardweergave toont alle gevonden acties met zichtbare status. Filters omvatten langdurig gratis producten, cadeaubonnen, hotels/wellness en sport/fietsen.

@@ -6,6 +6,7 @@ on:
       - 'scan.py'
       - 'contest_scan.py'
       - 'contest-searches.json'
+      - 'contest-sources.json'
       - 'scripts/household_scan.py'
       - 'winacties.html'
       - 'contest-ui.js'

@@ -10,3 +10,12 @@ class Contests(unittest.TestCase):
  def test_house_matches(self):
   self.assertEqual(classify('Win een warmtepomp voor renovatie'),'Renovatie & verduurzaming')
 if __name__=='__main__':unittest.main()
+
+class DirectSources(unittest.TestCase):
+ def test_direct_links_and_tracking(self):
+  from contest_scan import ContestLinks
+  p=ContestLinks({'url':'https://example.org/list','name':'Test'})
+  p.feed('<a href="https://shop.example/win">Win 6 maanden gratis koffie</a><a href="https://glp8.net/ad">Win geld</a>')
+  self.assertEqual(len(p.rows),1)
+  self.assertEqual(classify(p.rows[0]['title']),'Lang gratis')
+  self.assertEqual(p.rows[0]['discoveredVia'],'https://example.org/list')

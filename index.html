@@ -31,6 +31,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
  .nav-more{padding:10px 15px}.nav-more summary{font-weight:700;cursor:pointer}.nav-more nav{margin-top:12px}.quicklinks a{font-size:15px;padding:13px 15px;font-weight:650;min-height:44px;display:inline-flex;align-items:center}.quicklinks{gap:9px}@media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
 
 .main-nav{position:sticky;top:0;z-index:5;background:#0c1526;padding:12px 0;margin:0 0 12px;border-bottom:1px solid #344961}.main-nav button{min-height:44px}.module iframe{display:block;width:100%;border:0;min-height:500px;color-scheme:dark}.section>h2{margin-top:20px}.health-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}:focus-visible{outline:3px solid #95f4bb;outline-offset:3px}@media(min-width:800px){.main-nav{flex-wrap:wrap}.main-nav button{flex:1;padding:10px 8px}}@media(max-width:620px){header{padding:20px 18px}main{padding:12px}.summary{grid-template-columns:1fr 1fr}.summary .tile:last-child{grid-column:1/-1}.tile strong{font-size:22px}}
+.home-intro h2{margin:18px 0 2px;font-size:clamp(24px,5vw,32px)}.home-intro p{margin:4px 0 16px}.section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.section-heading h2{margin:0}.section-heading button{cursor:pointer;min-height:42px}.event-meta{font-size:13px;color:#b4d0df}.card.event{min-height:0}.card.event .event-date{font-weight:750;color:#c8f4dc}.card.event p{line-height:1.5}.card .tag{max-width:100%}details.panel>summary{font-size:16px}details.panel[open]>summary{margin-bottom:15px}@media(max-width:620px){.section-heading button{width:100%}.home-intro{padding:0 3px}}
 </style></head><body>
 <header><div class="small">Jouw persoonlijke kansenplatform · boodschappen en recepten staan apart</div><h1>Kansenkompas<span style="color:#95f4bb">.</span></h1><p>Ontdek wat voor jou de moeite waard is. Met heldere voorwaarden en de laatste controlestatus.</p></header>
 <main>
@@ -42,14 +43,22 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <section id="saving" class="section module"><h2>Contracten en besparen</h2><p class="muted">Bekijk overstapmomenten en vergelijk jaarlijkse kosten. Invoer blijft op dit apparaat.</p><iframe title="Contracten en besparingen" data-src="./besparen.html?embedded=1"></iframe></section>
 <section id="ideas" class="section module"><h2>AI en innovaties</h2><p class="muted">Direct bruikbare toepassingen, persoonlijke bouwideeën en ontwikkelingen met hun beschikbaarheidsstatus.</p><iframe title="AI-toepassingen en innovaties" data-src="./ai-kansen.html?embedded=1"></iframe></section>
 <section id="today" class="section show">
+<div class="home-intro"><h2>Jouw kansen van vandaag</h2><p class="muted">Eerst concrete winacties en aangekondigde evenementen. Productprijzen worden pas als deal getoond na controle van het werkelijke voordeel.</p></div>
 <div class="summary">
-<div class="tile"><span class="muted">Persoonlijke kandidaten</span><strong id="matchcount">–</strong><span class="small">Niet automatisch koopadvies</span></div>
-<div class="tile"><span class="muted">Winkelprijzen waargenomen</span><strong id="shopcount">–</strong><span class="small">Verzendkosten kunnen ontbreken</span></div>
-<div class="tile"><span class="muted">Automatische bronchecks</span><strong id="sourcecount">–</strong><span class="small" id="sourcestatus">Laatste run onbekend</span></div>
+ <div class="tile"><span class="muted">Relevante sample sales</span><strong id="samplecount">–</strong><span class="small">Met datum en plaats</span></div>
+ <div class="tile"><span class="muted">Open winacties</span><strong id="contestcount">–</strong><span class="small">Voorwaarden per actie controleren</span></div>
+ <div class="tile"><span class="muted">Bewezen productdeals</span><strong id="verifiedCount">0</strong><span class="small">Alleen na marktvergelijking</span></div>
 </div>
-<details class="panel" id="rawPrices"><summary>Winkelprijscontroles bekijken (geen bewezen deals)</summary><div><h2>Winkelprijzen die al zijn gevonden</h2><p class="muted">Concrete winkelwaarnemingen, apart van de automatische feed. Geen volledige prijsvergelijking of bewezen goedkoopste totaalprijs.</p><p class="small" id="merchantUpdated">Automatische productscan laden…</p><div id="observations" class="cards"></div></div></details>
-<div class="panel"><h2>Voor jou gevonden, nog te controleren</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
-<div class="panel"><h2>Volledig gecontroleerde deals</h2><div id="topverified" class="empty">Nog geen deal waarvoor actuele winkelprijs, normale marktprijs, juiste uitvoering, voorraad én totale bezorgprijs gezamenlijk zijn bevestigd. De scanner levert kandidaten; hij kan dat niet zelfstandig bewijzen.</div></div>
+<div class="panel"><div class="section-heading"><h2>Winacties met deadline</h2><button class="secondary" data-open="contests">Alle winacties</button></div><div id="featuredContests" class="cards"><p class="muted">Acties laden…</p></div></div>
+<div class="panel"><div class="section-heading"><h2>Sample sales om te bekijken</h2><button class="secondary" data-open="samples">Alle sample sales</button></div><p class="muted">Gepubliceerde evenementen, geen garantie op jouw maat of daadwerkelijke korting.</p><div id="featuredEvents" class="cards"><p class="muted">Evenementen laden…</p></div></div>
+<details class="panel" id="dealResearch"><summary>Productdeals in onderzoek <span id="dealResearchCount"></span></summary><p class="muted">Nog niet onafhankelijk bevestigde deals blijven gescheiden van koopadvies.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke dealvondsten</button></details>
+<details class="panel" id="rawPrices"><summary>Losse winkelprijsmetingen, geen bewezen deals</summary><div><p class="muted">Alleen om prijzen te onderzoeken, zonder bewezen marktvoordeel of totale bezorgprijs.</p><p class="small" id="merchantUpdated">Automatische productscan laden…</p><div id="observations" class="cards"></div></div></details>
+<details class="panel" id="scanStats"><summary>Technische statistieken</summary><div class="summary">
+<div class="tile"><span class="muted">Deal- en samplekandidaten in feed</span><strong id="matchcount">–</strong></div>
+<div class="tile"><span class="muted">Winkelprijzen waargenomen</span><strong id="shopcount">–</strong></div>
+<div class="tile"><span class="muted">Bronverzoeken</span><strong id="sourcecount">–</strong><span class="small" id="sourcestatus">Laatste run onbekend</span></div>
+</div></details>
+<details class="panel"><summary>Waarom ontbreken bewezen productdeals?</summary><div id="topverified" class="muted">Een winkelprijs is pas een bewezen buitenkans wanneer de exacte uitvoering, actuele voorraad, onafhankelijke referentieprijs en volledige kosten zijn bevestigd. Tot die tijd komt deze niet tussen de bewezen deals.</div></details>
 </section>
 <section id="found" class="section"><h2>Deals en prijscontroles</h2><p class="muted">Hier staan eerst persoonlijke gevonden deals. Losse winkelprijzen zijn geen aanbiedingen; kies het aparte filter om die te onderzoeken.</p>
 <div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Persoonlijke dealvondsten</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Alleen losse winkelprijscontroles</option></select></div>
@@ -80,7 +89,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
 const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
-const app={deals:[],samples:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
+const app={deals:[],samples:[],events:[],contests:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function stockInfo(d){
  const st=d.stockStatus||"onbekend";
@@ -109,6 +118,51 @@ function card(d,kind){
  }
  if(validUrl(d.url)){const link=el("a",null,"Bekijk bij bron ↗");link.href=d.url;link.target="_blank";link.rel="noopener noreferrer";c.append(link)}
  return c;
+}
+const todayNL=()=>new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Amsterdam"});
+const shortDate=value=>new Date(value+"T12:00:00").toLocaleDateString("nl-NL",{day:"numeric",month:"short"});
+function renderEvent(e){
+ const c=el("article","card event");
+ const age=e.lastSeenAt?Date.now()-new Date(e.lastSeenAt).getTime():Infinity;
+ c.append(el("span","tag",age>7*86400000?"Agenda eerder gevonden, opnieuw controleren":"Gepubliceerd evenement"));
+ c.append(el("h3",null,e.title));
+ c.append(el("p","event-date",shortDate(e.startDate)+(e.startDate===e.endDate?"":" t/m "+shortDate(e.endDate))+" · "+(e.city||"Locatie controleren")));
+ if(e.sizes)c.append(el("p",null,e.sizes));
+ if(e.note)c.append(el("p",null,e.note));
+ if(typeof e.url==="string"&&validUrl(e.url)){const a=el("a",null,"Bekijk sale en toegangsvoorwaarden");a.href=e.url;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}
+ return c;
+}
+function renderSamples(){
+ const now=todayNL(),upcoming=app.events.filter(e=>e.endDate>=now&&e.startDate&&e.url).sort((a,b)=>b.priority-a.priority||a.endDate.localeCompare(b.endDate));
+ $("samplecount").textContent=upcoming.length;
+ const main=$("samplecards"),home=$("featuredEvents");main.replaceChildren();home.replaceChildren();
+ for(const e of upcoming)main.append(renderEvent(e));
+ for(const e of upcoming.slice(0,3))home.append(renderEvent(e));
+ for(const d of app.samples)main.append(card(d,"sample"));
+ if(!upcoming.length)home.append(el("p","empty","Nog geen relevante aangekondigde sample sales in de agenda."));
+ if(!upcoming.length&&!app.samples.length)main.append(el("p","empty","Geen evenementen gepubliceerd voor dit moment."));
+}
+function renderContests(){
+ const now=todayNL(),open=app.contests.filter(x=>x.deadline>=now&&(!x.startsAt||x.startsAt<=now)&&x.free===true&&x.purchaseRequired!==true)
+    .sort((a,b)=>a.deadline.localeCompare(b.deadline));
+ $("contestcount").textContent=open.length;
+ const parent=$("featuredContests");parent.replaceChildren();
+ for(const x of open.slice(0,3)){
+  const c=el("article","card event");
+  c.append(el("span","tag","Gratis winactie · voorwaarden bekijken"),el("h3",null,x.title));
+  c.append(el("p","event-date","Sluit "+shortDate(x.deadline)+" · "+(x.organizer||"Organisator")));
+  if(x.prize)c.append(el("p",null,x.prize));
+  if(x.newsletterRequired)c.append(el("p",null,"Let op: nieuwsbriefinschrijving verplicht."));
+  if(x.sourceUrl&&validUrl(x.sourceUrl)){const a=el("a",null,"Bekijk deelname en voorwaarden");a.href=x.sourceUrl;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}
+  parent.append(c);
+ }
+ if(!open.length)parent.append(el("p","empty","Er zijn momenteel geen gecontroleerd geregistreerde open winacties."));
+}
+function renderDealResearch(){
+ const first=$("firstcards");first.replaceChildren();
+ $("dealResearchCount").textContent="("+app.deals.length+")";
+ app.deals.slice(0,6).forEach(x=>first.append(card(x,"candidate")));
+ if(!app.deals.length)first.append(el("p","muted","Geen actuele dealvondsten. De scanner wordt verder verbeterd; dit is geen bewijs dat er geen deals bestaan."));
 }
 function draw(target,items,kind){const p=$(target);p.replaceChildren();if(!items.length){p.append(el("div","empty","Geen passende actuele vondsten uit de beschikbare bronnen."));return}items.forEach(x=>p.append(card(x,kind)))}
 function show(tab){
@@ -149,7 +203,7 @@ function usableCandidate(d){
 }
 function loadDeals(d){app.deals=(d.deals||[]).filter(usableCandidate);app.samples=d.samples||[];app.promos=d.promotions||[];app.shops=d.retailers||[];app.sources=d.sources||[];app.coverage=d.coverage||null;app.feedUpdated=d.updatedAt||null;
 $("matchcount").textContent=app.deals.length+app.samples.length;
-draw("firstcards",app.deals.slice(0,6),"candidate");draw("samplecards",app.samples,"sample");draw("promos",app.promos,"candidate");
+renderDealResearch();renderSamples();draw("promos",app.promos,"candidate");
 const groups=[...new Set(app.deals.map(x=>x.category).filter(Boolean))].sort();const select=$("group");groups.forEach(g=>{let o=document.createElement("option");o.value=g;o.textContent=g;select.append(o)});
 const sources=$("retailerLinks");sources.replaceChildren();app.shops.forEach(s=>{if(!validUrl(s.url))return;let a=el("a",null,s.name+" · "+s.category);a.href=s.url;a.target="_blank";a.rel="noopener noreferrer";sources.append(a)});
 drawStatus();renderFound()}
@@ -163,17 +217,8 @@ function loadObs(o,m){
   $("merchantUpdated").textContent="Laatste productcontrole: "+new Date(m.checkedAt).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+(age>48?" — scan te oud voor actuele claims":"");
  }else $("merchantUpdated").textContent="Nog geen automatisch gecontroleerde winkelprijzen beschikbaar.";
  draw("observations",app.observations,"store");
- const first=$("firstcards");first.replaceChildren();
- const candidates=app.observations.filter(x=>stockInfo(x).order<3&&x.variantVerified!==false);
- const highlighted=[],usedBrands=new Set();
- function brand(x){return (x.title||"").split(/\s+/)[0].toLowerCase().replace(/[^a-z]/g,"")}
- for(const item of candidates){const b=brand(item);if(!usedBrands.has(b)){highlighted.push(item);usedBrands.add(b)}if(highlighted.length>=3)break}
- for(const item of candidates){if(highlighted.length>=3)break;if(!highlighted.includes(item))highlighted.push(item)}
- if(!app.deals.length&&!highlighted.length)first.append(el("div","empty","Nog geen onafhankelijk geverifieerde persoonlijke aanbiedingen. Bekijk de controles onderaan voor onderzoeksvondsten."));
- // Keep mere merchant price observations behind the separate price-controls disclosure.
- // They must never occupy the personal recommendations feed.
- app.deals.slice(0,3).forEach(x=>first.append(card(x,"candidate")));
- if(!app.deals.length)first.append(el("div","empty","De scanner heeft momenteel geen overtuigende persoonlijke dealvondsten. De losse winkelprijscontroles zijn beschikbaar onder de uitklapbare sectie."));
+ $("verifiedCount").textContent=app.observations.filter(x=>x.allInVerified===true&&x.marketComparisonVerified===true&&x.variantVerified===true&&stockInfo(x).order===0).length;
+ renderDealResearch();
  const old=$("merchantChecks");old.replaceChildren();
  if(m?.checks)m.checks.forEach(x=>old.append(el("p",null,x.store+" · "+x.status+(x.stockStatus?" · "+x.stockStatus:"")+(x.error?" · "+x.error:""))));
  const choices=[...new Set([...app.deals,...app.observations].map(x=>x.category).filter(Boolean))].sort();
@@ -236,10 +281,14 @@ fetch("./live-deals.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)thro
 fetch("./winkel-waarnemingen.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
 fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
 fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not scanned");return r.json()}),
-fetch("./watchlist.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not available");return r.json()})
-]).then(([feed,obs,profile,merchant,watches])=>{
+fetch("./watchlist.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not available");return r.json()}),
+fetch("./sample-events.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Sample agenda unavailable");return r.json()}),
+fetch("./contests.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Contest data unavailable");return r.json()})
+]).then(([feed,obs,profile,merchant,watches,sampleEvents,contests])=>{
 if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
 if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status==="fulfilled"?obs.value:null,merchant.status==="fulfilled"?merchant.value:null);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
+if(sampleEvents.status==="fulfilled"){app.events=sampleEvents.value.events||[];renderSamples()}else{$("featuredEvents").textContent="Sample-saleagenda kon niet worden geladen."}
+if(contests.status==="fulfilled"){app.contests=contests.value.contests||[];renderContests()}else{$("featuredContests").textContent="Winactiegegevens konden niet worden geladen."}
 if(watches.status==="fulfilled"){savedWatches=watches.value.items||[];renderWatches()}else{$("watchStatus").textContent="Servervolglijst tijdelijk niet bereikbaar."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });

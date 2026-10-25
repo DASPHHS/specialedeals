@@ -1,0 +1,127 @@
+{
+  "updatedAt": "2026-10-25T15:57:00+00:00",
+  "scanStatus": "curated_start",
+  "sources": [
+    {
+      "source": "Stockverkopen.nl",
+      "status": "editorially_found",
+      "items": 6
+    }
+  ],
+  "events": [
+    {
+      "title": "Petrol Industries herfst-/wintersample sale",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-30",
+      "city": "Tilburg",
+      "address": "Kalundborg 6, 5026 SE Tilburg",
+      "url": "https://www.stockverkopen.nl/9230/petrol-industries-herfst--winter-sample-sale--2026.html",
+      "category": "Herenmode",
+      "brands": [
+        "Petrol Industries"
+      ],
+      "sizes": "Heren XS–6XL volgens aankondiging; beschikbaarheid per artikel niet bevestigd",
+      "note": "Aangekondigd tot 70% korting. Ticket vereist; geen individuele prijsvergelijking.",
+      "priority": 92,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    },
+    {
+      "title": "Kuyichi Sample Sale",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-31",
+      "city": "Vleuten",
+      "address": "Stationsstraat 7, 3451 BV Vleuten",
+      "url": "https://www.stockverkopen.nl/9236/kuyichi-sample-sale--2026.html",
+      "category": "Herenmode",
+      "brands": [
+        "Kuyichi"
+      ],
+      "sizes": "Dames en heren; actuele maten onbekend",
+      "note": "Jeans aangekondigd voor €50 per stuk of drie voor €125. Reservering van tijdslot vereist.",
+      "priority": 84,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    },
+    {
+      "title": "GoodFuture sample sale werk- en vrijetijdskleding",
+      "startDate": "2026-10-31",
+      "endDate": "2026-10-31",
+      "city": "Alblasserdam",
+      "address": "Kelvinring 56D, 2952 BG Alblasserdam",
+      "url": "https://www.stockverkopen.nl/9253/sample-sale-bij-goodfuture--hoge-kortingen-op-werkkleding--2026.html",
+      "category": "Sport en kleding",
+      "brands": [
+        "Mascot",
+        "Snickers",
+        "Tricorp"
+      ],
+      "sizes": "Meerdere maten aangekondigd; jouw maat niet bevestigd",
+      "note": "Werk- en vrijetijdskleding. Concrete artikelprijzen niet beschikbaar.",
+      "priority": 58,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    },
+    {
+      "title": "Protest Sportswear wintersample sale",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-04",
+      "city": "Warmond",
+      "address": "Veerpolder 7, 2361 KX Warmond",
+      "url": "https://www.stockverkopen.nl/9238/protest-sportswear-winter-sample-sale-nov-2026.html",
+      "category": "Outdoor en sport",
+      "brands": [
+        "Protest"
+      ],
+      "sizes": "Veel herensamples in maat L; XL niet bevestigd",
+      "note": "Alleen 1 en 4 november; 1 november meer keuze. Houd rekening met maatbeperking.",
+      "priority": 62,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    },
+    {
+      "title": "Van Dal mannenmode Outlet",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-21",
+      "city": "Breda",
+      "address": "Gijzenveld 6, 4817 ZE Breda",
+      "url": "https://www.stockverkopen.nl/9244/van-dal-mannenmode-outlet-nov-2026.html",
+      "category": "Herenmode",
+      "brands": [
+        "State of Art",
+        "Superdry",
+        "Vanguard",
+        "Cast Iron",
+        "NZA"
+      ],
+      "sizes": "M tot en met 4XL aangekondigd",
+      "note": "Tijdelijke mannenmode-outlet. Geen onderbouwd kortingspercentage per product.",
+      "priority": 78,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    },
+    {
+      "title": "Circle of Trust Sample Sale Winter 2026",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-27",
+      "city": "Amstelveen",
+      "address": "Schweitzerlaan 42, Amstelveen",
+      "url": "https://www.stockverkopen.nl/9246/circle-of-trust-sample-sale-winter-2026-nov-2026.html",
+      "category": "Herenmode",
+      "brands": [
+        "Circle of Trust"
+      ],
+      "sizes": "Dames en heren; XL niet bevestigd",
+      "note": "Tot 70% korting volgens aankondiging. Ticket en tijdslot vereist.",
+      "priority": 61,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+    }
+  ]
+}

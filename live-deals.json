@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-10-25T18:43:25.672380+00:00",
+  "updatedAt": "2026-10-25T19:07:01.763992+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 130,
+    "source_quality": 100,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Marstek Venus E 3.0 voor €999!",
+        "url": "https://nl.pepper.com/aanbiedingen/marstek-venus-e-30-voor-eur999-423650",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "SpaceNK beauty advent kalender - 15% korting",
@@ -70,63 +76,57 @@
         "title": "LEGO Animal Crossing 77055 Kleermakerij van de zusjes Able (322 stenen) voor €20,00 (-50% t.o.v. adviesprijs) + meer LEG",
         "url": "https://nl.pepper.com/aanbiedingen/lego-animal-crossing-77055-kleermakerij-van-de-zusjes-able-322-stenen-voor-eur2000-50-tov-adviesprijs-meer-lego-deals-at-mediamarkt-423632",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Fischer DUOPOWER 5 x 25 professionele pluggen (100 stuks)",
-        "url": "https://nl.pepper.com/aanbiedingen/fischer-duopower-5-x-25-professionele-pluggen-100-stuks-423631",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Restaurants in Hardinxveld-Giessendam en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/hardinxveld-giessendam?radius=10",
+        "title": "一块绝妙 Pizza 的标准是什么？ - 知乎",
+        "url": "https://www.zhihu.com/question/31404620",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Sint Jansklooster en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/sint-jansklooster?radius=10",
+        "title": "披萨制作成本低，为什么一个12寸的pizza要卖到72元！而且还有很多人买？",
+        "url": "https://www.zhihu.com/question/27685283",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Schiedam ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/schiedam",
+        "title": "为什么披萨中间有一个白色的三角架? - 知乎",
+        "url": "https://www.zhihu.com/question/327455580",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Doetinchem en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/doetinchem?radius=10",
+        "title": "pizza为什么需要用橄榄油呢？ - 知乎",
+        "url": "https://www.zhihu.com/question/51682304",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Uden ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/uden",
+        "title": "什么是plain pizza? - 知乎",
+        "url": "https://www.zhihu.com/question/39761711",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Bloemendaal ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/bloemendaal",
+        "title": "为什么国内的pizza普遍比美国的好吃？ - 知乎",
+        "url": "https://www.zhihu.com/question/22407472",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Maastricht aan het Vrijthof ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/maastricht?adres=Vrijthof",
+        "title": "披萨上都可以放什么？ - 知乎",
+        "url": "https://www.zhihu.com/question/37963341",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Alphen aan den Rijn ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/alphen-aan-den-rijn",
+        "title": "如何制作披萨的面饼？ - 知乎",
+        "url": "https://www.zhihu.com/question/26542639",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Middelburg ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/middelburg",
+        "title": "必胜客哪种pizza好吃？ - 知乎",
+        "url": "https://www.zhihu.com/question/313099685",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants.nl -> Naar uw smaak",
-        "url": "https://www.restaurants.nl/",
+        "title": "怎样用烤箱做披萨？ - 知乎",
+        "url": "https://www.zhihu.com/question/403075225",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -352,8 +352,8 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -367,8 +367,8 @@
     },
     {
       "source": "Winkelzoekopdracht 13",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -377,8 +377,8 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -402,8 +402,8 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
@@ -422,18 +422,18 @@
     },
     {
       "source": "Internationale zoekopdracht 9",
-      "status": "ok",
-      "items": 10
-    },
-    {
-      "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0
     },
     {
-      "source": "Internationale zoekopdracht 11",
+      "source": "Internationale zoekopdracht 10",
       "status": "ok",
       "items": 10
+    },
+    {
+      "source": "Internationale zoekopdracht 11",
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 190,
+    "scannedItems": 160,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:43:25.672380+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T19:07:01.763992+00:00"
 }

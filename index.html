@@ -48,11 +48,11 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <div class="tile"><span class="muted">Automatische bronchecks</span><strong id="sourcecount">–</strong><span class="small" id="sourcestatus">Laatste run onbekend</span></div>
 </div>
 <details class="panel" id="rawPrices"><summary>Winkelprijscontroles bekijken (geen bewezen deals)</summary><div><h2>Winkelprijzen die al zijn gevonden</h2><p class="muted">Concrete winkelwaarnemingen, apart van de automatische feed. Geen volledige prijsvergelijking of bewezen goedkoopste totaalprijs.</p><p class="small" id="merchantUpdated">Automatische productscan laden…</p><div id="observations" class="cards"></div></div></details>
-<div class="panel"><h2>Voor jou geselecteerd</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
+<div class="panel"><h2>Voor jou gevonden, nog te controleren</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
 <div class="panel"><h2>Volledig gecontroleerde deals</h2><div id="topverified" class="empty">Nog geen deal waarvoor actuele winkelprijs, normale marktprijs, juiste uitvoering, voorraad én totale bezorgprijs gezamenlijk zijn bevestigd. De scanner levert kandidaten; hij kan dat niet zelfstandig bewijzen.</div></div>
 </section>
-<section id="found" class="section"><h2>Alle persoonlijke vondsten</h2><p class="muted">De scanner kijkt naar jouw merken, maten en interesses; geen willekeurige Pepper-lijst. Kandidaten moeten bij de aanbieder gecontroleerd worden.</p>
-<div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Alle bronnen</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Winkels</option></select></div>
+<section id="found" class="section"><h2>Deals en prijscontroles</h2><p class="muted">Hier staan eerst persoonlijke gevonden deals. Losse winkelprijzen zijn geen aanbiedingen; kies het aparte filter om die te onderzoeken.</p>
+<div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Persoonlijke dealvondsten</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Alleen losse winkelprijscontroles</option></select></div>
 <p class="small" id="foundCount"></p><div id="allcards" class="cards"></div><button class="more" id="loadMore" hidden>Toon 10 meer</button>
 </section>
 <section id="samples" class="section"><h2>Sample sales en archive sales</h2><p class="muted">Alleen evenementen met een duidelijke persoonlijke merkmatch. De aangekondigde merkverkoop is nog geen bewijs dat jouw maat en de kortingen goed zijn.</p><div id="samplecards" class="cards"></div><div class="note">Ook gecontroleerd als ontdekkingsbronnen: Stockverkopen.nl, Your Sample Sale, Lounge by Zalando en Veepee. Achter een login kunnen data en artikelprijzen ontbreken.</div></section>
@@ -120,10 +120,10 @@ window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
 document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
 function renderFound(){
  const q=$("q").value.trim().toLowerCase(),category=$("group").value,source=$("sourceType").value;
- const items=[...app.observations.map(x=>({...x,sourceType:"retailer"})),...app.deals]
+ const items=[...(source==="retailer"?app.observations.map(x=>({...x,sourceType:"retailer"})):[]),...(source==="retailer"?[]:app.deals)]
   .filter(x=>(!q||[x.title,x.store||"",x.category||""].join(" ").toLowerCase().includes(q))&&(!category||x.category===category)&&(!source||source===x.sourceType))
   .sort((a,b)=>(a.sourceType==="retailer"?stockInfo(a).order:5)-(b.sourceType==="retailer"?stockInfo(b).order:5));
- $("foundCount").textContent=items.length+" persoonlijke vondsten, waarvan "+app.observations.length+" winkelprijscontroles.";
+ $("foundCount").textContent=source==="retailer"?items.length+" losse prijswaarnemingen. Dit zijn geen bevestigde aanbiedingen.":items.length+" persoonlijke dealvondsten (nog te verifiëren). "+app.observations.length+" losse winkelprijscontroles staan apart onder het bronfilter.";
  const parent=$("allcards");parent.replaceChildren();
  items.slice(0,app.limit).forEach(x=>parent.append(card(x,x.sourceType==="retailer"?"store":"candidate")));
  if(!items.length)parent.append(el("div","empty","Geen persoonlijke vondsten met deze filters."));
@@ -131,9 +131,11 @@ function renderFound(){
 }
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
-function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+" · ":"") +ok+" bereikt · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
+function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length,empty=app.sources.filter(x=>x.status==="empty").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+" · ":"") +ok+" met berichten · "+empty+" zonder resultaten · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
 const parent=$("sourceRows");parent.replaceChildren();
 const merks=app.sources.filter(s=>(s.source||"").startsWith("Merkscan"));
+const samples=app.sources.filter(s=>(s.source||"").startsWith("Samplezoekopdracht"));
+parent.append(el("p","note",app.deals.length+" persoonlijke dealvondsten en "+app.samples.length+" sample-sale-kandidaten. "+(samples.length-samples.filter(s=>s.items>0).length)+" van "+samples.length+" sample-zoekopdrachten leverden niets op. Een bereikbare feed zonder resultaten telt NIET als geslaagde kansdetectie."));
 parent.append(el("p",null,merks.length+" gerichte merkzoekopdrachten, waarvan "+merks.filter(s=>s.items>0).length+" met gevonden artikelen."));
 app.sources.filter(s=>!(s.source||"").startsWith("Merkscan")).forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" berichten":""))));
 if(merks.length){const detail=document.createElement("details");detail.append(el("summary",null,"Technische details per merkzoekopdracht"));merks.forEach(s=>detail.append(el("p",null,s.source+" · "+s.status+" · "+(s.items||0)+" vermeldingen")));parent.append(detail)}}
@@ -168,9 +170,10 @@ function loadObs(o,m){
  for(const item of candidates){const b=brand(item);if(!usedBrands.has(b)){highlighted.push(item);usedBrands.add(b)}if(highlighted.length>=3)break}
  for(const item of candidates){if(highlighted.length>=3)break;if(!highlighted.includes(item))highlighted.push(item)}
  if(!app.deals.length&&!highlighted.length)first.append(el("div","empty","Nog geen onafhankelijk geverifieerde persoonlijke aanbiedingen. Bekijk de controles onderaan voor onderzoeksvondsten."));
- highlighted.forEach(x=>first.append(card(x,"store")));
+ // Keep mere merchant price observations behind the separate price-controls disclosure.
+ // They must never occupy the personal recommendations feed.
  app.deals.slice(0,3).forEach(x=>first.append(card(x,"candidate")));
- if(!highlighted.length&&!app.deals.length)first.append(el("div","empty","Geen recente persoonlijke productvondsten."));
+ if(!app.deals.length)first.append(el("div","empty","De scanner heeft momenteel geen overtuigende persoonlijke dealvondsten. De losse winkelprijscontroles zijn beschikbaar onder de uitklapbare sectie."));
  const old=$("merchantChecks");old.replaceChildren();
  if(m?.checks)m.checks.forEach(x=>old.append(el("p",null,x.store+" · "+x.status+(x.stockStatus?" · "+x.stockStatus:"")+(x.error?" · "+x.error:""))));
  const choices=[...new Set([...app.deals,...app.observations].map(x=>x.category).filter(Boolean))].sort();

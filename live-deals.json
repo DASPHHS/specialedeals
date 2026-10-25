@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:42:34.883446+00:00",
+  "updatedAt": "2026-10-25T18:43:25.672380+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 89,
+    "source_quality": 130,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "HEMA.nl - Met liefde gemaakt - Echt HEMA",
-        "url": "https://www.hema.nl/",
+        "title": "Restaurants in Hardinxveld-Giessendam en omgeving ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/hardinxveld-giessendam?radius=10",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA.nl",
-        "url": "https://www.hema.nl/i",
+        "title": "Restaurants in Sint Jansklooster en omgeving ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/sint-jansklooster?radius=10",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA - maakt het dagelijks leven leuker",
-        "url": "https://www.hema.com/nl-be",
+        "title": "Restaurants in Schiedam ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/schiedam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Welcome | HEMA",
-        "url": "https://www.hema.com/",
+        "title": "Restaurants in Doetinchem en omgeving ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/doetinchem?radius=10",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA - Winkels en openingstijden",
-        "url": "https://winkels.hema.nl/nl",
+        "title": "Restaurants in Uden ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/uden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA Foto: Grootste assortiment foto artikelen online - HEMA",
-        "url": "https://foto.hema.nl/",
+        "title": "Restaurants in Bloemendaal ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/bloemendaal",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Hema - Welkom",
-        "url": "https://cc.hema.nl/",
+        "title": "Restaurants in Maastricht aan het Vrijthof ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/maastricht?adres=Vrijthof",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/HEMA",
+        "title": "Restaurants in Alphen aan den Rijn ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/alphen-aan-den-rijn",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA Amsterdam-Nieuwendijk - Winkels - Echt HEMA",
-        "url": "https://winkels.hema.nl/nl/amsterdam/hema-amsterdam-nieuwendijk",
+        "title": "Restaurants in Middelburg ··−Restaurants.nl",
+        "url": "https://www.restaurants.nl/middelburg",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "HEMA draai en win",
-        "url": "https://win.hema.nl/",
+        "title": "Restaurants.nl -> Naar uw smaak",
+        "url": "https://www.restaurants.nl/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,18 +307,18 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "empty",
-      "items": 0
-    },
-    {
-      "source": "Winkelzoekopdracht 2",
       "status": "ok",
       "items": 10
     },
     {
-      "source": "Winkelzoekopdracht 3",
+      "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0
+    },
+    {
+      "source": "Winkelzoekopdracht 3",
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -327,23 +327,23 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Winkelzoekopdracht 6",
       "status": "ok",
       "items": 10
     },
     {
-      "source": "Winkelzoekopdracht 6",
-      "status": "empty",
-      "items": 0
-    },
-    {
       "source": "Winkelzoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "ok",
-      "items": 9
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -352,13 +352,13 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -367,13 +367,13 @@
     },
     {
       "source": "Winkelzoekopdracht 13",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -402,8 +402,8 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
@@ -422,8 +422,8 @@
     },
     {
       "source": "Internationale zoekopdracht 9",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 10",
@@ -432,8 +432,8 @@
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 149,
+    "scannedItems": 190,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:42:34.883446+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:43:25.672380+00:00"
 }

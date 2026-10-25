@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-10-25T20:56:33.199274+00:00",
+  "updatedAt": "2026-10-25T20:57:28.695670+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 168,
+    "source_quality": 210,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
         "title": "Gratis Babybox t.w.v. €60 | Kruidvat",
         "url": "https://nl.pepper.com/aanbiedingen/gratis-babybox-twv-eur60-kruidvat-423664",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "[Grensdeal] - Paulaner Hefe-Weissbier",
+        "url": "https://nl.pepper.com/aanbiedingen/paulaner-hefe-weissbier-423655",
         "source": "Pepper Nederland"
       },
       {
@@ -70,63 +76,57 @@
         "title": "Razer Kitty V3 X - Gaming Headset - 7.1 Surround Sound - 40mm - Bedraad | Roze en Zwarte uitvoering @ Amazon.nl",
         "url": "https://nl.pepper.com/aanbiedingen/razer-kitty-v3-x-gaming-headset-71-surround-sound-40mm-bedraad-at-amazonnl-423641",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Maak je telefoon je eigen handheld met de GameSir X5s controller!",
-        "url": "https://nl.pepper.com/aanbiedingen/maak-je-telefoon-je-eigen-handheld-met-de-gamesir-x5s-controller-423637",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Home | Stichting LVO",
-        "url": "https://www.stichtinglvo.nl/",
+        "title": "Home | Microsoft Careers",
+        "url": "https://careers.microsoft.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Homepage - LVO",
-        "url": "https://www.lvo-onderwijs.nl/homepage/",
+        "title": "Professions | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/professions.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "LVO - Landelijke Vereniging Onderwijsadviseurs Huisvesting",
-        "url": "https://www.lvo-onderwijs.nl/",
+        "title": "4,000+ Microsoft jobs in Rotterdam - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-rotterdam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De LVO",
-        "url": "https://lvo.nl/",
+        "title": "6,000+ Microsoft jobs in Netherlands - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-netherlands",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Onze scholen - Stichting LVO",
-        "url": "https://www.stichtinglvo.nl/onze-scholen/",
+        "title": "Jobs in Amsterdam | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/locations/amsterdam.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Leveranciersverklaring van oorsprong | KVK",
-        "url": "https://www.kvk.nl/internationaal/leveranciersverklaring-van-oorsprong/",
+        "title": "Microsoft: vacatures | LinkedIn",
+        "url": "https://nl.linkedin.com/company/microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Wat de LVO voor jou doet",
-        "url": "https://lvo.nl/over-de-lvo/wat-de-lvo-voor-jou-doet",
+        "title": "Login - apply.careers.microsoft.com",
+        "url": "https://apply.careers.microsoft.com/candidate/login",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Kies uw identiteitsprovider",
-        "url": "https://stichtinglvo.eu.uniflowonline.com/Login",
+        "title": "Vacatures bij Microsoft | Indeed.com",
+        "url": "https://nl.indeed.com/cmp/Microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Home | LVO Congres",
-        "url": "https://www.lvocongres.org/",
+        "title": "Open Positions - Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "LVO - Investeringsmaatschappij",
-        "url": "https://lvoglobal.com/nl/welkom/",
+        "title": "Microsoft: Jobs | LinkedIn",
+        "url": "https://www.linkedin.com/company/microsoft/jobs/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,13 +307,13 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -363,7 +363,7 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 8
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -377,8 +377,8 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -387,8 +387,8 @@
     },
     {
       "source": "Internationale zoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 3",
@@ -397,8 +397,8 @@
     },
     {
       "source": "Internationale zoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 5",
@@ -432,8 +432,8 @@
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 228,
+    "scannedItems": 270,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T20:56:33.199274+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T20:57:28.695670+00:00"
 }

@@ -1,10 +1,40 @@
 {
-  "updatedAt": "2026-10-25T19:07:01.763992+00:00",
+  "updatedAt": "2026-10-25T20:44:35.368601+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 100,
+    "source_quality": 120,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Gratis Babybox t.w.v. €60 | Kruidvat",
+        "url": "https://nl.pepper.com/aanbiedingen/gratis-babybox-twv-eur60-kruidvat-423664",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Peugeot Paris peper- en zoutstel 18 cm zwart",
+        "url": "https://nl.pepper.com/aanbiedingen/peugeot-paris-peper-en-zoutstel-18-cm-zwart-423661",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Zendure SolarFlow 3000 Mix AC+ Thuisbatterij",
+        "url": "https://nl.pepper.com/aanbiedingen/zendure-solarflow-3000-mix-ac-thuisbatterij-423659",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "STANLEY STHT0-75094 Dynagrip Tangenset 150mm (3-delig)",
+        "url": "https://nl.pepper.com/aanbiedingen/stanley-stht0-75094-dynagrip-tangenset-150mm-3-delig-423660",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Lumie Vitamin L licht therapie lamp (SAD) 83.99 @ Amazon",
+        "url": "https://nl.pepper.com/aanbiedingen/lumie-vitamin-l-licht-therapie-lamp-sad-8399-at-amazon-423652",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Marstek Venus E 3.0 voor €999!",
@@ -46,87 +76,57 @@
         "title": "Maak je telefoon je eigen handheld met de GameSir X5s controller!",
         "url": "https://nl.pepper.com/aanbiedingen/maak-je-telefoon-je-eigen-handheld-met-de-gamesir-x5s-controller-423637",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "25% korting op alles!",
-        "url": "https://nl.pepper.com/aanbiedingen/25-korting-op-alles-423636",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Stokke Tripp Trapp bundel kinderstoel met babyset en tafelblad | Diverse kleuren",
-        "url": "https://nl.pepper.com/aanbiedingen/stokke-tripp-trapp-bundel-kinderstoel-met-babyset-en-tafelblad-diverse-kleuren-423640",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "ASUS MB166C (15,6\" • 1920x1080 (Full HD) @ 60Hz • IPS • 5ms) portable monitor @ Amazon.nl",
-        "url": "https://nl.pepper.com/aanbiedingen/asus-mb166c-156-1920x1080-full-hd-at-60hz-ips-5ms-portable-monitor-at-amazonnl-423638",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Vuilniszak voor Brabantia Touch Bin 23-30 liter",
-        "url": "https://nl.pepper.com/aanbiedingen/deiss-vuilniszak-voor-brabantia-touch-bin-423633",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "LEGO Animal Crossing 77055 Kleermakerij van de zusjes Able (322 stenen) voor €20,00 (-50% t.o.v. adviesprijs) + meer LEG",
-        "url": "https://nl.pepper.com/aanbiedingen/lego-animal-crossing-77055-kleermakerij-van-de-zusjes-able-322-stenen-voor-eur2000-50-tov-adviesprijs-meer-lego-deals-at-mediamarkt-423632",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "一块绝妙 Pizza 的标准是什么？ - 知乎",
-        "url": "https://www.zhihu.com/question/31404620",
+        "title": "Microsoft campus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "披萨制作成本低，为什么一个12寸的pizza要卖到72元！而且还有很多人买？",
-        "url": "https://www.zhihu.com/question/27685283",
+        "title": "Microsoft Office Locations | About Microsoft",
+        "url": "https://www.microsoft.com/en-us/about/office-locations",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "为什么披萨中间有一个白色的三角架? - 知乎",
-        "url": "https://www.zhihu.com/question/327455580",
+        "title": "Microsoft Research Redmond",
+        "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "pizza为什么需要用橄榄油呢？ - 知乎",
-        "url": "https://www.zhihu.com/question/51682304",
+        "title": "Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052-8300, US ...",
+        "url": "https://www.mapquest.com/us/washington/microsoft-corporation-12544878",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "什么是plain pizza? - 知乎",
-        "url": "https://www.zhihu.com/question/39761711",
+        "title": "Microsoft Corporate Headquarters - 1 Microsoft Way, Redmond, WA 98052 ...",
+        "url": "https://businessyab.com/explore/united_states/washington/king_county/redmond/overlake/microsoft_way/1/microsoft-corporate-headquarters-425-882-8080.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "为什么国内的pizza普遍比美国的好吃？ - 知乎",
-        "url": "https://www.zhihu.com/question/22407472",
+        "title": "Microsoft Redmond Campus Refresh",
+        "url": "https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "披萨上都可以放什么？ - 知乎",
-        "url": "https://www.zhihu.com/question/37963341",
+        "title": "Inside 1 Microsoft Way Redmond: The Hidden Architecture of Microsoft’s ...",
+        "url": "https://camcatbooks.com/inside-1-microsoft-way-redmond-the-hidden-architecture-of-microsofts-global-headquarters",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "如何制作披萨的面饼？ - 知乎",
-        "url": "https://www.zhihu.com/question/26542639",
+        "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
+        "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "必胜客哪种pizza好吃？ - 知乎",
-        "url": "https://www.zhihu.com/question/313099685",
+        "title": "From Redmond to the world - news.microsoft.com",
+        "url": "https://news.microsoft.com/redmond-campus/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "怎样用烤箱做披萨？ - 知乎",
-        "url": "https://www.zhihu.com/question/403075225",
+        "title": "Microsoft Headquarters Address (2026 Updated) - Computer Tech Reviews",
+        "url": "https://www.computertechreviews.com/microsoft-headquarters-address/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,13 +307,13 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -327,8 +327,8 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -342,8 +342,8 @@
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -357,8 +357,8 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -372,13 +372,13 @@
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -427,8 +427,8 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 160,
+    "scannedItems": 180,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T19:07:01.763992+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T20:44:35.368601+00:00"
 }

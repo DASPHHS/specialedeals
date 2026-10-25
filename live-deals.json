@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:34:39.849994+00:00",
+  "updatedAt": "2026-10-25T18:35:40.304138+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 110,
+    "source_quality": 174,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Home | Microsoft Careers",
-        "url": "https://careers.microsoft.com/",
+        "title": "Can an AJAX response set a cookie? - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/3340797/can-an-ajax-response-set-a-cookie",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Professions | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/professions.html",
+        "title": "Extracting Ajax return data in jQuery - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/400197/extracting-ajax-return-data-in-jquery",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "4,000+ Microsoft jobs in Rotterdam - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/microsoft-jobs-rotterdam",
+        "title": "php - Select2 com AJAX - Stack Overflow em Português",
+        "url": "https://pt.stackoverflow.com/questions/7292/select2-com-ajax",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "6,000+ Microsoft jobs in Netherlands - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/microsoft-jobs-netherlands",
+        "title": "javascript - ¿Como exactamente funciona '$.ajax ( {type, post, data ...",
+        "url": "https://es.stackoverflow.com/questions/189000/como-exactamente-funciona-ajaxtype-post-data-en-este-conexto",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Amsterdam | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/amsterdam.html",
+        "title": "javascript - Ajax post request - Stack Overflow en español",
+        "url": "https://es.stackoverflow.com/questions/126200/ajax-post-request",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft: vacatures | LinkedIn",
-        "url": "https://nl.linkedin.com/company/microsoft/jobs",
+        "title": "Fazer upload de arquivo com AJAX - Stack Overflow em Português",
+        "url": "https://pt.stackoverflow.com/questions/9704/fazer-upload-de-arquivo-com-ajax",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Login - apply.careers.microsoft.com",
-        "url": "https://apply.careers.microsoft.com/candidate/login",
+        "title": "How to return an array from an AJAX call? - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/8823925/how-to-return-an-array-from-an-ajax-call",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vacatures bij Microsoft | Indeed.com",
-        "url": "https://nl.indeed.com/cmp/Microsoft/jobs",
+        "title": "include antiforgerytoken in ajax post ASP.NET MVC",
+        "url": "https://stackoverflow.com/questions/14473597/include-antiforgerytoken-in-ajax-post-asp-net-mvc",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft: Jobs | LinkedIn",
-        "url": "https://www.linkedin.com/company/microsoft/jobs/",
+        "title": "How can I catch jQuery AJAX errors? - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/18864734/how-can-i-catch-jquery-ajax-errors",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "microsoft Netherlands Jobs | Glassdoor",
-        "url": "https://www.glassdoor.com/Job/netherlands-microsoft-jobs-SRCH_IL.0,11_IN178_KE12,21.htm",
+        "title": "jQuery Ajax PUT with parameters - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/8032938/jquery-ajax-put-with-parameters",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -312,13 +312,13 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 10
+      "items": 4
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -327,8 +327,8 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -342,8 +342,8 @@
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -352,8 +352,8 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -372,8 +372,8 @@
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -392,28 +392,28 @@
     },
     {
       "source": "Internationale zoekopdracht 3",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 8",
@@ -427,8 +427,8 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 11",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 170,
+    "scannedItems": 234,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:34:39.849994+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:35:40.304138+00:00"
 }

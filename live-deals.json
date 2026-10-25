@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:46:22.224657+00:00",
+  "updatedAt": "2026-10-25T20:56:33.199274+00:00",
   "diagnostics": {
     "irrelevant": 60,
     "source_quality": 168,
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Error 0x8000FFFF: Gatastrophic failure - answers.microsoft.com",
-        "url": "https://answers.microsoft.com/en-us/msoffice/forum/all/error-0x8000ffff-gatastrophic-failure-filesave/046c6c4b-ba74-42e3-b6ab-c4286b87b3d0",
+        "title": "Home | Stichting LVO",
+        "url": "https://www.stichtinglvo.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bed & Breakfast – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/bed-and-breakfast/",
+        "title": "Homepage - LVO",
+        "url": "https://www.lvo-onderwijs.nl/homepage/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De Maashorst – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/omgeving/de-maashorst/",
+        "title": "LVO - Landelijke Vereniging Onderwijsadviseurs Huisvesting",
+        "url": "https://www.lvo-onderwijs.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Omgeving – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/omgeving/",
+        "title": "De LVO",
+        "url": "https://lvo.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Reservering plaatsen - B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/reservering-plaatsen/",
+        "title": "Onze scholen - Stichting LVO",
+        "url": "https://www.stichtinglvo.nl/onze-scholen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "VVV – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/omgeving/vvv/",
+        "title": "Leveranciersverklaring van oorsprong | KVK",
+        "url": "https://www.kvk.nl/internationaal/leveranciersverklaring-van-oorsprong/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Aanvraag – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/aanvraag/",
+        "title": "Wat de LVO voor jou doet",
+        "url": "https://lvo.nl/over-de-lvo/wat-de-lvo-voor-jou-doet",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Brobbelbies – B en B de Maashorst",
-        "url": "https://www.benbdemaashorst.nl/bed-and-breakfast/brobbelbies/",
+        "title": "Kies uw identiteitsprovider",
+        "url": "https://stichtinglvo.eu.uniflowonline.com/Login",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Officiële website AFC Ajax Amsterdam - Ajax.nl",
-        "url": "https://www.ajax.nl/",
+        "title": "Home | LVO Congres",
+        "url": "https://www.lvocongres.org/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax Showtime - Nieuws over Ajax, Jong Ajax en Ajax-jeugd",
-        "url": "https://www.ajaxshowtime.com/",
+        "title": "LVO - Investeringsmaatschappij",
+        "url": "https://lvoglobal.com/nl/welkom/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,13 +307,13 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 1
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 7
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -348,7 +348,7 @@
     {
       "source": "Winkelzoekopdracht 9",
       "status": "ok",
-      "items": 1
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -363,7 +363,7 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 10
+      "items": 8
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -397,8 +397,8 @@
     },
     {
       "source": "Internationale zoekopdracht 4",
-      "status": "ok",
-      "items": 9
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 5",
@@ -412,13 +412,13 @@
     },
     {
       "source": "Internationale zoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 8",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -432,8 +432,8 @@
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -709,5 +709,5 @@
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T20:46:22.224657+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T20:56:33.199274+00:00"
 }

@@ -7,6 +7,8 @@ correct size, comparative lowest price or exact shipping price.
 import datetime, html, json, pathlib, re, urllib.request
 from html.parser import HTMLParser
 ROOT=pathlib.Path(__file__).resolve().parent
+from international_delivery import load_stores, estimate_delivery_to_nl
+FOREIGN_STORES=load_stores()
 TARGETS=json.loads((ROOT/"shop-targets.json").read_text())["targets"]
 HISTORY=ROOT/"price-history.json"
 
@@ -136,13 +138,20 @@ def main():
    elif str(result["currency"]).upper()!="EUR":outcome.update(status="currency_mismatch")
    else:
     outcome.update(status="observed",method=result["method"],stockStatus=result["stockStatus"])
-    entries.append({"title":target["title"],"store":target["store"],"url":target["url"],"category":target["category"],
+    observation={"title":target["title"],"store":target["store"],"url":target["url"],"category":target["category"],
       "price":result["price"],"checkedAt":now,"titleOnPage":result["titleOnPage"],
       "availabilityText":result["availability"],"stockStatus":result["stockStatus"],
       "shippingNote":target["shippingNote"],"referencePrice":None,"allInVerified":False,
       "marketComparisonVerified":False,"variantVerified":not bool(target.get("variantNote")),
       "variantNote":target.get("variantNote",""),"comparisonGroup":target.get("comparisonGroup"),
-      "exactModel":target.get("exactModel"),"gtin":result.get("gtin",""),"mpn":result.get("mpn",""),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"})
+      "exactModel":target.get("exactModel"),"gtin":result.get("gtin",""),"mpn":result.get("mpn",""),"status":"Winkelprijs waargenomen; geen bewezen marktdeal"}
+    foreign=FOREIGN_STORES.get(target.get("storeId"))
+    if foreign:
+     quote=estimate_delivery_to_nl(foreign,result["price"])
+     observation.update(merchantCountry=foreign["country"],destinationCountry="NL",
+        shippingToNL=foreign["shippingToNL"],shippingPolicyUrl=foreign["shippingPolicyUrl"],
+        internationalDelivery=quote,allInVerified=False,marketComparisonVerified=False)
+    entries.append(observation)
   except Exception as exc:outcome.update(status="unavailable",error=str(exc)[:150])
   checks.append(outcome)
  # Compare only independently observed identical manufacturer part numbers or GTIN.

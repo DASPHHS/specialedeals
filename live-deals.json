@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T16:09:05.862514+00:00",
+  "updatedAt": "2026-10-25T16:11:50.188849+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 127,
+    "source_quality": 149,
     "duplicate": 0,
     "examples": [
       {
@@ -96,7 +96,7 @@
       },
       {
         "title": "Weleda - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Weleda",
+        "url": "https://en.m.wikipedia.org/wiki/Weleda",
         "source": "Gerichte winkelscan"
       },
       {
@@ -106,12 +106,12 @@
       },
       {
         "title": "Amazon.com: Weleda",
-        "url": "https://www.amazon.com/stores/Weleda/page/FA93A9DB-641A-4B7B-86DC-29E9095498B1",
+        "url": "https://www.amazon.com/weleda/s?k=weleda",
         "source": "Gerichte winkelscan"
       },
       {
         "title": "Amazon.com: Weleda",
-        "url": "https://www.amazon.com/weleda/s?k=weleda",
+        "url": "https://www.amazon.com/stores/Weleda/page/FA93A9DB-641A-4B7B-86DC-29E9095498B1",
         "source": "Gerichte winkelscan"
       },
       {
@@ -120,13 +120,13 @@
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "About Weleda - Weleda",
-        "url": "https://www.weleda.is/weleda",
+        "title": "Weleda - Walmart.com",
+        "url": "https://www.walmart.com/brand/weleda/20068702",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda - Natural & Organic Face, Body, Hair & Health Care",
-        "url": "https://www.weleda.co.uk/",
+        "title": "About Weleda - Weleda",
+        "url": "https://www.weleda.is/weleda",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -327,8 +327,8 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 9
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -353,7 +353,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -363,7 +363,7 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -378,7 +378,7 @@
     {
       "source": "Winkelzoekopdracht 15",
       "status": "ok",
-      "items": 1
+      "items": 10
     }
   ],
   "retailers": [
@@ -611,9 +611,9 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 187,
+    "scannedItems": 209,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T16:09:05.862514+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T16:11:50.188849+00:00"
 }

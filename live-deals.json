@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:33:31.084202+00:00",
+  "updatedAt": "2026-10-25T18:34:39.849994+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 149,
+    "source_quality": 110,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Kaart De Pijp – Wijk en belangrijke locaties - Amsterdams Kaart",
-        "url": "https://www.amsterdamskaart.com/wijken/kaart-de-pijp-wijk-en-belangrijke-locaties/",
+        "title": "Home | Microsoft Careers",
+        "url": "https://careers.microsoft.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Kaart van De Pijp – Kaart van Amsterdam",
-        "url": "https://www.amsterdamkaart.com/de-pijp/",
+        "title": "Professions | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/professions.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Google Maps",
-        "url": "https://maps.google.com/",
+        "title": "4,000+ Microsoft jobs in Rotterdam - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-rotterdam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Kaart De Pijp • Maps online",
-        "url": "https://www.routeplanner-kaarte.nl/kaart/de-pijp",
+        "title": "6,000+ Microsoft jobs in Netherlands - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-netherlands",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Maps Amsterdam",
-        "url": "https://maps.amsterdam.nl/",
+        "title": "Jobs in Amsterdam | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/locations/amsterdam.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Kaart Oude Pijp – Straten en lokale locaties - Amsterdams Kaart",
-        "url": "https://www.amsterdamskaart.com/buurten/kaart-oude-pijp-straten-en-lokale-locaties/",
+        "title": "Microsoft: vacatures | LinkedIn",
+        "url": "https://nl.linkedin.com/company/microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Kaart van Amsterdam",
-        "url": "https://kaart.amsterdam.nl/",
+        "title": "Login - apply.careers.microsoft.com",
+        "url": "https://apply.careers.microsoft.com/candidate/login",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De Pijp Wijkkaart – Amsterdam - Kunst in Kaart",
-        "url": "https://www.kunstinkaart.nl/product/amsterdam-de-pijp-white-wijk-map/",
+        "title": "Vacatures bij Microsoft | Indeed.com",
+        "url": "https://nl.indeed.com/cmp/Microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De Pijp - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/De_Pijp",
+        "title": "Microsoft: Jobs | LinkedIn",
+        "url": "https://www.linkedin.com/company/microsoft/jobs/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "gvb-maps | GVB",
-        "url": "https://www.gvb.nl/en/gvb-maps",
+        "title": "microsoft Netherlands Jobs | Glassdoor",
+        "url": "https://www.glassdoor.com/Job/netherlands-microsoft-jobs-SRCH_IL.0,11_IN178_KE12,21.htm",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,8 +307,8 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -327,8 +327,8 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -342,18 +342,18 @@
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 9",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "ok",
-      "items": 9
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -372,8 +372,8 @@
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -407,13 +407,13 @@
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 8",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 209,
+    "scannedItems": 170,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:33:31.084202+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:34:39.849994+00:00"
 }

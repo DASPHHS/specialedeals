@@ -60,8 +60,8 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 </div></details>
 <details class="panel"><summary>Waarom ontbreken bewezen productdeals?</summary><div id="topverified" class="muted">Een winkelprijs is pas een bewezen buitenkans wanneer de exacte uitvoering, actuele voorraad, onafhankelijke referentieprijs en volledige kosten zijn bevestigd. Tot die tijd komt deze niet tussen de bewezen deals.</div></details>
 </section>
-<section id="found" class="section"><h2>Deals en prijscontroles</h2><p class="muted">Hier staan eerst persoonlijke gevonden deals. Losse winkelprijzen zijn geen aanbiedingen; kies het aparte filter om die te onderzoeken.</p>
-<div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Persoonlijke dealvondsten</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Alleen losse winkelprijscontroles</option></select></div>
+<section id="found" class="section"><h2>Deals in Nederland én buitenland</h2><p class="muted">Buitenlandse webshops worden meegenomen wanneer zij aantoonbaar naar Nederland leveren. Alleen exacte producten met onafhankelijk bevestigde eindprijzen kunnen een bewezen deal worden.</p><details class="panel" id="internationalMarkets" open><summary>Buitenlandse winkels met NL-bezorging <span id="intlCount"></span></summary><p class="muted">Dit zijn zoekbronnen, nog geen gecontroleerde productdeals. Verzendtarieven zijn indicatief; bij niet-EU-zendingen worden invoerrechten en btw apart beoordeeld.</p><div id="internationalShops" class="cards"><p class="muted">Internationale bezorggegevens laden…</p></div></details>
+<div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="region" aria-label="Land van webshop"><option value="">Nederland en buitenland</option><option value="international">Buitenlandse aanbieders</option><option value="domestic">Overige aanbieders</option></select><select id="sourceType"><option value="">Persoonlijke dealvondsten</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Alleen losse winkelprijscontroles</option></select></div>
 <p class="small" id="foundCount"></p><div id="allcards" class="cards"></div><button class="more" id="loadMore" hidden>Toon 10 meer</button>
 </section>
 <section id="samples" class="section"><h2>Sample sales en archive sales</h2><p class="muted">Alleen evenementen met een duidelijke persoonlijke merkmatch. De aangekondigde merkverkoop is nog geen bewijs dat jouw maat en de kortingen goed zijn.</p><div id="samplecards" class="cards"></div><div class="note">Ook gecontroleerd als ontdekkingsbronnen: Stockverkopen.nl, Your Sample Sale, Lounge by Zalando en Veepee. Achter een login kunnen data en artikelprijzen ontbreken.</div></section>
@@ -89,7 +89,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
 const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
-const app={deals:[],samples:[],events:[],contests:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
+const app={deals:[],samples:[],events:[],contests:[],internationalStores:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function stockInfo(d){
  const st=d.stockStatus||"onbekend";
@@ -172,10 +172,37 @@ function show(tab){
 document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>show(b.dataset.open));
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
 document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
+
+function renderInternational(){
+ const stores=app.internationalStores, parent=$("internationalShops");parent.replaceChildren();
+ $("intlCount").textContent="("+stores.length+")";
+ for(const shop of stores){
+  const c=el("article","card event");
+  c.append(el("span","tag","Buitenland · webshop verzendt naar Nederland"));
+  c.append(el("h3",null,shop.name+" · "+shop.country));
+  c.append(el("p",null,shop.category));
+  const shipping=shop.shipping||{};
+  if(shipping.mode==="threshold_estimate"){
+   c.append(el("p",null,"Standaardverzending NL: "+money(shipping.belowEUR)+" onder "+money(shipping.thresholdEUR)+", "+money(shipping.atOrAboveEUR)+" vanaf dat bedrag. Uitzonderingen mogelijk."));
+  }else c.append(el("p",null,"Verzendkosten: voor exacte bestelling bij het afrekenen controleren."));
+  c.append(el("p",null,(shop.interests||[]).join(" · ")));
+  c.append(el("p","small","NL-levering van de webshop bevestigd; specifieke maat, product, retouren en afrekenprijs niet."));
+  if(validUrl(shop.dealLandingUrl)){const a=el("a",null,"Bekijk aanbiedingen");a.href=shop.dealLandingUrl;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}
+  if(validUrl(shop.shippingPolicyUrl)){const a=el("a",null,"Verzendvoorwaarden");a.href=shop.shippingPolicyUrl;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}
+  parent.append(c);
+ }
+ if(!stores.length)parent.append(el("p","empty","Geen internationale winkelinformatie geladen."));
+}
+function internationalResult(x){
+ let host="";try{host=new URL(x.url).hostname.toLowerCase()}catch{return false}
+ return app.internationalStores.some(s=>{
+  try{const h=new URL(s.baseUrl).hostname.toLowerCase().replace(/^www\./,"");return host===h||host.endsWith("."+h)}catch{return false}
+ });
+}
 function renderFound(){
- const q=$("q").value.trim().toLowerCase(),category=$("group").value,source=$("sourceType").value;
+ const q=$("q").value.trim().toLowerCase(),category=$("group").value,source=$("sourceType").value,region=$("region").value;
  const items=[...(source==="retailer"?app.observations.map(x=>({...x,sourceType:"retailer"})):[]),...(source==="retailer"?[]:app.deals)]
-  .filter(x=>(!q||[x.title,x.store||"",x.category||""].join(" ").toLowerCase().includes(q))&&(!category||x.category===category)&&(!source||source===x.sourceType))
+  .filter(x=>(!q||[x.title,x.store||"",x.category||""].join(" ").toLowerCase().includes(q))&&(!category||x.category===category)&&(!source||source===x.sourceType)&&(!region||(region==="international"?internationalResult(x):!internationalResult(x))))
   .sort((a,b)=>(a.sourceType==="retailer"?stockInfo(a).order:5)-(b.sourceType==="retailer"?stockInfo(b).order:5));
  $("foundCount").textContent=source==="retailer"?items.length+" losse prijswaarnemingen. Dit zijn geen bevestigde aanbiedingen.":items.length+" persoonlijke dealvondsten (nog te verifiëren). "+app.observations.length+" losse winkelprijscontroles staan apart onder het bronfilter.";
  const parent=$("allcards");parent.replaceChildren();
@@ -184,7 +211,7 @@ function renderFound(){
  $("loadMore").hidden=items.length<=app.limit;
 }
 $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
-["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
+["q","group","sourceType","region"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
 function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length,empty=app.sources.filter(x=>x.status==="empty").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"})+" · ":"") +ok+" met berichten · "+empty+" zonder resultaten · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
 const parent=$("sourceRows");parent.replaceChildren();
 const merks=app.sources.filter(s=>(s.source||"").startsWith("Merkscan"));
@@ -283,12 +310,14 @@ fetch("./alert-profiel.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()),
 fetch("./merchant-observations.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not scanned");return r.json()}),
 fetch("./watchlist.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Not available");return r.json()}),
 fetch("./sample-events.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Sample agenda unavailable");return r.json()}),
-fetch("./contests.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Contest data unavailable");return r.json()})
-]).then(([feed,obs,profile,merchant,watches,sampleEvents,contests])=>{
+fetch("./contests.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Contest data unavailable");return r.json()}),
+fetch("./international-stores.json?"+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("International stores unavailable");return r.json()})
+]).then(([feed,obs,profile,merchant,watches,sampleEvents,contests,international])=>{
 if(feed.status==="fulfilled")loadDeals(feed.value);else{$("firstcards").textContent="De automatische kandidatenfeed kon niet worden geladen.";$("sourceRows").textContent="Feed nog niet beschikbaar."}
 if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status==="fulfilled"?obs.value:null,merchant.status==="fulfilled"?merchant.value:null);else{$("observations").textContent="Winkelwaarnemingen niet geladen."}
 if(sampleEvents.status==="fulfilled"){app.events=sampleEvents.value.events||[];renderSamples()}else{$("featuredEvents").textContent="Sample-saleagenda kon niet worden geladen."}
 if(contests.status==="fulfilled"){app.contests=contests.value.contests||[];renderContests()}else{$("featuredContests").textContent="Winactiegegevens konden niet worden geladen."}
+if(international.status==="fulfilled"){app.internationalStores=international.value.retailers||[];renderInternational();renderFound()}else{$("internationalShops").textContent="Buitenlandse verzendvoorwaarden zijn momenteel niet bereikbaar."}
 if(watches.status==="fulfilled"){savedWatches=watches.value.items||[];renderWatches()}else{$("watchStatus").textContent="Servervolglijst tijdelijk niet bereikbaar."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });

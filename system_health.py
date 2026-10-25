@@ -43,8 +43,21 @@ def build(root=ROOT, now=None):
             modules.append(quality)
         except (OSError, ValueError):
             modules.append(dict(name=label, state='mislukt', checkedAt=None, total=0, successful=0, unsuccessful=0, maxAgeHours=hours))
+    try:
+        tactics=json.loads((root/'strategie-scan.json').read_text(encoding='utf-8'))
+        verified_sources=sum(x.get('status')=='terms_found' for x in tactics.get('officialSources',[]))
+        total_sources=len(tactics.get('officialSources',[]))
+        reddit_leads=len(tactics.get('redditCandidates',[]))
+        strategy_status='gedeeltelijk' if verified_sources>0 else 'mislukt'
+        strategy_detail=(f"{verified_sources}/{total_sources} officiële bronpagina's met verwachte voorwaarden; "
+                         f"{reddit_leads} onbevestigde Reddit-onderzoekskandidaten. "
+                         "Strategieën zijn bruikbaar als controlelijst, maar niet automatisch uitgevoerd.")
+    except (OSError,ValueError,TypeError):
+        strategy_status='niet geverifieerd'
+        strategy_detail='Bespaarstrategiescan ontbreekt of is ongeldig.'
     return dict(updatedAt=now.isoformat(), modules=modules,
                 capabilities=[
+                    dict(name='Bespaarstrategieën Meervoordeel, drogist en Reddit', state=strategy_status, detail=strategy_detail),
                     dict(name='Dagelijkse e-mail', state='niet geverifieerd', detail='De GitHub-scanner verstuurt geen e-mail. Een afzonderlijke taak vereist controle van uitvoering en bezorging.'),
                     dict(name='Hypotheekrente onder 3,6%', state='niet geverifieerd', detail='Geen bankrentefeed in deze scanner. Een private alerttaak is geen gecontroleerde rentevergelijking op deze site.'),
                     dict(name='Contractbesparingen', state='gedeeltelijk', detail='Lokale berekening beschikbaar. Geen automatische contract- of offertesynchronisatie.'),

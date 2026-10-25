@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T16:02:25.972525+00:00",
+  "updatedAt": "2026-10-25T16:04:33.735566+00:00",
   "diagnostics": {
     "irrelevant": 60,
     "source_quality": 149,
@@ -489,5 +489,5 @@
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T16:02:25.972525+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T16:04:33.735566+00:00"
 }

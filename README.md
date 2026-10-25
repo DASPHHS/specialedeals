@@ -54,3 +54,16 @@ Een winkel kan op zijn pagina 'op voorraad' schrijven terwijl de gestructureerde
 **GitHub Pages:** Settings > Pages > Deploy from branch `main`, folder `/ (root)`. GitHub Actions: Settings > Actions > General > Workflow permissions: **Read and write permissions** als commits door de bot anders geweigerd worden.
 
 Er worden geen API-sleutels, wachtwoorden of persoonsgegevens in de publieke repository opgeslagen.
+
+## Samenvoeging Kansenkompas / Kansenradar — 25 oktober 2026
+
+Het gezamenlijke dashboard staat in deze repository. `winacties.html` leest de gecontroleerde openbare acties uit `contests.json` en kandidaten apart uit `contest-candidates.json`, met zoekopdracht, categorie en actuele fase (open/binnenkort/hercontrole/afgelopen). Geen limiet van veertien. Een record is één actie, niet iedere deelprijs afzonderlijk.
+
+`contest_scan.py` zoekt via 23 Nederlandstalige, Engelse, Duitse en Franse RSS-zoekopdrachten naar auto/EV, cash, renovatie, verduurzaming, tuin, keukenapparatuur en reizen. Alle resultaten blijven kandidaten: alleen een redactionele controle van officiële regels kan gratis deelname en Nederlandse toelating bevestigen. Geen automatische inzendingen door GitHub, geen garantie op volledige dekking. Bronfouten worden geregistreerd en wissen bestaande kandidaten niet.
+
+De niet-voedingsscanner uit Kansenradar is gemigreerd naar `scripts/household_scan.py`, met paginering. Het gezamenlijke tabblad Huishouden & verzorging leest `household.json`. Exacte EAN alleen uit echte EAN-data; een product-ID is geen EAN. Een procentueel verschil gebruikt de getoonde actieprijs als noemer. Ontbrekende Action/Zeeman-prijzen blijven een dekkingsgat.
+
+De oude Kansenradar-startpagina verwijst naar hier. Gitgeschiedenis en een `legacy-index.html` blijven behouden. De oude dagelijkse scanner krijgt geen eigen planning meer; deze repository verzorgt de gezamenlijke scan. Koopkracht blijft ongewijzigd apart.
+
+De eigenaar-private Sites-versie blijft de opslag voor voorraad, profiel en deelnamestatus. Alleen openbare actiegegevens worden in deze repo opgenomen. Geen contacten, e-mailadressen, bewijs- of deelnamehistorie exporteren. De dagelijkse ChatGPT-taak kan geverifieerde openbare records bijwerken; GitHub Actions verzorgt discovery viermaal per dag. De hypotheekgrens wordt door de bestaande private dagelijkse taak bewaakt, niet door een verzonnen bankfeed in GitHub Pages.
+

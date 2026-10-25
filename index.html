@@ -30,10 +30,10 @@ label{display:block;margin:12px 0 5px}footer{font-size:12px;color:#90a6bc;text-a
 details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-weight:600}
 @media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
 </style></head><body>
-<header><div class="small">Jouw persoonlijke premiumradar · volledig los van Koopkracht</div><h1>Speciale Deals<span style="color:#95f4bb">.</span></h1><p>Relevante vondsten, écht gecontroleerde koopjes en alerts op één overzichtelijke plek.</p></header>
+<header><div class="small">Deals, winacties en besparen · Koopkracht blijft apart</div><h1>Kansenkompas & Speciale Deals<span style="color:#95f4bb">.</span></h1><p>Relevante vondsten, écht gecontroleerde koopjes en alerts op één overzichtelijke plek.</p></header>
 <main>
 <nav>
-<button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Bronnen</button><a class="secondary" href="./besparen.html" style="text-decoration:none">Vaste lasten & besparen ↗</a><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
+<a class="secondary" href="./winacties.html">Winacties · internationaal ↗</a><button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="household">Huishouden & verzorging</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Bronnen</button><a class="secondary" href="./besparen.html" style="text-decoration:none">Vaste lasten & besparen ↗</a><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
 </nav>
 <section id="today" class="section show">
 <div class="summary">
@@ -69,7 +69,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <h3>Alert veranderen</h3><p>Je bestaande uurlijkse en dagelijkse e-mailcontrole worden in ChatGPT uitgevoerd. Een wijziging van die taken kun je hier voorbereiden.</p><div class="toolbar"><input id="alertItem" placeholder="Bijv. ook HOKA Mafate maat 47⅓"><input id="alertMin" type="number" min="0" max="90" value="25" placeholder="Korting %"></div><button class="more" id="copyPrompt">Kopieer wijziging voor ChatGPT</button><p id="copyStatus" class="small"></p></div>
 </section>
 <section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div><h3>Controle van exacte productpagina’s</h3><div id="merchantChecks" class="small">Nog geen automatische winkelcontrole gepubliceerd.</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
-<footer>Geen automatische aankopen. Feedkandidaten, actuele prijswaarnemingen en werkelijk geverifieerde deals worden bewust gescheiden.</footer>
+<section id="household" class="section"><h2>Huishouden & verzorging uit Kansenradar</h2><p class="muted">De niet-voedingsscanner is hier samengevoegd. Vergelijkingen gelden alleen binnen de gevonden prijzen; Action, Zeeman en andere ontbrekende bronnen zijn geen bewezen hogere prijzen. Koopkracht blijft apart.</p><p id="householdStatus"></p><div id="householdCards" class="cards"></div></section><footer>Geen automatische aankopen. Feedkandidaten, actuele prijswaarnemingen en werkelijk geverifieerde deals worden bewust gescheiden.</footer>
 </main><script>
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
@@ -223,4 +223,13 @@ if(obs.status==="fulfilled"||merchant.status==="fulfilled")loadObs(obs.status===
 if(watches.status==="fulfilled"){savedWatches=watches.value.items||[];renderWatches()}else{$("watchStatus").textContent="Servervolglijst tijdelijk niet bereikbaar."}
 if(profile.status==="fulfilled"){$("watchlist").textContent=(profile.value.groups||[]).map(g=>g.title+": "+g.items.join(", ")).join(" · ")}else{$("watchlist").textContent="Profiel tijdelijk niet geladen."}
 });
+
+fetch('./household.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
+ $('householdStatus').textContent=(d.last_updated?'Waargenomen '+new Date(d.last_updated).toLocaleString('nl-NL'):'Nog geen geslaagde scan')+' · '+(d.warnings||[]).join(' ');
+ const rows=(d.deals||[]).filter(x=>x.category!=='food'&&x.valid_until>=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Amsterdam'}));
+ for(const x of rows){const box=el('article','card');box.append(el('h3','',x.title),el('p','',x.store+' · '+money(x.price)+(x.unit?' · '+money(x.unit.price_per_unit)+'/'+x.unit.unit:'')),el('p','small','Geldig t/m '+x.valid_until));
+ if(x.other_stores?.length)box.append(el('p','small','Zelfde EAN: '+x.other_stores.map(o=>o.store+' '+money(o.price)).join(' · ')+(x.cheaper_elsewhere_percent>0?' · elders '+x.cheaper_elsewhere_percent+'% goedkoper ten opzichte van deze prijs':'')));else box.append(el('p','small','Geen andere winkelprijs voor dezelfde EAN gevonden.'));
+ const a=el('a','','Bekijk bron ↗');if(validUrl(x.url)){a.href=x.url;a.target='_top';box.append(a)}$('householdCards').append(box)}
+ if(!rows.length)$('householdCards').append(el('p','','Geen actuele prijsrecords beschikbaar uit deze scan.'));
+}).catch(e=>{$('householdStatus').textContent='Huishoudprijzen niet bereikbaar: '+e.message});
 </script></body></html>

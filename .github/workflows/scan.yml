@@ -4,6 +4,11 @@ on:
     branches: [main]
     paths:
       - 'scan.py'
+      - 'contest_scan.py'
+      - 'contest-searches.json'
+      - 'scripts/household_scan.py'
+      - 'winacties.html'
+      - 'contest-ui.js'
       - 'radar-config.json'
       - 'test_scan.py'
       - 'merchant_check.py'
@@ -38,6 +43,16 @@ jobs:
           python -m json.tool radar-config.json > /dev/null
           python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py -v
           python -m json.tool shop-targets.json > /dev/null
+      - name: Controleer nieuwe modules
+        run: |
+          python -m py_compile contest_scan.py scripts/household_scan.py
+          node --check contest-ui.js
+          python -m unittest test_contests.py -v
+      - name: Ontdek internationale winacties
+        run: python contest_scan.py
+      - name: Scan huishoudprijzen
+        continue-on-error: true
+        run: python scripts/household_scan.py
       - name: Scan feeds
         run: python scan.py
       - name: Check exact merchant product prices
@@ -48,9 +63,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live-deals.json merchant-observations.json price-history.json
+          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json household.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
             git pull --rebase origin main
             git push origin main
           fi
+

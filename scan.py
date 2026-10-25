@@ -153,11 +153,17 @@ def discovery():
  return raw_items,statuses
 def main():
  raw,statuses=discovery();deals=[];promos=[];samples=[];seen=set()
- rejected={"irrelevant":0,"source_quality":0,"duplicate":0}
+ rejected={"irrelevant":0,"source_quality":0,"duplicate":0};diagnostic_samples=[]
  for item in raw:
   title=item["title"];relevance,matches=score(title)
-  if not search_quality(item):rejected["source_quality"]+=1;continue
-  if relevance<CFG["minScore"]:rejected["irrelevant"]+=1;continue
+  if not search_quality(item):
+   rejected["source_quality"]+=1
+   if len(diagnostic_samples)<8:diagnostic_samples.append({"why":"source_quality","title":title[:120],"url":item.get("url","")[:200],"source":item.get("source","")})
+   continue
+  if relevance<CFG["minScore"]:
+   rejected["irrelevant"]+=1
+   if len(diagnostic_samples)<12:diagnostic_samples.append({"why":"irrelevant","title":title[:120],"url":item.get("url","")[:200],"source":item.get("source","")})
+   continue
   # Distinct titles, not repeated Google News syndications.
   key=re.sub(r"[^a-z0-9]","",title.casefold())[:100]
   if key in seen:rejected["duplicate"]+=1;continue
@@ -169,7 +175,7 @@ def main():
   else:deals.append(item)
  for group in (deals,samples,promos):group.sort(key=lambda d:(d["score"],d["sourceType"]!="news"),reverse=True)
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- result={"updatedAt":now,"diagnostics":rejected,"deals":deals,"samples":samples,"promotions":promos,"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ result={"updatedAt":now,"diagnostics":{**rejected,"examples":diagnostic_samples},"deals":deals,"samples":samples,"promotions":promos,"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
  if statuses and all(x["status"]=="error" for x in statuses):
   try:
    previous=json.loads((ROOT/"live-deals.json").read_text())

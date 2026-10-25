@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:32:40.335166+00:00",
+  "updatedAt": "2026-10-25T18:33:31.084202+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 147,
+    "source_quality": 149,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Weleda® - Skincare powered by nature's science - Weleda",
-        "url": "https://www.weleda.com/",
+        "title": "Kaart De Pijp – Wijk en belangrijke locaties - Amsterdams Kaart",
+        "url": "https://www.amsterdamskaart.com/wijken/kaart-de-pijp-wijk-en-belangrijke-locaties/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda health and beauty - Weleda",
-        "url": "https://www.weleda.com/weleda",
+        "title": "Kaart van De Pijp – Kaart van Amsterdam",
+        "url": "https://www.amsterdamkaart.com/de-pijp/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda | The World's Most Sustainable Skin Care Company - Weleda",
-        "url": "https://www.weleda.is/",
+        "title": "Google Maps",
+        "url": "https://maps.google.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Weleda",
+        "title": "Kaart De Pijp • Maps online",
+        "url": "https://www.routeplanner-kaarte.nl/kaart/de-pijp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda products at Target",
-        "url": "https://www.target.com/b/weleda/-/N-5xblx",
+        "title": "Maps Amsterdam",
+        "url": "https://maps.amsterdam.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Amazon.com: Weleda",
-        "url": "https://www.amazon.com/stores/Weleda/page/FA93A9DB-641A-4B7B-86DC-29E9095498B1",
+        "title": "Kaart Oude Pijp – Straten en lokale locaties - Amsterdams Kaart",
+        "url": "https://www.amsterdamskaart.com/buurten/kaart-oude-pijp-straten-en-lokale-locaties/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Amazon.com: Weleda",
-        "url": "https://www.amazon.com/weleda/s?k=weleda",
+        "title": "Kaart van Amsterdam",
+        "url": "https://kaart.amsterdam.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda - Walmart.com",
-        "url": "https://www.walmart.com/c/brand/weleda",
+        "title": "De Pijp Wijkkaart – Amsterdam - Kunst in Kaart",
+        "url": "https://www.kunstinkaart.nl/product/amsterdam-de-pijp-white-wijk-map/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "About Weleda - Weleda",
-        "url": "https://www.weleda.is/weleda",
+        "title": "De Pijp - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/De_Pijp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weleda - Natural & Organic Face, Body, Hair & Health Care",
-        "url": "https://www.weleda.co.uk/",
+        "title": "gvb-maps | GVB",
+        "url": "https://www.gvb.nl/en/gvb-maps",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,8 +307,8 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -328,7 +328,7 @@
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 11
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -363,7 +363,7 @@
     {
       "source": "Winkelzoekopdracht 12",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -379,6 +379,66 @@
       "source": "Winkelzoekopdracht 15",
       "status": "ok",
       "items": 10
+    },
+    {
+      "source": "Internationale zoekopdracht 1",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 2",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 3",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 4",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 5",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 6",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "Internationale zoekopdracht 7",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 8",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 9",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 10",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 11",
+      "status": "empty",
+      "items": 0
+    },
+    {
+      "source": "Internationale zoekopdracht 12",
+      "status": "empty",
+      "items": 0
     }
   ],
   "retailers": [
@@ -606,14 +666,48 @@
       "name": "SneakerPicks",
       "url": "https://sneakerpicks.nl/status",
       "category": "Schoenen en prijsvergelijking"
+    },
+    {
+      "name": "Bergfreunde EU",
+      "url": "https://www.bergfreunde.eu/outlet/brands/arcteryx/for--men/",
+      "category": "Internationaal · Outdoor & herenkleding",
+      "shippingPolicyUrl": "https://www.bergfreunde.eu/delivery-and-payment/",
+      "shippingToNL": "confirmed_store_level",
+      "country": "DE"
+    },
+    {
+      "name": "BIKE24",
+      "url": "https://www.bike24.nl/",
+      "category": "Internationaal · Sport & outdoor",
+      "shippingPolicyUrl": "https://www.bike24.nl/verzendkosten",
+      "shippingToNL": "confirmed_store_level",
+      "country": "DE"
+    },
+    {
+      "name": "Runnerinn / Tradeinn",
+      "url": "https://www.tradeinn.com/runnerinn/nl",
+      "category": "Internationaal · Hardloopschoenen & sport",
+      "shippingPolicyUrl": "https://www.tradeinn.com/runnerinn/nl/help/st",
+      "shippingToNL": "confirmed_store_level",
+      "country": "ES"
+    },
+    {
+      "name": "Smashinn / Tradeinn",
+      "url": "https://www.tradeinn.com/smashinn/nl",
+      "category": "Internationaal · Padel & sport",
+      "shippingPolicyUrl": "https://www.tradeinn.com/runnerinn/nl/help/st",
+      "shippingToNL": "confirmed_store_level",
+      "country": "ES"
     }
   ],
   "coverage": {
-    "searchQueries": 47,
+    "searchQueries": 59,
+    "internationalQueries": 12,
+    "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 207,
+    "scannedItems": 209,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:32:40.335166+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:33:31.084202+00:00"
 }

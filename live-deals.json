@@ -1,34 +1,11 @@
 {
-  "updatedAt": "2026-10-25T12:33:37.168224+00:00",
+  "updatedAt": "2026-10-25T12:46:25.458863+00:00",
   "diagnostics": {
-    "irrelevant": 59,
-    "source_quality": 150,
+    "irrelevant": 60,
+    "source_quality": 149,
     "duplicate": 0
   },
-  "deals": [
-    {
-      "title": "689° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
-      "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
-      "source": "Pepper Hot",
-      "sourceType": "community",
-      "published": "Sun, 25 Oct 2026 08:53:32 +0100",
-      "price": 65.25,
-      "score": 55,
-      "matched": [
-        "nike"
-      ],
-      "category": "Outdoor & herenkleding",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    }
-  ],
+  "deals": [],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -250,7 +227,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -508,9 +485,9 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 210,
-    "personalMatches": 1
+    "scannedItems": 209,
+    "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T12:33:37.168224+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T12:46:25.458863+00:00"
 }

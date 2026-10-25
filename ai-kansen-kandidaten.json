@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:58:15.240718+00:00",
+  "updatedAt": "2026-10-25T12:30:16.508962+00:00",
   "items": [
     {
       "title": "This is an iOS app that logs every Apple Pay payment automatically, including in-app ones like Uber that the Wallet automation misses",
@@ -653,59 +653,9 @@
         "Automatisering"
       ],
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "After Automation: AI progress creates more work for humans, not less",
-      "url": "https://every.to/p/after-automation",
-      "source": "Hacker News",
-      "themes": [
-        "Automatisering",
-        "Nieuw en technologie"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "Show HN: Streamline your business with automation, AI and bookkeeping with ease",
-      "url": "https://pairbox.ai/home",
-      "source": "Hacker News",
-      "themes": [
-        "Automatisering",
-        "Nieuw en technologie"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "The Trap of Automation (AI): The Invisible Cost That Could Empty Your Wallet",
-      "url": "https://medium.com/@elle3636/the-hidden-trap-of-automation-ai-the-invisible-cost-that-could-empty-your-wallet-28f27e97790f",
-      "source": "Hacker News",
-      "themes": [
-        "Automatisering",
-        "Nieuw en technologie"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "I Eat for Free in NYC Using Python, Automation, AI, and Instagram",
-      "url": "https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10",
-      "source": "Hacker News",
-      "themes": [
-        "Automatisering",
-        "Nieuw en technologie"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "I Eat for Free in NYC Using Python, Automation, AI, and Instagram",
-      "url": "https://medium.com/%40chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10",
-      "source": "Hacker News",
-      "themes": [
-        "Automatisering",
-        "Nieuw en technologie"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     }
   ],
-  "totalMatched": 75,
+  "totalMatched": 70,
   "sources": [
     {
       "source": "Reddit r/shortcuts",
@@ -774,8 +724,8 @@
     },
     {
       "source": "Hacker News",
-      "status": "ok",
-      "matches": 8
+      "status": "unavailable",
+      "error": "HTTP Error 502: Bad Gateway"
     },
     {
       "source": "Apple Opdrachten en automatisering",

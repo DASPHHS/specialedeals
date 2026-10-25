@@ -1,10 +1,34 @@
 {
-  "updatedAt": "2026-10-25T20:59:11.628124+00:00",
+  "updatedAt": "2026-10-25T22:38:24.316114+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 90,
+    "source_quality": 158,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Shadow of the Tomb Raider Definitive Edition Playstation",
+        "url": "https://nl.pepper.com/aanbiedingen/shadow-of-the-tomb-raider-definitive-edition-playstation-423671",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "GAMMA | €5 korting bij besteding van €25 | winkel/online",
+        "url": "https://nl.pepper.com/kortingscode/gamma-eur5-korting-bij-besteding-van-eur25-winkelonline-423670",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Brennenstuhl Eco-Line 8-voudig Stekkerdoos (Stekkerblok met schakelaar en 3m kabel) zwart",
+        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-eco-line-8-voudig-stekkerdoos-stekkerblok-met-schakelaar-en-3m-kabel-zwart-423669",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Ecovacs deebot cleaning solution",
+        "url": "https://nl.pepper.com/aanbiedingen/ecovacs-deebot-cleaning-solution-423665",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Gratis Babybox t.w.v. €60 | Kruidvat",
@@ -52,81 +76,57 @@
         "title": "SpaceNK beauty advent kalender - 15% korting",
         "url": "https://nl.pepper.com/aanbiedingen/spacenk-beauty-advent-kalender-423648",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Nike Airforce 1 voor €67.16 of met Primera €57.08",
-        "url": "https://nl.pepper.com/aanbiedingen/nike-airforce-1-voor-6716-of-met-primera-5708-423649",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Jan van Haasteren puzzel (24x 54 stukjes) adventskalender 2026",
-        "url": "https://nl.pepper.com/aanbiedingen/jan-van-haasteren-puzzel-adventskalender-2026-423645",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Harmonies NL bordspel",
-        "url": "https://nl.pepper.com/aanbiedingen/harmonies-nl-bordspel-423643",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Razer Kitty V3 X - Gaming Headset - 7.1 Surround Sound - 40mm - Bedraad | Roze en Zwarte uitvoering @ Amazon.nl",
-        "url": "https://nl.pepper.com/aanbiedingen/razer-kitty-v3-x-gaming-headset-71-surround-sound-40mm-bedraad-at-amazonnl-423641",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Restaurants in Hardinxveld-Giessendam en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/hardinxveld-giessendam?radius=10",
+        "title": "Gelderland Home",
+        "url": "https://www.gelderland.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Sint Jansklooster en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/sint-jansklooster?radius=10",
+        "title": "Gelderland - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Gelderland",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Schiedam ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/schiedam",
+        "title": "Gelderland - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gelderland",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Doetinchem en omgeving ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/doetinchem?radius=10",
+        "title": "Nieuws uit Gelderland - Omroep Gelderland",
+        "url": "https://www.gld.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Uden ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/uden",
+        "title": "Gelderland",
+        "url": "https://www.gelderland.nl/en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Bloemendaal ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/bloemendaal",
+        "title": "11 x bezienswaardigheden Gelderland bezoeken: Wat zien & doen? - Reisroutes",
+        "url": "https://www.reisroutes.be/blog/gelderland/bezienswaardigheden-gelderland/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Maastricht aan het Vrijthof ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/maastricht?adres=Vrijthof",
+        "title": "Veluwe & Gelderland: toerisme, overnachten en uitjes",
+        "url": "https://www.visitgelderland.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Alphen aan den Rijn ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/alphen-aan-den-rijn",
+        "title": "de Gelderlander.nl, het laatste nieuws uit Gelderland",
+        "url": "https://www.gelderlander.nl/home",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants in Middelburg ··−Restaurants.nl",
-        "url": "https://www.restaurants.nl/middelburg",
+        "title": "Top 10 bezienswaardigheden van Gelderland",
+        "url": "https://top10bezienswaardigheden.nl/nederland/gelderland/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Restaurants.nl -> Naar uw smaak",
-        "url": "https://www.restaurants.nl/",
+        "title": "Dagje Gelderland. Wat te doen in Gelderland? Activiteiten, uitjes en ...",
+        "url": "https://www.dagjeweg.nl/gelderland",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,8 +307,8 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -322,13 +322,13 @@
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 8
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -337,8 +337,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -347,8 +347,8 @@
     },
     {
       "source": "Winkelzoekopdracht 9",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -357,8 +357,8 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -417,8 +417,8 @@
     },
     {
       "source": "Internationale zoekopdracht 8",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -427,13 +427,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 150,
+    "scannedItems": 218,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T20:59:11.628124+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T22:38:24.316114+00:00"
 }

@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-25T12:17:18.054704+00:00",
+  "updatedAt": "2026-10-25T12:33:37.168224+00:00",
   "diagnostics": {
     "irrelevant": 59,
-    "source_quality": 141,
+    "source_quality": 150,
     "duplicate": 0
   },
   "deals": [
     {
-      "title": "671° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
+      "title": "689° - Nike air max 90 meerdere kleuren/maten €65.25 met code 20-LINDA en primera cadeaubon met 15% korting",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-max-90-meerdere-kleurenmaten-eur6525-423562",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -220,12 +220,12 @@
     {
       "source": "Winkelzoekopdracht 4",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -250,7 +250,7 @@
     {
       "source": "Winkelzoekopdracht 10",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -508,8 +508,9 @@
   "coverage": {
     "searchQueries": 47,
     "sourcesConfigured": 2,
-    "scannedItems": 201,
+    "scannedItems": 210,
     "personalMatches": 1
   },
-  "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."
+  "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
+  "lastSuccessfulDiscoveryAt": "2026-10-25T12:33:37.168224+00:00"
 }

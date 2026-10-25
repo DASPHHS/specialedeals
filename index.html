@@ -1,5 +1,5 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Speciale Deals | Persoonlijke premiumdeals</title>
+<title>Kansenkompas | Persoonlijke deals, winacties en AI-kansen</title>
 <style>
 :root{font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e8f0f9;background:#0c1526}*{box-sizing:border-box}body{margin:0}a{color:#9fd9ff}button,input,select{font:inherit}button{cursor:pointer}
 header{padding:26px max(18px,calc((100vw - 1130px)/2));background:linear-gradient(135deg,#152d42,#14362e);border-bottom:1px solid #3d5d63}
@@ -28,12 +28,13 @@ nav button.active{background:#c6f4dc;color:#123a2d;border-color:#c6f4dc;font-wei
 label{display:block;margin:12px 0 5px}footer{font-size:12px;color:#90a6bc;text-align:center;padding:18px}
 .links{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.links a{color:#e1f1ff;background:#243d57;border:1px solid #3d596b;text-decoration:none;border-radius:9px;padding:8px 11px;font-size:13px}
 details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-weight:600}
-@media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
+ .quicklinks a{font-size:15px;padding:13px 15px;font-weight:650;min-height:44px;display:inline-flex;align-items:center}.quicklinks{gap:9px}@media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
 </style></head><body>
-<header><div class="small">Deals, winacties en besparen · Koopkracht blijft apart</div><h1>Kansenkompas & Speciale Deals<span style="color:#95f4bb">.</span></h1><p>Relevante vondsten, écht gecontroleerde koopjes en alerts op één overzichtelijke plek.</p></header>
+<header><div class="small">Jouw persoonlijke kansenplatform · boodschappen en recepten staan apart</div><h1>Kansenkompas<span style="color:#95f4bb">.</span></h1><p>Persoonlijke deals, winacties, sample sales, slimme AI-toepassingen en besparingen op één plek.</p></header>
 <main>
-<nav>
-<a class="secondary" href="./winacties.html">Winacties · internationaal ↗</a><button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="household">Huishouden & verzorging</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Bronnen</button><a class="secondary" href="./besparen.html" style="text-decoration:none">Vaste lasten & besparen ↗</a><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
+<section class="panel" aria-label="Snel naar jouw kansen"><h2>Wat wil je ontdekken?</h2><p class="muted">Kies een onderdeel. Je ziet alleen persoonlijke kansen; supermarktacties en recepten staan in een apart project.</p><div class="links quicklinks"><a href="#today" data-quick-tab="today">Mijn topdeals</a><a href="./winacties.html">Winacties</a><a href="#samples" data-quick-tab="samples">Sample sales</a><a href="./besparen.html">Vaste lasten besparen</a><a href="./ai-kansen.html">AI & innovaties</a><a href="#found" data-quick-tab="found">Alle persoonlijke vondsten</a></div></section>
+<nav aria-label="Overige onderdelen">
+<a class="secondary" href="./winacties.html">Winacties · internationaal ↗</a><button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="household">Persoonlijke woon- & verzorgingsdeals</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Scanstatus & bronnen</button><a class="secondary" href="./besparen.html" style="text-decoration:none">Vaste lasten & besparen ↗</a><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
 </nav>
 <section id="today" class="section show">
 <div class="summary">
@@ -193,6 +194,7 @@ $("wishAdd").onclick=()=>{
  const url=watchIssue("toevoegen",name,raw);
  const win=window.open(url,"_blank","noopener,noreferrer");if(!win)$("watchStatus").textContent="Pop-up geblokkeerd: "+url;
 };
+document.querySelectorAll("[data-quick-tab]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();const tab=a.dataset.quickTab;document.querySelector(`[data-tab="${tab}"]`)?.click();document.querySelector("nav")?.scrollIntoView({behavior:"smooth",block:"start"});}));
 const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
 $("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
 $("ingCompare").onclick=()=>{

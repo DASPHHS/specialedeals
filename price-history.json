@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T18:38:28.425586+00:00",
+  "updatedAt": "2026-10-25T18:40:32.470585+00:00",
   "products": {
     "Tennisdiscount|https://www.tennisdiscount.nl/weekend-aanbieding-padel-rackets-/adidas-metalbone-carbon-26.html": [
       {
@@ -196,6 +196,20 @@
         "at": "2026-10-25T08:47:17.055508+00:00",
         "price": 10.49,
         "stock": "volgens winkel op voorraad"
+      }
+    ],
+    "Bergfreunde EU|https://www.bergfreunde.eu/arcteryx-atom-hoody-synthetic-jacket/": [
+      {
+        "at": "2026-10-25T18:40:32.470585+00:00",
+        "price": 279.95,
+        "stock": "uitverkocht"
+      }
+    ],
+    "Bergfreunde EU|https://www.bergfreunde.eu/arcteryx-atom-sl-hoody-synthetic-jacket/": [
+      {
+        "at": "2026-10-25T18:40:32.470585+00:00",
+        "price": 246.95,
+        "stock": "uitverkocht"
       }
     ]
   },

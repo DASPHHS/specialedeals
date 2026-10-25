@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-25T18:38:28.338651+00:00",
+  "updatedAt": "2026-10-25T18:40:32.384356+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 137,
+    "source_quality": 100,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://finance.yahoo.com/quote/VTSAX/performance/",
+        "title": "Batch: Passwort verdeckt eingeben - Administrator",
+        "url": "https://administrator.de/forum/batch-passwort-verdeckt-eingeben-22859.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://finance.yahoo.com/quote/VTSAX/profile/",
+        "title": "GPO Zugriff verweigert 0x80070005 - Administrator",
+        "url": "https://administrator.de/forum/gpo-zugriff-verweigert-0x80070005-317391.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard Total Stock Mkt Idx Adm (VTSAX) - Yahoo Finance",
-        "url": "https://uk.finance.yahoo.com/quote/VTSAX/",
+        "title": "屋外に設置する自立盤の基礎設計をしております2300wx440dx... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1377065583",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://ca.finance.yahoo.com/quote/VTSAX/profile/",
+        "title": "取引先の旅費を当社が負担し支出した場合の勘定科目を - 教えてくだ... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1381055293",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard Morningstar US Total Market Shares Index ETF (VTS.AX)",
-        "url": "https://au.finance.yahoo.com/quote/VTS.AX/history/",
+        "title": "機械に使われる材質でss34というものがあるのですが、ss34の意... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1311622763",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://sg.finance.yahoo.com/quote/VTSAX/profile/",
+        "title": "Msft Vitual Disk SCSI Disk Device im Gerätemanager",
+        "url": "https://administrator.de/forum/msft-vitual-disk-scsi-disk-device-im-geraetemanager-192783.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://hk.finance.yahoo.com/quote/VTSAX/",
+        "title": "マブラヴオルタネイティブトータルイクリプスは最後どうなったの... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10149146390",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard MStar Total Stk Mkt Idx Admiral (VTSAX)",
-        "url": "https://de.finance.yahoo.com/quote/VTSAX/",
+        "title": "建築標準仕様書にて、「外部に面するコンクリート打ちっぱなし仕... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10109258880",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard Total Stock Mkt Idx Adm (VTSAX) - Yahoo Finance",
-        "url": "https://uk.finance.yahoo.com/quote/VTSAX/history/",
+        "title": "Import ADMX Vorlagen in Intune OMA-URI - Administrator",
+        "url": "https://administrator.de/forum/import-admx-vorlagen-in-intune-oma-uri-454384.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vanguard Morningstar US Total Market Shares Index ETF (VTS.AX)",
-        "url": "https://au.finance.yahoo.com/quote/VTS.AX/",
+        "title": "心当たりのないカード請求についてです。先月、今月と、同じ日に... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10144483520",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -307,8 +307,8 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -323,7 +323,7 @@
     {
       "source": "Winkelzoekopdracht 4",
       "status": "ok",
-      "items": 8
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -352,8 +352,8 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "ok",
-      "items": 9
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -367,13 +367,13 @@
     },
     {
       "source": "Winkelzoekopdracht 13",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -382,8 +382,8 @@
     },
     {
       "source": "Internationale zoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -407,8 +407,8 @@
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -705,9 +705,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 197,
+    "scannedItems": 160,
     "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T18:38:28.338651+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-25T18:40:32.384356+00:00"
 }

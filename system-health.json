@@ -1,0 +1,63 @@
+{
+  "updatedAt": "2026-10-25T12:24:29.853042+00:00",
+  "modules": [
+    {
+      "name": "Deals ontdekken",
+      "state": "werkt",
+      "checkedAt": "2026-10-25T12:17:18.054704+00:00",
+      "maxAgeHours": 8,
+      "successful": 49,
+      "unsuccessful": 0,
+      "total": 49
+    },
+    {
+      "name": "Productprijzen controleren",
+      "state": "gedeeltelijk",
+      "checkedAt": "2026-10-25T12:17:18.146204+00:00",
+      "maxAgeHours": 8,
+      "successful": 16,
+      "unsuccessful": 4,
+      "total": 20
+    },
+    {
+      "name": "Winacties ontdekken",
+      "state": "werkt",
+      "checkedAt": "2026-10-25T12:17:02.534720+00:00",
+      "maxAgeHours": 8,
+      "successful": 23,
+      "unsuccessful": 0,
+      "total": 23
+    },
+    {
+      "name": "AI en innovaties onderzoeken",
+      "state": "gedeeltelijk",
+      "checkedAt": "2026-10-25T11:58:15.240718+00:00",
+      "maxAgeHours": 30,
+      "successful": 8,
+      "unsuccessful": 10,
+      "total": 18
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "Dagelijkse e-mail",
+      "state": "niet geverifieerd",
+      "detail": "De GitHub-scanner verstuurt geen e-mail. Een afzonderlijke taak vereist controle van uitvoering en bezorging."
+    },
+    {
+      "name": "Hypotheekrente onder 3,6%",
+      "state": "niet geverifieerd",
+      "detail": "Geen bankrentefeed in deze scanner. Een private alerttaak is geen gecontroleerde rentevergelijking op deze site."
+    },
+    {
+      "name": "Contractbesparingen",
+      "state": "gedeeltelijk",
+      "detail": "Lokale berekening beschikbaar. Geen automatische contract- of offertesynchronisatie."
+    },
+    {
+      "name": "Winacties beoordelen",
+      "state": "gedeeltelijk",
+      "detail": "Automatische ontdekking; Nederlandse toelating, regels en deadlines vereisen inhoudelijke controle."
+    }
+  ]
+}

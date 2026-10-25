@@ -169,7 +169,16 @@ def main():
   else:deals.append(item)
  for group in (deals,samples,promos):group.sort(key=lambda d:(d["score"],d["sourceType"]!="news"),reverse=True)
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- result={"updatedAt":now,"diagnostics":rejected,"deals":deals[:150],"samples":samples[:50],"promotions":promos[:70],"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ result={"updatedAt":now,"diagnostics":rejected,"deals":deals,"samples":samples,"promotions":promos,"sources":statuses,"retailers":CFG["specialistRetailers"],"coverage":{"searchQueries":len(CFG["priorityQueries"])+len(CFG.get("broadSearchQueries",[]))+len(CFG.get("sampleSearchQueries",[]))+min(12,len(WATCHES)),"sourcesConfigured":len(CFG["sourceFeeds"]),"scannedItems":len(raw),"personalMatches":len(deals)+len(samples)+len(promos)},"note":"Discovery only. Every price/size/stock/discount must be checked at the merchant before buying."}
+ if statuses and all(x["status"]=="error" for x in statuses):
+  try:
+   previous=json.loads((ROOT/"live-deals.json").read_text())
+   for key in ("deals","samples","promotions"):
+    result[key]=previous.get(key,[])
+   result["lastSuccessfulDiscoveryAt"]=previous.get("lastSuccessfulDiscoveryAt",previous.get("updatedAt"))
+   result["note"]="Alle ontdekbronnen mislukt. Vorige vondsten behouden; niet opnieuw geverifieerd."
+  except (OSError,ValueError):pass
+ else:result["lastSuccessfulDiscoveryAt"]=now
  (ROOT/"live-deals.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
  print(json.dumps({"deals":len(deals),"samples":len(samples),"promotions":len(promos),"coverage":result["coverage"],"failed":sum(s["status"]=="error" for s in statuses)}))
 if __name__=="__main__":main()

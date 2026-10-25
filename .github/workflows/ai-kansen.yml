@@ -10,8 +10,8 @@ on:
   schedule:
     - cron: '40 6 * * *'
 concurrency:
-  group: specialedeals-ai-research
-  cancel-in-progress: true
+  group: specialedeals-scanner
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -27,11 +27,12 @@ jobs:
           python -m py_compile ai_kansen_research.py
           python -m unittest test_ai_kansen.py -v
           python ai_kansen_research.py
+          python system_health.py
       - name: Publish changed AI insights
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ai-kansen-kandidaten.json
+          git add ai-kansen-kandidaten.json system-health.json
           if ! git diff --cached --quiet; then
             git commit -m "Update curated AI and Reddit opportunities"
             git pull --rebase origin main

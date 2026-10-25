@@ -84,3 +84,7 @@ De eigenaar-private Sites-versie blijft de opslag voor voorraad, profiel en deel
 - **Alerts en UX:** overzichtelijk mobiel dashboard, instelbare product- en drempelalerts, e-mailoverzichten, vroegtijdige uitzonderlijke sale-alerts, duidelijke categorieën, topaanbevelingen, bronlinks, statussen en geen dubbele Gmail-berichten. Uurlijkse monitoring mag alleen nieuwe, verifieerbare kansen versturen; geen aankoop/boeking. Meld fouten expliciet. Geen schijnzekerheid over externe accounts of werkende automatisering.
 
 **Status:** dit is een functionele specificatie, geen claim dat alle functies al gebouwd of geverifieerd zijn. Houd in het dashboard zichtbaar wat werkt, gedeeltelijk werkt of nog onderzoek vereist.
+
+## Dashboardverbetering 25 oktober 2026
+
+Eén hoofdnavigatie met ingebouwde detailmodules en deeplinks. `system_health.py` en `system-health-ui.js` tonen bronuitval, ontbrekende modules en veroudering apart. Automatische discovery elke vier uur, zonder publicatielimiet voor deals. Totale ontdekuitval bewaart vorige vondsten met hun oude bewijsstatus. Ontwikkelstatus en bronkeuzes: [BRONNEN-EN-ONTWIKKELSTATUS.md](BRONNEN-EN-ONTWIKKELSTATUS.md). Dagmail en hypotheekfeed zijn niet door de repo geverifieerd.

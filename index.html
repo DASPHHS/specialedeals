@@ -29,13 +29,18 @@ label{display:block;margin:12px 0 5px}footer{font-size:12px;color:#90a6bc;text-a
 .links{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.links a{color:#e1f1ff;background:#243d57;border:1px solid #3d596b;text-decoration:none;border-radius:9px;padding:8px 11px;font-size:13px}
 details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-weight:600}
  .nav-more{padding:10px 15px}.nav-more summary{font-weight:700;cursor:pointer}.nav-more nav{margin-top:12px}.quicklinks a{font-size:15px;padding:13px 15px;font-weight:650;min-height:44px;display:inline-flex;align-items:center}.quicklinks{gap:9px}@media(max-width:620px){nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:8px}nav button,nav a{flex-shrink:0;scroll-snap-align:start;white-space:nowrap}.card{min-height:150px}.panel{padding:15px}.cards{grid-template-columns:1fr}.toolbar select{min-width:130px}}
+
+.main-nav{position:sticky;top:0;z-index:5;background:#0c1526;padding:12px 0;margin:0 0 12px;border-bottom:1px solid #344961}.main-nav button{min-height:44px}.module iframe{display:block;width:100%;border:0;min-height:500px;color-scheme:dark}.section>h2{margin-top:20px}.health-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}:focus-visible{outline:3px solid #95f4bb;outline-offset:3px}@media(min-width:800px){.main-nav{flex-wrap:wrap}.main-nav button{flex:1;padding:10px 8px}}@media(max-width:620px){header{padding:20px 18px}main{padding:12px}.summary{grid-template-columns:1fr 1fr}.summary .tile:last-child{grid-column:1/-1}.tile strong{font-size:22px}}
 </style></head><body>
-<header><div class="small">Jouw persoonlijke kansenplatform · boodschappen en recepten staan apart</div><h1>Kansenkompas<span style="color:#95f4bb">.</span></h1><p>Persoonlijke deals, winacties, sample sales, slimme AI-toepassingen en besparingen op één plek.</p></header>
+<header><div class="small">Jouw persoonlijke kansenplatform · boodschappen en recepten staan apart</div><h1>Kansenkompas<span style="color:#95f4bb">.</span></h1><p>Ontdek wat voor jou de moeite waard is. Met heldere voorwaarden en de laatste controlestatus.</p></header>
 <main>
-<section class="panel" aria-label="Snel naar jouw kansen"><h2>Wat wil je ontdekken?</h2><p class="muted">Kies een onderdeel. Je ziet alleen persoonlijke kansen; supermarktacties en recepten staan in een apart project.</p><div class="links quicklinks"><a href="#today" data-quick-tab="today">Mijn topdeals</a><a href="./winacties.html">Winacties</a><a href="#samples" data-quick-tab="samples">Sample sales</a><a href="./besparen.html">Vaste lasten besparen</a><a href="./ai-kansen.html">AI & innovaties</a><a href="#found" data-quick-tab="found">Alle persoonlijke vondsten</a></div></section>
-<details class="panel nav-more"><summary>Instellingen, detailoverzichten en technische status</summary><nav aria-label="Overige onderdelen">
-<a class="secondary" href="./winacties.html">Winacties · internationaal ↗</a><button class="active" data-tab="today">Voor jou</button><button data-tab="found">Alle vondsten</button><button data-tab="samples">Sample sales</button><button data-tab="ing">ING Punten</button><button data-tab="settings">Mijn alerts</button><button data-tab="sources">Scanstatus & bronnen</button><a class="secondary" href="./besparen.html" style="text-decoration:none">Vaste lasten & besparen ↗</a><a class="secondary" href="./ai-kansen.html" style="text-decoration:none">Slimme Kansen ↗</a>
-</nav></details>
+<nav class="main-nav" aria-label="Hoofdnavigatie">
+<button class="active" data-tab="today">Voor jou</button><button data-tab="found">Deals</button><button data-tab="contests">Winacties</button><button data-tab="samples">Sample sales</button><button data-tab="saving">Besparen</button><button data-tab="ideas">AI & innovaties</button><button data-tab="sources">Scanstatus</button><button data-tab="settings">Instellingen</button>
+</nav>
+<p id="healthBanner" class="note" role="status">Scanstatus laden…</p>
+<section id="contests" class="section module"><iframe title="Winacties en deelnamevoorwaarden" data-src="./winacties.html?embedded=1"></iframe></section>
+<section id="saving" class="section module"><iframe title="Contracten en besparingen" data-src="./besparen.html?embedded=1"></iframe></section>
+<section id="ideas" class="section module"><iframe title="AI-toepassingen en innovaties" data-src="./ai-kansen.html?embedded=1"></iframe></section>
 <section id="today" class="section show">
 <div class="summary">
 <div class="tile"><span class="muted">Persoonlijke kandidaten</span><strong id="matchcount">–</strong><span class="small">Niet automatisch koopadvies</span></div>
@@ -43,8 +48,8 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 <div class="tile"><span class="muted">Automatische bronchecks</span><strong id="sourcecount">–</strong><span class="small" id="sourcestatus">Laatste run onbekend</span></div>
 </div>
 <details class="panel" id="rawPrices"><summary>Winkelprijscontroles bekijken (geen bewezen deals)</summary><div><h2>Winkelprijzen die al zijn gevonden</h2><p class="muted">Concrete winkelwaarnemingen, apart van de automatische feed. Geen volledige prijsvergelijking of bewezen goedkoopste totaalprijs.</p><p class="small" id="merchantUpdated">Automatische productscan laden…</p><div id="observations" class="cards"></div></div></details>
-<div class="panel"><h2>Persoonlijke vondsten</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
-<div class="panel"><h2>Bewezen buitenkansen</h2><div id="topverified" class="empty">Nog geen deal waarvoor actuele winkelprijs, normale marktprijs, juiste uitvoering, voorraad én totale bezorgprijs gezamenlijk zijn bevestigd. De scanner levert kandidaten; hij kan dat niet zelfstandig bewijzen.</div></div>
+<div class="panel"><h2>Voor jou geselecteerd</h2><p class="muted">Persoonlijk geselecteerde aanbiedingen om te bekijken. Niet elke vondst is de laagste marktprijs.</p><div id="firstcards" class="cards"></div><button class="more" id="goAll">Bekijk alle persoonlijke vondsten</button></div>
+<div class="panel"><h2>Volledig gecontroleerde deals</h2><div id="topverified" class="empty">Nog geen deal waarvoor actuele winkelprijs, normale marktprijs, juiste uitvoering, voorraad én totale bezorgprijs gezamenlijk zijn bevestigd. De scanner levert kandidaten; hij kan dat niet zelfstandig bewijzen.</div></div>
 </section>
 <section id="found" class="section"><h2>Alle persoonlijke vondsten</h2><p class="muted">De scanner kijkt naar jouw merken, maten en interesses; geen willekeurige Pepper-lijst. Kandidaten moeten bij de aanbieder gecontroleerd worden.</p>
 <div class="toolbar"><input id="q" type="text" placeholder="Zoek bijvoorbeeld Metalbone, Davines, HOKA…"><select id="group"><option value="">Alle categorieën</option></select><select id="sourceType"><option value="">Alle bronnen</option><option value="community">Dealcommunity</option><option value="news">Gerichte merkzoekopdrachten</option><option value="retailer">Winkels</option></select></div>
@@ -64,14 +69,14 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
  <div><label for="ingCompareMarket">Beste vergelijkbare contante eindprijs (€)</label><input id="ingCompareMarket" type="number" min="0" step=".01" placeholder="30,00" style="width:100%"></div>
 </div>
 <button class="more" id="ingCompare">Bereken het voordeel</button><p class="note" id="ingCompareResult" aria-live="polite">Vul de velden in om een vergelijkbare ING-aanbieding te beoordelen.</p><a href="https://www.ing.nl/punten/" target="_blank" rel="noopener">Bekijk de ING Puntenwinkel ↗</a></div></section>
-<section id="settings" class="section"><h2>Mijn alertvoorkeuren</h2><div class="panel">
+<section id="settings" class="section"><h2>Voorkeuren en meldingen</h2><p><button class="secondary" data-open="ing">ING-punten vergelijken</button></p><div class="panel">
 <h3>Mijn persoonlijke volglijst</h3><p class="muted" id="watchlist">Merken laden…</p>
 <h3>Mijn echte productalerts instellen</h3><p class="muted">Vul product en maximale prijs in. De knop opent GitHub om de wijziging te bevestigen. Daarna bewaart GitHub de alert voor je scanner en de ChatGPT-alerttaak. Je GitHub-account moet ingelogd zijn. Je volglijst is openbaar: voer geen privégegevens in.</p><div class="toolbar"><input id="wishName" placeholder="Bijv. Salomon XA Pro EU47⅓"><input id="wishMax" type="number" min="0" step=".01" placeholder="Max. € incl. verzending"></div><button class="secondary" id="wishAdd">Alert instellen via GitHub</button><p id="watchStatus" class="small">Gegevens worden niet opgeslagen voordat je de GitHub-aanvraag bevestigt.</p><div id="wishRows" class="links"></div>
 <h3>Alert veranderen</h3><p>Je bestaande uurlijkse en dagelijkse e-mailcontrole worden in ChatGPT uitgevoerd. Een wijziging van die taken kun je hier voorbereiden.</p><div class="toolbar"><input id="alertItem" placeholder="Bijv. ook HOKA Mafate maat 47⅓"><input id="alertMin" type="number" min="0" max="90" value="25" placeholder="Korting %"></div><button class="more" id="copyPrompt">Kopieer wijziging voor ChatGPT</button><p id="copyStatus" class="small"></p></div>
 </section>
-<section id="sources" class="section"><h2>Bronnen en dekking</h2><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div><h3>Controle van exacte productpagina’s</h3><div id="merchantChecks" class="small">Nog geen automatische winkelcontrole gepubliceerd.</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
+<section id="sources" class="section"><h2>Scanstatus en betrouwbaarheid</h2><div id="systemHealth" class="health-grid"></div><p class="muted">Meer bronnen betekent niet dat alle websites publiek uitleesbare prijzen geven. Een accountafgeschermde sale wordt daarom nooit als volledig gecontroleerde deal gepresenteerd.</p><div class="panel"><h3>Bronstatus van de laatste scan</h3><div id="sourceRows" class="small">Laden…</div><h3>Controle van exacte productpagina’s</h3><div id="merchantChecks" class="small">Nog geen automatische winkelcontrole gepubliceerd.</div></div><div class="panel"><h3>Winkels, outlets en specialistische bronnen</h3><div id="retailerLinks" class="links"></div><p class="muted">Dit zijn controle- en ontdekbronnen. Een link is geen garantie dat een automatische winkelprijsfeed beschikbaar is.</p></div><div class="panel"><h3>Actiecodes en winacties</h3><p class="muted">Alleen kandidaten waarvan de werking, voorwaarden en geldigheid nog geverifieerd moeten worden.</p><div id="promos" class="cards"></div></div></section>
 <footer>Geen automatische aankopen. Feedkandidaten, actuele prijswaarnemingen en werkelijk geverifieerde deals worden bewust gescheiden.</footer>
-</main><script>
+</main><script src="./system-health-ui.js"></script><script>
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
 const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
@@ -106,7 +111,12 @@ function card(d,kind){
  return c;
 }
 function draw(target,items,kind){const p=$(target);p.replaceChildren();if(!items.length){p.append(el("div","empty","Geen passende actuele vondsten uit de beschikbare bronnen."));return}items.forEach(x=>p.append(card(x,kind)))}
-function show(tab){document.querySelectorAll("nav [data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));document.querySelectorAll(".section").forEach(s=>s.classList.toggle("show",s.id===tab));window.scrollTo?.(0,0)}
+function show(tab){
+ if(!document.getElementById(tab)?.classList.contains("section"))tab="today";
+ history.replaceState(null,"","#"+tab);
+ const frame=document.querySelector("#"+tab+" iframe");if(frame&&!frame.src)frame.src=frame.dataset.src;document.querySelectorAll("nav [data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));document.querySelectorAll(".section").forEach(s=>s.classList.toggle("show",s.id===tab));window.scrollTo?.(0,0)}
+document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>show(b.dataset.open));
+window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
 document.querySelectorAll("nav [data-tab]").forEach(b=>b.onclick=()=>show(b.dataset.tab));$("goAll").onclick=()=>show("found");
 function renderFound(){
  const q=$("q").value.trim().toLowerCase(),category=$("group").value,source=$("sourceType").value;
@@ -123,9 +133,9 @@ $("loadMore").onclick=()=>{app.limit+=10;renderFound()};
 ["q","group","sourceType"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>{app.limit=10;renderFound()}));
 function drawStatus(){let ok=app.sources.filter(x=>x.status==="ok").length,errors=app.sources.filter(x=>x.status==="error").length;$("sourcecount").textContent=app.sources.length||0;$("sourcestatus").textContent=(app.feedUpdated?new Date(app.feedUpdated).toLocaleString("nl-NL")+" · ":"") +ok+" bereikt · "+errors+" fouten"+(app.feedUpdated&&Date.now()-new Date(app.feedUpdated).getTime()>48*3600000?" · gegevens ouder dan 48 uur":"");
 const parent=$("sourceRows");parent.replaceChildren();
-const merks=app.sources.filter(s=>s.source.startsWith("Merkscan"));
+const merks=app.sources.filter(s=>(s.source||"").startsWith("Merkscan"));
 parent.append(el("p",null,merks.length+" gerichte merkzoekopdrachten, waarvan "+merks.filter(s=>s.items>0).length+" met gevonden artikelen."));
-app.sources.filter(s=>!s.source.startsWith("Merkscan")).forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" berichten":""))));
+app.sources.filter(s=>!(s.source||"").startsWith("Merkscan")).forEach(s=>parent.append(el("p",null,s.source+" · "+s.status+(s.error?" ("+s.error+")":"")+(typeof s.items==="number"?" · "+s.items+" berichten":""))));
 if(merks.length){const detail=document.createElement("details");detail.append(el("summary",null,"Technische details per merkzoekopdracht"));merks.forEach(s=>detail.append(el("p",null,s.source+" · "+s.status+" · "+(s.items||0)+" vermeldingen")));parent.append(detail)}}
 function usableCandidate(d){
  if(d.sourceType!=="search")return true;
@@ -196,6 +206,10 @@ $("wishAdd").onclick=()=>{
  const win=window.open(url,"_blank","noopener,noreferrer");if(!win)$("watchStatus").textContent="Pop-up geblokkeerd: "+url;
 };
 document.querySelectorAll("[data-quick-tab]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();const tab=a.dataset.quickTab;document.querySelector(`[data-tab="${tab}"]`)?.click();document.querySelector("nav")?.scrollIntoView({behavior:"smooth",block:"start"});}));
+document.querySelectorAll('.module iframe').forEach(frame=>frame.addEventListener('load',()=>{
+ try{const doc=frame.contentDocument;const style=doc.createElement('style');style.textContent='body{max-width:none!important;margin:0!important;padding:0!important}body>header,body>nav,body>h1,body>p:has(>a[href="./"]){display:none!important}main{max-width:none!important;padding:0!important}';doc.head.append(style);const resize=()=>{frame.style.height=Math.max(400,doc.documentElement.scrollHeight)+'px'};new ResizeObserver(resize).observe(doc.body);resize()}catch{frame.title+=' (open opnieuw bij een laadfout)'}
+}));
+show(location.hash.slice(1)||'today');
 const ingKey="specialedeals_ing_balance_v1";const balance=localStorage.getItem(ingKey);if(balance!==null){$("ingbalance").textContent=Number(balance).toLocaleString("nl-NL");$("ingPoints").value=balance}
 $("ingSave").onclick=()=>{const v=$("ingPoints").value;if(v===""||!Number.isSafeInteger(Number(v))||Number(v)<0){$("ingmsg").textContent="Vul een geldig aantal punten in.";return}localStorage.setItem(ingKey,v);$("ingbalance").textContent=Number(v).toLocaleString("nl-NL");$("ingmsg").textContent="Alleen lokaal opgeslagen."};
 $("ingCompare").onclick=()=>{

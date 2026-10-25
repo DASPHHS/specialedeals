@@ -18,20 +18,24 @@ on:
       - 'watchlist_issue.py'
       - 'test_watchlist_issue.py'
       - 'site_check.py'
+      - 'system_health.py'
+      - 'system-health-ui.js'
+      - 'test_system_health.py'
       - 'index.html'
       - 'ai-kansen.html'
       - '.github/workflows/scan.yml'
   workflow_dispatch:
   schedule:
-    - cron: '15 7,12,17,21 * * *'
+    - cron: '17 */4 * * *'
 concurrency:
   group: specialedeals-scanner
-  cancel-in-progress: true
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,7 +45,7 @@ jobs:
         run: |
           python -m py_compile scan.py
           python -m json.tool radar-config.json > /dev/null
-          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py -v
+          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py -v
           python -m json.tool shop-targets.json > /dev/null
       - name: Controleer nieuwe modules
         run: |
@@ -57,16 +61,20 @@ jobs:
         run: python scan.py
       - name: Check exact merchant product prices
         run: python merchant_check.py
+      - name: Maak controleerbare systeemstatus
+        if: always()
+        run: python system_health.py
       - name: Test dashboard and published JSON schema
         run: python site_check.py
       - name: Publiceer resultaten
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json household.json
+          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json household.json system-health.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
             git pull --rebase origin main
             git push origin main
           fi
+
 

@@ -1,13 +1,28 @@
 {
-  "updatedAt": "2026-10-25T15:57:00+00:00",
-  "scanStatus": "curated_start",
+  "updatedAt": "2026-10-25T16:01:57.884834+00:00",
   "sources": [
     {
-      "source": "Stockverkopen.nl",
-      "status": "editorially_found",
-      "items": 6
+      "source": "https://www.stockverkopen.nl/samplesales.html",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "https://www.stockverkopen.nl/kleding-sample-sales.html",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "https://www.stockverkopen.nl/permaand/deze-maand",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "https://www.stockverkopen.nl/perweek/deze-week",
+      "status": "ok",
+      "items": 1
     }
   ],
+  "scanStatus": "ok",
   "events": [
     {
       "title": "Petrol Industries herfst-/wintersample sale",
@@ -25,7 +40,7 @@
       "priority": 92,
       "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
       "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
     },
     {
       "title": "Kuyichi Sample Sale",
@@ -43,45 +58,7 @@
       "priority": 84,
       "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
       "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
-    },
-    {
-      "title": "GoodFuture sample sale werk- en vrijetijdskleding",
-      "startDate": "2026-10-31",
-      "endDate": "2026-10-31",
-      "city": "Alblasserdam",
-      "address": "Kelvinring 56D, 2952 BG Alblasserdam",
-      "url": "https://www.stockverkopen.nl/9253/sample-sale-bij-goodfuture--hoge-kortingen-op-werkkleding--2026.html",
-      "category": "Sport en kleding",
-      "brands": [
-        "Mascot",
-        "Snickers",
-        "Tricorp"
-      ],
-      "sizes": "Meerdere maten aangekondigd; jouw maat niet bevestigd",
-      "note": "Werk- en vrijetijdskleding. Concrete artikelprijzen niet beschikbaar.",
-      "priority": 58,
-      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
-      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
-    },
-    {
-      "title": "Protest Sportswear wintersample sale",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-04",
-      "city": "Warmond",
-      "address": "Veerpolder 7, 2361 KX Warmond",
-      "url": "https://www.stockverkopen.nl/9238/protest-sportswear-winter-sample-sale-nov-2026.html",
-      "category": "Outdoor en sport",
-      "brands": [
-        "Protest"
-      ],
-      "sizes": "Veel herensamples in maat L; XL niet bevestigd",
-      "note": "Alleen 1 en 4 november; 1 november meer keuze. Houd rekening met maatbeperking.",
-      "priority": 62,
-      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
-      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
     },
     {
       "title": "Van Dal mannenmode Outlet",
@@ -103,7 +80,25 @@
       "priority": 78,
       "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
       "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
+    },
+    {
+      "title": "Protest Sportswear wintersample sale",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-04",
+      "city": "Warmond",
+      "address": "Veerpolder 7, 2361 KX Warmond",
+      "url": "https://www.stockverkopen.nl/9238/protest-sportswear-winter-sample-sale-nov-2026.html",
+      "category": "Outdoor en sport",
+      "brands": [
+        "Protest"
+      ],
+      "sizes": "Veel herensamples in maat L; XL niet bevestigd",
+      "note": "Alleen 1 en 4 november; 1 november meer keuze. Houd rekening met maatbeperking.",
+      "priority": 62,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
     },
     {
       "title": "Circle of Trust Sample Sale Winter 2026",
@@ -121,7 +116,58 @@
       "priority": 61,
       "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
       "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
-      "lastSeenAt": "2026-10-25T15:57:00+00:00"
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
+    },
+    {
+      "title": "GoodFuture sample sale werk- en vrijetijdskleding",
+      "startDate": "2026-10-31",
+      "endDate": "2026-10-31",
+      "city": "Alblasserdam",
+      "address": "Kelvinring 56D, 2952 BG Alblasserdam",
+      "url": "https://www.stockverkopen.nl/9253/sample-sale-bij-goodfuture--hoge-kortingen-op-werkkleding--2026.html",
+      "category": "Sport en kleding",
+      "brands": [
+        "Mascot",
+        "Snickers",
+        "Tricorp"
+      ],
+      "sizes": "Meerdere maten aangekondigd; jouw maat niet bevestigd",
+      "note": "Werk- en vrijetijdskleding. Concrete artikelprijzen niet beschikbaar.",
+      "priority": 58,
+      "source": "Stockverkopen.nl (gepubliceerde evenementagenda)",
+      "verification": "Aankondiging gevonden; actuele maten, voorraad en entreevoorwaarden controleren",
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
+    },
+    {
+      "title": "Poelman Brands sample sale",
+      "url": "https://www.stockverkopen.nl/9241/poelman-brands-sample-sale--2026.html",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "city": "Waalwijk",
+      "category": "Herenmode / sport",
+      "brands": [],
+      "sizes": "Maat en beschikbaarheid controleren",
+      "note": "Gepubliceerd evenement; bekijk de organisator en voorwaarden.",
+      "priority": 40,
+      "source": "Stockverkopen.nl (agenda)",
+      "verification": "Agenda gepubliceerd; prijs, maten en tickets nog controleren",
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
+    },
+    {
+      "title": "Sample sale Fred de la Bretoniere, Shabbies Amsterdam & Pantofola d'Oro",
+      "url": "https://www.stockverkopen.nl/9205/sample-sale-fred-de-la-bretoniere-shabbies-amsterdam--pantofola-doro--2026.html",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "city": "Drunen",
+      "category": "Herenmode / sport",
+      "brands": [],
+      "sizes": "Maat en beschikbaarheid controleren",
+      "note": "Gepubliceerd evenement; bekijk de organisator en voorwaarden.",
+      "priority": 40,
+      "source": "Stockverkopen.nl (agenda)",
+      "verification": "Agenda gepubliceerd; prijs, maten en tickets nog controleren",
+      "lastSeenAt": "2026-10-25T16:01:57.884834+00:00"
     }
-  ]
+  ],
+  "note": "Evenementaankondigingen. Maten, producten, toegang en werkelijk voordeel zijn niet geverifieerd."
 }

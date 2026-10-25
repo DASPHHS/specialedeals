@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:10:18.341093+00:00",
+  "updatedAt": "2026-10-25T11:58:15.240718+00:00",
   "items": [
     {
       "title": "This is an iOS app that logs every Apple Pay payment automatically, including in-app ones like Uber that the Wallet automation misses",
@@ -38,8 +38,8 @@
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },
     {
-      "title": "Shortcut: turn a radio station's play history into an offline Apple Music playlist",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1xb74b3/shortcut_turn_a_radio_stations_play_history_into/",
+      "title": "Is it possible to disable these shortcut notifications?",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xe6tjh/is_it_possible_to_disable_these_shortcut/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -47,8 +47,17 @@
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },
     {
-      "title": "Is it possible to disable these shortcut notifications?",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1xe6tjh/is_it_possible_to_disable_these_shortcut/",
+      "title": "Best automations for NFC tags and shortcuts",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xeg2is/best_automations_for_nfc_tags_and_shortcuts/",
+      "source": "Reddit r/shortcuts",
+      "themes": [
+        "Automatisering"
+      ],
+      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
+    },
+    {
+      "title": "Shortcut: turn a radio station's play history into an offline Apple Music playlist",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xb74b3/shortcut_turn_a_radio_stations_play_history_into/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -84,6 +93,16 @@
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },
     {
+      "title": "Gift Genie: Birthday Gift Reminder Shortcut",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1x980he/gift_genie_birthday_gift_reminder_shortcut/",
+      "source": "Reddit r/shortcuts",
+      "themes": [
+        "Automatisering",
+        "Werk en planning"
+      ],
+      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
+    },
+    {
       "title": "\"When I leave\" and \"When I arrive\" automations not running",
       "url": "https://www.reddit.com/r/shortcuts/comments/1xbetca/when_i_leave_and_when_i_arrive_automations_not/",
       "source": "Reddit r/shortcuts",
@@ -98,25 +117,6 @@
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "I don‘t like the new UI for timers started from controle centre. So I made this shortcut",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1x9be6i/i_dont_like_the_new_ui_for_timers_started_from/",
-      "source": "Reddit r/shortcuts",
-      "themes": [
-        "Automatisering"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "Gift Genie: Birthday Gift Reminder Shortcut",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1x980he/gift_genie_birthday_gift_reminder_shortcut/",
-      "source": "Reddit r/shortcuts",
-      "themes": [
-        "Automatisering",
-        "Werk en planning"
       ],
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },

@@ -102,3 +102,16 @@ Eén hoofdnavigatie met ingebouwde detailmodules en deeplinks. `system_health.py
 - `PRIVACY-EN-INTEGRATIE.md` legt vast welke contract-, deelname- en e-mailgegevens nooit in het openbare project mogen belanden. De daadwerkelijke private sync is nog **niet gerealiseerd**.
 
 Status na codewijziging: alle bovenstaande onderdelen zijn gebouwd, maar echte end-to-end internationale checkoutvergelijkingen en volautomatische persoonlijke contractinvulling zijn **nog te ontwikkelen**. Alleen succesvolle Actions- en Pages-runs bewijzen de technische publicatie, niet dat er al bewezen buitenlandse koopdeals zijn.
+
+## Gerichte bespaarstrategieën en Nederlandse community-inzichten (25 oktober 2026)
+
+- **Bronnen en onderzoeksresultaat:** `bespaarstrategien.json` bevat negen concreet uitvoerbare methoden voor contracten, premiumproducten en verzorging, met officiële pagina's of Reddit-ervaringen, actiepunten en toepassingsvoorwaarden.
+- **Meervoordeel.nl:** geen reguliere webshop met goedkope producten; het platform biedt telecomabonnementen met cadeaus/cashback/promotie. Nieuwe-klantenvoorwaarden, 12/24-maandstotaalprijzen, extra bijbetaling en tijdige cadeauclaim worden gecontroleerd.
+- **De Online Drogist:** officieel verzendbeleid, kortingspercentages ten opzichte van leveranciersadviesprijzen, minimumaantallen bij 1+1, spaarprogramma en beperking bij combineren van kortingscodes worden onderscheiden.
+- **Reddit-onderzoek:** `strategie_scan.py` zoekt tijdens geplande scans herhaalbare tactieken en controleert zes officiële informatiepagina's; nieuwe posts zijn alleen onderzoekskandidaten. De geautomatiseerde Bing/RSS-zoekopdrachten kunnen leeg of geblokkeerd zijn en zijn geen garantie op dekking.
+- **Berekening:** `bespaar-calculator.mjs` vergelijkt bestaande maandlasten over 12/24 maanden met een nieuwe actie, inclusief welkomstkorting, installatiekosten en exclusief gekozen cashback óf persoonlijke bruikbare cadeauwaarde. Geen statistische voorspelling of gerealiseerde besparing.
+- **Mobiele UI:** de bespaarpagina toont standaard de drie meest waardevolle tactieken en op aanvraag de rest, met voorwaarden en primaire links. `bespaar-strategie-ui.mjs` slaat deze calculatorinvoer niet op een openbare GitHub-pagina op.
+- **Automatisch en testbaar:** GitHub Actions controleert bereikbaarheid/termmatches, voert nieuwe Python- en JavaScript-tests uit en publiceert `strategie-scan.json`. `system_health.py` rapporteert deze bronnen als gedeeltelijke functionaliteit, gescheiden van werkelijk behaalde kostenverlaging.
+- **Scope:** voor de hernoemde boodschappen-/receptenrepository wordt geen code gelezen of gewijzigd. Het incidenteel meetrekken van de oude huishoudscanner in Speciale Deals is uit de geplande workflow verwijderd.
+
+**Nog niet gerealiseerd:** automatisch toepassen van kortingscodes, privécontracten inladen, echte gepersonaliseerde provider-offertes vergelijken en automatische claim-/contractacties. Deze worden nooit als voltooid gemarkeerd zonder concrete integratietest.

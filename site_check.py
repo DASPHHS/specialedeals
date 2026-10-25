@@ -133,4 +133,16 @@ for row in data.get("offers",[]):
   raise RuntimeError("Unverified foreign checkout must not be marked all-in")
 if not (ROOT/"PRIVACY-EN-INTEGRATIE.md").exists():
  raise RuntimeError("Private data handling specification missing")
+# Cross-shop article price comparisons are evidence-only, never realized savings.
+comparisons=json.loads((ROOT/"price-comparisons.json").read_text(encoding="utf-8"))
+if not isinstance(comparisons.get("comparisons"),list):raise RuntimeError("Comparison feed missing")
+for entry in comparisons["comparisons"]:
+ if entry.get("allInVerified") is not False or entry.get("purchaseSavingsVerified") is not False:
+  raise RuntimeError("Unverified article price gap cannot be guaranteed saving")
+ if len({x.get("store") for x in entry.get("offers",[])})<2:
+  raise RuntimeError("Cross-shop comparison must involve independent stores")
+ if entry.get("articlePriceDifferenceEUR",0)<=0:
+  raise RuntimeError("Comparison must have a positive documented article price gap")
+if 'id="comparablePrices"' not in index or 'price-comparisons.json' not in index or 'renderPriceComparisons' not in index:
+ raise RuntimeError("Homepage missing comparable product prices")
 print("Website and JSON quality checks passed.")

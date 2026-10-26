@@ -1,160 +1,137 @@
 {
-  "updatedAt": "2026-10-26T08:15:43.151251+00:00",
+  "updatedAt": "2026-10-26T09:12:04.226424+00:00",
   "diagnostics": {
-    "irrelevant": 60,
-    "source_quality": 182,
+    "irrelevant": 61,
+    "source_quality": 172,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "STANLEY FATMAX FMHT0-96230 automatische draadstripper",
-        "url": "https://nl.pepper.com/aanbiedingen/stanley-fatmax-fmht0-96230-automatische-draadstripper-423716",
+        "title": "STABILO point 88 fineliners – 10 standaardkleuren",
+        "url": "https://nl.pepper.com/aanbiedingen/stabilo-point-88-fineliners-10-standaardkleuren-423734",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "MONSTER ENERGY Ultra White Suikervrije Energiedrank - 12 x 500 ml",
-        "url": "https://nl.pepper.com/aanbiedingen/monster-energy-ultra-white-suikervrije-energiedrank-12-x-500-ml-423715",
+        "title": "ONLY & SONS Mark chino shorts (Heren, zwart) - maat S, M en L @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/only-sons-onsmark-chino-shorts-heren-zwart-maat-s-m-en-l-at-bol-423733",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "JOYROOM 15W MagSafe Telefoonhouder & oplader",
-        "url": "https://nl.pepper.com/aanbiedingen/joyroom-15w-magsafe-telefoonhouder-oplader-423714",
+        "title": "Winactie: Win 1 van de 5 exemplaren van GTA 6 voor Xbox of PS5 t.w.v. €79,99",
+        "url": "https://nl.pepper.com/aanbiedingen/winactie-5-gta-6-voor-xbox-of-ps5-423221",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Neutral wasmiddel 1+1 gratis",
-        "url": "https://nl.pepper.com/aanbiedingen/neutral-wasmiddel-11-gratis-423713",
+        "title": "AOC Gaming 25G4SXU monitor | 24,5\" | 310Hz | 1MS | IPS",
+        "url": "https://nl.pepper.com/aanbiedingen/aoc-gaming-25g4sxu-245-310hz-1ms-ips-423732",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Eweka Usenet Unlimited met VPN en 2TB Easynews voor €2,50 per maand",
-        "url": "https://nl.pepper.com/aanbiedingen/eweka-usenet-unlimited-met-vpn-en-2tb-easynews-voor-eur250-per-maand-423712",
+        "title": "Intenso USB-stick 256 GB | USB 3.2 Tot 70MB/s",
+        "url": "https://nl.pepper.com/aanbiedingen/intenso-usb-stick-256-gb-usb-32-tot-70mbs-423731",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Redragon M68 Toetsenbord | Magnetische Switch | 8000Hz polling Rate | Rapid Trigger | US Lay-out",
-        "url": "https://nl.pepper.com/aanbiedingen/redragon-m68-toetsenbord-magnetische-switch-8000hz-polling-rate-rapid-trigger-us-lay-out-423710",
+        "title": "€ 35 korting op alle abonnementen bij Mobiel.nl -te combineren met lopende acties- via ING",
+        "url": "https://nl.pepper.com/aanbiedingen/eur-35-korting-op-alle-abonnementen-bij-mobielnl-te-combineren-gecombineerd-met-lopende-acties-via-ing-423730",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "UWANT D700 nat- en droogzuiger,",
-        "url": "https://nl.pepper.com/aanbiedingen/uwant-d700-nat-en-droogzuiger-423709",
+        "title": "Uniqlo Mid-season Sale: tot 60% korting op jeans, corduroy en jassen voor dames en heren",
+        "url": "https://nl.pepper.com/aanbiedingen/uniqlo-mid-season-sale-tot-60-korting-op-jeans-corduroy-en-jassen-voor-dames-en-heren-423729",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Bosch 6x EXPERT Self Cut Speed speedboorset (voor Zachthout, Spaanplaat, Ø 14-24 mm, Professional Accessoires Boor-/schr",
-        "url": "https://nl.pepper.com/aanbiedingen/bosch-6x-expert-self-cut-speed-speedboorset-voor-zachthout-spaanplaat-o-14-24-mm-professional-accessoires-boor-schroefmachines-423708",
+        "title": "25% korting bij BBQuality! Bijv: Thermapen One voor € 71,21",
+        "url": "https://nl.pepper.com/kortingscode/25-korting-bij-bbquality-bijv-thermapen-one-voor-eur-7121-423728",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Flexispot EG1B zit/sta bureau",
-        "url": "https://nl.pepper.com/aanbiedingen/flexispot-eg1b-zitsta-bureau-423707",
+        "title": "Go-Tan Sriracha (orginal/mayo) voor €1 met Scoupy",
+        "url": "https://nl.pepper.com/aanbiedingen/go-tan-sriracha-orginalmayo-voor-eur1-met-scoupy-423726",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "XXL Nutrition fitmeals | €2,99 per maaltijd! @Dirk vanaf woensdag",
-        "url": "https://nl.pepper.com/aanbiedingen/xxl-nutrition-fitmeals-bij-de-dirk-eur299-per-maaltijd-423706",
+        "title": "[ING] Stunten met Punten - deals voor slechts 1 punt!",
+        "url": "https://nl.pepper.com/aanbiedingen/ing-stunten-met-punten-deals-voor-slechts-1-punt-423725",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Estique fietskleding sale (50% korting)",
-        "url": "https://nl.pepper.com/aanbiedingen/estique-fietskleding-sale-423701",
+        "title": "Dreame X40 Ultra Complete Robotstofzuiger met dweilfunctie en zelfreinigend basisstation @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/dreame-x40-ultra-complete-robotstofzuiger-met-dweilfunctie-en-zelfreinigend-basisstation-at-bol-423724",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Lumo voor Nintendo Switch 1&2 van €19,99 afgeprijsd",
-        "url": "https://nl.pepper.com/aanbiedingen/lumo-voor-nintendo-switch-12-van-eur1999-afgeprijsd-423705",
+        "title": "[tikkie] MadeGood granolareep €2,50 cashback",
+        "url": "https://nl.pepper.com/aanbiedingen/tikkie-madegood-granolareep-eur250-cashback-423722",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Home | Microsoft Careers",
-        "url": "https://careers.microsoft.com/",
+        "title": "Search - Microsoft Bing",
+        "url": "https://www2.bing.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Prague | Microsoft Careers",
-        "url": "https://careers.microsoft.com/professionals/us/en/l-prague",
+        "title": "Zoeken - Microsoft Bing",
+        "url": "https://nl.bing.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Belgrade | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/belgrade.html",
+        "title": "Microsoft Bing - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Bing",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Mexico City | Microsoft Careers",
-        "url": "https://careers.microsoft.com/professionals/us/en/l-mexico-city",
+        "title": "Bing previous versions documentation | Microsoft Learn",
+        "url": "https://learn.microsoft.com/nl-nl/previous-versions/bing/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Dublin | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/dublin.html",
+        "title": "How To See All Bing Related Searches - Techdows",
+        "url": "https://techdows.com/how-to-see-all-bing-related-searches.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Dubai | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/dubai.html",
+        "title": "Microsoft Edge Add-ons - bing+related+search+version",
+        "url": "https://microsoftedge.microsoft.com/addons/search/bing+related+search+version",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Singapore | Microsoft Careers",
-        "url": "https://careers.microsoft.com/professionals/us/en/l-singapore",
+        "title": "Template:Latest stable software release/Microsoft Bing - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Template:Latest_stable_software_release/Microsoft_Bing",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Costa Rica | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/costa-rica.html",
+        "title": "Zoeken - Microsoft Bing",
+        "url": "https://be.bing.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in New York | Microsoft Careers",
-        "url": "https://careers.microsoft.com/professionals/us/en/l-newyork",
+        "title": "How To See All Bing Related Searches | Het Snijpunt",
+        "url": "https://hetsnijpunt.nl/how-to-see-all-bing-related-searches/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Johannesburg | Microsoft Careers",
-        "url": "https://careers.microsoft.com/professionals/us/en/l-johannesburg",
+        "title": "Download Microsoft Bing Search APKs for Android - APKMirror",
+        "url": "https://www.apkmirror.com/apk/microsoft-corporation/bing/",
         "source": "Gerichte winkelscan"
       }
     ]
   },
-  "deals": [
-    {
-      "title": "403° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
-      "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
-      "source": "Pepper Hot",
-      "sourceType": "community",
-      "published": "Mon, 26 Oct 2026 01:45:35 +0100",
-      "price": 66.25,
-      "score": 55,
-      "matched": [
-        "nike"
-      ],
-      "category": "Outdoor & herenkleding",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    }
-  ],
+  "deals": [],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -376,13 +353,13 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 1
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -436,13 +413,13 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -472,7 +449,7 @@
       "source": "Internationale zoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 2
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 5",
@@ -496,7 +473,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +491,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +764,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 243,
-    "personalMatches": 1
+    "scannedItems": 233,
+    "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T08:15:43.151251+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T09:12:04.226424+00:00"
 }

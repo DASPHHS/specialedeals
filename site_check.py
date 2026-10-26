@@ -169,4 +169,16 @@ if "python strategie_scan.py" not in workflow or "node test_bespaar_calculator.m
  raise RuntimeError("Recurring strategy research and tests not configured")
 if "python scripts/household_scan.py" in workflow:
  raise RuntimeError("Grocery scanner must not be called from Kansenkompas")
+# Homepage actions are proven editorial deadlines, never guesses from raw feeds.
+for phrase in ('id="urgentActions"','id="urgentCount"','id="resetActions"','action-queue-ui.mjs'):
+ if phrase not in index:raise RuntimeError("Personal action queue missing "+phrase)
+# Paid savings remain solely local; public backend must never auto-assert receipt.
+savings_page=(ROOT/"besparen.html").read_text(encoding="utf-8")
+for phrase in ('id="ledger"','id="ledgerTotal"','id="ledgerConfirmed"',
+               'id="ledgerAdd"','id="ledgerExport"','savings-ledger-ui.mjs',
+               'id="resaleFeesWrap"','value="resale"'):
+ if phrase not in savings_page:raise RuntimeError("Confirmed savings/gift resale UI missing "+phrase)
+workflow=(ROOT/".github/workflows/scan.yml").read_text(encoding="utf-8")
+for test in ('node test_action_queue.mjs','node test_savings_ledger.mjs','node test_bespaar_calculator.mjs'):
+ if test not in workflow:raise RuntimeError("Savings/action test not scheduled: "+test)
 print("Website and JSON quality checks passed.")

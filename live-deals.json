@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-10-26T07:24:30.741652+00:00",
+  "updatedAt": "2026-10-26T07:25:46.752055+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 171,
+    "source_quality": 190,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
         "title": "XXL Nutrition fitmeals | €2,99 per maaltijd! @Dirk vanaf woensdag",
         "url": "https://nl.pepper.com/aanbiedingen/xxl-nutrition-fitmeals-bij-de-dirk-eur299-per-maaltijd-423706",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Estique fietskleding sale (50% korting)",
+        "url": "https://nl.pepper.com/aanbiedingen/estique-fietskleding-sale-423701",
         "source": "Pepper Nederland"
       },
       {
@@ -70,63 +76,57 @@
         "title": "Brennenstuhl Ecolor 5-voudige Stekkerdoos @ Amazon.nl",
         "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-ecolor-5-voudige-stekkerdoos-423697",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Victorinox Swiss Classic Messenset 3-delig | brood-, schil- en tafelmes",
-        "url": "https://nl.pepper.com/aanbiedingen/victorinox-swiss-classic-keukenmessen-3-delig-brood-schil-en-tafelmes-423696",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Dow Jones INDEX TODAY | DJIA LIVE TICKER | Dow Jones QUOTE & CHART ...",
-        "url": "https://markets.businessinsider.com/index/dow_jones",
+        "title": "대만관광청 한국사무소",
+        "url": "https://www.taiwantour.or.kr/introduction/korean-office.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones Today | DJIA Index Live - Investing.com",
-        "url": "https://www.investing.com/indices/us-30",
+        "title": "为什么海关不许进口印有Made in R.O.C字样的商品，反而可以进口Made in Taiwan？",
+        "url": "https://www.zhihu.com/question/57183466",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones – Trusted News & Data",
-        "url": "https://www.dowjones.com/",
+        "title": "如果当年汉字真的拼音化了会怎么样？ - 知乎",
+        "url": "https://www.zhihu.com/question/48030905",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones Industrial Average (^DJI) - Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EDJI/",
+        "title": "대만관광청 공식 홈페이지",
+        "url": "https://www.taiwantour.or.kr/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones Industrial Average (DJI) - Investing.com India",
-        "url": "https://in.investing.com/indices/us-30",
+        "title": "台湾 - 知乎",
+        "url": "https://www.zhihu.com/topic/19553437/intro",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "DJIA | Dow Jones Industrial Average Overview | MarketWatch",
-        "url": "https://www.marketwatch.com/investing/index/djia",
+        "title": "공지사항 | 대만관광청",
+        "url": "https://www.taiwantour.or.kr/introduction/view.html?id=2374",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones, actuele koersen van de Dow 30 - Beleggen.nl",
-        "url": "https://www.beleggen.nl/koersen/dow_jones.aspx",
+        "title": "台湾为什么又叫Formosa？ - 知乎",
+        "url": "https://www.zhihu.com/question/30828571",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones koers ᐅ Nieuws, analyses & grafieken | Stand Dow Jones vandaag",
-        "url": "https://www.lynx.nl/beurs/beurs-koersen/index/dow-jones/",
+        "title": "대만 소개",
+        "url": "https://www.taiwantour.or.kr/info/introduction.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones aandelen - koersen New York | Het Financieele Dagblad",
-        "url": "https://beurs.fd.nl/aandelen/nyse/dj30/",
+        "title": "台湾人不使用汉语拼音，但是为什么看一些台湾的媒体还有BBC等都是用Taiwan？",
+        "url": "https://www.zhihu.com/question/430467875",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dow Jones Industrial Average - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
+        "title": "如果外国人呛我说什么free tibet或者free taiwan ... - 知乎",
+        "url": "https://www.zhihu.com/question/47123638",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -335,8 +335,8 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -360,8 +360,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -400,8 +400,8 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -450,13 +450,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 232,
+    "scannedItems": 251,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:24:30.741652+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:25:46.752055+00:00"
 }

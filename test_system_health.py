@@ -16,6 +16,24 @@ class HealthTests(unittest.TestCase):
    self.assertEqual(actual['state'],'gedeeltelijk')
    self.assertEqual(actual['personalMatches'],0)
 
+ def test_feed_matches_without_verified_price_not_working(self):
+  import tempfile, json
+  from pathlib import Path
+  from system_health import build
+  now=dt.datetime.now(dt.timezone.utc)
+  with tempfile.TemporaryDirectory() as temp:
+   root=Path(temp)
+   (root/'live-deals.json').write_text(json.dumps({
+    'updatedAt':now.isoformat(),'coverage':{'personalMatches':25},
+    'sources':[{'status':'ok','items':45}]}))
+   (root/'merchant-observations.json').write_text(json.dumps({
+    'offers':[{'allInVerified':False,'marketComparisonVerified':False,
+    'variantVerified':True,'stockStatus':'volgens winkel op voorraad'}]}))
+   result=build(root,now)['modules'][0]
+   self.assertEqual(result['state'],'gedeeltelijk')
+   self.assertEqual(result['personalMatches'],25)
+   self.assertEqual(result['verifiedProductDeals'],0)
+
  def test_fresh_file_with_all_sources_failed_is_not_success(self):
   now=dt.datetime.now(dt.timezone.utc)
   row=assess('test',{'at':now.isoformat(),'rows':[{'status':'error'}]},'at','rows',{'ok'},8,now)

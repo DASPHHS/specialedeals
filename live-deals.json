@@ -1,161 +1,139 @@
 {
-  "updatedAt": "2026-10-26T04:57:36.747911+00:00",
+  "updatedAt": "2026-10-26T07:23:40.614924+00:00",
   "diagnostics": {
-    "irrelevant": 59,
-    "source_quality": 90,
+    "irrelevant": 60,
+    "source_quality": 180,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "Lays chips 300 gram dif soorten @aldi",
-        "url": "https://nl.pepper.com/aanbiedingen/lays-chips-300-gram-dif-soorten-at-aldi-423695",
+        "title": "XXL Nutrition fitmeals | €2,99 per maaltijd! @Dirk vanaf woensdag",
+        "url": "https://nl.pepper.com/aanbiedingen/xxl-nutrition-fitmeals-bij-de-dirk-eur299-per-maaltijd-423706",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Mars- snickers-snickers white - Twix ijs @aldi",
-        "url": "https://nl.pepper.com/aanbiedingen/mars-snickers-snickers-white-twix-ijs-at-aldi-423694",
+        "title": "Lumo voor Nintendo Switch 1&2 van €19,99 afgeprijsd",
+        "url": "https://nl.pepper.com/aanbiedingen/lumo-voor-nintendo-switch-12-van-eur1999-afgeprijsd-423705",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Filterkoffie goud @aldi",
-        "url": "https://nl.pepper.com/aanbiedingen/filterkoffie-goud-at-aldi-423693",
+        "title": "Slimpie limonadesiroop - @Dirk Vanaf woensdag",
+        "url": "https://nl.pepper.com/aanbiedingen/slimpie-limonadesiroop-vanaf-woensdag-28-oktober-423704",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Zalm op huid 500 gram nergens goedkoper@aldi",
-        "url": "https://nl.pepper.com/aanbiedingen/zalm-op-huid-500-gram-nergens-goedkoper-at-aldi-423692",
+        "title": "Feyree EV-lader 32 A 11kW EV-laadstation Type 2 met wifi & RFID @ Joybuy",
+        "url": "https://nl.pepper.com/aanbiedingen/feyree-ev-lader-32-a-11kw-ev-laadstation-type-2-met-wifi-rfid-at-joybuy-417395",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Tomb Raider: Legend - Steam op PC",
-        "url": "https://nl.pepper.com/aanbiedingen/tomb-raider-legend-steam-op-pc-423691",
+        "title": "Stanley 1-93-978 assortimentsdoos (36.5x21.3x15,5 cm) opbergdoos voor bijvoorbeeld schroeven of LEGO",
+        "url": "https://nl.pepper.com/aanbiedingen/stanley-1-93-978-assortimentsdoos-365x213x155-cm-opbergdoos-voor-bijvoorbeeld-schroeven-of-lego-423703",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Grim Fandango Remastered - Steam op PC",
-        "url": "https://nl.pepper.com/aanbiedingen/grim-fandango-remastered-steam-op-pc-423690",
+        "title": "SPAX Universele schroef (4 x 35 mm, 200 stuks)",
+        "url": "https://nl.pepper.com/aanbiedingen/spax-universele-schroef-4-x-35-mm-200-stuks-423702",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "76391",
-        "url": "https://nl.pepper.com/aanbiedingen/76391-423689",
+        "title": "Bosch 8x PRO Impact schroefbitset",
+        "url": "https://nl.pepper.com/aanbiedingen/bosch-8x-pro-impact-schroefbitset-423127",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "72037 LEGO Super Mario Super Mario Kart",
-        "url": "https://nl.pepper.com/aanbiedingen/72037-lego-super-mario-super-mario-kart-laagste-ooit-423688",
+        "title": "Simyo 400 min/sms + 15 GB Sim Only - 2 jaar - €100,- cashback = €4,83 p/m",
+        "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-15-gb-sim-only-2-jaar-eur100-cashback-eur483-pm-423700",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Dreamland - 25% Korting op tal van topmerken! LEGO, Peppa Pig, vTech, Funk en meer",
-        "url": "https://nl.pepper.com/aanbiedingen/dreamland-25-korting-op-tal-van-topmerken-lego-peppa-pig-vtech-funk-en-meer-423687",
+        "title": "Lebara 250 min + 250 sms + 40 GB 5G Sim Only - 2 jaar - € 2,98 p/m",
+        "url": "https://nl.pepper.com/aanbiedingen/lebara-250-min-250-sms-40-gb-5g-sim-only-2-jaar-eur-298-pm-423699",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Dreamland - 25% korting op LEGO Gaming/Harry Potter/Editions/Disney/Creator - bijv. 72051 LEGO Super Mario Donkey Kong -",
-        "url": "https://nl.pepper.com/aanbiedingen/dreamland-25-korting-op-lego-gaming-bijv-423686",
+        "title": "72050 LEGO Mario Kart: Luigi en Mach 8",
+        "url": "https://nl.pepper.com/aanbiedingen/lego-mario-kart-luigi-423698",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[bol.com][select deal] Robijn Wasmiddel - Klein & Krachtig - Color/Stralend wit 2 flessen 78 Wasbeurten - 1+2 gratis €30",
-        "url": "https://nl.pepper.com/aanbiedingen/bolcomselect-deal-robijn-wasmiddel-klein-krachtig-colorstralend-wit-2-flessen-78-wasbeurten-12-gratis-eur3049-dubbele-korting-423685",
+        "title": "Brennenstuhl Ecolor 5-voudige Stekkerdoos @ Amazon.nl",
+        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-ecolor-5-voudige-stekkerdoos-423697",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[Logitech] MX Master 4 + MX Keys S + gratis MINIROLL + draagtasje — effectief €185,98 (bespaar ± €88!)",
-        "url": "https://nl.pepper.com/aanbiedingen/logitech-mx-master-4-mx-keys-s-gratis-miniroll-draagtasje-effectief-eur18598-bespaar-eur88-423666",
+        "title": "Victorinox Swiss Classic Messenset 3-delig | brood-, schil- en tafelmes",
+        "url": "https://nl.pepper.com/aanbiedingen/victorinox-swiss-classic-keukenmessen-3-delig-brood-schil-en-tafelmes-423696",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Officiële website AFC Ajax Amsterdam - Ajax.nl",
-        "url": "https://www.ajax.nl/",
+        "title": "Microsoft campus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Informatie over wedstrijden en uitslagen - Ajax.nl",
-        "url": "https://www.ajax.nl/wedstrijden",
+        "title": "Microsoft Office Locations | About Microsoft",
+        "url": "https://www.microsoft.com/en-us/about/office-locations",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax Showtime - Nieuws over Ajax, Jong Ajax en Ajax-jeugd",
-        "url": "https://www.ajaxshowtime.com/",
+        "title": "Microsoft Research Redmond",
+        "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Official website AFC Ajax Amsterdam - Ajax.nl",
-        "url": "https://english.ajax.nl/",
+        "title": "Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052-8300, US ...",
+        "url": "https://www.mapquest.com/us/washington/microsoft-corporation-12544878",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax Nieuws - het laatste Ajax nieuws uit 1000+ bronnen bij Ajax Headliner",
-        "url": "https://ajax.headliner.nl/",
+        "title": "Microsoft Corporate Headquarters - 1 Microsoft Way, Redmond, WA 98052 ...",
+        "url": "https://businessyab.com/explore/united_states/washington/king_county/redmond/overlake/microsoft_way/1/microsoft-corporate-headquarters-425-882-8080.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "AFC Ajax - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/AFC_Ajax",
+        "title": "Inside 1 Microsoft Way Redmond: The Hidden Architecture of Microsoft’s ...",
+        "url": "https://camcatbooks.com/inside-1-microsoft-way-redmond-the-hidden-architecture-of-microsofts-global-headquarters",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax nieuws, transfers & geruchten | Ajax1",
-        "url": "https://www.ajax1.nl/",
+        "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
+        "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "AFC Ajax - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/AFC_Ajax",
+        "title": "1 Microsoft Way, Redmond - Bing Maps",
+        "url": "https://www.bing.com/maps/search?q=1+Microsoft+Way%2C+Redmond&cp=47.642282%7E-122.136833&lvl=16&style=r",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Hoofdnieuws - Ajax Showtime",
-        "url": "https://www.ajaxshowtime.com/hoofdnieuws",
+        "title": "Driving directions to Microsoft Headquarters, Microsoft Way, One ... - Waze",
+        "url": "https://www.waze.com/nl-BE/live-map/directions/us/wa/redmond/microsoft-headquarters?to=place.ChIJGxUEuHFtkFQRnokD7mkppQE",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax Nieuws | Uitslagen & Achtergronden – AT5",
-        "url": "https://www.at5.nl/ajax",
+        "title": "Microsoft Redmond Campus Refresh",
+        "url": "https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "Nike Air Force 1 '07 LV8 met primera korting €66.25",
-      "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
-      "source": "Pepper Nederland",
-      "sourceType": "community",
-      "published": "Mon, 26 Oct 2026 00:12:47 +0100",
-      "price": 66.25,
-      "score": 55,
-      "matched": [
-        "nike"
-      ],
-      "category": "Outdoor & herenkleding",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
-    {
-      "title": "146° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "319° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -362,18 +340,18 @@
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -382,8 +360,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -397,8 +375,8 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
@@ -407,8 +385,8 @@
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -437,8 +415,8 @@
     },
     {
       "source": "Internationale zoekopdracht 3",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -447,13 +425,13 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -750,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 151,
-    "personalMatches": 2
+    "scannedItems": 241,
+    "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T04:57:36.747911+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:23:40.614924+00:00"
 }

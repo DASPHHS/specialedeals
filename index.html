@@ -146,8 +146,18 @@ function renderSamples(){
  if(!upcoming.length&&!app.samples.length)main.append(el("p","empty","Geen evenementen gepubliceerd voor dit moment."));
 }
 function renderContests(){
- const now=todayNL(),open=app.contests.filter(x=>x.deadline>=now&&(!x.startsAt||x.startsAt<=now)&&x.free===true&&x.purchaseRequired!==true)
-    .sort((a,b)=>a.deadline.localeCompare(b.deadline));
+ const now=todayNL(),current=Date.now(),open=app.contests.filter(x=>{
+   const checked=Date.parse(x.verifiedAt);
+   const conditions=String(x.conditions||"");
+   const included=Array.isArray(x.eligibleCountries)
+      ? x.eligibleCountries.some(y=>["nl","nederland","netherlands"].includes(String(y).toLowerCase()))
+      : x.eligibleFromNetherlands===true ||
+        (x.eligibleFromNetherlands!==false && /(Nederland|Netherlands|wereldwijd|alle nationaliteiten|worldwide|international(?:e)? deelname toegestaan)/i.test(conditions));
+   return x.deadline>=now&&(!x.startsAt||x.startsAt<=now) &&
+     x.free===true && x.purchaseRequired===false && x.reviewRequired!==true &&
+     included && Number.isFinite(checked) && checked<=current && current-checked<=7*86400000 &&
+     validUrl(x.sourceUrl) && validUrl(x.termsUrl) && !!x.organizer && !!x.evidence;
+ }).sort((a,b)=>a.deadline.localeCompare(b.deadline));
  $("contestcount").textContent=open.length;
  const parent=$("featuredContests");parent.replaceChildren();
  for(const x of open.slice(0,3)){

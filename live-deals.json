@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-10-26T07:49:29.405618+00:00",
+  "updatedAt": "2026-10-26T07:51:28.501647+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 179,
+    "source_quality": 171,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Eweka Usenet Unlimited met VPN en 2TB Easynews voor €2,50 per maand",
+        "url": "https://nl.pepper.com/aanbiedingen/eweka-usenet-unlimited-met-vpn-en-2tb-easynews-voor-eur250-per-maand-423712",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Redragon M68 Toetsenbord | Magnetische Switch | 8000Hz polling Rate | Rapid Trigger | US Lay-out",
@@ -70,63 +76,57 @@
         "title": "Bosch 8x PRO Impact schroefbitset",
         "url": "https://nl.pepper.com/aanbiedingen/bosch-8x-pro-impact-schroefbitset-423127",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Simyo 400 min/sms + 15 GB Sim Only - 2 jaar - €100,- cashback = €4,83 p/m",
-        "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-15-gb-sim-only-2-jaar-eur100-cashback-eur483-pm-423700",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Mechanical engineering Recent Questions | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/mechanical-engineering-recent",
+        "title": "Parkeren | Gemeente Zutphen",
+        "url": "https://zutphen.nl/parkeren",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Find the equivalent resistance between terminals a | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/find-equivalent-resistance-terminals-b-figure-figure-1-part-find-equivalent-resistance-ter-q4454034",
+        "title": "Parkeren in de binnenstad | Gemeente Zutphen",
+        "url": "https://zutphen.nl/parkeren/parkeren-binnenstad",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Which of the following events in American foreign - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/following-events-american-foreign-policy-occurred-first-multiple-choice-korean-war-war-kos-q169042104",
+        "title": "Parkeren in Zutphen | Bereikbaarheid, OV & laadpunten",
+        "url": "https://www.inzutphen.nl/nl/plan-je-bezoek/bereikbaarheid-parkeren",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved What were the Oslo Accords?a. an outline that hoped - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/oslo-accords--outline-hoped-bring-peace-middle-east-b-pact-stop-conflict-kosovo-c-commerci-q178093928",
+        "title": "Parkeren in Zutphen – Overzichtskaart met parkeeradvies!",
+        "url": "https://www.prettigparkeren.nl/kaart/#!Zutphen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Sunset Corporation, with E & P of $400,000, makes a - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/sunset-corporation-e-p-400-000-makes-cash-distribution-120-000-shareholder-shareholder-s-b-q15604649",
+        "title": "Parkeerplaatsen in Zutphen - Parkeren in Zutphen",
+        "url": "https://parkereninzutphen.nl/parkeerlocaties-zutphen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Which of the following are examples of presidential | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/following-examples-presidential-dominance-congress-controlling-foreign-policy-check-apply--q76859644",
+        "title": "Parkeren bij Q-Park P+R Station Zutphen | Zutphen",
+        "url": "https://www.q-park.nl/nl-nl/parkeren/zutphen/p-r-station-zutphen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved I am not sure what type of reasoning used in the the - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/sure-type-reasoning-used-statement--see-work-around-world-women-women-international-worthy-q29746548",
+        "title": "Parkeren in Zutphen | Interparking Nederland",
+        "url": "https://www.interparking.nl/nl/parkeren/zutphen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Solved Utilizing the information gleaned from your study of - Chegg",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/utilizing-information-gleaned-study-microstates-outside-sources-find-helpful-evaluate-foll-q94882265",
+        "title": "Parkeren in Zutphen: Alles Wat Je Moet Weten",
+        "url": "https://zutphennu.nl/blog/parkeren-in-zutphen-alles-wat-je-moet-weten/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Which country is far from the big markets? a. | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/country-far-big-markets--vietnam-b-kosovo-c-costa-rica-d-australia-q102345629",
+        "title": "Parkeren in Zutphen 2026: tarieven, tijden en garages | Parkeerbewust",
+        "url": "https://parkeerbewust.nl/steden/zutphen",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Nursing Questions and Answers | Chegg.com",
-        "url": "https://www.chegg.com/homework-help/questions-and-answers/nursing-archive",
+        "title": "Parkeren in Zutphen?",
+        "url": "https://parkereninzutphen.nl/",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -376,13 +376,13 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 9
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -406,13 +406,13 @@
       "source": "Winkelzoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -436,7 +436,7 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -496,7 +496,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +514,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 240,
+    "scannedItems": 232,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:49:29.405618+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:51:28.501647+00:00"
 }

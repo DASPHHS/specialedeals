@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:42:56.213102+00:00",
+  "updatedAt": "2026-10-26T07:44:24.674089+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 114,
+    "source_quality": 161,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Etten-Leur - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-etten-Leur/",
+        "title": "Top 10 Pokemon to get into PvP (And more advices)",
+        "url": "https://forums.pokemmo.com/index.php?/topic/187592-top-10-pokemon-to-get-into-pvp-and-more-advices/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "LOODGIETERS.NL - 24/7 bereikbaar - ☎ 06 - 450 68 077",
-        "url": "https://www.loodgieters.nl/",
+        "title": "Pokémon Champions & VGC Stats - Metagame & Tier Lists - Pokémon Zone",
+        "url": "https://www.pokemon-zone.com/champions/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Radiator vervangen erkende loodgieter | Loodgieters.nl",
-        "url": "https://www.loodgieters.nl/radiator-vervangen/",
+        "title": "PokeMMO Safari Zone Guide - Catch Rates, Flee Rates & Best Strategies ...",
+        "url": "https://synergymmo.com/safari-zones/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Voorburg - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-voorburg/",
+        "title": "PokeMMO Tierlist - Topics - PokeMMO",
+        "url": "https://forums.pokemmo.com/index.php?/topic/118864-pokemmo-tierlist/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Reparatie verwarming erkende loodgieter | Loodgieters.nl",
-        "url": "https://www.loodgieters.nl/reparatie-verwarming-2/",
+        "title": "PokeMMO",
+        "url": "https://pokemmo.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Castricum - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-castricum/",
+        "title": "Team Synergy - PokeMMO Shiny Hunting Community",
+        "url": "https://synergymmo.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Loodgieter Amsterdam - loodgieters.nl - Bel ons op ☎ 06 – 450 68 077",
-        "url": "https://www.loodgieters.nl/loodgieter-amsterdam/",
+        "title": "Top 10 Pokemon Every PokeMMO Player Should Have - YouTube",
+        "url": "https://www.youtube.com/watch?v=CNe61Ry3BfY",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Twello - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-twello/",
+        "title": "Top 25 Pokemon EVERY PokeMMO Player Should Have - YouTube",
+        "url": "https://www.youtube.com/watch?v=2zBMp3f4_Lc",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Amsterdam Noord - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-amsterdam-noord/",
+        "title": "PokeMMO Hub - Pokedex",
+        "url": "https://pokemmohub.com/tools/pokedex/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Nieuwkoop - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-Nieuwkoop/",
+        "title": "PokeMMO PvP Tierlist Season 14 OU Tier List Community Rankings",
+        "url": "https://tiermaker.com/categories/pokemon/pokemmo-pvp-tierlist-season-14-ou-16208481",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -364,7 +364,7 @@
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -376,19 +376,19 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -412,7 +412,7 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -424,25 +424,25 @@
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -466,7 +466,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -478,13 +478,13 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -496,7 +496,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +514,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 175,
+    "scannedItems": 222,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:42:56.213102+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:44:24.674089+00:00"
 }

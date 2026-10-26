@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:34:34.783049+00:00",
+  "updatedAt": "2026-10-26T07:37:09.243784+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 131,
+    "source_quality": 112,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Taiwan - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Taiwan",
+        "title": "Dordseweg 34-A, Weiteveen (7765 AC) - Huispedia.nl",
+        "url": "https://huispedia.nl/weiteveen/7765ac/dordseweg/34-a",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Taiwan - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Taiwan",
+        "title": "Dordseweg 34 - A 7765 AC Weiteveen - LeukHuis.nl",
+        "url": "https://www.leukhuis.nl/weiteveen/7765ac/dordseweg/34-a",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De 8 mooiste bezienswaardigheden van Taiwan | ANWB",
-        "url": "https://www.anwb.nl/vakantie/taiwan/bezienswaardigheden",
+        "title": "Woningwaarde Dordseweg 34 A, 7765AC Weiteveen",
+        "url": "https://woningontdekken.nl/woning/weiteveen/7765ac/dordseweg-34-a/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Taiwan | NU - Het laatste nieuws het eerst op NU.nl",
-        "url": "https://www.nu.nl/tag/taiwan",
+        "title": "Huizenzoeker - Woningmarkt Dordseweg 34",
+        "url": "https://www.huizenzoeker.nl/woningmarkt/drenthe/emmen/weiteveen/dordseweg/34/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Waarom is er strijd om Taiwan? - NPO Kennis",
-        "url": "https://npokennis.nl/longread/8244/waarom-is-er-strijd-om-taiwan",
+        "title": "Weiteveen Dordseweg 34 - alles over de prijs - huisx.nl",
+        "url": "https://huisx.nl/koop/3262755/dordseweg-34/weiteveen",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bezienswaardigheden Taiwan: 10x toffe highlights",
-        "url": "https://www.wearetravellers.nl/azie/taiwan/bezienswaardigheden-taiwan/",
+        "title": "Dordseweg in Weiteveen - AlleCijfers.nl",
+        "url": "https://allecijfers.nl/weg/dordseweg-weiteveen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Geschiedenis van Taiwan - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Taiwan",
+        "title": "Dordseweg, Weiteveen: huizenprijzen & alle woningen - Huispedia.nl",
+        "url": "https://huispedia.nl/weiteveen/dordseweg",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Taiwan | History, Flag, Map, Capital, Population, & Facts | Britannica",
-        "url": "https://www.britannica.com/place/Taiwan",
+        "title": "Dordseweg in Weiteveen - Check dit Huis",
+        "url": "https://www.checkdithuis.nl/weiteveen/dordseweg/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Reisadvies Taiwan | Ministerie van Buitenlandse Zaken - NederlandWereldwijd",
-        "url": "https://www.nederlandwereldwijd.nl/reisadvies/taiwan",
+        "title": "Elk adres in Dordseweg, Weiteveen - KadastraleKaart.com",
+        "url": "https://kadastralekaart.com/woonplaatsen/weiteveen/2000/0114300000201216/adressen",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dode en honderden gewonden door zware orkaan Champi bij Taiwan",
-        "url": "https://nos.nl/artikel/2636396-dode-en-honderden-gewonden-door-zware-orkaan-champi-bij-taiwan",
+        "title": "Dordseweg in Weiteveen - OpenKaartData",
+        "url": "https://openkaartdata.nl/plaats/weiteveen/dordseweg",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "328° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "334° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -330,13 +330,13 @@
     },
     {
       "source": "Winkelzoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -350,8 +350,8 @@
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -361,7 +361,7 @@
     {
       "source": "Winkelzoekopdracht 7",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -375,18 +375,18 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
       "status": "ok",
-      "items": 10
+      "items": 8
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -405,8 +405,8 @@
     },
     {
       "source": "Internationale zoekopdracht 1",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 192,
+    "scannedItems": 173,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:34:34.783049+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:37:09.243784+00:00"
 }

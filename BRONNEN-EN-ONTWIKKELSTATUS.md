@@ -76,3 +76,35 @@ Publicatiebotsing vastgesteld in run 40193373320: beide scanners lazen de event-
 ## Directe winactiebronnen
 
 `contest-sources.json` registreert vier directe HTML-overzichten: GratiZ, Prijsvragen.nl auto, Prijsvragen.nl reizen en Winacties.nl reizen. `contest_scan.py` leest deze naast de bestaande meertalige zoekopdrachten. Iedere kandidaat bewaart vindplaats en bronnaam. Bekende trackinglinks worden uitgesloten. De bronstatus meldt uitleesfouten en lege resultaten. Dit zijn HTML-adapters, geen geclaimde publieke API's. De bron garandeert geen actuele deadline of NL-toelating: inhoudelijke controle blijft vereist voordat een kandidaat in 'Gecontroleerd en open' terechtkomt. De standaardweergave toont alle gevonden acties met zichtbare status. Filters omvatten langdurig gratis producten, cadeaubonnen, hotels/wellness en sport/fietsen.
+
+
+## Verificatie en prioriteiten per 26 oktober 2026
+
+**Technisch getest**
+
+- `scan.yml` en `ai-kansen.yml`: daadwerkelijke GitHub Actions-runs opnieuw succesvol; `site_check.py`, Node- en Python-regressietests doorlopen.
+- GitHub-publicatiecontrole: bij gelijktijdige wijzigingen kan de push mislukken. Beide publicerende scanworkflows gebruiken nu maximaal vijf veilige fetch/rebase/push-herpogingen. De eigenaar-issue voor alerts is via dezelfde concurrency-groep geserialiseerd.
+- Homepage heeft nu eerst een deadlinegerichte actielijst van recent gedocumenteerde Nederlandse/toegankelijke gratis winacties en aangekondigde sample sales. Verbergen is een lokale voorkeur, geen claim van inschrijving. Dubbele kaartenlijsten staan ingeklapt.
+- Contractvergelijking: 12/24-maandskosten en cashback/cadeau/geschatte doorverkoop na kosten; nooit een gegarandeerde financiële opbrengst.
+- Privé-bespaarteller: alleen door gebruiker bevestigde, daadwerkelijk betaalde eindprijzen in browseropslag op dat apparaat, met export/wissen. Een totaal op de homepage is alleen zelfrapportage. Geen veilige synchronisatie tussen apparaten.
+- Reddit: naast zoekmachine-RSS worden publieke officiële r/zuinig en r/frugal Atom-feeds op relevante onderwerpen onderzocht; nieuwe posts blijven alleen onderzoekskandidaten. r/frugal geeft op de eerste run HTTP 429, dat wordt als beperking gemeld.
+- De businesslogica telt nu alleen inhoudelijk relevante merk-/producthits voor de 59 gerichte zoekopdrachten. Een Bing-pagina met tien Ajax-resultaten is niet tien gevonden deals. Bij afwezigheid van onafhankelijke totale prijsbewijzen wordt Deals **gedeeltelijk** en niet *werkt*.
+
+**Werkelijke resultaten / onbevestigd**
+
+- Laatste gecontroleerde productzoektocht rond 26 oktober: circa 151–215 ruwe vermeldingen, ongeveer 1–2 persoonlijke feedvondsten, **nul** onafhankelijke, volledig controleerbare koopdeals. Er is één exact EAN-prijsverschil van €1,50 bij Weleda Skin Food 75 ml gevonden, exclusief niet-gevalideerde vracht.
+- Zes recente aangekondigde sample sales in de agenda. Exacte herenmaat, aanwezigheid, tickets en korting moeten per evenement worden gecontroleerd.
+- Achttien redactioneel geregistreerde winacties en veel meer onbevestigde kandidaatvondsten. Geen garantie op deelname of winst. Een al ingezonden actie wordt niet automatisch als ingediend geregistreerd vanuit GitHub Pages.
+- Drie nieuwe Reddit-posts gevonden over refurbished Miele, kortingscodesites en Meervoordeel overstappen. Dit zijn nog **onbevestigde** ideeën, geen automatisch toepasbare persoonlijke aanbiedingen.
+- E-mail: één Gmail-verzonden `Speciale Deals | Dagoverzicht` op 25 oktober aangetroffen. Elke dag daadwerkelijk versturen, ontvangen en dedupliceren is nog niet end-to-end bewezen.
+
+**Nog open en daarom niet als 'werkt' markeren**
+
+1. Breed actuele, aantoonbaar betere all-in prijzen per exacte maat/SKU inclusief buitenlandse verzending.
+2. Betrouwbare gestandaardiseerde bronfeeds, niet uitsluitend RSS-hitlijsten; branche-API's vereisen geautoriseerde toegang.
+3. E-mail en iPhone-notificaties volledig verifiëren, inclusief ontvangen bericht, anti-dubbel en gebruikersinstellingen.
+4. Privécontracten automatisch en veilig synchroniseren, eigen offerte vergelijken, hypotheekrente onder 3,6% controleren via betrouwbare banktarieven.
+5. Apparaatoverstijgende privébesparingen en deelnamehistorie, alsook werkelijk uitvoerbare AI-integraties via passende autorisatie.
+6. Browsertests op echte iPhones en andere mobiele apparaten, niet uitsluitend code- en JSON-regressietests.
+
+**Afbakening blijft absoluut:** geen wijzigingen, synchronisatie, migratie of aanroepen naar de afzonderlijke hernoemde supermarkt- en receptenrepository.

@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:51:28.501647+00:00",
+  "updatedAt": "2026-10-26T07:52:19.154817+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 171,
+    "source_quality": 113,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Parkeren | Gemeente Zutphen",
-        "url": "https://zutphen.nl/parkeren",
+        "title": "Polaroid US | Official Online Store",
+        "url": "https://www.polaroid.com/en_us",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in de binnenstad | Gemeente Zutphen",
-        "url": "https://zutphen.nl/parkeren/parkeren-binnenstad",
+        "title": "Contactez-nous | Polaroid EU",
+        "url": "https://www.polaroid.com/fr_fr/contact",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen | Bereikbaarheid, OV & laadpunten",
-        "url": "https://www.inzutphen.nl/nl/plan-je-bezoek/bereikbaarheid-parkeren",
+        "title": "User manual and quick start guide of Polaroid Go camera",
+        "url": "https://support.polaroid.com/hc/en-us/articles/360021436580-User-manual-and-quick-start-guide-of-Polaroid-Go-camera",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen – Overzichtskaart met parkeeradvies!",
-        "url": "https://www.prettigparkeren.nl/kaart/#!Zutphen/",
+        "title": "Returns & Exchanges – Polaroid Support",
+        "url": "https://support.polaroid.com/hc/en-us/sections/115003361647-Returns-Exchanges",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeerplaatsen in Zutphen - Parkeren in Zutphen",
-        "url": "https://parkereninzutphen.nl/parkeerlocaties-zutphen/",
+        "title": "Polaroid Newsroom",
+        "url": "https://press.polaroid.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren bij Q-Park P+R Station Zutphen | Zutphen",
-        "url": "https://www.q-park.nl/nl-nl/parkeren/zutphen/p-r-station-zutphen/",
+        "title": "Polaroid Instant Cameras and Film – Polaroid UK",
+        "url": "https://shop-uk.polaroid.com/?rfsn=550557.16c7b",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen | Interparking Nederland",
-        "url": "https://www.interparking.nl/nl/parkeren/zutphen/",
+        "title": "About Us | Polaroid Newsroom",
+        "url": "https://press.polaroid.com/about/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen: Alles Wat Je Moet Weten",
-        "url": "https://zutphennu.nl/blog/parkeren-in-zutphen-alles-wat-je-moet-weten/",
+        "title": "Find your Polaroid camera. – Polaroid UK",
+        "url": "https://shop-uk.polaroid.com/pages/find-your-polaroid-camera",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen 2026: tarieven, tijden en garages | Parkeerbewust",
-        "url": "https://parkeerbewust.nl/steden/zutphen",
+        "title": "About Us – Polaroid EU",
+        "url": "https://shop.polaroid.com/pages/about-us",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Parkeren in Zutphen?",
-        "url": "https://parkereninzutphen.nl/",
+        "title": "Handle file download from Ajax POST - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/16086162/handle-file-download-from-ajax-post",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -364,19 +364,19 @@
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 9
     },
     {
       "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -388,7 +388,7 @@
       "source": "Winkelzoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -400,19 +400,19 @@
       "source": "Winkelzoekopdracht 7",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -424,7 +424,7 @@
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -436,13 +436,13 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -466,7 +466,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -478,25 +478,25 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +514,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 232,
+    "scannedItems": 174,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:51:28.501647+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:52:19.154817+00:00"
 }

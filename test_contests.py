@@ -19,3 +19,17 @@ class DirectSources(unittest.TestCase):
   self.assertEqual(len(p.rows),1)
   self.assertEqual(classify(p.rows[0]['title']),'Lang gratis')
   self.assertEqual(p.rows[0]['discoveredVia'],'https://example.org/list')
+
+class MitspielSourceTests(unittest.TestCase):
+ def test_mitspiel_internal_detail_links_are_candidates_only(self):
+  from contest_scan import ContestLinks
+  p=ContestLinks({'url':'https://mitspiel.nl/winacties','name':'Mitspiel Nederland winacties'})
+  p.feed('<a href="/winacties/win-anwb-reischeque-23905">Win: ANWB-reischeque van 5000 euro</a>'
+         '<a href="/winacties">Alle winacties bekijken</a>'
+         '<a href="/mitspiel-club">Registreer voor slimme alerts</a>')
+  self.assertEqual(len(p.rows),1)
+  self.assertEqual(p.rows[0]['url'],'https://mitspiel.nl/winacties/win-anwb-reischeque-23905')
+  lead=build(p.rows,'2026-10-26T12:00:00Z')[0]
+  self.assertEqual(lead['status'],'candidate')
+  self.assertNotIn('eligible',lead)
+  self.assertIn('nog niet bevestigd',lead['reason'].lower())

@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-10-26T15:20:09.607429+00:00",
+  "updatedAt": "2026-10-26T21:05:00.754741+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-26T15:19:49.148387+00:00",
+      "checkedAt": "2026-10-26T21:04:38.238903+00:00",
       "maxAgeHours": 8,
-      "successful": 36,
-      "unsuccessful": 25,
+      "successful": 61,
+      "unsuccessful": 0,
       "total": 61,
-      "personalMatches": 1,
+      "personalMatches": 4,
       "verifiedProductDeals": 0,
-      "contributingQueries": 0,
+      "contributingQueries": 1,
       "totalTargetedQueries": 59,
-      "detail": "1 onbevestigde persoonlijke feedvondsten; 0 onafhankelijk gecontroleerde koopdeals. 0/59 gerichte zoekopdrachten met relevante resultaten. Een geslaagde bronopvraag is geen bewezen koopkans."
+      "detail": "4 onbevestigde persoonlijke feedvondsten; 0 onafhankelijk gecontroleerde koopdeals. 1/59 gerichte zoekopdrachten met relevante resultaten. Een geslaagde bronopvraag is geen bewezen koopkans."
     },
     {
       "name": "Productprijzen controleren",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-26T15:19:49.252437+00:00",
+      "checkedAt": "2026-10-26T21:04:38.330371+00:00",
       "maxAgeHours": 8,
-      "successful": 18,
-      "unsuccessful": 4,
+      "successful": 16,
+      "unsuccessful": 6,
       "total": 22
     },
     {
       "name": "Winacties ontdekken",
-      "state": "gedeeltelijk",
-      "checkedAt": "2026-10-26T15:16:26.336705+00:00",
+      "state": "werkt",
+      "checkedAt": "2026-10-26T21:04:14.626575+00:00",
       "maxAgeHours": 8,
-      "successful": 28,
-      "unsuccessful": 1,
+      "successful": 29,
+      "unsuccessful": 0,
       "total": 29
     },
     {

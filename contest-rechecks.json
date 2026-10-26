@@ -1,28 +1,29 @@
 {
-  "updatedAt": "2026-10-26T15:16:26.450317+00:00",
+  "updatedAt": "2026-10-26T21:04:14.748373+00:00",
   "verificationLevel": "technical_recheck_only",
   "reviews": [
     {
       "id": "anwb-luik-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/kerst-luik-social",
           "status": "reachable",
-          "contentHash": "f3a9819bf244005ef1bca5de8ca7ae62c20c7fc1d965ec0a2208fcf7d0614d37",
-          "changed": false
+          "contentHash": "b81566867f8e8d1da1dec53269deb85122363778b73d5da731ef6d11ca325f82",
+          "changed": true
         },
         {
           "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
           "status": "reachable",
-          "contentHash": "5404c1c381260acf272beb4ed5e83cb98948a9d0c2e3447d82dd153788ba0c5b",
-          "changed": false
+          "contentHash": "6e05c3eaae8f6fc036ee3451f8654e59a919d3d62f7163f2010b2904461a4edf",
+          "changed": true
         }
       ],
       "reviewRequired": true,
       "reasons": [
         "expired",
+        "page_changed",
         "entry_limit_not_documented",
         "explicit_nl_evidence_missing",
         "cost_evidence_missing"
@@ -31,20 +32,20 @@
     },
     {
       "id": "anwb-houffalize-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.anwb.nl/eropuit/weekendje-weg/winactie/houffalize",
           "status": "reachable",
-          "contentHash": "7334ef241316022758bb173ce213cabc4d7016e7d457277810d251a6e62a3c81",
+          "contentHash": "53f0da0bed945ad7defc117fc6c37f1d95f6f732b52ee7754cde404436f91532",
           "changed": true
         },
         {
           "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
           "status": "reachable",
-          "contentHash": "5404c1c381260acf272beb4ed5e83cb98948a9d0c2e3447d82dd153788ba0c5b",
-          "changed": false
+          "contentHash": "6e05c3eaae8f6fc036ee3451f8654e59a919d3d62f7163f2010b2904461a4edf",
+          "changed": true
         }
       ],
       "reviewRequired": true,
@@ -58,13 +59,13 @@
     },
     {
       "id": "anwb-droomvakantie-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
           "status": "reachable",
-          "contentHash": "48c2e87be962bf7c09ed8e7d406c7e74bf64f3d6b7cf6ec93d06c21cc4bf6ce2",
+          "contentHash": "5edc9dd8ae26e8aa3e9b618bd975a4b7d4a29c21bedc76fd6b8a561dfd9e29be",
           "changed": true
         }
       ],
@@ -76,7 +77,7 @@
     },
     {
       "id": "wibra-topolino-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
@@ -92,13 +93,13 @@
     },
     {
       "id": "mtb-night-bergschenhoek-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.mtbroutes.nl/win-2-tickets-voor-de-lezyne-night-ride-in-bergschenhoek",
           "status": "reachable",
-          "contentHash": "4e96bef267c3e59b69434aa510de7035f56eb9583547640469b774e6dd8ff9be",
+          "contentHash": "252581c6a7686462a12026c493634567278ba287df547ca772d8dddc1e02b56f",
           "changed": true
         }
       ],
@@ -114,17 +115,18 @@
     },
     {
       "id": "basiq-auto-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://basiq-carcleaning.nl/winactie/",
-          "status": "unavailable"
+          "status": "reachable",
+          "contentHash": "2df3462eb5c8b479704df96dd63bb59318a3cb01bef67b9688af3bba14005503",
+          "changed": null
         }
       ],
       "reviewRequired": true,
       "reasons": [
-        "official_page_unavailable",
         "entry_limit_not_documented",
         "explicit_nl_evidence_missing",
         "cost_evidence_missing"
@@ -133,18 +135,19 @@
     },
     {
       "id": "rijneke-woondroom-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://rijneke.nl/event/oktober-woonmaand-op-de-rijneke-boulevard/",
           "status": "reachable",
-          "contentHash": "4da0eb4b50a096bd6d7c97851c921bc93e1d1581672df98c893504ee6386f5be",
-          "changed": false
+          "contentHash": "7d380541b6324cc320e886c19a49563af61ffe1fd956ea214fc5ac3fc8940563",
+          "changed": true
         }
       ],
       "reviewRequired": true,
       "reasons": [
+        "page_changed",
         "entry_limit_not_documented",
         "explicit_nl_evidence_missing",
         "cost_evidence_missing"
@@ -153,13 +156,13 @@
     },
     {
       "id": "goodroll-laufen-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://thegoodroll.nl/pages/laufen-x-the-good-roll-giveaway-1",
           "status": "reachable",
-          "contentHash": "4b1eb5fd595341bc9e345ad48cb4d53cd4a96e007c7fc000316e6d068e008ed4",
+          "contentHash": "c8e3e0eabfa3489e9dbc492c01ce4e88dcb4973e8436110992782c4ed4259c3a",
           "changed": true
         }
       ],
@@ -174,17 +177,18 @@
     },
     {
       "id": "disnieuws-pirates-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://disnieuws.nl/win-de-pirates-ofd-the-caribbean-3-movie-hi-def-collection-op-blu-ray/",
-          "status": "unavailable"
+          "status": "reachable",
+          "contentHash": "1d88c2f76a08de4fb2726e095d7075b7feb6e7536e199cbc7ee0008db0383714",
+          "changed": null
         }
       ],
       "reviewRequired": true,
       "reasons": [
-        "official_page_unavailable",
         "entry_limit_not_documented",
         "explicit_nl_evidence_missing",
         "cost_evidence_missing"
@@ -193,13 +197,13 @@
     },
     {
       "id": "ah-blijdorp-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.ah.nl/acties/winacties/blijdorp",
           "status": "reachable",
-          "contentHash": "c48252229da9e28a9dbac60269563f8da957f034d8f0ad4c6905f0cd6465042e",
+          "contentHash": "7739e5683414907ff55b8a6144b2b27f68865fceee56476fb86c6281c1b643f7",
           "changed": true
         },
         {
@@ -220,19 +224,19 @@
     },
     {
       "id": "vakantiepiraten-rad-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://highlights.vakantiepiraten.nl/draai-aan-het-rad-en-win-een-luxe-vakantie",
           "status": "reachable",
-          "contentHash": "92908af3a58e761898cad34e42c943a5cf89c2a1a0c91f004ff7f62eafd565a5",
+          "contentHash": "f368628b6aee505e299985d88476dd231a43622626241779b2852d9609c82d20",
           "changed": true
         },
         {
           "url": "https://www.vakantiepiraten.nl/juridisch/deelnamevoorwaarden-prijsvraag",
           "status": "reachable",
-          "contentHash": "d2ea9d69e765c4ed4ba8454f889b28a349d03a09b1219f943631b82e16e84c2c",
+          "contentHash": "b75511bac18f3e7adf946532a9cde4829da701248e45e2377b5134aad4a29773",
           "changed": true
         }
       ],
@@ -247,13 +251,13 @@
     },
     {
       "id": "columbus-nedersaksen-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.columbusmagazine.nl/thema/quizzen/artikel/104068/quiz-win-stedentrip-nedersaksen/",
           "status": "reachable",
-          "contentHash": "3e0a4dc2565d18e76235450dfb0e40145b0a1feb707c27561c5bfe2df5d5057e",
+          "contentHash": "c2af8c68f3736e5020fd51a4b27461139d4cb20b6c5b53445ba77a94188d8dc2",
           "changed": true
         },
         {
@@ -274,13 +278,13 @@
     },
     {
       "id": "columbus-bosquiz-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.columbusmagazine.nl/thema/quizzen/artikel/103085/grote-nederlandse-bosquiz/",
           "status": "reachable",
-          "contentHash": "758db8424f6cfafafaef1a815c9e28c78a01b99f87f299227bf9e9e2c9ccf86d",
+          "contentHash": "edb691e3b9a189a70c0d5e200fc17c273d988d77fa060a82254f62b733f07e3a",
           "changed": true
         },
         {
@@ -301,7 +305,7 @@
     },
     {
       "id": "meribel-xmas-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
@@ -323,13 +327,13 @@
     },
     {
       "id": "wanderlust-awards-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.wanderlustmagazine.com/wanderlust-reader-travel-awards-2026-prize-draw-terms-and-conditions/",
           "status": "reachable",
-          "contentHash": "0b6b52efd56805f52159c34d5c0c487a87e1119638dc8ba435c03e5e3b549357",
+          "contentHash": "a3946a6cdd607fa227697f966f9201c44104c8c93045793fc43b2a623ab6f33f",
           "changed": true
         }
       ],
@@ -343,7 +347,7 @@
     },
     {
       "id": "pme-jacket-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
@@ -363,13 +367,13 @@
     },
     {
       "id": "tinge-lovelogic-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.tingeworld.com/post/lovelogic-sticker-giveaway",
           "status": "reachable",
-          "contentHash": "160556abc31ce84ed58b869ffc6b8239ae6e6e65bff646ea22d823df3a9c38b4",
+          "contentHash": "64bdbe0857456f296ba0826a1e5c9e48a86013edd7454808e3ae32693dc2c569",
           "changed": true
         }
       ],
@@ -384,13 +388,13 @@
     },
     {
       "id": "vaillant-energiekosten-2026",
-      "checkedAt": "2026-10-26T15:16:26.450317+00:00",
+      "checkedAt": "2026-10-26T21:04:14.748373+00:00",
       "verificationLevel": "technical_recheck_only",
       "pages": [
         {
           "url": "https://www.vaillant.nl/winactie/",
           "status": "reachable",
-          "contentHash": "75d939fce94b5f52059c437fb3c6a9f9b56feedd07aff580a3d9b0cdcfaec841",
+          "contentHash": "1b313ee56fcfa7c6b9f161771410dc17ae00693aa6de35cae6cb30609cabdab3",
           "changed": true
         },
         {

@@ -1,149 +1,215 @@
 {
-  "updatedAt": "2026-10-26T15:19:49.148387+00:00",
+  "updatedAt": "2026-10-26T21:04:38.238903+00:00",
   "diagnostics": {
     "irrelevant": 59,
-    "source_quality": 181,
+    "source_quality": 123,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "1+1 gratis op geselecteerde Seepje voordeelverpakkingen bij bol",
-        "url": "https://nl.pepper.com/aanbiedingen/11-gratis-op-geselecteerde-seepje-voordeelverpakkingen-bij-bol-423810",
+        "title": "Heelys (schoenen met wieltjes) scherp geprijsd",
+        "url": "https://nl.pepper.com/aanbiedingen/heelys-schoenen-met-wieltjes-scherp-geprijsd-423848",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Tot 40% korting op Leatt MX-laarzen bij Bike-Mailorder",
-        "url": "https://nl.pepper.com/aanbiedingen/tot-40-korting-op-leatt-mx-laarzen-bij-bike-mailorder-423797",
+        "title": "Filterkoffie goud 2x 500 gram - Lidl",
+        "url": "https://nl.pepper.com/aanbiedingen/filterkoffie-goud-2x-500-gram-lidl-423844",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Philips 50PUS8001/12 Ambilight 50\" 4K Ultra HD LED Smart TV (2026) @ Coolblue",
-        "url": "https://nl.pepper.com/aanbiedingen/philips-50pus800112-ambilight-50-4k-ultra-hd-led-smart-tv-2026-at-coolblue-423809",
+        "title": "[action] Alpina pizza airfryer €39,95",
+        "url": "https://nl.pepper.com/aanbiedingen/action-alpina-pizza-airfryer-eur3995-423846",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Verzenddozen formaat A5 (5 stuks) nieuw bij Action",
-        "url": "https://nl.pepper.com/aanbiedingen/verzenddozen-formaat-a5-5-stuks-nieuw-bij-action-423808",
+        "title": "[action] 2-in-1 meegroei kinderwagen - taupe €79,95",
+        "url": "https://nl.pepper.com/aanbiedingen/action-2-in-1-meegroei-kinderwagen-taupe-eur7995-423845",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Gratis Hak Easy Eats! Scoupy Albert Heijn",
-        "url": "https://nl.pepper.com/aanbiedingen/gratis-hak-happy-eats-via-woolsocks-423802",
+        "title": "Jean Paul Gaultier Le Male Homme Eau de Toilette 75ml",
+        "url": "https://nl.pepper.com/aanbiedingen/jean-paul-gaultier-le-male-homme-eau-de-toilette-75ml-423842",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "50% korting op geselecteerde kinderkledingsets voor jongens en meisjes met o.a. Nijntje @ HEMA",
-        "url": "https://nl.pepper.com/aanbiedingen/50-korting-op-geselecteerde-kinderkledingsets-voor-jongens-en-meisjes-met-oa-nijntje-at-hema-423806",
+        "title": "Prijzenoorlog: AH Stroopwafels (390 gram) nu €0,36 (in Belgie €1,79). Precies dezelfde stroopwafel in Terra verpakking €",
+        "url": "https://nl.pepper.com/aanbiedingen/stroopwafels-423841",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Sophia Mae archive sale vanavond om 19:00 uur",
-        "url": "https://nl.pepper.com/aanbiedingen/sophia-mea-archive-sale-vanavond-om-1900-uur-423804",
+        "title": "Segway Superscooter Elektrische Step | GT3 E zwart",
+        "url": "https://nl.pepper.com/aanbiedingen/segway-superscooter-elektrische-step-gt3-e-zwart-423838",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Sloggi Basic+ Midi slips dames 4-pack (wit of zwart, maat 36 t/m 44)",
-        "url": "https://nl.pepper.com/aanbiedingen/sloggi-basic-midi-slips-dames-4-pack-wit-of-zwart-maat-36-tm-44-423757",
+        "title": "Alle AH Flesvoeding standaard 2 t/m 5 -25% korting",
+        "url": "https://nl.pepper.com/aanbiedingen/alle-ah-flesvoeding-standaard-2-tm-5-25-korting-423839",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Alle acties uit de McDonald’s December Kalender 2026",
-        "url": "https://nl.pepper.com/aanbiedingen/alle-acties-uit-de-mcdonalds-december-kalender-2026-423799",
+        "title": "Alleen vanavond (26/10/2026) 25% korting bij Douglas",
+        "url": "https://nl.pepper.com/aanbiedingen/alleen-vanavond-26102026-25-korting-bij-douglas-423833",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Industriepapier cellulose Kurtt - 2km aan poetspapier @ Bol (externe verkoper)",
-        "url": "https://nl.pepper.com/aanbiedingen/industriepapier-cellulose-kurtt-staffelprijs-error-2km-aan-poetspapier-423785",
+        "title": "Belegd Broodje deze week 3,95 bij Esso tankstations",
+        "url": "https://nl.pepper.com/aanbiedingen/belegd-broodje-deze-week-395-423831",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Medisana MCG 800 Shiatsu massagekussen voor € 16,95",
-        "url": "https://nl.pepper.com/aanbiedingen/medisana-mcg-800-shiatsu-massagekussen-voor-eur-1695-423803",
+        "title": "WOOOD eetkamerstoel Noelle off-white bouclé stof",
+        "url": "https://nl.pepper.com/aanbiedingen/woood-eetkamerstoel-noelle-off-white-boucle-stof-423837",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Charlotte Tilbury 15% korting + gratis verzending op je eerste bestelling via de officiële webshop.",
-        "url": "https://nl.pepper.com/kortingscode/charlotte-tilbury-15-korting-gratis-verzending-op-je-eerste-bestelling-via-de-officiele-webshop-423800",
+        "title": "KARWEI fauteuil Indy legergroen metaal",
+        "url": "https://nl.pepper.com/aanbiedingen/karwei-fauteuil-indy-legergroen-metaal-423836",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Monitor on-premises Microsoft Entra Password Protection - Microsoft ...",
-        "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
+        "title": "Pizza bestel je bij Dominos | Honour the Craving",
+        "url": "https://www.dominos.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Entra-wachtwoordbeveiliging on-premises monitoren - Microsoft ...",
-        "url": "https://learn.microsoft.com/nl-nl/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
+        "title": "30 X beste pizza's in Amsterdam // Your Little Black Book",
+        "url": "https://www.yourlittleblackbook.me/beste-pizza-amsterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Monitor on-premises Microsoft Entra Password Protection",
-        "url": "https://docs.azure.cn/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
+        "title": "Pazzi | Authentic Italian Pizza | Amsterdam",
+        "url": "https://www.pazziamsterdam.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Troubleshoot: On-premises Microsoft Entra Password Protection",
-        "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-troubleshoot",
+        "title": "Pizza bestellen doe je online via New York Pizza",
+        "url": "https://www.newyorkpizza.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Learn about the audit logs in Microsoft Entra ID - Microsoft Entra ID",
-        "url": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-audit-logs",
+        "title": "Pizza - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Pizza",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "entra-docs-hybrid-admin-role/docs/identity/authentication/howto ...",
-        "url": "https://github.com/msft-erzhan/entra-docs-hybrid-admin-role/blob/main/docs/identity/authentication/howto-password-ban-bad-on-premises-monitor.md",
+        "title": "Europizza Amsterdam Noord | Unieke Zuurdesem Pizza & Wijnbar",
+        "url": "https://www.europizza.rest/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "EntraPasswordProtection-Report/PasswordProtectionReport.ps1 at main ...",
-        "url": "https://github.com/robertBreese/EntraPasswordProtection-Report/blob/main/PasswordProtectionReport.ps1",
+        "title": "Pizza bestellen Amsterdam - New York Pizza",
+        "url": "https://www.newyorkpizza.nl/winkels/amsterdam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Troubleshoot on-premises Microsoft Entra Password Protection",
-        "url": "https://docs.azure.cn/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-troubleshoot",
+        "title": "Bestel nu je pizza bij Amsterdam Noord. | Dominos Pizza",
+        "url": "https://www.dominos.nl/winkel/nl-amsterdamnoord-30645",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Configure Microsoft Entra Password Protection for on-premises",
-        "url": "https://www.alitajran.com/microsoft-entra-password-protection/",
+        "title": "Pizzadam | Verse pizza’s snel en lekker",
+        "url": "https://pizzadam.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Entra Password Protection On-Premises AD Setup | EpiFive",
-        "url": "https://www.epifive.com/blog/entra-password-protection-on-premises-ad",
+        "title": "DE 10 BESTE pizza restaurants in Amsterdam - Tripadvisor",
+        "url": "https://www.tripadvisor.nl/Restaurants-g188590-c31-Amsterdam_North_Holland_Province.html",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "226° - adidas Run 70s 2.0 heren sneakers zwart/wit",
-      "url": "https://nl.pepper.com/aanbiedingen/adidas-run-70s-20-heren-sneakers-zwartwit-423769",
+      "title": "Apple AirPods Max USB-C (Midnight) – Laagste prijs ooit!",
+      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-max-usb-c-midnight-laagste-prijs-ooit-423843",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Mon, 26 Oct 2026 20:32:05 +0100",
+      "price": 333.0,
+      "score": 55,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "204° - Apple AirPods Max USB-C (Midnight) – Laagste prijs ooit!",
+      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-max-usb-c-midnight-laagste-prijs-ooit-423843",
       "source": "Pepper Hot",
       "sourceType": "community",
-      "published": "Mon, 26 Oct 2026 13:00:50 +0100",
-      "price": 34.03,
+      "published": "Mon, 26 Oct 2026 20:35:55 +0100",
+      "price": 333.0,
+      "score": 55,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "Apple kondigt iPad mini 2026 aan – inclusief een gigantisch prijskaartje - iCreate",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VSFpEbVdwZVZTVjQyNUZUcFI0M2E3aUVXem11aElKQU1wMXlJSkRYdTZRblNtVG1qOGVXTzVLV3dXdWN6ZU5kX1ZtOHVKYjZfbVNhaFlVaV9FOUVsMmQxYkhXM21kemFyZk5rM3gwQWw?oc=5",
+      "source": "Gerichte merkzoekopdracht",
+      "sourceType": "news",
+      "published": "Mon, 26 Oct 2026 17:28:15 GMT",
+      "price": null,
+      "score": 55,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
+      "source": "Gerichte merkzoekopdracht",
+      "sourceType": "news",
+      "published": "Mon, 26 Oct 2026 07:48:00 GMT",
+      "price": null,
       "score": 43,
       "matched": [
-        "adidas"
+        "apple"
       ],
-      "category": "Outdoor & herenkleding",
+      "category": "Technologie & wonen",
       "discovery": true,
       "priceVerified": false,
       "allInVerified": false,
@@ -170,147 +236,147 @@
     },
     {
       "source": "Merkscan 1",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 2",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 3",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 4",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 5",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 6",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 7",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 8",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 9",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 10",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 11",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 12",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 13",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "ok",
+      "items": 2,
+      "retrieved": 2
     },
     {
       "source": "Merkscan 14",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 15",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 16",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 17",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 18",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 19",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 20",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 21",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 22",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 1
     },
     {
       "source": "Samplezoekopdracht 2",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 3",
@@ -338,9 +404,9 @@
     },
     {
       "source": "Samplezoekopdracht 7",
-      "status": "error",
-      "error": "HTTP Error 503: Service Unavailable",
-      "items": 0
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 8",
@@ -370,13 +436,13 @@
       "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -394,7 +460,7 @@
       "source": "Winkelzoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -412,19 +478,19 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 1
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 9
     },
     {
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -448,7 +514,7 @@
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -466,7 +532,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -478,7 +544,7 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
@@ -496,7 +562,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -508,13 +574,13 @@
       "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +853,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 241,
-    "personalMatches": 1
+    "scannedItems": 186,
+    "personalMatches": 4
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T15:19:49.148387+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T21:04:38.238903+00:00"
 }

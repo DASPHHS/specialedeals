@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:42:12.179837+00:00",
+  "updatedAt": "2026-10-26T07:42:56.213102+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 105,
+    "source_quality": 114,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Microsoft campus - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
+        "title": "Etten-Leur - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-etten-Leur/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Office Locations | About Microsoft",
-        "url": "https://www.microsoft.com/en-us/about/office-locations",
+        "title": "LOODGIETERS.NL - 24/7 bereikbaar - ☎ 06 - 450 68 077",
+        "url": "https://www.loodgieters.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Research Redmond",
-        "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
+        "title": "Radiator vervangen erkende loodgieter | Loodgieters.nl",
+        "url": "https://www.loodgieters.nl/radiator-vervangen/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052-8300, US ...",
-        "url": "https://www.mapquest.com/us/washington/microsoft-corporation-12544878",
+        "title": "Voorburg - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-voorburg/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Redmond Campus Refresh",
-        "url": "https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh",
+        "title": "Reparatie verwarming erkende loodgieter | Loodgieters.nl",
+        "url": "https://www.loodgieters.nl/reparatie-verwarming-2/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Corporate Headquarters - 1 Microsoft Way, Redmond, WA 98052 ...",
-        "url": "https://businessyab.com/explore/united_states/washington/king_county/redmond/overlake/microsoft_way/1/microsoft-corporate-headquarters-425-882-8080.html",
+        "title": "Castricum - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-castricum/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Google Maps",
-        "url": "https://maps.google.com/",
+        "title": "Loodgieter Amsterdam - loodgieters.nl - Bel ons op ☎ 06 – 450 68 077",
+        "url": "https://www.loodgieters.nl/loodgieter-amsterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
-        "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
+        "title": "Twello - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-twello/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Google Maps",
-        "url": "https://www.google.com/maps/search/?hl=nl",
+        "title": "Amsterdam Noord - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-amsterdam-noord/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Where is Microsoft Headquarters? Main Office Address and ... - ZoomInfo",
-        "url": "https://www.zoominfo.com/hq/microsoft-office-address/24904409",
+        "title": "Nieuwkoop - loodgieters.nl",
+        "url": "https://www.loodgieters.nl/loodgieter-Nieuwkoop/",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "335° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "339° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -364,7 +364,7 @@
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -376,13 +376,13 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 1
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -400,7 +400,7 @@
       "source": "Winkelzoekopdracht 7",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -430,7 +430,7 @@
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -448,13 +448,13 @@
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 166,
+    "scannedItems": 175,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:42:12.179837+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:42:56.213102+00:00"
 }

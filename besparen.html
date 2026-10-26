@@ -8,10 +8,10 @@
 <header><a href="./">← Kansenkompas</a><h1>Vaste lasten & bespaarkansen</h1><p class="sub">Je abonnementen, overstapmomenten en jaarlijkse besparingen op één plek. De cijfers blijven uitsluitend in deze browser.</p></header>
 <main>
 <section class="panel"><h2>Jouw bespaarpotentieel</h2><div class="metricgrid">
-<div class="metric"><span class="muted">Ingevoerde huidige kosten per maand</span><strong id="current">—</strong></div>
+<div class="metric"><span class="muted">Ingevoerde maandbetalingen incl. energievoorschot</span><strong id="current">—</strong></div>
 <div class="metric"><span class="muted">Potentieel netto voordeel per 12 maanden</span><strong id="potential">—</strong></div>
 <div class="metric"><span class="muted">Contracten met vervaldatum binnen 60 dagen</span><strong id="soon">—</strong></div>
-</div><p class="muted">Besparingen zijn alleen berekend voor alternatieven die je zelf van een prijs en bron voorziet. Geen live offertes en geen automatische marktdekking.</p></section>
+</div><p class="muted">Besparingen worden alleen berekend voor ingevoerde, vergelijkbare niet-energieoffertes. Energievoorschotten mogen niet worden gebruikt om jaarlijkse energiebesparing te berekenen. Geen live offertes.</p></section>
 <section class="panel" id="ledger"><h2>Mijn daadwerkelijk betaalde besparingen</h2>
 <p class="muted">Registreer alleen een afgeronde aankoop of betaalde factuur. Deze privéregistratie blijft in de browser op dit apparaat en wordt niet naar GitHub verstuurd of met andere apparaten gesynchroniseerd.</p>
 <div class="metricgrid"><div class="metric"><span class="muted">Door jou geregistreerd voordeel</span><strong id="ledgerTotal">€ 0,00</strong><span class="muted" id="ledgerCount">0 geregistreerde besparingen</span></div></div>
@@ -57,8 +57,8 @@
 <p class="muted"><a href="https://meervoordeel.nl/ziggo/korting-of-cadeau" target="_blank" rel="noopener noreferrer">MeerVoordeel: vergelijking van korting en cadeaus</a>. De aanbiedingen kunnen wijzigen. Een Ziggo-cadeau vereist doorgaans een claim na de eerste betaalde factuur, binnen de gestelde deadline; de getoonde acties zijn niet bedoeld voor bestaande Ziggo-klanten.</p>
 </section>
 <section class="panel"><h2>Mijn contracten</h2><p class="muted">Start met internet/tv, mobiel, energie en zorgverzekering. Vul uitsluitend je eigen actuele gegevens in. Energie vergelijken op jaarlijkse totaalkosten en verbruik, niet op alleen het voorschot.</p>
-<div id="contracts"></div><div class="actions"><button id="add">+ Ander abonnement toevoegen</button><button id="clear" class="secondary">Lokale invoer herstellen</button></div>
-<p class="note">Privacy: deze pagina is openbaar, maar je ingevulde bedragen, datums en links worden niet naar GitHub verzonden. Ze worden alleen lokaal opgeslagen op dit apparaat. Gebruik geen wachtwoorden of klantnummers.</p></section>
+<div id="contracts"></div><div class="actions"><button id="importContracts" class="secondary" type="button">Importeer mijn privécontracten</button><input id="contractImportFile" type="file" accept=".json,application/json" hidden><button id="exportContracts" class="secondary" type="button">Exporteer privécontracten</button><button id="add">+ Ander abonnement toevoegen</button><button id="clear" class="secondary">Lokale invoer herstellen</button></div>
+<p id="contractImportStatus" class="muted" role="status" aria-live="polite"></p><p class="note">Privacy: deze pagina is openbaar, maar je ingevulde bedragen, datums en links worden niet naar GitHub verzonden. Ze worden alleen lokaal opgeslagen op dit apparaat. Gebruik geen wachtwoorden of klantnummers.</p></section>
 <section class="panel"><h2>Actuele overstapmomenten</h2><div id="deadlines"></div><p class="muted">Agenda-herinneringen voor de bekende contracten staan al in Google Agenda. Deze site maakt geen extra afspraken en stuurt zelf geen pushberichten.</p></section>
 <section class="panel"><h2>Vergelijken met echte aanbiedingen</h2><div class="linkgrid">
 <a href="https://meervoordeel.nl/" target="_blank" rel="noopener noreferrer">MeerVoordeel</a>
@@ -92,10 +92,10 @@ function daysTo(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s||""))return null;const end=n
 function field(item,label,name,type,placeholder){const box=el("label",null,label),inp=document.createElement("input");inp.type=type;inp.value=item[name]||"";inp.placeholder=placeholder||"";if(type==="number"){inp.step="0.01";inp.min="0"}inp.addEventListener("change",()=>{item[name]=inp.value;save();render()});box.append(inp);return box}
 function render(){const root=$("contracts");root.replaceChildren();let spend=0,countSpend=0,savings=0,countQuotes=0,soon=0;const warnings=[];
  items.forEach((item,i)=>{const wrap=el("div","contract");const h=el("h3",null,item.kind);wrap.append(h);const day=daysTo(item.end);const pill=el("span","pill",day===null?"Einddatum onbekend":day<0?"Verlopen / controleren":day<=60?"Nog "+day+" dagen":"Einddatum over "+day+" dagen");wrap.append(pill);
- const fields=el("div","fields");fields.append(field(item,"Aanbieder","provider","text","Naam aanbieder"),field(item,"Einddatum vaste looptijd","end","date"),field(item,item.kind==="Energie"?"Huidige totale maandkosten (geen voorschot)":"Huidige maandprijs (€)","current","number","Bijv. 40,00"),field(item,"Vergelijkbare nieuwe maandprijs (€)","other","number","Bijv. 29,00"),field(item,"Eenmalige overstap-/installatiekosten (€)","cost","number","0"),field(item,"Link naar alternatieve offerte","source","url","https://..."));wrap.append(fields);
+ const fields=el("div","fields");fields.append(field(item,"Aanbieder","provider","text","Naam aanbieder"),field(item,"Einddatum vaste looptijd","end","date"),field(item,item.kind==="Energie"?"Huidig energievoorschot (€; geen eindprijs)":"Huidige maandprijs (€)","current","number","Bijv. 40,00"),field(item,"Vergelijkbare nieuwe maandprijs (€)","other","number","Bijv. 29,00"),field(item,"Eenmalige overstap-/installatiekosten (€)","cost","number","0"),field(item,"Link naar alternatieve offerte","source","url","https://..."));wrap.append(fields);
  const note=field(item,"Notities / voorwaarden","note","text","Bijv. actieprijs 6 maanden");note.style.marginTop="9px";wrap.append(note);
  const a=number(item.current),b=number(item.other),one=number(item.cost)||0;if(a!==null){spend+=a;countSpend++}if(day!==null&&day<=60&&day>=0)soon++;
- if(a!==null&&b!==null){const val=(a-b)*12-one;const hasSource=/^https:\/\//.test(item.source||"");const out=el("div","output"+(val>0?" good":val<0?" bad":""),euros(val)+" potentieel per 12 maanden"+(!hasSource?" · offertebron ontbreekt":" · offertebron opgegeven"));wrap.append(out);savings+=val;countQuotes++;if(!hasSource)warnings.push(item.kind)}
+ if(a!==null&&b!==null&&item.kind!=="Energie"){const val=(a-b)*12-one;const hasSource=/^https:\/\//.test(item.source||"");const out=el("div","output"+(val>0?" good":val<0?" bad":""),euros(val)+" potentieel per 12 maanden"+(!hasSource?" · offertebron ontbreekt":" · offertebron opgegeven"));wrap.append(out);savings+=val;countQuotes++;if(!hasSource)warnings.push(item.kind)}
  const actions=el("div","actions");if(i>=4){const del=el("button","warn","Verwijder");del.onclick=()=>{items.splice(i,1);save();render()};actions.append(del)}wrap.append(actions);root.append(wrap)});
  $("current").textContent=countSpend?euros(spend):"Nog invullen";$("potential").textContent=countQuotes?euros(savings):"Nog geen offerte";$("soon").textContent=String(soon);
  const deadlines=$("deadlines");deadlines.replaceChildren();const sorted=items.map(x=>({x,d:daysTo(x.end)})).filter(v=>v.d!==null).sort((a,b)=>a.d-b.d);
@@ -105,4 +105,34 @@ function render(){const root=$("contracts");root.replaceChildren();let spend=0,c
 $("add").onclick=()=>{items.push({id:"c"+Date.now(),kind:"Overig abonnement",provider:"",end:"",current:"",other:"",cost:"",source:"",note:""});save();render()};
 $("clear").onclick=()=>{if(confirm("Alle lokaal ingevulde contractgegevens in deze browser wissen?")){items=starters.map(x=>({...x}));save();render()}};
 render();
+
+function validateImportedContracts(data){
+ if(!data || data.format!=="specialedeals-contracts-v1" || !Array.isArray(data.contracts) || data.contracts.length>100)throw Error("Ongeldig privécontractbestand.");
+ const allowed=["id","kind","provider","end","current","other","cost","source","note"];
+ return data.contracts.map((item,i)=>{
+   if(!item || typeof item!=="object" || !["Internet & tv","Mobiel","Energie","Zorgverzekering","Overig abonnement"].includes(item.kind))throw Error("Ongeldige contractcategorie.");
+   const out={};for(const k of allowed){const val=item[k];if(val!==undefined && typeof val!=="string" && typeof val!=="number")throw Error("Ongeldig veld: "+k);out[k]=String(val??"").slice(0,k==="note"?500:250)}
+   if(out.end && !/^\\d{4}-\\d{2}-\\d{2}$/.test(out.end))throw Error("Ongeldige einddatum.");
+   for(const k of ["current","other","cost"]){if(out[k] && (!Number.isFinite(Number(out[k])) || Number(out[k])<0 || Number(out[k])>100000))throw Error("Ongeldige kosten.");}
+   if(out.source && !/^https:\/\//.test(out.source))throw Error("Alleen veilige offerte-URL toegestaan.");
+   out.id=out.id||"import-"+i;return out;
+ });
+}
+$("importContracts").onclick=()=>$("contractImportFile").click();
+$("contractImportFile").onchange=async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{
+   if(file.size>100000)throw Error("Bestand is te groot.");
+   const imported=validateImportedContracts(JSON.parse(await file.text()));
+   if(!imported.length)throw Error("Geen contracten gevonden.");
+   if(!confirm("Vervang lokale contracten door "+imported.length+" geïmporteerde contracten?"))return;
+   items=imported;save();render();
+   $("contractImportStatus").textContent="Contracten lokaal geïmporteerd. Niet naar GitHub verzonden.";
+ }catch(err){$("contractImportStatus").textContent="Import mislukt: "+err.message}
+ finally{e.target.value=""}
+};
+$("exportContracts").onclick=()=>{
+ const blob=new Blob([JSON.stringify({format:"specialedeals-contracts-v1",contracts:items},null,2)],{type:"application/json"});
+ const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="mijn-kansenkompas-contracten.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
 </script><script type="module" src="./bespaar-strategie-ui.mjs"></script><script type="module" src="./savings-ledger-ui.mjs"></script></body></html>

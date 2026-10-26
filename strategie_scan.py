@@ -37,6 +37,10 @@ REDDIT_QUERIES = [
     "site:reddit.com/r/zuinig aanbieding prijsverleden cashback Black Friday",
     "site:reddit.com/r/Netherlands coupon stacking online discount Netherlands",
 ]
+REDDIT_FEEDS = [
+    "https://www.reddit.com/r/zuinig/new/.rss?limit=50",
+    "https://www.reddit.com/r/frugal/new/.rss?limit=50",
+]
 INTERESTING = ("korting", "bespaar", "cashback", "verlengen", "overstap",
                "prijs", "black friday", "sale", "kortingscode", "deal",
                "retour", "garantie", "loyalty", "refurbished")
@@ -63,9 +67,20 @@ def article_candidates(xml_text):
     except ET.ParseError:
         return []
     found = []
-    for item in root.findall(".//item"):
-        title = re.sub(r"\s+", " ", (item.findtext("title") or "")).strip()
-        link = (item.findtext("link") or "").split("#")[0].split("?")[0]
+    nodes = [(x, False) for x in root.findall(".//item")]
+    nodes += [(x, True) for x in root.findall(".//{http://www.w3.org/2005/Atom}entry")]
+    for item, atom in nodes:
+        title = re.sub(r"\\s+", " ", (
+            item.findtext("{http://www.w3.org/2005/Atom}title") if atom
+            else item.findtext("title") or ""
+        )).strip()
+        if atom:
+            links = item.findall("{http://www.w3.org/2005/Atom}link")
+            link = next((x.attrib.get("href","") for x in links
+                         if x.attrib.get("rel","alternate")=="alternate"), "")
+        else:
+            link = item.findtext("link") or ""
+        link = link.split("#")[0].split("?")[0]
         parsed = urllib.parse.urlparse(link)
         domain = parsed.hostname or ""
         if domain not in ("reddit.com", "www.reddit.com", "old.reddit.com"):
@@ -117,17 +132,32 @@ def run():
         except Exception as exc:
             queries.append({"query": q, "status": "error", "items": 0,
                             "error": str(exc)[:140]})
+    reddit_feeds = []
+    for url in REDDIT_FEEDS:
+        try:
+            items = article_candidates(fetch(url))
+            for item in items:
+                item["lastSeenAt"] = now
+                preserved[item["id"]] = item
+            reddit_feeds.append({"url":url,"status":"ok" if items else "empty",
+                                 "items":len(items)})
+        except Exception as exc:
+            # Public Reddit endpoints may require OAuth or return HTTP 429.
+            # Do not bypass restrictions or label a blocked feed as working.
+            reddit_feeds.append({"url":url,"status":"error","items":0,
+                                 "error":str(exc)[:140]})
     # Community leads have no independent eligibility or savings evidence.
     ideas = list(preserved.values())[:120]
     output = {"updatedAt": now, "officialSources": checks, "redditQueries": queries,
-              "redditCandidates": ideas,
+              "redditCandidates": ideas, "redditFeeds": reddit_feeds,
               "reviewedStrategyCount": len(json.loads((ROOT/"bespaarstrategien.json").read_text(encoding="utf-8")).get("items", [])),
               "note": "Automatisch ontdekte Reddit posts zijn alleen onderzoekskandidaten. Officiële bronbereikbaarheid en tekstmatch bewijzen geen actuele persoonlijke besparing."}
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"officialTermsFound":sum(x["status"]=="terms_found" for x in checks),
                       "officialChecks":len(checks),
                       "redditCandidates":len(ideas),
-                      "redditQueryErrors":sum(x["status"]=="error" for x in queries)}, ensure_ascii=False))
+                      "redditQueryErrors":sum(x["status"]=="error" for x in queries),
+                      "redditFeedErrors":sum(x["status"]=="error" for x in reddit_feeds)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

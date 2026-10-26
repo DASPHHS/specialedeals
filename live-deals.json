@@ -1,137 +1,182 @@
 {
-  "updatedAt": "2026-10-25T22:38:24.316114+00:00",
+  "updatedAt": "2026-10-26T04:57:36.747911+00:00",
   "diagnostics": {
-    "irrelevant": 60,
-    "source_quality": 158,
+    "irrelevant": 59,
+    "source_quality": 90,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "Shadow of the Tomb Raider Definitive Edition Playstation",
-        "url": "https://nl.pepper.com/aanbiedingen/shadow-of-the-tomb-raider-definitive-edition-playstation-423671",
+        "title": "Lays chips 300 gram dif soorten @aldi",
+        "url": "https://nl.pepper.com/aanbiedingen/lays-chips-300-gram-dif-soorten-at-aldi-423695",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "GAMMA | €5 korting bij besteding van €25 | winkel/online",
-        "url": "https://nl.pepper.com/kortingscode/gamma-eur5-korting-bij-besteding-van-eur25-winkelonline-423670",
+        "title": "Mars- snickers-snickers white - Twix ijs @aldi",
+        "url": "https://nl.pepper.com/aanbiedingen/mars-snickers-snickers-white-twix-ijs-at-aldi-423694",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Brennenstuhl Eco-Line 8-voudig Stekkerdoos (Stekkerblok met schakelaar en 3m kabel) zwart",
-        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-eco-line-8-voudig-stekkerdoos-stekkerblok-met-schakelaar-en-3m-kabel-zwart-423669",
+        "title": "Filterkoffie goud @aldi",
+        "url": "https://nl.pepper.com/aanbiedingen/filterkoffie-goud-at-aldi-423693",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Ecovacs deebot cleaning solution",
-        "url": "https://nl.pepper.com/aanbiedingen/ecovacs-deebot-cleaning-solution-423665",
+        "title": "Zalm op huid 500 gram nergens goedkoper@aldi",
+        "url": "https://nl.pepper.com/aanbiedingen/zalm-op-huid-500-gram-nergens-goedkoper-at-aldi-423692",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Gratis Babybox t.w.v. €60 | Kruidvat",
-        "url": "https://nl.pepper.com/aanbiedingen/gratis-babybox-twv-eur60-kruidvat-423664",
+        "title": "Tomb Raider: Legend - Steam op PC",
+        "url": "https://nl.pepper.com/aanbiedingen/tomb-raider-legend-steam-op-pc-423691",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[Grensdeal] - Paulaner Hefe-Weissbier",
-        "url": "https://nl.pepper.com/aanbiedingen/paulaner-hefe-weissbier-423655",
+        "title": "Grim Fandango Remastered - Steam op PC",
+        "url": "https://nl.pepper.com/aanbiedingen/grim-fandango-remastered-steam-op-pc-423690",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Peugeot Paris peper- en zoutstel 18 cm zwart",
-        "url": "https://nl.pepper.com/aanbiedingen/peugeot-paris-peper-en-zoutstel-18-cm-zwart-423661",
+        "title": "76391",
+        "url": "https://nl.pepper.com/aanbiedingen/76391-423689",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Zendure SolarFlow 3000 Mix AC+ Thuisbatterij",
-        "url": "https://nl.pepper.com/aanbiedingen/zendure-solarflow-3000-mix-ac-thuisbatterij-423659",
+        "title": "72037 LEGO Super Mario Super Mario Kart",
+        "url": "https://nl.pepper.com/aanbiedingen/72037-lego-super-mario-super-mario-kart-laagste-ooit-423688",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "STANLEY STHT0-75094 Dynagrip Tangenset 150mm (3-delig)",
-        "url": "https://nl.pepper.com/aanbiedingen/stanley-stht0-75094-dynagrip-tangenset-150mm-3-delig-423660",
+        "title": "Dreamland - 25% Korting op tal van topmerken! LEGO, Peppa Pig, vTech, Funk en meer",
+        "url": "https://nl.pepper.com/aanbiedingen/dreamland-25-korting-op-tal-van-topmerken-lego-peppa-pig-vtech-funk-en-meer-423687",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Lumie Vitamin L licht therapie lamp (SAD) 83.99 @ Amazon",
-        "url": "https://nl.pepper.com/aanbiedingen/lumie-vitamin-l-licht-therapie-lamp-sad-8399-at-amazon-423652",
+        "title": "Dreamland - 25% korting op LEGO Gaming/Harry Potter/Editions/Disney/Creator - bijv. 72051 LEGO Super Mario Donkey Kong -",
+        "url": "https://nl.pepper.com/aanbiedingen/dreamland-25-korting-op-lego-gaming-bijv-423686",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Marstek Venus E 3.0 voor €999!",
-        "url": "https://nl.pepper.com/aanbiedingen/marstek-venus-e-30-voor-eur999-423650",
+        "title": "[bol.com][select deal] Robijn Wasmiddel - Klein & Krachtig - Color/Stralend wit 2 flessen 78 Wasbeurten - 1+2 gratis €30",
+        "url": "https://nl.pepper.com/aanbiedingen/bolcomselect-deal-robijn-wasmiddel-klein-krachtig-colorstralend-wit-2-flessen-78-wasbeurten-12-gratis-eur3049-dubbele-korting-423685",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "SpaceNK beauty advent kalender - 15% korting",
-        "url": "https://nl.pepper.com/aanbiedingen/spacenk-beauty-advent-kalender-423648",
+        "title": "[Logitech] MX Master 4 + MX Keys S + gratis MINIROLL + draagtasje — effectief €185,98 (bespaar ± €88!)",
+        "url": "https://nl.pepper.com/aanbiedingen/logitech-mx-master-4-mx-keys-s-gratis-miniroll-draagtasje-effectief-eur18598-bespaar-eur88-423666",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Gelderland Home",
-        "url": "https://www.gelderland.nl/",
+        "title": "Officiële website AFC Ajax Amsterdam - Ajax.nl",
+        "url": "https://www.ajax.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Gelderland - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Gelderland",
+        "title": "Informatie over wedstrijden en uitslagen - Ajax.nl",
+        "url": "https://www.ajax.nl/wedstrijden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Gelderland - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Gelderland",
+        "title": "Ajax Showtime - Nieuws over Ajax, Jong Ajax en Ajax-jeugd",
+        "url": "https://www.ajaxshowtime.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Nieuws uit Gelderland - Omroep Gelderland",
-        "url": "https://www.gld.nl/",
+        "title": "Official website AFC Ajax Amsterdam - Ajax.nl",
+        "url": "https://english.ajax.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Gelderland",
-        "url": "https://www.gelderland.nl/en",
+        "title": "Ajax Nieuws - het laatste Ajax nieuws uit 1000+ bronnen bij Ajax Headliner",
+        "url": "https://ajax.headliner.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "11 x bezienswaardigheden Gelderland bezoeken: Wat zien & doen? - Reisroutes",
-        "url": "https://www.reisroutes.be/blog/gelderland/bezienswaardigheden-gelderland/",
+        "title": "AFC Ajax - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AFC_Ajax",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Veluwe & Gelderland: toerisme, overnachten en uitjes",
-        "url": "https://www.visitgelderland.nl/",
+        "title": "Ajax nieuws, transfers & geruchten | Ajax1",
+        "url": "https://www.ajax1.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "de Gelderlander.nl, het laatste nieuws uit Gelderland",
-        "url": "https://www.gelderlander.nl/home",
+        "title": "AFC Ajax - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/AFC_Ajax",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Top 10 bezienswaardigheden van Gelderland",
-        "url": "https://top10bezienswaardigheden.nl/nederland/gelderland/",
+        "title": "Hoofdnieuws - Ajax Showtime",
+        "url": "https://www.ajaxshowtime.com/hoofdnieuws",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dagje Gelderland. Wat te doen in Gelderland? Activiteiten, uitjes en ...",
-        "url": "https://www.dagjeweg.nl/gelderland",
+        "title": "Ajax Nieuws | Uitslagen & Achtergronden – AT5",
+        "url": "https://www.at5.nl/ajax",
         "source": "Gerichte winkelscan"
       }
     ]
   },
-  "deals": [],
+  "deals": [
+    {
+      "title": "Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Mon, 26 Oct 2026 00:12:47 +0100",
+      "price": 66.25,
+      "score": 55,
+      "matched": [
+        "nike"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
+    {
+      "title": "146° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
+      "source": "Pepper Hot",
+      "sourceType": "community",
+      "published": "Mon, 26 Oct 2026 01:45:35 +0100",
+      "price": 66.25,
+      "score": 55,
+      "matched": [
+        "nike"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    }
+  ],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -257,8 +302,8 @@
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 1
     },
     {
       "source": "Samplezoekopdracht 2",
@@ -317,18 +362,18 @@
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "ok",
-      "items": 8
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -337,8 +382,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -357,13 +402,13 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -417,8 +462,8 @@
     },
     {
       "source": "Internationale zoekopdracht 8",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -427,13 +472,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -705,9 +750,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 218,
-    "personalMatches": 0
+    "scannedItems": 151,
+    "personalMatches": 2
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-25T22:38:24.316114+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T04:57:36.747911+00:00"
 }

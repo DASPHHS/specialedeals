@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-10-26T07:27:45.427003+00:00",
+  "updatedAt": "2026-10-26T07:28:35.264853+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 160,
+    "source_quality": 171,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "UWANT D700 nat- en droogzuiger,",
+        "url": "https://nl.pepper.com/aanbiedingen/uwant-d700-nat-en-droogzuiger-423709",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "XXL Nutrition fitmeals | €2,99 per maaltijd! @Dirk vanaf woensdag",
@@ -70,63 +76,57 @@
         "title": "72050 LEGO Mario Kart: Luigi en Mach 8",
         "url": "https://nl.pepper.com/aanbiedingen/lego-mario-kart-luigi-423698",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Brennenstuhl Ecolor 5-voudige Stekkerdoos @ Amazon.nl",
-        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-ecolor-5-voudige-stekkerdoos-423697",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "CCAMLR Convention | UNEP - UN Environment Programme",
-        "url": "https://www.unep.org/en/ccamlr-convention",
+        "title": "Contact – DUO Particulier (niet voor inburgeraars)",
+        "url": "https://duo.nl/particulier/contact/index.jsp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Annual Report 2019 | UNEP - UN Environment Programme",
-        "url": "https://www.unep.org/resources/unep-annual-report-2019",
+        "title": "Bellen – Contact – DUO Particulier (niet voor inburgeraars)",
+        "url": "https://duo.nl/particulier/contact/bellen.jsp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Rebuilding the ozone layer: how the world came together for the ... - UNEP",
-        "url": "https://www.unep.org/en/news-and-stories/story/rebuilding-ozone-layer-how-world-came-together-ultimate-repair-job",
+        "title": "Dienst Uitvoering Onderwijs (DUO) voor studenten en scholieren",
+        "url": "https://www.rijksoverheid.nl/service/contact/contactgids/d/dienst-uitvoering-onderwijs-duo-studenten-en-scholieren",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "The SEMPA Project (2023-2027) | UNEPMAP",
-        "url": "https://www.unep.org/unepmap/what-we-do/projects/SEMPA-Project",
+        "title": "DUO klantenservice: telefoon, contact, klacht en snelste route",
+        "url": "https://klantenservicegids.nl/bedrijven/duo/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "From Pollution to Solution: A global assessment of marine litter ... - UNEP",
-        "url": "https://www.unep.org/fr/resources/de-la-pollution-la-solution-une-evaluation-mondiale-des-dechets-marins-et-de-la-pollution",
+        "title": "Contactgegevens Dienst Uitvoering Onderwijs | Overheid.nl",
+        "url": "https://organisaties.overheid.nl/71857/Dienst_Uitvoering_Onderwijs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ozone layer recovery is on track, helping avoid global warming ... - UNEP",
-        "url": "https://www.unep.org/en/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
+        "title": "DUO - Particulier",
+        "url": "https://duo.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Record heat sends sea ice into retreat, worrying scientists",
-        "url": "https://www.unep.org/en/news-and-stories/story/record-heat-sends-sea-ice-retreat-worrying-scientists",
+        "title": "DUO bellen: betaal niet te veel",
+        "url": "https://duo.nl/particulier/duo-bellen-betaal-niet-te-veel.jsp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "President and Bureau - UNEP",
-        "url": "https://www.unep.org/environmentassembly/unea8/presidency-and-bureau",
+        "title": "Inloggen op Mijn DUO",
+        "url": "https://duo.nl/particulier/inloggen-op-mijn-duo.jsp",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "The Montreal Protocol: triumph by treaty - UNEP",
-        "url": "https://www.unep.org/en/news-and-stories/story/montreal-protocol-triumph-treaty",
+        "title": "Dienst Uitvoering Onderwijs (DUO) Zakelijk - Rijksoverheid.nl",
+        "url": "https://www.rijksoverheid.nl/service/contact/contactgids/d/dienst-uitvoering-onderwijs-duo-scholen",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "About Us | UNEP - UN Environment Programme",
-        "url": "https://www.unep.org/en/who-we-are/about-us",
+        "title": "Contact over inburgeren",
+        "url": "https://www.inburgeren.nl/contact/contact.jsp",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -341,12 +341,12 @@
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -355,8 +355,8 @@
     },
     {
       "source": "Winkelzoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -380,8 +380,8 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -391,7 +391,7 @@
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -410,13 +410,13 @@
     },
     {
       "source": "Internationale zoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 3",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -425,13 +425,13 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -441,22 +441,22 @@
     {
       "source": "Internationale zoekopdracht 8",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Internationale zoekopdracht 9",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0
     },
     {
-      "source": "Internationale zoekopdracht 10",
-      "status": "ok",
-      "items": 10
-    },
-    {
       "source": "Internationale zoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 221,
+    "scannedItems": 232,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:27:45.427003+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:28:35.264853+00:00"
 }

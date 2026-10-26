@@ -181,4 +181,12 @@ for phrase in ('id="ledger"','id="ledgerTotal"','id="ledgerConfirmed"',
 workflow=(ROOT/".github/workflows/scan.yml").read_text(encoding="utf-8")
 for test in ('node test_action_queue.mjs','node test_savings_ledger.mjs','node test_bespaar_calculator.mjs'):
  if test not in workflow:raise RuntimeError("Savings/action test not scheduled: "+test)
+# Reddit community leads are only shown as clearly unverified research.
+strategy_doc=json.loads((ROOT/"strategie-scan.json").read_text(encoding="utf-8"))
+for lead in strategy_doc.get("redditCandidates",[]):
+ if lead.get("verified") is not False:raise RuntimeError("Reddit candidate falsely marked verified")
+ if not lead.get("url","").startswith("https://www.reddit.com/"):
+  raise RuntimeError("Reddit lead must link to the primary community site")
+for phrase in ('id="redditLeadItems"','id="redditLeadStatus"','id="redditLeadCount"'):
+ if phrase not in savings_page:raise RuntimeError("Reddit research disclosure missing "+phrase)
 print("Website and JSON quality checks passed.")

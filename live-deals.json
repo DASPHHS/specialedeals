@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:31:16.889193+00:00",
+  "updatedAt": "2026-10-26T07:34:34.783049+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 84,
+    "source_quality": 131,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "About bulk data export of Search Console data to BigQuery",
-        "url": "https://support.google.com/webmasters/answer/12918484?hl=en",
+        "title": "Taiwan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "301 Moved",
-        "url": "https://support.google.com/googlepay/answer/13623624?hl=en",
+        "title": "Taiwan - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "QUERY - Cправка - Редакторы Google Документов",
-        "url": "https://support.google.com/docs/answer/3093343?hl=ru",
+        "title": "De 8 mooiste bezienswaardigheden van Taiwan | ANWB",
+        "url": "https://www.anwb.nl/vakantie/taiwan/bezienswaardigheden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "301 Moved",
-        "url": "https://support.google.com/a/answer/9048516?hl=en",
+        "title": "Taiwan | NU - Het laatste nieuws het eerst op NU.nl",
+        "url": "https://www.nu.nl/tag/taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query function not returning all data - Google Help",
-        "url": "https://support.google.com/docs/thread/187549444/query-function-not-returning-all-data?hl=en",
+        "title": "Waarom is er strijd om Taiwan? - NPO Kennis",
+        "url": "https://npokennis.nl/longread/8244/waarom-is-er-strijd-om-taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Fonction QUERY - Aide Éditeurs Google Docs",
-        "url": "https://support.google.com/docs/answer/3093343?hl=fr",
+        "title": "Bezienswaardigheden Taiwan: 10x toffe highlights",
+        "url": "https://www.wearetravellers.nl/azie/taiwan/bezienswaardigheden-taiwan/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "How to QUERY/INDEX+MATCH multiple rows of text from a merged cell",
-        "url": "https://support.google.com/docs/thread/11089976/how-to-query-index-match-multiple-rows-of-text-from-a-merged-cell?hl=en",
+        "title": "Geschiedenis van Taiwan - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Hàm QUERY - Trình chỉnh sửa Google Tài liệu Trợ giúp",
-        "url": "https://support.google.com/docs/answer/3093343?hl=vi",
+        "title": "Taiwan | History, Flag, Map, Capital, Population, & Facts | Britannica",
+        "url": "https://www.britannica.com/place/Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "BigQuery - Google Cloud Platform Console Help",
-        "url": "https://support.google.com/cloud/answer/9113366?hl=en",
+        "title": "Reisadvies Taiwan | Ministerie van Buitenlandse Zaken - NederlandWereldwijd",
+        "url": "https://www.nederlandwereldwijd.nl/reisadvies/taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "BigQuery Export - Analytics Help - Google Help",
-        "url": "https://support.google.com/analytics/answer/9358801?hl=en",
+        "title": "Dode en honderden gewonden door zware orkaan Champi bij Taiwan",
+        "url": "https://nos.nl/artikel/2636396-dode-en-honderden-gewonden-door-zware-orkaan-champi-bij-taiwan",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -335,23 +335,23 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -360,8 +360,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -375,18 +375,18 @@
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -405,8 +405,8 @@
     },
     {
       "source": "Internationale zoekopdracht 1",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 145,
+    "scannedItems": 192,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:31:16.889193+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:34:34.783049+00:00"
 }

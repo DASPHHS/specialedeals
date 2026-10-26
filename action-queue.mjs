@@ -10,7 +10,7 @@ export function selectActionable(contests, events, todayISO, now = new Date(), l
   for (const c of contests || []) {
     const key = String(c.id || "");
     const date = String(c.deadline || "");
-    const remaining = Math.ceil((Date.parse(date + "T23:59:59Z") - today) / 86400000);
+    const remaining = Math.round((Date.parse(date + "T12:00:00Z") - today) / 86400000);
     const checked = Date.parse(c.verifiedAt);
     const recent = Number.isFinite(checked) && checked <= now.getTime() &&
       now.getTime() - checked <= 7 * 86400000;
@@ -33,7 +33,7 @@ export function selectActionable(contests, events, todayISO, now = new Date(), l
   }
   for (const e of events || []) {
     const date = String(e.endDate || "");
-    const remaining = Math.ceil((Date.parse(date + "T23:59:59Z") - today) / 86400000);
+    const remaining = Math.round((Date.parse(date + "T12:00:00Z") - today) / 86400000);
     const beginning = String(e.startDate || "");
     const seen = Date.parse(e.lastSeenAt || "");
     if (!/^https:\/\//.test(e.url || "") || !beginning || !Number.isFinite(remaining) ||

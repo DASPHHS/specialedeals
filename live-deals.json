@@ -1,137 +1,160 @@
 {
-  "updatedAt": "2026-10-26T09:25:49.381215+00:00",
+  "updatedAt": "2026-10-26T11:00:57.340698+00:00",
   "diagnostics": {
     "irrelevant": 61,
-    "source_quality": 176,
+    "source_quality": 168,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "KitchenAid Artisan keukenmachine 4,8 l (porseleinwit) @ Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/kitchenaid-artisan-keukenmachine-48-l-porseleinwit-at-bol-423739",
+        "title": "Bambu Lab 3D-printers (A1 Mini, A1, P1S, X1C, etc.) – Refurbished direct van fabrikant met 2 jaar garantie",
+        "url": "https://nl.pepper.com/aanbiedingen/bambu-lab-3d-printers-a1-mini-a1-p1s-x1c-etc-refurbished-direct-van-fabrikant-met-2-jaar-garantie-423767",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "LUVION Malmö Buggy @ Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/luvion-malmo-buggy-423738",
+        "title": "Schleich FARM WORLD 42605 Grote stal met Dieren en Accessoires",
+        "url": "https://nl.pepper.com/aanbiedingen/schleich-farm-world-42605-grote-stal-met-dieren-en-accessoires-423766",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "MONSTER ENERGY Ultra White Suikervrije Energiedrank - 12 x 500 ml",
-        "url": "https://nl.pepper.com/aanbiedingen/monster-energy-ultra-white-suikervrije-energiedrank-12-x-500-ml-423737",
+        "title": "Jack and Jones T-shirts 5 pack, maat L",
+        "url": "https://nl.pepper.com/aanbiedingen/jack-and-jones-t-shirts-5-pack-maat-l-423765",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "New Balance sokken 6-pack (maat 35-37 & 47-50)",
-        "url": "https://nl.pepper.com/aanbiedingen/new-balance-sokken-6-pack-maat-35-37-47-50-423736",
+        "title": "Eastpak Tranverz L reiskoffer (121L) @ Amazon",
+        "url": "https://nl.pepper.com/aanbiedingen/eastpak-tranverz-l-reiskoffer-121l-at-amazon-423764",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "How to train a dragon / Hoe tem je een draak DreamWorksng interactieve draak @ Amazon",
-        "url": "https://nl.pepper.com/aanbiedingen/how-to-train-a-dragon-hoe-tem-je-een-draak-dreamworksng-interactieve-draak-at-amazon-421080",
+        "title": "Tapo D260 4K-videodeurbel – €50 Early-Bird voordeel + gratis Hub H200",
+        "url": "https://nl.pepper.com/aanbiedingen/tapo-d260-4k-videodeurbel-eur50-early-bird-voordeel-gratis-hub-h200-423763",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Frank Herbert’s Dune Saga 3-Book Boxed Set (paperback, Engels) @ Amazon / Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/frank-herberts-dune-saga-3-book-boxed-set-paperback-engels-at-amazon-bol-423723",
+        "title": "Feyree 11 kW EV-laadstation Type 2 met wifi & RFID @ Joybuy",
+        "url": "https://nl.pepper.com/aanbiedingen/feyree-11-kw-ev-laadstation-type-2-met-wifi-rfid-at-joybuy-416137",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "STABILO point 88 fineliners – 10 standaardkleuren",
-        "url": "https://nl.pepper.com/aanbiedingen/stabilo-point-88-fineliners-10-standaardkleuren-423734",
+        "title": "Makita HR2470 SDS-Plus combihamer (780W) @ Amazon",
+        "url": "https://nl.pepper.com/aanbiedingen/makita-hr2470-sds-plus-combihamer-780w-at-amazon-423762",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "ONLY & SONS Mark chino shorts (Heren, zwart) - maat S, M en L @ Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/only-sons-onsmark-chino-shorts-heren-zwart-maat-s-m-en-l-at-bol-423733",
+        "title": "Jack & Jones trui (maat L & XL) + 15% extra kassakorting",
+        "url": "https://nl.pepper.com/aanbiedingen/jack-jones-trui-maat-l-xl-15-extra-kassakorting-423760",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Winactie: Win 1 van de 5 exemplaren van GTA 6 voor Xbox of PS5 t.w.v. €79,99",
-        "url": "https://nl.pepper.com/aanbiedingen/winactie-5-gta-6-voor-xbox-of-ps5-423221",
+        "title": "Campina vla @ Dirk",
+        "url": "https://nl.pepper.com/aanbiedingen/campina-vla-at-dirk-423759",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "AOC Gaming 25G4SXU monitor | 24,5\" | 310Hz | 1MS | IPS",
-        "url": "https://nl.pepper.com/aanbiedingen/aoc-gaming-25g4sxu-245-310hz-1ms-ips-423732",
+        "title": "Vaude Mundo Carry-On 38 reis rugzak",
+        "url": "https://nl.pepper.com/aanbiedingen/vaude-mundo-carry-on-38-reis-rugzak-423758",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Intenso USB-stick 256 GB | USB 3.2 Tot 70MB/s",
-        "url": "https://nl.pepper.com/aanbiedingen/intenso-usb-stick-256-gb-usb-32-tot-70mbs-423731",
+        "title": "Corsair iCUE LINK TITAN 240 RX LCD RGB waterkoeling (Wit, 4-pins PWM fan-connector) @ Megekko",
+        "url": "https://nl.pepper.com/aanbiedingen/corsair-icue-link-titan-240-rx-lcd-rgb-waterkoeling-wit-4-pins-pwm-fan-connector-at-megekko-423756",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "€ 35 korting op alle abonnementen bij Mobiel.nl -te combineren met lopende acties- via ING",
-        "url": "https://nl.pepper.com/aanbiedingen/eur-35-korting-op-alle-abonnementen-bij-mobielnl-te-combineren-gecombineerd-met-lopende-acties-via-ing-423730",
+        "title": "Prijsfout? Kitchenaid Artisan piston espressomachine 5KES6503 WT",
+        "url": "https://nl.pepper.com/aanbiedingen/prijs-fout-kitchenaid-artisan-piston-espressomachine-5kes6503-wt-423755",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "一块绝妙 Pizza 的标准是什么？ - 知乎",
-        "url": "https://www.zhihu.com/question/31404620",
+        "title": "Batch: Passwort verdeckt eingeben - Administrator",
+        "url": "https://administrator.de/forum/batch-passwort-verdeckt-eingeben-22859.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "披萨制作成本低，为什么一个12寸的pizza要卖到72元！而且还有很多人买？",
-        "url": "https://www.zhihu.com/question/27685283",
+        "title": "GPO Zugriff verweigert 0x80070005 - Administrator",
+        "url": "https://administrator.de/forum/gpo-zugriff-verweigert-0x80070005-317391.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "为什么披萨中间有一个白色的三角架? - 知乎",
-        "url": "https://www.zhihu.com/question/327455580",
+        "title": "屋外に設置する自立盤の基礎設計をしております2300wx440dx... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1377065583",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "pizza为什么需要用橄榄油呢？ - 知乎",
-        "url": "https://www.zhihu.com/question/51682304",
+        "title": "取引先の旅費を当社が負担し支出した場合の勘定科目を - 教えてくだ... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1381055293",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "什么是plain pizza? - 知乎",
-        "url": "https://www.zhihu.com/question/39761711",
+        "title": "機械に使われる材質でss34というものがあるのですが、ss34の意... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1311622763",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "为什么国内的pizza普遍比美国的好吃？ - 知乎",
-        "url": "https://www.zhihu.com/question/22407472",
+        "title": "Msft Vitual Disk SCSI Disk Device im Gerätemanager",
+        "url": "https://administrator.de/forum/msft-vitual-disk-scsi-disk-device-im-geraetemanager-192783.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "披萨上都可以放什么？ - 知乎",
-        "url": "https://www.zhihu.com/question/37963341",
+        "title": "マブラヴオルタネイティブトータルイクリプスは最後どうなったの... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10149146390",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "如何制作披萨的面饼？ - 知乎",
-        "url": "https://www.zhihu.com/question/26542639",
+        "title": "建築標準仕様書にて、「外部に面するコンクリート打ちっぱなし仕... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10109258880",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "必胜客哪种pizza好吃？ - 知乎",
-        "url": "https://www.zhihu.com/question/313099685",
+        "title": "Import ADMX Vorlagen in Intune OMA-URI - Administrator",
+        "url": "https://administrator.de/forum/import-admx-vorlagen-in-intune-oma-uri-454384.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "怎样用烤箱做披萨？ - 知乎",
-        "url": "https://www.zhihu.com/question/403075225",
+        "title": "心当たりのないカード請求についてです。先月、今月と、同じ日に... - Yahoo!知恵袋",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10144483520",
         "source": "Gerichte winkelscan"
       }
     ]
   },
-  "deals": [],
+  "deals": [
+    {
+      "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
+      "source": "Gerichte merkzoekopdracht",
+      "sourceType": "news",
+      "published": "Mon, 26 Oct 2026 07:48:00 GMT",
+      "price": null,
+      "score": 43,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    }
+  ],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -219,9 +242,9 @@
     },
     {
       "source": "Merkscan 13",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "ok",
+      "items": 1,
+      "retrieved": 1
     },
     {
       "source": "Merkscan 14",
@@ -359,7 +382,7 @@
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 8
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -371,7 +394,7 @@
       "source": "Winkelzoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 6
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -383,7 +406,7 @@
       "source": "Winkelzoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -407,7 +430,7 @@
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -431,7 +454,7 @@
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -764,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 237,
-    "personalMatches": 0
+    "scannedItems": 230,
+    "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T09:25:49.381215+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T11:00:57.340698+00:00"
 }

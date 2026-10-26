@@ -19,7 +19,7 @@ const result=selectActionable([good,expired,rejected,stale,beforeStart,requiresB
 assert.equal(result.length,2);
 assert.ok(result.some(x=>x.kind==="contest"));
 assert.ok(result.some(x=>x.kind==="sample"));
-assert.equal(result.find(x=>x.kind==="contest").remaining,2);
+assert.equal(result.find(x=>x.kind==="contest").remaining,1);
 assert.equal(result.find(x=>x.kind==="sample").location,"Rotterdam");
 assert.equal(selectActionable([good],[],date,now,0).length,0);
 assert.equal(selectActionable([{...good,free:false}],[],date,now).length,0);

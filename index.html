@@ -49,6 +49,7 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
  <div class="tile"><span class="muted">Relevante sample sales</span><strong id="samplecount">–</strong><span class="small">Met datum en plaats</span></div>
  <div class="tile"><span class="muted">Open winacties</span><strong id="contestcount">–</strong><span class="small">Voorwaarden per actie controleren</span></div>
  <div class="tile"><span class="muted">Bewezen productdeals</span><strong id="verifiedCount">0</strong><span class="small">Alleen na marktvergelijking</span></div>
+ <div class="tile"><span class="muted">Jouw geregistreerde besparingen</span><strong id="savedOnDevice">–</strong><span class="small">Eigen registratie op dit apparaat · <a href="./besparen.html#ledger">Bekijk bedragen</a></span></div>
 </div>
 <div class="panel" id="actionPanel"><div class="section-heading"><h2>Wat vraagt nu jouw aandacht? <span id="urgentCount">–</span></h2><button class="secondary" id="resetActions" hidden>Verborgen acties terugzetten</button></div><p class="muted">De meest relevante recente winacties en sample sales met een einddatum. Je kunt een actie alleen op dit apparaat verbergen; dat betekent niet dat je hebt deelgenomen.</p><div class="cards" id="urgentActions"><p class="muted">Acties met deadline laden…</p></div></div>
 <details class="panel" id="otherContests"><summary>Meer open winacties bekijken</summary><p class="muted">Bevat mogelijk ook acties uit de actielijst hierboven. Deelname en voorwaarden moet je per actie controleren.</p><button class="secondary" data-open="contests">Alle winacties</button><div id="featuredContests" class="cards"><p class="muted">Acties laden…</p></div></details>
@@ -92,6 +93,19 @@ details{border-top:1px solid #344c64;padding:12px 0}summary{cursor:pointer;font-
 const $=id=>document.getElementById(id);
 const money=x=>typeof x==="number"?new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"}).format(x):"Prijs onbekend";
 const validUrl=s=>typeof s==="string"&&/^https:\/\//.test(s);
+function updatePrivateSavingsTile(){
+ try {
+  const rows=JSON.parse(localStorage.getItem("kansenkompas_privatesavings_device_v1")||"[]");
+  if(!Array.isArray(rows))throw Error("wrong shape");
+  const sum=rows.reduce((total,x)=>total+(x?.confirmation==="self_reported"&&
+      Number.isFinite(x.savedEUR)&&x.savedEUR>0?x.savedEUR:0),0);
+  document.getElementById("savedOnDevice").textContent=new Intl.NumberFormat("nl-NL",
+    {style:"currency",currency:"EUR"}).format(Math.round(sum*100)/100);
+ } catch {
+  document.getElementById("savedOnDevice").textContent="Niet beschikbaar";
+ }
+}
+updatePrivateSavingsTile();
 const app={deals:[],samples:[],events:[],contests:[],internationalStores:[],priceComparisons:[],promos:[],shops:[],observations:[],coverage:null,sources:[],limit:10,profile:null};
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function stockInfo(d){

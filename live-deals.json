@@ -1,13 +1,25 @@
 {
-  "updatedAt": "2026-10-26T14:30:48.170705+00:00",
+  "updatedAt": "2026-10-26T14:56:57.135965+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 210,
+    "source_quality": 134,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "Gratis Hak Easy Eats! @ Scoupy/Albert Heijn",
+        "title": "Philips 50PUS8001/12 Ambilight 50\" 4K Ultra HD LED Smart TV (2026) @ Coolblue",
+        "url": "https://nl.pepper.com/aanbiedingen/philips-50pus800112-ambilight-50-4k-ultra-hd-led-smart-tv-2026-at-coolblue-423809",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Verzenddozen formaat A5 (5 stuks) nieuw bij Action",
+        "url": "https://nl.pepper.com/aanbiedingen/verzenddozen-formaat-a5-5-stuks-nieuw-bij-action-423808",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Gratis Hak Easy Eats! Woolsocks Albert Heijn",
         "url": "https://nl.pepper.com/aanbiedingen/gratis-hak-happy-eats-via-woolsocks-423802",
         "source": "Pepper Nederland"
       },
@@ -64,76 +76,64 @@
         "title": "Edifier G2II - Gaming Headset",
         "url": "https://nl.pepper.com/aanbiedingen/edifier-g2ii-gaming-headset-423798",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Robijn Quickwash Vloeibaar Wasmiddel - Spring Blossom - 8 flessen - 176 wasbeurten - voordeel verpakking",
-        "url": "https://nl.pepper.com/aanbiedingen/robiin-quickwash-vloeibaar-wasmiddel-spring-blossom-8-flessen-176-wasbeurten-voordeel-verpakking-423796",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Thermal Master P1 — Home Inspection Thermal Camera",
-        "url": "https://nl.pepper.com/aanbiedingen/thermal-master-p1-home-inspection-thermal-camera-423784",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Etten-Leur - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-etten-Leur/",
+        "title": "ROTTERDAM - Very Italian Pizza",
+        "url": "https://veryitalianpizza.nl/rotterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "LOODGIETERS.NL - 24/7 bereikbaar - ☎ 06 - 450 68 077",
-        "url": "https://www.loodgieters.nl/",
+        "title": "VERY ITALIAN PIZZA, Rotterdam - Blaak 31, Stadsdriehoek ...",
+        "url": "https://www.tripadvisor.nl/Restaurant_Review-g188632-d3192239-Reviews-Very_Italian_Pizza-Rotterdam_South_Holland_Province.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Radiator vervangen erkende loodgieter | Loodgieters.nl",
-        "url": "https://www.loodgieters.nl/radiator-vervangen/",
+        "title": "De 10 beste restaurants in de buurt van Station Blaak - Tripadvisor",
+        "url": "https://www.tripadvisor.nl/RestaurantsNear-g188632-d9577059-Blaak-Rotterdam_South_Holland_Province.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Voorburg - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-voorburg/",
+        "title": "Best Restaurants near Blaak 31, 3011 GA Rotterdam, The Netherlands",
+        "url": "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Blaak+31%2C+3011+GA+Rotterdam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Reparatie verwarming erkende loodgieter | Loodgieters.nl",
-        "url": "https://www.loodgieters.nl/reparatie-verwarming-2/",
+        "title": "The Best 10 Restaurants near Blaak, Rotterdam, Zuid-Holland, The ... - Yelp",
+        "url": "https://www.yelp.com/search?cflt=restaurants&find_loc=Blaak%2C+Rotterdam%2C+Zuid-Holland",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Castricum - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-castricum/",
+        "title": "THE 10 BEST Restaurants Near Rotterdam Blaak Station",
+        "url": "https://www.tripadvisor.com/RestaurantsNear-g188632-d5025829-Rotterdam_Blaak_Station-Rotterdam_South_Holland_Province.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Loodgieter Amsterdam - loodgieters.nl - Bel ons op ☎ 06 – 450 68 077",
-        "url": "https://www.loodgieters.nl/loodgieter-amsterdam/",
+        "title": "Home | Baek Food & Drinks",
+        "url": "https://www.baekrotterdam.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Twello - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-twello/",
+        "title": "Very Italian Pizza - Rotterdam, Netherlands - Verken Rotterdam",
+        "url": "https://verkenrotterdam.nl/places/very-italian-pizza-rotterdam-netherlands/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Amsterdam Noord - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-amsterdam-noord/",
+        "title": "Very italian Pizza Rotterdam - Contact - Italiaanse pizza, Pasta ...",
+        "url": "https://www.very-italian-pizza-rotterdam.nl/contact",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Nieuwkoop - loodgieters.nl",
-        "url": "https://www.loodgieters.nl/loodgieter-Nieuwkoop/",
+        "title": "THE 10 BEST Restaurants Near Blaak Station - Tripadvisor",
+        "url": "https://www.tripadvisor.com/RestaurantsNear-g188632-d9577059-Blaak-Rotterdam_South_Holland_Province.html",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "201° - adidas Run 70s 2.0 heren sneakers zwart/wit",
+      "title": "213° - adidas Run 70s 2.0 heren sneakers zwart/wit",
       "url": "https://nl.pepper.com/aanbiedingen/adidas-run-70s-20-heren-sneakers-zwartwit-423769",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -398,7 +398,7 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -434,7 +434,7 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -470,13 +470,13 @@
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -488,7 +488,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -500,13 +500,13 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -518,7 +518,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -530,13 +530,13 @@
       "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -809,9 +809,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 272,
+    "scannedItems": 196,
     "personalMatches": 2
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T14:30:48.170705+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T14:56:57.135965+00:00"
 }

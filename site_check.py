@@ -11,7 +11,7 @@ for file,ids in PAGES.items():
   if ('id="'+identifier+'"') not in html:raise RuntimeError(file+": missing element "+identifier)
  # Guard against a truncated static page. A valid JavaScript prefix can still
  # pass syntax checking if the closing script/body/html markup was lost.
- if not re.search(r"</body>\\s*</html>\\s*$", html, flags=re.I):
+ if not re.search(r"</body>\s*</html>\s*$", html, flags=re.I):
   raise RuntimeError(file+": truncated document (missing closing body/html)")
  if "<script" not in html.lower() or "</script>" not in html.lower():
   raise RuntimeError(file+": missing or truncated script markup")

@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:41:21.828672+00:00",
+  "updatedAt": "2026-10-26T07:42:12.179837+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 180,
+    "source_quality": 105,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Ajm Healthcare Limited - Park Royal Estate",
-        "url": "https://parkroyal.estate/business/ajm-healthcare-limited/",
+        "title": "Microsoft campus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Contact Camden and Islington Approved Repairer Service",
-        "url": "https://www.ajmhealthcare.com/local-service-centres/camden-islington/contact/",
+        "title": "Microsoft Office Locations | About Microsoft",
+        "url": "https://www.microsoft.com/en-us/about/office-locations",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PR2 - GLI London",
-        "url": "https://gli.london/property/pr2/",
+        "title": "Microsoft Research Redmond",
+        "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Top Companies in NW10 7XF, Commercial Way, Abbey Road, London",
-        "url": "https://open.endole.co.uk/explorer/postcode/nw10-7xf",
+        "title": "Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052-8300, US ...",
+        "url": "https://www.mapquest.com/us/washington/microsoft-corporation-12544878",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Unit 1, Abbey Road Industrial Estate, Commercial Way, Park Royal, NW10 7XF",
-        "url": "https://www.novaloca.com/industrial-unit/to-let/park-royal/unit-1-abbey-road-industrial-estate/271883",
+        "title": "Microsoft Redmond Campus Refresh",
+        "url": "https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "NW10 7XF commercial industrial property for sale and to let - NovaLoca",
-        "url": "https://www.novaloca.com/commercial-property/industrial%20properties%20in%20NW10%207XF",
+        "title": "Microsoft Corporate Headquarters - 1 Microsoft Way, Redmond, WA 98052 ...",
+        "url": "https://businessyab.com/explore/united_states/washington/king_county/redmond/overlake/microsoft_way/1/microsoft-corporate-headquarters-425-882-8080.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "AJM Healthcare | Stairlifts, London",
-        "url": "https://london.cylex-uk.co.uk/company/ajm-healthcare-26691101.html",
+        "title": "Google Maps",
+        "url": "https://maps.google.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Abbey Road, London, NW10 7XF - Residents, Businesses, Information - 192.com",
-        "url": "https://www.192.com/places/nw/nw10-7/nw10-7xf/",
+        "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
+        "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Abbey Road Industrial Estate, London, NW10 7XF - Lorenz Consultancy",
-        "url": "https://lorenzconsultancy.com/property/abbey-road-industrial-estate/",
+        "title": "Google Maps",
+        "url": "https://www.google.com/maps/search/?hl=nl",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "NW10 7XF postcode, Willesden, Greater London - Streetlist",
-        "url": "https://www.streetlist.co.uk/nw/nw10/nw10-7/nw10-7xf",
+        "title": "Where is Microsoft Headquarters? Main Office Address and ... - ZoomInfo",
+        "url": "https://www.zoominfo.com/hq/microsoft-office-address/24904409",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "333° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "335° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -376,7 +376,7 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 1
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -388,7 +388,7 @@
       "source": "Winkelzoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -400,7 +400,7 @@
       "source": "Winkelzoekopdracht 7",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -412,7 +412,7 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -424,13 +424,13 @@
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -448,13 +448,13 @@
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -496,7 +496,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -508,13 +508,13 @@
       "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 241,
+    "scannedItems": 166,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:41:21.828672+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:42:12.179837+00:00"
 }

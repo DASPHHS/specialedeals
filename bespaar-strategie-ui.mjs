@@ -8,7 +8,7 @@ let strategies=[],expanded=false;
 
 function strategyCard(x){
  const el=mk("article","strategy-card");
- el.append(mk("small","muted",x.category+" · "+x.effort+" · "+(x.sourceType==="reddit_ervaringen"?"Reddit-methode, uitkomst niet gegarandeerd":"voorwaarden gevonden")));
+ el.append(mk("small","muted",x.category+" · "+x.effort+" · "+(x.executionStatus==="ongeschikt"?"Niet toepassen onder deze voorwaarden":x.executionStatus==="onderzoekskandidaat"?"Onderzoekskandidaat":x.sourceType==="reddit_ervaringen"?"Reddit-methode, uitkomst niet gegarandeerd":"Voorwaarden gecontroleerd; persoonlijke toepasbaarheid apart toetsen")));
  el.append(mk("h3",null,x.title));
  el.append(mk("p",null,x.why));
  const details=mk("details");
@@ -116,3 +116,4 @@ $("contractDealCompare").addEventListener("click",()=>{
  root.append(figure);
  root.append(mk("p","muted","Scenario, niet gerealiseerde besparing. Controleer daadwerkelijke looptijd, tijdelijke korting, contractvoorwaarden, recht op cashback/cadeau, claimdeadline, installatiekosten en de exacte diensten. Een cadeau voor eigen gebruik krijgt uitsluitend de waarde die je anders zelf echt zou uitgeven. Een doorverkoopbedrag blijft hypothetisch totdat het item werkelijk verkocht en betaald is."));
 });
+

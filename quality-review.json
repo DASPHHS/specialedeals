@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-26",
+  "checkedAt": "2026-10-26T08:14:39.684789+00:00",
+  "scope": "DASPHHS/specialedeals and authorized private Kansenkompas only",
+  "changes": [
+    "English Reddit shipping/renewal/coupon detection and Netherlands feed",
+    "Keyword-only official-source provenance, content hash, no false human review",
+    "Negative resale proceeds retained in contract calculator",
+    "12 strategies with shipping-threshold example, conditional claim routes and ineligible FNV stacking"
+  ],
+  "status": {
+    "researchParserAndCalculator": "werkt: local regression tests passed",
+    "publicProductionBeforeChange": "werkt: scanner 40288333231 and Pages 40288490379 succeeded",
+    "personalAllInDeals": "gedeeltelijk: 1 candidate, zero independently verified all-in deals",
+    "internationalDelivery": "gedeeltelijk: shop-level NL policy, exact SKU/size/cart not tested",
+    "contestRules": "gedeeltelijk: existing confirmed records separate from discovery; no new submissions",
+    "sampleSales": "gedeeltelijk: 7 announcements, individual sizes/prices unverified",
+    "privateRead": "werkt: authorized read succeeded, no private data exported",
+    "contractSync": "niet getest: no private contract/offers synchronization",
+    "emailDelivery": "niet getest in deze controle: use existing central daily mail, no second dealmail",
+    "AIExecution": "niet getest: research feed is not functional integration"
+  },
+  "mortgage": {
+    "thresholdPercent": 3.6,
+    "comparison": "strictly_less_than",
+    "checkedBank": "Lloyds Bank Hypotheek (1)",
+    "effectiveDate": "2026-10-23",
+    "minimumInCheckedPdfPercent": 3.7,
+    "alertTriggered": false,
+    "marketCoverage": "One primary bank tariff sheet inspected; not whole market",
+    "sourceUrl": "https://www.lloydsbank.nl/dam/jcr:113a4f25-74ad-4301-9992-ffad2c7d983f/LBH(1)_20261023.pdf"
+  },
+  "coupons": {
+    "checkoutTestedThisRun": 0,
+    "fnvCode": "source-confirmed only; membership required; offers excluded"
+  },
+  "linkChecks": [
+    {
+      "url": "https://dasphhs.github.io/specialedeals/",
+      "status": 200,
+      "finalUrl": "https://dasphhs.github.io/specialedeals/"
+    },
+    {
+      "url": "https://dasphhs.github.io/specialedeals/besparen.html",
+      "status": 200,
+      "finalUrl": "https://dasphhs.github.io/specialedeals/besparen.html"
+    },
+    {
+      "url": "https://dasphhs.github.io/specialedeals/winacties.html",
+      "status": 200,
+      "finalUrl": "https://dasphhs.github.io/specialedeals/winacties.html"
+    },
+    {
+      "url": "https://dasphhs.github.io/specialedeals/ai-kansen.html",
+      "status": 200,
+      "finalUrl": "https://dasphhs.github.io/specialedeals/ai-kansen.html"
+    },
+    {
+      "url": "https://www.bike24.nl/verzendkosten",
+      "status": 200,
+      "finalUrl": "https://www.bike24.nl/verzendkosten"
+    }
+  ],
+  "remaining": [
+    "Zero proven all-in personal bargains",
+    "No verified exact international size/shipping basket",
+    "Reddit Frugal RSS rate-limited in recorded scan",
+    "Private cross-device contracts and notification dedup not proven",
+    "Live mobile interaction regression not run for this change"
+  ],
+  "postChangePublicationEvidence": "GitHub Issue #5 records final Actions and Pages verification"
+}

@@ -20,7 +20,7 @@ export function compareContract(input) {
   // Gift value is strictly user-supplied personal use value, NOT the store's MSRP.
   const personalValue = benefitType === "gift" ? benefitEUR : 0;
   // Estimated resale proceeds are NEVER cash earned until the item is actually sold.
-  const resaleNet = benefitType === "resale" ? Math.max(0, benefitEUR - resaleFeesEUR) : 0;
+  const resaleNet = benefitType === "resale" ? benefitEUR - resaleFeesEUR : 0;
   const personalEffectiveCost = cashCost - personalValue - resaleNet;
   const result = {
     status:"estimate_only", potentialOnly:true, months,
@@ -37,3 +37,4 @@ export function compareContract(input) {
   };
   return result;
 }
+

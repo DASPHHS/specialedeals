@@ -36,9 +36,19 @@ class StrategyScanTests(unittest.TestCase):
         self.assertEqual(article_candidates("<html>bad"), [])
         self.assertEqual(article_candidates("<rss><channel></channel></rss>"), [])
 
+    def test_english_shipping_and_renewal_research_not_lost(self):
+        xml = """<rss><channel>
+          <item><title>Free shipping minimum: why adding items costs more</title><link>https://www.reddit.com/r/Frugal/comments/abc123/free_shipping_minimum/</link></item>
+          <item><title>Broadband renewal versus switching provider</title><link>https://www.reddit.com/r/Netherlands/comments/abc124/broadband_renewal/</link></item>
+        </channel></rss>"""
+        rows=article_candidates(xml)
+        self.assertEqual(len(rows),2)
+        self.assertTrue(all(not r['verified'] for r in rows))
+
     def test_clean_html_removes_formatting(self):
         self.assertEqual(plain("<p>Korting&nbsp;voor klanten</p>"), "korting voor klanten")
 
 
 if __name__ == "__main__":
     unittest.main()
+

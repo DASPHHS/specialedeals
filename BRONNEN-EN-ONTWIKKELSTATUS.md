@@ -108,3 +108,17 @@ Publicatiebotsing vastgesteld in run 40193373320: beide scanners lazen de event-
 6. Browsertests op echte iPhones en andere mobiele apparaten, niet uitsluitend code- en JSON-regressietests.
 
 **Afbakening blijft absoluut:** geen wijzigingen, synchronisatie, migratie of aanroepen naar de afzonderlijke hernoemde supermarkt- en receptenrepository.
+
+
+
+## Dagelijkse kwaliteitscontrole 26 oktober, Reddit en daadwerkelijke kosten
+
+- Baseline scanner 40288333231 en Pages 40288490379 geslaagd. Nog slechts één onbevestigde feedmatch, nul bewezen persoonlijke all-in koopdeals; 0/59 gerichte productqueries met bruikbare uitkomst. Geen brede 'werkt'-claim.
+- Engelstalige bespaartactieken vielen door Nederlandse trefwoorden weg; parser uitgebreid met shipping/coupon/price/broadband/renewal en r/Netherlands. Regressietest verifieert dat deze leads kandidaat blijven. Automatische officiële tekstherkenning krijgt contentHash en expliciet humanReviewed=false.
+- Doorverkoopcalculator corrigeert verlies: €10 opbrengst minus €25 verkoopkosten is -€15, niet €0. Python- en Node-regressies geslaagd.
+- Nieuwe strategieën: alleen benodigde artikelen bundelen voor verzenddrempel; FNV-code op aanbiedingen ongeschikt; retentie en overstap vergelijken op gelijke looptijd blijft onderzoekskandidaat tot echte offertes beschikbaar zijn. Meervoordeel-claimroute verschilt per cadeau/provider; geen twee keer €100 cashback/kaart tellen.
+- De Online Drogist gecontroleerd: Skin Food 75 ml €8,99, standaard verzending onder €25 €3,95. Eén tube €12,94 tegenover drie tubes €26,97; meer tubes is niet automatisch minder totale uitgave. Dit is geen checkouttest of marktlaagste claim. Punten pas na echte verzilvering tellen. Davines-prijs niet herbevestigd.
+- Lloyds officiële tarief-PDF geldig vanaf 23 oktober gelezen; laagste gevonden tarief 3,70%, geen <3,60%-treffer in deze bankcontrole. Geen volledig marktoordeel; Rabobank tarieftabel niet uit gelezen publieke tekst verkregen.
+- Geautoriseerde privé-Site-read geslaagd; geen privévelden naar publieke repo gekopieerd. Vier publieke dashboardroutes en BIKE24-verzendpagina op bereikbaarheid gecontroleerd, geen volledige mobiele UI-test.
+- Gedetailleerde dagstatus: quality-review.json. Inhoud beschikbaar voor het bestaande centrale dagoverzicht; geen tweede gewone dealmail verzonden. Definitieve nieuwe Actions/Pages-verificatie vastleggen in Issue #5.
+- Hernoemde boodschappen-/receptenrepository niet benaderd of gewijzigd.

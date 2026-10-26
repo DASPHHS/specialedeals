@@ -40,10 +40,13 @@ REDDIT_QUERIES = [
 REDDIT_FEEDS = [
     "https://www.reddit.com/r/zuinig/new/.rss?limit=50",
     "https://www.reddit.com/r/frugal/new/.rss?limit=50",
+    "https://www.reddit.com/r/Netherlands/new/.rss?limit=50",
 ]
 INTERESTING = ("korting", "bespaar", "cashback", "verlengen", "overstap",
                "prijs", "black friday", "sale", "kortingscode", "deal",
-               "retour", "garantie", "loyalty", "refurbished")
+               "retour", "garantie", "loyalty", "refurbished",
+               "saving", "shipping", "coupon", "price", "broadband",
+               "switch provider", "energy contract", "renewal", "refurb")
 OUT_SCOPE = ("boodschappenlijst", "recepten", "maaltijden", "recept",
              "jumbo", "supermarkt", "ah bonus", "lidl")
 
@@ -112,6 +115,9 @@ def run():
             checks.append({"name": name, "url": url,
                            "status": "terms_found" if matched else "content_changed_review_needed",
                            "checkedAt": now,
+                           "verificationLevel": "keyword_match_only",
+                           "humanReviewed": False,
+                           "contentHash": hashlib.sha256(content.encode()).hexdigest(),
                            "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."})
         except Exception as exc:
             checks.append({"name": name, "url": url, "status": "error",
@@ -160,3 +166,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+

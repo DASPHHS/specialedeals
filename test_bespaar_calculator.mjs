@@ -30,3 +30,9 @@ const twentyfour=compareContract({...base,months:24,promoMonths:6,benefitType:"n
 assert.equal(twentyfour.chargesEUR,1020);
 assert.equal(twentyfour.possibleEconomicDifferenceEUR,420);
 console.log("Full-term gift/cashback comparisons passed.");
+
+
+const losingResale=compareContract({...base,promoMonths:0,benefitType:"resale",benefitEUR:10,resaleFeesEUR:25});
+assert.equal(losingResale.hypotheticalResaleNetEUR,-15);
+assert.equal(losingResale.possibleEconomicDifferenceEUR,-15);
+assert.equal(losingResale.realizedSavingsEUR,null);

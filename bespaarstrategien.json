@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-26",
   "purpose": "Herhaalbare, onderbouwde bespaarstrategieën voor persoonlijke niet-supermarktdeals; geen automatische besparing of gepersonaliseerde geschiktheidsclaim.",
   "items": [
     {
@@ -19,9 +19,9 @@
         "Controleer of je nieuwe klant bent of minstens zes maanden geen Ziggo-abonnement had; de actie is niet voor bestaande Ziggo-klanten.",
         "Vraag twee schriftelijke offertes voor identieke snelheid en TV-bundel, één met geldkorting/cashback en één met cadeau.",
         "Vul beide mogelijkheden in de totaalkostencalculator; waardeer een cadeau hoogstens op wat je er zelf werkelijk voor zou uitgeven.",
-        "Controleer verplicht claimmoment en deadline: claim na betaling van de eerste factuur; doorgaans maximaal zes maanden om te claimen."
+        "Controleer de claimroute van het specifieke cadeau: niet alles loopt via ClaimJeCadeau. Ziggo doorgaans na de eerste betaalde factuur, hollandsnieuwe Sim Only na de tweede en Internet & TV na de derde. Bewaar bevestiging en exacte claimdeadline."
       ],
-      "conditions": "Nieuwe Ziggo-klant of meer dan 6 maanden geen klant volgens aanbiedervoorwaarden. Actie, pakket, looptijd en giftwijzigingen altijd opnieuw controleren.",
+      "conditions": "Nieuwe Ziggo-klant of meer dan 6 maanden geen klant volgens aanbiedervoorwaarden. Actie, pakket, looptijd en giftwijzigingen altijd opnieuw controleren. Het €100-extra is cashback óf bol-cadeaukaart, geen twee keer €100. Officieel voorbeeld is geen persoonlijke offerte.",
       "basis": "Officiële site biedt vergelijking voor TV versus 12 maanden korting plus €100 cashback; geen individueel bewezen besparing."
     },
     {
@@ -43,7 +43,7 @@
         "Vergelijk ook rechtstreeks bij de provider en onafhankelijke alternatieven.",
         "Bij een cadeauclaim gelden andere betaalmomenten dan bij Ziggo; controleer de actuele voorwaarden."
       ],
-      "conditions": "Prijs vanaf €4,50 tijdens de promotie volgens officiële pagina; 24 maanden looptijd, later tarief niet als identiek veronderstellen.",
+      "conditions": "26 oktober: pagina toont ook €3,50 voor 15.000 MB/MIN/SMS, bij 24 maanden en 12 maanden 50% korting. Geen totaalprijs zonder activering, reguliere maanden en persoonlijke geschiktheid. MB, minuten en SMS delen dezelfde bundel.",
       "basis": "Officieel geadverteerde nieuwe-klanten-/promotiebundel, geen individueel passend contract bevestigd."
     },
     {
@@ -131,7 +131,7 @@
         "Gebruik niet meer dan één beloning per bestelling, conform programma.",
         "Controleer beperkingen op stapelen met actiecodes en beschikbaarheid van beloningen."
       ],
-      "conditions": "Punten worden op artikelen verdiend, niet op verzendkosten; retouren kunnen punten terugboeken.",
+      "conditions": "Punten worden op artikelen verdiend, niet op verzendkosten; retouren kunnen punten terugboeken. Eén punt per bestede producteuro; vanaf 400 punten €5 shoptegoed volgens bron. Maximaal één beloning per bestelling; code in mand nodig. Nog niet verdiende of onverzilverde punten niet als contante besparing aftrekken.",
       "basis": "Officieel spaarprogramma en kortingscodebeleid."
     },
     {
@@ -197,6 +197,83 @@
       ],
       "conditions": "Resultaten wisselen; geen automatische aankoop of garantie.",
       "basis": "Nederlandse communityervaring, niet een actuele productdeal."
+    },
+    {
+      "id": "shipping_threshold",
+      "title": "Gratis bezorging: vul alleen aan als de totale uitgave lager wordt",
+      "category": "Verzorging",
+      "priority": 92,
+      "effort": "2 minuten",
+      "status": "officiele_voorwaarden",
+      "executionStatus": "uitvoerbaar_onder_voorwaarden",
+      "merchant": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/shipping-and-delivery",
+      "policyUrl": "https://www.deonlinedrogist.nl/shipping-and-delivery",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "Een geplande drogisterijbestelling onder €25",
+      "why": "Een extra artikel om bezorgkosten te vermijden kan duurder zijn dan de verzending betalen.",
+      "actions": [
+        "Vergelijk het totale benodigde mandje met en zonder aanvulling. Alleen toch al noodzakelijke artikelen hebben bruikbare waarde.",
+        "Nederland: gratis vanaf €25, anders €3,95 volgens actuele verzendpagina.",
+        "Voorbeeld, geen aankoopadvies: één Skin Food 75 ml à €8,99 plus €3,95 = €12,94. Drie tubes kosten €26,97; €14,03 meer cash voor twee extra tubes. Geen automatische besparing."
+      ],
+      "conditions": "Alleen standaard NL-verzending; minimum na eventuele korting en gekozen bezorging in de mand controleren. De actuele Skin Food-prijs is geen bevestigde 1+1-actie en geen bewezen marktlaagste prijs.",
+      "basis": "Reddit r/Frugal geeft de onderzoeksvraag; huidige Nederlandse aanbiederregels en zichtbare 75 ml-prijs gecontroleerd op 26 oktober.",
+      "researchUrls": [
+        "https://www.reddit.com/r/Frugal/comments/3gham5/what_do_you_usually_add_to_your_amazon_order_to/",
+        "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm"
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "fnv_promo_stack_rejected",
+      "title": "FNV-code stapelen op een aanbieding: niet toegestaan",
+      "category": "Verzorging",
+      "priority": 79,
+      "effort": "1 minuut",
+      "status": "alleen_indien_lid",
+      "executionStatus": "ongeschikt",
+      "merchant": "De Online Drogist",
+      "url": "https://www.deonlinedrogist.nl/fnv-ledenvoordeel",
+      "sourceType": "officiele_aanbieder",
+      "trigger": "Een FNV-code op een actieproduct willen gebruiken",
+      "why": "Tien procent ledenkorting mag niet als extra korting op bestaande aanbiedingen worden doorgerekend.",
+      "actions": [
+        "FNV26DOD is alleen voor echte leden met geldige bond-/lidnummercombinatie.",
+        "Niet gebruiken als extra korting op aanbiedingen, geneesmiddelen of zuigelingenvoeding.",
+        "Controleer een eventueel geschikt niet-afgeprijsd product afzonderlijk; geen lidmaatschap veronderstellen."
+      ],
+      "conditions": "Geldig tot en met 31 december 2026 volgens officiële pagina. Source-confirmed, niet checkout-tested. Geen lidgegevens ingevuld.",
+      "basis": "Officiële FNV-actiepagina gelezen op 26 oktober 2026.",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "retention_written_quote",
+      "title": "Vergelijk klantbehoud met overstappen op dezelfde looptijd",
+      "category": "Contracten",
+      "priority": 98,
+      "effort": "10-20 minuten",
+      "status": "herhaalbare_community_tactiek",
+      "executionStatus": "onderzoekskandidaat",
+      "merchant": "Internet- en energieaanbieders",
+      "url": "https://www.reddit.com/r/Netherlands/comments/1lpyulm/is_it_worth_to_periodically_switch_providers_to/",
+      "policyUrl": "https://meervoordeel.nl/ziggo/korting-of-cadeau",
+      "sourceType": "reddit_ervaringen",
+      "trigger": "Einddatum huidige vaste contract nadert",
+      "why": "Reddit laat uiteenlopende retentie-uitkomsten zien. Een concreet aanbod is nodig om werkelijk te vergelijken.",
+      "actions": [
+        "Vraag behoud en overstap schriftelijk aan voor exact dezelfde diensten en 12/24 maanden.",
+        "Tel actiemaanden, normale maanden, aansluitkosten, overstapvergoeding en verloren combinatievoordelen mee.",
+        "Cadeau naar eigen gebruikswaarde waarderen; verkoopkosten kunnen hoger zijn dan verkoopprijs. Een verlies moet ook zichtbaar blijven.",
+        "Geen persoonlijke besparing claimen zonder actuele contracten en offertes."
+      ],
+      "conditions": "Geen gegarandeerde korting of terugbetaling. Nieuweklantenstatus en contractduur expliciet door aanbieder laten bevestigen. Geen identiteit/adres wisselen om voorwaarden te omzeilen.",
+      "basis": "Actuele aanbiedervergelijking plus NL- en Engelstalige Reddit-discussies onderzocht op 26 oktober.",
+      "researchUrls": [
+        "https://www.reddit.com/r/zuinig/comments/1uv8ieq/welke_gewoonte_bespaart_je_elke_maand_geld_zonder/",
+        "https://www.reddit.com/r/Netherlands/comments/1lfht8v/energy_providercontract_change/"
+      ],
+      "checkedAt": "2026-10-26"
     }
   ]
 }

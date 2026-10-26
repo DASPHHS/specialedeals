@@ -61,7 +61,7 @@ Het gezamenlijke dashboard staat in deze repository. `winacties.html` leest de g
 
 `contest_scan.py` zoekt via 23 Nederlandstalige, Engelse, Duitse en Franse RSS-zoekopdrachten naar auto/EV, cash, renovatie, verduurzaming, tuin, keukenapparatuur en reizen. Alle resultaten blijven kandidaten: alleen een redactionele controle van officiële regels kan gratis deelname en Nederlandse toelating bevestigen. Geen automatische inzendingen door GitHub, geen garantie op volledige dekking. Bronfouten worden geregistreerd en wissen bestaande kandidaten niet.
 
-De niet-voedingsscanner uit Kansenradar is gemigreerd naar `scripts/household_scan.py`, met paginering. Het gezamenlijke tabblad Huishouden & verzorging leest `household.json`. Exacte EAN alleen uit echte EAN-data; een product-ID is geen EAN. Een procentueel verschil gebruikt de getoonde actieprijs als noemer. Ontbrekende Action/Zeeman-prijzen blijven een dekkingsgat.
+Historisch is een huishoudscanner overgenomen uit Kansenradar. Deze is inmiddels uit de geplande workflow en webweergave verwijderd. Algemene huishoud-/supermarktacties en recepten vallen buiten de huidige scope.
 
 De oude Kansenradar-startpagina verwijst naar hier. Gitgeschiedenis en een `legacy-index.html` blijven behouden. De oude dagelijkse scanner krijgt geen eigen planning meer; deze repository verzorgt de gezamenlijke scan. Koopkracht blijft ongewijzigd apart.
 
@@ -115,3 +115,11 @@ Status na codewijziging: alle bovenstaande onderdelen zijn gebouwd, maar echte e
 - **Scope:** voor de hernoemde boodschappen-/receptenrepository wordt geen code gelezen of gewijzigd. Het incidenteel meetrekken van de oude huishoudscanner in Speciale Deals is uit de geplande workflow verwijderd.
 
 **Nog niet gerealiseerd:** automatisch toepassen van kortingscodes, privécontracten inladen, echte gepersonaliseerde provider-offertes vergelijken en automatische claim-/contractacties. Deze worden nooit als voltooid gemarkeerd zonder concrete integratietest.
+
+
+## Kwaliteitscontrole 26 oktober 2026
+
+- Reddit-detectie uitgebreid voor Engelstalige shipping/coupon/price/broadband/renewal-termen en r/Netherlands. Kandidaten blijven ongeverifieerd. Een 429 wordt niet omzeild.
+- Automatische trefwoordcontrole bewaart nu contentHash, verificationLevel=keyword_match_only en humanReviewed=false; geen handmatige herbevestiging suggereren.
+- Cadeau-doorverkoopcalculator toont ook een nettoverlies wanneer verkoopkosten hoger zijn dan de opbrengst.
+- Bespaarstrategieën bijgewerkt met NL-verzenddrempel, specifieke Meervoordeel-claimroutes en afwijzing van FNV-stapeling op actieproducten. Persoonlijke geschiktheid en checkout blijven afzonderlijke controles.

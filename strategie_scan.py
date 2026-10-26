@@ -70,10 +70,8 @@ def article_candidates(xml_text):
     nodes = [(x, False) for x in root.findall(".//item")]
     nodes += [(x, True) for x in root.findall(".//{http://www.w3.org/2005/Atom}entry")]
     for item, atom in nodes:
-        title = re.sub(r"\\s+", " ", (
-            item.findtext("{http://www.w3.org/2005/Atom}title") if atom
-            else item.findtext("title") or ""
-        )).strip()
+        title_value = item.findtext("{http://www.w3.org/2005/Atom}title") if atom else item.findtext("title")
+        title = re.sub(r"\s+", " ", title_value or "").strip()
         if atom:
             links = item.findall("{http://www.w3.org/2005/Atom}link")
             link = next((x.attrib.get("href","") for x in links

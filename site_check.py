@@ -9,6 +9,12 @@ for file,ids in PAGES.items():
  html=(ROOT/file).read_text(encoding="utf-8")
  for identifier in ids:
   if ('id="'+identifier+'"') not in html:raise RuntimeError(file+": missing element "+identifier)
+ # Guard against a truncated static page. A valid JavaScript prefix can still
+ # pass syntax checking if the closing script/body/html markup was lost.
+ if not re.search(r"</body>\s*</html>\s*$", html, flags=re.I):
+  raise RuntimeError(file+": truncated document (missing closing body/html)")
+ if "<script" not in html.lower() or "</script>" not in html.lower():
+  raise RuntimeError(file+": missing or truncated script markup")
  blocks=re.findall(r"<script\b[^>]*>(.*?)</script>",html,flags=re.I|re.S)
  if not blocks:raise RuntimeError(file+": no JavaScript")
  for j,block in enumerate(blocks):

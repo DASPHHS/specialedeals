@@ -27,9 +27,9 @@
 <label>Normale maandprijs daarna (€)<input id="compareStandard" type="number" inputmode="decimal" min="0" step="0.01" placeholder="bijv. 76,40"></label>
 <label>Eenmalige installatie/overstapkosten (€)<input id="compareOneOff" type="number" inputmode="decimal" min="0" step="0.01" value="0"></label>
 <label>Type extra voordeel
-<select id="benefitType"><option value="none">Geen</option><option value="cash">Cashback of direct geld</option><option value="gift">Cadeau dat ik anders zelf zou kopen</option></select></label>
+<select id="benefitType"><option value="none">Geen</option><option value="cash">Cashback of direct geld</option><option value="gift">Cadeau dat ik anders zelf zou kopen</option><option value="resale">Cadeau dat ik wil doorverkopen</option></select></label>
 <label id="benefitAmountWrap" hidden><span id="benefitLabel">Bedrag cashback of kortingstegoed (€)</span><input id="compareBenefit" type="number" inputmode="decimal" min="0" step="0.01" value="0"></label>
-<label id="giftCopayWrap" hidden>Eigen bijbetaling voor cadeau (€)<input id="compareGiftCopay" type="number" inputmode="decimal" min="0" step="0.01" value="0"></label>
+<label id="giftCopayWrap" hidden>Eigen bijbetaling voor cadeau (€)<input id="compareGiftCopay" type="number" inputmode="decimal" min="0" step="0.01" value="0"></label><label id="resaleFeesWrap" hidden>Verwachte verkoopkosten, verzending, provisie (€)<input id="compareResaleFees" type="number" inputmode="decimal" min="0" step="0.01" value="0"></label>
 </div>
 <div class="actions"><button id="contractDealCompare">Bereken totale kosten en mogelijk voordeel</button></div>
 <div id="contractDealResult" role="status" aria-live="polite"><p class="muted">Vul eerst de maandprijzen in. De berekening combineert nooit automatisch cashback én een cadeau.</p></div>

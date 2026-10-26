@@ -18,6 +18,20 @@ class StrategyScanTests(unittest.TestCase):
         self.assertFalse(found[0]["verified"])
         self.assertEqual(found[0]["status"], "community_onderzoekskandidaat")
 
+    def test_reddit_atom_feed_discovers_only_relevant_posts(self):
+        atom = """<feed xmlns="http://www.w3.org/2005/Atom">
+          <entry><title>Nieuwe cashback prijsvergelijking internet abonnement</title>
+            <link href="https://www.reddit.com/r/zuinig/comments/1uv8ieq/welke_gewoonte_bespaart_geld/" rel="alternate"/>
+          </entry>
+          <entry><title>AH supermarkt recepten</title>
+            <link href="https://www.reddit.com/r/zuinig/comments/1uv8def/ah_recept/" rel="alternate"/>
+          </entry>
+        </feed>"""
+        found = article_candidates(atom)
+        self.assertEqual(len(found),1)
+        self.assertTrue(found[0]["url"].startswith("https://www.reddit.com/r/zuinig/comments/"))
+        self.assertFalse(found[0]["verified"])
+
     def test_unparsed_or_empty_rss_is_not_false_success(self):
         self.assertEqual(article_candidates("<html>bad"), [])
         self.assertEqual(article_candidates("<rss><channel></channel></rss>"), [])

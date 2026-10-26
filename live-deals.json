@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-10-26T07:44:24.674089+00:00",
+  "updatedAt": "2026-10-26T07:45:12.951562+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 161,
+    "source_quality": 114,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Redragon M68 Toetsenbord | Magnetische Switch | 8000Hz polling Rate | Rapid Trigger | US Lay-out",
+        "url": "https://nl.pepper.com/aanbiedingen/redragon-m68-toetsenbord-magnetische-switch-8000hz-polling-rate-rapid-trigger-us-lay-out-423710",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "UWANT D700 nat- en droogzuiger,",
@@ -70,63 +76,57 @@
         "title": "Lebara 250 min + 250 sms + 40 GB 5G Sim Only - 2 jaar - € 2,98 p/m",
         "url": "https://nl.pepper.com/aanbiedingen/lebara-250-min-250-sms-40-gb-5g-sim-only-2-jaar-eur-298-pm-423699",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "72050 LEGO Mario Kart: Luigi en Mach 8",
-        "url": "https://nl.pepper.com/aanbiedingen/lego-mario-kart-luigi-423698",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Top 10 Pokemon to get into PvP (And more advices)",
-        "url": "https://forums.pokemmo.com/index.php?/topic/187592-top-10-pokemon-to-get-into-pvp-and-more-advices/",
+        "title": "Alle supermarkten in Rotterdam | Handig overzicht",
+        "url": "https://www.allesupermarkten.com/rotterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Pokémon Champions & VGC Stats - Metagame & Tier Lists - Pokémon Zone",
-        "url": "https://www.pokemon-zone.com/champions/",
+        "title": "Albert Heijn: boodschappen doen bij de grootste supermarkt",
+        "url": "https://www.ah.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PokeMMO Safari Zone Guide - Catch Rates, Flee Rates & Best Strategies ...",
-        "url": "https://synergymmo.com/safari-zones/",
+        "title": "PLUS Supermarkt | Bestel je boodschappen makkelijk op plus.nl | PLUS",
+        "url": "https://www.plus.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PokeMMO Tierlist - Topics - PokeMMO",
-        "url": "https://forums.pokemmo.com/index.php?/topic/118864-pokemmo-tierlist/",
+        "title": "Supermarkt in de buurt vinden | Adres & Openingstijden",
+        "url": "https://supermarkt-nu.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PokeMMO",
-        "url": "https://pokemmo.com/",
+        "title": "Supermarkt Rotterdam: adres & openingstijden",
+        "url": "https://supermarkt-nu.nl/supermarkten/zuid-holland/rotterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Team Synergy - PokeMMO Shiny Hunting Community",
-        "url": "https://synergymmo.com/",
+        "title": "Alle Supermarkten - een handig overzicht van elke supermarkt",
+        "url": "https://www.allesupermarkten.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Top 10 Pokemon Every PokeMMO Player Should Have - YouTube",
-        "url": "https://www.youtube.com/watch?v=CNe61Ry3BfY",
+        "title": "Top 366 Supermarkten in Rotterdam | Winkls",
+        "url": "https://www.winkls.nl/zuid-holland/rotterdam/supermarkt/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Top 25 Pokemon EVERY PokeMMO Player Should Have - YouTube",
-        "url": "https://www.youtube.com/watch?v=2zBMp3f4_Lc",
+        "title": "Supermarkten in Rotterdam – Openingstijden, route & recensies",
+        "url": "https://www.openingstijden.nl/Zuid-Holland/Rotterdam/Supermarkten/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PokeMMO Hub - Pokedex",
-        "url": "https://pokemmohub.com/tools/pokedex/",
+        "title": "Welke supermarkt is nu open in Rotterdam",
+        "url": "https://www.supermarktvergelijken.com/rotterdam/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PokeMMO PvP Tierlist Season 14 OU Tier List Community Rankings",
-        "url": "https://tiermaker.com/categories/pokemon/pokemmo-pvp-tierlist-season-14-ou-16208481",
+        "title": "Jumbo Rotterdam Botersloot",
+        "url": "https://www.jumbo.com/winkel/rotterdam/jumbo-rotterdam-botersloot",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -370,13 +370,13 @@
       "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -412,7 +412,7 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -424,7 +424,7 @@
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -436,19 +436,19 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -466,7 +466,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -478,13 +478,13 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -496,7 +496,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +514,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 222,
+    "scannedItems": 175,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:44:24.674089+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:45:12.951562+00:00"
 }

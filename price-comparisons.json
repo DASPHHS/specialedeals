@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T07:44:43.707035+00:00",
-  "observationsCheckedAt": "2026-10-26T07:44:24.773819+00:00",
+  "updatedAt": "2026-10-26T07:45:31.076493+00:00",
+  "observationsCheckedAt": "2026-10-26T07:45:13.038491+00:00",
   "comparisons": [
     {
       "id": "gtin:4001638093989",
@@ -24,7 +24,7 @@
           "url": "https://www.deonlinedrogist.nl/drogist/weleda-skin-food-creme-75ml.htm",
           "priceEUR": 8.99,
           "shippingNote": "Gratis verzending binnen Nederland boven €25 volgens winkel",
-          "checkedAt": "2026-10-26T07:44:24.773819+00:00",
+          "checkedAt": "2026-10-26T07:45:13.038491+00:00",
           "merchantCountry": "NL",
           "stockStatus": "volgens winkel op voorraad"
         },
@@ -33,7 +33,7 @@
           "url": "https://www.ecco-verde.nl/weleda/skin-food?sai=32293",
           "priceEUR": 10.49,
           "shippingNote": "Verzendkosten op productpagina, buiten artikelprijs",
-          "checkedAt": "2026-10-26T07:44:24.773819+00:00",
+          "checkedAt": "2026-10-26T07:45:13.038491+00:00",
           "merchantCountry": "NL",
           "stockStatus": "volgens winkel op voorraad"
         }

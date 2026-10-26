@@ -70,6 +70,18 @@ for key in ("deals","samples","promotions","sources"):
 for row in live.get("deals",[]):
  if row.get("priceVerified") is True or row.get("allInVerified") is True:
   raise RuntimeError("Discovery lead falsely marked as verified")
+# Information architecture: public savings hub is a clear summary, never an embedded
+# private-looking contract form; the full calculator stays accessible separately.
+homepage=(ROOT/"index.html").read_text(encoding="utf-8")
+if 'data-tab="saving">Vaste lasten</button>' not in homepage:
+ raise RuntimeError("Personal finance tab missing or unclearly labelled")
+if 'id="extendedSavingTools"' not in homepage or 'href="./besparen.html"' not in homepage:
+ raise RuntimeError("Advanced savings tools not available from finance overview")
+if 'data-src="./besparen.html?embedded=1"' in homepage:
+ raise RuntimeError("Generic savings iframe should not dominate the main dashboard")
+if 'Tesla via Ayvens' not in homepage:
+ raise RuntimeError("Known second-vehicle context missing or malformed")
+
 index=(ROOT/"index.html").read_text(encoding="utf-8")
 for phrase in ("stockInfo(d)","app.observations","Nog geen onafhankelijke marktprijsvergelijking","watchlist.json","ingCompare"):
  if phrase not in index:raise RuntimeError("Dashboard missing safety/alert behavior "+phrase)

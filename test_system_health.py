@@ -25,7 +25,9 @@ class HealthTests(unittest.TestCase):
    root=Path(temp)
    (root/'live-deals.json').write_text(json.dumps({
     'updatedAt':now.isoformat(),'coverage':{'personalMatches':25},
-    'sources':[{'status':'ok','items':45}]}))
+    'sources':[{'source':'Merkscan 1','status':'empty','items':0},
+               {'source':'Internationale zoekopdracht 1','status':'ok','items':2},
+               {'source':'Pepper Nederland','status':'ok','items':45}]}))
    (root/'merchant-observations.json').write_text(json.dumps({
     'offers':[{'allInVerified':False,'marketComparisonVerified':False,
     'variantVerified':True,'stockStatus':'volgens winkel op voorraad'}]}))
@@ -33,6 +35,8 @@ class HealthTests(unittest.TestCase):
    self.assertEqual(result['state'],'gedeeltelijk')
    self.assertEqual(result['personalMatches'],25)
    self.assertEqual(result['verifiedProductDeals'],0)
+   self.assertEqual(result['contributingQueries'],1)
+   self.assertEqual(result['totalTargetedQueries'],2)
 
  def test_fresh_file_with_all_sources_failed_is_not_success(self):
   now=dt.datetime.now(dt.timezone.utc)

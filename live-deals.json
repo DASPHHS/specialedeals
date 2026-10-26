@@ -1,10 +1,40 @@
 {
-  "updatedAt": "2026-10-26T09:16:05.344456+00:00",
+  "updatedAt": "2026-10-26T09:25:49.381215+00:00",
   "diagnostics": {
     "irrelevant": 61,
-    "source_quality": 190,
+    "source_quality": 176,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "KitchenAid Artisan keukenmachine 4,8 l (porseleinwit) @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/kitchenaid-artisan-keukenmachine-48-l-porseleinwit-at-bol-423739",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "LUVION Malmö Buggy @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/luvion-malmo-buggy-423738",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "MONSTER ENERGY Ultra White Suikervrije Energiedrank - 12 x 500 ml",
+        "url": "https://nl.pepper.com/aanbiedingen/monster-energy-ultra-white-suikervrije-energiedrank-12-x-500-ml-423737",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "New Balance sokken 6-pack (maat 35-37 & 47-50)",
+        "url": "https://nl.pepper.com/aanbiedingen/new-balance-sokken-6-pack-maat-35-37-47-50-423736",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "How to train a dragon / Hoe tem je een draak DreamWorksng interactieve draak @ Amazon",
+        "url": "https://nl.pepper.com/aanbiedingen/how-to-train-a-dragon-hoe-tem-je-een-draak-dreamworksng-interactieve-draak-at-amazon-421080",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Frank Herbert’s Dune Saga 3-Book Boxed Set (paperback, Engels) @ Amazon / Bol",
@@ -46,115 +76,62 @@
         "title": "€ 35 korting op alle abonnementen bij Mobiel.nl -te combineren met lopende acties- via ING",
         "url": "https://nl.pepper.com/aanbiedingen/eur-35-korting-op-alle-abonnementen-bij-mobielnl-te-combineren-gecombineerd-met-lopende-acties-via-ing-423730",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Uniqlo Mid-season Sale: tot 60% korting op jeans, corduroy en jassen voor dames en heren",
-        "url": "https://nl.pepper.com/aanbiedingen/uniqlo-mid-season-sale-tot-60-korting-op-jeans-corduroy-en-jassen-voor-dames-en-heren-423729",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "25% korting bij BBQuality! Bijv: Thermapen One voor € 71,21",
-        "url": "https://nl.pepper.com/kortingscode/25-korting-bij-bbquality-bijv-thermapen-one-voor-eur-7121-423728",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Go-Tan Sriracha (orginal/mayo) voor €1 met Scoupy",
-        "url": "https://nl.pepper.com/aanbiedingen/go-tan-sriracha-orginalmayo-voor-eur1-met-scoupy-423726",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "[ING] Stunten met Punten - deals voor slechts 1 punt!",
-        "url": "https://nl.pepper.com/aanbiedingen/ing-stunten-met-punten-deals-voor-slechts-1-punt-423725",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Dreame X40 Ultra Complete Robotstofzuiger met dweilfunctie en zelfreinigend basisstation @ Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/dreame-x40-ultra-complete-robotstofzuiger-met-dweilfunctie-en-zelfreinigend-basisstation-at-bol-423724",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Wat is een query? Simpele uitleg + Leer zelf queries maken!",
-        "url": "https://programmeerplaats.nl/wat-is-een-query/",
+        "title": "一块绝妙 Pizza 的标准是什么？ - 知乎",
+        "url": "https://www.zhihu.com/question/31404620",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Query",
+        "title": "披萨制作成本低，为什么一个12寸的pizza要卖到72元！而且还有很多人买？",
+        "url": "https://www.zhihu.com/question/27685283",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Query",
+        "title": "为什么披萨中间有一个白色的三角架? - 知乎",
+        "url": "https://www.zhihu.com/question/327455580",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query - 11 definities - Encyclo",
-        "url": "https://www.encyclo.nl/begrip/Query",
+        "title": "pizza为什么需要用橄榄油呢？ - 知乎",
+        "url": "https://www.zhihu.com/question/51682304",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query: wat het is en wat een dashboard ermee doet - DoubleWeb",
-        "url": "https://draadwerk.nl/wat-is/query/",
+        "title": "什么是plain pizza? - 知乎",
+        "url": "https://www.zhihu.com/question/39761711",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query - definition of query by The Free Dictionary",
-        "url": "https://www.thefreedictionary.com/query",
+        "title": "为什么国内的pizza普遍比美国的好吃？ - 知乎",
+        "url": "https://www.zhihu.com/question/22407472",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Een query maken, laden of bewerken in Excel (Power Query)",
-        "url": "https://support.microsoft.com/nl-nl/excel/create-load-or-edit-a-query-in-excel-power-query",
+        "title": "披萨上都可以放什么？ - 知乎",
+        "url": "https://www.zhihu.com/question/37963341",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Wat is een Query? - Duidelijke uitleg van PEAK!",
-        "url": "https://peakonlinemarketing.nl/begrippen/query",
+        "title": "如何制作披萨的面饼？ - 知乎",
+        "url": "https://www.zhihu.com/question/26542639",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "What is a query? Database queries explained - Hostinger",
-        "url": "https://www.hostinger.com/tutorials/what-is-a-query/",
+        "title": "必胜客哪种pizza好吃？ - 知乎",
+        "url": "https://www.zhihu.com/question/313099685",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Query: Data ophalen en optimaliseren voor snelheid - Wux",
-        "url": "https://wux.nl/wat-is/query",
+        "title": "怎样用烤箱做披萨？ - 知乎",
+        "url": "https://www.zhihu.com/question/403075225",
         "source": "Gerichte winkelscan"
       }
     ]
   },
-  "deals": [
-    {
-      "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
-      "source": "Gerichte merkzoekopdracht",
-      "sourceType": "news",
-      "published": "Mon, 26 Oct 2026 07:48:00 GMT",
-      "price": null,
-      "score": 43,
-      "matched": [
-        "apple"
-      ],
-      "category": "Technologie & wonen",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    }
-  ],
+  "deals": [],
   "samples": [],
   "promotions": [],
   "sources": [
@@ -242,9 +219,9 @@
     },
     {
       "source": "Merkscan 13",
-      "status": "ok",
-      "items": 1,
-      "retrieved": 1
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 14",
@@ -394,7 +371,7 @@
       "source": "Winkelzoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 6
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -472,7 +449,7 @@
       "source": "Internationale zoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 5",
@@ -787,9 +764,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 252,
-    "personalMatches": 1
+    "scannedItems": 237,
+    "personalMatches": 0
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T09:16:05.344456+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T09:25:49.381215+00:00"
 }

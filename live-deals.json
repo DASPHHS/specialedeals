@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:27:00.454884+00:00",
+  "updatedAt": "2026-10-26T07:27:45.427003+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 148,
+    "source_quality": 160,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Falklandeilanden - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Falklandeilanden",
+        "title": "CCAMLR Convention | UNEP - UN Environment Programme",
+        "url": "https://www.unep.org/en/ccamlr-convention",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falklandeilanden: 25 Bezienswaardigheden en Tips - Droomplekken.nl",
-        "url": "https://www.droomplekken.nl/falklandeilanden/",
+        "title": "Annual Report 2019 | UNEP - UN Environment Programme",
+        "url": "https://www.unep.org/resources/unep-annual-report-2019",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falkland Islands - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Falkland_Islands",
+        "title": "Rebuilding the ozone layer: how the world came together for the ... - UNEP",
+        "url": "https://www.unep.org/en/news-and-stories/story/rebuilding-ozone-layer-how-world-came-together-ultimate-repair-job",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falkland Islands | Reizen, Vakanties & Cruises naar de Falklandeilanden",
-        "url": "https://oceanwide-expeditions.com/nl/antarctica/falklandeilanden",
+        "title": "The SEMPA Project (2023-2027) | UNEPMAP",
+        "url": "https://www.unep.org/unepmap/what-we-do/projects/SEMPA-Project",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Geografie van de Falklandeilanden - Wikipedia",
-        "url": "https://nl.wikipedia.org/wiki/Geografie_van_de_Falklandeilanden",
+        "title": "From Pollution to Solution: A global assessment of marine litter ... - UNEP",
+        "url": "https://www.unep.org/fr/resources/de-la-pollution-la-solution-une-evaluation-mondiale-des-dechets-marins-et-de-la-pollution",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falklandoorlog (1982) en geschiedenis Falklandeilanden - Historiek",
-        "url": "https://historiek.net/falklandeilanden/7207/",
+        "title": "Ozone layer recovery is on track, helping avoid global warming ... - UNEP",
+        "url": "https://www.unep.org/en/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falklandeilanden - Wikiwand",
-        "url": "https://www.wikiwand.com/nl/Falklandeilanden",
+        "title": "Record heat sends sea ice into retreat, worrying scientists",
+        "url": "https://www.unep.org/en/news-and-stories/story/record-heat-sends-sea-ice-retreat-worrying-scientists",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Landen Profiel: Alle Weetjes over Falklandeilanden | FactXplorer",
-        "url": "https://factxplorer.com/nl/landen/falklandeilanden",
+        "title": "President and Bureau - UNEP",
+        "url": "https://www.unep.org/environmentassembly/unea8/presidency-and-bureau",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Falklandeilanden of Malvinas? De historische en juridische strijd om de ...",
-        "url": "https://historiek.net/falklandeilanden-malvinas-historische-strijd/184970/",
+        "title": "The Montreal Protocol: triumph by treaty - UNEP",
+        "url": "https://www.unep.org/en/news-and-stories/story/montreal-protocol-triumph-treaty",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Feiten over Falklandeilanden - LandenAtlas",
-        "url": "https://landenatlas.nl/land/falkland-islands/feiten",
+        "title": "About Us | UNEP - UN Environment Programme",
+        "url": "https://www.unep.org/en/who-we-are/about-us",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -335,8 +335,8 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -345,8 +345,8 @@
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -355,8 +355,8 @@
     },
     {
       "source": "Winkelzoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -366,7 +366,7 @@
     {
       "source": "Winkelzoekopdracht 8",
       "status": "ok",
-      "items": 8
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -385,8 +385,8 @@
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -395,8 +395,8 @@
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 209,
+    "scannedItems": 221,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:27:00.454884+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:27:45.427003+00:00"
 }

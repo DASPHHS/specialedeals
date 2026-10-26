@@ -21,9 +21,14 @@ class ContestLinks(HTMLParser):
   source_host=urllib.parse.urlparse(self.source['url']).hostname or ''
   path=urllib.parse.urlparse(url).path
   if 'prijsvragen.nl' in source_host and (host!=source_host or not path.startswith('/winactie/')):self.href=None;return
-  if host==source_host and 'prijsvragen.nl' not in source_host:self.href=None;return
+  # Mitspiel lists individual contests on same-domain detail pages.
+  # These remain UNVERIFIED research leads, never official organizer URLs.
+  mitspiel='mitspiel.nl' in source_host
+  if mitspiel and (host!=source_host or not re.fullmatch(r'/winacties/[^/]+/?',path)):
+   self.href=None;return
+  if host==source_host and not (mitspiel or 'prijsvragen.nl' in source_host):self.href=None;return
   if url.rstrip('/')==self.source['url'].rstrip('/'):self.href=None;return
-  if len(title)>12 and (path.startswith('/winactie/') or re.search(r'\bwin\b|winactie|prijsvraag|giveaway|gewinnspiel',title,re.I)) and not any(host==h or host.endswith('.'+h) for h in tracking):
+  if len(title)>12 and ((mitspiel and path.startswith('/winacties/')) or path.startswith('/winactie/') or re.search(r'\bwin\b|winactie|prijsvraag|giveaway|gewinnspiel',title,re.I)) and not any(host==h or host.endswith('.'+h) for h in tracking):
    self.rows.append({'title':title,'url':url,'discoveredVia':self.source['url'],'discoverySource':self.source['name']})
   self.href=None
 

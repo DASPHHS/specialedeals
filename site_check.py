@@ -189,4 +189,9 @@ for lead in strategy_doc.get("redditCandidates",[]):
   raise RuntimeError("Reddit lead must link to the primary community site")
 for phrase in ('id="redditLeadItems"','id="redditLeadStatus"','id="redditLeadCount"'):
  if phrase not in savings_page:raise RuntimeError("Reddit research disclosure missing "+phrase)
+# Homepage shows only the user's self-reported local amount, never private records.
+if 'id="savedOnDevice"' not in index or 'updatePrivateSavingsTile' not in index:
+ raise RuntimeError("Local savings summary missing from central dashboard")
+if 'kansenkompas_privatesavings_device_v1' not in index:
+ raise RuntimeError("Home and savings page must reference the same on-device ledger key")
 print("Website and JSON quality checks passed.")

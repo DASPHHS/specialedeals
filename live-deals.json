@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:25:46.752055+00:00",
+  "updatedAt": "2026-10-26T07:27:00.454884+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 190,
+    "source_quality": 148,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "대만관광청 한국사무소",
-        "url": "https://www.taiwantour.or.kr/introduction/korean-office.html",
+        "title": "Falklandeilanden - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Falklandeilanden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "为什么海关不许进口印有Made in R.O.C字样的商品，反而可以进口Made in Taiwan？",
-        "url": "https://www.zhihu.com/question/57183466",
+        "title": "Falklandeilanden: 25 Bezienswaardigheden en Tips - Droomplekken.nl",
+        "url": "https://www.droomplekken.nl/falklandeilanden/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "如果当年汉字真的拼音化了会怎么样？ - 知乎",
-        "url": "https://www.zhihu.com/question/48030905",
+        "title": "Falkland Islands - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Falkland_Islands",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "대만관광청 공식 홈페이지",
-        "url": "https://www.taiwantour.or.kr/",
+        "title": "Falkland Islands | Reizen, Vakanties & Cruises naar de Falklandeilanden",
+        "url": "https://oceanwide-expeditions.com/nl/antarctica/falklandeilanden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "台湾 - 知乎",
-        "url": "https://www.zhihu.com/topic/19553437/intro",
+        "title": "Geografie van de Falklandeilanden - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Geografie_van_de_Falklandeilanden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "공지사항 | 대만관광청",
-        "url": "https://www.taiwantour.or.kr/introduction/view.html?id=2374",
+        "title": "Falklandoorlog (1982) en geschiedenis Falklandeilanden - Historiek",
+        "url": "https://historiek.net/falklandeilanden/7207/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "台湾为什么又叫Formosa？ - 知乎",
-        "url": "https://www.zhihu.com/question/30828571",
+        "title": "Falklandeilanden - Wikiwand",
+        "url": "https://www.wikiwand.com/nl/Falklandeilanden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "대만 소개",
-        "url": "https://www.taiwantour.or.kr/info/introduction.html",
+        "title": "Landen Profiel: Alle Weetjes over Falklandeilanden | FactXplorer",
+        "url": "https://factxplorer.com/nl/landen/falklandeilanden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "台湾人不使用汉语拼音，但是为什么看一些台湾的媒体还有BBC等都是用Taiwan？",
-        "url": "https://www.zhihu.com/question/430467875",
+        "title": "Falklandeilanden of Malvinas? De historische en juridische strijd om de ...",
+        "url": "https://historiek.net/falklandeilanden-malvinas-historische-strijd/184970/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "如果外国人呛我说什么free tibet或者free taiwan ... - 知乎",
-        "url": "https://www.zhihu.com/question/47123638",
+        "title": "Feiten over Falklandeilanden - LandenAtlas",
+        "url": "https://landenatlas.nl/land/falkland-islands/feiten",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -341,7 +341,7 @@
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -355,8 +355,8 @@
     },
     {
       "source": "Winkelzoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -366,7 +366,7 @@
     {
       "source": "Winkelzoekopdracht 8",
       "status": "ok",
-      "items": 10
+      "items": 8
     },
     {
       "source": "Winkelzoekopdracht 9",
@@ -385,18 +385,18 @@
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -415,8 +415,8 @@
     },
     {
       "source": "Internationale zoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -425,13 +425,13 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -441,7 +441,7 @@
     {
       "source": "Internationale zoekopdracht 8",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -450,13 +450,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 251,
+    "scannedItems": 209,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:25:46.752055+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:27:00.454884+00:00"
 }

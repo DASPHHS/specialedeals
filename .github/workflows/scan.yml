@@ -114,8 +114,22 @@ jobs:
           git add live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json strategie-scan.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
-            git pull --rebase origin main
-            git push origin main
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "::error::Rebase conflict; scan data was not published. Resolve on a new run."
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                echo "Published scan results on attempt $attempt."
+                exit 0
+              fi
+              echo "Branch moved during publish; retry attempt $attempt after a short delay."
+              sleep $((attempt * 3))
+            done
+            echo "::error::Unable to publish after five safe retries."
+            exit 1
           fi
 
 

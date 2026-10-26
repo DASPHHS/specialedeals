@@ -38,6 +38,19 @@ jobs:
           git add ai-kansen-kandidaten.json system-health.json
           if ! git diff --cached --quiet; then
             git commit -m "Update curated AI and Reddit opportunities"
-            git pull --rebase origin main
-            git push origin main
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "::error::AI data conflicted with a newer commit; retry the scan."
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                echo "AI data published on attempt $attempt."
+                exit 0
+              fi
+              sleep $((attempt * 3))
+            done
+            echo "::error::Could not publish AI data after five attempts."
+            exit 1
           fi

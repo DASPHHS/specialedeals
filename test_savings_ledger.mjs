@@ -10,6 +10,8 @@ assert.equal(totalSaved(result.entries),10.05);
 assert.equal(addSavings(result.entries,{...entry,id:"another"},today).added,false);
 assert.equal(normalizeEntry({...entry,confirmed:false},today),null);
 assert.equal(normalizeEntry({...entry,paidPrice:41},today),null);
+assert.equal(normalizeEntry({...entry,paidPrice:""},today),null);
+assert.equal(normalizeEntry({...entry,usualPrice:""},today),null);
 assert.equal(normalizeEntry({...entry,date:"2026-10-27"},today),null);
 assert.equal(normalizeEntry({...entry,category:"Andere"},today),null);
 assert.equal(totalSaved([...result.entries,{savedEUR:5.10}]),15.15);

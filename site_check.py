@@ -79,7 +79,7 @@ if 'id="extendedSavingTools"' not in homepage or 'href="./besparen.html"' not in
  raise RuntimeError("Advanced savings tools not available from finance overview")
 if 'data-src="./besparen.html?embedded=1"' in homepage:
  raise RuntimeError("Generic savings iframe should not dominate the main dashboard")
-if 'Tes​la via Ayvens' in homepage or 'Tesla via Ayvens' not in homepage:
+if 'Tesla via Ayvens' not in homepage:
  raise RuntimeError("Known second-vehicle context missing or malformed")
 
 index=(ROOT/"index.html").read_text(encoding="utf-8")

@@ -23,10 +23,19 @@ def cash(value):
     return d if d.is_finite() and d >= Decimal("0.50") else None
 
 
+def valid_gtin(value):
+    """Require a GS1 check digit for GTIN-8/12/13/14."""
+    if not isinstance(value, str) or not value.isascii() or not value.isdigit() or len(value) not in (8, 12, 13, 14):
+        return False
+    digits = [int(c) for c in value]
+    total = sum(d * (3 if i % 2 == 0 else 1) for i, d in enumerate(reversed(digits[:-1])))
+    return (10 - total % 10) % 10 == digits[-1]
+
+
 def identity(row):
     """GTIN gets precedence, only use MPN as fallback when GTIN absent."""
     gtin = str(row.get("gtin") or "").strip()
-    if gtin.isdigit() and 8 <= len(gtin) <= 14:
+    if valid_gtin(gtin):
         return "gtin:" + gtin
     mpn = str(row.get("exactModel") or row.get("mpn") or "").strip().casefold()
     if len(mpn) >= 5 and len(mpn) <= 40:
@@ -52,6 +61,9 @@ def find_gaps(offers, now=None):
         families.setdefault(key, []).append({**o, "_money": price})
     result = []
     for key, rows in families.items():
+        brands = {str(r.get("brand") or "").strip().casefold() for r in rows if r.get("brand")}
+        if len(brands) > 1:
+            continue
         by_store = {}
         for o in rows:
             store_key = o["store"].casefold()

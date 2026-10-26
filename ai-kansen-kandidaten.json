@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-10-26T07:50:01.606358+00:00",
+  "updatedAt": "2026-10-26T13:31:17.565572+00:00",
   "items": [
     {
       "title": "This is an iOS app that logs every Apple Pay payment automatically, including in-app ones like Uber that the Wallet automation misses",
       "url": "https://www.reddit.com/r/shortcuts/comments/1xavfam/this_is_an_ios_app_that_logs_every_apple_pay/",
+      "source": "Reddit r/shortcuts",
+      "themes": [
+        "Automatisering"
+      ],
+      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
+    },
+    {
+      "title": "What shortcut do you wish existed but can’t find (or can’t build)?",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xfd7vu/what_shortcut_do_you_wish_existed_but_cant_find/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -22,15 +31,6 @@
     {
       "title": "Shortcuts no longer function as buttons",
       "url": "https://www.reddit.com/r/shortcuts/comments/1xd7jm5/shortcuts_no_longer_function_as_buttons/",
-      "source": "Reddit r/shortcuts",
-      "themes": [
-        "Automatisering"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "What shortcut do you wish existed but can’t find (or can’t build)?",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1xfd7vu/what_shortcut_do_you_wish_existed_but_cant_find/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -74,6 +74,15 @@
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },
     {
+      "title": "Why isn’t shortcuts as popular on Mac as iOS…?Am I just not looking in the right places? Any communities that compare to this one?",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xfe0ic/why_isnt_shortcuts_as_popular_on_mac_as_iosam_i/",
+      "source": "Reddit r/shortcuts",
+      "themes": [
+        "Automatisering"
+      ],
+      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
+    },
+    {
       "title": "Open Habit: four habit actions for Apple Shortcuts",
       "url": "https://www.reddit.com/r/shortcuts/comments/1xbu6xq/open_habit_four_habit_actions_for_apple_shortcuts/",
       "source": "Reddit r/shortcuts",
@@ -93,8 +102,8 @@
       "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
     },
     {
-      "title": "Why isn’t shortcuts as popular on Mac as iOS…?Am I just not looking in the right places? Any communities that compare to this one?",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1xfe0ic/why_isnt_shortcuts_as_popular_on_mac_as_iosam_i/",
+      "title": "I built a free app around Shortcuts to make the new iOS27 Siri voice read you anything. It's the free on-device TTS voice I've tried.",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xfjais/i_built_a_free_app_around_shortcuts_to_make_the/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -104,15 +113,6 @@
     {
       "title": "I built an iOS app that signs Shortcuts on-device — no Mac, server, or Apple ID",
       "url": "https://www.reddit.com/r/shortcuts/comments/1xcqodq/i_built_an_ios_app_that_signs_shortcuts_ondevice/",
-      "source": "Reddit r/shortcuts",
-      "themes": [
-        "Automatisering"
-      ],
-      "status": "Ongecontroleerd onderzoekssignaal: geen publicatie of aanbeveling"
-    },
-    {
-      "title": "Benefits of 3rd party shortcut actions?",
-      "url": "https://www.reddit.com/r/shortcuts/comments/1xdv5hc/benefits_of_3rd_party_shortcut_actions/",
       "source": "Reddit r/shortcuts",
       "themes": [
         "Automatisering"
@@ -724,7 +724,7 @@
     {
       "source": "Hacker News",
       "status": "unavailable",
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "The read operation timed out"
     },
     {
       "source": "Apple Opdrachten en automatisering",

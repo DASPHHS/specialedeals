@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T11:32:42.675209+00:00",
+  "updatedAt": "2026-10-26T13:31:17.600871+00:00",
   "modules": [
     {
       "name": "Deals ontdekken",
@@ -36,7 +36,7 @@
     {
       "name": "AI en innovaties onderzoeken",
       "state": "gedeeltelijk",
-      "checkedAt": "2026-10-26T07:50:01.606358+00:00",
+      "checkedAt": "2026-10-26T13:31:17.565572+00:00",
       "maxAgeHours": 30,
       "successful": 7,
       "unsuccessful": 11,

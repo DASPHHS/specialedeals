@@ -1,10 +1,22 @@
 {
-  "updatedAt": "2026-10-26T11:00:57.340698+00:00",
+  "updatedAt": "2026-10-26T11:32:18.556842+00:00",
   "diagnostics": {
-    "irrelevant": 61,
-    "source_quality": 168,
+    "irrelevant": 60,
+    "source_quality": 180,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "Michael Kors Ava crossbodytas met logo, extra klein (2 kleuren)",
+        "url": "https://nl.pepper.com/aanbiedingen/michael-kors-ava-crossbodytas-met-logo-extra-klein-2-kleuren-423735",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "VASAGLE Wandkapstok en Schoenenbank Set @ Songmics Home",
+        "url": "https://nl.pepper.com/aanbiedingen/vasagle-wandkapstok-en-schoenenbank-set-at-songmics-home-423768",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Bambu Lab 3D-printers (A1 Mini, A1, P1S, X1C, etc.) – Refurbished direct van fabrikant met 2 jaar garantie",
@@ -64,74 +76,84 @@
         "title": "Vaude Mundo Carry-On 38 reis rugzak",
         "url": "https://nl.pepper.com/aanbiedingen/vaude-mundo-carry-on-38-reis-rugzak-423758",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Corsair iCUE LINK TITAN 240 RX LCD RGB waterkoeling (Wit, 4-pins PWM fan-connector) @ Megekko",
-        "url": "https://nl.pepper.com/aanbiedingen/corsair-icue-link-titan-240-rx-lcd-rgb-waterkoeling-wit-4-pins-pwm-fan-connector-at-megekko-423756",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Prijsfout? Kitchenaid Artisan piston espressomachine 5KES6503 WT",
-        "url": "https://nl.pepper.com/aanbiedingen/prijs-fout-kitchenaid-artisan-piston-espressomachine-5kes6503-wt-423755",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Batch: Passwort verdeckt eingeben - Administrator",
-        "url": "https://administrator.de/forum/batch-passwort-verdeckt-eingeben-22859.html",
+        "title": "Windows 10 Tip: Enable “Hey Cortana” and teach Cortana to recognize ...",
+        "url": "https://blogs.windows.com/windowsexperience/2017/01/02/windows-10-tip-enable-hey-cortana-teach-cortana-recognize-voice/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "GPO Zugriff verweigert 0x80070005 - Administrator",
-        "url": "https://administrator.de/forum/gpo-zugriff-verweigert-0x80070005-317391.html",
+        "title": "Cortana (virtual assistant) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cortana_(virtual_assistant)",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "屋外に設置する自立盤の基礎設計をしております2300wx440dx... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1377065583",
+        "title": "End of support for Cortana",
+        "url": "https://support.microsoft.com/en-us/cortana/end-of-support-for-cortana",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "取引先の旅費を当社が負担し支出した場合の勘定科目を - 教えてくだ... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1381055293",
+        "title": "Cortana - Download",
+        "url": "https://cortana.en.softonic.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "機械に使われる材質でss34というものがあるのですが、ss34の意... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1311622763",
+        "title": "Cortana inschakelen of uitschakelen in Windows 11 - PC Tips",
+        "url": "https://www.pc-tips.info/tips/windows-tips/cortana-in-windows-11/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Msft Vitual Disk SCSI Disk Device im Gerätemanager",
-        "url": "https://administrator.de/forum/msft-vitual-disk-scsi-disk-device-im-geraetemanager-192783.html",
+        "title": "Microsoft Copilot | Aanmelden",
+        "url": "https://copilot.com/nl-nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "マブラヴオルタネイティブトータルイクリプスは最後どうなったの... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10149146390",
+        "title": "Microsoft Cortana - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Microsoft_Cortana",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "建築標準仕様書にて、「外部に面するコンクリート打ちっぱなし仕... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10109258880",
+        "title": "Cortana instellen en gebruiken in Windows 10 - nl.101-help.com",
+        "url": "https://nl.101-help.com/cortana-instellen-en-gebruiken-in-windows-10-c698126c21/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Import ADMX Vorlagen in Intune OMA-URI - Administrator",
-        "url": "https://administrator.de/forum/import-admx-vorlagen-in-intune-oma-uri-454384.html",
+        "title": "How to Turn “Hey Cortana” On or Off on Windows 10 - groovyPost",
+        "url": "https://www.groovypost.com/howto/turn-hey-cortana-on-off-windows-10/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "心当たりのないカード請求についてです。先月、今月と、同じ日に... - Yahoo!知恵袋",
-        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10144483520",
+        "title": "Windows 10 Help, Cortana",
+        "url": "https://www.windowshelp.nl/cortana/index.html",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
+    {
+      "title": "adidas Run 70s 2.0 heren sneakers zwart/wit",
+      "url": "https://nl.pepper.com/aanbiedingen/adidas-run-70s-20-heren-sneakers-zwartwit-423769",
+      "source": "Pepper Nederland",
+      "sourceType": "community",
+      "published": "Mon, 26 Oct 2026 12:04:25 +0100",
+      "price": null,
+      "score": 43,
+      "matched": [
+        "adidas"
+      ],
+      "category": "Outdoor & herenkleding",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
     {
       "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
@@ -382,7 +404,7 @@
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 8
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -406,13 +428,13 @@
       "source": "Winkelzoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -430,7 +452,7 @@
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -454,7 +476,7 @@
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -514,7 +536,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +809,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 230,
-    "personalMatches": 1
+    "scannedItems": 242,
+    "personalMatches": 2
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T11:00:57.340698+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T11:32:18.556842+00:00"
 }

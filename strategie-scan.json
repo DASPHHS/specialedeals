@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-26T11:00:37.371953+00:00",
+  "updatedAt": "2026-10-26T11:31:58.994909+00:00",
   "officialSources": [
     {
       "name": "MeerVoordeel Ziggo",
       "url": "https://meervoordeel.nl/ziggo/korting-of-cadeau",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
       "contentHash": "939ec5a459987919e61be9748fb0e00d55aeaf92aa95daddb2c40e51a9a13c98",
@@ -15,50 +15,50 @@
       "name": "MeerVoordeel voorwaarden",
       "url": "https://meervoordeel.nl/ziggo",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
-      "contentHash": "16e83540a6de720d63a04fb7cb9e332358f9c654beef4d67e5b3845c8941d1d0",
+      "contentHash": "62a4bd7d83be4730c6ef355d6dab8f4b4b7d496ff15a3fe98ef95ff94b1d4309",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "MeerVoordeel hollandsnieuwe",
       "url": "https://meervoordeel.nl/hollandsnieuwe",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
-      "contentHash": "58715cf0b24bc2aa5a0164d337b14513f3ddeb28407dbd17807e087ce140b579",
+      "contentHash": "0e655e45d25caa152430070343c3e9bd8e79fd6d8b209e62e0c67bf178892da9",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist prijzen",
       "url": "https://www.deonlinedrogist.nl/recommended-prices-and-offers",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
-      "contentHash": "9a1870659d0a66369e9fc2c1a9d34340da66f596e12799b576abbe684b81aa28",
+      "contentHash": "10a6c3d4f777c841c6d365dadb210728d36f5d9453d8effe168698b777b7c4e6",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist verzending",
       "url": "https://www.deonlinedrogist.nl/shipping-and-delivery",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
-      "contentHash": "c1b270be5af7801761baf87d1e23c2447a741883e3d74a784d99cfcb8347e5b0",
+      "contentHash": "2a6f1c2ecaff9bdcb85793d2a0e7c9e34cdd6959ef4d06fc585e4b03f310633c",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     },
     {
       "name": "De Online Drogist spaarprogramma",
       "url": "https://www.deonlinedrogist.nl/blog/spaarprogramma/",
       "status": "terms_found",
-      "checkedAt": "2026-10-26T11:00:37.371953+00:00",
+      "checkedAt": "2026-10-26T11:31:58.994909+00:00",
       "verificationLevel": "keyword_match_only",
       "humanReviewed": false,
-      "contentHash": "9cfa3da6eb25e53b09b14411fa6ff800f9aadbad6188b8a23a85406a04796ac4",
+      "contentHash": "d6b7cd2ba2be6b233babfc8700bd317d2e03d97db76168eabf96a2e16d28ee58",
       "note": "Site bereikbaar, voorwaarden/productacties zijn niet handmatig herbevestigd."
     }
   ],
@@ -91,7 +91,7 @@
       "url": "https://www.reddit.com/r/zuinig/comments/1xbq74f/refurbished_miele_wasmachine_kopen/",
       "status": "community_onderzoekskandidaat",
       "verified": false,
-      "lastSeenAt": "2026-10-26T11:00:37.371953+00:00"
+      "lastSeenAt": "2026-10-26T11:31:58.994909+00:00"
     },
     {
       "id": "b315b03c8c04a376",
@@ -99,7 +99,7 @@
       "url": "https://www.reddit.com/r/zuinig/comments/1x9ygz5/kortingscodesites_heb_je_er_nog_iets_aan_of_zijn/",
       "status": "community_onderzoekskandidaat",
       "verified": false,
-      "lastSeenAt": "2026-10-26T11:00:37.371953+00:00"
+      "lastSeenAt": "2026-10-26T11:31:58.994909+00:00"
     },
     {
       "id": "4cd3eb8cd20c5ee6",
@@ -107,7 +107,7 @@
       "url": "https://www.reddit.com/r/zuinig/comments/1x6n6js/ervaringen_met_meervoordeel_bij_overstappen_van/",
       "status": "community_onderzoekskandidaat",
       "verified": false,
-      "lastSeenAt": "2026-10-26T11:00:37.371953+00:00"
+      "lastSeenAt": "2026-10-26T11:31:58.994909+00:00"
     },
     {
       "id": "5b0e487e6c3482fd",
@@ -115,7 +115,7 @@
       "url": "https://www.reddit.com/r/zuinig/comments/1xa29gh/refurbishing_rolf_benz_sofa_set/",
       "status": "community_onderzoekskandidaat",
       "verified": false,
-      "lastSeenAt": "2026-10-26T11:00:37.371953+00:00"
+      "lastSeenAt": "2026-10-26T11:31:58.994909+00:00"
     }
   ],
   "redditFeeds": [

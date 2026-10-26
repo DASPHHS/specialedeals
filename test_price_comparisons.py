@@ -1,6 +1,6 @@
 import datetime as dt
 import unittest
-from price_comparisons import find_gaps, build, identity
+from price_comparisons import find_gaps, build, identity, valid_gtin
 
 NOW = dt.datetime(2026, 10, 25, 20, 0, tzinfo=dt.timezone.utc)
 
@@ -52,6 +52,24 @@ class ComparablePrices(unittest.TestCase):
         self.assertEqual(identity(offer("a", 4, gtin="", mpn="SKU-X156")), "mpn:sku-x156")
         self.assertEqual(len(find_gaps([offer("a", 4, gtin="", mpn="SKU-X156"),
                                         offer("b", 6, gtin="", mpn="SKU-X156")], NOW)), 1)
+
+    def test_invalid_gtin_check_digit_rejected(self):
+        self.assertTrue(valid_gtin("4001638093989"))
+        self.assertFalse(valid_gtin("4001638093988"))
+        self.assertFalse(valid_gtin("123456789"))
+        self.assertIsNone(identity(offer("a", 9, gtin="4001638093988")))
+
+    def test_conflicting_brands_never_compare_same_mpn(self):
+        a = offer("a", 8, gtin="", mpn="SKU-X156")
+        b = offer("b", 12, gtin="", mpn="SKU-X156")
+        a["brand"], b["brand"] = "Brand A", "Brand B"
+        self.assertEqual(find_gaps([a, b], NOW), [])
+
+    def test_matching_brand_still_compares_mpn(self):
+        a = offer("a", 8, gtin="", mpn="SKU-X156")
+        b = offer("b", 12, gtin="", mpn="SKU-X156")
+        a["brand"] = b["brand"] = "Brand A"
+        self.assertEqual(len(find_gaps([a, b], NOW)), 1)
 
     def test_never_mark_money_saved(self):
         data = build({"checkedAt": NOW.isoformat(),

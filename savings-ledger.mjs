@@ -9,6 +9,10 @@ export function normalizeEntry(raw, todayISO){
  const category=String(raw.category||"");
  const allowed=["Internet & tv","Mobiel","Energie","Verzorging","Premiumproducten","Overig"];
  if(!description||description.length>100||!allowed.includes(category))return null;
+ // Empty HTML input must not silently become a zero-euro payment.
+ if(raw.usualPrice===undefined||raw.paidPrice===undefined||
+    String(raw.usualPrice).trim()===""||String(raw.paidPrice).trim()==="")
+   return null;
  const before=Number(raw.usualPrice),paid=Number(raw.paidPrice);
  if(![before,paid].every(x=>Number.isFinite(x)&&x>=0&&x<=100000))return null;
  // Explicit proof of the user's own actual receipt or bill, not an untested idea.

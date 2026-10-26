@@ -15,6 +15,12 @@ class ScannerTests(unittest.TestCase):
  def test_broad_brand_filter(self):
   self.assertLess(scan.score("willekeurige matrassen aanbieding")[0],0)
  def test_kind(self):self.assertEqual(scan.promotion_kind("Winactie maak kans op Davines"),"winactie")
+ def test_search_response_without_relevant_deals_is_not_success(self):
+  irrelevant=[{"title":"Ajax nieuws transfers","url":"https://www.ajax.nl/nieuws/","sourceType":"search"}]
+  self.assertEqual(scan.relevant_hits(irrelevant),0)
+  valid=[{"title":"Weleda Skin Food aanbieding","url":"https://www.deonlinedrogist.nl/weleda-aanbieding/",
+          "sourceType":"search"}]
+  self.assertEqual(scan.relevant_hits(valid),1)
  def test_rss(self):
   rss='<rss><channel><item><title>Weleda Skin Food sale</title><link>https://example.com/w</link></item></channel></rss>'
   self.assertEqual(len(scan.rss_items(rss,"test","news")),1)

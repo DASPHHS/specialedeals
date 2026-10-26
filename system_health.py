@@ -48,11 +48,20 @@ def build(root=ROOT, now=None):
                     )
                 except (OSError, ValueError, TypeError):
                     verified = 0
+                queries = [q for q in data.get('sources', [])
+                           if str(q.get('source', '')).startswith(
+                             ('Merkscan', 'Samplezoekopdracht', 'Winkelzoekopdracht',
+                              'Internationale zoekopdracht'))]
+                contributing = sum(int(q.get('items',0)) > 0 for q in queries)
                 quality['personalMatches'] = found
                 quality['verifiedProductDeals'] = verified
+                quality['contributingQueries'] = contributing
+                quality['totalTargetedQueries'] = len(queries)
                 quality['detail'] = (
                     str(found) + ' onbevestigde persoonlijke feedvondsten; '
                     + str(verified) + ' onafhankelijk gecontroleerde koopdeals. '
+                    + str(contributing) + '/' + str(len(queries)) +
+                    ' gerichte zoekopdrachten met relevante resultaten. '
                     'Een geslaagde bronopvraag is geen bewezen koopkans.'
                 )
                 if verified == 0 and quality['state'] == 'werkt':

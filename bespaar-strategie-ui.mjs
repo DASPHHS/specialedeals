@@ -49,8 +49,9 @@ function readAmount(id,required=true){
 }
 function renderCalculator(){
  const type=$("benefitType").value;
- $("benefitLabel").textContent=type==="gift"?"Cadeauwaarde die je zelf écht zou betalen (€)":"Bedrag cashback of kortingstegoed (€)";
- $("giftCopayWrap").hidden=type!=="gift";
+ $("benefitLabel").textContent=type==="gift"?"Cadeauwaarde die je zelf écht zou betalen (€)":type==="resale"?"Verwachte verkoopprijs cadeau (€)":"Bedrag cashback of kortingstegoed (€)";
+ $("giftCopayWrap").hidden=!["gift","resale"].includes(type);
+ $("resaleFeesWrap").hidden=type!=="resale";
  $("benefitAmountWrap").hidden=type==="none";
 }
 $("benefitType").addEventListener("change",renderCalculator);
@@ -67,7 +68,8 @@ $("contractDealCompare").addEventListener("click",()=>{
   activationEUR:readAmount("compareOneOff",false),
   benefitType:type,
   benefitEUR:type==="none"?0:readAmount("compareBenefit"),
-  giftCopayEUR:type==="gift"?readAmount("compareGiftCopay",false):0
+  giftCopayEUR:["gift","resale"].includes(type)?readAmount("compareGiftCopay",false):0,
+  resaleFeesEUR:type==="resale"?readAmount("compareResaleFees",false):0
  };
  const q=compareContract(raw);
  const root=$("contractDealResult");root.replaceChildren();
@@ -79,8 +81,9 @@ $("contractDealCompare").addEventListener("click",()=>{
  root.append(mk("p",null,"Nieuwe maandlasten en aansluitkosten: "+eur(q.chargesEUR)));
  root.append(mk("p",null,"Voorlopige contante kosten van het nieuwe aanbod: "+eur(q.cashCostEUR)));
  if(type==="gift")root.append(mk("p",null,"Zelf ingeschatte bruikbare cadeauwaarde: "+eur(q.userGiftValueEUR)+" (geen geldontvangst)."));
+ if(type==="resale")root.append(mk("p",null,"Mogelijke netto-opbrengst bij geslaagde doorverkoop: "+eur(q.hypotheticalResaleNetEUR)+" (niet ontvangen of gegarandeerd)."));
  const figure=mk("strong","potentialResult",
   "Mogelijk economisch verschil: "+(q.possibleEconomicDifferenceEUR>=0?"+":"")+eur(q.possibleEconomicDifferenceEUR));
  root.append(figure);
- root.append(mk("p","muted","Scenario, niet gerealiseerde besparing. Controleer daadwerkelijke looptijd, tijdelijke korting, contractvoorwaarden, recht op cashback/cadeau, claimdeadline, installatiekosten en de exacte diensten. Een cadeau krijgt uitsluitend de waarde die je anders zelf echt zou uitgeven."));
+ root.append(mk("p","muted","Scenario, niet gerealiseerde besparing. Controleer daadwerkelijke looptijd, tijdelijke korting, contractvoorwaarden, recht op cashback/cadeau, claimdeadline, installatiekosten en de exacte diensten. Een cadeau voor eigen gebruik krijgt uitsluitend de waarde die je anders zelf echt zou uitgeven. Een doorverkoopbedrag blijft hypothetisch totdat het item werkelijk verkocht en betaald is."));
 });

@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:45:12.951562+00:00",
+  "updatedAt": "2026-10-26T07:48:34.015019+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 114,
+    "source_quality": 102,
     "duplicate": 0,
     "examples": [
       {
@@ -15,6 +15,12 @@
         "why": "irrelevant",
         "title": "UWANT D700 nat- en droogzuiger,",
         "url": "https://nl.pepper.com/aanbiedingen/uwant-d700-nat-en-droogzuiger-423709",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Flexispot EG1B zit/sta bureau",
+        "url": "https://nl.pepper.com/aanbiedingen/flexispot-eg1b-zitsta-bureau-423707",
         "source": "Pepper Nederland"
       },
       {
@@ -70,70 +76,64 @@
         "title": "Simyo 400 min/sms + 15 GB Sim Only - 2 jaar - €100,- cashback = €4,83 p/m",
         "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-15-gb-sim-only-2-jaar-eur100-cashback-eur483-pm-423700",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Lebara 250 min + 250 sms + 40 GB 5G Sim Only - 2 jaar - € 2,98 p/m",
-        "url": "https://nl.pepper.com/aanbiedingen/lebara-250-min-250-sms-40-gb-5g-sim-only-2-jaar-eur-298-pm-423699",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Alle supermarkten in Rotterdam | Handig overzicht",
-        "url": "https://www.allesupermarkten.com/rotterdam/",
+        "title": "Zon- & wintersportvakanties – Nooit gedacht, toch gedaan ☀️ | Sunweb",
+        "url": "https://www.sunweb.nl/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Albert Heijn: boodschappen doen bij de grootste supermarkt",
-        "url": "https://www.ah.nl/",
+        "title": "Ontdek alle adults only vakanties | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/adults-only",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "PLUS Supermarkt | Bestel je boodschappen makkelijk op plus.nl | PLUS",
-        "url": "https://www.plus.nl/",
+        "title": "Zonvakantie 2026 boeken | ️ zonvakantie met Sunweb",
+        "url": "https://www.sunweb.nl/vakantie",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Supermarkt in de buurt vinden | Adres & Openingstijden",
-        "url": "https://supermarkt-nu.nl/",
+        "title": "Vakantie Molivos (Eftalou) boeken, zonvakantie | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/griekenland/lesbos/molivos-eftalou",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Supermarkt Rotterdam: adres & openingstijden",
-        "url": "https://supermarkt-nu.nl/supermarkten/zuid-holland/rotterdam/",
+        "title": "Ontdek een last minute vakantie naar Spanje | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/last-minutes/spanje",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Alle Supermarkten - een handig overzicht van elke supermarkt",
-        "url": "https://www.allesupermarkten.com/",
+        "title": "Vind jouw all inclusive vakantie in Griekenland | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/all-inclusive/griekenland",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Top 366 Supermarkten in Rotterdam | Winkls",
-        "url": "https://www.winkls.nl/zuid-holland/rotterdam/supermarkt/",
+        "title": "Vakantie Petra boeken, zonvakantie | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/griekenland/lesbos/petra",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Supermarkten in Rotterdam – Openingstijden, route & recensies",
-        "url": "https://www.openingstijden.nl/Zuid-Holland/Rotterdam/Supermarkten/",
+        "title": "Boek jouw fly & drive vakantie | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/fly-drive",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Welke supermarkt is nu open in Rotterdam",
-        "url": "https://www.supermarktvergelijken.com/rotterdam/",
+        "title": "Boek een luxe vakantie met Excellent label | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/labels/excellent",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jumbo Rotterdam Botersloot",
-        "url": "https://www.jumbo.com/winkel/rotterdam/jumbo-rotterdam-botersloot",
+        "title": "Boek een all inclusive vakantie | Sunweb",
+        "url": "https://www.sunweb.nl/vakantie/all-inclusive",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "339° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "349° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -370,13 +370,13 @@
       "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 8
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -388,7 +388,7 @@
       "source": "Winkelzoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -436,19 +436,19 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -787,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 175,
+    "scannedItems": 163,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:45:12.951562+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:48:34.015019+00:00"
 }

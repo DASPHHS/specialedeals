@@ -35,10 +35,27 @@ def build(root=ROOT, now=None):
             quality = assess(label, data, stamp, checks, good, hours, now)
             if label == 'Deals ontdekken':
                 found = int(data.get('coverage', {}).get('personalMatches', 0))
+                # Feed hits are not usable, independently confirmed personal bargains.
+                # The separately checked merchant data is needed before "werkt".
+                try:
+                    merchants = json.loads((root/'merchant-observations.json').read_text(encoding='utf-8'))
+                    verified = sum(
+                        o.get('allInVerified') is True
+                        and o.get('marketComparisonVerified') is True
+                        and o.get('variantVerified') is True
+                        and o.get('stockStatus') == 'volgens winkel op voorraad'
+                        for o in merchants.get('offers', [])
+                    )
+                except (OSError, ValueError, TypeError):
+                    verified = 0
                 quality['personalMatches'] = found
-                quality['detail'] = ('Geen passende persoonlijke product-/sampledealvondsten ondanks bereikbare bronnen'
-                                     if found == 0 else str(found) + ' kandidaten; prijs en voorraad nog niet onafhankelijk geverifieerd')
-                if found == 0 and quality['state'] == 'werkt':
+                quality['verifiedProductDeals'] = verified
+                quality['detail'] = (
+                    str(found) + ' onbevestigde persoonlijke feedvondsten; '
+                    + str(verified) + ' onafhankelijk gecontroleerde koopdeals. '
+                    'Een geslaagde bronopvraag is geen bewezen koopkans.'
+                )
+                if verified == 0 and quality['state'] == 'werkt':
                     quality['state'] = 'gedeeltelijk'
             modules.append(quality)
         except (OSError, ValueError):

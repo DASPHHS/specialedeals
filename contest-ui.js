@@ -1,6 +1,11 @@
 import {eligibleNL, priority} from './contest-ranking.mjs';
 const root=document.getElementById('contests'),status=document.getElementById('counts');
 let checked=[],candidates=[];
+const participationKey='kansenkompas_private_contest_confirmations_v1';
+let confirmations={};
+try{const data=JSON.parse(localStorage.getItem(participationKey)||'{}');if(data&&typeof data==='object'&&!Array.isArray(data))confirmations=data}catch(e){}
+function storeConfirmations(){try{localStorage.setItem(participationKey,JSON.stringify(confirmations))}catch(e){}}
+
 const $=id=>document.getElementById(id),text=(tag,s)=>{const e=document.createElement(tag);e.textContent=s;return e};
 const today=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Amsterdam'}).format(new Date());
 function documented(c){
@@ -12,11 +17,21 @@ function group(c){return c.category+' '+c.title+' '+(c.prize||'')}
 function link(label,url){if(!/^https:\/\//.test(url||''))return text('span','Bronlink ontbreekt');const a=text('a',label);a.href=url;a.target='_top';a.rel='noopener';return a}
 function render(){root.replaceChildren();const mode=$('mode').value,q=$('search').value.toLowerCase(),cat=$('cat').value;const all=checked.filter(c=>documented(c)&&(mode==='all'||phase(c)===mode));const rows=all.filter(c=>(!q||JSON.stringify([c.title,c.prize,c.organizer,c.conditions]).toLowerCase().includes(q))&&(!cat||new RegExp(cat,'i').test(group(c))));
 const order=$('rank')?.value||'priority';rows.sort((a,b)=>order==='deadline'?String(a.deadline).localeCompare(String(b.deadline)):order==='value'?(Number(b.value)||0)-(Number(a.value)||0):priority(b,today()).score-priority(a,today()).score||String(a.deadline).localeCompare(String(b.deadline)));
-const counts=Object.fromEntries(['open','upcoming','stale','closed'].map(s=>[s,checked.filter(c=>phase(c)===s).length]));status.textContent=`${counts.open} nu open · ${counts.upcoming} binnenkort · ${counts.stale} hercontrole · ${counts.closed} afgelopen · ${candidates.length} onderzoeksvondsten buiten dit overzicht · ${rows.length} getoond`;
+const counts=Object.fromEntries(['open','upcoming','stale','closed'].map(s=>[s,checked.filter(c=>phase(c)===s).length]));status.textContent=`${Object.keys(confirmations).length} zelf bevestigde deelnames op dit apparaat · ${counts.open} nu open · ${counts.upcoming} binnenkort · ${counts.stale} hercontrole · ${counts.closed} afgelopen · ${candidates.length} onderzoeksvondsten buiten dit overzicht · ${rows.length} getoond`;
 for(const c of rows){const a=document.createElement('article');const rank=priority(c,today());a.append(text('small',c.unverifiedCandidate||mode==='candidate'?'KANDIDAAT · toelating nog niet bevestigd':c.category+' · '+rank.label+' · regels gecontroleerd '+new Date(c.verifiedAt).toLocaleDateString('nl-NL')),text('h2',c.title));if(phase(c)==='open')a.append(text('p',rank.reason+' · winkans '+(rank.oddsKnown?'uit deelnamegegevens af te leiden':'onbekend')+' · score zegt niets over werkelijke winkans.'));a.append(text('p','Organisator: '+c.organizer));if(c.prize)a.append(text('p',c.prize));a.append(text('p',c.conditions||c.reason||'Voorwaarden ontbreken.'));
 if(c.discoveredVia)a.append(link('Gevonden via '+(c.discoverySource||'prijsvragenoverzicht'),c.discoveredVia));
 if(c.deadline)a.append(text('p','Sluit '+c.deadline+(c.deadlineAt?' · '+new Date(c.deadlineAt).toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam'})+' Nederlandse tijd':'')));
 a.append(link(c.unverifiedCandidate||mode==='candidate'?'Bekijk gevonden actie ↗':'Bekijk officiële actie ↗',c.sourceUrl));if(c.termsUrl)a.append(document.createTextNode(' · '),link('Voorwaarden ↗',c.termsUrl));
+const confirmed=!!confirmations[c.id];
+const particip=document.createElement('div');particip.className='participation';
+const state=text('span',confirmed?'Door jou gemarkeerd als ingediend · niet door Kansenkompas geverifieerd':'Deelname nog niet bevestigd');
+const btn=document.createElement('button');btn.type='button';btn.textContent=confirmed?'Markering wissen':'Ik heb een bevestiging ontvangen';
+btn.setAttribute('aria-label',confirmed?'Wis deelnamemarkering voor '+c.title:'Markeer na bevestiging je deelname aan '+c.title);
+btn.onclick=()=>{if(!confirmations[c.id]&&!window.confirm('Heb je daadwerkelijk een bevestiging van de organisator ontvangen? Een geopend formulier of geklikte link telt niet als deelname.'))return;
+ if(confirmations[c.id])delete confirmations[c.id];else confirmations[c.id]={confirmedAt:new Date().toISOString()};
+ storeConfirmations();render();
+};
+particip.append(state,btn);a.append(particip);
 const d=document.createElement('details');d.append(text('summary','Link opent niet?'));const i=document.createElement('input');i.value=c.sourceUrl;i.readOnly=true;i.onclick=()=>i.select();i.setAttribute('aria-label','Kopieer actie-URL');d.append(i);a.append(d);root.append(a)}if(!rows.length)root.append(text('p','Geen acties met deze filters. Probeer een andere categorie of status.'))}
 for(const id of ['mode','search','cat','rank'])$(id).addEventListener('input',render);
 Promise.allSettled(['contests.json','contest-candidates.json'].map(u=>fetch('./'+u+'?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}))).then(r=>{if(r[0].status==='fulfilled')checked=r[0].value.contests||[];if(r[1].status==='fulfilled')candidates=r[1].value.candidates||[];$('loadstate').textContent=r.some(x=>x.status==='rejected')?'Een gegevensbron is niet bereikbaar; overzicht is onvolledig.':'Officiële regels gecontroleerd betekent geen gegarandeerde winst of geslaagde inschrijving. Persoonlijke deelnamehistorie blijft in je privé-dashboard.';render()});setInterval(render,60000);

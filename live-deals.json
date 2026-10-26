@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:28:35.264853+00:00",
+  "updatedAt": "2026-10-26T07:30:15.434555+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 171,
+    "source_quality": 178,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Contact – DUO Particulier (niet voor inburgeraars)",
-        "url": "https://duo.nl/particulier/contact/index.jsp",
+        "title": "Home | Microsoft Careers",
+        "url": "https://careers.microsoft.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Bellen – Contact – DUO Particulier (niet voor inburgeraars)",
-        "url": "https://duo.nl/particulier/contact/bellen.jsp",
+        "title": "Professions | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/professions.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dienst Uitvoering Onderwijs (DUO) voor studenten en scholieren",
-        "url": "https://www.rijksoverheid.nl/service/contact/contactgids/d/dienst-uitvoering-onderwijs-duo-studenten-en-scholieren",
+        "title": "4,000+ Microsoft jobs in Rotterdam - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-rotterdam",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "DUO klantenservice: telefoon, contact, klacht en snelste route",
-        "url": "https://klantenservicegids.nl/bedrijven/duo/",
+        "title": "6,000+ Microsoft jobs in Netherlands - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-netherlands",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Contactgegevens Dienst Uitvoering Onderwijs | Overheid.nl",
-        "url": "https://organisaties.overheid.nl/71857/Dienst_Uitvoering_Onderwijs",
+        "title": "Jobs in Amsterdam | Microsoft Careers",
+        "url": "https://careers.microsoft.com/v2/global/en/locations/amsterdam.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "DUO - Particulier",
-        "url": "https://duo.nl/",
+        "title": "Login - apply.careers.microsoft.com",
+        "url": "https://apply.careers.microsoft.com/candidate/login",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "DUO bellen: betaal niet te veel",
-        "url": "https://duo.nl/particulier/duo-bellen-betaal-niet-te-veel.jsp",
+        "title": "5,000+Microsoft Jobs in Schiphol-Rijk - LinkedIn",
+        "url": "https://www.linkedin.com/jobs/microsoft-jobs-schiphol-rijk",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Inloggen op Mijn DUO",
-        "url": "https://duo.nl/particulier/inloggen-op-mijn-duo.jsp",
+        "title": "Microsoft: vacatures | LinkedIn",
+        "url": "https://nl.linkedin.com/company/microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dienst Uitvoering Onderwijs (DUO) Zakelijk - Rijksoverheid.nl",
-        "url": "https://www.rijksoverheid.nl/service/contact/contactgids/d/dienst-uitvoering-onderwijs-duo-scholen",
+        "title": "Vacatures bij Microsoft | Indeed.com",
+        "url": "https://nl.indeed.com/cmp/Microsoft/jobs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Contact over inburgeren",
-        "url": "https://www.inburgeren.nl/contact/contact.jsp",
+        "title": "Microsoft: Jobs | LinkedIn",
+        "url": "https://www.linkedin.com/company/microsoft/jobs/",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "324° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "328° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -335,13 +335,13 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -355,8 +355,8 @@
     },
     {
       "source": "Winkelzoekopdracht 6",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 7",
@@ -380,8 +380,8 @@
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -391,7 +391,7 @@
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -400,18 +400,18 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "ok",
-      "items": 10
-    },
-    {
-      "source": "Internationale zoekopdracht 1",
       "status": "empty",
       "items": 0
     },
     {
-      "source": "Internationale zoekopdracht 2",
+      "source": "Internationale zoekopdracht 1",
       "status": "ok",
-      "items": 10
+      "items": 8
+    },
+    {
+      "source": "Internationale zoekopdracht 2",
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 3",
@@ -440,13 +440,13 @@
     },
     {
       "source": "Internationale zoekopdracht 8",
-      "status": "ok",
-      "items": 7
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 10",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 232,
+    "scannedItems": 239,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:28:35.264853+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:30:15.434555+00:00"
 }

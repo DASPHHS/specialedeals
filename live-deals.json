@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:23:40.614924+00:00",
+  "updatedAt": "2026-10-26T07:24:30.741652+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 180,
+    "source_quality": 171,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Microsoft campus - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Microsoft_campus",
+        "title": "Dow Jones INDEX TODAY | DJIA LIVE TICKER | Dow Jones QUOTE & CHART ...",
+        "url": "https://markets.businessinsider.com/index/dow_jones",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Office Locations | About Microsoft",
-        "url": "https://www.microsoft.com/en-us/about/office-locations",
+        "title": "Dow Jones Today | DJIA Index Live - Investing.com",
+        "url": "https://www.investing.com/indices/us-30",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Research Redmond",
-        "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
+        "title": "Dow Jones – Trusted News & Data",
+        "url": "https://www.dowjones.com/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052-8300, US ...",
-        "url": "https://www.mapquest.com/us/washington/microsoft-corporation-12544878",
+        "title": "Dow Jones Industrial Average (^DJI) - Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EDJI/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Corporate Headquarters - 1 Microsoft Way, Redmond, WA 98052 ...",
-        "url": "https://businessyab.com/explore/united_states/washington/king_county/redmond/overlake/microsoft_way/1/microsoft-corporate-headquarters-425-882-8080.html",
+        "title": "Dow Jones Industrial Average (DJI) - Investing.com India",
+        "url": "https://in.investing.com/indices/us-30",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Inside 1 Microsoft Way Redmond: The Hidden Architecture of Microsoft’s ...",
-        "url": "https://camcatbooks.com/inside-1-microsoft-way-redmond-the-hidden-architecture-of-microsofts-global-headquarters",
+        "title": "DJIA | Dow Jones Industrial Average Overview | MarketWatch",
+        "url": "https://www.marketwatch.com/investing/index/djia",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft - Headquarters in Redmond, WA United States - Apple Maps",
-        "url": "https://maps.apple.com/place?place-id=IA108CFF6BBA2E5A6",
+        "title": "Dow Jones, actuele koersen van de Dow 30 - Beleggen.nl",
+        "url": "https://www.beleggen.nl/koersen/dow_jones.aspx",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "1 Microsoft Way, Redmond - Bing Maps",
-        "url": "https://www.bing.com/maps/search?q=1+Microsoft+Way%2C+Redmond&cp=47.642282%7E-122.136833&lvl=16&style=r",
+        "title": "Dow Jones koers ᐅ Nieuws, analyses & grafieken | Stand Dow Jones vandaag",
+        "url": "https://www.lynx.nl/beurs/beurs-koersen/index/dow-jones/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Driving directions to Microsoft Headquarters, Microsoft Way, One ... - Waze",
-        "url": "https://www.waze.com/nl-BE/live-map/directions/us/wa/redmond/microsoft-headquarters?to=place.ChIJGxUEuHFtkFQRnokD7mkppQE",
+        "title": "Dow Jones aandelen - koersen New York | Het Financieele Dagblad",
+        "url": "https://beurs.fd.nl/aandelen/nyse/dj30/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft Redmond Campus Refresh",
-        "url": "https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh",
+        "title": "Dow Jones Industrial Average - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "319° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "324° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -335,13 +335,13 @@
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -360,8 +360,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -391,7 +391,7 @@
     {
       "source": "Winkelzoekopdracht 13",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 14",
@@ -400,8 +400,8 @@
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -440,8 +440,8 @@
     },
     {
       "source": "Internationale zoekopdracht 8",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 7
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -450,13 +450,13 @@
     },
     {
       "source": "Internationale zoekopdracht 10",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 241,
+    "scannedItems": 232,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:23:40.614924+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:24:30.741652+00:00"
 }

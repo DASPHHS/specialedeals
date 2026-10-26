@@ -115,6 +115,11 @@ def search_quality(item):
  # Do not publish brand homepages, Wikipedia, US retailers or generic catalogs
  return any(term in t for term in ("aanbieding","korting","sale","outlet","actie","deal","sample","discount","weekend-aanbieding","prijs","%","clearance","special"))
 
+def relevant_hits(rows):
+ """Count genuinely relevant usable discovery leads, not successful HTTP/Bing responses."""
+ return sum(1 for item in rows
+            if search_quality(item) and score(item.get("title",""))[0] >= CFG["minScore"])
+
 def discovery():
  raw_items=[];statuses=[]
  for source in CFG["sourceFeeds"]:
@@ -131,7 +136,8 @@ def discovery():
    query=q+" when:7d"
    url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"nl","gl":"NL","ceid":"NL:nl"})
    rows=rss_items(fetch(url),"Gerichte merkzoekopdracht","news")
-   statuses.append({"source":"Merkscan "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   hit_count=relevant_hits(rows)
+   statuses.append({"source":"Merkscan "+str(i+1),"status":"ok" if hit_count else "empty","items":hit_count,"retrieved":len(rows)})
    raw_items.extend(rows)
   except Exception as e:statuses.append({"source":"Merkscan "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
  # Officially announced future premium-brand sales can be published weeks ahead.
@@ -140,7 +146,8 @@ def discovery():
   try:
    url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q+" when:60d","hl":"nl","gl":"NL","ceid":"NL:nl"})
    rows=rss_items(fetch(url),"Gerichte sample-sale-zoekopdracht","news")
-   statuses.append({"source":"Samplezoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   hit_count=relevant_hits(rows)
+   statuses.append({"source":"Samplezoekopdracht "+str(i+1),"status":"ok" if hit_count else "empty","items":hit_count,"retrieved":len(rows)})
    raw_items.extend(rows)
   except Exception as exc:
    statuses.append({"source":"Samplezoekopdracht "+str(i+1),"status":"error","error":str(exc)[:120],"items":0})
@@ -150,7 +157,8 @@ def discovery():
   try:
    url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss","setlang":"nl-NL","cc":"nl"})
    rows=rss_items(fetch(url),"Gerichte winkelscan","search")
-   statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   hit_count=relevant_hits(rows)
+   statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"ok" if hit_count else "empty","items":hit_count,"retrieved":len(rows)})
    raw_items.extend(rows)
   except Exception as e:
    statuses.append({"source":"Winkelzoekopdracht "+str(i+1),"status":"error","error":str(e)[:120],"items":0})
@@ -160,7 +168,8 @@ def discovery():
   try:
    url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss","setlang":"en-US","cc":"nl"})
    rows=rss_items(fetch(url),"Internationale winkelscan","search")
-   statuses.append({"source":"Internationale zoekopdracht "+str(i+1),"status":"ok" if rows else "empty","items":len(rows)})
+   hit_count=relevant_hits(rows)
+   statuses.append({"source":"Internationale zoekopdracht "+str(i+1),"status":"ok" if hit_count else "empty","items":hit_count,"retrieved":len(rows)})
    raw_items.extend(rows)
   except Exception as exc:
    statuses.append({"source":"Internationale zoekopdracht "+str(i+1),"status":"error","error":str(exc)[:120],"items":0})

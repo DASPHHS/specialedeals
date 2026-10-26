@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:30:15.434555+00:00",
+  "updatedAt": "2026-10-26T07:31:16.889193+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 178,
+    "source_quality": 84,
     "duplicate": 0,
     "examples": [
       {
@@ -80,53 +80,53 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Home | Microsoft Careers",
-        "url": "https://careers.microsoft.com/",
+        "title": "About bulk data export of Search Console data to BigQuery",
+        "url": "https://support.google.com/webmasters/answer/12918484?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Professions | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/professions.html",
+        "title": "301 Moved",
+        "url": "https://support.google.com/googlepay/answer/13623624?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "4,000+ Microsoft jobs in Rotterdam - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/microsoft-jobs-rotterdam",
+        "title": "QUERY - Cправка - Редакторы Google Документов",
+        "url": "https://support.google.com/docs/answer/3093343?hl=ru",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "6,000+ Microsoft jobs in Netherlands - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/microsoft-jobs-netherlands",
+        "title": "301 Moved",
+        "url": "https://support.google.com/a/answer/9048516?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Jobs in Amsterdam | Microsoft Careers",
-        "url": "https://careers.microsoft.com/v2/global/en/locations/amsterdam.html",
+        "title": "Query function not returning all data - Google Help",
+        "url": "https://support.google.com/docs/thread/187549444/query-function-not-returning-all-data?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Login - apply.careers.microsoft.com",
-        "url": "https://apply.careers.microsoft.com/candidate/login",
+        "title": "Fonction QUERY - Aide Éditeurs Google Docs",
+        "url": "https://support.google.com/docs/answer/3093343?hl=fr",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "5,000+Microsoft Jobs in Schiphol-Rijk - LinkedIn",
-        "url": "https://www.linkedin.com/jobs/microsoft-jobs-schiphol-rijk",
+        "title": "How to QUERY/INDEX+MATCH multiple rows of text from a merged cell",
+        "url": "https://support.google.com/docs/thread/11089976/how-to-query-index-match-multiple-rows-of-text-from-a-merged-cell?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft: vacatures | LinkedIn",
-        "url": "https://nl.linkedin.com/company/microsoft/jobs",
+        "title": "Hàm QUERY - Trình chỉnh sửa Google Tài liệu Trợ giúp",
+        "url": "https://support.google.com/docs/answer/3093343?hl=vi",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Vacatures bij Microsoft | Indeed.com",
-        "url": "https://nl.indeed.com/cmp/Microsoft/jobs",
+        "title": "BigQuery - Google Cloud Platform Console Help",
+        "url": "https://support.google.com/cloud/answer/9113366?hl=en",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Microsoft: Jobs | LinkedIn",
-        "url": "https://www.linkedin.com/company/microsoft/jobs/",
+        "title": "BigQuery Export - Analytics Help - Google Help",
+        "url": "https://support.google.com/analytics/answer/9358801?hl=en",
         "source": "Gerichte winkelscan"
       }
     ]
@@ -340,13 +340,13 @@
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -360,8 +360,8 @@
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 8",
@@ -371,22 +371,22 @@
     {
       "source": "Winkelzoekopdracht 9",
       "status": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "source": "Winkelzoekopdracht 10",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 12",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -395,18 +395,18 @@
     },
     {
       "source": "Winkelzoekopdracht 14",
-      "status": "ok",
-      "items": 10
-    },
-    {
-      "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0
     },
     {
-      "source": "Internationale zoekopdracht 1",
+      "source": "Winkelzoekopdracht 15",
       "status": "ok",
-      "items": 8
+      "items": 10
+    },
+    {
+      "source": "Internationale zoekopdracht 1",
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
@@ -415,8 +415,8 @@
     },
     {
       "source": "Internationale zoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -425,13 +425,13 @@
     },
     {
       "source": "Internationale zoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -455,8 +455,8 @@
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "empty",
-      "items": 0
+      "status": "ok",
+      "items": 7
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -728,9 +728,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 239,
+    "scannedItems": 145,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:30:15.434555+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:31:16.889193+00:00"
 }

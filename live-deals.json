@@ -1,10 +1,22 @@
 {
-  "updatedAt": "2026-10-26T14:56:57.135965+00:00",
+  "updatedAt": "2026-10-26T15:19:49.148387+00:00",
   "diagnostics": {
-    "irrelevant": 60,
-    "source_quality": 134,
+    "irrelevant": 59,
+    "source_quality": 181,
     "duplicate": 0,
     "examples": [
+      {
+        "why": "irrelevant",
+        "title": "1+1 gratis op geselecteerde Seepje voordeelverpakkingen bij bol",
+        "url": "https://nl.pepper.com/aanbiedingen/11-gratis-op-geselecteerde-seepje-voordeelverpakkingen-bij-bol-423810",
+        "source": "Pepper Nederland"
+      },
+      {
+        "why": "irrelevant",
+        "title": "Tot 40% korting op Leatt MX-laarzen bij Bike-Mailorder",
+        "url": "https://nl.pepper.com/aanbiedingen/tot-40-korting-op-leatt-mx-laarzen-bij-bike-mailorder-423797",
+        "source": "Pepper Nederland"
+      },
       {
         "why": "irrelevant",
         "title": "Philips 50PUS8001/12 Ambilight 50\" 4K Ultra HD LED Smart TV (2026) @ Coolblue",
@@ -19,7 +31,7 @@
       },
       {
         "why": "irrelevant",
-        "title": "Gratis Hak Easy Eats! Woolsocks Albert Heijn",
+        "title": "Gratis Hak Easy Eats! Scoupy Albert Heijn",
         "url": "https://nl.pepper.com/aanbiedingen/gratis-hak-happy-eats-via-woolsocks-423802",
         "source": "Pepper Nederland"
       },
@@ -31,7 +43,7 @@
       },
       {
         "why": "irrelevant",
-        "title": "Sophia mea archive sale vanavond om 19:00 uur",
+        "title": "Sophia Mae archive sale vanavond om 19:00 uur",
         "url": "https://nl.pepper.com/aanbiedingen/sophia-mea-archive-sale-vanavond-om-1900-uur-423804",
         "source": "Pepper Nederland"
       },
@@ -64,76 +76,64 @@
         "title": "Charlotte Tilbury 15% korting + gratis verzending op je eerste bestelling via de officiële webshop.",
         "url": "https://nl.pepper.com/kortingscode/charlotte-tilbury-15-korting-gratis-verzending-op-je-eerste-bestelling-via-de-officiele-webshop-423800",
         "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "HEMA | 30% korting op jassen (baby's en kids)",
-        "url": "https://nl.pepper.com/aanbiedingen/hema-30-korting-op-jassen-voor-babys-en-kids-423801",
-        "source": "Pepper Nederland"
-      },
-      {
-        "why": "irrelevant",
-        "title": "Edifier G2II - Gaming Headset",
-        "url": "https://nl.pepper.com/aanbiedingen/edifier-g2ii-gaming-headset-423798",
-        "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "ROTTERDAM - Very Italian Pizza",
-        "url": "https://veryitalianpizza.nl/rotterdam/",
+        "title": "Monitor on-premises Microsoft Entra Password Protection - Microsoft ...",
+        "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "VERY ITALIAN PIZZA, Rotterdam - Blaak 31, Stadsdriehoek ...",
-        "url": "https://www.tripadvisor.nl/Restaurant_Review-g188632-d3192239-Reviews-Very_Italian_Pizza-Rotterdam_South_Holland_Province.html",
+        "title": "Microsoft Entra-wachtwoordbeveiliging on-premises monitoren - Microsoft ...",
+        "url": "https://learn.microsoft.com/nl-nl/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "De 10 beste restaurants in de buurt van Station Blaak - Tripadvisor",
-        "url": "https://www.tripadvisor.nl/RestaurantsNear-g188632-d9577059-Blaak-Rotterdam_South_Holland_Province.html",
+        "title": "Monitor on-premises Microsoft Entra Password Protection",
+        "url": "https://docs.azure.cn/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Best Restaurants near Blaak 31, 3011 GA Rotterdam, The Netherlands",
-        "url": "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Blaak+31%2C+3011+GA+Rotterdam",
+        "title": "Troubleshoot: On-premises Microsoft Entra Password Protection",
+        "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-troubleshoot",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "The Best 10 Restaurants near Blaak, Rotterdam, Zuid-Holland, The ... - Yelp",
-        "url": "https://www.yelp.com/search?cflt=restaurants&find_loc=Blaak%2C+Rotterdam%2C+Zuid-Holland",
+        "title": "Learn about the audit logs in Microsoft Entra ID - Microsoft Entra ID",
+        "url": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-audit-logs",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "THE 10 BEST Restaurants Near Rotterdam Blaak Station",
-        "url": "https://www.tripadvisor.com/RestaurantsNear-g188632-d5025829-Rotterdam_Blaak_Station-Rotterdam_South_Holland_Province.html",
+        "title": "entra-docs-hybrid-admin-role/docs/identity/authentication/howto ...",
+        "url": "https://github.com/msft-erzhan/entra-docs-hybrid-admin-role/blob/main/docs/identity/authentication/howto-password-ban-bad-on-premises-monitor.md",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Home | Baek Food & Drinks",
-        "url": "https://www.baekrotterdam.nl/",
+        "title": "EntraPasswordProtection-Report/PasswordProtectionReport.ps1 at main ...",
+        "url": "https://github.com/robertBreese/EntraPasswordProtection-Report/blob/main/PasswordProtectionReport.ps1",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Very Italian Pizza - Rotterdam, Netherlands - Verken Rotterdam",
-        "url": "https://verkenrotterdam.nl/places/very-italian-pizza-rotterdam-netherlands/",
+        "title": "Troubleshoot on-premises Microsoft Entra Password Protection",
+        "url": "https://docs.azure.cn/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-troubleshoot",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Very italian Pizza Rotterdam - Contact - Italiaanse pizza, Pasta ...",
-        "url": "https://www.very-italian-pizza-rotterdam.nl/contact",
+        "title": "Configure Microsoft Entra Password Protection for on-premises",
+        "url": "https://www.alitajran.com/microsoft-entra-password-protection/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "THE 10 BEST Restaurants Near Blaak Station - Tripadvisor",
-        "url": "https://www.tripadvisor.com/RestaurantsNear-g188632-d9577059-Blaak-Rotterdam_South_Holland_Province.html",
+        "title": "Entra Password Protection On-Premises AD Setup | EpiFive",
+        "url": "https://www.epifive.com/blog/entra-password-protection-on-premises-ad",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "213° - adidas Run 70s 2.0 heren sneakers zwart/wit",
+      "title": "226° - adidas Run 70s 2.0 heren sneakers zwart/wit",
       "url": "https://nl.pepper.com/aanbiedingen/adidas-run-70s-20-heren-sneakers-zwartwit-423769",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -144,28 +144,6 @@
         "adidas"
       ],
       "category": "Outdoor & herenkleding",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
-    {
-      "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
-      "source": "Gerichte merkzoekopdracht",
-      "sourceType": "news",
-      "published": "Mon, 26 Oct 2026 07:48:00 GMT",
-      "price": null,
-      "score": 43,
-      "matched": [
-        "apple"
-      ],
-      "category": "Technologie & wonen",
       "discovery": true,
       "priceVerified": false,
       "allInVerified": false,
@@ -192,147 +170,147 @@
     },
     {
       "source": "Merkscan 1",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 2",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 3",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 4",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 5",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 6",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 7",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 8",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 9",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 10",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 11",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 12",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 13",
-      "status": "ok",
-      "items": 1,
-      "retrieved": 1
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 14",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 15",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 16",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 17",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 18",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 19",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 20",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 21",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Merkscan 22",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 1
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Samplezoekopdracht 2",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Samplezoekopdracht 3",
@@ -360,9 +338,9 @@
     },
     {
       "source": "Samplezoekopdracht 7",
-      "status": "empty",
-      "items": 0,
-      "retrieved": 0
+      "status": "error",
+      "error": "HTTP Error 503: Service Unavailable",
+      "items": 0
     },
     {
       "source": "Samplezoekopdracht 8",
@@ -398,7 +376,7 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -434,7 +412,7 @@
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 1
     },
     {
       "source": "Winkelzoekopdracht 10",
@@ -488,7 +466,7 @@
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
@@ -500,13 +478,13 @@
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
@@ -518,7 +496,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -530,13 +508,13 @@
       "source": "Internationale zoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -809,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 196,
-    "personalMatches": 2
+    "scannedItems": 241,
+    "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T14:56:57.135965+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T15:19:49.148387+00:00"
 }

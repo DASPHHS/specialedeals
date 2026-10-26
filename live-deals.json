@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-26T07:37:09.243784+00:00",
+  "updatedAt": "2026-10-26T07:40:29.891665+00:00",
   "diagnostics": {
     "irrelevant": 60,
-    "source_quality": 112,
+    "source_quality": 170,
     "duplicate": 0,
     "examples": [
       {
@@ -80,60 +80,60 @@
     ],
     "sourceQualityExamples": [
       {
-        "title": "Dordseweg 34-A, Weiteveen (7765 AC) - Huispedia.nl",
-        "url": "https://huispedia.nl/weiteveen/7765ac/dordseweg/34-a",
+        "title": "为什么海关不许进口印有Made in R.O.C字样的商品，反而可以进口Made in Taiwan？",
+        "url": "https://www.zhihu.com/question/57183466",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dordseweg 34 - A 7765 AC Weiteveen - LeukHuis.nl",
-        "url": "https://www.leukhuis.nl/weiteveen/7765ac/dordseweg/34-a",
+        "title": "如果当年汉字真的拼音化了会怎么样？ - 知乎",
+        "url": "https://www.zhihu.com/question/48030905",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Woningwaarde Dordseweg 34 A, 7765AC Weiteveen",
-        "url": "https://woningontdekken.nl/woning/weiteveen/7765ac/dordseweg-34-a/",
+        "title": "대만관광청 공식 홈페이지",
+        "url": "https://www.taiwantour.or.kr/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Huizenzoeker - Woningmarkt Dordseweg 34",
-        "url": "https://www.huizenzoeker.nl/woningmarkt/drenthe/emmen/weiteveen/dordseweg/34/",
+        "title": "공지사항 | 대만관광청",
+        "url": "https://www.taiwantour.or.kr/introduction/view.html?id=2374",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Weiteveen Dordseweg 34 - alles over de prijs - huisx.nl",
-        "url": "https://huisx.nl/koop/3262755/dordseweg-34/weiteveen",
+        "title": "台湾 - 知乎",
+        "url": "https://www.zhihu.com/topic/19553437/intro",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dordseweg in Weiteveen - AlleCijfers.nl",
-        "url": "https://allecijfers.nl/weg/dordseweg-weiteveen/",
+        "title": "台湾为什么又叫Formosa？ - 知乎",
+        "url": "https://www.zhihu.com/question/30828571",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dordseweg, Weiteveen: huizenprijzen & alle woningen - Huispedia.nl",
-        "url": "https://huispedia.nl/weiteveen/dordseweg",
+        "title": "대만 소개",
+        "url": "https://www.taiwantour.or.kr/info/introduction.html",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dordseweg in Weiteveen - Check dit Huis",
-        "url": "https://www.checkdithuis.nl/weiteveen/dordseweg/",
+        "title": "台湾人不使用汉语拼音，但是为什么看一些台湾的媒体还有BBC等都是用Taiwan？",
+        "url": "https://www.zhihu.com/question/430467875",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Elk adres in Dordseweg, Weiteveen - KadastraleKaart.com",
-        "url": "https://kadastralekaart.com/woonplaatsen/weiteveen/2000/0114300000201216/adressen",
+        "title": "如果外国人呛我说什么free tibet或者free taiwan ... - 知乎",
+        "url": "https://www.zhihu.com/question/47123638",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Dordseweg in Weiteveen - OpenKaartData",
-        "url": "https://openkaartdata.nl/plaats/weiteveen/dordseweg",
+        "title": "대만 자전거 이벤트",
+        "url": "https://www.taiwantour.or.kr/themeTour/list-event-bike.html",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
     {
-      "title": "334° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
+      "title": "333° - Nike Air Force 1 '07 LV8 met primera korting €66.25",
       "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
       "source": "Pepper Hot",
       "sourceType": "community",
@@ -171,297 +171,356 @@
     {
       "source": "Merkscan 1",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 2",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 3",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 4",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 5",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 6",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 7",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 8",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 9",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 10",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 11",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 12",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 13",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 14",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 15",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 16",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 17",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 18",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 19",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 20",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 21",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Merkscan 22",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 1",
-      "status": "ok",
-      "items": 1
+      "status": "empty",
+      "items": 0,
+      "retrieved": 1
     },
     {
       "source": "Samplezoekopdracht 2",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 3",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 4",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 5",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 6",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 7",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 8",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 9",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Samplezoekopdracht 10",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 3",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 1
     },
     {
       "source": "Winkelzoekopdracht 4",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 5",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 7",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
-      "status": "ok",
-      "items": 7
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 10",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 11",
-      "status": "ok",
-      "items": 8
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 15",
-      "status": "ok",
-      "items": 10
+      "status": "empty",
+      "items": 0,
+      "retrieved": 9
     },
     {
       "source": "Internationale zoekopdracht 1",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 2",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 3",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 4",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 5",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 6",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 7",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 10",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 11",
-      "status": "ok",
-      "items": 7
+      "status": "empty",
+      "items": 0,
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
       "status": "empty",
-      "items": 0
+      "items": 0,
+      "retrieved": 0
     }
   ],
   "retailers": [
@@ -728,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 173,
+    "scannedItems": 231,
     "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-26T07:37:09.243784+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-26T07:40:29.891665+00:00"
 }

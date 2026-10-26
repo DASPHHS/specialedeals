@@ -39,6 +39,12 @@ on:
       - 'system-health-ui.js'
       - 'test_system_health.py'
       - 'index.html'
+      - 'action-queue.mjs'
+      - 'action-queue-ui.mjs'
+      - 'test_action_queue.mjs'
+      - 'savings-ledger.mjs'
+      - 'savings-ledger-ui.mjs'
+      - 'test_savings_ledger.mjs'
       - 'ai-kansen.html'
       - '.github/workflows/scan.yml'
   workflow_dispatch:
@@ -77,6 +83,12 @@ jobs:
           node --check bespaar-calculator.mjs
           node --check bespaar-strategie-ui.mjs
           node test_bespaar_calculator.mjs
+          node --check action-queue.mjs
+          node --check action-queue-ui.mjs
+          node test_action_queue.mjs
+          node --check savings-ledger.mjs
+          node --check savings-ledger-ui.mjs
+          node test_savings_ledger.mjs
           python -m unittest test_contests.py test_sample_events.py -v
       - name: Ontdek internationale winacties
         run: python contest_scan.py

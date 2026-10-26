@@ -42,6 +42,35 @@ fetch("./bespaarstrategien.json?"+Date.now(),{cache:"no-store"})
  })
  .catch(()=>{$("strategyCards").textContent="Strategieën tijdelijk niet bereikbaar. Controleer de laatste publicatiestatus.";});
 
+// Read-only research leads, never labelled as validated discount strategies.
+fetch("./strategie-scan.json?"+Date.now(),{cache:"no-store"})
+ .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
+ .then(doc=>{
+   const candidates=(doc.redditCandidates||[]).filter(x=>{
+     try {return ["www.reddit.com","reddit.com","old.reddit.com"].includes(new URL(x.url).hostname) &&
+       typeof x.title==="string" && x.title.length>=12 && x.verified===false;}catch{return false}
+   });
+   $("redditLeadCount").textContent="("+candidates.length+")";
+   const root=$("redditLeadItems");root.replaceChildren();
+   if(!candidates.length)root.append(mk("p","muted","Nog geen relevante nieuwe posts uit de automatisch bereikbare feeds."));
+   else {
+     const ul=mk("ul");
+     for(const x of candidates.slice(0,30)){
+       const li=mk("li");const a=mk("a",null,x.title);
+       a.href=x.url;a.target="_blank";a.rel="noopener noreferrer";
+       li.append(a);ul.append(li);
+     }
+     root.append(ul);
+   }
+   const blocked=(doc.redditFeeds||[]).filter(x=>x.status==="error");
+   $("redditLeadStatus").textContent=blocked.length?
+    blocked.length+" Reddit-feed(s) tijdelijk niet toegankelijk. Deze lijst is onvolledig.": 
+    "Geen rechtstreekse productprijzen of koopbewijzen; dit zijn uitsluitend ideeën.";
+ }).catch(()=>{
+   $("redditLeadCount").textContent="(niet beschikbaar)";
+   $("redditLeadItems").textContent="Onderzoeksfeed tijdelijk niet bereikbaar.";
+ });
+
 function readAmount(id,required=true){
  const value=$(id).value.trim().replace(",",".");
  if(!value && !required)return 0;

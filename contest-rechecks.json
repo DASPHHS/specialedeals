@@ -1,0 +1,420 @@
+{
+  "updatedAt": "2026-10-26T14:49:35.562763+00:00",
+  "verificationLevel": "technical_recheck_only",
+  "reviews": [
+    {
+      "id": "anwb-luik-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/kerst-luik-social",
+          "status": "reachable",
+          "contentHash": "ace22895eb2bb4e4985d1773e0d44a0bb3aac6af9d1e54d5e3c11150a3ff3b44",
+          "changed": null
+        },
+        {
+          "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+          "status": "reachable",
+          "contentHash": "006e3a1c804fe524f16dc9ba0ef624689c6ee00e727fafd739673dab9d4dc9e5",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "expired",
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "anwb-houffalize-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.anwb.nl/eropuit/weekendje-weg/winactie/houffalize",
+          "status": "reachable",
+          "contentHash": "139ff8d772c09a8aa7a3cba7ceb55a8684444d7a520b632ae9af42ad245715e0",
+          "changed": null
+        },
+        {
+          "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+          "status": "reachable",
+          "contentHash": "006e3a1c804fe524f16dc9ba0ef624689c6ee00e727fafd739673dab9d4dc9e5",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "anwb-droomvakantie-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
+          "status": "reachable",
+          "contentHash": "c53793958f8dabfbbaa3df740cd5f70abed1e38a76512d4057026e97a17b0c7e",
+          "changed": null
+        },
+        {
+          "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+          "status": "reachable",
+          "contentHash": "006e3a1c804fe524f16dc9ba0ef624689c6ee00e727fafd739673dab9d4dc9e5",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "wibra-topolino-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/",
+          "status": "reachable",
+          "contentHash": "cac648582ddf162e181da8c75bb509c8b89ef0f2025fe83dc7b4e4fccdbc16ba",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "mtb-night-bergschenhoek-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.mtbroutes.nl/win-2-tickets-voor-de-lezyne-night-ride-in-bergschenhoek",
+          "status": "reachable",
+          "contentHash": "dc19b4e2697f5ae963c9f973650d66caea5657915d582914c80881badc5b292f",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "expired",
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "basiq-auto-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://basiq-carcleaning.nl/winactie/",
+          "status": "unavailable"
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "official_page_unavailable",
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "rijneke-woondroom-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://rijneke.nl/event/oktober-woonmaand-op-de-rijneke-boulevard/",
+          "status": "unavailable"
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "official_page_unavailable",
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "goodroll-laufen-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://thegoodroll.nl/pages/laufen-x-the-good-roll-giveaway-1",
+          "status": "reachable",
+          "contentHash": "c160199e89d2d1542df2ee54f4eec32b409dbf89596fa63dce0d54f1cb793a01",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "disnieuws-pirates-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://disnieuws.nl/win-de-pirates-ofd-the-caribbean-3-movie-hi-def-collection-op-blu-ray/",
+          "status": "unavailable"
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "official_page_unavailable",
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "ah-blijdorp-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.ah.nl/acties/winacties/blijdorp",
+          "status": "reachable",
+          "contentHash": "6102d158c4dfa809b87b5950dae62919e8a1e6d6ec6e5efba86ecbba380ac0f8",
+          "changed": null
+        },
+        {
+          "url": "https://static.ah.nl/binaries/ah/content/assets/ah-nl/core/winactie-voorwaarden/2026/sd.-actievoorwaarden-blijdorp-.pdf",
+          "status": "reachable",
+          "contentHash": "eb0176eb49075f4c7528f159b9f57172aab29be07a320becaaec870c3ade7f87",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "vakantiepiraten-rad-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://highlights.vakantiepiraten.nl/draai-aan-het-rad-en-win-een-luxe-vakantie",
+          "status": "reachable",
+          "contentHash": "6069cf80b13a034c38463d06e7e938e11946da31b20071e4f980fa3eadd13f62",
+          "changed": null
+        },
+        {
+          "url": "https://www.vakantiepiraten.nl/juridisch/deelnamevoorwaarden-prijsvraag",
+          "status": "reachable",
+          "contentHash": "68e8cab15d77b67887d0cbb5ecb716f415fc4e65e2cf41e1d9b71042e1e04f2d",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "columbus-nedersaksen-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.columbusmagazine.nl/thema/quizzen/artikel/104068/quiz-win-stedentrip-nedersaksen/",
+          "status": "reachable",
+          "contentHash": "3bbf66b66e313f992f402711f14f5e59a2d3059c909b93346199c77bec5dd835",
+          "changed": null
+        },
+        {
+          "url": "https://www.roularta.com/content/uploads/2025/09/Algemene-voorwaarden-Kansspelen-Roularta-Media-Nederland-2025.pdf",
+          "status": "reachable",
+          "contentHash": "139e1e526bf4fe44bd8eb58f3c45f89de90b83ef217108e20b8a4e5c27518295",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "columbus-bosquiz-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.columbusmagazine.nl/thema/quizzen/artikel/103085/grote-nederlandse-bosquiz/",
+          "status": "reachable",
+          "contentHash": "5ec8818fd72f35bf7902dbe5e0135360bef4ca2571b2687924a1450d478d6ded",
+          "changed": null
+        },
+        {
+          "url": "https://www.roularta.com/content/uploads/2025/09/Algemene-voorwaarden-Kansspelen-Roularta-Media-Nederland-2025.pdf",
+          "status": "reachable",
+          "contentHash": "139e1e526bf4fe44bd8eb58f3c45f89de90b83ef217108e20b8a4e5c27518295",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "meribel-xmas-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://xmas.meribel.net/",
+          "status": "reachable",
+          "contentHash": "223c11e7c96140ec842bb03e513a3db86f48eb8a487e6c3023f776f042885134",
+          "changed": null
+        },
+        {
+          "url": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf",
+          "status": "reachable",
+          "contentHash": "66619cbb9e19ae2792206aa722d13487b302111851f973e3df24fa2b0bbfff69",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "wanderlust-awards-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.wanderlustmagazine.com/wanderlust-reader-travel-awards-2026-prize-draw-terms-and-conditions/",
+          "status": "reachable",
+          "contentHash": "eddf4f662b1c82833e00657067c4da916b391b4d800db580a756f9d03c177f56",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "pme-jacket-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.pme-legend.com/es/en/legal/terms-and-conditions-jacket-giveaway",
+          "status": "reachable",
+          "contentHash": "b66712ef73678353f9d2efc141d4a5837b6918934086b20fde2729e5085a6e50",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "tinge-lovelogic-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.tingeworld.com/post/lovelogic-sticker-giveaway",
+          "status": "reachable",
+          "contentHash": "64bdbe0857456f296ba0826a1e5c9e48a86013edd7454808e3ae32693dc2c569",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    },
+    {
+      "id": "vaillant-energiekosten-2026",
+      "checkedAt": "2026-10-26T14:49:35.562763+00:00",
+      "verificationLevel": "technical_recheck_only",
+      "pages": [
+        {
+          "url": "https://www.vaillant.nl/winactie/",
+          "status": "reachable",
+          "contentHash": "1b313ee56fcfa7c6b9f161771410dc17ae00693aa6de35cae6cb30609cabdab3",
+          "changed": null
+        },
+        {
+          "url": "https://www.vaillant.nl/api/download/document/nl/actievoorwaarden-winactie_1522889.pdf",
+          "status": "reachable",
+          "contentHash": "3a496ee805a295bdbeb55c9660e58bea6a46edc2789fc523f0adae52e2068b7e",
+          "changed": null
+        }
+      ],
+      "reviewRequired": true,
+      "reasons": [
+        "entry_limit_not_documented",
+        "explicit_nl_evidence_missing",
+        "cost_evidence_missing"
+      ],
+      "note": "Bereikbaarheid en wijzigingsdetectie bewijzen geen actuele voorwaarden, toelating of deelname."
+    }
+  ],
+  "complete": false
+}

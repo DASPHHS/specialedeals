@@ -12,6 +12,9 @@ on:
       - 'test_strategie_scan.py'
       - 'besparen.html'
       - 'contest_scan.py'
+      - 'contest_review.py'
+      - 'test_contest_review.py'
+      - 'contests.json'
       - 'sample_events_scan.py'
       - 'international_delivery.py'
       - 'international-stores.json'
@@ -89,9 +92,11 @@ jobs:
           node --check savings-ledger.mjs
           node --check savings-ledger-ui.mjs
           node test_savings_ledger.mjs
-          python -m unittest test_contests.py test_sample_events.py -v
+          python -m unittest test_contests.py test_contest_review.py test_sample_events.py -v
       - name: Ontdek internationale winacties
         run: python contest_scan.py
+      - name: Hercontroleer officiële winactiepagina’s
+        run: python contest_review.py
       - name: Ontdek actuele sample sales
         run: python sample_events_scan.py
       - name: Onderzoek bespaarstrategieën en voorwaarden
@@ -111,7 +116,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json strategie-scan.json
+          git add contest-rechecks.json live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json strategie-scan.json
           if ! git diff --cached --quiet; then
             git commit -m "Update persoonlijke deals"
             for attempt in 1 2 3 4 5; do

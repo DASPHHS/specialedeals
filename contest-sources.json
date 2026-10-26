@@ -21,6 +21,12 @@
       "url": "https://mitspiel.nl/winacties",
       "kind": "aggregator_internal",
       "verification": "discovery_only"
+    },
+    {
+      "name": "Columbus Travel officiële winacties",
+      "url": "https://www.columbusmagazine.nl/thema/win/",
+      "kind": "organizer_index",
+      "verification": "discovery_only"
     }
   ]
 }

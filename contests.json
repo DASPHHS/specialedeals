@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:44:31.652461Z",
+  "updatedAt": "2026-10-26T14:50:31.284494+00:00",
   "contests": [
     {
       "id": "anwb-luik-2026",
@@ -52,9 +52,9 @@
       "value": 5000,
       "deadline": "2026-12-06",
       "startsAt": "2026-10-22",
-      "verifiedAt": "2026-10-25T07:44:18.381Z",
+      "verifiedAt": "2026-10-26T14:50:31.284494+00:00",
       "sourceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
-      "termsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+      "termsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
       "free": true,
       "purchaseRequired": false,
       "newsletterRequired": false,
@@ -62,18 +62,31 @@
       "entrants": null,
       "conditions": "18+, Nederland; één deelname per persoon. Nieuwsbrief vrijwillig. Boeken uiterlijk 31 maart 2027. Geen contante uitbetaling; restbedrag vervalt; extra reisuitgaven voor jezelf.",
       "minutes": 3,
-      "evidence": "Officiële actiepagina gecontroleerd. Persoonlijke deelnames staan uitsluitend in het privé-dashboard."
+      "evidence": "Officiële actiepagina gecontroleerd. Persoonlijke deelnames staan uitsluitend in het privé-dashboard.",
+      "eligibleFromNetherlands": true,
+      "entryLimit": {
+        "count": 1,
+        "scope": "person",
+        "period": "campaign",
+        "evidenceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie"
+      },
+      "costs": {
+        "entryEUR": 0,
+        "purchaseRequired": false,
+        "additionalCosts": "Onder meer verzekeringen, visa, toeristenbelasting en lokale heffingen niet inbegrepen.",
+        "evidenceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie"
+      }
     },
     {
       "id": "wibra-topolino-2026",
       "title": "Fiat Topolino en 25 andere prijzen",
       "organizer": "Wibra / Dasty",
       "prize": "Fiat Topolino, schoonmaakpakketten, cadeaubonnen en winkelsessies",
-      "category": "Producten",
-      "value": null,
+      "category": "Auto’s",
+      "value": 9875,
       "deadline": "2026-11-11",
       "startsAt": "2026-10-22",
-      "verifiedAt": "2026-10-25T07:44:18.381Z",
+      "verifiedAt": "2026-10-26T14:50:31.284494+00:00",
       "sourceUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/",
       "termsUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/",
       "free": true,
@@ -83,7 +96,21 @@
       "entrants": null,
       "conditions": "18+, Nederland. Eén deelname, geen aankoop. Beantwoord de flessenvraag; juiste antwoord vereist voor de auto. Voor de overige prijzen tellen alle geldige antwoorden. Nieuwsbrief vrijwillig. Trekkingen op 16 november.",
       "minutes": 3,
-      "evidence": "Looptijd, prijs en deelnamevoorwaarden opnieuw gecontroleerd op de officiële pagina."
+      "evidence": "Officiële voorwaarden op 26 oktober gelezen: 18+, woonachtig NL, gratis, één deelname; nieuwsbrief vrijwillig. Auto rijklaar, registratie, bezorging en eventuele kansspelbelasting voor organisator.",
+      "eligibleFromNetherlands": true,
+      "entryLimit": {
+        "count": 1,
+        "scope": "person",
+        "period": "campaign",
+        "evidenceUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/"
+      },
+      "costs": {
+        "entryEUR": 0,
+        "purchaseRequired": false,
+        "additionalCosts": "Zie voorwaarden en prijsgebruik per actie",
+        "evidenceUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/"
+      },
+      "deadlineAt": "2026-11-11T22:59:00Z"
     },
     {
       "id": "mtb-night-bergschenhoek-2026",
@@ -283,7 +310,7 @@
       "deadline": "2026-11-08",
       "deadlineAt": "2026-11-08T23:00:00Z",
       "startsAt": "2026-10-07",
-      "verifiedAt": "2026-10-24T06:43:59.793600Z",
+      "verifiedAt": "2026-10-26T14:50:31.284494+00:00",
       "sourceUrl": "https://xmas.meribel.net/",
       "termsUrl": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf",
       "free": true,
@@ -293,7 +320,20 @@
       "entrants": null,
       "conditions": "18+, alle nationaliteiten. Formulier en twee vragen; één deelname per persoon. Nieuwsbrief optioneel. Vaste verblijfsdata 19–26 december 2026, niet wijzigbaar. Reis en overige kosten niet als inbegrepen bevestigd; extra kosten voor winnaar. Geen geldalternatief of overdracht. Winnaarsnaam mag voor publiciteit worden gebruikt; bezwaar tegen commerciële verwerking mogelijk. Trekking 17 november. Let op: de voorwaarden sluiten 9 november om 00.00 Franse tijd, dus praktisch uiterlijk 8 november deelnemen.",
       "minutes": 5,
-      "evidence": "Officiële actiepagina en vier pagina’s spelvoorwaarden gelezen op 24 oktober. Gratis zonder aankoop, leeftijd, looptijd, prijs en vaste reisdata bevestigd; niets ingevuld of verzonden."
+      "evidence": "Officiële actiepagina en vier pagina’s spelvoorwaarden gelezen op 24 oktober. Gratis zonder aankoop, leeftijd, looptijd, prijs en vaste reisdata bevestigd; niets ingevuld of verzonden.",
+      "eligibleFromNetherlands": true,
+      "entryLimit": {
+        "count": 1,
+        "scope": "person",
+        "period": "campaign",
+        "evidenceUrl": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf"
+      },
+      "costs": {
+        "entryEUR": 0,
+        "purchaseRequired": false,
+        "additionalCosts": "Reiskosten en gebruikskosten niet bevestigd als inbegrepen. Vaste reisdata 19–26 december 2026.",
+        "evidenceUrl": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf"
+      }
     },
     {
       "id": "wanderlust-awards-2026",
@@ -313,9 +353,17 @@
       "newsletterRequired": false,
       "winners": 11,
       "entrants": null,
-      "conditions": "18+, gratis stemmen en organisator volgen op Instagram/Facebook; één standaardinzending. Internationale deelname toegestaan, maar niet elke deelprijs voor elk land. India is expliciet wereldwijd toegankelijk; Peru bevat vluchtbijdrage met plafond. Controleer per geselecteerde prijs landen en vertrekpunt. Reis naar VK, verzekering, visa en bijkosten kunnen voor jezelf zijn. Geautomatiseerde inzendingen verboden: zelf deelnemen. Sluit 27 oktober 23.59 Britse tijd. Niet elf afzonderlijke winacties geteld.",
+      "conditions": "18+, gratis stemmen en organisator volgen op Instagram/Facebook; één standaardinzending. Internationale deelname toegestaan, maar niet elke deelprijs voor elk land. India is expliciet wereldwijd toegankelijk; Peru bevat vluchtbijdrage met plafond. Controleer per geselecteerde prijs landen en vertrekpunt. Reis naar VK, verzekering, visa en bijkosten kunnen voor jezelf zijn. Geautomatiseerde inzendingen verboden: zelf deelnemen. Sluit 27 oktober 23.59 Britse tijd. Niet elf afzonderlijke winacties geteld. Automatische inzendingen en bots uitdrukkelijk uitgesloten (Master terms 8); uitsluitend handmatig deelnemen.",
       "minutes": 5,
-      "evidence": "Officiële openbare actievoorwaarden gelezen op 25 oktober 2026; Nederlandse deelname toegestaan volgens wereldwijde/algemene toelating. Niet namens jou ingezonden."
+      "evidence": "Officiële openbare actievoorwaarden gelezen op 25 oktober 2026; Nederlandse deelname toegestaan volgens wereldwijde/algemene toelating. Niet namens jou ingezonden.",
+      "automationAllowed": false,
+      "automationEvidence": "Master terms Eligibility 8: automated entries and bots will be disqualified.",
+      "entryLimit": {
+        "count": 1,
+        "scope": "person",
+        "period": "campaign",
+        "evidenceUrl": "https://www.wanderlustmagazine.com/wanderlust-reader-travel-awards-2026-prize-draw-terms-and-conditions/"
+      }
     },
     {
       "id": "pme-jacket-2026",

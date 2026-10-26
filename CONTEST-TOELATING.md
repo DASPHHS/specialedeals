@@ -17,3 +17,13 @@ De winactiespagina kan per geverifieerde actie een **lokale gebruikersmarkering*
 
 ### Automatisch deelnemen: nog niet geïmplementeerd
 Voor echte indiening is een bevoegde interactieve browserworkflow nodig die per officiële website toestemming, formulier, indienknop en daadwerkelijke bevestiging controleert. Omzeil geen CAPTCHA's of registratie-/deelnamelimieten; verstuur niet meerdere inzendingen vanuit alternatieve e-mailadressen wanneer één inzending per persoon/huishouden is toegestaan. Zonder door de organisator bevestigde deelname is de status nooit 'ingediend'.
+
+## Centrale radar en privéregister, 26 oktober 2026
+
+`contest_review.py` controleert alle bestaande officiële actie- en voorwaarden-URL's bij iedere scan. `contest-rechecks.json` bevat alleen openbare paginahashes, bereikbaarheid, controletijd en ontbrekende bewijsvelden. HTML-wijzigingen zijn een hercontrolesignaal, geen bewijs dat de voorwaarden zijn gewijzigd. Een succesvolle download verlengt nooit `verifiedAt` en bevestigt nooit gratis deelname, Nederlandse toelating, maximumdeelnames of een inzending. Ontdekresultaten blijven kandidaten zonder publicatielimiet. Trackingvarianten van dezelfde link worden samengevoegd; verschillende campagneparameters blijven behouden.
+
+Leg inhoudelijk vast: `entryLimit` (aantal, persoon/huishouden, periode en bewijs-URL), `costs` (deelnamekosten, aankoop en bijkosten), expliciete `eligibleFromNetherlands`, plus controle van eventueel verbod op automatische deelname. Ontbrekend bewijs betekent niet toegestaan aannemen.
+
+Eén privéregister gebruikt exact **bevestigd ingediend**, **hulp nodig**, **nog niet ingediend** en **ongeschikt**. Een gebruikersmelding van eerdere deelname blokkeert herinzending, maar telt zonder bewijs van de organisator niet als bevestigd ingediend. Een onduidelijke of afgebroken inzending blijft geblokkeerd totdat de ontvangst is uitgezocht. Deduplicatie geldt over alle bronnen en e-mailadressen heen, per organisatorcampagne, deelnemer/huishouden en toegestane periode. Nooit openbare issues, logs of Actions-artifacts gebruiken voor dit register.
+
+De definitieve browserinzending voor een prijstrekking vereist gebruikersovername volgens de browserregels. CAPTCHA, login, e-mailverificatie, verplichte marketing of onbekende toestemming zijn concrete hulpvragen. Bij expliciet verbod op bots of automatische inzendingen uitsluitend handmatige deelname. De openbare winactiepagina bewaart geen nieuwe persoonlijke deelnamemarkeringen; het privéregister wordt apart bijgehouden en is geen live ingelogde GitHub Pages-app.

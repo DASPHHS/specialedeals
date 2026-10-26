@@ -33,3 +33,8 @@ class MitspielSourceTests(unittest.TestCase):
   self.assertEqual(lead['status'],'candidate')
   self.assertNotIn('eligible',lead)
   self.assertIn('nog niet bevestigd',lead['reason'].lower())
+
+class DuplicateTrackingTests(unittest.TestCase):
+ def test_tracking_variants_collapse_but_campaigns_stay_distinct(self):
+  rows=[{'title':'Win a car','url':u} for u in ['https://example.org/win?utm_source=one','https://example.org/win/?fbclid=two','https://example.org/win?campaign=other']]
+  self.assertEqual(len(build(rows,'2026-10-26T12:00:00Z')),2)

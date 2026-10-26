@@ -122,3 +122,11 @@ Publicatiebotsing vastgesteld in run 40193373320: beide scanners lazen de event-
 - Geautoriseerde privé-Site-read geslaagd; geen privévelden naar publieke repo gekopieerd. Vier publieke dashboardroutes en BIKE24-verzendpagina op bereikbaarheid gecontroleerd, geen volledige mobiele UI-test.
 - Gedetailleerde dagstatus: quality-review.json. Inhoud beschikbaar voor het bestaande centrale dagoverzicht; geen tweede gewone dealmail verzonden. Definitieve nieuwe Actions/Pages-verificatie vastleggen in Issue #5.
 - Hernoemde boodschappen-/receptenrepository niet benaderd of gewijzigd.
+
+## Winactieradar, 26 oktober 2026
+
+- Gebouwd en lokaal getest: officiële URL-hercontrole voor alle bestaande acties, inhoudshashes, zichtbare bronuitval, trackingdeduplicatie en geen nieuwe persoonlijke deelnameopslag op GitHub Pages.
+- Inhoudelijk herlezen: Wibra Topolino, ANWB droomvakantie en Méribel; maximum één deelname vastgelegd. Wanderlust verbiedt automatische inzendingen expliciet.
+- Gedeeltelijk: discovery via bestaande NL/EN/DE/FR-zoekopdrachten en aggregatorpagina's. Geen universele dekkingsgarantie. Nieuwe Columbus-bron en twee elektronicaleads toegevoegd; deze leads blijven ongeverifieerd.
+- Nog te verifiëren: dagelijkse inhoudelijke herbeoordeling van iedere nieuwe kandidaat. Technische URL-check is geen inhoudelijke toets.
+- Geen automatische formulierinzending gebouwd. Definitieve prijstrekkinginzending blijft gebruikershandeling. Bevestigingen en vier deelnamestatussen uitsluitend in een geautoriseerd privéregister.

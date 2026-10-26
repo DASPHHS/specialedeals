@@ -26,7 +26,7 @@ class ContestLinks(HTMLParser):
   mitspiel='mitspiel.nl' in source_host
   if mitspiel and (host!=source_host or not re.fullmatch(r'/winacties/[^/]+/?',path)):
    self.href=None;return
-  if host==source_host and not (mitspiel or 'prijsvragen.nl' in source_host):self.href=None;return
+  if host==source_host and not (mitspiel or 'prijsvragen.nl' in source_host or self.source.get('kind')=='organizer_index'):self.href=None;return
   if url.rstrip('/')==self.source['url'].rstrip('/'):self.href=None;return
   if len(title)>12 and ((mitspiel and path.startswith('/winacties/')) or path.startswith('/winactie/') or re.search(r'\bwin\b|winactie|prijsvraag|giveaway|gewinnspiel',title,re.I)) and not any(host==h or host.endswith('.'+h) for h in tracking):
    self.rows.append({'title':title,'url':url,'discoveredVia':self.source['url'],'discoverySource':self.source['name']})
@@ -58,12 +58,19 @@ def relevant(title, url):
  # A word boundary prevents Windows/Windy/WinRAR from matching “win”.
  return bool(re.search(r'\b(?:winactie|winacties|prijsvraag|prijsvragen|giveaway|gewinnspiel|sweepstakes?|competition)\b|\bwin\s+(?:een|a|an|je|de|het|your|the)\b|\bconcours\b.*\b(?:gagnez|gagner|gratuit|voyage|voiture|cadeau)\b',t))
 
+def canonical_url(url):
+ parts=urllib.parse.urlsplit(url)
+ # Keep semantic parameters; remove only known marketing decoration.
+ query=urllib.parse.urlencode(sorted((k,v) for k,v in urllib.parse.parse_qsl(parts.query,keep_blank_values=True) if not k.casefold().startswith('utm_') and k.casefold() not in {'fbclid','gclid','msclkid'}))
+ return urllib.parse.urlunsplit((parts.scheme.casefold(),parts.netloc.casefold(),parts.path.rstrip('/') or '/',query,''))
+
 def build(rows,now):
  out={}
  for row in rows:
   title=row.get('title','');url=row.get('url','')
   if not url.startswith('https://') or not (relevant(title,url) or row.get('discoveredVia')):continue
-  key=hashlib.sha256(url.split('#')[0].encode()).hexdigest()[:20]
+  url=canonical_url(url)
+  key=hashlib.sha256(url.encode()).hexdigest()[:20]
   out[key]={'id':key,'title':title,'sourceUrl':url,'category':classify(title),'checkedAt':now,'status':'candidate','reason':'Alleen zoekresultaat gevonden. Gratis deelname, deadline, officiële regels, Nederlandse toelating en eventuele kosten nog controleren.'}
   out[key].update({k:row[k] for k in ('discoveredVia','discoverySource') if k in row})
   if row.get('discoveredVia'):out[key]['reason']='Gevonden op een direct uitgelezen prijsvragenoverzicht. Einddatum, kosten en Nederlandse toelating nog niet bevestigd.'
@@ -80,6 +87,8 @@ def main():
  # Source failures never wipe previously collected candidates.
  candidates={r['id']:r for r in old.get('candidates',[]) if not r.get('reason','').startswith('Alleen zoekresultaat') or relevant(r.get('title',''),r.get('sourceUrl',''))}
  for row in build(rows,now):candidates[row['id']]=row
+ # Collapse historical tracking variants as well; never merge distinct campaign paths.
+ candidates={canonical_url(r['sourceUrl']):r for r in candidates.values()}
  target.write_text(json.dumps({'updatedAt':now,'candidates':list(candidates.values()),'sources':sources,'complete':not any(s['status']=='error' for s in sources),'note':'Discovery only. No automatic participation. No universal coverage claim.'},ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'queries':len(queries),'candidates':len(candidates),'failed':sum(s['status']=='error' for s in sources)}))
 if __name__=='__main__':main()

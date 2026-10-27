@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:12:55.443385+00:00",
+  "updatedAt": "2026-10-27T23:17:14.340183+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:12:55.443385+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -36,35 +36,7 @@
       "score": 90,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
-    },
-    {
-      "id": "ad1b79b95f6e347663f3",
-      "kind": "deals",
-      "title": "Mammut (278)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/mammut/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 90,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
-    },
-    {
-      "id": "20dee430dd65bbe2de9b",
-      "kind": "deals",
-      "title": "Norrøna (18)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/norroena/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 90,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "20ed8906ad9c7f231b91",
@@ -78,7 +50,7 @@
       "score": 90,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "8405fd7df249e344eb4a",
@@ -92,7 +64,7 @@
       "score": 73,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "0019774fab1d4c52fb29",
@@ -105,7 +77,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -120,7 +92,7 @@
       "score": 70,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "2b5646e1666dddb7b414",
@@ -134,7 +106,7 @@
       "score": 70,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -147,7 +119,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -162,7 +134,7 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "950a816fc8d01b256478",
@@ -175,7 +147,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -190,7 +162,7 @@
       "score": 61,
       "audience": "men",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "38bf4b64730bbc2d5d65",
@@ -204,7 +176,7 @@
       "score": 61,
       "audience": "women",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "20663f158dd1576c5290",
@@ -218,7 +190,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -231,7 +203,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -245,7 +217,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -259,7 +231,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -273,7 +245,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -287,7 +259,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -301,7 +273,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Sample sales"
     },
     {
@@ -344,7 +316,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "0bfcf2490d58555860f8",
@@ -358,7 +330,7 @@
       "score": 53,
       "audience": "men",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "25c0a72bc1a064be0bf9",
@@ -372,7 +344,7 @@
       "score": 53,
       "audience": "women",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "4f0fe50bec50a9d7bf25",
@@ -386,7 +358,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "22201ef2521fb4a6c2f8",
@@ -400,7 +372,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "08491a94cef813cc2f5e",
@@ -428,7 +400,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "864d14e8e0cf1068440f",
@@ -442,7 +414,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "38a3a9e8a6ac868363b4",
@@ -456,7 +428,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "96dbe1838b151b6d0b86",
@@ -470,7 +442,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00"
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     },
     {
       "id": "92786655c93082b352d7",
@@ -483,7 +455,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Overige deals"
     },
     {
@@ -497,8 +469,22 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:12:55.443385+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00",
       "category": "Huis & tuin"
+    },
+    {
+      "id": "77065c200d14a62d7b8a",
+      "kind": "deals",
+      "title": "Xiaomi Robot Vacuum 5 Pro | Robotstofzuiger | Nat en droog | 5200mAh | Wit",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/xiaomi-robot-vacuum-5-pro-robotstofzuiger-nat-en-droog-5200mah-wit-424015",
+      "category": "Huis & tuin",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
+      "lastSeenAt": "2026-10-27T23:17:14.340183+00:00"
     }
   ],
   "sources": [
@@ -558,7 +544,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "name": "SuperSales",
@@ -575,7 +561,7 @@
     {
       "name": "Bergfreunde sale",
       "status": "ok",
-      "count": 19
+      "count": 17
     },
     {
       "name": "Bergzeit sale",

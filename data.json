@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:05:37.422347+00:00",
+  "updatedAt": "2026-10-27T19:34:24.657684+00:00",
   "items": [
     {
       "id": "0019774fab1d4c52fb29",
@@ -12,7 +12,8 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -25,7 +26,8 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "1451ce6c14b3a1278962",
@@ -38,7 +40,22 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
+    },
+    {
+      "id": "0340f094dfe36037abb0",
+      "kind": "deals",
+      "title": "Uniqlo Mid-season Sale: tot 60% korting op jeans, corduroy en jassen voor dames en heren",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/uniqlo-mid-season-sale-tot-60-korting-op-jeans-corduroy-en-jassen-voor-dames-en-heren-423729",
+      "category": "Mode & schoenen",
+      "status": "Te controleren",
+      "score": 63,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00"
     },
     {
       "id": "950a816fc8d01b256478",
@@ -51,7 +68,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "d2e2b58266fc1f48727a",
@@ -64,7 +82,8 @@
       "score": 61,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "c88c501e7b463c3e320d",
@@ -77,7 +96,8 @@
       "score": 61,
       "audience": "men",
       "discoveredAt": "2026-10-27T19:05:37.422347+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "1675a70a612846d03d40",
@@ -90,7 +110,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Vakanties & reizen"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -103,7 +124,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "03c215effbe8a9a17a33",
@@ -116,7 +138,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Vakanties & reizen"
     },
     {
       "id": "667174dc73dc06f36cd3",
@@ -129,7 +152,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "7138a41ff032d1a973d6",
@@ -142,7 +166,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Vakanties & reizen"
     },
     {
       "id": "1106b41c9d496940caca",
@@ -155,7 +180,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0b1139b59978d864c40b",
@@ -168,7 +194,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "80484ade33ab6c9d532a",
@@ -181,7 +208,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "364705c649227197fb1f",
@@ -194,7 +222,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "758caf258e1bfc5b25f1",
@@ -207,7 +236,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "cba9fbae0b58cb18e72c",
@@ -220,7 +250,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "a25dd3778b78ea19e508",
@@ -233,7 +264,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "42a1d84572961a5edca1",
@@ -246,7 +278,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "828d17a0834989dc4da1",
@@ -259,7 +292,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "a78257a9b081ef76cae0",
@@ -272,7 +306,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "2d8009fa32c710438154",
@@ -285,7 +320,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "4d6df0cc014e97ab491b",
@@ -298,7 +334,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "d6d853300680e7303ba9",
@@ -311,7 +348,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "9f7418e101604a9c65f4",
@@ -324,7 +362,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "7bea63d60e07c1a25714",
@@ -337,7 +376,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "403b299c14bd55b6aac8",
@@ -350,7 +390,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "4c420e8d29ab6fbf4244",
@@ -363,7 +404,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "45f67eae33fa78b13712",
@@ -376,7 +418,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "45ee5e1f37ab121d9c5e",
@@ -389,7 +432,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "533424f47426bf99b844",
@@ -402,7 +446,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "e30c20e4b37f2671c5ba",
@@ -415,7 +460,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "2f2369fef451a0c408ed",
@@ -428,7 +474,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "b8897bb584c5cb556eb8",
@@ -441,7 +488,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "308892ef75aaf75a5dc6",
@@ -454,7 +502,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0ca4925379eef3bb859d",
@@ -467,7 +516,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "8312bb145429ea789bf6",
@@ -480,7 +530,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "dbcef369464c907a1d09",
@@ -493,7 +544,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "84705102989b85cf280a",
@@ -506,7 +558,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0655d18fadbc7f8b2f7f",
@@ -519,7 +572,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "fb6165c9552259b81971",
@@ -532,7 +586,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "f784b73e88593f76f41e",
@@ -545,7 +600,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "fa4a196a9df5b2d92460",
@@ -558,7 +614,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0be04318ca096fbd67fd",
@@ -571,7 +628,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "5d907404f9d3adccb006",
@@ -584,7 +642,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "38f2ce67681dad3123cb",
@@ -597,7 +656,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "1e3608c3ce47760a9e53",
@@ -610,7 +670,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "b269756402a877013563",
@@ -623,7 +684,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "763d6954460ddbde8cd8",
@@ -636,7 +698,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "5b4cad6c92a8698d819b",
@@ -649,7 +712,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "2e476752308cb715036d",
@@ -662,7 +726,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "bf000c4a994d44f3dfe4",
@@ -675,7 +740,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "b0481b69fdb211e203dc",
@@ -688,7 +754,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "6ac5ea7070299572a2a5",
@@ -701,7 +768,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "4957042992416a2fb1f2",
@@ -714,7 +782,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "cdc1b1bcda65d8c53d58",
@@ -727,7 +796,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "e55499d344d78bf8e97f",
@@ -740,7 +810,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "5d29d79089dd6b0868b6",
@@ -753,7 +824,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "ffe3ebb5b95d1f018292",
@@ -766,7 +838,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "c3d58b962775cda58ba1",
@@ -779,7 +852,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "bd29038f9040307765d3",
@@ -792,7 +866,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "2f06c224a83a2f67183d",
@@ -805,7 +880,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "a6543fce4044dfdb212e",
@@ -818,7 +894,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0d3ab817004398b3341b",
@@ -831,7 +908,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "2ce2a16675939e50319e",
@@ -844,7 +922,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "7c9644476eecf3335547",
@@ -857,7 +936,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "21c644d93e87e5e1c566",
@@ -870,7 +950,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "e4b78e03895de900f872",
@@ -883,7 +964,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "1e3ad3d4c4bed7d95bad",
@@ -896,7 +978,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "9feaa851febbeda2f2e7",
@@ -909,7 +992,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "5408a24fc5603aea2101",
@@ -922,7 +1006,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "194dec3a24793dc59511",
@@ -935,7 +1020,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "4bbeb7ee7efe17dca4c4",
@@ -948,7 +1034,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "6f6b34021742ee754db3",
@@ -961,7 +1048,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "45a751014a1fd0226cc3",
@@ -974,7 +1062,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "9546ebea2e88a9a4b2e1",
@@ -987,7 +1076,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "8b7113ffb9f8d8daf28a",
@@ -1000,7 +1090,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "501042cdefdf44436d1c",
@@ -1013,7 +1104,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "8d7e2baac4d46e6764aa",
@@ -1026,7 +1118,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "08491a94cef813cc2f5e",
@@ -1039,7 +1132,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "f2de573818d12df958af",
@@ -1052,7 +1146,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "a1455a95faf5b4909306",
@@ -1065,7 +1160,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "40af52c41e75f26acab0",
@@ -1078,7 +1174,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "5bb5b775599059834247",
@@ -1091,7 +1188,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "0335b5c22ab2085fc2e1",
@@ -1104,7 +1202,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "41d2b537816dcc1d2832",
@@ -1117,7 +1216,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "b62de08b4cc2a8eea244",
@@ -1130,7 +1230,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "7e32ae86a6dca21bfa8c",
@@ -1143,7 +1244,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Geld & tegoed"
     },
     {
       "id": "e18ebb176e41b45057a6",
@@ -1156,7 +1258,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "4886a3c47a4007b89386",
@@ -1169,7 +1272,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "6c3daf93b9353b8d75ca",
@@ -1182,7 +1286,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "434fb902b67b024e97cd",
@@ -1195,7 +1300,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "60615bda88ed364a1893",
@@ -1208,7 +1314,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "ff4e09904be02e17c4f7",
@@ -1221,7 +1328,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "774c7f5c4cff4c454976",
@@ -1234,7 +1342,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "8d12d612c4cc6eb76cbb",
@@ -1247,7 +1356,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Sample sales"
     },
     {
       "id": "06e4a184b7d10e665d86",
@@ -1260,7 +1370,8 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "ba7ac6e39a995a58bbcb",
@@ -1273,7 +1384,8 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "9f221a57cc6a97919d2c",
@@ -1286,7 +1398,8 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "6a935bf509b7faca151b",
@@ -1299,7 +1412,8 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "5dc3095919ddd4c08995",
@@ -1312,7 +1426,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "f65b665d02e7ad4ffad3",
@@ -1325,7 +1440,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "f7c182f110a0e6230ebb",
@@ -1338,7 +1454,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "1801109b775ccb815c18",
@@ -1351,7 +1468,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "6bb54a1e06ad819b0cef",
@@ -1364,7 +1482,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "87bf448de940b4a26309",
@@ -1377,7 +1496,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "199bc55694de125abd03",
@@ -1390,7 +1510,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "4a2fe16992f9d1b444dc",
@@ -1403,7 +1524,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige waardevolle prijzen"
     },
     {
       "id": "c28c9f1e229ca44e6bfd",
@@ -1416,7 +1538,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "7a3a993e95cde2ff84ac",
@@ -1429,7 +1552,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "2844345b493d1d13cd1b",
@@ -1442,7 +1566,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "05dd3ec4e27996912385",
@@ -1455,7 +1580,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "ac1c6985b80fa70f6e6e",
@@ -1468,7 +1594,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "9ac34e9727552e797c74",
@@ -1481,7 +1608,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "24c563c601bb55e1c51d",
@@ -1494,7 +1622,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "d75f1e457ee848dc5097",
@@ -1507,7 +1636,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Verzorging & beauty"
     },
     {
       "id": "7019dc94bd56bfa4a862",
@@ -1520,7 +1650,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "31cb71d479044a53dca6",
@@ -1533,7 +1664,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "785a3a152676027f4d60",
@@ -1546,7 +1678,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Huis & tuin"
     },
     {
       "id": "fb00968dd8dc8ef926d8",
@@ -1559,7 +1692,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Huis & tuin"
     },
     {
       "id": "8362644b2a37f3e38e47",
@@ -1572,7 +1706,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Gratis spullen & producten"
     },
     {
       "id": "595cd578a5d79569ab79",
@@ -1585,7 +1720,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "cb55ef8d50c17281ad86",
@@ -1598,7 +1734,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "02df6c836cca53aec60f",
@@ -1611,7 +1748,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "92786655c93082b352d7",
@@ -1624,7 +1762,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "51a9bba19f160225d01a",
@@ -1637,7 +1776,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "fe50bef8a202cf936c88",
@@ -1650,7 +1790,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "aa9a93083caf412cc487",
@@ -1663,7 +1804,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Gratis spullen & producten"
     },
     {
       "id": "95621bbf23c0519890f6",
@@ -1676,7 +1818,22 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
+    },
+    {
+      "id": "545ad1940837229caf89",
+      "kind": "deals",
+      "title": "KOORUI K50Q1UQ-T8 50'' (3840 × 2160 (4K UHD) - QLED) TV @ Joybuy",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/koorui-k50q1uq-t8-50-tv-423935",
+      "category": "Elektronica",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00"
     },
     {
       "id": "5c0de454ed5a268d098e",
@@ -1689,7 +1846,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "45ba9631a32bf7bd5c16",
@@ -1702,7 +1860,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "61ba0b88fd9ffe4b261e",
@@ -1715,7 +1874,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "982e09378c4ae105dbec",
@@ -1728,7 +1888,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "5b89655195f770a80076",
@@ -1741,7 +1902,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "2d5999c5a37eb0811067",
@@ -1754,7 +1916,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "30481ded2ae3f0457fd4",
@@ -1767,7 +1930,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "037027742aacf977976b",
@@ -1780,7 +1944,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "81330e0b359b2bec609b",
@@ -1793,7 +1958,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "480361816ff0d96c48b6",
@@ -1806,7 +1972,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
+      "category": "Huis & tuin"
     },
     {
       "id": "2499fde1b1cb3f25624f",
@@ -1819,7 +1986,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "595d099988bd30ed2192",
@@ -1832,7 +2000,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
+      "category": "Huis & tuin"
     },
     {
       "id": "22fc4bf5655c0962397d",
@@ -1845,7 +2014,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "eb26c9a5347c71a70c85",
@@ -1858,7 +2028,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "a0eeaeba79793df0dd8b",
@@ -1871,7 +2042,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "ddd02f72c9bb2dda5be7",
@@ -1884,7 +2056,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "7484fba7dc6741be9f14",
@@ -1897,7 +2070,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "f8cbd297b07db36b7449",
@@ -1910,7 +2084,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "8c2c82c79841b887245a",
@@ -1923,7 +2098,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "88c2a42190244957d6c2",
@@ -1936,7 +2112,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Gratis spullen & producten"
     },
     {
       "id": "1ea79d90f71795d32fcb",
@@ -1949,7 +2126,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -1962,7 +2140,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "397494101f01e7a6689e",
@@ -1975,7 +2154,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "0ea75f46a176e1989f53",
@@ -1988,7 +2168,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "9107fb5bc4c3ca650e68",
@@ -2001,7 +2182,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Elektronica"
     },
     {
       "id": "7ebb07cfae1653e2c051",
@@ -2014,7 +2196,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "0f54d656515a1a84597d",
@@ -2027,7 +2210,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "3ec82afa587648d96d24",
@@ -2040,7 +2224,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "3adda21fef9e59cc2633",
@@ -2053,7 +2238,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "f8ed3ac4c26e436546ec",
@@ -2066,7 +2252,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "963a6e4d3ce01ceb6b90",
@@ -2079,7 +2266,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "01171694c5479cc329b3",
@@ -2092,7 +2280,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "5272d7f22ef489010222",
@@ -2105,7 +2294,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Uitjes & belevenissen"
     },
     {
       "id": "978783e8826db6bb05b3",
@@ -2118,7 +2308,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "7b02c5667225bc87cef7",
@@ -2131,7 +2322,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige waardevolle prijzen"
     },
     {
       "id": "aa3586fd86b6f7de14cd",
@@ -2144,7 +2336,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige waardevolle prijzen"
     },
     {
       "id": "d607ed0d3ac14597f999",
@@ -2157,7 +2350,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "326fa4893c3cfc1ffe29",
@@ -2170,7 +2364,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Gratis spullen & producten"
     },
     {
       "id": "19f52ac9ab911b6a4ada",
@@ -2183,7 +2378,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige waardevolle prijzen"
     },
     {
       "id": "12af12e95fb9b37114f8",
@@ -2196,7 +2392,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Elektronica"
     },
     {
       "id": "f84779ae845dd486cb24",
@@ -2209,7 +2406,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Elektronica"
     },
     {
       "id": "0ff8e6ef3d6bd9be4852",
@@ -2222,7 +2420,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "5579d563d022e690e78b",
@@ -2235,7 +2434,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Gratis spullen & producten"
     },
     {
       "id": "cf0678a1e1b7d671f477",
@@ -2248,7 +2448,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Auto's & mobiliteit"
     },
     {
       "id": "d6bcf24f5f797bb81ff4",
@@ -2261,7 +2462,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "0ddca54a10467aa05dde",
@@ -2274,7 +2476,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Mode & schoenen"
     },
     {
       "id": "8ec596438566e397d495",
@@ -2287,7 +2490,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "dd2d60d34fb13ee905a1",
@@ -2300,7 +2504,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "5402978301f931a4a55d",
@@ -2313,7 +2518,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "97744137ce5db037c0b0",
@@ -2326,7 +2532,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "885ea195688684025c16",
@@ -2339,7 +2546,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "5d505077194bb2725ea6",
@@ -2352,7 +2560,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "2f1ba7cbe612a7c75d91",
@@ -2365,7 +2574,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "d31ae7e8c6b7f960800f",
@@ -2378,7 +2588,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "90dc0ea53f24702c25d8",
@@ -2391,7 +2602,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "31b6aadbfa73635949d4",
@@ -2404,7 +2616,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "2a3e1c0d12c5c191b316",
@@ -2417,7 +2630,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     },
     {
       "id": "4c1173f754e9aef5287b",
@@ -2430,7 +2644,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00"
+      "lastSeenAt": "2026-10-27T19:34:24.657684+00:00",
+      "category": "Overige deals"
     }
   ],
   "sources": [

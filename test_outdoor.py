@@ -11,6 +11,9 @@ class OutdoorPreferencesTests(unittest.TestCase):
             "Outdoorschoenen", "deals", "Bergfreunde sale"
         ))
         self.assertFalse(scan.high_quality_candidate(
+            "Arc\'teryx (25)", "deals", "Bergfreunde sale"
+        ))
+        self.assertFalse(scan.high_quality_candidate(
             "Salomon XT6 50% korting", "deals", "Bever sale"
         ))
 

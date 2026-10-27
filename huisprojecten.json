@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "region": "Bleiswijk en omgeving (vakmensen liefst binnen 20 km)",
+  "projects": [
+    {
+      "id": "buitenschilderwerk",
+      "title": "Huis laten schilderen",
+      "terms": [
+        "buitenschilderwerk",
+        "schilder",
+        "kozijnen schilderen",
+        "gevel schilderen",
+        "schilderwerk aanbieding"
+      ],
+      "considerations": [
+        "offerte inclusief voorbereiding en materiaal",
+        "onderhoudsinterval",
+        "garanties",
+        "ondergrond en aantal m²"
+      ]
+    },
+    {
+      "id": "voortuin",
+      "title": "Voortuin renoveren",
+      "terms": [
+        "voortuin",
+        "tuinrenovatie",
+        "hovenier",
+        "bestrating",
+        "tuinaanleg",
+        "waterdoorlatende bestrating"
+      ],
+      "considerations": [
+        "waterafvoer",
+        "groen versus bestrating",
+        "vergelijk m²-prijzen inclusief afvoer"
+      ]
+    },
+    {
+      "id": "overkapping",
+      "title": "Overkapping aan huis in achtertuin",
+      "terms": [
+        "overkapping",
+        "terrasoverkapping",
+        "veranda",
+        "aluminium overkapping",
+        "houten overkapping"
+      ],
+      "considerations": [
+        "vergunning en erfgrens",
+        "fundering",
+        "afmetingen",
+        "montage inbegrepen"
+      ]
+    },
+    {
+      "id": "schuur",
+      "title": "Schuur renoveren",
+      "terms": [
+        "schuur renoveren",
+        "schuur dak",
+        "schuurdeur",
+        "schuur isoleren",
+        "berging renoveren",
+        "houtwerk"
+      ],
+      "considerations": [
+        "constructie en dakconditie",
+        "vocht",
+        "offerte inclusief afvoer"
+      ]
+    },
+    {
+      "id": "isolatie",
+      "title": "Woning isoleren",
+      "terms": [
+        "spouwmuurisolatie",
+        "dakisolatie",
+        "vloerisolatie",
+        "isolatieglas",
+        "HR++ glas",
+        "triple glas"
+      ],
+      "considerations": [
+        "ISDE-voorwaarden en meldcodes",
+        "isolatiewaarde",
+        "ventilatie",
+        "natuurvriendelijk isoleren"
+      ]
+    },
+    {
+      "id": "verduurzamen",
+      "title": "Verduurzaming huis",
+      "terms": [
+        "warmtepomp",
+        "hybride warmtepomp",
+        "zonnepanelen",
+        "thuisbatterij",
+        "waterbesparing",
+        "energieadvies"
+      ],
+      "considerations": [
+        "terugverdientijd met reële energieprijzen",
+        "gemeentelijke steun en ISDE",
+        "installatie-eisen",
+        "contractvoorwaarden"
+      ]
+    }
+  ],
+  "selectionRules": {
+    "dailyMax": 3,
+    "exclude": "algemene leadgeneratie, vage kortingsclaims, niet-gekwalificeerde aanbieders",
+    "require": "directe aanbieder of officiële overheidsregeling met datum, werkgebied en controleerbare voorwaarden",
+    "guidance": "Geen subsidierecht of vergunningsvrijheid claimen zonder woning-specifieke toets."
+  }
+}

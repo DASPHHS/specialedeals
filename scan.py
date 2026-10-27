@@ -153,6 +153,21 @@ def official_contests(now):
  today=dt.datetime.now(dt.timezone.utc).date().isoformat()
  return [{**v,"id":"official-"+v["id"],"kind":"contests","source":v["organizer"],"audience":"all","score":95,"discoveredAt":now,"lastSeenAt":now,"status":"Voorwaarden gecontroleerd"} for v in entries if v.get("startDate","")<=today<=v.get("endDate","") and v.get("officialTermsUrl")]
 
+
+def duplicate_key(item):
+ # Merge identical visible offers even when tracking parameters or path variants differ.
+ name=re.sub(r"[^a-z0-9]+"," ",item.get("title","").casefold()).strip()
+ origin=re.sub(r"[^a-z0-9]+"," ",item.get("source","").casefold()).strip()
+ return (item.get("kind",""),origin,name)
+
+def unique_offers(rows):
+ seen=set();out=[]
+ for item in rows:
+  key=duplicate_key(item)
+  if key in seen:continue
+  seen.add(key);out.append(item)
+ return out
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  with open("wishlist.json",encoding="utf-8") as f:wishlist=json.load(f)
@@ -192,7 +207,7 @@ def main():
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
  # Conservative expiration until explicit date parsing is available.
  for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
- rows=official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
+ rows=unique_offers(official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"])))[:450]
  result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))

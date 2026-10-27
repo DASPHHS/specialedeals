@@ -1,137 +1,159 @@
 {
-  "updatedAt": "2026-10-27T08:06:12.989751+00:00",
+  "updatedAt": "2026-10-27T14:38:24.409103+00:00",
   "diagnostics": {
     "irrelevant": 62,
-    "source_quality": 75,
+    "source_quality": 89,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "Philips Beauty Set 9900 BRE738/00 Epilator (7 Opzetstukken)",
-        "url": "https://nl.pepper.com/aanbiedingen/philips-beauty-set-9900-bre73800-epilator-7-opzetstukken-423885",
+        "title": "Roborock Q10 S5 set Nog goedkoper !!!",
+        "url": "https://nl.pepper.com/aanbiedingen/roborock-q10-s5-set-nog-goedkoper-423957",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Tijdelijk tot 69% korting op robotstofzuigers o.a. Roborock Q10 S5+ & Roborock Q7 M5 @ Bol",
-        "url": "https://nl.pepper.com/aanbiedingen/tijdeljk-tot-69-korting-op-robotstofzuigers-oa-roborock-q10-s5-roborock-q7-m5-at-bol-423884",
+        "title": "Ninja CRISPi Draagbare Airfryer, 3,8 L, 4-in-1: Airfry, Braden, Warmhouden - FN101EUGY",
+        "url": "https://nl.pepper.com/aanbiedingen/ninja-crispi-air-fryer-design-compact-4-in-1-kommen-38-of-14-l-fn101eugy-423949",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Cronos: The New Dawn voor PlayStation 5 @ MediaMarkt",
-        "url": "https://nl.pepper.com/aanbiedingen/cronos-the-new-dawn-voor-playstation-5-at-mediamarkt-423883",
+        "title": "Ninja Luxe Cafe Mini Plus Espressomachine",
+        "url": "https://nl.pepper.com/aanbiedingen/ninja-luxe-cafe-mini-plus-espressomachine-423958",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Brennenstuhl Super-Solid (5 stekkers) @ Amazon NL",
-        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-super-solid-5-stekkers-at-amazon-nl-423878",
+        "title": "Gillette / Brain Intimate electric trimmer i5",
+        "url": "https://nl.pepper.com/aanbiedingen/gillette-brain-intimate-electric-trimmer-i5-423956",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "25% korting op Syrops en No Honey van Green Sweet",
-        "url": "https://nl.pepper.com/aanbiedingen/25-korting-op-syrops-en-no-honey-van-green-sweet-423882",
+        "title": "Ninja Creami 13 in 1 Softijs en Ijsmachine",
+        "url": "https://nl.pepper.com/aanbiedingen/ninja-creami-13-in-1-softijs-en-ijsmachine-423955",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Rabanne 1 Million Black Eau de Parfum 100ml @ flaconi",
-        "url": "https://nl.pepper.com/aanbiedingen/million-black-in-de-aanbieding-de-nieuwste-geur-uit-de-rabanne-million-lijn-laagste-prijs-sinds-introductie-423859",
+        "title": "10% korting t/m 1 november @ Kruidenbaron",
+        "url": "https://nl.pepper.com/aanbiedingen/10-korting-tm-1-november-at-kruidenbaron-423954",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Xand electrische fietspomp",
-        "url": "https://nl.pepper.com/aanbiedingen/xand-electrische-fietspomp-423880",
+        "title": "Scheppach BC-PS150-X Accu Snoeizaag 20V (zonder accu & lader) @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/scheppach-bc-ps150-x-accu-snoeizaag-20v-zonder-accu-lader-at-bol-423953",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[Lokaal] Krijg €25 reparatie tegoed voor je kleding in Zaanstad",
-        "url": "https://nl.pepper.com/aanbiedingen/lokaal-krijg-eur25-reparatie-tegoed-voor-je-kleding-in-zaanstad-423877",
+        "title": "Tot 80% korting op Engelstalige boeken @ Bol (o.a. Tools of Titans, The Hallmarked Man en Bread of Angels)",
+        "url": "https://nl.pepper.com/aanbiedingen/tot-80-korting-op-engelstalige-boeken-at-bol-oa-tools-of-titans-the-hallmarked-man-en-bread-of-angels-423940",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "CIEN BEAUTY Elektrische tandenborstel sonic @ Lidl",
-        "url": "https://nl.pepper.com/aanbiedingen/elektrische-tandenborstel-sonic-423872",
+        "title": "[bol.com] Stapelkorting op playmobil! Tot 30% extra korting.",
+        "url": "https://nl.pepper.com/aanbiedingen/bolcom-stapelkorting-op-playmobil-tot-30-extra-korting-423952",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[nieuwe klanten] Jean Paul Gaultier Le Male Homme Eau de Toilette 75ml @ Joybuy",
-        "url": "https://nl.pepper.com/aanbiedingen/jean-paul-gaultier-le-male-homme-eau-de-toilette-75ml-423863",
+        "title": "RESIDENT EVIL 2 | PS5",
+        "url": "https://nl.pepper.com/aanbiedingen/resident-evil-2-ps5-423946",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Samsung Odyssey G8 OLED 4K/240Hz Gaming Monitor (27\")",
-        "url": "https://nl.pepper.com/aanbiedingen/samsung-odyssey-oled-4k-240hz-gaming-monitor-27-423857",
+        "title": "Fischer 10x80 pluggen (25x) @ Amazon.nl",
+        "url": "https://nl.pepper.com/aanbiedingen/fischer-10x80-pluggen-25x-423948",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Uber Eats 3x €15 korting bij €20 bestelling",
-        "url": "https://nl.pepper.com/aanbiedingen/uber-eats-3x-eur15-korting-bij-eur20-bestelling-423862",
+        "title": "Zendure Solarflow 800 Pro in combinatie met Budget Thuis",
+        "url": "https://nl.pepper.com/aanbiedingen/zendure-solarflow-800-pro-in-combinatie-met-budget-thusi-423947",
         "source": "Pepper Nederland"
       }
     ],
     "sourceQualityExamples": [
       {
-        "title": "Handle file download from Ajax POST - Stack Overflow",
-        "url": "https://stackoverflow.com/questions/16086162/handle-file-download-from-ajax-post",
+        "title": "Taiwan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Can an AJAX response set a cookie? - Stack Overflow",
-        "url": "https://stackoverflow.com/questions/3340797/can-an-ajax-response-set-a-cookie",
+        "title": "Taiwan - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "php - Select2 com AJAX - Stack Overflow em Português",
-        "url": "https://pt.stackoverflow.com/questions/7292/select2-com-ajax",
+        "title": "Reisadvies Taiwan | Ministerie van Buitenlandse Zaken - NederlandWereldwijd",
+        "url": "https://www.nederlandwereldwijd.nl/reisadvies/taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "javascript - ¿Como exactamente funciona '$.ajax ( {type, post, data ...",
-        "url": "https://es.stackoverflow.com/questions/189000/como-exactamente-funciona-ajaxtype-post-data-en-este-conexto",
+        "title": "Taiwan | NU - Het laatste nieuws het eerst op NU.nl",
+        "url": "https://www.nu.nl/tag/taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "descargar un archivo con javascript - Stack Overflow en español",
-        "url": "https://es.stackoverflow.com/questions/46951/descargar-un-archivo-con-javascript",
+        "title": "Taiwan, China - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Taiwan,_China",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Fazer upload de arquivo com AJAX - Stack Overflow em Português",
-        "url": "https://pt.stackoverflow.com/questions/9704/fazer-upload-de-arquivo-com-ajax",
+        "title": "Geschiedenis van Taiwan - Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Geschiedenis_van_Taiwan",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "include antiforgerytoken in ajax post ASP.NET MVC",
-        "url": "https://stackoverflow.com/questions/14473597/include-antiforgerytoken-in-ajax-post-asp-net-mvc",
+        "title": "Reizen naar Taiwan: Tips, reisroute & highlights! - WeAreTravellers",
+        "url": "https://www.wearetravellers.nl/reizen/azie/taiwan/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Ajax Control Toolkit Autocomplete extender - Stack Overflow",
-        "url": "https://stackoverflow.com/questions/12933452/ajax-control-toolkit-autocomplete-extender",
+        "title": "De 8 mooiste bezienswaardigheden van Taiwan | ANWB",
+        "url": "https://www.anwb.nl/vakantie/taiwan/bezienswaardigheden",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "Use ASP.NET MVC validation with jquery ajax? - Stack Overflow",
-        "url": "https://stackoverflow.com/questions/14005773/use-asp-net-mvc-validation-with-jquery-ajax",
+        "title": "Bezienswaardigheden Taiwan: 10x toffe highlights",
+        "url": "https://www.wearetravellers.nl/azie/taiwan/bezienswaardigheden-taiwan/",
         "source": "Gerichte winkelscan"
       },
       {
-        "title": "javascript - jQuery.ajax () parsererror - Stack Overflow",
-        "url": "https://stackoverflow.com/questions/6643838/jquery-ajax-parsererror",
+        "title": "De mooiste plekken van Taiwan: top 10 bezienswaardigheden",
+        "url": "https://rondreis.nl/blog/bestemmingen/de-mooiste-plekken-van-taiwan-top-10-bezienswaardigheden",
         "source": "Gerichte winkelscan"
       }
     ]
   },
   "deals": [
+    {
+      "title": "Apple kondigt iPad mini 2026 aan – inclusief een gigantisch prijskaartje - iCreate",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VSFpEbVdwZVZTVjQyNUZUcFI0M2E3aUVXem11aElKQU1wMXlJSkRYdTZRblNtVG1qOGVXTzVLV3dXdWN6ZU5kX1ZtOHVKYjZfbVNhaFlVaV9FOUVsMmQxYkhXM21kemFyZk5rM3gwQWw?oc=5",
+      "source": "Gerichte merkzoekopdracht",
+      "sourceType": "news",
+      "published": "Mon, 26 Oct 2026 17:28:15 GMT",
+      "price": null,
+      "score": 55,
+      "matched": [
+        "apple"
+      ],
+      "category": "Technologie & wonen",
+      "discovery": true,
+      "priceVerified": false,
+      "allInVerified": false,
+      "stockVerified": false,
+      "variantVerified": false,
+      "referencePriceVerified": false,
+      "status": "Kandidaat: controle vereist",
+      "referencePrice": null,
+      "checkedAt": null
+    },
     {
       "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
@@ -243,8 +265,8 @@
     {
       "source": "Merkscan 13",
       "status": "ok",
-      "items": 1,
-      "retrieved": 2
+      "items": 2,
+      "retrieved": 3
     },
     {
       "source": "Merkscan 14",
@@ -364,7 +386,7 @@
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 2",
@@ -376,7 +398,7 @@
       "source": "Winkelzoekopdracht 3",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 4",
@@ -388,7 +410,7 @@
       "source": "Winkelzoekopdracht 5",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 6",
@@ -400,31 +422,31 @@
       "source": "Winkelzoekopdracht 7",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 9",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 10",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 12",
@@ -436,13 +458,13 @@
       "source": "Winkelzoekopdracht 13",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 14",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 9
     },
     {
       "source": "Winkelzoekopdracht 15",
@@ -496,7 +518,7 @@
       "source": "Internationale zoekopdracht 8",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 9",
@@ -514,7 +536,7 @@
       "source": "Internationale zoekopdracht 11",
       "status": "empty",
       "items": 0,
-      "retrieved": 7
+      "retrieved": 0
     },
     {
       "source": "Internationale zoekopdracht 12",
@@ -787,9 +809,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 138,
-    "personalMatches": 1
+    "scannedItems": 153,
+    "personalMatches": 2
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-27T08:06:12.989751+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-27T14:38:24.409103+00:00"
 }

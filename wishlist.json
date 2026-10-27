@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "items": [
+    {
+      "id": "dyson-handstofzuiger",
+      "name": "Dyson handstofzuiger / compacte snoerloze stofzuiger",
+      "keywords": [
+        "Dyson",
+        "handstofzuiger",
+        "V8",
+        "V12"
+      ],
+      "region": "NL + EU",
+      "notes": "Exact model en accessoires vergelijken; leverings- en garantievoorwaarden controleren",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "janzen-earth",
+      "name": "JANZEN Earth verzorging / huisgeur",
+      "keywords": [
+        "JANZEN Earth",
+        "JANZEN"
+      ],
+      "region": "NL + EU",
+      "notes": "Let op exacte geur, inhoud en multipack",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "hoka-schoenen",
+      "name": "HOKA sportschoenen",
+      "keywords": [
+        "HOKA",
+        "Hoka"
+      ],
+      "region": "NL + EU",
+      "notes": "Herenmaat ongeveer EU 47; exacte schoenmaat en model nog vast te leggen",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "arcteryx-outdoor",
+      "name": "Arc'teryx en vergelijkbare premium outdoor kleding",
+      "keywords": [
+        "Arc'teryx",
+        "Arcteryx",
+        "Patagonia",
+        "Norrøna",
+        "Rab",
+        "Mammut",
+        "Fjällräven",
+        "Bever"
+      ],
+      "region": "NL + EU",
+      "notes": "Prioriteit heren XL; A-merken en officiële outlets",
+      "maxPriceEUR": null
+    }
+  ]
+}

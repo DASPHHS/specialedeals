@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:45:04.138783+00:00",
+  "updatedAt": "2026-10-27T23:47:33.283039+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:45:04.138783+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,9 +43,189 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:45:04.138783+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
       "status": "Voorwaarden gecontroleerd"
+    },
+    {
+      "id": "f04e6f75dc8e52ec017f",
+      "kind": "deals",
+      "title": "AirPods vergelijken",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/airpods/airpods-vergelijken",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-airpods"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "86333007509d13ea1e27",
+      "kind": "deals",
+      "title": "AirPods-accessoires",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/apple-accessoires/airpods-accessoires",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-airpods"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "af2c685096841e20878e",
+      "kind": "deals",
+      "title": "Alle AirPods-modellen",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/airpods",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-airpods"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "d80458dc912950530294",
+      "kind": "deals",
+      "title": "Apple Watch Ultra 3",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/watch/apple-watch-ultra-3",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-watch-ultra"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "e04a5794a4b6ebc0baae",
+      "kind": "deals",
+      "title": "Apple Watch Ultra 4",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/watch/apple-watch-ultra-4",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-watch-ultra"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "6f02ff94afff9f306f71",
+      "kind": "deals",
+      "title": "[DEMO]MacBook Pro 14\" - M4 Pro 12C-CPU & 16C-GPU - 24GB - 512GB - 70W USB-C - (Standaard-display) - Silver",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/demo-macbook-pro-14-m4-pro-12c-cpu-16c-gpu-24gb-512gb-70w-usb-c-standaard-display-silver",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-macbook"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "5d5d60bf73d2a2611fd4",
+      "kind": "deals",
+      "title": "[DEMO]MacBook Pro 16\" - M4 Pro 14C-CPU & 20C-GPU - 24GB - 512GB - 140W USB-C - (Standaard-display) - Space Black",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/demo-macbook-pro-16-m4-pro-14c-cpu-20c-gpu-24gb-512gb-140w-usb-c-standaard-display-space-black",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-macbook"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "0cd6402834f5a55224e3",
+      "kind": "deals",
+      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Sky Blue",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-sky-blue",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-macbook"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "1f873ec0bcca0978a437",
+      "kind": "deals",
+      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Starlight - NL KEY CTO",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-starlight-nl-key-cto",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-macbook"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
+    },
+    {
+      "id": "8ebef657504a563265a7",
+      "kind": "deals",
+      "title": "[Open Box] MacBook Pro 16\" - M5 Pro 18C-CPU & 20C-GPU - 48GB - 1TB - ST-Display - SIlver",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Amac Apple aanbiedingen",
+      "url": "https://www.amac.nl/open-box-macbook-pro-16-m5-pro-18c-cpu-20c-gpu-48gb-1tb-st-display-silver",
+      "category": "Apple & elektronica",
+      "wishlistMatches": [
+        "apple-macbook"
+      ],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 100,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00"
     },
     {
       "id": "0019774fab1d4c52fb29",
@@ -58,8 +238,10 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Mode & schoenen"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Mode & schoenen",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -72,8 +254,10 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Mode & schoenen"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Mode & schoenen",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "0340f094dfe36037abb0",
@@ -87,7 +271,9 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T23:25:42.267583+00:00"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "950a816fc8d01b256478",
@@ -100,8 +286,9 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "869400b768b2d1e50695",
@@ -114,8 +301,9 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "7bea63d60e07c1a25714",
@@ -128,8 +316,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "403b299c14bd55b6aac8",
@@ -142,8 +331,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "dbcef369464c907a1d09",
@@ -156,8 +346,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "fa4a196a9df5b2d92460",
@@ -170,8 +361,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "0be04318ca096fbd67fd",
@@ -184,8 +376,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Sample sales"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Sample sales",
+      "wishlistMatches": []
     },
     {
       "id": "4957042992416a2fb1f2",
@@ -199,7 +392,9 @@
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
       "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
-      "category": "Mode & schoenen"
+      "category": "Mode & schoenen",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "c3d58b962775cda58ba1",
@@ -212,8 +407,10 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Mode & schoenen"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Mode & schoenen",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "08491a94cef813cc2f5e",
@@ -227,7 +424,9 @@
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
       "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
-      "category": "Overige deals"
+      "category": "Overige deals",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "92786655c93082b352d7",
@@ -240,8 +439,10 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Overige deals"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Overige deals",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -254,8 +455,10 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:45:04.138783+00:00",
-      "category": "Huis & tuin"
+      "lastSeenAt": "2026-10-27T23:47:33.283039+00:00",
+      "category": "Huis & tuin",
+      "wishlistMatches": [],
+      "priceVerified": false
     },
     {
       "id": "77065c200d14a62d7b8a",
@@ -269,7 +472,9 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
-      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
+      "wishlistMatches": [],
+      "priceVerified": false
     }
   ],
   "sources": [
@@ -329,13 +534,18 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "name": "SuperSales",
       "status": "error",
       "count": 0,
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Amac Apple aanbiedingen",
+      "status": "ok",
+      "count": 10
     },
     {
       "name": "Bever sale",
@@ -355,6 +565,57 @@
     }
   ],
   "wishlistLastRead": "2026-10-28",
+  "radarProfileLastRead": "2026-10-28",
+  "wishlistProducts": [
+    {
+      "id": "dyson-handstofzuiger",
+      "name": "Dyson handstofzuiger / compacte snoerloze stofzuiger",
+      "category": "",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "janzen-earth",
+      "name": "JANZEN Earth verzorging / huisgeur",
+      "category": "",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "hoka-schoenen",
+      "name": "HOKA sportschoenen",
+      "category": "",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "arcteryx-outdoor",
+      "name": "Arc'teryx outdoor kleding",
+      "category": "",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "apple-airpods",
+      "name": "Apple AirPods (standaardmodel)",
+      "category": "Apple & elektronica",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "apple-airpods-pro",
+      "name": "Apple AirPods Pro",
+      "category": "Apple & elektronica",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "apple-macbook",
+      "name": "Apple MacBook",
+      "category": "Apple & elektronica",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "apple-watch-ultra",
+      "name": "Apple Watch Ultra",
+      "category": "Apple & elektronica",
+      "maxPriceEUR": null
+    }
+  ],
   "contestProfile": {
     "minimumPrizeValueEUR": 250,
     "newsletterPolicy": "allowed_only_if_reputable_clearly_disclosed_and_easy_to_unsubscribe",

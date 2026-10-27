@@ -49,7 +49,7 @@ def fetch(url):
 def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
- if kind=="sales":value+=8
+ if kind=="sales":value+=25
  if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2
@@ -116,9 +116,12 @@ def classify(title,kind):
 # competition leads as suitable personal recommendations.
 DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
 PREMIUM_MATCH=("rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","salomon","hoka","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","protest","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","patagonia","the north face","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
 DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
 def high_quality_candidate(title,kind):
  t=title.casefold()
+ if kind=="sales":
+  return any(brand in t for brand in PREMIUM_SALE_BRANDS)
  if kind=="deals":
   if any(w in t for w in DEAL_JUNK):return False
   # No undifferentiated ordinary folder products in curated results.

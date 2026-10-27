@@ -1,6 +1,29 @@
 {
-  "updatedAt": "2026-10-27T22:53:08.636781+00:00",
+  "updatedAt": "2026-10-27T22:55:39.939189+00:00",
   "items": [
+    {
+      "id": "official-anwb-droomvakantie-2026",
+      "title": "ANWB: win €5.000 voor je droomvakantie",
+      "description": "Gratis deelname, voor inwoners van Nederland vanaf 18 jaar. Eén deelname per persoon. Win €5.000 te besteden aan een ANWB-vakantie. Actie ter promotie van de ANWB Vakantie-nieuwsbrief. Officiële actievoorwaarden gecontroleerd op 27 oktober 2026.",
+      "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie-social",
+      "organizer": "ANWB",
+      "category": "Vakanties & reizen",
+      "prizeValueEUR": 5000,
+      "price": "Prijswaarde €5.000",
+      "startDate": "2026-10-22",
+      "endDate": "2026-12-06",
+      "date": "Tot en met 6 december 2026",
+      "officialTermsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+      "verifiedAt": "2026-10-27",
+      "conditions": "Gratis; woonachtig Nederland, 18+, één deelname per persoon. Nieuwsbriefpromotie.",
+      "score": 95,
+      "kind": "contests",
+      "source": "ANWB",
+      "audience": "all",
+      "discoveredAt": "2026-10-27T22:55:39.939189+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
+      "status": "Voorwaarden gecontroleerd"
+    },
     {
       "id": "0019774fab1d4c52fb29",
       "kind": "deals",
@@ -12,7 +35,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -26,7 +49,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -54,7 +77,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -68,7 +91,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -82,7 +105,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -96,7 +119,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -110,7 +133,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -124,7 +147,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -138,7 +161,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Sample sales"
     },
     {
@@ -166,7 +189,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -194,7 +217,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Overige deals"
     },
     {
@@ -208,7 +231,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T22:53:08.636781+00:00",
+      "lastSeenAt": "2026-10-27T22:55:39.939189+00:00",
       "category": "Overige deals"
     }
   ],
@@ -257,11 +280,6 @@
       "count": 0
     },
     {
-      "name": "Prijzenzolder",
-      "status": "ok",
-      "count": 0
-    },
-    {
       "name": "AlleFolders",
       "status": "ok",
       "count": 0
@@ -296,5 +314,5 @@
       "other_high_value_surprises"
     ]
   },
-  "note": "Curated discovery only. Unverified price candidates are not proven bargains; no aggregator winacties are published without verified official organizer and terms."
+  "note": "Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."
 }

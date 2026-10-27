@@ -52,7 +52,7 @@ def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
  if kind=="sales":value+=25
- if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson","patagonia","salomon","mammut")):value+=20
+ if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson","patagonia","salomon")):value+=20
  if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:48:59.401846+00:00",
+  "updatedAt": "2026-10-27T23:51:04.251692+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:48:59.401846+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "discoveredAt": "2026-10-27T23:51:04.251692+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,63 +43,9 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:48:59.401846+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "discoveredAt": "2026-10-27T23:51:04.251692+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "status": "Voorwaarden gecontroleerd"
-    },
-    {
-      "id": "f04e6f75dc8e52ec017f",
-      "kind": "deals",
-      "title": "AirPods vergelijken",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/airpods/airpods-vergelijken",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-airpods"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
-    },
-    {
-      "id": "86333007509d13ea1e27",
-      "kind": "deals",
-      "title": "AirPods-accessoires",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/apple-accessoires/airpods-accessoires",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-airpods"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
-    },
-    {
-      "id": "af2c685096841e20878e",
-      "kind": "deals",
-      "title": "Alle AirPods-modellen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/airpods",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-airpods"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
     },
     {
       "id": "d80458dc912950530294",
@@ -117,7 +63,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "e04a5794a4b6ebc0baae",
@@ -135,7 +81,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "6f02ff94afff9f306f71",
@@ -153,7 +99,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "5d5d60bf73d2a2611fd4",
@@ -171,7 +117,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "0cd6402834f5a55224e3",
@@ -189,7 +135,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "1f873ec0bcca0978a437",
@@ -207,7 +153,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "8ebef657504a563265a7",
@@ -225,7 +171,7 @@
       "score": 100,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00"
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     },
     {
       "id": "0019774fab1d4c52fb29",
@@ -238,7 +184,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Mode & schoenen",
       "wishlistMatches": [],
       "priceVerified": false
@@ -254,7 +200,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Mode & schoenen",
       "wishlistMatches": [],
       "priceVerified": false
@@ -271,7 +217,7 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "wishlistMatches": [],
       "priceVerified": false
     },
@@ -286,7 +232,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -301,7 +247,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -316,7 +262,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -331,7 +277,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -346,7 +292,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -361,7 +307,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -376,7 +322,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -407,7 +353,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Mode & schoenen",
       "wishlistMatches": [],
       "priceVerified": false
@@ -455,7 +401,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "category": "Huis & tuin",
       "wishlistMatches": [],
       "priceVerified": false
@@ -472,9 +418,25 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
-      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00",
       "wishlistMatches": [],
       "priceVerified": false
+    },
+    {
+      "id": "f310e21dfd4106487cb0",
+      "kind": "deals",
+      "title": "[Lidl Dagdeal] PARKSIDE Hogedrukreiniger silent 1400W • 110 bar",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/parkside-hogedrukreiniger-silent-110-bar-424023",
+      "category": "Overige deals",
+      "wishlistMatches": [],
+      "priceVerified": false,
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:51:04.251692+00:00",
+      "lastSeenAt": "2026-10-27T23:51:04.251692+00:00"
     }
   ],
   "sources": [
@@ -534,7 +496,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "name": "SuperSales",
@@ -545,7 +507,7 @@
     {
       "name": "Amac Apple aanbiedingen",
       "status": "ok",
-      "count": 10
+      "count": 7
     },
     {
       "name": "Bever sale",

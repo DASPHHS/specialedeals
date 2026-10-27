@@ -36,6 +36,7 @@ function allowedOffer(x){
  if(x.kind==="contests")return true;
  const title=String(x.title||"");
  if(unwantedOutdoorText(title))return false;
+ if(/^arc[\x27\u2019]?teryx\s*(?:\(\d+\))?$/i.test(title.trim()))return false;
  if(permittedArc(title))return true;
  if(["Bever sale","Bergfreunde sale","Bergzeit sale"].includes(x.source))return false;
  if(/outdoor|outdoorschoen|wandel|trekking|hiking|hardshell|softshell|gore.tex|fleecejack/i.test(title))return false;

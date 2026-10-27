@@ -34,13 +34,35 @@ jobs:
         run: |
           python -m json.tool data.json > /dev/null
           python -m json.tool winactie-kandidaten.json > /dev/null
-      - name: Publish results
+      - name: Publish results safely
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json winactie-kandidaten.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update offers from public sources"
-            git pull --rebase origin main
-            git push origin main
-          fi
+          cp data.json "$RUNNER_TEMP/data.json"
+          cp winactie-kandidaten.json "$RUNNER_TEMP/winactie-kandidaten.json"
+          source_scanner=$(git hash-object scan.py)
+          for attempt in 1 2 3; do
+            git fetch origin main
+            latest_scanner=$(git show origin/main:scan.py | git hash-object --stdin)
+            if [[ "$source_scanner" != "$latest_scanner" ]]; then
+              echo "Scanner changed while this run was active; skipping stale output."
+              exit 0
+            fi
+            git reset --hard origin/main
+            cp "$RUNNER_TEMP/data.json" data.json
+            cp "$RUNNER_TEMP/winactie-kandidaten.json" winactie-kandidaten.json
+            git add data.json winactie-kandidaten.json
+            if git diff --cached --quiet; then
+              echo "Nothing changed."
+              exit 0
+            fi
+            git commit -m "Update public offers and giveaway candidates"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent update; retrying publish ($attempt/3)."
+          done
+          echo "Could not publish after 3 attempts." >&2
+          exit 1

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T18:27:12.403694+00:00",
+  "updatedAt": "2026-10-27T18:51:03.546626+00:00",
   "items": [
     {
       "id": "0019774fab1d4c52fb29",
@@ -12,7 +12,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -25,7 +25,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1451ce6c14b3a1278962",
@@ -38,7 +38,7 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "950a816fc8d01b256478",
@@ -51,7 +51,20 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+    },
+    {
+      "id": "d2e2b58266fc1f48727a",
+      "kind": "deals",
+      "title": "Levi’s 512 Slim Taper Jeans – Medium Wash (heren)",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/levis-512-slim-taper-jeans-medium-wash-heren-423761",
+      "status": "Te controleren",
+      "score": 61,
+      "audience": "men",
+      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1675a70a612846d03d40",
@@ -64,7 +77,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -77,20 +90,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f7cd0341cab9a60d5e79",
-      "kind": "contests",
-      "title": "Win een heerlijk beautypakket van RITUALS, VVV bon €100 of Apple Airtags EasyEnergy.nl/spelletje",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/win/win-een-heerlijk-beautypakket-van-rituals-vvv-bon-100-of-apple-airtags/1709.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "03c215effbe8a9a17a33",
@@ -103,7 +103,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "667174dc73dc06f36cd3",
@@ -116,7 +116,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7138a41ff032d1a973d6",
@@ -129,7 +129,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1106b41c9d496940caca",
@@ -142,7 +142,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0b1139b59978d864c40b",
@@ -155,7 +155,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "80484ade33ab6c9d532a",
@@ -168,7 +168,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "364705c649227197fb1f",
@@ -181,7 +181,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "758caf258e1bfc5b25f1",
@@ -194,7 +194,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "cba9fbae0b58cb18e72c",
@@ -207,7 +207,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "a25dd3778b78ea19e508",
@@ -220,7 +220,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "42a1d84572961a5edca1",
@@ -233,7 +233,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "828d17a0834989dc4da1",
@@ -246,7 +246,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "a78257a9b081ef76cae0",
@@ -259,7 +259,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2d8009fa32c710438154",
@@ -272,7 +272,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4d6df0cc014e97ab491b",
@@ -285,7 +285,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "d6d853300680e7303ba9",
@@ -298,7 +298,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9f7418e101604a9c65f4",
@@ -311,7 +311,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7bea63d60e07c1a25714",
@@ -324,7 +324,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "403b299c14bd55b6aac8",
@@ -337,7 +337,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4c420e8d29ab6fbf4244",
@@ -350,7 +350,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "45f67eae33fa78b13712",
@@ -363,7 +363,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "45ee5e1f37ab121d9c5e",
@@ -376,7 +376,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "533424f47426bf99b844",
@@ -389,7 +389,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "e30c20e4b37f2671c5ba",
@@ -402,7 +402,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2f2369fef451a0c408ed",
@@ -415,72 +415,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "0fc3bd037c8b5a6ac173",
-      "kind": "contests",
-      "title": "Geld sparen en gratis cadeaus",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-geld-sparen-en-gratis-cadeaus.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "5dc1877a4ebd764fe25e",
-      "kind": "contests",
-      "title": "Gratis Apple iPhone 16 twv €809 winnen? Registreer je gratis, vul je profiel volledig in en maak 3 enquêtes | Meerdere winnaars!",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://jf79.net/c/?si=16699&li=1717185&wi=273498&ws=tellie",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7031a63a81616e05fdc8",
-      "kind": "contests",
-      "title": "Gratis cadeaubon van Bol.com, Zalando, Bijenkorf, enz..",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gratis-cadeaubon-van-bolcom.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "ea99f81549bc998951cf",
-      "kind": "contests",
-      "title": "Gratis cadeaubon van Zalando, HEMA, Ici Paris XL, FonQ e.a. cadeaukaarten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/gratis-cadeaubon-van-zalando-hema-ici-paris-xl-fonq-ea-cadeaukaarten.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "31abb4a097042851a10b",
-      "kind": "contests",
-      "title": "Gratis toegangstickets voor Jacks Racingday TT Assen Jackracingday.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/gratis-toegangstickets-voor-jacks-racingday-tt-assen/79780.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "b8897bb584c5cb556eb8",
@@ -493,7 +428,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "308892ef75aaf75a5dc6",
@@ -506,7 +441,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0ca4925379eef3bb859d",
@@ -519,7 +454,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8312bb145429ea789bf6",
@@ -532,7 +467,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "dbcef369464c907a1d09",
@@ -545,7 +480,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "84705102989b85cf280a",
@@ -558,7 +493,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0655d18fadbc7f8b2f7f",
@@ -571,7 +506,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "fb6165c9552259b81971",
@@ -584,7 +519,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f784b73e88593f76f41e",
@@ -597,7 +532,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "fa4a196a9df5b2d92460",
@@ -610,7 +545,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0be04318ca096fbd67fd",
@@ -623,7 +558,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5d907404f9d3adccb006",
@@ -636,7 +571,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "38f2ce67681dad3123cb",
@@ -649,7 +584,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1e3608c3ce47760a9e53",
@@ -662,7 +597,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "b269756402a877013563",
@@ -675,7 +610,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "763d6954460ddbde8cd8",
@@ -688,7 +623,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5b4cad6c92a8698d819b",
@@ -701,7 +636,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2e476752308cb715036d",
@@ -714,7 +649,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "bf000c4a994d44f3dfe4",
@@ -727,7 +662,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "b0481b69fdb211e203dc",
@@ -740,7 +675,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "6ac5ea7070299572a2a5",
@@ -753,7 +688,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4957042992416a2fb1f2",
@@ -779,7 +714,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "e55499d344d78bf8e97f",
@@ -792,7 +727,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5d29d79089dd6b0868b6",
@@ -805,7 +740,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "ffe3ebb5b95d1f018292",
@@ -818,7 +753,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "c3d58b962775cda58ba1",
@@ -844,7 +779,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2f06c224a83a2f67183d",
@@ -857,7 +792,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "a6543fce4044dfdb212e",
@@ -870,7 +805,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0d3ab817004398b3341b",
@@ -883,7 +818,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2ce2a16675939e50319e",
@@ -896,7 +831,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7c9644476eecf3335547",
@@ -909,7 +844,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "21c644d93e87e5e1c566",
@@ -922,7 +857,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "e4b78e03895de900f872",
@@ -935,7 +870,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1e3ad3d4c4bed7d95bad",
@@ -948,7 +883,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9feaa851febbeda2f2e7",
@@ -961,7 +896,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5408a24fc5603aea2101",
@@ -974,7 +909,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "194dec3a24793dc59511",
@@ -987,7 +922,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4bbeb7ee7efe17dca4c4",
@@ -1000,7 +935,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "6f6b34021742ee754db3",
@@ -1013,7 +948,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "45a751014a1fd0226cc3",
@@ -1026,7 +961,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9546ebea2e88a9a4b2e1",
@@ -1039,7 +974,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8b7113ffb9f8d8daf28a",
@@ -1052,7 +987,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "501042cdefdf44436d1c",
@@ -1065,7 +1000,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8d7e2baac4d46e6764aa",
@@ -1078,7 +1013,20 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+    },
+    {
+      "id": "08491a94cef813cc2f5e",
+      "kind": "deals",
+      "title": "Simyo 400 min/sms + 20 GB Sim Only - 2 jaar - €100,- cashback = €3,08 p/m (met ING/vakantieveilingen voucher €1,63 p/m)",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-20-gb-sim-only-2-jaar-eur100-cashback-eur308-pm-met-ingvakantieveilingen-voucher-eur163-pm-423868",
+      "status": "Te controleren",
+      "score": 53,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f2de573818d12df958af",
@@ -1091,7 +1039,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "a1455a95faf5b4909306",
@@ -1104,7 +1052,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "40af52c41e75f26acab0",
@@ -1117,7 +1065,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5bb5b775599059834247",
@@ -1130,7 +1078,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0335b5c22ab2085fc2e1",
@@ -1143,7 +1091,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "41d2b537816dcc1d2832",
@@ -1156,7 +1104,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "b62de08b4cc2a8eea244",
@@ -1169,7 +1117,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7e32ae86a6dca21bfa8c",
@@ -1182,176 +1130,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "6e399603892c774883a7",
-      "kind": "contests",
-      "title": "Win 6 maanden gratis koffie van Wonder Beans",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.nouveau.nl/winnen/winactie-maak-kans-op-6-maanden-gratis-koffie-van-wonder-beans",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "6558d331cd67e91e9d5c",
-      "kind": "contests",
-      "title": "Win F1-tickets voor de Formula 1 Heineken Dutch Grand Prix 538.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-f1-tickets-voor-de-formula-1-heineken-dutch-grand-prix/62011.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "568cdc775fcd8421895d",
-      "kind": "contests",
-      "title": "Win Geld en geldprijzen met Bingo, Solitaire en online spelletjes",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-geld-en-geldprijzen-met-bingo-solitair-en-online-spelletjes.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "bce072001e99ded929fc",
-      "kind": "contests",
-      "title": "Win Geld prijzen met spelletjes spelen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-win-geld-prijzen-met-spelletjes-spelen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "a4103f85ed3668c52648",
-      "kind": "contests",
-      "title": "Win de Geld Jackpot van in de miljoenen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-win-de-geld-jackpot-van-in-de-miljoenen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "fa1b4440fce2c6089b8c",
-      "kind": "contests",
-      "title": "Win een Zalando cadeaubon €25 met winactie nieuws",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/win-een-zalando-cadeaubon-van-euro25-met-winactie-nieuws.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "691105076331e7422bea",
-      "kind": "contests",
-      "title": "Win een experience ticket voor Amazing Asia in Tour & Taxis in Brussel",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://njam.tv/wedstrijd/win-een-experience-ticket-voor-amazing-asia-in-tour-taxis-in-brussel",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "cba3eee2a8e5b9298bc9",
-      "kind": "contests",
-      "title": "Win een mooie fiets of shoptegoed €100, Draadloze Oortjes van Shokz OpenFit Air en mooie prijzen en cadeaus Vueltaspel.ad.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-mooie-fiets-of-shoptegoed-100--draadloze-oortjes-van-shokz-openfit-air-en-mooie-prijzen-en-cadeaus/80458.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "3dcadd46ba17e26d9e06",
-      "kind": "contests",
-      "title": "Win een smartwatch €209, de Garmin Venu, Philips HUE systeem €199 of 4 apple airtags €129 Engie.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-smartwatch-209-de-garmin-venu-philips-hue-systeem-199-of-4-apple-airtags-129/79154.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "a438553a4bbcad3818ad",
-      "kind": "contests",
-      "title": "Win een wintersport",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winter.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "9545e8713d24b2c27724",
-      "kind": "contests",
-      "title": "Win en verdien geld met online games op Eazegames",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/win-geld-met-online-games-op-eazegames.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "b694b573f309d28282e4",
-      "kind": "contests",
-      "title": "Win entreetickets Formula 1 Heineken Dutch Grand Prix 538.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-entreetickets-formula-1-heineken-dutch-grand-prix/62247.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "5df6bfdaec4935efeda4",
-      "kind": "contests",
-      "title": "Win geld met spelletjes spelen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/win-geld-met-spelletjes-spelen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "e18ebb176e41b45057a6",
@@ -1364,7 +1143,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4886a3c47a4007b89386",
@@ -1377,7 +1156,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "6c3daf93b9353b8d75ca",
@@ -1390,7 +1169,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "434fb902b67b024e97cd",
@@ -1403,7 +1182,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "60615bda88ed364a1893",
@@ -1416,7 +1195,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "ff4e09904be02e17c4f7",
@@ -1429,7 +1208,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "774c7f5c4cff4c454976",
@@ -1442,7 +1221,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8d12d612c4cc6eb76cbb",
@@ -1455,7 +1234,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "06e4a184b7d10e665d86",
@@ -1468,7 +1247,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "ba7ac6e39a995a58bbcb",
@@ -1481,7 +1260,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9f221a57cc6a97919d2c",
@@ -1494,7 +1273,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "6a935bf509b7faca151b",
@@ -1507,7 +1286,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5dc3095919ddd4c08995",
@@ -1523,45 +1302,6 @@
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "c3c1e2a05f944552a686",
-      "kind": "contests",
-      "title": "12 maanden gratis Verisure alarm met 24/7 alarmdienst voor je huis",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-12-maanden-gratis-verisure-alarm-met-247-alarmdienst-voor-je-huis.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "b4a0b7aac4dc66f5acdf",
-      "kind": "contests",
-      "title": "50+ winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/50plus.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "9acad784f7022103d663",
-      "kind": "contests",
-      "title": "6 Miljoenenjacht bingokaarten speel zondag gratis bingo mee op tv",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/6-miljoenenjacht-bingokaarten-speel-zondag-gratis-bingo-mee-op-tv.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
       "id": "f65b665d02e7ad4ffad3",
       "kind": "deals",
       "title": "8 dagen Kreta (20-27 april) in 4* Adult only absoluut top-complex (4,9 op Google), vlakbij zee voor 2p: 900 euro",
@@ -1572,7 +1312,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f7c182f110a0e6230ebb",
@@ -1598,7 +1338,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "6bb54a1e06ad819b0cef",
@@ -1611,7 +1351,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "87bf448de940b4a26309",
@@ -1624,7 +1364,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "199bc55694de125abd03",
@@ -1637,20 +1377,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "d1ff8e404b15b7ea6831",
-      "kind": "contests",
-      "title": "Altijd gratis : 5 unieke ansichtkaarten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-altijd-gratis-5-unieke-ansichtkaarten.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4a2fe16992f9d1b444dc",
@@ -1663,7 +1390,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "c28c9f1e229ca44e6bfd",
@@ -1676,7 +1403,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7a3a993e95cde2ff84ac",
@@ -1689,7 +1416,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2844345b493d1d13cd1b",
@@ -1702,7 +1429,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "05dd3ec4e27996912385",
@@ -1715,7 +1442,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "ac1c6985b80fa70f6e6e",
@@ -1728,20 +1455,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "23bab98f2c3d1171c19e",
-      "kind": "contests",
-      "title": "Disney winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/disney.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9ac34e9727552e797c74",
@@ -1754,19 +1468,6 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1dbabdb8d58c6c7f0f80",
-      "kind": "contests",
-      "title": "Facebook winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/facebook.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
@@ -1793,7 +1494,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7019dc94bd56bfa4a862",
@@ -1806,7 +1507,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "31cb71d479044a53dca6",
@@ -1819,19 +1520,6 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "e6e495fb39a255c1d69e",
-      "kind": "contests",
-      "title": "Gratis MAX magazine proefabonnement van 4 weken stopt automatisch",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gratis-max-magazine-proefabonnement-van-4-weken-stopt-automatisch.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
@@ -1858,20 +1546,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "4deb5613a627d90f57c0",
-      "kind": "contests",
-      "title": "Gratis de laatste herslagen gulden met Beatrix erop, slechts 1500 beschikbaar",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gratis-de-laatste-herslagen-gulden-met-beatrix-erop-slechts-1500-beschikbaar.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8362644b2a37f3e38e47",
@@ -1884,20 +1559,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "9756c7cac31db8227004",
-      "kind": "contests",
-      "title": "Gratis videodeurbel plaatsen + Veiligheidscheck van je huis t.w.v. €150",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/gratis-videodeurbel-plaatsen-veiligheidscheck-van-je-huis-twv-euro150.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "595cd578a5d79569ab79",
@@ -1910,20 +1572,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "e97243a9f40ec45af429",
-      "kind": "contests",
-      "title": "Grazia mail win prijzen en prijsvragen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/grazia-mail-win-prijzen-en-prijsvragen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "cb55ef8d50c17281ad86",
@@ -1936,33 +1585,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "c41215e10ae5bf6321b4",
-      "kind": "contests",
-      "title": "Halloween winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/halloween.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "4aa3e933c1e2b0525f2f",
-      "kind": "contests",
-      "title": "Hoe win ik een Facebook winactie?",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/facebookwinacties.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "02df6c836cca53aec60f",
@@ -1975,7 +1598,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
+    },
+    {
+      "id": "92786655c93082b352d7",
+      "kind": "deals",
+      "title": "ING Katsjing! Stapel tot € 250 cashback",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/ing-katsjing-stapel-tot-eur-250-cashback-423788",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "51a9bba19f160225d01a",
@@ -2001,7 +1637,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "aa9a93083caf412cc487",
@@ -2014,7 +1650,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "95621bbf23c0519890f6",
@@ -2027,7 +1663,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5c0de454ed5a268d098e",
@@ -2040,7 +1676,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "45ba9631a32bf7bd5c16",
@@ -2053,7 +1689,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "61ba0b88fd9ffe4b261e",
@@ -2066,7 +1702,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "982e09378c4ae105dbec",
@@ -2079,20 +1715,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "992cfc6a0a9682be16ba",
-      "kind": "contests",
-      "title": "Kruidvat Zomeractie: win een hipperdepimpe caravan van KIP Kruidvat.nl/zomeractie",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/kruidvat-zomeractie-win-een-hipperdepimpe-caravan-van-kip/71750.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5b89655195f770a80076",
@@ -2105,7 +1728,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2d5999c5a37eb0811067",
@@ -2131,7 +1754,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "037027742aacf977976b",
@@ -2144,7 +1767,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "81330e0b359b2bec609b",
@@ -2160,30 +1783,17 @@
       "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
     },
     {
-      "id": "f033419b9efab7f2f7f6",
-      "kind": "contests",
-      "title": "Maak het mini-kruiswoordraadsel en win een VVV cadeaukaart van €50 | Elke week kans",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://www.columbusmagazine.nl/thema/spelletjes-en-kruiswoordraadsels/artikel/100330/mini-kruiswoordraadsels/",
+      "id": "480361816ff0d96c48b6",
+      "kind": "deals",
+      "title": "Marstek Venus E 3.0 plugin thuisbatterij voor €999!",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/marstek-venus-e-30-voor-eur999-423650",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f8e4e1f7a204556ef5df",
-      "kind": "contests",
-      "title": "Mail & Winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winacties.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2499fde1b1cb3f25624f",
@@ -2196,33 +1806,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "5d5fb6f9cca2d3420919",
-      "kind": "contests",
-      "title": "Max Vandaag prijsvraag puzzel prijzen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/max-vandaag-prijsvraag-puzzel-prijzen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "2f139b6932353ff7eff0",
-      "kind": "contests",
-      "title": "Mini Cooper winnen Win-een-mini-cooper.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/mini-cooper-winnen/43104.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "595d099988bd30ed2192",
@@ -2235,7 +1819,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "22fc4bf5655c0962397d",
@@ -2248,7 +1832,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "eb26c9a5347c71a70c85",
@@ -2261,7 +1845,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "a0eeaeba79793df0dd8b",
@@ -2274,20 +1858,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "82d38b240b9efc67ae04",
-      "kind": "contests",
-      "title": "Prijsvraag aanmelden",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/prijsvraag-aanmelden.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "ddd02f72c9bb2dda5be7",
@@ -2303,19 +1874,6 @@
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "32ab5ad4a195643657a2",
-      "kind": "contests",
-      "title": "Quizzen winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/quizzen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
       "id": "7484fba7dc6741be9f14",
       "kind": "deals",
       "title": "Retourvlucht naar keuze binnen Europa (2 personen) @ Tripper",
@@ -2326,7 +1884,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f8cbd297b07db36b7449",
@@ -2342,19 +1900,6 @@
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "154f1fef5be2ab174660",
-      "kind": "contests",
-      "title": "Sms, app & winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/smsenwin.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
       "id": "8c2c82c79841b887245a",
       "kind": "deals",
       "title": "Spaarpot € 2,49",
@@ -2365,7 +1910,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "88c2a42190244957d6c2",
@@ -2378,7 +1923,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "1ea79d90f71795d32fcb",
@@ -2391,20 +1936,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "8d78ee2bea4c1fe65d9e",
-      "kind": "contests",
-      "title": "Thrillers en boeken prijzen winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-thrillers-en-boeken-prijzen-winacties.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -2417,7 +1949,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "397494101f01e7a6689e",
@@ -2430,7 +1962,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0ea75f46a176e1989f53",
@@ -2443,7 +1975,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "9107fb5bc4c3ca650e68",
@@ -2482,7 +2014,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "3ec82afa587648d96d24",
@@ -2498,19 +2030,6 @@
       "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "5ebb4225e05100740d7b",
-      "kind": "contests",
-      "title": "VT wonen prijzen en mail & winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/vt-wonen-prijzen-en-mail-winacties.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
       "id": "3adda21fef9e59cc2633",
       "kind": "deals",
       "title": "Vier maaltijden plus een appeltaart voor €29,95 bij uitgekookt. Gratis bezorging",
@@ -2521,7 +2040,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f8ed3ac4c26e436546ec",
@@ -2534,7 +2053,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "963a6e4d3ce01ceb6b90",
@@ -2547,371 +2066,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "cc97109e5addedb35673",
-      "kind": "contests",
-      "title": "Vrouwen Winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/vrouwen-winacties.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "ad75952029efa40cdc5a",
-      "kind": "contests",
-      "title": "WK voetbal Winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/wkkaartenwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "a54dd56d92f2c946d5a5",
-      "kind": "contests",
-      "title": "Werkboek Doen wat je droomt van Psychologie Magazine Gratis cadeau met 20 oefeningen die je leven veranderen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-werkboek-doen-wat-je-droomt-van-psychologie-magazine-gratis-cadeau-met-20-oefeningen-die-je-leven-veranderen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7112c93872a4d4355463",
-      "kind": "contests",
-      "title": "Win 10x 2 vrijkaartjes voor de film Sacrifice",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.tvfilm.nl/winactie/click-win-vrijkaartjes-voor-sacrifice/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "eb01e4f6ecb49b14c6a1",
-      "kind": "contests",
-      "title": "Win 10x De Tuinscheurkalender 2027",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://groei.nl/artikel/winactie-de-tuinscheurkalender-2027",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "fa5213433ca5e6b11453",
-      "kind": "contests",
-      "title": "Win 10x Moestuin Maffia, het spel voor tuiniers",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://groei.nl/artikel/winnen-moestuin-maffia-het-spel-voor-tuiniers",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "050147fba3585a392249",
-      "kind": "contests",
-      "title": "Win 10x een 100% lambswool trui van John Bardale",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.landleven.nl/winactie/win-een-lamswollen-trui/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "4c94ce1bd5c2fdb43be8",
-      "kind": "contests",
-      "title": "Win 10x het album van BZN live 2025",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://troskompas.nl/winactie/win-het-album-van-bzn-live-2025/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "2484dcc6aa51a1a4cf6d",
-      "kind": "contests",
-      "title": "Win 2 Pathé bonnen t.w.v. €20,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://tjorven.nl/avjspDxfE96Ul?subid1=gratis_kans-pathe",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "26a934fe529097d638cb",
-      "kind": "contests",
-      "title": "Win 2x een Birchdale II-regenjas van Regatta",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.tvfilm.nl/winactie/click-win-birchdale-ii-regenjas-van-regatta/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "29dbf9799dcb109888f7",
-      "kind": "contests",
-      "title": "Win 2x een florence by mills x BRITA LARQ-fles t.w.v. €44,99",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://grazia.nl/artikel/698490/winning-wednesday-2x-florence-by-mills-brita-larq-fles",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f0698f01a724db188a64",
-      "kind": "contests",
-      "title": "Win 3x Jamie Olivers nieuwste kookboek met 120 snelle recepten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.foodiesmagazine.nl/trends/winactie-jamie-oliver-20-minuten/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7a0b751ced9f8456a098",
-      "kind": "contests",
-      "title": "Win 3x de nieuwe thriller Winterstilte van de IJslandse auteurs Ragnar Jónasson en Katrín Jakobsdóttir",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.margriet.nl/lifestyle/winnen/winactie-winterstilte-thriller-ijsland~423b39e",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "5bf423f591963ad4ec86",
-      "kind": "contests",
-      "title": "Win 3x het boek Het magische kersthaakboek van Ozzy & friends",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://aandehaak.nl/winnen-het-magische-kersthaakboek-van-ozzy-friends/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "8b6c1b16825f1953d07c",
-      "kind": "contests",
-      "title": "Win 3x het boek Lord M. van Arthur Japin",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.ncrvgids.nl/winactie/winactie-miekes-leesclub-lord-m-van-arthur-japin/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1e451a680ca0dba43c7d",
-      "kind": "contests",
-      "title": "Win 3x het boek Waar wil je liggen? van Vonne van der Meer",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.ncrvgids.nl/winactie/winactie-miekes-leesclub-waar-wil-je-liggen-van-vonne-van-der-meer/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "c17282021e950b4a93d1",
-      "kind": "contests",
-      "title": "Win 3x het boek ‘Voeding voor jouw huid’",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://groei.nl/artikel/winnen-boek-voeding-voor-jouw-huid",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "bb39767e79ec35726fbc",
-      "kind": "contests",
-      "title": "Win 5x 2 kaarten voor Luminiscence",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.avrobode.nl/winactie/win-kaarten-voor-luminiscence/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "c3dbe88a3a6ba720020b",
-      "kind": "contests",
-      "title": "Win 5x 2 kaarten voor het Museum Catharijneconvent + een aandenken uit de museumwinkel",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.ncrvgids.nl/winactie/win-kaarten-voor-henk-helmantel-in-museum-catharijneconvent/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7a39f9ba4058f2900094",
-      "kind": "contests",
-      "title": "Win 5x 2 kaarten voor theatervoorstelling: Alice in Wonderland",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://troskompas.nl/winactie/win-kaarten-voor-theatervoorstelling-alice-in-wonderland/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1297e2349bd6ec85082e",
-      "kind": "contests",
-      "title": "Win 5x The Essential Oil van LEYLY t.w.v. €41,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://grazia.nl/artikel/697984/winning-wednesday-5x-the-essential-oil-leyly",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "fa2d3dd416627ee2dc85",
-      "kind": "contests",
-      "title": "Win 5x een De Keuringsdienst van waarde-mok of 5x een De Keuringsdienst van waarde-broodzak",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://kroncrv.qualifioapp.com/quiz/1854836_557/KVW-shopper-winactie-2026.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "d865e4044db85e2f7d58",
-      "kind": "contests",
-      "title": "Win 6x de memoires van Gerri Eickhof",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.avrobode.nl/winactie/win-de-memoires-van-gerri-eickhof/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1e401a48085ba5d757c9",
-      "kind": "contests",
-      "title": "Win 6x de memoires van Gerri Eickhof",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://troskompas.nl/winactie/win-de-memoires-van-gerri-eickhof/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "470906b906bc59a9a391",
-      "kind": "contests",
-      "title": "Win de cd The Girl Who Turned Into A Bed van Marike Jager",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-cd-the-girl-who-turned-into-a-bed-van-marike-jager/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "85c00db858b222e85ac9",
-      "kind": "contests",
-      "title": "Win de hartverwarmende kerstroman 'Als het elke dag kerst was' van Donna Ashcroft",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.nouveau.nl/winnen/winactie-hartverwarmende-kerstroman-als-het-elke-dag-kerst-was-van-donna-ashcroft",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "10edd21473fda154b7bd",
-      "kind": "contests",
-      "title": "Win de nieuwste thriller ‘Schiereiland’ van Suzanne Vermeer",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.margriet.nl/lifestyle/winactie-thriller-suzanne-vermeer-schiereiland~17ce04d",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "dcfece3e90d167d13823",
-      "kind": "contests",
-      "title": "Win de stormparaplu van Human Nature",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://tidd.ly/4hrqlVQ",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "01171694c5479cc329b3",
@@ -2924,7 +2079,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5272d7f22ef489010222",
@@ -2937,33 +2092,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "ba16733c443ec456f542",
-      "kind": "contests",
-      "title": "Win een Cadeaukaart naar keuze t.w.v. €20,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://secureomg.nl/?a=28&c=67473&s1=win-cadeaukaart",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "439579fca62bf102275d",
-      "kind": "contests",
-      "title": "Win een Chromecast van Google, Cadeaukaart om te klussen €100 of bespaar energiepakket Easyenergie.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/win/win-een-chromecast-van-google-cadeaukaart-om-te-klussen-100-of-bespaar-energiepakket/1708.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "978783e8826db6bb05b3",
@@ -2976,59 +2105,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "accf621d2dda066cce3a",
-      "kind": "contests",
-      "title": "Win een Ford Fiesta Trend auto of Welkomthuispakket Kruidvat.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-ford-fiesta-trend-auto-of-welkomthuispakket/59805.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f4a6c9d4083cf7fbe7ad",
-      "kind": "contests",
-      "title": "Win een Golden Tulip arrangement op de Veluwe",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.televizier.nl/winactie/win-een-arrangement-op-de-veluwe/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f7dd25b9c7835f7ec67a",
-      "kind": "contests",
-      "title": "Win een Google Chromecast t.w.v. €70,-, een Klus Cadeau Kaart t.w.v. €100,- of een Besparingspakket t.w.v. €130,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://leadsandmore.go2cloud.org/aff_c?offer_id=320&aff_id=1336&aff_sub=win-easyEnergy-HogerLager",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "74eca5927dfb18974919",
-      "kind": "contests",
-      "title": "Win een Google Chromecast €70, Klus Cadeau €100, Besparingspakket €130",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/win-een-google-chromecast-euro70-klus-cadeau-100-besparingspakket-130.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "7b02c5667225bc87cef7",
@@ -3041,111 +2118,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "b1a237a35c0711409f94",
-      "kind": "contests",
-      "title": "Win een Red Bull Racing 2025 cap met handtekening van Max Verstappen Verstappen.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-red-bull-racing-2025-cap-met-handtekening-van-max-verstappen/78967.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "d4434fcb6c8ef5bb4c38",
-      "kind": "contests",
-      "title": "Win een all inclusive-verblijf bij Hotel AM Fang in het Sauerland",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.kromagazine.nl/winactie/win-een-all-inclusive-verblijf-bij-hotel-am-fang-in-het-sauerland/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "cf4f94a924df7f93db91",
-      "kind": "contests",
-      "title": "Win een backpack van Kapten & Son t.w.v. €219,90",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.columbusmagazine.nl/thema/win/artikel/9791/win-backpack-kapten-son/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7f4d0a7f2276f802f331",
-      "kind": "contests",
-      "title": "Win een boekenpakket van Jacques Vriens t.w.v. € 37,49 | 10 winnaars!",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://maxmagazine.nl/actie/win-een-boekenpakket-met-daarin-beide-boeken-van-jacques-vriens/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f985a812694b5324e9dc",
-      "kind": "contests",
-      "title": "Win een cadeaukaart Albert Heijn met €150, 5x kans",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/win-een-cadeaukaart-albert-heijn-met-euro150-5x-kans.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "e396290104667e27d3fd",
-      "kind": "contests",
-      "title": "Win een cap van Yamaha motors Motor.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-cap-van-yamaha-motors/56955.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "48fe436eb01dbaf6f1c5",
-      "kind": "contests",
-      "title": "Win een droppakkket van Oldtimers cadeau of overnachting bij Post-Plaza Hotel & Grandcafé € 226 Oldtimers-actie.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-droppakkket-van-oldtimers-cadeau-of-overnachting-bij-post-plaza-hotel--grandcaf--226/76061.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "5ff6679c735a42b50a1e",
-      "kind": "contests",
-      "title": "Win een duurzame elektrische laadpaal voor je auto + installatie door Essent Essent.nl/laadpaal",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-duurzame-elektrische-laadpaal-voor-je-auto--installatie-door-essent/79153.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "aa3586fd86b6f7de14cd",
@@ -3158,7 +2131,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "d607ed0d3ac14597f999",
@@ -3171,20 +2144,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "e0ef98ee763114caa49d",
-      "kind": "contests",
-      "title": "Win een fiets prijs",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/win-een-fiets-prijs.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "326fa4893c3cfc1ffe29",
@@ -3197,7 +2157,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "19f52ac9ab911b6a4ada",
@@ -3210,7 +2170,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "12af12e95fb9b37114f8",
@@ -3223,293 +2183,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "823fa823997eb69130d0",
-      "kind": "contests",
-      "title": "Win een pakket met winter proof artikelen voor je auto t.w.v. €100 Viaavia.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-pakket-met-winter-proof-artikelen-voor-je-auto-twv-100/81136.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "10dbfd5db4bb14aa3d74",
-      "kind": "contests",
-      "title": "Win een prijs van de Grand Prix autoraces Verstappen.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-prijs-van-de-grand-prix-autoraces/49599.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "453f603f0c7798bdb570",
-      "kind": "contests",
-      "title": "Win een sieradenset uit de Beloved Collection van CreEZions t.w.v. €65 (4x)",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://maxmagazine.nl/actie/win-de-sieraden-met-symboliek-t-w-v-e-65/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "97aa6e3d8ff00054469d",
-      "kind": "contests",
-      "title": "Win een smartphone",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/mobielwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7fb53b48dc489070f276",
-      "kind": "contests",
-      "title": "Win een tankwagen vol met 40.000 liter brandstof / benzine van TinQ voor jezelf en je buren Tinq.nl/400",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-tankwagen-vol-met-40000-liter-brandstof--benzine-van-tinq-voor-jezelf-en-je-buren/79288.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7887f234aa4b7d14cac6",
-      "kind": "contests",
-      "title": "Win een wielrenners- of fietsprijs Wielerflits.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-wielrenners--of-fietsprijs/68289.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "15cd5c01e890ffc15e15",
-      "kind": "contests",
-      "title": "Win gave super prijzen en gratis tanken Tinq.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-gave-super-prijzen-en-gratis-tanken/74613.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "abea6de9a93965c7ba71",
-      "kind": "contests",
-      "title": "Win geweldige prijzen van Toyota auto's of cheques Toyota.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-geweldige-prijzen-van-toyota-autos-of-cheques/50175.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "3ab5d212b51d46f2a46c",
-      "kind": "contests",
-      "title": "Win gloednieuwe zomerbanden voor je auto Argos.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-gloednieuwe-zomerbanden-voor-je-auto/62688.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1d3a43d44edf707fa587",
-      "kind": "contests",
-      "title": "Win gratis tanken bij TinQ4U t.w.v. €111 Tinq.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-gratis-tanken-bij-tinq4u-twv-111/78496.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "fddc626617fa2d131912",
-      "kind": "contests",
-      "title": "Win gratis tantegoed van 50 euro e.a. auto prijzen Argos.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-gratis-tantegoed-van-50-euro-ea-auto-prijzen/80266.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "efbb3418865f896e1ef5",
-      "kind": "contests",
-      "title": "Win het Camino-kookboek van Anna Visser",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-het-camino-kookboek-van-anna-visser/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "d71eee554e0f27d18134",
-      "kind": "contests",
-      "title": "Win het boek Geef jezelf toestemming van Daphne Deckers",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-geef-jezelf-toestemming-van-daphne-deckers/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "f2977aeefef2eadca982",
-      "kind": "contests",
-      "title": "Win het boek Hoe overleef ik alles wat anders gaat dan gedacht? van Francine Oomen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-hoe-overleef-ik-alles-wat-anders-gaat-dan-gedacht-van-francine-oomen/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "cf99d3b7c708911161f1",
-      "kind": "contests",
-      "title": "Win het boek Narcis van Judith Fanto",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-narcis-van-judith-fanto/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "a77438cb0afdaecb68c6",
-      "kind": "contests",
-      "title": "Win het boek Non-actief van Fieke Opdam",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-non-actief-van-fieke-opdam/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "620751b84b7ef05cc56e",
-      "kind": "contests",
-      "title": "Win het boek Rust, regelmaat, recepten van Miljuschka Witzenhausen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-rust-regelmaat-recepten-van-miljuschka-witzenhausen/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "4c17d36d3f657842738c",
-      "kind": "contests",
-      "title": "Win het boek Stoven van Julius Jaspers",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-stoven-van-julius-jaspers/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "b3232f1dc9a2fda71da9",
-      "kind": "contests",
-      "title": "Win het boek Terug naar Hildegard van Susan Smit",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-terug-naar-hildegard-van-susan-smit/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "3a656f22e385c37b9bc3",
-      "kind": "contests",
-      "title": "Win het bordspel Ecosfera t.w.v. €31,95 | 3 spellen worden weggegeven",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://www.kijkmagazine.nl/winnen/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "9b8ebc1201c61a5a8ee3",
-      "kind": "contests",
-      "title": "Win het kleurboek ‘Fantastic Animals’",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.margriet.nl/lifestyle/winnen/winactie-kleurboek-volwassenen-redmer-hoekstra~bde5a88",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "e294c3bd6d840512baf2",
-      "kind": "contests",
-      "title": "Win het kookboek Madeleine van Martijn Broekhuijse, Rik de Jonge en Ronald Giphart",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-boek-madeleine-van-martijn-broekhuijse-rik-de-jonge-en-ronald-giphart/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "f84779ae845dd486cb24",
@@ -3522,176 +2196,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "aedca5bdefadf5759695",
-      "kind": "contests",
-      "title": "Win kaarten voor Alles is comedy met Najib Amhali en Roué Verveer",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-alles-is-comedy-met-najib-amhali-en-roue-verveer/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "81e7d167544da0eb9bb2",
-      "kind": "contests",
-      "title": "Win kaarten voor Partizanen met Huub Stapel",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-theaterspektakel-partizanen-met-huub-stapel/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "fc728cab1c01533fa0f0",
-      "kind": "contests",
-      "title": "Win kaarten voor Van Hazes tot Playboy van Govert de Roos",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-van-hazes-tot-playboy-van-govert-de-roos/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "649878586933cb65e1c5",
-      "kind": "contests",
-      "title": "Win kaarten voor de Ladies of Soul in de Ziggo Dome",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-ladies-of-soul/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "c54434ad114182d6672f",
-      "kind": "contests",
-      "title": "Win kaarten voor de musical Cabaret",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-musical-cabaret/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "d14d6a6825c14ce852e2",
-      "kind": "contests",
-      "title": "Win kaarten voor de popmusical & Juliet",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.maxvandaag.nl/prijsvraag-en-puzzel/prijsvraag-tvm/win-kaarten-popmusical-juliet/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "799d4d775cefcb8bbfed",
-      "kind": "contests",
-      "title": "Win lekkere ijsjes uit de Q-ice cream truck en goodies Qmusic.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-lekkere-ijsjes-uit-de-q-ice-cream-truck-en-goodies/65032.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "96884ef19d60a754da9e",
-      "kind": "contests",
-      "title": "Win mooie Van der Valk Exclusief prijzen zoals een Hotelboxspring, jacuzzi, fiets, etc. Valkexclusief.nl/geluk",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-mooie-van-der-valk-exclusief-prijzen-zoals-een-hotelboxspring-jacuzzi-fiets-etc/69551.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "3383130c9669d4d65da7",
-      "kind": "contests",
-      "title": "Win mooie fiets prijzen of racefiets prijzen of tenue Ad.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-mooie-fiets-prijzen-of-racefiets-prijzen-of-tenue/65859.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "49da0b27dd75da4c1250",
-      "kind": "contests",
-      "title": "Win mooie prijzen van Casillero del Diablo zoals fiets, wijnprijzen, enz. Dewijnlegende.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-mooie-prijzen-van-casillero-del-diablo-zoals-fiets-wijnprijzen-enz/67537.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "4e31c082953ec9df8d71",
-      "kind": "contests",
-      "title": "Win mooie spulletjes voor je tuin zoals een BBQ, robotmaaier of fiets Ecostyle.nl/winactie",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-mooie-spulletjes-voor-je-tuin-zoals-een-bbq-robotmaaier-of-fiets/78464.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7f41bafe3beace058629",
-      "kind": "contests",
-      "title": "Win tanken zonder accijns te betalen t.w.v. €1,11 per liter benzine Tinq.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-tanken-zonder-accijns-te-betalen-twv-111-per-liter-benzine/76063.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "308dbf2e158241a9bb59",
-      "kind": "contests",
-      "title": "Win toffe Shell Zandvoortprijzen, toegangskaarten Zandvoort Dutch Grand Prix en andere te gekke race prijzen Shell.nl/zandvoort",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-toffe-shell-zandvoortprijzen-toegangskaarten-zandvoort-dutch-grand-prix-en-andere-te-gekke-race-prijzen/79208.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0ff8e6ef3d6bd9be4852",
@@ -3704,7 +2209,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5579d563d022e690e78b",
@@ -3717,7 +2222,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "cf0678a1e1b7d671f477",
@@ -3730,20 +2235,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "afed94de4d2e04b9b0ea",
-      "kind": "contests",
-      "title": "Winactie aanmelden",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://gratiswinactie.nl/winactie-aanmelden/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "d6bcf24f5f797bb81ff4",
@@ -3756,46 +2248,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "7c92192bf47997771b0b",
-      "kind": "contests",
-      "title": "Winacties met Pasen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/pasen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "b2e73771aefc5c526b9f",
-      "kind": "contests",
-      "title": "Winacties van TV",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/tv-reclame.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "a6c90d25f28df842ea8c",
-      "kind": "contests",
-      "title": "Wonen Winacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/woonproductenwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "0ddca54a10467aa05dde",
@@ -3808,7 +2261,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "8ec596438566e397d495",
@@ -3821,7 +2274,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "dd2d60d34fb13ee905a1",
@@ -3834,7 +2287,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5402978301f931a4a55d",
@@ -3873,7 +2326,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "5d505077194bb2725ea6",
@@ -3886,7 +2339,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2f1ba7cbe612a7c75d91",
@@ -3899,7 +2352,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "d31ae7e8c6b7f960800f",
@@ -3912,7 +2365,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "90dc0ea53f24702c25d8",
@@ -3925,20 +2378,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "c642b07ded4f4c1d2cab",
-      "kind": "contests",
-      "title": "prijsvraag toevoegen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/?action=addprijsvraag",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "31b6aadbfa73635949d4",
@@ -3951,7 +2391,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "2a3e1c0d12c5c191b316",
@@ -3964,7 +2404,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     },
     {
       "id": "4c1173f754e9aef5287b",
@@ -3977,33 +2417,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "8b09dc75f97aa8f84323",
-      "kind": "contests",
-      "title": "Gratis LEGO magazine aanvragen voor kinderen met posters en strips",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gratis-lego-magazine-aanvragen.html",
-      "status": "Te controleren",
-      "score": 37,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
-    },
-    {
-      "id": "1d64d4b0e3c1712d9e1a",
-      "kind": "contests",
-      "title": "Win prijzen voor kinderen zoals een droomfiets Wereldschoolmelkdag.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-prijzen-voor-kinderen-zoals-een-droomfiets/76023.html",
-      "status": "Te controleren",
-      "score": 37,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00"
     }
   ],
   "sources": [
@@ -4037,22 +2451,23 @@
     {
       "name": "GratiZ",
       "status": "ok",
-      "count": 57
+      "count": 6
     },
     {
       "name": "Prijsvragen.nl",
       "status": "ok",
-      "count": 77
+      "count": 7
     },
     {
       "name": "Gratiswinactie",
-      "status": "ok",
-      "count": 13
+      "status": "error",
+      "count": 0,
+      "error": "could not convert string to float: '49.90.'"
     },
     {
       "name": "Prijzenzolder",
       "status": "ok",
-      "count": 42
+      "count": 9
     },
     {
       "name": "AlleFolders",

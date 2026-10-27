@@ -8,6 +8,11 @@
     "cars_and_bicycles",
     "electronics",
     "home_and_renovation",
+    "kitchens_and_appliances",
+    "car_wrapping_and_services",
+    "tools_and_professional_machines",
+    "premium_vacuum_cleaners",
+    "premium_brand_products",
     "other_high_value_surprises"
   ],
   "exclude": [
@@ -18,5 +23,21 @@
     "unclear_marketing_conditions"
   ],
   "verificationRequirement": "Only mark eligible after checking official terms, NL participation, deadline, costs and prize value.",
-  "discoveryPolicy": "Unknown-value high-ticket category prizes may be collected as unverified leads, but never labelled as confirmed EUR250+."
+  "discoveryPolicy": "High-value product categories can trigger investigation even without a listed EUR amount, but no listing becomes verified until official terms confirm real prize value >=250 EUR, free Dutch eligibility and organizer.",
+  "priorityExamples": [
+    "complete kitchen",
+    "kitchen renovation",
+    "car wrapping",
+    "washing machine",
+    "dryer",
+    "dishwasher",
+    "high quality appliances",
+    "high value power tools and machinery",
+    "cars",
+    "electric bicycles",
+    "holidays for two",
+    "expensive gadgets",
+    "Dyson or Miele vacuum cleaners",
+    "A-brand electronics"
+  ]
 }

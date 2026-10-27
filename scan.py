@@ -189,8 +189,8 @@ def generic_apple_accessory(title):
  t=title.casefold()
  if any(x in t for x in APPLE_ACCESSORY_TERMS):return True
  # Avoid navigation, accessories and comparison pages masquerading as products.
- if re.match(r"^(?:apple\\s+)?(?:alle\\s+)?airpods[\\s-]*(?:modellen|vergelijken|accessoires|accessory|accessories)\\b",t):return True
- if re.search(r"^(?:alle\\s+)?(?:macbooks?|apple\\s+watch(?:\\s+ultra)?)\\s+(?:vergelijken|modellen|accessoires)\\b",t):return True
+ if re.match(r"^(?:apple\s+)?(?:alle\s+)?airpods[\s-]*(?:modellen|vergelijken|accessoires|accessory|accessories)\b",t):return True
+ if re.search(r"^(?:alle\s+)?(?:macbooks?|apple\s+watch(?:\s+ultra)?)\s+(?:vergelijken|modellen|accessoires)\b",t):return True
  return False
 
 def high_quality_candidate(title,kind,source=""):

@@ -169,6 +169,7 @@ def high_quality_candidate(title,kind,source=""):
  if kind=="sales":
   return any(brand in t for brand in PREMIUM_SALE_BRANDS)
  if kind=="deals":
+  if re.fullmatch(r"(?:arc[\u0027\u2019]?teryx|arcteryx)\s*(?:\(\d+\))?",t):return False
   if any(w in t for w in DEAL_JUNK):return False
   # No undifferentiated ordinary folder products in curated results.
   return any(w in t for w in PREMIUM_MATCH) or any(w in t for w in DEAL_SIGNALS)

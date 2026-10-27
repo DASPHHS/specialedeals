@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'discover_winacties.py', 'verified-winacties.json', 'wishlist.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '20 5,7,11,15,19 * * *'
@@ -23,16 +23,20 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate scanner
-        run: python -m py_compile scan.py
+        run: python -m py_compile scan.py discover_winacties.py
       - name: Read public sources
         run: python scan.py
+      - name: Discover major NL and international giveaways
+        run: python discover_winacties.py
       - name: Validate output
-        run: python -m json.tool data.json > /dev/null
+        run: |
+          python -m json.tool data.json > /dev/null
+          python -m json.tool winactie-kandidaten.json > /dev/null
       - name: Publish results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json winactie-kandidaten.json
           if ! git diff --cached --quiet; then
             git commit -m "Update offers from public sources"
             git pull --rebase origin main

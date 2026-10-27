@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'test_outdoor.py', 'discover_winacties.py', 'verified-winacties.json', 'wishlist.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '20 5,7,11,15,19 * * *'
@@ -24,8 +24,8 @@ jobs:
           python-version: '3.12'
       - name: Validate scanner
         run: python -m py_compile scan.py discover_winacties.py
-      - name: Test outdoor brand filters
-        run: python -m unittest -v test_outdoor.py
+      - name: Test preferences, wishlist and outdoor filtering
+        run: python -m unittest -v test_outdoor.py test_watchlist.py
       - name: Read public sources
         run: python scan.py
       - name: Discover major NL and international giveaways

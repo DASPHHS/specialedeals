@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-27T18:26:05.375065+00:00",
+  "updatedAt": "2026-10-27T18:27:12.403694+00:00",
   "items": [
-    {
-      "id": "d1aa16ee0a8adba6d82a",
-      "kind": "sales",
-      "title": "Dames- en herenmode sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/kleding-sample-sales-volwassenen.html",
-      "status": "Te controleren",
-      "score": 71,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
     {
       "id": "0019774fab1d4c52fb29",
       "kind": "deals",
@@ -28,19 +15,6 @@
       "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
     },
     {
-      "id": "64d5e695d6c9db46930e",
-      "kind": "sales",
-      "title": "Womenswear sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/womenswear.html",
-      "status": "Te controleren",
-      "score": 71,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
       "id": "fa6c9cbbeb1b5504734d",
       "kind": "deals",
       "title": "Adidas Training Essentials broek voor heren",
@@ -51,33 +25,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "85260dd492b04af6926a",
-      "kind": "contests",
-      "title": "Beautypakket van Rituals, €100 VVV cadeaubon of handige airtags van Apple",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/beautypakket-van-rituals-euro100-vvv-cadeaubon-of-handige-airtags-van-apple.html",
-      "status": "Te controleren",
-      "score": 69,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "2725bb5d0a97fc949e18",
-      "kind": "sales",
-      "title": "Menswear sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/menswear.html",
-      "status": "Te controleren",
-      "score": 69,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1451ce6c14b3a1278962",
@@ -90,7 +38,7 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "950a816fc8d01b256478",
@@ -103,46 +51,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "8795d69f03ccffff8492",
-      "kind": "contests",
-      "title": "Q-music muziekprijzen, concerttickets, kaarten, party's, reizen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/q-music-muziekprijzen-concert-kaarten-partys-reizen.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "7698c5ee517c14a016f1",
-      "kind": "sales",
-      "title": "Schoenen sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/schoenen.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "b3c2144d43abf45103ef",
-      "kind": "sales",
-      "title": "Schoenen sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/schoenen-samplesales.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1675a70a612846d03d40",
@@ -155,7 +64,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -168,20 +77,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "5f5d0efad1928909ccae",
-      "kind": "contests",
-      "title": "VVV Cadeaukaart t.w.v. € 100, RITUALS Cadeaupakket €49 of 4x Apple Airtags",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-vvv-cadeaukaart-twv-euro-100-rituals-cadeaupakket-49-of-4x-apple-airtags.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f7cd0341cab9a60d5e79",
@@ -194,7 +90,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "03c215effbe8a9a17a33",
@@ -207,7 +103,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "667174dc73dc06f36cd3",
@@ -220,7 +116,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7138a41ff032d1a973d6",
@@ -233,7 +129,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1106b41c9d496940caca",
@@ -246,7 +142,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0b1139b59978d864c40b",
@@ -259,7 +155,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "80484ade33ab6c9d532a",
@@ -272,7 +168,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "364705c649227197fb1f",
@@ -285,20 +181,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "7e815e1d9f34ee9c55d6",
-      "kind": "contests",
-      "title": "5x kans op €150 shoptegoed voor Albert Heijn",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-5x-kans-op-euro150-shoptegoed-voor-albert-heijn.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "758caf258e1bfc5b25f1",
@@ -311,33 +194,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "f4aa833582c530d4bbb8",
-      "kind": "sales",
-      "title": "Accessoires sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/accessoires.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "841b29585d5537cb8e5a",
-      "kind": "sales",
-      "title": "Accessoires sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/accessoires.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cba9fbae0b58cb18e72c",
@@ -350,7 +207,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a25dd3778b78ea19e508",
@@ -363,7 +220,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "42a1d84572961a5edca1",
@@ -376,7 +233,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "828d17a0834989dc4da1",
@@ -389,7 +246,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a78257a9b081ef76cae0",
@@ -402,7 +259,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2d8009fa32c710438154",
@@ -415,7 +272,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4d6df0cc014e97ab491b",
@@ -428,7 +285,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d6d853300680e7303ba9",
@@ -441,20 +298,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "833db96bc5f312697a61",
-      "kind": "contests",
-      "title": "Bolderman reis voor 2 personen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-bolderman-reis-voor-2-personen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9f7418e101604a9c65f4",
@@ -467,20 +311,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "0de032f7c8aa09d4898b",
-      "kind": "contests",
-      "title": "Cadeaubonnen en tot € 7 per enquête invullen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-cadeaubonnen-en-tot-euro-7-per-enquete-invullen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7bea63d60e07c1a25714",
@@ -493,7 +324,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "403b299c14bd55b6aac8",
@@ -506,7 +337,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4c420e8d29ab6fbf4244",
@@ -519,7 +350,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "45f67eae33fa78b13712",
@@ -532,7 +363,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "45ee5e1f37ab121d9c5e",
@@ -545,7 +376,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "533424f47426bf99b844",
@@ -558,7 +389,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e30c20e4b37f2671c5ba",
@@ -571,46 +402,20 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "678fb8d399d012eba932",
-      "kind": "contests",
-      "title": "Gegarandeerd geldprijs van € 15,- tot wel € 50.000,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gegarandeerd-geldprijs-van-euro-15-tot-wel-50000-.html",
+      "id": "2f2369fef451a0c408ed",
+      "kind": "deals",
+      "title": "GRATIS Consumentenbond Geldgids",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/gratis-consumentenbond-geldgids-423988",
       "status": "Te controleren",
       "score": 53,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "e255b5b4cf8d15554a17",
-      "kind": "contests",
-      "title": "Geld Enquêtes",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/enqueteswinnen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "778d6bf94c155ea76b38",
-      "kind": "contests",
-      "title": "Geld prijs winnen met prijsvragen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/geldprijs.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0fc3bd037c8b5a6ac173",
@@ -623,7 +428,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5dc1877a4ebd764fe25e",
@@ -636,7 +441,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7031a63a81616e05fdc8",
@@ -649,7 +454,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ea99f81549bc998951cf",
@@ -662,7 +467,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "31abb4a097042851a10b",
@@ -675,7 +480,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b8897bb584c5cb556eb8",
@@ -688,7 +493,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "308892ef75aaf75a5dc6",
@@ -701,7 +506,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0ca4925379eef3bb859d",
@@ -714,20 +519,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "3b63cd1c3daab13b99eb",
-      "kind": "contests",
-      "title": "Kaartjes en tickets voor festivals",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-kaartjes-en-tickets-voor-festivals.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8312bb145429ea789bf6",
@@ -740,7 +532,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "dbcef369464c907a1d09",
@@ -753,7 +545,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "84705102989b85cf280a",
@@ -766,7 +558,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0655d18fadbc7f8b2f7f",
@@ -779,7 +571,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fb6165c9552259b81971",
@@ -792,7 +584,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f784b73e88593f76f41e",
@@ -805,33 +597,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "519cd244bf023a0c8eec",
-      "kind": "sales",
-      "title": "Lingerie sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/lingerie.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "90ae08c2ba2a0d6866bb",
-      "kind": "sales",
-      "title": "Lingerie sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/lingerie-sample-sales.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fa4a196a9df5b2d92460",
@@ -844,7 +610,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0be04318ca096fbd67fd",
@@ -857,7 +623,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5d907404f9d3adccb006",
@@ -870,7 +636,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "38f2ce67681dad3123cb",
@@ -883,7 +649,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1e3608c3ce47760a9e53",
@@ -896,7 +662,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b269756402a877013563",
@@ -909,7 +675,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "763d6954460ddbde8cd8",
@@ -922,20 +688,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "bc4f60ce674e18ee7b9c",
-      "kind": "contests",
-      "title": "Moviescene filmtickets, dvd, blu-ray",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/moviescene-filmtickets-dvd-blu-ray.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5b4cad6c92a8698d819b",
@@ -948,7 +701,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2e476752308cb715036d",
@@ -961,7 +714,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "bf000c4a994d44f3dfe4",
@@ -974,7 +727,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b0481b69fdb211e203dc",
@@ -987,7 +740,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6ac5ea7070299572a2a5",
@@ -1000,7 +753,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4957042992416a2fb1f2",
@@ -1026,7 +779,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e55499d344d78bf8e97f",
@@ -1039,20 +792,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "2966c6276f8fc7b3719d",
-      "kind": "contests",
-      "title": "Online Geld Winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/geldwinnen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5d29d79089dd6b0868b6",
@@ -1065,7 +805,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ffe3ebb5b95d1f018292",
@@ -1078,7 +818,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c3d58b962775cda58ba1",
@@ -1104,7 +844,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2f06c224a83a2f67183d",
@@ -1117,7 +857,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a6543fce4044dfdb212e",
@@ -1130,7 +870,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0d3ab817004398b3341b",
@@ -1143,7 +883,20 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "2ce2a16675939e50319e",
+      "kind": "sales",
+      "title": "Per Categorie",
+      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
+      "source": "Stockverkopen",
+      "url": "https://www.stockverkopen.nl/samplesales.html",
+      "status": "Te controleren",
+      "score": 53,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7c9644476eecf3335547",
@@ -1156,20 +909,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "ab2c851dd9cddea33b6f",
-      "kind": "contests",
-      "title": "Pets Place cadeaubon dieren 20 euro",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-pets-place-cadeaubon-dieren-15-euro.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "21c644d93e87e5e1c566",
@@ -1182,46 +922,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "80091055a3d0946597ed",
-      "kind": "contests",
-      "title": "Puur Reizen waardebon van €200",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-puur-reizen-waardebon-van-euro200.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "7f8a03ec481b59e0efd0",
-      "kind": "contests",
-      "title": "Reis verre bestemming e.a. prijzen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/reis-verre-bestemming-ea-prijzen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "e094ca367d8e70baa04d",
-      "kind": "contests",
-      "title": "Reischeque van Suntip t.w.v. 200 euro",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-reischeque-van-suntip-twv-200-euro.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e4b78e03895de900f872",
@@ -1234,7 +935,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1e3ad3d4c4bed7d95bad",
@@ -1247,7 +948,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9feaa851febbeda2f2e7",
@@ -1260,7 +961,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5408a24fc5603aea2101",
@@ -1273,46 +974,20 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "2ce2a16675939e50319e",
-      "kind": "sales",
-      "title": "Sample Sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/samplesales.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "ac915036da72ef5a1d6c",
-      "kind": "sales",
-      "title": "Sample Sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Your Sample Sale",
-      "url": "https://yoursamplesale.nl/evenementen/",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "194dec3a24793dc59511",
       "kind": "sales",
-      "title": "Sample Sales per provincie",
+      "title": "Sample Sales in Drenthe",
       "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
       "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/show_verkoop_provincie.php?catid=1&land=NL",
+      "url": "https://www.stockverkopen.nl/show_verkoop_provincie.php?catid=1&land=NL&provincie=Drenthe",
       "status": "Te controleren",
       "score": 53,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4bbeb7ee7efe17dca4c4",
@@ -1325,7 +1000,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6f6b34021742ee754db3",
@@ -1338,7 +1013,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "45a751014a1fd0226cc3",
@@ -1351,7 +1026,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9546ebea2e88a9a4b2e1",
@@ -1364,7 +1039,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8b7113ffb9f8d8daf28a",
@@ -1377,20 +1052,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "1a9da74dfb125dbaeb75",
-      "kind": "contests",
-      "title": "Scoupy geld-terug-acties, refundacties",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/scoupy-geld-terug-acties-refundacties.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "501042cdefdf44436d1c",
@@ -1403,7 +1065,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8d7e2baac4d46e6764aa",
@@ -1416,7 +1078,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f2de573818d12df958af",
@@ -1429,7 +1091,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a1455a95faf5b4909306",
@@ -1442,7 +1104,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "40af52c41e75f26acab0",
@@ -1455,7 +1117,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5bb5b775599059834247",
@@ -1468,20 +1130,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "61f8da92096ce63bd697",
-      "kind": "contests",
-      "title": "Vakantie winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/reizenenvakantieswinnen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0335b5c22ab2085fc2e1",
@@ -1494,7 +1143,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "41d2b537816dcc1d2832",
@@ -1507,7 +1156,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b62de08b4cc2a8eea244",
@@ -1520,7 +1169,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7e32ae86a6dca21bfa8c",
@@ -1533,7 +1182,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6e399603892c774883a7",
@@ -1546,7 +1195,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6558d331cd67e91e9d5c",
@@ -1559,7 +1208,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "568cdc775fcd8421895d",
@@ -1572,7 +1221,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "bce072001e99ded929fc",
@@ -1585,7 +1234,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a4103f85ed3668c52648",
@@ -1598,7 +1247,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fa1b4440fce2c6089b8c",
@@ -1611,7 +1260,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "691105076331e7422bea",
@@ -1624,7 +1273,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cba3eee2a8e5b9298bc9",
@@ -1637,7 +1286,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "3dcadd46ba17e26d9e06",
@@ -1650,7 +1299,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a438553a4bbcad3818ad",
@@ -1663,7 +1312,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9545e8713d24b2c27724",
@@ -1676,7 +1325,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b694b573f309d28282e4",
@@ -1689,7 +1338,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5df6bfdaec4935efeda4",
@@ -1702,7 +1351,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e18ebb176e41b45057a6",
@@ -1715,20 +1364,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "9a380c18278c6253f4db",
-      "kind": "contests",
-      "title": "Zalando shoptegoed van €25,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-zalando-shoptegoed-van-euro25-.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4886a3c47a4007b89386",
@@ -1741,7 +1377,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6c3daf93b9353b8d75ca",
@@ -1754,7 +1390,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "434fb902b67b024e97cd",
@@ -1767,7 +1403,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "60615bda88ed364a1893",
@@ -1780,7 +1416,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ff4e09904be02e17c4f7",
@@ -1793,7 +1429,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "774c7f5c4cff4c454976",
@@ -1806,20 +1442,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "bfde5cd702cb4bbe2022",
-      "kind": "contests",
-      "title": "€3 euro cadeau bij aanmelden en cadeaubonnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-3-euro-cadeau-bij-aanmelden-en-cadeaubonnen.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8d12d612c4cc6eb76cbb",
@@ -1832,7 +1455,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "06e4a184b7d10e665d86",
@@ -1845,7 +1468,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ba7ac6e39a995a58bbcb",
@@ -1858,7 +1481,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9f221a57cc6a97919d2c",
@@ -1871,7 +1494,7 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6a935bf509b7faca151b",
@@ -1884,7 +1507,20 @@
       "score": 47,
       "audience": "women",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "5dc3095919ddd4c08995",
+      "kind": "deals",
+      "title": "10% korting t/m 1 november @ Kruidenbaron",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/10-korting-tm-1-november-at-kruidenbaron-423954",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c3c1e2a05f944552a686",
@@ -1897,7 +1533,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b4a0b7aac4dc66f5acdf",
@@ -1910,7 +1546,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9acad784f7022103d663",
@@ -1923,7 +1559,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f65b665d02e7ad4ffad3",
@@ -1936,20 +1572,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "f50d28d9137f8219ea1a",
+      "id": "f7c182f110a0e6230ebb",
       "kind": "deals",
-      "title": "Aanbiedingen",
+      "title": "AEG OU5PB40SM inbouw oven - Met Pyrolysereiniging @Bol",
       "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/aeg-ou5pb40sm-inbouw-oven-met-pyrolysereiniging-at-bol-423977",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1801109b775ccb815c18",
@@ -1962,7 +1598,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "6bb54a1e06ad819b0cef",
@@ -1975,7 +1611,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "87bf448de940b4a26309",
@@ -1988,7 +1624,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "199bc55694de125abd03",
@@ -2001,7 +1637,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d1ff8e404b15b7ea6831",
@@ -2014,20 +1650,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "01e2ec86d4d3331467c4",
-      "kind": "contests",
-      "title": "Altijd prijs : pakket met laadkabel mat €21, 3 maanden laadpas voor niks en de auto wasbon Essent.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/altijd-prijs--pakket-met-laadkabel-mat-21-3-maanden-laadpas-voor-niks-en-de-auto-wasbon/79882.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4a2fe16992f9d1b444dc",
@@ -2040,59 +1663,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "ac7c5af3df29c41dc767",
-      "kind": "contests",
-      "title": "Audi a1 Audiwinnen.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/audi-a1/43102.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "c82be8261561f6742d76",
-      "kind": "contests",
-      "title": "Bmw 1 serie Bmwwinnen.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/bmw-1-serie/43105.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "149dc864dd779969e30f",
-      "kind": "contests",
-      "title": "Boeken winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/boekenwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "cf02a84d5b8d67f44a24",
-      "kind": "contests",
-      "title": "Boekerij boekenpakket t.w.v. €100",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/boekerij-boekenpakket-twv-100.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c28c9f1e229ca44e6bfd",
@@ -2101,97 +1672,6 @@
       "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
       "source": "Pepper",
       "url": "https://nl.pepper.com/aanbiedingen/bol-dagdeal-voor-inbouwovens-met-select-423936",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "be1ceec1d3405ebf97fa",
-      "kind": "contests",
-      "title": "Bruna cadeaukaart van 50 euro elke maand",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-bruna-cadeaukaart-van-50-euro-elke-maand.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "9c229ed91d0e60bfeefa",
-      "kind": "contests",
-      "title": "Cheque voor een trouwjurk van € 449",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-cheque-voor-een-trouwjurk-van-euro-449.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "814263bd45bb5458cdad",
-      "kind": "contests",
-      "title": "Claudia Sträter outfit t.w.v. €300",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-claudia-strater-outfit-twv-euro300.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "84dd4ce2519f6dc82e4f",
-      "kind": "contests",
-      "title": "Computers winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/computerswinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "4d3fb28133aa7f38aad5",
-      "kind": "contests",
-      "title": "Cool LEGO prijzenpakket t.w.v. €50",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-cool-lego-prijzenpakket-twv-euro250.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "b4866eb1427b13c5f2ec",
-      "kind": "contests",
-      "title": "DJ Guide vrijkaartjes, party's, festivals",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/dj-guide-vrijkaartjes-partys-festivals.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "459c580adca00ff28707",
-      "kind": "contests",
-      "title": "Dagjes weg winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/dagjesweg.html",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
@@ -2222,7 +1702,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "05dd3ec4e27996912385",
@@ -2235,7 +1715,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ac1c6985b80fa70f6e6e",
@@ -2248,7 +1728,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "23bab98f2c3d1171c19e",
@@ -2261,20 +1741,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "6660002945f23ef1260f",
-      "kind": "contests",
-      "title": "Een spellen pakket van 999 Games t.w.v. 250 euro",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-een-spellen-pakket-van-999-games-twv-250-euro.html",
+      "id": "9ac34e9727552e797c74",
+      "kind": "deals",
+      "title": "Dreame H15 Pro FoamWash Nat- en Droogzuiger",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/dreame-h15-pro-foamwash-nat-en-droogzuiger-423960",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1dbabdb8d58c6c7f0f80",
@@ -2287,59 +1767,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "a9190ca4a0632b25044a",
-      "kind": "contests",
-      "title": "Film op dvd/blu-ray",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/filmswinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "1ceb0f68a02afe8ab603",
-      "kind": "contests",
-      "title": "Filmprijzen, bioscoopkaarten en meer",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/filmprijzen-bioscoopkaarten-en-meer.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "cea41ab23a0cd878c678",
-      "kind": "contests",
-      "title": "Flavourites mode- of lifestyle prijzen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/flavorites-mode-of-lifestyle-prijzen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "73c9bac58bdacafc6b0e",
-      "kind": "contests",
-      "title": "Foto-afdruk 30 bij 40 centimeter",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/foto-afdruk-30-bij-40-centimeter.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "24c563c601bb55e1c51d",
@@ -2352,33 +1780,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "a8b319890f05aa98c0c9",
-      "kind": "contests",
-      "title": "Game en console prijzen winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-game-en-console-prijzen-winnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "0c2821df851670e4130e",
-      "kind": "contests",
-      "title": "Gegarandeerd €20 winnen en kans op €100.000",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-gegarandeerd-euro20-winnen-en-kans-op-100000.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d75f1e457ee848dc5097",
@@ -2391,7 +1793,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7019dc94bd56bfa4a862",
@@ -2404,20 +1806,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "e6a46e27aa95caf4bb04",
-      "kind": "contests",
-      "title": "Google Chromecast €70, bespaarpakket €130 Klus Cadeaukaart €100",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-google-chromecast-euro70-bespaarpakket-130-klus-cadeaukaart-100.html",
+      "id": "31cb71d479044a53dca6",
+      "kind": "deals",
+      "title": "Gillette / Braun Intimate electric trimmer i5",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/gillette-brain-intimate-electric-trimmer-i5-423956",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e6e495fb39a255c1d69e",
@@ -2430,7 +1832,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "785a3a152676027f4d60",
+      "kind": "deals",
+      "title": "Gratis Thuisgestuurd: Doosje Purina voor de hond of kat!",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/gratis-thuisgestuurd-doosje-purina-voor-de-hond-of-kat-423987",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fb00968dd8dc8ef926d8",
@@ -2443,7 +1858,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4deb5613a627d90f57c0",
@@ -2456,7 +1871,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8362644b2a37f3e38e47",
@@ -2469,7 +1884,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9756c7cac31db8227004",
@@ -2482,7 +1897,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "595cd578a5d79569ab79",
@@ -2495,7 +1910,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e97243a9f40ec45af429",
@@ -2508,7 +1923,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cb55ef8d50c17281ad86",
@@ -2521,7 +1936,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c41215e10ae5bf6321b4",
@@ -2534,7 +1949,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4aa3e933c1e2b0525f2f",
@@ -2547,7 +1962,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "02df6c836cca53aec60f",
@@ -2560,7 +1975,33 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "51a9bba19f160225d01a",
+      "kind": "deals",
+      "title": "Inductiebeschermer met eigen foto of collectiebeeld @ Fotoproducten.nl",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/inductiebeschermer-met-eigen-foto-of-collectiebeeld-at-fotoproducten-423897",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "fe50bef8a202cf936c88",
+      "kind": "deals",
+      "title": "JBL Bar 1000 (7.1.4) en JBL Bar 800 (5.1.2) Dolby Atmos soundbars met afneembare surround speakers en draadloze subwoofer @ Smits Arnhem",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/jbl-bar-1000-714-en-jbl-bar-800-512-dolby-atmos-soundbars-met-afneembare-surround-speakers-en-draadloze-subwoofer-at-smits-arnhem-423976",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "aa9a93083caf412cc487",
@@ -2573,7 +2014,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "95621bbf23c0519890f6",
@@ -2586,33 +2027,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "b19d982a45963e3884f3",
-      "kind": "contests",
-      "title": "Kaarten winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/kaartenwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "8f35f6c69a4ab2e91eeb",
-      "kind": "sales",
-      "title": "Kidswear sample sales",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/kidswear.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5c0de454ed5a268d098e",
@@ -2625,7 +2040,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "45ba9631a32bf7bd5c16",
@@ -2638,7 +2053,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "61ba0b88fd9ffe4b261e",
@@ -2651,7 +2066,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "982e09378c4ae105dbec",
@@ -2664,20 +2079,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "27d3061af9a7cd3eda62",
-      "kind": "contests",
-      "title": "Kleding & Mode",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/kleding-mode-winnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "992cfc6a0a9682be16ba",
@@ -2690,7 +2092,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5b89655195f770a80076",
@@ -2703,7 +2105,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2d5999c5a37eb0811067",
@@ -2712,19 +2114,6 @@
       "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
       "source": "Pepper",
       "url": "https://nl.pepper.com/aanbiedingen/lemmo-3-all-purpose-vehicle-apv-423894",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "a4710f3975f476b0355a",
-      "kind": "contests",
-      "title": "Lijfblad drogisterij & beautyproducten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/lijfblad-drogisterij-beautyproducten.html",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
@@ -2742,7 +2131,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "037027742aacf977976b",
@@ -2755,7 +2144,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "81330e0b359b2bec609b",
@@ -2781,7 +2170,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f8e4e1f7a204556ef5df",
@@ -2794,33 +2183,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "b0bd832536a5007ed3c6",
-      "kind": "contests",
-      "title": "Make-up & Beautyproducten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/beautyproductenwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "846845889c09b4d0e8ea",
-      "kind": "contests",
-      "title": "Make-up en Parfums",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/make-up-parfum-winnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2499fde1b1cb3f25624f",
@@ -2846,20 +2209,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "334e12af0a2c857f054d",
-      "kind": "contests",
-      "title": "Maxmagazine actieprijzen, vrijkaarten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/maxmagazine-actieprijzen-vrijkaarten.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2f139b6932353ff7eff0",
@@ -2872,33 +2222,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "ad901db905a527f9c4a5",
-      "kind": "contests",
-      "title": "Muziek en cd's",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/muziekcdswinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "52ea6f9065cbc6fed517",
-      "kind": "contests",
-      "title": "Nintendo winnen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/nintendowinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "595d099988bd30ed2192",
@@ -2924,20 +2248,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "4fc5602f1d1742e084d0",
-      "kind": "contests",
-      "title": "Planetzone cd's, dvd's, films, kaarten",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/planetzone-cds-dvds-films-kaarten.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "eb26c9a5347c71a70c85",
@@ -2950,7 +2261,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a0eeaeba79793df0dd8b",
@@ -2963,33 +2274,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "f2ec1deba97858fceed9",
-      "kind": "contests",
-      "title": "Prijs van Kamera Express i.s.m Nikon",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-prijs-van-kamera-express-ism-nikon.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "5ed38fb47d4ff44cf10f",
-      "kind": "contests",
-      "title": "Prijspuzzels",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/prijspuzzelswinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "82d38b240b9efc67ae04",
@@ -3002,20 +2287,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "2759d3f439c710740477",
-      "kind": "contests",
-      "title": "Prijzen winnen en een auto bij Prijzenfestival Hoogvliet Hoogvliet.com",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/prijzen-winnen-en-een-auto-bij-prijzenfestival-hoogvliet/54499.html",
+      "id": "ddd02f72c9bb2dda5be7",
+      "kind": "deals",
+      "title": "Prijzenoorlog: AH Stroopwafels (390 gram) nu €0,36 (in Belgie €1,79). Precies dezelfde stroopwafel in Terra verpakking €0,99.",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/stroopwafels-423841",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "32ab5ad4a195643657a2",
@@ -3028,7 +2313,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7484fba7dc6741be9f14",
@@ -3041,20 +2326,20 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
-      "id": "649fc14108dd4f6745ca",
-      "kind": "contests",
-      "title": "Slimste mens-sokken of een leuke tv-beker",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-slimste-mens-sokken-of-een-leuke-tv-beker.html",
+      "id": "f8cbd297b07db36b7449",
+      "kind": "deals",
+      "title": "Roborock Q10 S5 set Nog goedkoper !!!",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/roborock-q10-s5-set-nog-goedkoper-423957",
       "status": "Te controleren",
       "score": 45,
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "154f1fef5be2ab174660",
@@ -3067,7 +2352,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8c2c82c79841b887245a",
@@ -3080,7 +2365,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "88c2a42190244957d6c2",
@@ -3093,33 +2378,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "c357321a7f919b5c4ef9",
-      "kind": "contests",
-      "title": "Spelcomputers & Games",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/spelcomputerwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "c6458db1d41d2b2f7175",
-      "kind": "contests",
-      "title": "Spelekids kinderprijs",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/spelekids-kinderprijs.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1ea79d90f71795d32fcb",
@@ -3132,7 +2391,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8d78ee2bea4c1fe65d9e",
@@ -3145,20 +2404,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "869b44472ef8ad412b20",
-      "kind": "contests",
-      "title": "Thrillers en spannende boeken",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-thrillers-en-spannende-boeken.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -3171,20 +2417,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "765064dfa010f329351c",
-      "kind": "contests",
-      "title": "Tips om prijsvragen te winnen?",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/prijsvragen_winnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "397494101f01e7a6689e",
@@ -3197,7 +2430,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0ea75f46a176e1989f53",
@@ -3210,7 +2443,33 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "9107fb5bc4c3ca650e68",
+      "kind": "deals",
+      "title": "UGREEN Bluetooth 5.4 2-in-1 zender/ontvanger met 3,5mm aansluiting en ingebouwde microfoon @ Amazon NL",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/ugreen-bluetooth-54-2-in-1-zenderontvanger-met-35mm-aansluiting-en-ingebouwde-microfoon-at-amazon-nl-423941",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
+      "id": "7ebb07cfae1653e2c051",
+      "kind": "deals",
+      "title": "UGREEN Nexode Pro Powerbank 25000mAh 200W, 2x USB-C and 1x USB-A",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/ugreen-nexode-pro-powerbank-25000mah-200w-2x-usb-c-and-1x-usb-a-423981",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0f54d656515a1a84597d",
@@ -3226,6 +2485,19 @@
       "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
     },
     {
+      "id": "3ec82afa587648d96d24",
+      "kind": "deals",
+      "title": "Uniqlo AIRism oversized T-shirt mt XS-XL Unisex Rood + Bordeaux | Uniqlo",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/uniqlo-airism-oversized-t-shirt-mt-xs-xl-unisex-rood-bordeaux-uniqlo-423979",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
       "id": "5ebb4225e05100740d7b",
       "kind": "contests",
       "title": "VT wonen prijzen en mail & winacties",
@@ -3236,7 +2508,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "3adda21fef9e59cc2633",
@@ -3262,7 +2534,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "963a6e4d3ce01ceb6b90",
@@ -3275,7 +2547,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cc97109e5addedb35673",
@@ -3288,7 +2560,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ad75952029efa40cdc5a",
@@ -3301,20 +2573,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "dda9e7b767b28be4f938",
-      "kind": "contests",
-      "title": "Weekend in Egmond aan Zee",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-weekend-in-egmond-aan-zee.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a54dd56d92f2c946d5a5",
@@ -3327,7 +2586,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7112c93872a4d4355463",
@@ -3340,7 +2599,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "eb01e4f6ecb49b14c6a1",
@@ -3353,7 +2612,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fa5213433ca5e6b11453",
@@ -3366,7 +2625,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "050147fba3585a392249",
@@ -3379,7 +2638,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4c94ce1bd5c2fdb43be8",
@@ -3392,7 +2651,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2484dcc6aa51a1a4cf6d",
@@ -3405,7 +2664,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "26a934fe529097d638cb",
@@ -3418,7 +2677,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "29dbf9799dcb109888f7",
@@ -3431,7 +2690,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f0698f01a724db188a64",
@@ -3444,7 +2703,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7a0b751ced9f8456a098",
@@ -3457,7 +2716,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5bf423f591963ad4ec86",
@@ -3470,7 +2729,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8b6c1b16825f1953d07c",
@@ -3483,7 +2742,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1e451a680ca0dba43c7d",
@@ -3496,7 +2755,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c17282021e950b4a93d1",
@@ -3509,7 +2768,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "bb39767e79ec35726fbc",
@@ -3522,7 +2781,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c3dbe88a3a6ba720020b",
@@ -3535,7 +2794,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7a39f9ba4058f2900094",
@@ -3548,7 +2807,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1297e2349bd6ec85082e",
@@ -3561,7 +2820,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fa2d3dd416627ee2dc85",
@@ -3574,7 +2833,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d865e4044db85e2f7d58",
@@ -3587,7 +2846,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1e401a48085ba5d757c9",
@@ -3600,7 +2859,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "470906b906bc59a9a391",
@@ -3613,7 +2872,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "85c00db858b222e85ac9",
@@ -3626,7 +2885,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "10edd21473fda154b7bd",
@@ -3639,7 +2898,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "dcfece3e90d167d13823",
@@ -3652,7 +2911,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "01171694c5479cc329b3",
@@ -3665,7 +2924,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5272d7f22ef489010222",
@@ -3678,7 +2937,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "ba16733c443ec456f542",
@@ -3691,7 +2950,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "439579fca62bf102275d",
@@ -3704,7 +2963,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "978783e8826db6bb05b3",
@@ -3717,7 +2976,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "accf621d2dda066cce3a",
@@ -3730,7 +2989,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f4a6c9d4083cf7fbe7ad",
@@ -3743,7 +3002,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f7dd25b9c7835f7ec67a",
@@ -3756,7 +3015,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "74eca5927dfb18974919",
@@ -3769,7 +3028,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7b02c5667225bc87cef7",
@@ -3782,7 +3041,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b1a237a35c0711409f94",
@@ -3795,7 +3054,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d4434fcb6c8ef5bb4c38",
@@ -3808,7 +3067,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cf4f94a924df7f93db91",
@@ -3821,7 +3080,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7f4d0a7f2276f802f331",
@@ -3834,7 +3093,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f985a812694b5324e9dc",
@@ -3847,7 +3106,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e396290104667e27d3fd",
@@ -3860,7 +3119,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "48fe436eb01dbaf6f1c5",
@@ -3873,7 +3132,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5ff6679c735a42b50a1e",
@@ -3886,7 +3145,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "aa3586fd86b6f7de14cd",
@@ -3899,7 +3158,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d607ed0d3ac14597f999",
@@ -3912,7 +3171,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e0ef98ee763114caa49d",
@@ -3925,7 +3184,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "326fa4893c3cfc1ffe29",
@@ -3938,7 +3197,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "19f52ac9ab911b6a4ada",
@@ -3951,7 +3210,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "12af12e95fb9b37114f8",
@@ -3964,7 +3223,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "823fa823997eb69130d0",
@@ -3977,7 +3236,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "10dbfd5db4bb14aa3d74",
@@ -3990,7 +3249,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "453f603f0c7798bdb570",
@@ -4003,7 +3262,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "97aa6e3d8ff00054469d",
@@ -4016,7 +3275,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7fb53b48dc489070f276",
@@ -4029,7 +3288,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7887f234aa4b7d14cac6",
@@ -4042,7 +3301,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "15cd5c01e890ffc15e15",
@@ -4055,7 +3314,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "abea6de9a93965c7ba71",
@@ -4068,7 +3327,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "3ab5d212b51d46f2a46c",
@@ -4081,7 +3340,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1d3a43d44edf707fa587",
@@ -4094,7 +3353,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fddc626617fa2d131912",
@@ -4107,7 +3366,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "efbb3418865f896e1ef5",
@@ -4120,7 +3379,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d71eee554e0f27d18134",
@@ -4133,7 +3392,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f2977aeefef2eadca982",
@@ -4146,7 +3405,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cf99d3b7c708911161f1",
@@ -4159,7 +3418,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a77438cb0afdaecb68c6",
@@ -4172,7 +3431,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "620751b84b7ef05cc56e",
@@ -4185,7 +3444,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4c17d36d3f657842738c",
@@ -4198,7 +3457,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b3232f1dc9a2fda71da9",
@@ -4211,7 +3470,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "3a656f22e385c37b9bc3",
@@ -4224,7 +3483,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "9b8ebc1201c61a5a8ee3",
@@ -4237,7 +3496,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "e294c3bd6d840512baf2",
@@ -4250,7 +3509,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "f84779ae845dd486cb24",
@@ -4263,7 +3522,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "aedca5bdefadf5759695",
@@ -4276,7 +3535,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "81e7d167544da0eb9bb2",
@@ -4289,7 +3548,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "fc728cab1c01533fa0f0",
@@ -4302,7 +3561,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "649878586933cb65e1c5",
@@ -4315,7 +3574,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c54434ad114182d6672f",
@@ -4328,7 +3587,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d14d6a6825c14ce852e2",
@@ -4341,7 +3600,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "799d4d775cefcb8bbfed",
@@ -4354,7 +3613,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "96884ef19d60a754da9e",
@@ -4367,7 +3626,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "3383130c9669d4d65da7",
@@ -4380,7 +3639,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "49da0b27dd75da4c1250",
@@ -4393,7 +3652,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4e31c082953ec9df8d71",
@@ -4406,7 +3665,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7f41bafe3beace058629",
@@ -4419,7 +3678,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "308dbf2e158241a9bb59",
@@ -4432,7 +3691,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0ff8e6ef3d6bd9be4852",
@@ -4445,7 +3704,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5579d563d022e690e78b",
@@ -4458,7 +3717,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "cf0678a1e1b7d671f477",
@@ -4471,7 +3730,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "afed94de4d2e04b9b0ea",
@@ -4484,7 +3743,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d6bcf24f5f797bb81ff4",
@@ -4497,7 +3756,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "7c92192bf47997771b0b",
@@ -4510,7 +3769,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "b2e73771aefc5c526b9f",
@@ -4523,7 +3782,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "a6c90d25f28df842ea8c",
@@ -4536,20 +3795,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "a88cec4f8e3b68b5a60e",
-      "kind": "contests",
-      "title": "Xpozer & EPIX Prints ter waarde van €25",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-xpozer-epix-prints-ter-waarde-van-euro25.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "0ddca54a10467aa05dde",
@@ -4562,33 +3808,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "7fd73c3dd863e4d3dd91",
-      "kind": "contests",
-      "title": "Zapp kinder prijsvragen en prijzen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/zapp-kinder-prijsvragen-en-prijzen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "84f9788c02f69f4dc211",
-      "kind": "contests",
-      "title": "Ziggo prijsvragen en prijzen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/ziggo-prijsvragen-en-prijzen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8ec596438566e397d495",
@@ -4617,6 +3837,19 @@
       "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
     },
     {
+      "id": "5402978301f931a4a55d",
+      "kind": "deals",
+      "title": "[Simpel 1 jaar] 60GB + onbeperkt bellen voor €61 - half jaar voor €1 /mnd + €35 korting via ING rentepunten",
+      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
+      "source": "Pepper",
+      "url": "https://nl.pepper.com/aanbiedingen/simpel-1-jaar-60gb-onbeperkt-bellen-voor-eur61-half-jaar-voor-eur1-mnd-eur35-korting-via-ing-rentepunten-423959",
+      "status": "Te controleren",
+      "score": 45,
+      "audience": "all",
+      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
+    },
+    {
       "id": "97744137ce5db037c0b0",
       "kind": "deals",
       "title": "[Woensdag] 15% extra korting op alle Sale, o.a. Parkside! [LIDL online Koopavond 28 oktober]",
@@ -4640,7 +3873,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "5d505077194bb2725ea6",
@@ -4653,7 +3886,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2f1ba7cbe612a7c75d91",
@@ -4666,7 +3899,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "d31ae7e8c6b7f960800f",
@@ -4679,7 +3912,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "90dc0ea53f24702c25d8",
@@ -4692,7 +3925,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "c642b07ded4f4c1d2cab",
@@ -4705,7 +3938,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "31b6aadbfa73635949d4",
@@ -4718,7 +3951,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "2a3e1c0d12c5c191b316",
@@ -4731,7 +3964,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "4c1173f754e9aef5287b",
@@ -4744,20 +3977,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
-    },
-    {
-      "id": "999021a5ec507d186ff5",
-      "kind": "contests",
-      "title": "€ 1000 korting traprenovatie, LED-verlichting t.w.v. € 799, € 400 korting of Trapleuning t.w.v. € 300",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-euro-1000-korting-traprenovatie-led-verlichting-twv-799-400-korting-of-trapleuning-twv-300.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "8b09dc75f97aa8f84323",
@@ -4770,7 +3990,7 @@
       "score": 37,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     },
     {
       "id": "1d64d4b0e3c1712d9e1a",
@@ -4783,24 +4003,24 @@
       "score": 37,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00"
+      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00"
     }
   ],
   "sources": [
     {
       "name": "We Love Sample Sales",
       "status": "ok",
-      "count": 62
+      "count": 56
     },
     {
       "name": "Stockverkopen",
       "status": "ok",
-      "count": 82
+      "count": 72
     },
     {
       "name": "Your Sample Sale",
       "status": "ok",
-      "count": 11
+      "count": 8
     },
     {
       "name": "Eventbrite",
@@ -4817,12 +4037,12 @@
     {
       "name": "GratiZ",
       "status": "ok",
-      "count": 83
+      "count": 57
     },
     {
       "name": "Prijsvragen.nl",
       "status": "ok",
-      "count": 159
+      "count": 77
     },
     {
       "name": "Gratiswinactie",
@@ -4832,12 +4052,12 @@
     {
       "name": "Prijzenzolder",
       "status": "ok",
-      "count": 53
+      "count": 42
     },
     {
       "name": "AlleFolders",
       "status": "ok",
-      "count": 51
+      "count": 48
     },
     {
       "name": "Reclamefolder",

@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '20 5,7,11,15,19 * * *'
@@ -23,9 +23,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate scanner
-        run: python -m py_compile scan.py discover_winacties.py
+        run: python -m py_compile scan.py discover_winacties.py deal_verification.py
       - name: Test preferences, wishlist and outdoor filtering
-        run: python -m unittest -v test_outdoor.py test_watchlist.py
+        run: python -m unittest -v test_outdoor.py test_watchlist.py test_pricegate.py
       - name: Read public sources
         run: python scan.py
       - name: Discover major NL and international giveaways
@@ -34,6 +34,7 @@ jobs:
         run: |
           python -m json.tool data.json > /dev/null
           python -m json.tool winactie-kandidaten.json > /dev/null
+          python -m json.tool deal-kandidaten.json > /dev/null
       - name: Publish results safely
         shell: bash
         run: |
@@ -42,6 +43,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data.json "$RUNNER_TEMP/data.json"
           cp winactie-kandidaten.json "$RUNNER_TEMP/winactie-kandidaten.json"
+          cp deal-kandidaten.json "$RUNNER_TEMP/deal-kandidaten.json"
           source_scanner=$(git hash-object scan.py)
           for attempt in 1 2 3; do
             git fetch origin main
@@ -53,7 +55,8 @@ jobs:
             git reset --hard origin/main
             cp "$RUNNER_TEMP/data.json" data.json
             cp "$RUNNER_TEMP/winactie-kandidaten.json" winactie-kandidaten.json
-            git add data.json winactie-kandidaten.json
+            cp "$RUNNER_TEMP/deal-kandidaten.json" deal-kandidaten.json
+            git add data.json winactie-kandidaten.json deal-kandidaten.json
             if git diff --cached --quiet; then
               echo "Nothing changed."
               exit 0

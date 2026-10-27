@@ -47,9 +47,122 @@
       "region": "NL + EU",
       "notes": "Uitsluitend Arc'teryx als outdoor-merk; heren XL; Nederlandse en betrouwbare internationale aanbiedingen inclusief verzendkosten, retouren en garantie",
       "maxPriceEUR": null
+    },
+    {
+      "id": "apple-airpods",
+      "name": "Apple AirPods (standaardmodel)",
+      "keywords": [
+        "AirPods"
+      ],
+      "matchAny": [
+        "AirPods"
+      ],
+      "excludeTerms": [
+        "AirPods Pro",
+        "AirPods Max",
+        "AirPods case",
+        "hoesje",
+        "case",
+        "oplaadcase"
+      ],
+      "region": "NL + EU",
+      "notes": "Vergelijk dezelfde generatie, uitvoering en USB-C/laadcase; geen hoesjes of accessoires als hoofdproduct",
+      "maxPriceEUR": null,
+      "category": "Apple & elektronica"
+    },
+    {
+      "id": "apple-airpods-pro",
+      "name": "Apple AirPods Pro",
+      "keywords": [
+        "AirPods Pro"
+      ],
+      "matchAny": [
+        "AirPods Pro"
+      ],
+      "excludeTerms": [
+        "hoesje",
+        "case only",
+        "accessoire",
+        "cover"
+      ],
+      "region": "NL + EU",
+      "notes": "Let op dezelfde generatie, type laadcase en nieuw versus refurbished; geen accessoires",
+      "maxPriceEUR": null,
+      "category": "Apple & elektronica"
+    },
+    {
+      "id": "apple-macbook",
+      "name": "Apple MacBook",
+      "keywords": [
+        "MacBook",
+        "MacBook Air",
+        "MacBook Pro"
+      ],
+      "matchAny": [
+        "MacBook"
+      ],
+      "excludeTerms": [
+        "hoes",
+        "case",
+        "oplaadkabel",
+        "cover",
+        "accessoire"
+      ],
+      "region": "NL + EU",
+      "notes": "Vergelijk Air/Pro apart, chip, RAM, SSD, schermmaat, toetsenbordindeling en garantie; geen accessoires",
+      "maxPriceEUR": null,
+      "category": "Apple & elektronica"
+    },
+    {
+      "id": "apple-watch-ultra",
+      "name": "Apple Watch Ultra",
+      "keywords": [
+        "Apple Watch Ultra",
+        "Watch Ultra"
+      ],
+      "matchAny": [
+        "Watch Ultra"
+      ],
+      "excludeTerms": [
+        "bandje",
+        "watchband",
+        "strap",
+        "hoesje",
+        "cover",
+        "accessoire"
+      ],
+      "region": "NL + EU",
+      "notes": "Vergelijk dezelfde Ultra-generatie, maat, cellular, nieuw/refurbished en garantie; geen bandjes",
+      "maxPriceEUR": null,
+      "category": "Apple & elektronica"
     }
   ],
   "outdoorBrandAllowlist": [
     "Arc'teryx"
-  ]
+  ],
+  "pricePolicy": {
+    "requireIdenticalVariant": true,
+    "compareTotalDeliveredPriceEUR": true,
+    "include": [
+      "btw",
+      "shipping",
+      "non_EU_import_duties",
+      "expected_required_fees"
+    ],
+    "check": [
+      "seller_reputation",
+      "stock",
+      "return_terms",
+      "warranty",
+      "refurbished_or_new",
+      "model_generation",
+      "variant",
+      "size",
+      "specifications"
+    ],
+    "preferPriceHistory": true,
+    "doNotClaimVerifiedLowestPriceWithoutLiveComparableOffers": true,
+    "alertOnlyForSubstantialRealSavings": true,
+    "allowEUAndInternationalWhenShippingToNLAndTotalCostClear": true
+  }
 }

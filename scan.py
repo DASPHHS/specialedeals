@@ -50,6 +50,7 @@ def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
  if kind=="sales":value+=8
+ if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2
  if "heren" in t or "menswear" in t:value+=8
@@ -67,6 +68,19 @@ def is_navigation(title,url,kind):
  if kind=="contests" and not re.search(r"\bwin\b|winactie|geef weg|prijsvraag|verloot|gratis",t):return True
  return False
 
+
+# Conservative prefilter: only potentially substantial prizes. Unknown value is
+# excluded from the daily shortlist rather than portrayed as a major win.
+BIG_PRIZES=("vakantie","droomreis","reis naar","weekend weg","hotelovernachting","hotelverblijf","cruise","vliegtickets","elektrische fiets","e-bike","bakfiets","auto winnen","win een auto","win een elektrische auto","scooter","macbook","ipad","iphone","laptop","playstation","televisie","tv winnen","dyson","robotstofzuiger","jaar lang","jaarlang","verbouwing","keuken winnen","hypotheek","geldprijs","geldbedrag","cashprijs","€ 500","€500","€ 1.000","€1000","€ 2.000","€2000","€ 5.000","€5000","cadeaubon van € 250","cadeaubon van €250","tegoed van € 250","tegoed van €250")
+TRIVIAL=("win een boek","win boeken","win een cd","win een dvd","win een mok","win een pen","win stickers","win een sleutelhanger","win een proefpakket","win een sample","win een goodiebag","win kaartjes","win tickets","win een ticket","win een bioscoopkaart","win een puzzel","win een tijdschrift","win een t-shirt","win een beautybox","win een pakket","enquête","survey","leadgeneratie","postcode loterij","vriendenloterij","staatsloterij","kansspel")
+def worthwhile_contest(title,url):
+ t=title.casefold()
+ if any(x in t for x in TRIVIAL):return False
+ # An explicit euro prize may qualify only when at least EUR 250.
+ eurovalues=[float(x.replace(".","").replace(",",".")) for x in re.findall(r"€\s*(\d[\d.,]*)",t)]
+ if eurovalues and max(eurovalues)>=250:return True
+ return any(key in t for key in BIG_PRIZES)
+
 def main():
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
@@ -74,7 +88,7 @@ def main():
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind",""))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -85,6 +99,7 @@ def main():
     if parts.scheme!="https" or not parts.hostname:continue
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
     if is_navigation(title,url,kind):continue
+    if kind=="contests" and not worthwhile_contest(title,url):continue
     phrase=(title+" "+parts.path).casefold()
     if not any(s in phrase for s in SIGNALS[kind]):continue
     rank=score(title,kind)

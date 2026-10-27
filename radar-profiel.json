@@ -81,7 +81,14 @@
       "onbetrouwbare webshops",
       "kortingen zonder concreet artikel of verifieerbare prijs",
       "dubbele hits"
-    ]
+    ],
+    "minimumRealDiscountPercent": 10,
+    "verifiedFile": "verified-deals.json",
+    "candidatesFile": "deal-kandidaten.json",
+    "strictDiscountMethod": "Minimaal 10% t.o.v. onafhankelijke actuele aanbiedingsprijs van exact hetzelfde nieuwe/refurbished SKU of gedocumenteerde echte prijshistorie; inclusief verplichte verzendkosten en belastingen. Verouderd (>36 uur), niet op voorraad of zonder echte vergelijking => niet publiceren als koopdeal.",
+    "noPromotionalMSRPref": true,
+    "hideUnverifiedFromMainSite": true,
+    "appleWatchUltraRule": "Geen Apple Watch Ultra kaart zonder aantoonbare korting >=10%; de normale winkelprijs alleen is geen deal."
   },
   "contests": {
     "source": "winactie-profiel.json",
@@ -178,5 +185,14 @@
   "deduplication": {
     "scope": "zelfde concrete actie/product ook als links of bronberichten verschillen",
     "prefer": "directe officiële bron of controleerbare shop/productdetailpagina"
+  },
+  "ingPunten": {
+    "enabled": true,
+    "publicBalanceStored": false,
+    "officialSource": "https://www.ing.nl/particulier/ing-punten",
+    "eligibility": "Alleen officiële ING Winkel- of ING Punten-acties; aanbieder, puntenkosten, actuele code, geldigheid, uitsluitingen, verzendkosten en combineerbaarheid eerst controleren",
+    "couponMinimumPercent": 10,
+    "dealRule": "ING kortingsvoucher alleen melden als daadwerkelijke korting op exact gewenst artikel minimaal 10% is EN netto totaalprijs vergeleken met beste prijs zonder voucher daadwerkelijk gunstiger is. Kortingen in percentages tellen niet op bij al lagere concurrentprijzen.",
+    "pointsValuation": "Geen vaste eurowaarde per ING Punt aannemen; afschrijving en eventuele cashbijbetaling tonen. Persoonlijk puntensaldo niet in publiek GitHub."
   }
 }

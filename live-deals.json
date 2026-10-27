@@ -1,80 +1,80 @@
 {
-  "updatedAt": "2026-10-27T05:15:19.634705+00:00",
+  "updatedAt": "2026-10-27T08:06:12.989751+00:00",
   "diagnostics": {
-    "irrelevant": 59,
-    "source_quality": 65,
+    "irrelevant": 62,
+    "source_quality": 75,
     "duplicate": 0,
     "examples": [
       {
         "why": "irrelevant",
-        "title": "Youfone 300 min/sms + 40GB 5G - 2 jaar - Sim Only - € 75,- cashback = € 3,38 (eventueel nog lager, lees aanbieding)",
-        "url": "https://nl.pepper.com/aanbiedingen/youfone-300-minsms-40gb-5g-2-jaar-sim-only-eur-75-cashback-eur-338-eventueel-nog-lager-lees-aanbieding-423869",
+        "title": "Philips Beauty Set 9900 BRE738/00 Epilator (7 Opzetstukken)",
+        "url": "https://nl.pepper.com/aanbiedingen/philips-beauty-set-9900-bre73800-epilator-7-opzetstukken-423885",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Simyo 400 min/sms + 20 GB Sim Only - 2 jaar - €100,- cashback = €3,08 p/m (met ING/vakantieveilingen voucher €1,63 p/m)",
-        "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-20-gb-sim-only-2-jaar-eur100-cashback-eur308-pm-met-ingvakantieveilingen-voucher-eur163-pm-423868",
+        "title": "Tijdelijk tot 69% korting op robotstofzuigers o.a. Roborock Q10 S5+ & Roborock Q7 M5 @ Bol",
+        "url": "https://nl.pepper.com/aanbiedingen/tijdeljk-tot-69-korting-op-robotstofzuigers-oa-roborock-q10-s5-roborock-q7-m5-at-bol-423884",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Small Foot - Houten Werkbank Compact Nordic, 22dlg",
-        "url": "https://nl.pepper.com/aanbiedingen/small-foot-houten-werkbank-compact-nordic-22dlg-423867",
+        "title": "Cronos: The New Dawn voor PlayStation 5 @ MediaMarkt",
+        "url": "https://nl.pepper.com/aanbiedingen/cronos-the-new-dawn-voor-playstation-5-at-mediamarkt-423883",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "[Pre-order actie] Dyness AquaVolt - 5,12 kWh thuisbatterij + P1 Meter voor €999 (na cashback €966)",
-        "url": "https://nl.pepper.com/aanbiedingen/pre-order-actie-dyness-aquavolt-512kwh-thuisbatterij-p1-meter-voor-eur999-na-cashback-eur966-423866",
+        "title": "Brennenstuhl Super-Solid (5 stekkers) @ Amazon NL",
+        "url": "https://nl.pepper.com/aanbiedingen/brennenstuhl-super-solid-5-stekkers-at-amazon-nl-423878",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Het is lente! Tweepersoonskamer €49, Bed op 4-persoons slaapzaal €12 @ A&O Hostel",
-        "url": "https://nl.pepper.com/aanbiedingen/tweepersoonskamer-423865",
+        "title": "25% korting op Syrops en No Honey van Green Sweet",
+        "url": "https://nl.pepper.com/aanbiedingen/25-korting-op-syrops-en-no-honey-van-green-sweet-423882",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Praxis Central Park Tuin Tafel aluminium - glas",
-        "url": "https://nl.pepper.com/aanbiedingen/praxis-central-park-tuin-tafel-alluminium-glas-423864",
+        "title": "Rabanne 1 Million Black Eau de Parfum 100ml @ flaconi",
+        "url": "https://nl.pepper.com/aanbiedingen/million-black-in-de-aanbieding-de-nieuwste-geur-uit-de-rabanne-million-lijn-laagste-prijs-sinds-introductie-423859",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Nog maar 3 Kärcher Hogedrukreiniger K 5 Premium Smart Control Flex Home OP=OP aanbieding voor maar €290!",
-        "url": "https://nl.pepper.com/aanbiedingen/karcher-hogedrukreiniger-k-5-premium-smart-control-flex-home-opop-aanbieding-voor-maar-eur290-423861",
+        "title": "Xand electrische fietspomp",
+        "url": "https://nl.pepper.com/aanbiedingen/xand-electrische-fietspomp-423880",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Fezibo in hoogte verstelbare niveau voor maar €94,99",
-        "url": "https://nl.pepper.com/aanbiedingen/fezibo-in-hoogte-verstelbare-niveau-voor-maar-eur9499-423860",
+        "title": "[Lokaal] Krijg €25 reparatie tegoed voor je kleding in Zaanstad",
+        "url": "https://nl.pepper.com/aanbiedingen/lokaal-krijg-eur25-reparatie-tegoed-voor-je-kleding-in-zaanstad-423877",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "(Lokaal) 1+1 gratis op schepijs bij Ijsco Fantastico",
-        "url": "https://nl.pepper.com/aanbiedingen/lokaal-11-gratis-op-schepijs-bij-ijsco-fantastico-423858",
+        "title": "CIEN BEAUTY Elektrische tandenborstel sonic @ Lidl",
+        "url": "https://nl.pepper.com/aanbiedingen/elektrische-tandenborstel-sonic-423872",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Gratis thuis gestuurd proefnummer van het magazine \" HOND \" .",
-        "url": "https://nl.pepper.com/aanbiedingen/gratis-thuis-gestuurd-proefnummer-van-het-magazine-hond-423856",
+        "title": "[nieuwe klanten] Jean Paul Gaultier Le Male Homme Eau de Toilette 75ml @ Joybuy",
+        "url": "https://nl.pepper.com/aanbiedingen/jean-paul-gaultier-le-male-homme-eau-de-toilette-75ml-423863",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "Lego Helm van Ayrton Senna (43024)",
-        "url": "https://nl.pepper.com/aanbiedingen/lego-helm-van-ayrton-senna-43024-423853",
+        "title": "Samsung Odyssey G8 OLED 4K/240Hz Gaming Monitor (27\")",
+        "url": "https://nl.pepper.com/aanbiedingen/samsung-odyssey-oled-4k-240hz-gaming-monitor-27-423857",
         "source": "Pepper Nederland"
       },
       {
         "why": "irrelevant",
-        "title": "The Outer Worlds 2 - XBOX of PS5",
-        "url": "https://nl.pepper.com/aanbiedingen/the-outer-worlds-2-xbox-of-ps5-423855",
+        "title": "Uber Eats 3x €15 korting bij €20 bestelling",
+        "url": "https://nl.pepper.com/aanbiedingen/uber-eats-3x-eur15-korting-bij-eur20-bestelling-423862",
         "source": "Pepper Nederland"
       }
     ],
@@ -132,50 +132,6 @@
     ]
   },
   "deals": [
-    {
-      "title": "Apple AirPods Max USB-C (Midnight) – Laagste prijs ooit!",
-      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-max-usb-c-midnight-laagste-prijs-ooit-423843",
-      "source": "Pepper Nederland",
-      "sourceType": "community",
-      "published": "Mon, 26 Oct 2026 20:32:05 +0100",
-      "price": 333.0,
-      "score": 55,
-      "matched": [
-        "apple"
-      ],
-      "category": "Technologie & wonen",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
-    {
-      "title": "204° - Apple AirPods Max USB-C (Midnight) – Laagste prijs ooit!",
-      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-max-usb-c-midnight-laagste-prijs-ooit-423843",
-      "source": "Pepper Hot",
-      "sourceType": "community",
-      "published": "Mon, 26 Oct 2026 20:35:55 +0100",
-      "price": 333.0,
-      "score": 55,
-      "matched": [
-        "apple"
-      ],
-      "category": "Technologie & wonen",
-      "discovery": true,
-      "priceVerified": false,
-      "allInVerified": false,
-      "stockVerified": false,
-      "variantVerified": false,
-      "referencePriceVerified": false,
-      "status": "Kandidaat: controle vereist",
-      "referencePrice": null,
-      "checkedAt": null
-    },
     {
       "title": "Apple brengt deze week 4 nieuwe producten uit: dit zijn ze - iPhoned",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SdIBY0FVX3lxTE9DYzRta1lQU0lGbm96cFVWbUN0NmNVUjE1bmJDOG5PUmROWDRqa2M3emtsOG91WHF5M3lqdk9aTU54RXQ0ei1WdlRydGxHNU0zNHFwMmZDX0hrcnJ6c3JkSXg0SQ?oc=5",
@@ -288,7 +244,7 @@
       "source": "Merkscan 13",
       "status": "ok",
       "items": 1,
-      "retrieved": 1
+      "retrieved": 2
     },
     {
       "source": "Merkscan 14",
@@ -408,13 +364,13 @@
       "source": "Winkelzoekopdracht 1",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 2",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 3",
@@ -426,7 +382,7 @@
       "source": "Winkelzoekopdracht 4",
       "status": "empty",
       "items": 0,
-      "retrieved": 10
+      "retrieved": 0
     },
     {
       "source": "Winkelzoekopdracht 5",
@@ -474,7 +430,7 @@
       "source": "Winkelzoekopdracht 12",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Winkelzoekopdracht 13",
@@ -492,7 +448,7 @@
       "source": "Winkelzoekopdracht 15",
       "status": "empty",
       "items": 0,
-      "retrieved": 0
+      "retrieved": 10
     },
     {
       "source": "Internationale zoekopdracht 1",
@@ -831,9 +787,9 @@
     "internationalQueries": 12,
     "internationalShops": 4,
     "sourcesConfigured": 2,
-    "scannedItems": 127,
-    "personalMatches": 3
+    "scannedItems": 138,
+    "personalMatches": 1
   },
   "note": "Discovery only. Every price/size/stock/discount must be checked at the merchant before buying.",
-  "lastSuccessfulDiscoveryAt": "2026-10-27T05:15:19.634705+00:00"
+  "lastSuccessfulDiscoveryAt": "2026-10-27T08:06:12.989751+00:00"
 }

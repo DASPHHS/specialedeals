@@ -22,6 +22,9 @@ SOURCES=[
  ("Reclamefolder","deals","https://www.reclamefolder.nl/categorieen/"),
  ("Pepper","deals","https://nl.pepper.com/"),
  ("SuperSales","deals","https://www.supersales.nl/"),
+ ("Bever sale","deals","https://www.bever.nl/c/aanbiedingen.html"),
+ ("Bergfreunde sale","deals","https://www.bergfreunde.nl/outlet/"),
+ ("Bergzeit sale","deals","https://www.bergzeit.nl/outlet/"),
 ]
 SIGNALS={"sales":("sample sale","stock sale","stockverkoop","stock sale","merkkleding","archive sale","outlet sale","warehouse sale","sample-sale","/sample","stock-sale","stockverkoop","sample sale"),
 "contests":("win een","win de","win het","win 2","win 5","winactie","prijsvraag","giveaway","winnen","/winactie/"),
@@ -49,6 +52,7 @@ def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
  if kind=="sales":value+=25
+ if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson","patagonia","salomon","norrøna","mammut")):value+=20
  if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2
@@ -125,7 +129,7 @@ def classify(title,kind):
 # Quality gate: discovery is not verification. Do not publish aggregator-only
 # competition leads as suitable personal recommendations.
 DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
-PREMIUM_MATCH=("rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+PREMIUM_MATCH=("bever","bergfreunde","bergzeit","norrøna","norrona","mammut","rab","fjällräven","fjallraven","patagonia","outdoor","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
 PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","salomon","hoka","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","protest","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","patagonia","the north face","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
 DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
 def high_quality_candidate(title,kind):
@@ -150,6 +154,8 @@ def official_contests(now):
 
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
+ with open("wishlist.json",encoding="utf-8") as f:wishlist=json.load(f)
+ wishlist_terms=[str(k).casefold() for item in wishlist.get("items",[]) for k in item.get("keywords",[])]
  minimum=contest_profile["minimumPrizeValueEUR"]
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
@@ -173,6 +179,7 @@ def main():
     phrase=(title+" "+parts.path).casefold()
     if not any(s in phrase for s in SIGNALS[kind]):continue
     rank=score(title,kind)
+    if any(w in title.casefold() for w in wishlist_terms):rank=min(100,rank+25)
     if rank<35:continue
     ident=hashlib.sha256((kind+" "+url.split("?")[0]).encode()).hexdigest()[:20]
     # A candidate cannot become a confirmed offer through discovery alone.
@@ -185,7 +192,7 @@ def main():
  # Conservative expiration until explicit date parsing is available.
  for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
  rows=official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
+ result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

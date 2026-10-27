@@ -33,6 +33,12 @@ class WishlistAndProfileTests(unittest.TestCase):
             self.assertFalse(scan.high_quality_candidate(title,"deals","Amac Apple aanbiedingen"))
         self.assertTrue(scan.high_quality_candidate("Apple AirPods Pro 3 korting","deals","Amac Apple aanbiedingen"))
 
+    def test_remove_navigation_and_catalogue_hits(self):
+        for title in ("AirPods vergelijken", "AirPods-accessoires", "Alle AirPods-modellen",
+                      "Apple AirPods accessoires", "MacBook modellen vergelijken"):
+            with self.subTest(title=title):
+                self.assertFalse(scan.high_quality_candidate(title,"deals","Amac Apple aanbiedingen"))
+
     def test_important_preferences_remain(self):
         self.assertEqual(self.profile["coverage"]["physicalShopRadiusKm"],20)
         self.assertEqual(self.profile["contests"]["minimumPrizeValueEUR"],250)

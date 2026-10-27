@@ -29,7 +29,7 @@ SOURCES=[
 SIGNALS={"sales":("sample sale","stock sale","stockverkoop","stock sale","merkkleding","archive sale","outlet sale","warehouse sale","sample-sale","/sample","stock-sale","stockverkoop","sample sale"),
 "contests":("win een","win de","win het","win 2","win 5","winactie","prijsvraag","giveaway","winnen","/winactie/"),
 "deals":("aanbieding","korting","deal","outlet","sale","2+1","1+1","aanbiedingen","discount")}
-LIKES=("padel","sport","schoenen","heren","menswear","premium","outdoor","sneaker","salomon","hoka","apple","dyson","rituals","nike","adidas","tommy","ralph","kuyichi","vakantie","reizen","reis","cadeaubon","geld","shoptegoed","laptop","fashion","denim","super sale","ticket","elektronica","koffie")
+LIKES=("padel","sport","schoenen","heren","menswear","premium","sneaker","hoka","apple","dyson","rituals","nike","adidas","tommy","ralph","kuyichi","vakantie","reizen","reis","cadeaubon","geld","shoptegoed","laptop","fashion","denim","super sale","ticket","elektronica","koffie")
 NOISE=("baby","kinderspeelgoed","kinderwagen","loterij","gokken","casino","speelgoedfolder","/privacy","/cookies","/contact","/login","/tag/","/categorie/","/category/")
 class Links(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.links=[];self.href=None;self.text=[];self.active=False
@@ -52,7 +52,7 @@ def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
  if kind=="sales":value+=25
- if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson","patagonia","salomon")):value+=20
+ if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson")):value+=20
  if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2
@@ -130,10 +130,41 @@ def classify(title,kind):
 # Quality gate: discovery is not verification. Do not publish aggregator-only
 # competition leads as suitable personal recommendations.
 DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
-PREMIUM_MATCH=("terrasoverkapping","veranda","overkapping","tuinaanleg","tuinrenovatie","isolatie","warmtepomp","schuur","schilderwerk","hogedrukreiniger","bever","bergfreunde","bergzeit","rab","fjällräven","fjallraven","patagonia","outdoor","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
-PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","salomon","hoka","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","protest","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","patagonia","the north face","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
+PREMIUM_MATCH=("terrasoverkapping","veranda","overkapping","tuinaanleg","tuinrenovatie","isolatie","warmtepomp","schuur","schilderwerk","hogedrukreiniger","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
 DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
-def high_quality_candidate(title,kind):
+
+# Enig gewenst outdoor-merk is Arc'teryx. HOKA is uitsluitend een
+# apart, expliciet gewenst hardloopschoenenproduct op de verlanglijst.
+OUTDOOR_EXCLUDED_BRANDS=(
+ "salomon","patagonia","norrøna","norrona","mammut","rab","fjällräven",
+ "fjallraven","the north face","jack wolfskin","columbia","vaude",
+ "haglofs","haglöfs","ortovox","helly hansen","peak performance",
+ "black diamond","protest","bergans","marmot","montane","cotopaxi",
+ "mountain equipment","berghaus","regatta","lowe alpine",
+)
+OUTDOOR_SOURCE_NAMES=("Bever sale","Bergfreunde sale","Bergzeit sale")
+OUTDOOR_GENERIC_TERMS=(
+ "outdoor","outdoorschoen","wandel","hiking","trekking","hardshell",
+ "softshell","bergwandelen","bergklimmen","bergkleding","klimjas",
+ "fleecejack","gore-tex","gore tex","wandelrugzak",
+)
+def arcteryx_mentioned(title):
+ t=title.casefold().replace("’","'")
+ return "arc'teryx" in t or "arcteryx" in t
+
+def unwanted_outdoor(title,source=""):
+ t=title.casefold().replace("’","'")
+ if any(re.search(r"(?<!\w)"+re.escape(brand)+r"(?!\w)",t)
+        for brand in OUTDOOR_EXCLUDED_BRANDS):
+  return True
+ if arcteryx_mentioned(title):return False
+ if source in OUTDOOR_SOURCE_NAMES:return True
+ if any(word in t for word in OUTDOOR_GENERIC_TERMS):return True
+ return False
+
+def high_quality_candidate(title,kind,source=""):
+ if unwanted_outdoor(title,source):return False
  t=title.casefold()
  if kind=="sales":
   return any(brand in t for brand in PREMIUM_SALE_BRANDS)
@@ -179,7 +210,7 @@ def main():
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind",""),x.get("source","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -190,7 +221,7 @@ def main():
     if parts.scheme!="https" or not parts.hostname:continue
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
     if is_navigation(title,url,kind):continue
-    if not high_quality_candidate(title,kind):continue
+    if not high_quality_candidate(title,kind,name):continue
     if kind=="contests" and not worthwhile_contest(title,url):continue
     phrase=(title+" "+parts.path).casefold()
     if not any(s in phrase for s in SIGNALS[kind]):continue

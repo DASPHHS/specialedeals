@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-10-27",
+  "minimumPrizeValueEUR": 250,
+  "newsletterPolicy": "allowed_only_if_reputable_clearly_disclosed_and_easy_to_unsubscribe",
+  "preferredPrizeCategories": [
+    "cash_and_vouchers",
+    "travel_for_two",
+    "cars_and_bicycles",
+    "electronics",
+    "home_and_renovation",
+    "other_high_value_surprises"
+  ],
+  "exclude": [
+    "paid_entry",
+    "lotteries",
+    "small_prizes",
+    "questionable_lead_generation",
+    "unclear_marketing_conditions"
+  ],
+  "verificationRequirement": "Only mark eligible after checking official terms, NL participation, deadline, costs and prize value.",
+  "discoveryPolicy": "Unknown-value high-ticket category prizes may be collected as unverified leads, but never labelled as confirmed EUR250+."
+}

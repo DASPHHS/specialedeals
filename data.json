@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:18:05.552180+00:00",
+  "updatedAt": "2026-10-27T23:19:51.699048+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,31 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:18:05.552180+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "discoveredAt": "2026-10-27T23:19:51.699048+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
+      "status": "Voorwaarden gecontroleerd"
+    },
+    {
+      "id": "official-wibra-fiat-topolino-2026",
+      "title": "Wibra: win een Fiat Topolino",
+      "description": "Jubileumactie Wibra 70 jaar. Hoofdprijs Fiat Topolino, rijklaar geleverd. Gratis deelname voor Nederlandse inwoners vanaf 18 jaar, één deelname per persoon, zonder aankoop. Raad correct hoeveel Dasty-flessen in de auto zitten. Nieuwsbrief optioneel.",
+      "url": "https://www.wibra.nl/winactie-fiat-topolino/",
+      "organizer": "Wibra",
+      "category": "Auto's & mobiliteit",
+      "prizeValueEUR": 9875,
+      "price": "Prijswaarde €9.875",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-11",
+      "date": "Tot en met 11 november 2026",
+      "officialTermsUrl": "https://www.wibra.nl/actievoorwaarden-wibra-70-jaar-win-een-fiat-topolino-en-nog-meer-prijzen/",
+      "verifiedAt": "2026-10-28",
+      "conditions": "Gratis; NL 18+; geen aankoop; één inzending; juist antwoord vereist voor hoofdprijs; nieuwsbrief optioneel. Kansspelbelasting voor Wibra.",
+      "score": 95,
+      "kind": "contests",
+      "source": "Wibra",
+      "audience": "all",
+      "discoveredAt": "2026-10-27T23:19:51.699048+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -36,7 +59,7 @@
       "score": 90,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "20ed8906ad9c7f231b91",
@@ -50,7 +73,7 @@
       "score": 90,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "8405fd7df249e344eb4a",
@@ -64,7 +87,7 @@
       "score": 73,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "0019774fab1d4c52fb29",
@@ -77,7 +100,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -92,7 +115,7 @@
       "score": 70,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "2b5646e1666dddb7b414",
@@ -106,7 +129,7 @@
       "score": 70,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -119,7 +142,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -134,7 +157,7 @@
       "score": 63,
       "audience": "all",
       "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "950a816fc8d01b256478",
@@ -147,7 +170,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -162,7 +185,7 @@
       "score": 61,
       "audience": "men",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -175,7 +198,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -189,7 +212,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -203,7 +226,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -217,7 +240,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -231,7 +254,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -245,7 +268,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Sample sales"
     },
     {
@@ -288,7 +311,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "0bfcf2490d58555860f8",
@@ -302,7 +325,7 @@
       "score": 53,
       "audience": "men",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "22201ef2521fb4a6c2f8",
@@ -316,7 +339,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "08491a94cef813cc2f5e",
@@ -344,7 +367,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "864d14e8e0cf1068440f",
@@ -358,7 +381,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "38a3a9e8a6ac868363b4",
@@ -372,7 +395,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "96dbe1838b151b6d0b86",
@@ -386,7 +409,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     },
     {
       "id": "92786655c93082b352d7",
@@ -399,7 +422,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Overige deals"
     },
     {
@@ -413,7 +436,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00",
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00",
       "category": "Huis & tuin"
     },
     {
@@ -428,7 +451,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
-      "lastSeenAt": "2026-10-27T23:18:05.552180+00:00"
+      "lastSeenAt": "2026-10-27T23:19:51.699048+00:00"
     }
   ],
   "sources": [
@@ -461,8 +484,9 @@
     },
     {
       "name": "GratiZ",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "name": "Prijsvragen.nl",

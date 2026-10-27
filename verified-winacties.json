@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "contests": [
     {
       "id": "anwb-droomvakantie-2026",
@@ -17,6 +17,23 @@
       "verifiedAt": "2026-10-27",
       "conditions": "Gratis; woonachtig Nederland, 18+, één deelname per persoon. Nieuwsbriefpromotie.",
       "score": 99
+    },
+    {
+      "id": "wibra-fiat-topolino-2026",
+      "title": "Wibra: win een Fiat Topolino",
+      "description": "Jubileumactie Wibra 70 jaar. Hoofdprijs Fiat Topolino, rijklaar geleverd. Gratis deelname voor Nederlandse inwoners vanaf 18 jaar, één deelname per persoon, zonder aankoop. Raad correct hoeveel Dasty-flessen in de auto zitten. Nieuwsbrief optioneel.",
+      "url": "https://www.wibra.nl/winactie-fiat-topolino/",
+      "organizer": "Wibra",
+      "category": "Auto's & mobiliteit",
+      "prizeValueEUR": 9875,
+      "price": "Prijswaarde €9.875",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-11",
+      "date": "Tot en met 11 november 2026",
+      "officialTermsUrl": "https://www.wibra.nl/actievoorwaarden-wibra-70-jaar-win-een-fiat-topolino-en-nog-meer-prijzen/",
+      "verifiedAt": "2026-10-28",
+      "conditions": "Gratis; NL 18+; geen aankoop; één inzending; juist antwoord vereist voor hoofdprijs; nieuwsbrief optioneel. Kansspelbelasting voor Wibra.",
+      "score": 100
     }
   ]
 }

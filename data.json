@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:58:44.031365+00:00",
+  "updatedAt": "2026-10-27T23:59:14.477383+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:58:44.031365+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "discoveredAt": "2026-10-27T23:59:14.477383+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,8 +43,8 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:58:44.031365+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "discoveredAt": "2026-10-27T23:59:14.477383+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -58,7 +58,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -73,7 +73,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -88,7 +88,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -103,7 +103,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -118,7 +118,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -133,7 +133,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -148,7 +148,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:58:44.031365+00:00",
+      "lastSeenAt": "2026-10-27T23:59:14.477383+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     }
@@ -183,9 +183,8 @@
     },
     {
       "name": "GratiZ",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 202"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "Prijsvragen.nl",

@@ -77,11 +77,20 @@ def worthwhile_contest(title,url):
  t=title.casefold()
  if any(x in t for x in TRIVIAL):return False
  # An explicit euro prize may qualify only when at least EUR 250.
- eurovalues=[float(x.replace(".","").replace(",",".")) for x in re.findall(r"€\s*(\d[\d.,]*)",t)]
- if eurovalues and max(eurovalues)>=250:return True
+ eurovalues=[]
+ for amount in re.findall(r"€\s*(\d[\d.,]*)",t):
+  cleaned=amount.rstrip(".,")
+  if "," in cleaned:
+   cleaned=cleaned.split(",")[0]
+  try:eurovalues.append(int(cleaned.replace(".","")))
+  except ValueError:pass
+ if eurovalues:
+  return max(eurovalues)>=250
  return any(key in t for key in BIG_PRIZES)
 
 def main():
+ with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
+ minimum=contest_profile["minimumPrizeValueEUR"]
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
  try:
@@ -108,13 +117,13 @@ def main():
     # A candidate cannot become a confirmed offer through discovery alone.
     if ident in items:items[ident]["lastSeenAt"]=now;count+=1;continue
     audience="women" if ("womenswear" in phrase or "dames" in phrase) and "heren" not in phrase and "menswear" not in phrase else "men" if ("heren" in phrase or "menswear" in phrase) and "dames" not in phrase else "all"
-    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"status":"Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
+    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
     count+=1
    statuses.append({"name":name,"status":"ok","count":count})
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
  # Conservative expiration until explicit date parsing is available.
  rows=sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"note":"Unverified public discovery only. Do not infer real availability, free entry or local distance."}
+ result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Unverified public discovery only. Do not infer real availability, free entry or local distance."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

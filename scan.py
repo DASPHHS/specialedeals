@@ -22,6 +22,7 @@ SOURCES=[
  ("Reclamefolder","deals","https://www.reclamefolder.nl/categorieen/"),
  ("Pepper","deals","https://nl.pepper.com/"),
  ("SuperSales","deals","https://www.supersales.nl/"),
+ ("Amac Apple aanbiedingen","deals","https://www.amac.nl/sale/aanbiedingen"),
  ("Bever sale","deals","https://www.bever.nl/c/aanbiedingen.html"),
  ("Bergfreunde sale","deals","https://www.bergfreunde.nl/outlet/"),
  ("Bergzeit sale","deals","https://www.bergzeit.nl/outlet/"),
@@ -29,7 +30,7 @@ SOURCES=[
 SIGNALS={"sales":("sample sale","stock sale","stockverkoop","stock sale","merkkleding","archive sale","outlet sale","warehouse sale","sample-sale","/sample","stock-sale","stockverkoop","sample sale"),
 "contests":("win een","win de","win het","win 2","win 5","winactie","prijsvraag","giveaway","winnen","/winactie/"),
 "deals":("aanbieding","korting","deal","outlet","sale","2+1","1+1","aanbiedingen","discount")}
-LIKES=("padel","sport","schoenen","heren","menswear","premium","sneaker","hoka","apple","dyson","rituals","nike","adidas","tommy","ralph","kuyichi","vakantie","reizen","reis","cadeaubon","geld","shoptegoed","laptop","fashion","denim","super sale","ticket","elektronica","koffie")
+LIKES=("padel","sport","schoenen","heren","menswear","premium","sneaker","hoka","apple","dyson","rituals","airpods","macbook","watch ultra","nike","adidas","tommy","ralph","kuyichi","vakantie","reizen","reis","cadeaubon","geld","shoptegoed","laptop","fashion","denim","super sale","ticket","elektronica","koffie")
 NOISE=("baby","kinderspeelgoed","kinderwagen","loterij","gokken","casino","speelgoedfolder","/privacy","/cookies","/contact","/login","/tag/","/categorie/","/category/")
 class Links(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.links=[];self.href=None;self.text=[];self.active=False
@@ -52,7 +53,7 @@ def score(title,kind):
  t=title.casefold();value=45
  value+=sum(8 for word in LIKES if word in t)
  if kind=="sales":value+=25
- if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson")):value+=20
+ if any(w in t for w in ("arc\'teryx","arcteryx","hoka","janzen","dyson","airpods pro","airpods","macbook","watch ultra")):value+=20
  if kind=="contests":value+=22
  if "kinderen" in t or "kidswear" in t:value-=8
  if "dames" in t or "womenswear" in t:value+=2
@@ -117,6 +118,7 @@ def classify(title,kind):
  if kind=="sales":return "Sample sales"
  if kind=="deals":
   if any(w in t for w in CATEGORIES["Huis & tuin"]):return "Huis & tuin"
+  if any(w in t for w in ("airpods","macbook","watch ultra")):return "Apple & elektronica"
   if any(w in t for w in CATEGORIES["Elektronica"]):return "Elektronica"
   if any(w in t for w in ("terrasoverkapping","overkapping","veranda","tuinrenovatie","isolatie","warmtepomp","schuur renoveren","schilderwerk")):return "Huisprojecten & verduurzaming"
   if any(w in t for w in ("rituals","janzen","parfum","verzorging","shampoo","beauty","skincare")):return "Verzorging & beauty"
@@ -130,7 +132,7 @@ def classify(title,kind):
 # Quality gate: discovery is not verification. Do not publish aggregator-only
 # competition leads as suitable personal recommendations.
 DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
-PREMIUM_MATCH=("terrasoverkapping","veranda","overkapping","tuinaanleg","tuinrenovatie","isolatie","warmtepomp","schuur","schilderwerk","hogedrukreiniger","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+PREMIUM_MATCH=("terrasoverkapping","veranda","overkapping","tuinaanleg","tuinrenovatie","isolatie","warmtepomp","schuur","schilderwerk","hogedrukreiniger","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","airpods","watch ultra","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
 PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
 DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
 
@@ -163,8 +165,33 @@ def unwanted_outdoor(title,source=""):
  if any(word in t for word in OUTDOOR_GENERIC_TERMS):return True
  return False
 
+
+# Wishlist title matches are unverified leads, not validated product variants.
+def wishlist_hits(title, wishlist_items):
+ t=title.casefold().replace("’","'")
+ hits=[]
+ for item in wishlist_items:
+  patterns=item.get("matchAny") or item.get("keywords") or []
+  if not any(str(k).casefold().replace("’","'") in t for k in patterns):continue
+  if any(str(k).casefold().replace("’","'") in t for k in item.get("excludeTerms",[])):continue
+  if item.get("id")=="dyson-handstofzuiger" and "dyson" not in t and "stofzuiger" not in t:continue
+  hits.append(item["id"])
+ return hits
+
+APPLE_ACCESSORY_TERMS=(
+ "airpods hoes","airpods case","airpods cover","airpods oplaadcase",
+ "airpods bescherm","airpods accessoire","macbook hoes","macbook case",
+ "macbook cover","macbook lader","macbook sleeve","watch ultra band",
+ "watch ultra strap","watch ultra hoes","watch ultra cover",
+ "apple watch ultra band","apple watch ultra strap",
+)
+def generic_apple_accessory(title):
+ t=title.casefold()
+ return any(x in t for x in APPLE_ACCESSORY_TERMS)
+
 def high_quality_candidate(title,kind,source=""):
  if unwanted_outdoor(title,source):return False
+ if generic_apple_accessory(title):return False
  t=title.casefold()
  if kind=="sales":
   return any(brand in t for brand in PREMIUM_SALE_BRANDS)
@@ -203,7 +230,8 @@ def unique_offers(rows):
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  with open("wishlist.json",encoding="utf-8") as f:wishlist=json.load(f)
- wishlist_terms=[str(k).casefold() for item in wishlist.get("items",[]) for k in item.get("keywords",[])]
+ wishlist_items=wishlist.get("items",[])
+ with open("radar-profiel.json",encoding="utf-8") as f:radar_profile=json.load(f)
  minimum=contest_profile["minimumPrizeValueEUR"]
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
@@ -223,24 +251,28 @@ def main():
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
     if is_navigation(title,url,kind):continue
     if not high_quality_candidate(title,kind,name):continue
+    matched_wishes=wishlist_hits(title,wishlist_items)
     if kind=="contests" and not worthwhile_contest(title,url):continue
     phrase=(title+" "+parts.path).casefold()
-    if not any(s in phrase for s in SIGNALS[kind]):continue
+    if not any(signal in phrase for signal in SIGNALS[kind]) and not (kind=="deals" and matched_wishes and name=="Amac Apple aanbiedingen"):continue
     rank=score(title,kind)
-    if any(w in title.casefold() for w in wishlist_terms):rank=min(100,rank+25)
+    if matched_wishes:rank=min(100,rank+30)
     if rank<35:continue
     ident=hashlib.sha256((kind+" "+url.split("?")[0]).encode()).hexdigest()[:20]
     # A candidate cannot become a confirmed offer through discovery alone.
-    if ident in items:items[ident]["lastSeenAt"]=now;items[ident]["category"]=classify(title,kind);count+=1;continue
+    if ident in items:items[ident]["lastSeenAt"]=now;items[ident]["category"]=classify(title,kind);items[ident]["wishlistMatches"]=matched_wishes;count+=1;continue
     audience="women" if ("womenswear" in phrase or "dames" in phrase) and "heren" not in phrase and "menswear" not in phrase else "men" if ("heren" in phrase or "menswear" in phrase) and "dames" not in phrase else "all"
-    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"category":classify(title,kind),"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
+    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"category":classify(title,kind),"wishlistMatches":matched_wishes,"priceVerified":False,"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
     count+=1
    statuses.append({"name":name,"status":"ok","count":count})
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
  # Conservative expiration until explicit date parsing is available.
- for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
+ for record in items.values():
+  record["category"]=classify(record.get("title",""),record.get("kind",""))
+  record["wishlistMatches"]=wishlist_hits(record.get("title",""),wishlist_items)
+  if record.get("kind")=="deals":record["priceVerified"]=False
  rows=unique_offers(official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"])))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
+ result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"radarProfileLastRead":radar_profile.get("updatedAt"),"wishlistProducts":[{"id":x["id"],"name":x["name"],"category":x.get("category",""),"maxPriceEUR":x.get("maxPriceEUR")} for x in wishlist_items],"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

@@ -53,8 +53,8 @@
       "deadline": "2026-12-06",
       "startsAt": "2026-10-22",
       "verifiedAt": "2026-10-26T14:50:31.284494+00:00",
-      "sourceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
-      "termsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie",
+      "sourceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie-social",
+      "termsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
       "free": true,
       "purchaseRequired": false,
       "newsletterRequired": false,
@@ -62,20 +62,21 @@
       "entrants": null,
       "conditions": "18+, Nederland; één deelname per persoon. Nieuwsbrief vrijwillig. Boeken uiterlijk 31 maart 2027. Geen contante uitbetaling; restbedrag vervalt; extra reisuitgaven voor jezelf.",
       "minutes": 3,
-      "evidence": "Officiële actiepagina gecontroleerd. Persoonlijke deelnames staan uitsluitend in het privé-dashboard.",
+      "evidence": "Actuele 2026-campagne via /win-je-droomvakantie-social en officiële voorwaarden gecontroleerd; oude URL zonder -social verwijst naar verlopen actie februari 2026.",
       "eligibleFromNetherlands": true,
       "entryLimit": {
         "count": 1,
-        "scope": "person",
-        "period": "campaign",
-        "evidenceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie"
+        "scope": "persoon, ongeacht e-mailadres",
+        "period": "22 oktober t/m 6 december 2026",
+        "evidenceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden"
       },
       "costs": {
-        "entryEUR": 0,
+        "entry": "gratis",
         "purchaseRequired": false,
-        "additionalCosts": "Onder meer verzekeringen, visa, toeristenbelasting en lokale heffingen niet inbegrepen.",
-        "evidenceUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie"
-      }
+        "marketingRequired": false,
+        "prizeExtras": "verzekeringen, persoonlijke uitgaven, visa en lokale heffingen niet inbegrepen"
+      },
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "wibra-topolino-2026",
@@ -100,17 +101,18 @@
       "eligibleFromNetherlands": true,
       "entryLimit": {
         "count": 1,
-        "scope": "person",
-        "period": "campaign",
+        "scope": "persoon ongeacht apparaat of kanaal",
+        "period": "22 oktober t/m 11 november 2026",
         "evidenceUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/"
       },
       "costs": {
-        "entryEUR": 0,
+        "entry": "gratis",
         "purchaseRequired": false,
-        "additionalCosts": "Zie voorwaarden en prijsgebruik per actie",
-        "evidenceUrl": "https://www.wibra.nl/actievoorwaarden-winactie-fiat-topolino/"
+        "marketingRequired": false,
+        "prizeExtras": "auto rijklaar thuisgeleverd, tenaamstelling en kansspelbelasting organisator"
       },
-      "deadlineAt": "2026-11-11T22:59:00Z"
+      "deadlineAt": "2026-11-11T22:59:00Z",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "mtb-night-bergschenhoek-2026",
@@ -324,16 +326,16 @@
       "eligibleFromNetherlands": true,
       "entryLimit": {
         "count": 1,
-        "scope": "person",
-        "period": "campaign",
+        "scope": "persoon, zelfde naam en adres",
+        "period": "7 oktober 10:00 t/m 9 november 00:00 Franse tijd",
         "evidenceUrl": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf"
       },
       "costs": {
-        "entryEUR": 0,
+        "entry": "gratis",
         "purchaseRequired": false,
-        "additionalCosts": "Reiskosten en gebruikskosten niet bevestigd als inbegrepen. Vaste reisdata 19–26 december 2026.",
-        "evidenceUrl": "https://xmas.meribel.net/pdf/reglement-fr-xmas-2026.pdf"
-      }
+        "prizeExtras": "reis, maaltijden en andere bijkomende kosten voor winnaar"
+      },
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "wanderlust-awards-2026",
@@ -355,15 +357,18 @@
       "entrants": null,
       "conditions": "18+, gratis stemmen en organisator volgen op Instagram/Facebook; één standaardinzending. Internationale deelname toegestaan, maar niet elke deelprijs voor elk land. India is expliciet wereldwijd toegankelijk; Peru bevat vluchtbijdrage met plafond. Controleer per geselecteerde prijs landen en vertrekpunt. Reis naar VK, verzekering, visa en bijkosten kunnen voor jezelf zijn. Geautomatiseerde inzendingen verboden: zelf deelnemen. Sluit 27 oktober 23.59 Britse tijd. Niet elf afzonderlijke winacties geteld. Automatische inzendingen en bots uitdrukkelijk uitgesloten (Master terms 8); uitsluitend handmatig deelnemen.",
       "minutes": 5,
-      "evidence": "Officiële openbare actievoorwaarden gelezen op 25 oktober 2026; Nederlandse deelname toegestaan volgens wereldwijde/algemene toelating. Niet namens jou ingezonden.",
+      "evidence": "Mastervoorwaarden: 27 oktober 23:59 UK-tijd = 28 oktober 00:59 Nederland; Qatar Airways eigen deadline 27 oktober 23:59 Doha-tijd = 27 oktober 21:59 Nederland; toelating per deelprijs verschilt.",
       "automationAllowed": false,
       "automationEvidence": "Master terms Eligibility 8: automated entries and bots will be disqualified.",
       "entryLimit": {
         "count": 1,
-        "scope": "person",
-        "period": "campaign",
+        "scope": "persoon, standaardinzending; aparte voorwaarden enhanced entry",
+        "period": "t/m 27 oktober 23:59 UK-tijd",
         "evidenceUrl": "https://www.wanderlustmagazine.com/wanderlust-reader-travel-awards-2026-prize-draw-terms-and-conditions/"
-      }
+      },
+      "eligibleFromNetherlands": "per individuele prijs controleren",
+      "automationRule": "Automated/bot/spam entries disqualified; handmatig",
+      "reviewedOn": "2026-10-27"
     },
     {
       "id": "pme-jacket-2026",

@@ -22,7 +22,7 @@ QUERIES=[
  "Belgium winactie Nederland inwoners deelname 2026 hoofdprijs",
  "UK Europe giveaway Netherlands eligible official rules 2026",
 ]
-EXCLUDED=("prijzenzolder.nl","gratiswinactie.nl","prijsvragen.nl","gratiz.nl","loterij","casino","spelletjesweb")
+EXCLUDED=("win-rar.com","winrar.com","microsoft.com","merriam-webster.com","dictionary.com","wikipedia.org","prijzenzolder.nl","gratiswinactie.nl","prijsvragen.nl","gratiz.nl","loterij","casino","spelletjesweb")
 def search(q):
  url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss"})
  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
@@ -32,7 +32,8 @@ def search(q):
   title=entry.findtext("title","").strip()
   link=entry.findtext("link","").strip()
   if not link.startswith("https://") or any(x in link.lower() for x in EXCLUDED):continue
-  if not re.search(r"win|gratis|actie|auto|vakantie|keuken|reis|giveaway|sweepstakes|contest|gewinnspiel|concours|gagnez|prize|trip|car",title,re.I):continue
+  if not re.search(r"\b(win (?:een|de|het|an?|a|the)|giveaway|sweepstakes|gewinnspiel|concours|gagnez|verloting|verloot|prijsvraag|winactie|wedstrijd)\b",title,re.I):continue
+  if not re.search(r"auto|fiat|car\b|fiets|bike|reis|vacation|holiday|vakantie|keuken|kitchen|renovation|verbouwing|dyson|miele|apple|macbook|iphone|€|eur|\$|[0-9][.,]?[0-9]*\s?(euro|euros)",title+" "+entry.findtext("description",""),re.I):continue
   yield {"title":title[:180],"url":link,"snippet":entry.findtext("description","")[:320],"verificationStatus":"Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"}
 
 def main():

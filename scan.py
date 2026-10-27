@@ -88,6 +88,29 @@ def worthwhile_contest(title,url):
   return max(eurovalues)>=250
  return any(key in t for key in BIG_PRIZES)
 
+
+CATEGORIES={
+ "Huis & tuin":("tuin","woning","huis","meubel","interieur","keuken","verbouw","badkamer","gereedschap","robotmaaier","terras","bankstel"),
+ "Auto's & mobiliteit":("auto","tesla","volvo","bmw","elektrische fiets","e-bike","fiets","bakfiets","scooter","mobiliteit"),
+ "Vakanties & reizen":("vakantie","reis","hotel","cruise","vliegticket","weekend weg","overnachting","reisvoucher","reischeque"),
+ "Uitjes & belevenissen":("concert","festival","dagje uit","pretpark","diner","restaurant","wellness","spa","belevenis","tickets"),
+ "Geld & tegoed":("geld","cash","euro","shoptegoed","winkeltegoed","waardebon","cadeaubon","tegoed","hypotheek"),
+ "Elektronica":("iphone","ipad","macbook","apple","dyson","laptop","playstation","televisie","tv","smartphone","koptelefoon","tablet"),
+ "Gratis spullen & producten":("gratis","pakket","product","schoenen","kleding","parfum","verzorging","sport","racket")
+}
+def classify(title,kind):
+ t=title.casefold()
+ if kind=="sales":return "Sample sales"
+ if kind=="deals":
+  if any(w in t for w in CATEGORIES["Huis & tuin"]):return "Huis & tuin"
+  if any(w in t for w in CATEGORIES["Elektronica"]):return "Elektronica"
+  if any(w in t for w in ("rituals","janzen","parfum","verzorging","shampoo","beauty","skincare")):return "Verzorging & beauty"
+  if any(w in t for w in ("schoen","kleding","shirt","jas","nike","adidas","mode")):return "Mode & schoenen"
+  return "Overige deals"
+ for category, words in CATEGORIES.items():
+  if any(w in t for w in words):return category
+ return "Overige waardevolle prijzen"
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  minimum=contest_profile["minimumPrizeValueEUR"]
@@ -115,13 +138,14 @@ def main():
     if rank<35:continue
     ident=hashlib.sha256((kind+" "+url.split("?")[0]).encode()).hexdigest()[:20]
     # A candidate cannot become a confirmed offer through discovery alone.
-    if ident in items:items[ident]["lastSeenAt"]=now;count+=1;continue
+    if ident in items:items[ident]["lastSeenAt"]=now;items[ident]["category"]=classify(title,kind);count+=1;continue
     audience="women" if ("womenswear" in phrase or "dames" in phrase) and "heren" not in phrase and "menswear" not in phrase else "men" if ("heren" in phrase or "menswear" in phrase) and "dames" not in phrase else "all"
-    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
+    items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"category":classify(title,kind),"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
     count+=1
    statuses.append({"name":name,"status":"ok","count":count})
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
  # Conservative expiration until explicit date parsing is available.
+ for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
  rows=sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
  result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Unverified public discovery only. Do not infer real availability, free entry or local distance."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)

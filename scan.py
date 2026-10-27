@@ -111,6 +111,24 @@ def classify(title,kind):
   if any(w in t for w in words):return category
  return "Overige waardevolle prijzen"
 
+
+# Quality gate: discovery is not verification. Do not publish aggregator-only
+# competition leads as suitable personal recommendations.
+DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
+PREMIUM_MATCH=("rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
+def high_quality_candidate(title,kind):
+ t=title.casefold()
+ if kind=="deals":
+  if any(w in t for w in DEAL_JUNK):return False
+  # No undifferentiated ordinary folder products in curated results.
+  return any(w in t for w in PREMIUM_MATCH) or any(w in t for w in DEAL_SIGNALS)
+ if kind=="contests":
+  # Aggregator result is only a lead. Real organizer vetting is not implemented.
+  # Do not disguise it as a recommendation on the public site.
+  return False
+ return True
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  minimum=contest_profile["minimumPrizeValueEUR"]
@@ -120,7 +138,7 @@ def main():
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -131,6 +149,7 @@ def main():
     if parts.scheme!="https" or not parts.hostname:continue
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
     if is_navigation(title,url,kind):continue
+    if not high_quality_candidate(title,kind):continue
     if kind=="contests" and not worthwhile_contest(title,url):continue
     phrase=(title+" "+parts.path).casefold()
     if not any(s in phrase for s in SIGNALS[kind]):continue
@@ -147,7 +166,7 @@ def main():
  # Conservative expiration until explicit date parsing is available.
  for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
  rows=sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Unverified public discovery only. Do not infer real availability, free entry or local distance."}
+ result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Curated discovery only. Unverified price candidates are not proven bargains; no aggregator winacties are published without verified official organizer and terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

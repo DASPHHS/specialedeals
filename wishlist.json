@@ -39,18 +39,17 @@
     },
     {
       "id": "arcteryx-outdoor",
-      "name": "Arc'teryx en vergelijkbare premium outdoor kleding",
+      "name": "Arc'teryx outdoor kleding",
       "keywords": [
         "Arc'teryx",
-        "Arcteryx",
-        "Patagonia",
-        "Rab",
-        "Fjällräven",
-        "Bever"
+        "Arcteryx"
       ],
       "region": "NL + EU",
-      "notes": "Prioriteit heren XL; A-merken en officiële outlets",
+      "notes": "Uitsluitend Arc'teryx als outdoor-merk; heren XL; Nederlandse en betrouwbare internationale aanbiedingen inclusief verzendkosten, retouren en garantie",
       "maxPriceEUR": null
     }
+  ],
+  "outdoorBrandAllowlist": [
+    "Arc'teryx"
   ]
 }

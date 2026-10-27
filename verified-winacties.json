@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-10-27",
+  "contests": [
+    {
+      "id": "anwb-droomvakantie-2026",
+      "title": "ANWB: win €5.000 voor je droomvakantie",
+      "description": "Gratis deelname, voor inwoners van Nederland vanaf 18 jaar. Eén deelname per persoon. Win €5.000 te besteden aan een ANWB-vakantie. Actie ter promotie van de ANWB Vakantie-nieuwsbrief. Officiële actievoorwaarden gecontroleerd op 27 oktober 2026.",
+      "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/win-je-droomvakantie-social",
+      "organizer": "ANWB",
+      "category": "Vakanties & reizen",
+      "prizeValueEUR": 5000,
+      "price": "Prijswaarde €5.000",
+      "startDate": "2026-10-22",
+      "endDate": "2026-12-06",
+      "date": "Tot en met 6 december 2026",
+      "officialTermsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/voorwaarden",
+      "verifiedAt": "2026-10-27",
+      "conditions": "Gratis; woonachtig Nederland, 18+, één deelname per persoon. Nieuwsbriefpromotie.",
+      "score": 99
+    }
+  ]
+}

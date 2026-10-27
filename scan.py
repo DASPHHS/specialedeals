@@ -18,7 +18,6 @@ SOURCES=[
  ("GratiZ","contests","https://www.gratiz.nl/prijsvragen"),
  ("Prijsvragen.nl","contests","https://www.prijsvragen.nl/"),
  ("Gratiswinactie","contests","https://gratiswinactie.nl/"),
- ("Prijzenzolder","contests","https://www.prijzenzolder.nl/wineenauto.html"),
  ("AlleFolders","deals","https://www.allefolders.nl/aanbiedingen"),
  ("Reclamefolder","deals","https://www.reclamefolder.nl/categorieen/"),
  ("Pepper","deals","https://nl.pepper.com/"),
@@ -132,6 +131,12 @@ def high_quality_candidate(title,kind):
   return False
  return True
 
+def official_contests(now):
+ """Explicitly curated organizer records. Never infer verification from aggregator text."""
+ with open("verified-winacties.json",encoding="utf-8") as f:entries=json.load(f)["contests"]
+ today=dt.datetime.now(dt.timezone.utc).date().isoformat()
+ return [{**v,"id":"official-"+v["id"],"kind":"contests","source":v["organizer"],"audience":"all","score":95,"discoveredAt":now,"lastSeenAt":now,"status":"Voorwaarden gecontroleerd"} for v in entries if v.get("startDate","")<=today<=v.get("endDate","") and v.get("officialTermsUrl")]
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  minimum=contest_profile["minimumPrizeValueEUR"]
@@ -168,8 +173,8 @@ def main():
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
  # Conservative expiration until explicit date parsing is available.
  for record in items.values():record["category"]=classify(record.get("title",""),record.get("kind",""))
- rows=sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Curated discovery only. Unverified price candidates are not proven bargains; no aggregator winacties are published without verified official organizer and terms."}
+ rows=official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"]))[:450]
+ result={"updatedAt":now,"items":rows,"sources":statuses,"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

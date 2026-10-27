@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 import urllib.request
+from deal_verification import verified_offers
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit
 
@@ -237,13 +238,15 @@ def main():
  wishlist_items=wishlist.get("items",[])
  with open("radar-profiel.json",encoding="utf-8") as f:radar_profile=json.load(f)
  minimum=contest_profile["minimumPrizeValueEUR"]
+ with open("verified-deals.json",encoding="utf-8") as f:verified_deal_records=json.load(f)
+ deal_candidates={}
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
  try:
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind",""),x.get("source","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("kind")=="sales" and x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind",""),x.get("source","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -263,7 +266,11 @@ def main():
     if matched_wishes:rank=min(100,rank+30)
     if rank<35:continue
     ident=hashlib.sha256((kind+" "+url.split("?")[0]).encode()).hexdigest()[:20]
-    # A candidate cannot become a confirmed offer through discovery alone.
+    # Unverified product links remain discovery data, never storefront deals.
+    if kind=="deals":
+     deal_candidates[ident]={"id":ident,"title":title,"url":url,"source":name,"wishlistMatches":matched_wishes,"detectedAt":now,"status":"Niet geverifieerd: actuele prijs en vergelijking ontbreken"}
+     count+=1
+     continue
     if ident in items:items[ident]["lastSeenAt"]=now;items[ident]["category"]=classify(title,kind);items[ident]["wishlistMatches"]=matched_wishes;count+=1;continue
     audience="women" if ("womenswear" in phrase or "dames" in phrase) and "heren" not in phrase and "menswear" not in phrase else "men" if ("heren" in phrase or "menswear" in phrase) and "dames" not in phrase else "all"
     items[ident]={"id":ident,"kind":kind,"title":title,"description":("Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator." if kind=="sales" else "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating." if kind=="contests" else "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand."),"source":name,"url":url,"category":classify(title,kind),"wishlistMatches":matched_wishes,"priceVerified":False,"status":"Waarde en voorwaarden controleren" if kind=="contests" else "Te controleren","score":rank,"audience":audience,"discoveredAt":now,"lastSeenAt":now}
@@ -275,8 +282,11 @@ def main():
   record["category"]=classify(record.get("title",""),record.get("kind",""))
   record["wishlistMatches"]=wishlist_hits(record.get("title",""),wishlist_items)
   if record.get("kind")=="deals":record["priceVerified"]=False
- rows=unique_offers(official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"])))[:450]
- result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"radarProfileLastRead":radar_profile.get("updatedAt"),"wishlistProducts":[{"id":x["id"],"name":x["name"],"category":x.get("category",""),"maxPriceEUR":x.get("maxPriceEUR")} for x in wishlist_items],"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
+ approved=verified_offers(verified_deal_records.get("deals",[]),minimum=radar_profile.get("deals",{}).get("minimumRealDiscountPercent",10))
+ rows=unique_offers(approved+official_contests(now)+sorted(items.values(),key=lambda x:(-x["score"],x["title"])))[:450]
+ with open("deal-kandidaten.json","w",encoding="utf-8") as f:
+  json.dump({"updatedAt":now,"items":list(deal_candidates.values())[:300],"notice":"Discovery only, not a confirmed deal, no automatic advertised discount proof"},f,ensure_ascii=False,indent=2)
+ result={"updatedAt":now,"items":rows,"sources":statuses,"wishlistLastRead":wishlist.get("updatedAt"),"radarProfileLastRead":radar_profile.get("updatedAt"),"minDealDiscountPercent":radar_profile.get("deals",{}).get("minimumRealDiscountPercent",10),"dealCandidates":len(deal_candidates),"wishlistProducts":[{"id":x["id"],"name":x["name"],"category":x.get("category",""),"maxPriceEUR":x.get("maxPriceEUR")} for x in wishlist_items],"contestProfile":{"minimumPrizeValueEUR":minimum,"newsletterPolicy":contest_profile["newsletterPolicy"],"preferredPrizeCategories":contest_profile["preferredPrizeCategories"]},"note":"Only manually checked organizer records appear among winacties; source timestamps show scan time, not automatic re-verification of terms."}
  with open("data.json","w",encoding="utf-8") as f:json.dump(result,f,ensure_ascii=False,indent=2)
  print(json.dumps({"total":len(rows),"reachable":sum(s["status"]=="ok" for s in statuses),"status":statuses},ensure_ascii=False))
 if __name__=="__main__":main()

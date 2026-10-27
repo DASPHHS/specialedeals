@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:35:06.392082+00:00",
+  "updatedAt": "2026-10-27T22:52:00.501391+00:00",
   "items": [
     {
       "id": "0019774fab1d4c52fb29",
@@ -12,7 +12,7 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -26,22 +26,8 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Mode & schoenen"
-    },
-    {
-      "id": "1451ce6c14b3a1278962",
-      "kind": "deals",
-      "title": "Dames en heren sokken met badstof voering € 3,49",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/18?offer=9536f682-739a-484d-b855-136677c5679e",
-      "status": "Te controleren",
-      "score": 63,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
     },
     {
       "id": "0340f094dfe36037abb0",
@@ -68,50 +54,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "d2e2b58266fc1f48727a",
-      "kind": "deals",
-      "title": "Levi’s 512 Slim Taper Jeans – Medium Wash (heren)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/levis-512-slim-taper-jeans-medium-wash-heren-423761",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "c88c501e7b463c3e320d",
-      "kind": "deals",
-      "title": "Only & Sons chino heren (night sky, W28 t/m W34)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/only-sons-chino-heren-night-sky-w28-tm-w34-423893",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T19:05:37.422347+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "1675a70a612846d03d40",
-      "kind": "contests",
-      "title": "Test je Oostenrijk-kennis en win een vakantie + treinreis + hotelbon van €450",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://www.columbusmagazine.nl/thema/quizzen/artikel/95283/oostenrijk-zomer-quiz/",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Vakanties & reizen"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -124,50 +68,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "03c215effbe8a9a17a33",
-      "kind": "contests",
-      "title": "Win een reis naar jouw ideale vakantiepark",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.francecomfort.com/l/holiday?tt=21679_12_244_prijsvraag&r=%2Fnl%2Fquiz%2Fstel-uw-ideale-vakantie-samen",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Vakanties & reizen"
-    },
-    {
-      "id": "667174dc73dc06f36cd3",
-      "kind": "contests",
-      "title": "Win prijzen van C&A totaal €10.000, reischeque, shoptegoed C&A, elektrische fiets en nog meer prijzen Cawinactie.com",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-prijzen-van-ca-totaal-10000-reischeque-shoptegoed-ca-elektrische-fiets-en-nog-meer-prijzen/81167.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "7138a41ff032d1a973d6",
-      "kind": "contests",
-      "title": "Win vakantie Abu Dhabi en entreekaartjes voor de Grand Prix Cheaptickets.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-vakantie-abu-dhabi-en-entreekaartjes-voor-de-grand-prix/53045.html",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Vakanties & reizen"
     },
     {
       "id": "1106b41c9d496940caca",
@@ -180,7 +82,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -194,7 +96,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -208,7 +110,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -222,7 +124,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -236,7 +138,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -250,7 +152,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -264,7 +166,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -278,7 +180,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -292,7 +194,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -306,7 +208,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -320,7 +222,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -334,7 +236,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -348,7 +250,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -362,7 +264,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -376,7 +278,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -390,7 +292,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -404,7 +306,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -418,7 +320,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -432,7 +334,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -446,7 +348,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -460,36 +362,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "2f2369fef451a0c408ed",
-      "kind": "deals",
-      "title": "GRATIS Consumentenbond Geldgids",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/gratis-consumentenbond-geldgids-423988",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "b8897bb584c5cb556eb8",
-      "kind": "deals",
-      "title": "Heelys (schoenen met wieltjes) scherp geprijsd",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/heelys-schoenen-met-wieltjes-scherp-geprijsd-423848",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
     },
     {
       "id": "308892ef75aaf75a5dc6",
@@ -502,7 +376,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -516,7 +390,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -530,7 +404,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -544,7 +418,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -558,7 +432,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -572,7 +446,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -586,7 +460,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -600,7 +474,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -614,7 +488,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -628,7 +502,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -642,7 +516,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -656,7 +530,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -670,7 +544,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -684,7 +558,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -698,7 +572,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -712,7 +586,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -726,7 +600,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -740,7 +614,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -754,7 +628,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -768,7 +642,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -796,7 +670,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -810,7 +684,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -824,7 +698,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -838,7 +712,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -852,7 +726,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -866,7 +740,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -880,7 +754,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -894,7 +768,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -908,7 +782,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -922,7 +796,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -936,7 +810,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -950,7 +824,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -964,7 +838,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -978,7 +852,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -992,7 +866,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1006,7 +880,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1020,7 +894,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1034,7 +908,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1048,7 +922,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1062,7 +936,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1076,7 +950,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1090,7 +964,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1104,7 +978,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1118,7 +992,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1146,7 +1020,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1160,7 +1034,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1174,7 +1048,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1188,7 +1062,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1202,7 +1076,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1216,7 +1090,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1230,22 +1104,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "7e32ae86a6dca21bfa8c",
-      "kind": "contests",
-      "title": "Win 2x €250,- shoptegoed van Jane Lushka",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://marieclaire.nl/artikel/698394/winactie-jane-lushka-250-euro-shoptegoed",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Geld & tegoed"
     },
     {
       "id": "e18ebb176e41b45057a6",
@@ -1258,7 +1118,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1272,7 +1132,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
     },
     {
@@ -1286,22 +1146,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "434fb902b67b024e97cd",
-      "kind": "deals",
-      "title": "[Loting/Raffle] Pokémon - 30th Celebration - Ditto Premium Collection voor € 69,99 bij DreamLand",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/lotingraffle-pokemon-30th-celebration-ditto-premium-collection-voor-eur-6999-bij-dreamland-423906",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
     },
     {
       "id": "60615bda88ed364a1893",
@@ -1314,36 +1160,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "ff4e09904be02e17c4f7",
-      "kind": "deals",
-      "title": "filterkoffie",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/filterkoffie",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "774c7f5c4cff4c454976",
-      "kind": "deals",
-      "title": "koffie aanbiedingen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/koffie",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
     },
     {
       "id": "8d12d612c4cc6eb76cbb",
@@ -1356,400 +1174,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "06e4a184b7d10e665d86",
-      "kind": "deals",
-      "title": "13% korting Kinder of dames gevoerde thermolegging € 7,99 € 6,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/20?offer=9438df4e-de63-47df-9dce-c6c8e6262bc9",
-      "status": "Te controleren",
-      "score": 47,
-      "audience": "women",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "ba7ac6e39a995a58bbcb",
-      "kind": "deals",
-      "title": "Dames badjas € 15,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/16?offer=c21f6710-9a6e-4173-9278-d416d087e1b0",
-      "status": "Te controleren",
-      "score": 47,
-      "audience": "women",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
-    },
-    {
-      "id": "9f221a57cc6a97919d2c",
-      "kind": "deals",
-      "title": "Dames pyjama € 16,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/12?offer=1a29e55d-675b-4857-ae7a-ae656ec4521e",
-      "status": "Te controleren",
-      "score": 47,
-      "audience": "women",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "6a935bf509b7faca151b",
-      "kind": "deals",
-      "title": "Dames thermopanty € 8,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/19?offer=cbfa9f40-6b47-4deb-8809-6744a55eaf1e",
-      "status": "Te controleren",
-      "score": 47,
-      "audience": "women",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "5dc3095919ddd4c08995",
-      "kind": "deals",
-      "title": "10% korting t/m 1 november @ Kruidenbaron",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/10-korting-tm-1-november-at-kruidenbaron-423954",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "f65b665d02e7ad4ffad3",
-      "kind": "deals",
-      "title": "8 dagen Kreta (20-27 april) in 4* Adult only absoluut top-complex (4,9 op Google), vlakbij zee voor 2p: 900 euro",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/8-dagen-kreta-20-27-april-in-4-absoluut-adult-only-top-complex-49-op-google-vlakbij-zee-voor-2p-900-euro-423812",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "f7c182f110a0e6230ebb",
-      "kind": "deals",
-      "title": "AEG OU5PB40SM inbouw oven - Met Pyrolysereiniging @Bol",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/aeg-ou5pb40sm-inbouw-oven-met-pyrolysereiniging-at-bol-423977",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "1801109b775ccb815c18",
-      "kind": "deals",
-      "title": "Aardappelen / krieltjes",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/aardappelen-krieltjes",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "6bb54a1e06ad819b0cef",
-      "kind": "deals",
-      "title": "Action folder",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/action/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "87bf448de940b4a26309",
-      "kind": "deals",
-      "title": "Albert Heijn",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/albert-heijn/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "199bc55694de125abd03",
-      "kind": "deals",
-      "title": "Alleen vandaag nog: Tot 45% korting op Stanley 1913 @ Zalando Lounge (o.a. Quencher & IceFlow)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/alleen-vandaag-nog-tot-45-korting-op-stanley-1913-at-zalando-lounge-oa-quencher-iceflow-423911",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "4a2fe16992f9d1b444dc",
-      "kind": "contests",
-      "title": "Altijd prijs €20 en win direct €30.000",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-altijd-prijs-euro-20-en-win-direct-30000.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige waardevolle prijzen"
-    },
-    {
-      "id": "c28c9f1e229ca44e6bfd",
-      "kind": "deals",
-      "title": "Bol dagdeal voor Inbouwovens met [Select]",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/bol-dagdeal-voor-inbouwovens-met-select-423936",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "7a3a993e95cde2ff84ac",
-      "kind": "deals",
-      "title": "Deals op diverse inductie kookplaten bij Bol met [Select]",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/deals-op-diverse-inductie-kookplaten-bij-bol-met-select-423912",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "2844345b493d1d13cd1b",
-      "kind": "deals",
-      "title": "Decoratiestolp met ledverlichting € 6,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/27?offer=622986b8-f86e-4273-9a44-0e3e29b4e546",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "05dd3ec4e27996912385",
-      "kind": "deals",
-      "title": "Dekbedovertrekset € 17,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/13?offer=fe564c31-7e6b-4a90-8bbc-68692589f5d9",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "ac1c6985b80fa70f6e6e",
-      "kind": "deals",
-      "title": "Diepvriesproducten",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/diepvriesproducten",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "9ac34e9727552e797c74",
-      "kind": "deals",
-      "title": "Dreame H15 Pro FoamWash Nat- en Droogzuiger",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/dreame-h15-pro-foamwash-nat-en-droogzuiger-423960",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "24c563c601bb55e1c51d",
-      "kind": "deals",
-      "title": "Ga gratis onder hypnose om de films The Matrix, Se7en, La La Land en Interstellar 'opnieuw' te bekijken @ Pathe Den Haag winactie",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ga-gratis-onder-hypnose-om-de-films-the-matrix-se7en-la-la-land-en-interstellar-opnieuw-te-bekijken-at-pathe-den-haag-winactie-423962",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "d75f1e457ee848dc5097",
-      "kind": "deals",
-      "title": "Gezichtsverzorging",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/gezichtsverzorging",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Verzorging & beauty"
-    },
-    {
-      "id": "7019dc94bd56bfa4a862",
-      "kind": "deals",
-      "title": "Gilet € 14,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/22?offer=50dc1d86-b8ed-403a-aef7-d41c089fa8d7",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "31cb71d479044a53dca6",
-      "kind": "deals",
-      "title": "Gillette / Braun Intimate electric trimmer i5",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/gillette-brain-intimate-electric-trimmer-i5-423956",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "785a3a152676027f4d60",
-      "kind": "deals",
-      "title": "Gratis Thuisgestuurd: Doosje Purina voor de hond of kat!",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/gratis-thuisgestuurd-doosje-purina-voor-de-hond-of-kat-423987",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Huis & tuin"
-    },
-    {
-      "id": "fb00968dd8dc8ef926d8",
-      "kind": "contests",
-      "title": "Gratis Verisure beveiliging testen voor je huis 1 jaar lang",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winnen/gratis-verisure-beveiliging-testen-voor-je-huis-1-jaar-lang.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Huis & tuin"
-    },
-    {
-      "id": "8362644b2a37f3e38e47",
-      "kind": "contests",
-      "title": "Gratis tankkaart (=€2,50 korting per tankbeurt) + win een VIP weekend twv €410 | 4 Winnaars!",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://www.awin1.com/cread.php?s=2678612&v=8311&q=316478&r=617507&clickref=gwa",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Gratis spullen & producten"
-    },
-    {
-      "id": "595cd578a5d79569ab79",
-      "kind": "deals",
-      "title": "Gratis warme drank bij HEMA (1 ING Punt)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/gratis-warme-drank-bij-hema-met-ing-punten-423963",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "cb55ef8d50c17281ad86",
-      "kind": "deals",
-      "title": "Haarband € 1,29",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/25?offer=80bff862-97b4-47c2-81f8-c06076eea006",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "02df6c836cca53aec60f",
-      "kind": "deals",
-      "title": "Hoogvliet folder",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/hoogvliet/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
     },
     {
       "id": "92786655c93082b352d7",
@@ -1762,372 +1188,8 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Overige deals"
-    },
-    {
-      "id": "51a9bba19f160225d01a",
-      "kind": "deals",
-      "title": "Inductiebeschermer met eigen foto of collectiebeeld @ Fotoproducten.nl",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/inductiebeschermer-met-eigen-foto-of-collectiebeeld-at-fotoproducten-423897",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "fe50bef8a202cf936c88",
-      "kind": "deals",
-      "title": "JBL Bar 1000 (7.1.4) en JBL Bar 800 (5.1.2) Dolby Atmos soundbars met afneembare surround speakers en draadloze subwoofer @ Smits Arnhem",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/jbl-bar-1000-714-en-jbl-bar-800-512-dolby-atmos-soundbars-met-afneembare-surround-speakers-en-draadloze-subwoofer-at-smits-arnhem-423976",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "aa9a93083caf412cc487",
-      "kind": "contests",
-      "title": "Jaar lang gratis Verisure beveiligingssysteem testen",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-jaar-lang-gratis-verisure-beveiligingssysteem-testen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Gratis spullen & producten"
-    },
-    {
-      "id": "95621bbf23c0519890f6",
-      "kind": "deals",
-      "title": "Jumbo folder",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/jumbo/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "545ad1940837229caf89",
-      "kind": "deals",
-      "title": "KOORUI K50Q1UQ-T8 50'' (3840 × 2160 (4K UHD) - QLED) TV @ Joybuy",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/koorui-k50q1uq-t8-50-tv-423935",
-      "category": "Elektronica",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00"
-    },
-    {
-      "id": "5c0de454ed5a268d098e",
-      "kind": "deals",
-      "title": "Kinder badjas € 12,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/15?offer=75fb2859-c21a-4184-9a12-61063190757e",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
-    },
-    {
-      "id": "45ba9631a32bf7bd5c16",
-      "kind": "deals",
-      "title": "Kinder pyjama € 9,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/11?offer=c2c84aa5-7750-486d-841d-e825b8bd63ed",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "61ba0b88fd9ffe4b261e",
-      "kind": "deals",
-      "title": "Kinder sokken € 2,29",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/17?offer=ce6a0122-8688-426b-8065-0a0aecd32950",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "982e09378c4ae105dbec",
-      "kind": "deals",
-      "title": "Kinder thermoshirt lange mouw € 3,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/24?offer=8d023511-15c8-46fb-a161-83179a493886",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
-    },
-    {
-      "id": "5b89655195f770a80076",
-      "kind": "deals",
-      "title": "Kruidvat folder",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/kruidvat/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "2d5999c5a37eb0811067",
-      "kind": "deals",
-      "title": "LEMMO 3 Longtail – All Purpose Vehicle (APV)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/lemmo-3-all-purpose-vehicle-apv-423894",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "30481ded2ae3f0457fd4",
-      "kind": "deals",
-      "title": "Likeur en sterke drank",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/likeur-en-sterke-drank",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "037027742aacf977976b",
-      "kind": "deals",
-      "title": "Luiers en pampers",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/luiers-en-pampers",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "81330e0b359b2bec609b",
-      "kind": "deals",
-      "title": "MONSTER ENERGY Ultra White Suikervrije Energiedrank - 12 x 500 ml",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/monster-energy-ultra-white-suikervrije-energiedrank-12-x-500-ml-423737",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "480361816ff0d96c48b6",
-      "kind": "deals",
-      "title": "Marstek Venus E 3.0 plugin thuisbatterij voor €999!",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/marstek-venus-e-30-voor-eur999-423650",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
-      "category": "Huis & tuin"
-    },
-    {
-      "id": "2499fde1b1cb3f25624f",
-      "kind": "deals",
-      "title": "Marstek Venus E met Gratis verzending",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/marstek-venus-e-met-gratis-verzending-423980",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "595d099988bd30ed2192",
-      "kind": "deals",
-      "title": "Pathé Thuis Filmvoucher – 4 films",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ing-prijsverlaging-pathe-thuis-filmvoucher-4-films-423886",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
-      "category": "Huis & tuin"
-    },
-    {
-      "id": "22fc4bf5655c0962397d",
-      "kind": "deals",
-      "title": "Pietenpak € 3,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/26?offer=db145022-dcc8-48ee-b17c-fe16c3e1535e",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "eb26c9a5347c71a70c85",
-      "kind": "deals",
-      "title": "Pre order - inschrijving Pokemon Day/Night 30th UPC",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/pre-order-inschrijving-pokemon-daynight-30th-upc-423819",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "a0eeaeba79793df0dd8b",
-      "kind": "deals",
-      "title": "Pre order inschrijving - Pokemon - 30th Celebration - Figure Collection Mew",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/pre-order-inschrijving-pokemon-30th-celebration-figure-collection-mew-423817",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "ddd02f72c9bb2dda5be7",
-      "kind": "deals",
-      "title": "Prijzenoorlog: AH Stroopwafels (390 gram) nu €0,36 (in Belgie €1,79). Precies dezelfde stroopwafel in Terra verpakking €0,99.",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/stroopwafels-423841",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "7484fba7dc6741be9f14",
-      "kind": "deals",
-      "title": "Retourvlucht naar keuze binnen Europa (2 personen) @ Tripper",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/retourvlucht-naar-keuze-binnen-europa-2-personen-at-tripper-423905",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "f8cbd297b07db36b7449",
-      "kind": "deals",
-      "title": "Roborock Q10 S5 set Nog goedkoper !!!",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/roborock-q10-s5-set-nog-goedkoper-423957",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "8c2c82c79841b887245a",
-      "kind": "deals",
-      "title": "Spaarpot € 2,49",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/86e8cecd-4d6d-4208-9920-5bcc214cc293/28?offer=b92fe822-23e6-41aa-9e19-d5bff5ea1c14",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "88c2a42190244957d6c2",
-      "kind": "contests",
-      "title": "Speel de 1e maand gratis mee en zie direct of je € 50.000,- wint",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/winactie/win-speel-de-1e-maand-gratis-mee-en-zie-direct-of-je-euro-50000-wint.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Gratis spullen & producten"
-    },
-    {
-      "id": "1ea79d90f71795d32fcb",
-      "kind": "deals",
-      "title": "The North Face Centre Logo T-shirt (maat S t/m XL)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/the-north-face-centre-logo-t-shirt-maat-s-tm-xl-423900",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -2140,511 +1202,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "397494101f01e7a6689e",
-      "kind": "deals",
-      "title": "Toiletpapier & WC papier",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/toiletpapier-wc-papier",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "0ea75f46a176e1989f53",
-      "kind": "deals",
-      "title": "Tot 80% korting op Engelstalige boeken @ Bol (o.a. Tools of Titans, The Hallmarked Man en Bread of Angels)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/tot-80-korting-op-engelstalige-boeken-at-bol-oa-tools-of-titans-the-hallmarked-man-en-bread-of-angels-423940",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "9107fb5bc4c3ca650e68",
-      "kind": "deals",
-      "title": "UGREEN Bluetooth 5.4 2-in-1 zender/ontvanger met 3,5mm aansluiting en ingebouwde microfoon @ Amazon NL",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ugreen-bluetooth-54-2-in-1-zenderontvanger-met-35mm-aansluiting-en-ingebouwde-microfoon-at-amazon-nl-423941",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Elektronica"
-    },
-    {
-      "id": "7ebb07cfae1653e2c051",
-      "kind": "deals",
-      "title": "UGREEN Nexode Pro Powerbank 25000mAh 200W, 2x USB-C and 1x USB-A",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ugreen-nexode-pro-powerbank-25000mah-200w-2x-usb-c-and-1x-usb-a-423981",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "0f54d656515a1a84597d",
-      "kind": "deals",
-      "title": "Uber Eats 3x €15 korting bij €20 bestelling",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/uber-eats-3x-eur15-korting-bij-eur20-bestelling-423862",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "3ec82afa587648d96d24",
-      "kind": "deals",
-      "title": "Uniqlo AIRism oversized T-shirt mt XS-XL Unisex Rood + Bordeaux | Uniqlo",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/uniqlo-airism-oversized-t-shirt-mt-xs-xl-unisex-rood-bordeaux-uniqlo-423979",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
-    },
-    {
-      "id": "3adda21fef9e59cc2633",
-      "kind": "deals",
-      "title": "Vier maaltijden plus een appeltaart voor €29,95 bij uitgekookt. Gratis bezorging",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/vier-maaltijden-plus-een-appeltaart-voor-eur2995-bij-uitgekookt-gratis-bezorging-423923",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:05:37.422347+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "f8ed3ac4c26e436546ec",
-      "kind": "deals",
-      "title": "Vomar folder",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/vomar/folder-aanbiedingen",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "963a6e4d3ce01ceb6b90",
-      "kind": "deals",
-      "title": "Vroege Toekan Weken bij van der Valk Hotels",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/vroege-toekan-weken-423847",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "01171694c5479cc329b3",
-      "kind": "contests",
-      "title": "Win diverse auto gerelateerde prijzen of autodrop voor een jaar lang Losgeslagenlading.autodrop.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-diverse-auto-gerelateerde-prijzen-of-autodrop-voor-een-jaar-lang/84733.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "5272d7f22ef489010222",
-      "kind": "contests",
-      "title": "Win een 3-daags verblijf in Duitsland inclusief diner voor 2 personen t.w.v. €298,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.mikrogids.nl/winactie/win-een-3-daags-verblijf-voor-2-personen-in-duitsland/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Uitjes & belevenissen"
-    },
-    {
-      "id": "978783e8826db6bb05b3",
-      "kind": "contests",
-      "title": "Win een Fiets Elektrische € 999, Klus Cadeaukaart € 500, Samsung Galaxy Tab € 399, QLED Smart-TV € 549, Onlinebespaaractie.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-fiets-elektrische--999-klus-cadeaukaart--500-samsung-galaxy-tab--399-qled-smart-tv--549/80243.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "7b02c5667225bc87cef7",
-      "kind": "contests",
-      "title": "Win een Katia.com waardecheque t.w.v. €250,- of 2x een goodiebag van Margriet t.w.v. €100,-",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.margriet.nl/lifestyle/winnen/doe-mee-aan-de-margriet-breiwedstrijd~7011a99",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige waardevolle prijzen"
-    },
-    {
-      "id": "aa3586fd86b6f7de14cd",
-      "kind": "contests",
-      "title": "Win een e-reader van Kobo t.w.v. €269,99",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.columbusmagazine.nl/thema/win/artikel/9791/win-e-reader-kobo/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige waardevolle prijzen"
-    },
-    {
-      "id": "d607ed0d3ac14597f999",
-      "kind": "contests",
-      "title": "Win een elektrische fiets E-bike-winnen.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-elektrische-fiets/60051.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "326fa4893c3cfc1ffe29",
-      "kind": "contests",
-      "title": "Win een gratis trouwjurk cheque twv €449",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Gratiswinactie",
-      "url": "https://www.trouwjurken-outlet.nl/win-een-trouwjurk/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Gratis spullen & producten"
-    },
-    {
-      "id": "19f52ac9ab911b6a4ada",
-      "kind": "contests",
-      "title": "Win een half jaar lang brandstog tanken Winacties.com",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-een-half-jaar-lang-brandstog-tanken/60052.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige waardevolle prijzen"
-    },
-    {
-      "id": "12af12e95fb9b37114f8",
-      "kind": "contests",
-      "title": "Win een koptelefoon van Sennheiser t.w.v. €399,90",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "GratiZ",
-      "url": "https://www.columbusmagazine.nl/thema/win/artikel/9791/win-hoofdtelefoon-sennheiser/",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Elektronica"
-    },
-    {
-      "id": "f84779ae845dd486cb24",
-      "kind": "contests",
-      "title": "Win iPad of Tablet",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijsvragen.nl",
-      "url": "https://www.prijsvragen.nl/ipadwinnen.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Elektronica"
-    },
-    {
-      "id": "0ff8e6ef3d6bd9be4852",
-      "kind": "contests",
-      "title": "Win van 12GO Biking een fiets t.w.v. €2000 en nog meer mooie prijzen Girospel.ad.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-van-12go-biking-een-fiets-twv-2000-en-nog-meer-mooie-prijzen/80005.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "5579d563d022e690e78b",
-      "kind": "contests",
-      "title": "Win voor € 260 gratis tanken bij Argos Argos.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-voor--260-gratis-tanken-bij-argos/60375.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Gratis spullen & producten"
-    },
-    {
-      "id": "cf0678a1e1b7d671f477",
-      "kind": "contests",
-      "title": "Win winterbanden voor je auto met € 400,- KwikFit tegoeg Argos.nl",
-      "description": "Gevonden prijsvraag. Controleer gratis deelname, looptijd en Nederlandse toelating.",
-      "source": "Prijzenzolder",
-      "url": "https://www.prijzenzolder.nl/deel/prijsvraag/win-winterbanden-voor-je-auto-met--400--kwikfit-tegoeg/67395.html",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Auto's & mobiliteit"
-    },
-    {
-      "id": "d6bcf24f5f797bb81ff4",
-      "kind": "deals",
-      "title": "Winactie: Win 1 van de 5 exemplaren van GTA 6 voor Xbox of PS5 t.w.v. €79,99",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/winactie-5-gta-6-voor-xbox-of-ps5-423221",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "0ddca54a10467aa05dde",
-      "kind": "deals",
-      "title": "Z8 Supersale: tijdelijk tot 81% korting op kinderkleding van newborn tot maat 158, o.a. winterjassen en sweaters",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/z8-supersale-tijdelijk-tot-81-korting-op-kinderkleding-van-newborn-tot-maat-158-oa-winterjassen-en-sweaters-423942",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Mode & schoenen"
-    },
-    {
-      "id": "8ec596438566e397d495",
-      "kind": "deals",
-      "title": "[ING] Stunten met Punten - deals voor slechts 1 punt!",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ing-stunten-met-punten-deals-voor-slechts-1-punt-423725",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "dd2d60d34fb13ee905a1",
-      "kind": "deals",
-      "title": "[Pre-order] Pokémon - 30th Celebration - Figure Collection Mewtwo bij DreamLand voor € 54,99 (Loting/Raffle)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/pre-order-pokemon-30th-celebration-figure-collection-mewtwo-bij-dreamland-voor-eur-5499-lotingraffle-423790",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "5402978301f931a4a55d",
-      "kind": "deals",
-      "title": "[Simpel 1 jaar] 60GB + onbeperkt bellen voor €61 - half jaar voor €1 /mnd + €35 korting via ING rentepunten",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/simpel-1-jaar-60gb-onbeperkt-bellen-voor-eur61-half-jaar-voor-eur1-mnd-eur35-korting-via-ing-rentepunten-423959",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:27:12.403694+00:00",
-      "lastSeenAt": "2026-10-27T18:27:12.403694+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "97744137ce5db037c0b0",
-      "kind": "deals",
-      "title": "[Woensdag] 15% extra korting op alle Sale, o.a. Parkside! [LIDL online Koopavond 28 oktober]",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/15-extra-korting-op-alle-sale-oa-parkside-lidl-online-koopavond-28-oktober-423673",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "885ea195688684025c16",
-      "kind": "deals",
-      "title": "de beste bieraanbiedingen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/bier",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "5d505077194bb2725ea6",
-      "kind": "deals",
-      "title": "drogisterijdeals",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/categorieen/drogist",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "2f1ba7cbe612a7c75d91",
-      "kind": "deals",
-      "title": "geraspte kaas",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/geraspte-kaas",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "d31ae7e8c6b7f960800f",
-      "kind": "deals",
-      "title": "hier alle cola deals van deze week",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/cola",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "90dc0ea53f24702c25d8",
-      "kind": "deals",
-      "title": "kaasaanbiedingen in de folders",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/kaas",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "31b6aadbfa73635949d4",
-      "kind": "deals",
-      "title": "speciaalbier",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/speciaal-bier",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "2a3e1c0d12c5c191b316",
-      "kind": "deals",
-      "title": "supermarktaanbiedingen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/categorieen/supermarkt",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
-      "category": "Overige deals"
-    },
-    {
-      "id": "4c1173f754e9aef5287b",
-      "kind": "deals",
-      "title": "wasmiddel aanbiedingen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "AlleFolders",
-      "url": "https://www.allefolders.nl/aanbiedingen/wasmiddel",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T19:35:06.392082+00:00",
+      "lastSeenAt": "2026-10-27T22:52:00.501391+00:00",
       "category": "Overige deals"
     }
   ],
@@ -2678,28 +1236,29 @@
     },
     {
       "name": "GratiZ",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 202"
     },
     {
       "name": "Prijsvragen.nl",
       "status": "ok",
-      "count": 7
+      "count": 0
     },
     {
       "name": "Gratiswinactie",
       "status": "ok",
-      "count": 3
+      "count": 0
     },
     {
       "name": "Prijzenzolder",
       "status": "ok",
-      "count": 9
+      "count": 0
     },
     {
       "name": "AlleFolders",
       "status": "ok",
-      "count": 48
+      "count": 0
     },
     {
       "name": "Reclamefolder",
@@ -2710,7 +1269,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 30
+      "count": 5
     },
     {
       "name": "SuperSales",
@@ -2731,5 +1290,5 @@
       "other_high_value_surprises"
     ]
   },
-  "note": "Unverified public discovery only. Do not infer real availability, free entry or local distance."
+  "note": "Curated discovery only. Unverified price candidates are not proven bargains; no aggregator winacties are published without verified official organizer and terms."
 }

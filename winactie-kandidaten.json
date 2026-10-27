@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-27T23:38:33.401520+00:00",
+  "updatedAt": "2026-10-27T23:39:25.194246+00:00",
   "status": "Alleen zoekkandidaten. Niet aanbevelen zonder officieel bewijs van NL-toelating, kosteloosheid, concrete waarde en levering",
-  "items": [],
+  "items": [
+    {
+      "title": "Las Vegas Car Shows | 2026 Las Vegas Concours at Wynn",
+      "url": "https://www.lasvegasconcours.com/",
+      "snippet": "Save the date for October 29–Nov 2, 2026! A celebration of heritage, craftsmanship, and innovation, Concours at Wynn Las Vegas brings car enthusiasts from around the world to revel in automotive excellence against the dynamic backdrop of The Strip.",
+      "verificationStatus": "Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"
+    },
+    {
+      "title": "Any-1998 Kawasaki Concours Motorcycles for sale Near Council Bluffs, IA",
+      "url": "https://www.cycletrader.com/Council-Bluffs-Any-1998-Kawasaki-Concours/motorcycles-for-sale?make=Kawasaki%7C2318344&model=CONCOURS%7C764857896&year=%2A%3A1998&city=council%20bluffs&state=Iowa%7CIA",
+      "snippet": "Find 1 Any-1998 Kawasaki Concours motorcycles for sale near Council Bluffs, IA from dealers and private sellers on Cycle Trader. There is currently 1 listing available, priced at $1,500.",
+      "verificationStatus": "Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"
+    }
+  ],
   "errors": []
 }

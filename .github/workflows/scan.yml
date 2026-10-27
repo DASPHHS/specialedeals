@@ -1,140 +1,35 @@
-name: Speciale Deals dagelijkse scan
+name: Scan Speciale Deals
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'scan.py'
-      - 'strategie_scan.py'
-      - 'bespaarstrategien.json'
-      - 'bespaar-calculator.mjs'
-      - 'bespaar-strategie-ui.mjs'
-      - 'test_bespaar_calculator.mjs'
-      - 'test_strategie_scan.py'
-      - 'besparen.html'
-      - 'contest_scan.py'
-      - 'contest_review.py'
-      - 'test_contest_review.py'
-      - 'contests.json'
-      - 'sample_events_scan.py'
-      - 'international_delivery.py'
-      - 'international-stores.json'
-      - 'test_international_delivery.py'
-      - 'contest-ranking.mjs'
-      - 'test_contest_ranking.mjs'
-      - 'sample-events.json'
-      - 'test_sample_events.py'
-      - 'contest-searches.json'
-      - 'contest-sources.json'
-      - 'winacties.html'
-      - 'contest-ui.js'
-      - 'radar-config.json'
-      - 'test_scan.py'
-      - 'merchant_check.py'
-      - 'price_comparisons.py'
-      - 'test_price_comparisons.py'
-      - 'test_merchant_check.py'
-      - 'shop-targets.json'
-      - 'watchlist.json'
-      - 'watchlist_issue.py'
-      - 'test_watchlist_issue.py'
-      - 'site_check.py'
-      - 'system_health.py'
-      - 'system-health-ui.js'
-      - 'test_system_health.py'
-      - 'index.html'
-      - 'action-queue.mjs'
-      - 'action-queue-ui.mjs'
-      - 'test_action_queue.mjs'
-      - 'savings-ledger.mjs'
-      - 'savings-ledger-ui.mjs'
-      - 'test_savings_ledger.mjs'
-      - 'ai-kansen.html'
-      - '.github/workflows/scan.yml'
   workflow_dispatch:
   schedule:
-    - cron: '17 */4 * * *'
-concurrency:
-  group: specialedeals-scanner
-  cancel-in-progress: false
+    - cron: '20 6,7,11,15,19 * * *'
 permissions:
   contents: write
+concurrency:
+  group: speciale-deals-scan
+  cancel-in-progress: false
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
-          fetch-depth: 0
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check scanner syntax and configuration
-        run: |
-          python -m py_compile scan.py international_delivery.py price_comparisons.py strategie_scan.py
-          python -m json.tool radar-config.json > /dev/null
-          python -m unittest test_scan.py test_merchant_check.py test_watchlist_issue.py test_system_health.py test_international_delivery.py test_price_comparisons.py test_strategie_scan.py -v
-          python -m json.tool shop-targets.json > /dev/null
-          python -m json.tool international-stores.json > /dev/null
-      - name: Controleer nieuwe modules
-        run: |
-          python -m py_compile contest_scan.py sample_events_scan.py
-          node --check contest-ui.js
-          node --check contest-ranking.mjs
-          node test_contest_ranking.mjs
-          node --check bespaar-calculator.mjs
-          node --check bespaar-strategie-ui.mjs
-          node test_bespaar_calculator.mjs
-          node --check action-queue.mjs
-          node --check action-queue-ui.mjs
-          node test_action_queue.mjs
-          node --check savings-ledger.mjs
-          node --check savings-ledger-ui.mjs
-          node test_savings_ledger.mjs
-          python -m unittest test_contests.py test_contest_review.py test_sample_events.py -v
-      - name: Ontdek internationale winacties
-        run: python contest_scan.py
-      - name: Hercontroleer officiële winactiepagina’s
-        run: python contest_review.py
-      - name: Ontdek actuele sample sales
-        run: python sample_events_scan.py
-      - name: Onderzoek bespaarstrategieën en voorwaarden
-        run: python strategie_scan.py
-      - name: Scan feeds
+      - name: Check syntax
+        run: python -m py_compile scan.py
+      - name: Scan public listings
         run: python scan.py
-      - name: Check exact merchant product prices
-        run: python merchant_check.py
-      - name: Vergelijk identieke producten bij meerdere winkels
-        run: python price_comparisons.py
-      - name: Maak controleerbare systeemstatus
-        if: always()
-        run: python system_health.py
-      - name: Test dashboard and published JSON schema
-        run: python site_check.py
-      - name: Publiceer resultaten
+      - name: Publish scan
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contest-rechecks.json live-deals.json merchant-observations.json price-history.json contest-candidates.json sample-events.json price-comparisons.json system-health.json strategie-scan.json
+          git add data.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update persoonlijke deals"
-            for attempt in 1 2 3 4 5; do
-              git fetch origin main
-              if ! git rebase origin/main; then
-                git rebase --abort || true
-                echo "::error::Rebase conflict; scan data was not published. Resolve on a new run."
-                exit 1
-              fi
-              if git push origin HEAD:main; then
-                echo "Published scan results on attempt $attempt."
-                exit 0
-              fi
-              echo "Branch moved during publish; retry attempt $attempt after a short delay."
-              sleep $((attempt * 3))
-            done
-            echo "::error::Unable to publish after five safe retries."
-            exit 1
+            git commit -m "Update openbare aanbiedingenradar"
+            git pull --rebase origin main
+            git push origin main
           fi
-
-

@@ -55,6 +55,18 @@ def score(title,kind):
  if "heren" in t or "menswear" in t:value+=8
  if any(n in t for n in NOISE):value-=70
  return min(100,max(0,value))
+
+def is_navigation(title,url,kind):
+ t=title.casefold().strip()
+ p=urlsplit(url).path.casefold().rstrip("/")
+ generic=("sample sales","sample sale","stockverkopen","alle aanbiedingen","actuele aanbiedingen","winacties","prijsvragen","womenswear sample sales","menswear sample sales","schoenen sample sales","dames- en herenmode sample sales","alle winacties")
+ if t in generic:return True
+ if any(z in t for z in (" sample sales per ","sample sales deze ","inloggen","meer aanbiedingen","alle folders","nieuwste folders","contact opnemen","bekijk alle","onze nieuwsbrief","volg ons","prijsvragen en antwoorden","van vandaag","per provincie","per maand","per week")):return True
+ if re.search(r"/(categorie|category|categories|merken|brand|brands|tags|tag|permaand|perweek|samplesales-per-provincie|show_verkoop_provincie|zoek|search|aanbiedingen)$",p):return True
+ if kind=="sales" and re.search(r"^(heren|dames|womenswear|menswear|kleding|schoenen|accessoires|kidswear|lingerie)\s+(sample sales|stockverkopen)$",t):return True
+ if kind=="contests" and not re.search(r"\bwin\b|winactie|geef weg|prijsvraag|verloot|gratis",t):return True
+ return False
+
 def main():
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  today=dt.date.today().isoformat()
@@ -62,7 +74,7 @@ def main():
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind",""))}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -72,6 +84,7 @@ def main():
     url=urljoin(base,html.unescape(href));parts=urlsplit(url)
     if parts.scheme!="https" or not parts.hostname:continue
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
+    if is_navigation(title,url,kind):continue
     phrase=(title+" "+parts.path).casefold()
     if not any(s in phrase for s in SIGNALS[kind]):continue
     rank=score(title,kind)

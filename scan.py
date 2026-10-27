@@ -118,6 +118,7 @@ def classify(title,kind):
  if kind=="deals":
   if any(w in t for w in CATEGORIES["Huis & tuin"]):return "Huis & tuin"
   if any(w in t for w in CATEGORIES["Elektronica"]):return "Elektronica"
+  if any(w in t for w in ("terrasoverkapping","overkapping","veranda","tuinrenovatie","isolatie","warmtepomp","schuur renoveren","schilderwerk")):return "Huisprojecten & verduurzaming"
   if any(w in t for w in ("rituals","janzen","parfum","verzorging","shampoo","beauty","skincare")):return "Verzorging & beauty"
   if any(w in t for w in ("schoen","kleding","shirt","jas","nike","adidas","mode")):return "Mode & schoenen"
   return "Overige deals"
@@ -129,7 +130,7 @@ def classify(title,kind):
 # Quality gate: discovery is not verification. Do not publish aggregator-only
 # competition leads as suitable personal recommendations.
 DEAL_JUNK=("sokken","wollen sok","wol sok","onderbroek","boxershort","veters","schoenlepel","sleutelhanger","theedoek","washand","katoenen tas","baby","kinder","speelgoed","telefoonhoes","screenprotector","sticker","mok","pennen","t-shirt","basic shirt")
-PREMIUM_MATCH=("bever","bergfreunde","bergzeit","norrøna","norrona","mammut","rab","fjällräven","fjallraven","patagonia","outdoor","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
+PREMIUM_MATCH=("terrasoverkapping","veranda","overkapping","tuinaanleg","tuinrenovatie","isolatie","warmtepomp","schuur","schilderwerk","hogedrukreiniger","bever","bergfreunde","bergzeit","norrøna","norrona","mammut","rab","fjällräven","fjallraven","patagonia","outdoor","janzen earth","janzen","rituals","janzen","marie-stella-maris","davines","weleda","dyson","apple","ipad","iphone","macbook","salomon","hoka","arc'teryx","ralph lauren","tommy hilfiger","nike","adidas","padelracket","padel racket","lego technic","koffiemachine","espresso","robotstofzuiger","gereedschapsset","tuinmeubel")
 PREMIUM_SALE_BRANDS=("arc'teryx","arcteryx","salomon","hoka","nike","adidas","ralph lauren","tommy hilfiger","scotch & soda","scotch and soda","kuyichi","protest","circle of trust","vanguard","state of art","cast iron","pme legend","g-star","g star","boss","hugo boss","patagonia","the north face","new balance","asics","lacoste","calvin klein","polo","dyson","rituals","janzen","marie-stella-maris","my jewellery","love stories","sandro","maje","ba&sh","denham","daily paper")
 DEAL_SIGNALS=("70%","60%","50%","40%","35%","30%","€ 100","€100","€ 150","€150","€ 200","€200","€ 250","€250","halve prijs","2 halen 1 betalen","1+1 gratis")
 def high_quality_candidate(title,kind):

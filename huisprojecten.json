@@ -18,7 +18,8 @@
         "onderhoudsinterval",
         "garanties",
         "ondergrond en aantal m²"
-      ]
+      ],
+      "priority": "hoog"
     },
     {
       "id": "voortuin",
@@ -35,7 +36,8 @@
         "waterafvoer",
         "groen versus bestrating",
         "vergelijk m²-prijzen inclusief afvoer"
-      ]
+      ],
+      "priority": "hoog"
     },
     {
       "id": "overkapping",
@@ -52,7 +54,8 @@
         "fundering",
         "afmetingen",
         "montage inbegrepen"
-      ]
+      ],
+      "priority": "normaal"
     },
     {
       "id": "schuur",
@@ -69,7 +72,8 @@
         "constructie en dakconditie",
         "vocht",
         "offerte inclusief afvoer"
-      ]
+      ],
+      "priority": "normaal"
     },
     {
       "id": "isolatie",
@@ -87,7 +91,8 @@
         "isolatiewaarde",
         "ventilatie",
         "natuurvriendelijk isoleren"
-      ]
+      ],
+      "priority": "normaal"
     },
     {
       "id": "verduurzamen",
@@ -105,13 +110,23 @@
         "gemeentelijke steun en ISDE",
         "installatie-eisen",
         "contractvoorwaarden"
-      ]
+      ],
+      "priority": "normaal"
     }
   ],
   "selectionRules": {
     "dailyMax": 3,
     "exclude": "algemene leadgeneratie, vage kortingsclaims, niet-gekwalificeerde aanbieders",
     "require": "directe aanbieder of officiële overheidsregeling met datum, werkgebied en controleerbare voorwaarden",
-    "guidance": "Geen subsidierecht of vergunningsvrijheid claimen zonder woning-specifieke toets."
-  }
+    "guidance": "Geen subsidierecht of vergunningsvrijheid claimen zonder woning-specifieke toets.",
+    "focus": "Dagelijks eerst concrete betrouwbare aanbiedingen, lokale vakmensen, goede offertestrategieën en bruikbare tips voor buitenschilderwerk en renovatie voortuin; andere projecten blijven op lijst."
+  },
+  "priorityOrder": [
+    "buitenschilderwerk",
+    "voortuin",
+    "overkapping",
+    "schuur",
+    "isolatie",
+    "verduurzamen"
+  ]
 }

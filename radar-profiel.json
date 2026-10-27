@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "profile": {
+    "location": "Bleiswijk, Zuid-Holland, Nederland",
+    "person": "Man, 36",
+    "household": "Partner, vrouw, 33; geen kinderen",
+    "audienceWeighting": "primair voor hem, daarnaast waardevolle producten voor haar",
+    "privacy": "Geen straatadres, contactgegevens of deelnamegeschiedenis opslaan in publieke GitHub"
+  },
+  "coverage": {
+    "physicalShopRadiusKm": 20,
+    "physicalShopRequiresConfirmedAddress": true,
+    "onlineShopping": "NL en betrouwbare internationale webshops die naar Nederland leveren",
+    "sampleSaleCoverage": "Heel Nederland",
+    "sweepstakes": "NL en buitenlandse acties mits expliciet toegestaan voor inwoners van Nederland"
+  },
+  "navigation": [
+    "Ontdekken",
+    "Mijn verlanglijst",
+    "Huisprojecten"
+  ],
+  "wishlist": {
+    "source": "wishlist.json",
+    "priorityBrands": [
+      "Apple",
+      "Arc'teryx",
+      "Dyson",
+      "HOKA",
+      "JANZEN Earth",
+      "Rituals"
+    ],
+    "watchProducts": [
+      "Apple AirPods",
+      "Apple AirPods Pro",
+      "Apple MacBook",
+      "Apple Watch Ultra",
+      "Dyson handstofzuiger",
+      "JANZEN Earth",
+      "HOKA heren EU ongeveer 47",
+      "Arc'teryx heren XL"
+    ],
+    "outdoorOnly": [
+      "Arc'teryx"
+    ],
+    "hokaException": "HOKA uitsluitend als apart gewenst sportschoenproduct, niet als algemeen outdoor-merk",
+    "otherInterestAreas": [
+      "padel",
+      "premium herenmode",
+      "relevante damesmode",
+      "verzorging",
+      "huis en tuin",
+      "elektronica",
+      "koffie",
+      "kwaliteitsschoenen"
+    ],
+    "pricePolicy": "Exact model, specificaties, nieuw/refurbished, maat, voorraad, betrouwbare verkoper, totaalprijs inclusief btw/verzending/invoerkosten, retouren en garantie; geen laagste-prijs-claim zonder betrouwbare vergelijking en prijshistorie"
+  },
+  "deals": {
+    "discoverySources": [
+      "Pepper",
+      "AlleFolders",
+      "SuperSales",
+      "Bever",
+      "Bergfreunde",
+      "Bergzeit",
+      "officiële winkels",
+      "geautoriseerde Apple-verkopers"
+    ],
+    "prefer": [
+      "grote echte prijsdalingen",
+      "goedkoopste aantoonbare actuele totaalprijs",
+      "zeldzame A-merk-outlets",
+      "uitzonderlijke deals bij andere winkels"
+    ],
+    "exclude": [
+      "sokken",
+      "prullaria",
+      "kindgerichte artikelen",
+      "algemene overzichtscategorieën",
+      "onbetrouwbare webshops",
+      "kortingen zonder concreet artikel of verifieerbare prijs",
+      "dubbele hits"
+    ]
+  },
+  "contests": {
+    "source": "winactie-profiel.json",
+    "verified": "verified-winacties.json",
+    "candidates": "winactie-kandidaten.json",
+    "minimumPrizeValueEUR": 250,
+    "priorityValueEUR": 1000,
+    "preferred": [
+      "auto's",
+      "grote reizen voor twee",
+      "keukens",
+      "renovatie",
+      "carwrapping",
+      "premium witgoed",
+      "stofzuigers",
+      "machines en gereedschappen",
+      "dure gadgets",
+      "geldprijzen",
+      "hoogwaardige gratis producten"
+    ],
+    "officialOnly": true,
+    "requiredChecks": [
+      "organisator",
+      "officieel reglement",
+      "datum",
+      "concrete waarde",
+      "gratis NL deelname",
+      "verzilvering/levering naar NL",
+      "marketingvoorwaarden",
+      "eventuele belastingen"
+    ],
+    "exclude": [
+      "Prijzenzolder-achtige spam",
+      "betaalde loterijen",
+      "agressieve leadgeneratie",
+      "kleine prijzen",
+      "dubbelingen"
+    ]
+  },
+  "sampleSales": {
+    "coverage": "heel Nederland",
+    "brandPreference": "A-merken, uitsluitend Arc'teryx voor outdoor",
+    "sources": [
+      "We Love Sample Sales",
+      "Stockverkopen",
+      "Your Sample Sale",
+      "Eventbrite",
+      "Chicmi"
+    ],
+    "fields": [
+      "datum",
+      "stad/adres",
+      "merk",
+      "heren/dames",
+      "maat indien bevestigd",
+      "ticketkosten/vereiste",
+      "officiële organisator"
+    ],
+    "reject": [
+      "generieke restpartijen",
+      "onbekende merken zonder buitengewone reden",
+      "andere outdoormerken"
+    ]
+  },
+  "homeProjects": {
+    "source": "huisprojecten.json",
+    "priority": [
+      "buitenschilderwerk",
+      "voortuin"
+    ],
+    "retained": [
+      "overkapping",
+      "schuur",
+      "isolatie",
+      "verduurzamen"
+    ],
+    "tips": [
+      "concrete offertes",
+      "materiaalacties",
+      "officiële subsidie-informatie",
+      "waterdoorlatende tuininrichting",
+      "besparing bij kwalitatieve vakmensen"
+    ],
+    "maxDailyTips": 3
+  },
+  "dailyDigest": {
+    "time": "08:00",
+    "timezone": "Europe/Amsterdam",
+    "channel": "ChatGPT-geplande taak; geen gegarandeerde Gmail-mail",
+    "priority": "kwaliteit boven volume; eventueel niets melden wanneer niets betrouwbaar is",
+    "assistantVerification": "extra bron- en reglementcontrole bovenop automatische discovery",
+    "githubLimit": "GitHub Actions ontdekker zonder garantie op complete dekking, echte prijzen of rechtstreekse checkout"
+  },
+  "deduplication": {
+    "scope": "zelfde concrete actie/product ook als links of bronberichten verschillen",
+    "prefer": "directe officiële bron of controleerbare shop/productdetailpagina"
+  }
+}

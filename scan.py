@@ -71,6 +71,17 @@ def is_navigation(title,url,kind):
 # Conservative prefilter: only potentially substantial prizes. Unknown value is
 # excluded from the daily shortlist rather than portrayed as a major win.
 BIG_PRIZES=("vakantie","droomreis","reis naar","weekend weg","hotelovernachting","hotelverblijf","cruise","vliegtickets","elektrische fiets","e-bike","bakfiets","auto winnen","win een auto","win een elektrische auto","scooter","macbook","ipad","iphone","laptop","playstation","televisie","tv winnen","dyson","robotstofzuiger","jaar lang","jaarlang","verbouwing","keuken winnen","hypotheek","geldprijs","geldbedrag","cashprijs","€ 500","€500","€ 1.000","€1000","€ 2.000","€2000","€ 5.000","€5000","cadeaubon van € 250","cadeaubon van €250","tegoed van € 250","tegoed van €250")
+
+# Leads for major prizes; discovery is NOT official verification.
+HIGH_VALUE_PRIZE_TERMS=(
+ "complete keuken","nieuwe keuken","gratis keuken","keukenrenovatie",
+ "wasmachine","wasdroger","droger","vaatwasser","koelkast","vriezer","witgoed",
+ "carwrap","car wrap","auto wrappen","carwrapping","wrapbeurt",
+ "boormachine","zaagmachine","accuboormachine","gereedschapset","gereedschapsset",
+ "makita","dewalt","bosch professional","miele","steelstofzuiger","stofzuiger",
+ "hogedrukreiniger","robotmaaier","tuinmachine","koffiemachine","espressomachine",
+ "smartphone","robotstofzuiger","apple watch","samsung galaxy","a-merk"
+)
 TRIVIAL=("win een boek","win boeken","win een cd","win een dvd","win een mok","win een pen","win stickers","win een sleutelhanger","win een proefpakket","win een sample","win een goodiebag","win kaartjes","win tickets","win een ticket","win een bioscoopkaart","win een puzzel","win een tijdschrift","win een t-shirt","win een beautybox","win een pakket","enquête","survey","leadgeneratie","postcode loterij","vriendenloterij","staatsloterij","kansspel")
 def worthwhile_contest(title,url):
  t=title.casefold()
@@ -85,12 +96,12 @@ def worthwhile_contest(title,url):
   except ValueError:pass
  if eurovalues:
   return max(eurovalues)>=250
- return any(key in t for key in BIG_PRIZES)
+ return any(key in t for key in BIG_PRIZES+HIGH_VALUE_PRIZE_TERMS)
 
 
 CATEGORIES={
- "Huis & tuin":("tuin","woning","huis","meubel","interieur","keuken","verbouw","badkamer","gereedschap","robotmaaier","terras","bankstel"),
- "Auto's & mobiliteit":("auto","tesla","volvo","bmw","elektrische fiets","e-bike","fiets","bakfiets","scooter","mobiliteit"),
+ "Huis & tuin":("keuken","wasmachine","vaatwasser","koelkast","stofzuiger","machine","tuin","woning","huis","meubel","interieur","keuken","verbouw","badkamer","gereedschap","robotmaaier","terras","bankstel"),
+ "Auto's & mobiliteit":("carwrap","auto wrappen","carwrapping","auto","tesla","volvo","bmw","elektrische fiets","e-bike","fiets","bakfiets","scooter","mobiliteit"),
  "Vakanties & reizen":("vakantie","reis","hotel","cruise","vliegticket","weekend weg","overnachting","reisvoucher","reischeque"),
  "Uitjes & belevenissen":("concert","festival","dagje uit","pretpark","diner","restaurant","wellness","spa","belevenis","tickets"),
  "Geld & tegoed":("geld","cash","euro","shoptegoed","winkeltegoed","waardebon","cadeaubon","tegoed","hypotheek"),

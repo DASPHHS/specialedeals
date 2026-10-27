@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:37:31.568196+00:00",
+  "updatedAt": "2026-10-27T23:38:17.316316+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:37:31.568196+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "discoveredAt": "2026-10-27T23:38:17.316316+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,8 +43,8 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:37:31.568196+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "discoveredAt": "2026-10-27T23:38:17.316316+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -59,35 +59,7 @@
       "score": 90,
       "audience": "all",
       "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "20ed8906ad9c7f231b91",
-      "kind": "deals",
-      "title": "Patagonia (208)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/patagonia/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 90,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "8405fd7df249e344eb4a",
-      "kind": "deals",
-      "title": "Salomon (140)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/salomon/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 73,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00"
     },
     {
       "id": "0019774fab1d4c52fb29",
@@ -100,36 +72,8 @@
       "score": 71,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Mode & schoenen"
-    },
-    {
-      "id": "29b8a46e84c922ce4bbd",
-      "kind": "deals",
-      "title": "Fjällräven (282)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/fjaellraeven/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 70,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "2b5646e1666dddb7b414",
-      "kind": "deals",
-      "title": "GripGrab (12)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/gripgrab/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 70,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
     },
     {
       "id": "fa6c9cbbeb1b5504734d",
@@ -142,7 +86,7 @@
       "score": 69,
       "audience": "men",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Mode & schoenen"
     },
     {
@@ -170,22 +114,8 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
-    },
-    {
-      "id": "dd44e0eeaa8c2fc681e8",
-      "kind": "deals",
-      "title": "Outdoorschoenen",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/outdoorschoenen/voor--heren/",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
     },
     {
       "id": "869400b768b2d1e50695",
@@ -198,7 +128,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -212,7 +142,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -226,7 +156,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -240,7 +170,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -254,7 +184,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -268,7 +198,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Sample sales"
     },
     {
@@ -296,50 +226,8 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Mode & schoenen"
-    },
-    {
-      "id": "b1a6d1a5474835479c59",
-      "kind": "deals",
-      "title": "Origin Outdoors (48)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/origin-outdoors/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "0bfcf2490d58555860f8",
-      "kind": "deals",
-      "title": "Outdoorkleding",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/outdoorkleding/voor--heren/",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "22201ef2521fb4a6c2f8",
-      "kind": "deals",
-      "title": "Outdooruitrusting Outlet",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/outdooruitrusting/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
     },
     {
       "id": "08491a94cef813cc2f5e",
@@ -356,62 +244,6 @@
       "category": "Overige deals"
     },
     {
-      "id": "1117555718094b1d9f64",
-      "kind": "deals",
-      "title": "adidas (171)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/adidas/",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "864d14e8e0cf1068440f",
-      "kind": "deals",
-      "title": "adidas Terrex (79)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/adidas-terrex/",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "38a3a9e8a6ac868363b4",
-      "kind": "deals",
-      "title": "adidas eyewear (3)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/adidas-eyewear/",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
-      "id": "96dbe1838b151b6d0b86",
-      "kind": "deals",
-      "title": "Bergfreunde (20)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Bergfreunde sale",
-      "url": "https://www.bergfreunde.nl/outlet/merken/bergfreunde/",
-      "category": "Overige deals",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:09:41.209194+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00"
-    },
-    {
       "id": "92786655c93082b352d7",
       "kind": "deals",
       "title": "ING Katsjing! Stapel tot € 250 cashback",
@@ -422,7 +254,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Overige deals"
     },
     {
@@ -436,7 +268,7 @@
       "score": 45,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:37:31.568196+00:00",
+      "lastSeenAt": "2026-10-27T23:38:17.316316+00:00",
       "category": "Huis & tuin"
     },
     {
@@ -528,7 +360,7 @@
     {
       "name": "Bergfreunde sale",
       "status": "ok",
-      "count": 17
+      "count": 1
     },
     {
       "name": "Bergzeit sale",

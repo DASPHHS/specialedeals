@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:51:32.517407+00:00",
+  "updatedAt": "2026-10-27T23:58:17.560407+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:51:32.517407+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "discoveredAt": "2026-10-27T23:58:17.560407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,183 +43,9 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-10-27T23:51:32.517407+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "discoveredAt": "2026-10-27T23:58:17.560407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "status": "Voorwaarden gecontroleerd"
-    },
-    {
-      "id": "d80458dc912950530294",
-      "kind": "deals",
-      "title": "Apple Watch Ultra 3",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/watch/apple-watch-ultra-3",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-watch-ultra"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "e04a5794a4b6ebc0baae",
-      "kind": "deals",
-      "title": "Apple Watch Ultra 4",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/watch/apple-watch-ultra-4",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-watch-ultra"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "6f02ff94afff9f306f71",
-      "kind": "deals",
-      "title": "[DEMO]MacBook Pro 14\" - M4 Pro 12C-CPU & 16C-GPU - 24GB - 512GB - 70W USB-C - (Standaard-display) - Silver",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/demo-macbook-pro-14-m4-pro-12c-cpu-16c-gpu-24gb-512gb-70w-usb-c-standaard-display-silver",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "5d5d60bf73d2a2611fd4",
-      "kind": "deals",
-      "title": "[DEMO]MacBook Pro 16\" - M4 Pro 14C-CPU & 20C-GPU - 24GB - 512GB - 140W USB-C - (Standaard-display) - Space Black",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/demo-macbook-pro-16-m4-pro-14c-cpu-20c-gpu-24gb-512gb-140w-usb-c-standaard-display-space-black",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "0cd6402834f5a55224e3",
-      "kind": "deals",
-      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Sky Blue",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-sky-blue",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "1f873ec0bcca0978a437",
-      "kind": "deals",
-      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Starlight - NL KEY CTO",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-starlight-nl-key-cto",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "8ebef657504a563265a7",
-      "kind": "deals",
-      "title": "[Open Box] MacBook Pro 16\" - M5 Pro 18C-CPU & 20C-GPU - 48GB - 1TB - ST-Display - SIlver",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Amac Apple aanbiedingen",
-      "url": "https://www.amac.nl/open-box-macbook-pro-16-m5-pro-18c-cpu-20c-gpu-48gb-1tb-st-display-silver",
-      "category": "Apple & elektronica",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 100,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:47:33.283039+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
-    },
-    {
-      "id": "0019774fab1d4c52fb29",
-      "kind": "deals",
-      "title": "Omoda Sale: tot 70% korting op schoenen, kleding en tassen voor dames, heren en kids",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/omoda-sale-tot-70-korting-op-schoenen-kleding-en-tassen-voor-dames-heren-en-kids-423895",
-      "status": "Te controleren",
-      "score": 71,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "category": "Mode & schoenen",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "fa6c9cbbeb1b5504734d",
-      "kind": "deals",
-      "title": "Adidas Training Essentials broek voor heren",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/adidas-training-essentials-broek-voor-heren-423973",
-      "status": "Te controleren",
-      "score": 69,
-      "audience": "men",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "category": "Mode & schoenen",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "0340f094dfe36037abb0",
-      "kind": "deals",
-      "title": "Uniqlo Mid-season Sale: tot 60% korting op jeans, corduroy en jassen voor dames en heren",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/uniqlo-mid-season-sale-tot-60-korting-op-jeans-corduroy-en-jassen-voor-dames-en-heren-423729",
-      "category": "Mode & schoenen",
-      "status": "Te controleren",
-      "score": 63,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T19:34:24.657684+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "wishlistMatches": [],
-      "priceVerified": false
     },
     {
       "id": "950a816fc8d01b256478",
@@ -232,7 +58,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -247,7 +73,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -262,7 +88,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -277,7 +103,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -292,7 +118,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -307,7 +133,7 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -322,121 +148,9 @@
       "score": 53,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
+      "lastSeenAt": "2026-10-27T23:58:17.560407+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
-    },
-    {
-      "id": "4957042992416a2fb1f2",
-      "kind": "deals",
-      "title": "Nike Air Force 1 '07 LV8 met primera korting €66.25",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/nike-air-force-1-07-lv8-met-primera-korting-eur6625-423677",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T18:26:05.375065+00:00",
-      "category": "Mode & schoenen",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "c3d58b962775cda58ba1",
-      "kind": "deals",
-      "title": "Opruiming tot 50% korting + 10% EXTRA korting @ Schuurman Schoenen (o.a. Timberland, Saucony & Cruyff)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/opruiming-tot-50-korting-10-extra-korting-at-schuurman-schoenen-oa-timberland-saucony-cruyff-423898",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "category": "Mode & schoenen",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "08491a94cef813cc2f5e",
-      "kind": "deals",
-      "title": "Simyo 400 min/sms + 20 GB Sim Only - 2 jaar - €100,- cashback = €3,08 p/m (met ING/vakantieveilingen voucher €1,63 p/m)",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/simyo-400-minsms-20-gb-sim-only-2-jaar-eur100-cashback-eur308-pm-met-ingvakantieveilingen-voucher-eur163-pm-423868",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T18:51:03.546626+00:00",
-      "category": "Overige deals",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "92786655c93082b352d7",
-      "kind": "deals",
-      "title": "ING Katsjing! Stapel tot € 250 cashback",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/ing-katsjing-stapel-tot-eur-250-cashback-423788",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:51:03.546626+00:00",
-      "lastSeenAt": "2026-10-27T23:48:59.401846+00:00",
-      "category": "Overige deals",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "66db1821d1a6e627e76a",
-      "kind": "deals",
-      "title": "Tijdelijk tot 69% korting op robotstofzuigers o.a. Roborock Q10 S5+ & Roborock Q7 M5 @ Bol",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/tijdeljk-tot-69-korting-op-robotstofzuigers-oa-roborock-q10-s5-roborock-q7-m5-at-bol-423884",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "category": "Huis & tuin",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "77065c200d14a62d7b8a",
-      "kind": "deals",
-      "title": "Xiaomi Robot Vacuum 5 Pro | Robotstofzuiger | Nat en droog | 5200mAh | Wit",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/xiaomi-robot-vacuum-5-pro-robotstofzuiger-nat-en-droog-5200mah-wit-424015",
-      "category": "Huis & tuin",
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:17:14.340183+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00",
-      "wishlistMatches": [],
-      "priceVerified": false
-    },
-    {
-      "id": "f310e21dfd4106487cb0",
-      "kind": "deals",
-      "title": "[Lidl Dagdeal] PARKSIDE Hogedrukreiniger silent 1400W • 110 bar",
-      "description": "Aanbiedingssignaal. Controleer artikel, echte prijs, voorraad en eventuele winkelafstand.",
-      "source": "Pepper",
-      "url": "https://nl.pepper.com/aanbiedingen/parkside-hogedrukreiniger-silent-110-bar-424023",
-      "category": "Overige deals",
-      "wishlistMatches": [],
-      "priceVerified": false,
-      "status": "Te controleren",
-      "score": 45,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T23:51:32.517407+00:00",
-      "lastSeenAt": "2026-10-27T23:51:32.517407+00:00"
     }
   ],
   "sources": [
@@ -496,7 +210,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 7
+      "count": 5
     },
     {
       "name": "SuperSales",
@@ -528,6 +242,8 @@
   ],
   "wishlistLastRead": "2026-10-28",
   "radarProfileLastRead": "2026-10-28",
+  "minDealDiscountPercent": 10,
+  "dealCandidates": 12,
   "wishlistProducts": [
     {
       "id": "dyson-handstofzuiger",

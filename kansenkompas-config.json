@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "reportTitle": "Kansenkompas | Dagoverzicht",
+  "delivery": {
+    "singleDailyDigest": true,
+    "timezone": "Europe/Amsterdam",
+    "preferredTime": "08:00",
+    "individualSampleSaleEmails": false,
+    "individualDealEmails": false,
+    "individualWinactieEmails": false,
+    "duplicateDailyMessages": false,
+    "emailDelivery": "only when a separately configured sender is confirmed; ChatGPT task does not guarantee Gmail delivery"
+  },
+  "sections": [
+    "urgent_verified_winacties",
+    "verified_purchase_deals",
+    "sample_sales",
+    "home_projects",
+    "ing_benefits",
+    "research_leads",
+    "practical_ai",
+    "mortgage_and_fixed_costs",
+    "private_register_status"
+  ],
+  "verification": {
+    "purchaseMinimumIndependentNetDiscountPercent": 10,
+    "includeDutchShippingVatImport": true,
+    "officialContestTermsRequired": true,
+    "unverifiedCandidatesNeverPromoted": true
+  },
+  "deduplication": {
+    "comparePreviousDigest": true,
+    "keys": [
+      "SKU",
+      "contest_id",
+      "event_id"
+    ],
+    "repeatOnlyIfMaterialChangeOrUrgent": true
+  },
+  "privacy": {
+    "neverPublish": [
+      "email",
+      "personal_financial_balances",
+      "participation_history",
+      "private_register"
+    ],
+    "githubPublicProfileOnly": true
+  },
+  "automation": {
+    "dailyDigestOwner": "ChatGPT Kansenkompas | Dagoverzicht",
+    "externalMailersMustBeReviewedSeparately": true,
+    "githubWriteByDailyDigest": false
+  }
+}

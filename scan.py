@@ -30,6 +30,10 @@ SOURCES=[
  ("Arc'teryx Bergfreunde sale","deals","https://www.bergfreunde.nl/outlet/merken/arcteryx/"),
  ("Arc'teryx Bever sale","deals","https://www.bever.nl/c/sale/arcteryx.html"),
  ("Arc'teryx official outlet","deals","https://outlet.arcteryx.com/nl/en"),
+ ("Arc'teryx Snowleader","deals","https://www.snowleader.nl/"),
+ ("Arc'teryx Trekkinn","deals","https://www.tradeinn.com/trekkinn/nl"),
+ ("Arc'teryx Ekosport","deals","https://www.ekosport.nl/"),
+ ("Arc'teryx Sport Conrad","deals","https://www.sport-conrad.com/"),
 ]
 SIGNALS={"sales":("sample sale","stock sale","stockverkoop","stock sale","merkkleding","archive sale","outlet sale","warehouse sale","sample-sale","/sample","stock-sale","stockverkoop","sample sale"),
 "contests":("win een","win de","win het","win 2","win 5","winactie","prijsvraag","giveaway","winnen","/winactie/"),
@@ -149,7 +153,7 @@ OUTDOOR_EXCLUDED_BRANDS=(
  "black diamond","protest","bergans","marmot","montane","cotopaxi",
  "mountain equipment","berghaus","regatta","lowe alpine",
 )
-OUTDOOR_SOURCE_NAMES=("Bever sale","Bergfreunde sale","Bergzeit sale","Arc'teryx Bergfreunde sale","Arc'teryx Bever sale","Arc'teryx official outlet")
+OUTDOOR_SOURCE_NAMES=("Bever sale","Bergfreunde sale","Bergzeit sale","Arc'teryx Bergfreunde sale","Arc'teryx Bever sale","Arc'teryx official outlet","Arc'teryx Snowleader","Arc'teryx Trekkinn","Arc'teryx Ekosport","Arc'teryx Sport Conrad")
 OUTDOOR_GENERIC_TERMS=(
  "outdoor","outdoorschoen","wandel","hiking","trekking","hardshell",
  "softshell","bergwandelen","bergklimmen","bergkleding","klimjas",

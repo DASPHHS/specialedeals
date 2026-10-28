@@ -152,7 +152,7 @@
     "vergelijkers alleen voor ontdekking"
   ],
   "rules": {
-    "bestEverydayBuy": "Publish only with independently observed comparable shelf/unit prices and confirmed local or online availability. A cheap unit price does not imply same product quality.",
+    "bestEverydayBuy": "Rank lowest effective unit cost among verified adequate-quality options, including store brands; separate exact identical-item comparisons from functional equivalents. Require current verified price, pack size, dosing, conditions, availability. Never claim universal best for an entire category without evidence.",
     "deal": "Exact SKU and verified all-in NL price, independent comparator or price history, genuine >=10% discount, show absolute EUR saving and percentage.",
     "exceptionalDeals": "Prioritize high absolute EUR saving plus personal relevance and quality; do not promote percentage alone.",
     "unitPrices": [
@@ -166,7 +166,9 @@
     ],
     "loyalty": "Show member-only prices and conditions separately",
     "freshnessHours": 36,
-    "noInventedPrices": true
+    "noInventedPrices": true,
+    "qualityThreshold": "Adequate functionality, correct use, reputable product safety, suitable dosage. Unknown quality -> label uncertain, do not claim best buy.",
+    "brandNeutral": true
   },
   "favoritesDefault": [
     "wasmiddel-pods",
@@ -176,5 +178,19 @@
     "koffie",
     "verf",
     "gereedschap"
-  ]
+  ],
+  "buyerPreference": {
+    "primary": "Lowest effective cost per use for an adequately performing product",
+    "brandNeutral": true,
+    "quality": "Minimum acceptable quality; evaluate basic effectiveness, dosage, durability and safety/fit for purpose before price ranking",
+    "decisionOrder": [
+      "meets minimum quality and correct intended use",
+      "comparable effective unit price",
+      "availability and total purchase cost",
+      "genuine temporary savings"
+    ],
+    "brandPreference": "None by default; store brands and budget brands compete equally",
+    "avoid": "Cheap but ineffective products, misleading bulk pack calculations and unsupported equivalence",
+    "evidence": "Qualitative comparisons require a stated basis; no fabricated lab tests or quality scores"
+  }
 }

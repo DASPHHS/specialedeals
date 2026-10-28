@@ -17,10 +17,12 @@ def verified_offers(items, minimum=10, now=None):
                     x.get("shipsToNL") is True and x.get("identicalVariantChecked") is True
                     and x.get("includesAllDeliveryCosts") is True and x.get("sellerTrusted") is True):
                 continue
-            if not x.get("sku") or x.get("sku")!=x.get("comparisonSku"):continue
+            if not x.get("sku") or x.get("sku")!=x.get("comparisonSku") or not x.get("title") or not x.get("source"):continue
             if x.get("condition")!=x.get("comparisonCondition"):continue
             if x.get("comparisonType") not in ("competing_retailer","historical_transaction_price"):continue
-            if not all(urlsplit(x.get(k,"")).scheme=="https" for k in ("url","comparisonUrl")):continue
+            links=[urlsplit(x.get(k,"")) for k in ("url","comparisonUrl")]
+            if any(link.scheme!="https" or not link.hostname for link in links):continue
+            if x.get("comparisonType")=="competing_retailer" and links[0].hostname==links[1].hostname:continue
             checked=dt.datetime.fromisoformat(x["verifiedAt"].replace("Z","+00:00"))
             if checked.tzinfo is None or not dt.timedelta(0)<=now-checked<=dt.timedelta(hours=36):continue
             reduction=discount_percent(x["totalPriceEUR"],x["comparisonTotalPriceEUR"])

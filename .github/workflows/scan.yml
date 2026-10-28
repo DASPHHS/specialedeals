@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'candidate_quality.py', 'test_candidate_quality.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
@@ -23,9 +23,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate scanner
-        run: python -m py_compile scan.py discover_winacties.py deal_verification.py
+        run: python -m py_compile scan.py discover_winacties.py deal_verification.py candidate_quality.py
       - name: Test preferences, wishlist and outdoor filtering
-        run: python -m unittest -v test_outdoor.py test_watchlist.py test_pricegate.py
+        run: python -m unittest -v test_outdoor.py test_watchlist.py test_pricegate.py test_candidate_quality.py
       - name: Read public sources
         run: python scan.py
       - name: Discover major NL and international giveaways

@@ -55,6 +55,75 @@
         "giraffecoffee.com",
         "same-product resellers"
       ]
+    },
+    {
+      "id": "rituals-homme-sport",
+      "brand": "Rituals",
+      "product": "Homme and Sport lines",
+      "watch": [
+        "foaming shower gel",
+        "deodorant",
+        "other body care"
+      ],
+      "compare": "Same line EAN volume and package only",
+      "sources": [
+        "rituals.com",
+        "douglas.nl",
+        "etos.nl",
+        "other verified NL sellers"
+      ]
+    },
+    {
+      "id": "dyson-cordless",
+      "brand": "Dyson",
+      "product": "Handheld and cordless vacuum cleaners",
+      "watch": [
+        "V8",
+        "V10",
+        "V12",
+        "V15",
+        "Gen5",
+        "other comparable cordless vacuums"
+      ],
+      "compare": "Exact model generation accessories condition warranty and NL delivered price"
+    },
+    {
+      "id": "apple-airpods",
+      "brand": "Apple",
+      "product": "AirPods standard and Pro",
+      "compare": "Exact generation USB-C case model number new/refurbished separate; exclude cases/accessories"
+    },
+    {
+      "id": "ysl-m7",
+      "brand": "Yves Saint Laurent",
+      "product": "M7 fragrance",
+      "frequency": "low",
+      "alert": "Only exceptional independently verified discount; about annual purchase",
+      "compare": "M7 versus M7 Oud Absolu separate; exact concentration and ml"
+    },
+    {
+      "id": "ysl-y",
+      "brand": "Yves Saint Laurent",
+      "product": "Y fragrance",
+      "watch": [
+        "EDT",
+        "EDP",
+        "Le Parfum"
+      ],
+      "compare": "Same concentration and bottle volume; giftsets separately"
+    },
+    {
+      "id": "black-friday-household",
+      "category": "seasonal",
+      "product": "Black Friday / Cyber Monday",
+      "watch": [
+        "wishlist",
+        "household electronics",
+        "home projects",
+        "premium personal care",
+        "coffee"
+      ],
+      "policy": "Check price history, exact SKU, delivered NL cost; do not trust inflated list prices"
     }
   ],
   "reporting": {
@@ -63,6 +132,7 @@
     "showPriceEvenWithoutDeal": true,
     "doNotCallUnverifiedLowest": true,
     "coffeeCompareSameBlendOnly": true,
-    "subscriptionSeparate": true
+    "subscriptionSeparate": true,
+    "refreshCadence": "Hourly discovery through GitHub Actions; independent live price verification required before lowest-price or discount claims"
   }
 }

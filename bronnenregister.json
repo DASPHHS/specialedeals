@@ -1,0 +1,2426 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-28",
+  "notice": "Potential NL and international shopping research entry points. Listing is not current price verification, delivery proof or a promise of accessibility.",
+  "rules": {
+    "discovery": "Community/folders identify leads, never prove price or discount.",
+    "marketplace": "Must check seller, condition, NL delivery and exact variant.",
+    "comparator": "Can triangulate prices and history, but merchant page or reliable product-level feed required.",
+    "discount": "Advertised percentage, MSRP and cross-shop price differences alone are not seller's documented 30-day discount.",
+    "crossBorder": "For EU evaluate NL VAT/shipping and return warranty; outside EU require verified VAT/import duties/clearance/fx before claiming all-in.",
+    "physical": "Within 20 km Bleiswijk only with verified store address and branch-specific price/stock.",
+    "quality": "Storebrand and budget products fully eligible if adequate quality, compare cost per use."
+  },
+  "sources": [
+    {
+      "id": "tweakers-pricewatch",
+      "name": "Tweakers Pricewatch",
+      "url": "https://tweakers.net/pricewatch/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "kieskeurig",
+      "name": "Kieskeurig",
+      "url": "https://www.kieskeurig.nl/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "beslist",
+      "name": "Beslist",
+      "url": "https://www.beslist.nl/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "vergelijk",
+      "name": "Vergelijk",
+      "url": "https://www.vergelijk.nl/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "prijsalerts",
+      "name": "PrijsAlerts",
+      "url": "https://prijsalerts.nl/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "savescout",
+      "name": "SaveScout",
+      "url": "https://savescout.nl/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "diy",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "idealo-de",
+      "name": "idealo DE",
+      "url": "https://www.idealo.de/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "idealo-fr",
+      "name": "idealo FR",
+      "url": "https://www.idealo.fr/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "geizhals",
+      "name": "Geizhals",
+      "url": "https://geizhals.eu/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "pricerunner",
+      "name": "PriceRunner",
+      "url": "https://www.pricerunner.com/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "zonscope",
+      "name": "Zonscope",
+      "url": "https://www.zonscope.com/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "bezprice",
+      "name": "Bezprice",
+      "url": "https://bezprice.com/",
+      "role": "comparison",
+      "groups": [
+        "tech",
+        "outdoor",
+        "running",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "keepa",
+      "name": "Keepa",
+      "url": "https://keepa.com/",
+      "role": "history",
+      "groups": [
+        "tech",
+        "care",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "prijspuls",
+      "name": "Prijspuls",
+      "url": "https://prijspuls.nl/",
+      "role": "history",
+      "groups": [
+        "tech",
+        "care",
+        "diy"
+      ],
+      "market": "EU",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "geurcheck",
+      "name": "GeurCheck",
+      "url": "https://www.geurcheck.nl/",
+      "role": "comparison",
+      "groups": [
+        "perfume",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "url": "https://www.apple.com/nl/",
+      "role": "official",
+      "groups": [
+        "tech"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "dyson",
+      "name": "Dyson",
+      "url": "https://www.dyson.nl/",
+      "role": "official",
+      "groups": [
+        "tech"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "amac",
+      "name": "Amac",
+      "url": "https://www.amac.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "coolblue",
+      "name": "Coolblue",
+      "url": "https://www.coolblue.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "mediamarkt",
+      "name": "MediaMarkt",
+      "url": "https://www.mediamarkt.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "alternate",
+      "name": "Alternate",
+      "url": "https://www.alternate.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "azerty",
+      "name": "Azerty",
+      "url": "https://azerty.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "megekko",
+      "name": "Megekko",
+      "url": "https://www.megekko.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "paradigit",
+      "name": "Paradigit",
+      "url": "https://www.paradigit.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "proshop",
+      "name": "Proshop",
+      "url": "https://www.proshop.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "galaxus",
+      "name": "Galaxus",
+      "url": "https://www.galaxus.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "expert",
+      "name": "Expert",
+      "url": "https://www.expert.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "electro-world",
+      "name": "Electro World",
+      "url": "https://www.electroworld.nl/",
+      "role": "retailer",
+      "groups": [
+        "tech",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bol",
+      "name": "Bol",
+      "url": "https://www.bol.com/nl/nl/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "groceries"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-nl",
+      "name": "Amazon NL",
+      "url": "https://www.amazon.nl/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "groceries"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-de",
+      "name": "Amazon DE",
+      "url": "https://www.amazon.de/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-fr",
+      "name": "Amazon FR",
+      "url": "https://www.amazon.fr/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-es",
+      "name": "Amazon ES",
+      "url": "https://www.amazon.es/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-it",
+      "name": "Amazon IT",
+      "url": "https://www.amazon.it/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-be",
+      "name": "Amazon BE",
+      "url": "https://www.amazon.com.be/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-pl",
+      "name": "Amazon PL",
+      "url": "https://www.amazon.pl/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-se",
+      "name": "Amazon SE",
+      "url": "https://www.amazon.se/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "amazon-uk",
+      "name": "Amazon UK",
+      "url": "https://www.amazon.co.uk/",
+      "role": "marketplace",
+      "groups": [
+        "tech",
+        "care",
+        "perfume",
+        "home",
+        "diy",
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Check individual seller, condition, delivery to NL and exact offer."
+    },
+    {
+      "id": "arc-teryx",
+      "name": "Arc'teryx",
+      "url": "https://arcteryx.com/",
+      "role": "official",
+      "groups": [
+        "outdoor"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "arc-teryx-outlet",
+      "name": "Arc'teryx outlet",
+      "url": "https://outlet.arcteryx.com/",
+      "role": "official",
+      "groups": [
+        "outdoor"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bergfreunde",
+      "name": "Bergfreunde",
+      "url": "https://www.bergfreunde.nl/outlet/merken/arcteryx/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bergfreunde-de",
+      "name": "Bergfreunde DE",
+      "url": "https://www.bergfreunde.de/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bergzeit",
+      "name": "Bergzeit",
+      "url": "https://www.bergzeit.nl/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bergzeit-de",
+      "name": "Bergzeit DE",
+      "url": "https://www.bergzeit.de/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bever",
+      "name": "Bever",
+      "url": "https://www.bever.nl/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "snowleader",
+      "name": "Snowleader",
+      "url": "https://www.snowleader.nl/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "trekkinn",
+      "name": "Trekkinn",
+      "url": "https://www.tradeinn.com/trekkinn/nl",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ekosport",
+      "name": "Ekosport",
+      "url": "https://www.ekosport.nl/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "sport-conrad",
+      "name": "Sport Conrad",
+      "url": "https://www.sport-conrad.com/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hardloop",
+      "name": "Hardloop",
+      "url": "https://www.hardloop.nl/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "outnorth",
+      "name": "Outnorth",
+      "url": "https://www.outnorth.com/",
+      "role": "retailer",
+      "groups": [
+        "outdoor",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hoka",
+      "name": "HOKA",
+      "url": "https://www.hoka.com/",
+      "role": "official",
+      "groups": [
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "all4running",
+      "name": "All4running",
+      "url": "https://all4running.nl/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "runningdirect",
+      "name": "RunningDirect",
+      "url": "https://www.runningdirect.nl/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "21run",
+      "name": "21RUN",
+      "url": "https://www.21run.com/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "top4running",
+      "name": "Top4Running",
+      "url": "https://top4running.nl/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "de-hardloopwinkel",
+      "name": "De Hardloopwinkel",
+      "url": "https://www.hardloopwinkel.nl/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "running-warehouse-eu",
+      "name": "Running Warehouse EU",
+      "url": "https://www.runningwarehouse.eu/",
+      "role": "retailer",
+      "groups": [
+        "running"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "zalando",
+      "name": "Zalando",
+      "url": "https://www.zalando.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "zalando-lounge",
+      "name": "Zalando Lounge",
+      "url": "https://www.zalando-lounge.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "about-you",
+      "name": "ABOUT YOU",
+      "url": "https://www.aboutyou.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "otrium",
+      "name": "Otrium",
+      "url": "https://www.otrium.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "wehkamp",
+      "name": "Wehkamp",
+      "url": "https://www.wehkamp.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "de-bijenkorf",
+      "name": "de Bijenkorf",
+      "url": "https://www.debijenkorf.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "peek-cloppenburg",
+      "name": "Peek & Cloppenburg",
+      "url": "https://www.peek-cloppenburg.nl/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bestsecret",
+      "name": "BestSecret",
+      "url": "https://www.bestsecret.com/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "yoox",
+      "name": "YOOX",
+      "url": "https://www.yoox.com/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "the-outnet",
+      "name": "THE OUTNET",
+      "url": "https://www.theoutnet.com/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "mr-porter",
+      "name": "MR PORTER",
+      "url": "https://www.mrporter.com/",
+      "role": "retailer",
+      "groups": [
+        "fashion",
+        "running"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "janzen",
+      "name": "JANZEN",
+      "url": "https://janzen.com/",
+      "role": "official",
+      "groups": [
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "rituals",
+      "name": "Rituals",
+      "url": "https://www.rituals.com/nl-nl/",
+      "role": "official",
+      "groups": [
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ysl-beauty",
+      "name": "YSL Beauty",
+      "url": "https://www.yslbeauty.com/",
+      "role": "official",
+      "groups": [
+        "perfume"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "douglas",
+      "name": "Douglas",
+      "url": "https://www.douglas.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "kaars-nl",
+      "name": "Kaars.nl",
+      "url": "https://kaars.nl/janzen-shower-foam-earth-46-200-ml/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ici-paris-xl",
+      "name": "ICI PARIS XL",
+      "url": "https://www.iciparisxl.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "notino",
+      "name": "Notino",
+      "url": "https://www.notino.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "plein",
+      "name": "Plein",
+      "url": "https://www.plein.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "salontopper",
+      "name": "Salontopper",
+      "url": "https://www.salontopper.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "haarshop",
+      "name": "Haarshop",
+      "url": "https://www.haarshop.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "drogist-nl",
+      "name": "Drogist.nl",
+      "url": "https://www.drogist.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "deonlinedrogist",
+      "name": "DeOnlineDrogist",
+      "url": "https://www.deonlinedrogist.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "kruidvat",
+      "name": "Kruidvat",
+      "url": "https://www.kruidvat.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "etos",
+      "name": "Etos",
+      "url": "https://www.etos.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "trekpleister",
+      "name": "Trekpleister",
+      "url": "https://www.trekpleister.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "parfumdreams",
+      "name": "Parfumdreams",
+      "url": "https://www.parfumdreams.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "deloox",
+      "name": "Deloox",
+      "url": "https://www.deloox.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "parfumwebshop",
+      "name": "ParfumWebshop",
+      "url": "https://www.parfumwebshop.nl/",
+      "role": "retailer",
+      "groups": [
+        "care",
+        "perfume",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "giraffe-coffee",
+      "name": "Giraffe Coffee",
+      "url": "https://giraffecoffee.com/products/original-blend",
+      "role": "official",
+      "groups": [
+        "coffee"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "roazon",
+      "name": "Roazon",
+      "url": "https://roazon.nl/nl/coffee/giraffe-original-blend/",
+      "role": "comparison",
+      "groups": [
+        "coffee"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "koffievoordeel",
+      "name": "Koffievoordeel",
+      "url": "https://www.koffievoordeel.nl/",
+      "role": "retailer",
+      "groups": [
+        "coffee",
+        "groceries"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "koffiecenter",
+      "name": "Koffiecenter",
+      "url": "https://www.koffiecenter.nl/",
+      "role": "retailer",
+      "groups": [
+        "coffee",
+        "groceries"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "supermarktscanner",
+      "name": "Supermarktscanner",
+      "url": "https://supermarktscanner.nl/",
+      "role": "comparison",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "superprijsvergelijker",
+      "name": "SuperPrijsvergelijker",
+      "url": "https://www.superprijsvergelijker.nl/",
+      "role": "comparison",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "prijsprofeet-api",
+      "name": "PrijsProfeet API",
+      "url": "https://www.prijsprofeet.nl/api",
+      "role": "data_source",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "checkjebon-open-data",
+      "name": "Checkjebon open data",
+      "url": "https://github.com/supermarkt/checkjebon",
+      "role": "data_source",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "allesupers",
+      "name": "Allesupers",
+      "url": "https://allesupers.nl/folders",
+      "role": "discovery",
+      "groups": [
+        "groceries",
+        "drugstore",
+        "discount"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "voordeelmuis",
+      "name": "Voordeelmuis",
+      "url": "https://www.voordeelmuis.nl/",
+      "role": "discovery",
+      "groups": [
+        "groceries",
+        "drugstore",
+        "discount"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "reclamefolder",
+      "name": "Reclamefolder",
+      "url": "https://www.reclamefolder.nl/",
+      "role": "discovery",
+      "groups": [
+        "groceries",
+        "drugstore",
+        "discount"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "allefolders",
+      "name": "AlleFolders",
+      "url": "https://www.allefolders.nl/",
+      "role": "discovery",
+      "groups": [
+        "groceries",
+        "drugstore",
+        "discount"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "ah",
+      "name": "AH",
+      "url": "https://www.ah.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "jumbo",
+      "name": "Jumbo",
+      "url": "https://www.jumbo.com/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "lidl",
+      "name": "Lidl",
+      "url": "https://www.lidl.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "aldi",
+      "name": "Aldi",
+      "url": "https://www.aldi.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "dirk",
+      "name": "Dirk",
+      "url": "https://www.dirk.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "plus",
+      "name": "PLUS",
+      "url": "https://www.plus.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hoogvliet",
+      "name": "Hoogvliet",
+      "url": "https://www.hoogvliet.com/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "dekamarkt",
+      "name": "DekaMarkt",
+      "url": "https://www.dekamarkt.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "vomar",
+      "name": "Vomar",
+      "url": "https://www.vomar.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "nettorama",
+      "name": "Nettorama",
+      "url": "https://www.nettorama.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "picnic",
+      "name": "Picnic",
+      "url": "https://picnic.app/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ekoplaza",
+      "name": "Ekoplaza",
+      "url": "https://www.ekoplaza.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "spar",
+      "name": "SPAR",
+      "url": "https://www.spar.nl/",
+      "role": "retailer",
+      "groups": [
+        "groceries",
+        "drugstore"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "action",
+      "name": "Action",
+      "url": "https://www.action.com/nl-nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "zeeman",
+      "name": "Zeeman",
+      "url": "https://www.zeeman.com/nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "xenos",
+      "name": "Xenos",
+      "url": "https://www.xenos.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "wibra",
+      "name": "Wibra",
+      "url": "https://www.wibra.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hema",
+      "name": "HEMA",
+      "url": "https://www.hema.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "solow",
+      "name": "SoLow",
+      "url": "https://www.solow.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "url": "https://www.ikea.com/nl/nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "jysk",
+      "name": "JYSK",
+      "url": "https://jysk.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "blokker",
+      "name": "Blokker",
+      "url": "https://www.blokker.nl/",
+      "role": "retailer",
+      "groups": [
+        "discount",
+        "drugstore",
+        "home",
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hornbach",
+      "name": "Hornbach",
+      "url": "https://www.hornbach.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus",
+      "url": "https://www.bauhaus.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://www.gamma.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "praxis",
+      "name": "Praxis",
+      "url": "https://www.praxis.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "karwei",
+      "name": "Karwei",
+      "url": "https://www.karwei.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hubo",
+      "name": "Hubo",
+      "url": "https://www.hubo.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "toolstation",
+      "name": "Toolstation",
+      "url": "https://www.toolstation.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bouwmaat",
+      "name": "Bouwmaat",
+      "url": "https://www.bouwmaat.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "kluswijs",
+      "name": "KlusWijs",
+      "url": "https://www.kluswijs.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "pontmeyer",
+      "name": "PontMeyer",
+      "url": "https://www.pontmeyer.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "onlineverf",
+      "name": "Onlineverf",
+      "url": "https://www.onlineverf.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "de-verfzaak",
+      "name": "De Verfzaak",
+      "url": "https://www.deverfzaak.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "verf-nl",
+      "name": "Verf.nl",
+      "url": "https://www.verf.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "verfwinkel",
+      "name": "Verfwinkel",
+      "url": "https://www.verfwinkel.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "verfwebwinkel",
+      "name": "Verfwebwinkel",
+      "url": "https://www.verfwebwinkel.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "intratuin",
+      "name": "Intratuin",
+      "url": "https://www.intratuin.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "welkoop",
+      "name": "Welkoop",
+      "url": "https://www.welkoop.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "tuincentrum",
+      "name": "Tuincentrum",
+      "url": "https://www.tuincentrum.nl/",
+      "role": "retailer",
+      "groups": [
+        "diy",
+        "home"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "hornbach-de",
+      "name": "Hornbach DE",
+      "url": "https://www.hornbach.de/",
+      "role": "retailer",
+      "groups": [
+        "diy"
+      ],
+      "market": "DE",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "bauhaus-de",
+      "name": "Bauhaus DE",
+      "url": "https://www.bauhaus.info/",
+      "role": "retailer",
+      "groups": [
+        "diy"
+      ],
+      "market": "DE",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "contorion",
+      "name": "Contorion",
+      "url": "https://www.contorion.de/",
+      "role": "retailer",
+      "groups": [
+        "diy"
+      ],
+      "market": "DE",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "consumentenbond-bouwmarkt",
+      "name": "Consumentenbond bouwmarkt",
+      "url": "https://www.consumentenbond.nl/verbouwen-en-klussen/prijspeiling-bouwmarkten",
+      "role": "research",
+      "groups": [
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "localfind-bouwmarkt",
+      "name": "LocalFind bouwmarkt",
+      "url": "https://www.localfind.nl/klusadvies/welke-bouwmarkt-is-het-goedkoopst",
+      "role": "research",
+      "groups": [
+        "diy"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Independent cross-check/context, verify same SKU and live checkout at merchant."
+    },
+    {
+      "id": "pepper",
+      "name": "Pepper",
+      "url": "https://nl.pepper.com/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "mydealz",
+      "name": "mydealz",
+      "url": "https://www.mydealz.de/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "dealabs",
+      "name": "Dealabs",
+      "url": "https://www.dealabs.com/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "chollometro",
+      "name": "Chollometro",
+      "url": "https://www.chollometro.com/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "hotukdeals",
+      "name": "HotUKDeals",
+      "url": "https://www.hotukdeals.com/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "slickdeals",
+      "name": "Slickdeals",
+      "url": "https://slickdeals.net/",
+      "role": "discovery",
+      "groups": [
+        "tech",
+        "diy",
+        "home",
+        "fashion",
+        "care"
+      ],
+      "market": "EU",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "reddit-r-zuinig",
+      "name": "Reddit r/zuinig",
+      "url": "https://www.reddit.com/r/zuinig/",
+      "role": "community",
+      "groups": [
+        "groceries",
+        "diy",
+        "home",
+        "fashion"
+      ],
+      "market": "INT",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "reddit-r-thenetherlands",
+      "name": "Reddit r/thenetherlands",
+      "url": "https://www.reddit.com/r/thenetherlands/",
+      "role": "community",
+      "groups": [
+        "groceries",
+        "diy",
+        "home",
+        "fashion"
+      ],
+      "market": "INT",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "reddit-r-frugalmalefashion",
+      "name": "Reddit r/frugalmalefashion",
+      "url": "https://www.reddit.com/r/frugalmalefashion/",
+      "role": "community",
+      "groups": [
+        "groceries",
+        "diy",
+        "home",
+        "fashion"
+      ],
+      "market": "INT",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "we-love-sample-sales",
+      "name": "We Love Sample Sales",
+      "url": "https://www.welovesamplesales.nl/",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "stockverkopen",
+      "name": "Stockverkopen",
+      "url": "https://www.stockverkopen.nl/permaand/deze-maand",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "researched_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "your-sample-sale",
+      "name": "Your Sample Sale",
+      "url": "https://yoursamplesale.nl/",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "chicmi",
+      "name": "Chicmi",
+      "url": "https://www.chicmi.com/",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "eventbrite-nl",
+      "name": "Eventbrite NL",
+      "url": "https://www.eventbrite.nl/",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "sample-sale-amsterdam",
+      "name": "Sample Sale Amsterdam",
+      "url": "https://www.samplesaleamsterdam.nl/",
+      "role": "discovery",
+      "groups": [
+        "sales"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "anwb",
+      "name": "ANWB",
+      "url": "https://www.anwb.nl/",
+      "role": "official",
+      "groups": [
+        "contests",
+        "travel"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "wibra-winacties",
+      "name": "Wibra Winacties",
+      "url": "https://www.wibra.nl/",
+      "role": "official",
+      "groups": [
+        "contests",
+        "travel"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "ing-punten",
+      "name": "ING Punten",
+      "url": "https://www.ing.nl/particulier/ing-punten",
+      "role": "official",
+      "groups": [
+        "tech",
+        "travel",
+        "care"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Official/current product page and delivered NL cost must still be checked."
+    },
+    {
+      "id": "gratiz",
+      "name": "GratiZ",
+      "url": "https://www.gratiz.nl/prijsvragen",
+      "role": "discovery",
+      "groups": [
+        "contests"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "prijsvragen-nl",
+      "name": "Prijsvragen.nl",
+      "url": "https://www.prijsvragen.nl/",
+      "role": "discovery",
+      "groups": [
+        "contests"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    },
+    {
+      "id": "gratiswinactie",
+      "name": "Gratiswinactie",
+      "url": "https://gratiswinactie.nl/",
+      "role": "discovery",
+      "groups": [
+        "contests"
+      ],
+      "market": "NL",
+      "reviewStatus": "candidate_entry_point",
+      "priceEvidenceStatus": "not_verified",
+      "notes": "Lead only; never accept advertised discount without retailer and reference."
+    }
+  ]
+}

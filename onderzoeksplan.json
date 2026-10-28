@@ -1,0 +1,1001 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "inputs": [
+    "bronnenregister.json",
+    "prijsradar-config.json",
+    "huishoudradar-config.json",
+    "wishlist.json",
+    "radar-profiel.json"
+  ],
+  "notes": "Curated research paths, not automatic adapters. Sources may be unavailable/outdated; check product-specific URL and shipping anew.",
+  "dailyStrategy": "Prioritize 8-12 high-intent exact targets; rotate every remaining target; allow several dozen actual searches/checks, but never pretend all sources were checked.",
+  "classification": [
+    "verified_current_pricepeil",
+    "verified_temporary_discount",
+    "cross_store_price_advantage_only",
+    "unverified_research_lead",
+    "no_current_match"
+  ],
+  "targets": [
+    {
+      "id": "janzen-earth-46-foam-200",
+      "name": "Earth 46 Shower Foam",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "Earth 46 Shower Foam 200 ml, EAN 8717612801469 when confirmed; no other JANZEN variants",
+      "retailerSourceIds": [
+        "janzen",
+        "rituals",
+        "douglas",
+        "kaars-nl",
+        "ici-paris-xl",
+        "plein",
+        "salontopper",
+        "notino",
+        "kruidvat",
+        "etos",
+        "trekpleister"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "prijspuls",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "rituals-homme-foam-200",
+      "name": "Homme Foaming Shower Gel",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "Homme shower foam, 200 ml and exact EAN",
+      "retailerSourceIds": [
+        "janzen",
+        "rituals",
+        "douglas",
+        "kaars-nl",
+        "ici-paris-xl",
+        "plein",
+        "salontopper",
+        "notino",
+        "kruidvat",
+        "etos",
+        "trekpleister"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "prijspuls",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "rituals-sport-foam-200",
+      "name": "Sport Foaming Shower Gel",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "Sport shower foam, 200 ml and exact EAN",
+      "retailerSourceIds": [
+        "janzen",
+        "rituals",
+        "douglas",
+        "kaars-nl",
+        "ici-paris-xl",
+        "plein",
+        "salontopper",
+        "notino",
+        "kruidvat",
+        "etos",
+        "trekpleister"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "prijspuls",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "giraffe-original-350",
+      "name": "Original Blend coffee beans",
+      "category": "coffee",
+      "priority": "high",
+      "exactMatchRule": "Original Blend 350 gram beans, subscription and ground coffee separately",
+      "retailerSourceIds": [
+        "giraffe-coffee",
+        "koffievoordeel",
+        "koffiecenter"
+      ],
+      "crosscheckSourceIds": [
+        "roazon",
+        "prijspuls"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "giraffe-original-1000",
+      "name": "Original Blend coffee beans",
+      "category": "coffee",
+      "priority": "high",
+      "exactMatchRule": "Original Blend 1000 gram beans, subscription and ground coffee separately",
+      "retailerSourceIds": [
+        "giraffe-coffee",
+        "koffievoordeel",
+        "koffiecenter"
+      ],
+      "crosscheckSourceIds": [
+        "roazon",
+        "prijspuls"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "dyson-cordless",
+      "name": "Handheld and cordless vacuum cleaners",
+      "category": "tech",
+      "priority": "standard",
+      "exactMatchRule": "Specific Dyson model with head/tools, battery and warranty; no category pricing",
+      "retailerSourceIds": [
+        "apple",
+        "dyson",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-fr",
+        "amazon-es",
+        "alternate",
+        "azerty",
+        "megekko",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz",
+        "dealabs"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "apple-airpods",
+      "name": "AirPods standard and Pro",
+      "category": "tech",
+      "priority": "high",
+      "exactMatchRule": "Exact generation, case connector, sealed/new, no spare cases",
+      "retailerSourceIds": [
+        "apple",
+        "dyson",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-fr",
+        "amazon-es",
+        "alternate",
+        "azerty",
+        "megekko",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz",
+        "dealabs"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "ysl-m7",
+      "name": "M7 fragrance",
+      "category": "perfume",
+      "priority": "standard",
+      "exactMatchRule": "M7 rare vs M7 Oud Absolu separate; concentration/ml/authentic seller",
+      "retailerSourceIds": [
+        "ysl-beauty",
+        "douglas",
+        "ici-paris-xl",
+        "notino",
+        "deloox",
+        "parfumdreams",
+        "parfumwebshop",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "geurcheck",
+        "prijsalerts",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "ysl-y",
+      "name": "Y fragrance",
+      "category": "perfume",
+      "priority": "standard",
+      "exactMatchRule": "Y EDT, EDP, Le Parfum separated per bottle size",
+      "retailerSourceIds": [
+        "ysl-beauty",
+        "douglas",
+        "ici-paris-xl",
+        "notino",
+        "deloox",
+        "parfumdreams",
+        "parfumwebshop",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "geurcheck",
+        "prijsalerts",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "black-friday-household",
+      "name": "Black Friday / Cyber Monday",
+      "category": "tech",
+      "priority": "standard",
+      "exactMatchRule": "Exact product variant, in stock, new condition",
+      "retailerSourceIds": [
+        "apple",
+        "dyson",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-fr",
+        "amazon-es",
+        "alternate",
+        "azerty",
+        "megekko",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz",
+        "dealabs"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "arcteryx-l-xl",
+      "name": "Herenkleding L/XL · broeken W32/W33/W34",
+      "category": "outdoor",
+      "priority": "high",
+      "exactMatchRule": "Arc'teryx exclusively outdoor; men L/XL; pants W32-W34; exact colour/model",
+      "retailerSourceIds": [
+        "arc-teryx",
+        "arc-teryx-outlet",
+        "bergfreunde",
+        "bergfreunde-de",
+        "bergzeit",
+        "bergzeit-de",
+        "bever",
+        "snowleader",
+        "trekkinn",
+        "ekosport",
+        "sport-conrad"
+      ],
+      "crosscheckSourceIds": [
+        "idealo-de",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "hoka-eu47",
+      "name": "Herenschoenen circa EU 47",
+      "category": "running",
+      "priority": "high",
+      "exactMatchRule": "HOKA exact men's model and size EU47 plus width",
+      "retailerSourceIds": [
+        "hoka",
+        "all4running",
+        "runningdirect",
+        "21run",
+        "top4running",
+        "de-hardloopwinkel",
+        "running-warehouse-eu",
+        "zalando",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "idealo-de",
+        "prijsalerts"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "apple-macbook",
+      "name": "MacBook Air / Pro",
+      "category": "tech",
+      "priority": "standard",
+      "exactMatchRule": "M-chip, RAM, SSD, screen, keyboard, condition, warranty",
+      "retailerSourceIds": [
+        "apple",
+        "dyson",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-fr",
+        "amazon-es",
+        "alternate",
+        "azerty",
+        "megekko",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz",
+        "dealabs"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "apple-watch-ultra",
+      "name": "Watch Ultra",
+      "category": "tech",
+      "priority": "high",
+      "exactMatchRule": "Exact Ultra generation, case, band/configuration, new vs refurb; normal price not deal",
+      "retailerSourceIds": [
+        "apple",
+        "dyson",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-fr",
+        "amazon-es",
+        "alternate",
+        "azerty",
+        "megekko",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz",
+        "dealabs"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "padel-premium",
+      "name": "Padel · premium accessoires",
+      "category": "fashion",
+      "priority": "standard",
+      "exactMatchRule": "Exact padel racket model/version/grip",
+      "retailerSourceIds": [
+        "de-bijenkorf",
+        "zalando",
+        "zalando-lounge",
+        "otrium",
+        "yoox",
+        "the-outnet",
+        "bestsecret",
+        "mr-porter",
+        "about-you"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "savescout"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-wasmiddel-pods",
+      "name": "Wasmiddel pods/capsules",
+      "category": "drugstore",
+      "priority": "high",
+      "exactMatchRule": "Identical formulation, dose count, recommended dosage, shipping and loyalty conditions; lowest effective unit price with adequate quality, store brands valid; prijs per wasbeurt",
+      "retailerSourceIds": [
+        "action",
+        "kruidvat",
+        "etos",
+        "trekpleister",
+        "plein",
+        "ah",
+        "jumbo",
+        "lidl",
+        "aldi",
+        "dirk",
+        "amazon-nl",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "supermarktscanner",
+        "prijsprofeet-api",
+        "checkjebon-open-data",
+        "superprijsvergelijker"
+      ],
+      "discoverySourceIds": [
+        "voordeelmuis",
+        "reclamefolder",
+        "allefolders"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-vaatwastabletten",
+      "name": "Vaatwastabletten",
+      "category": "drugstore",
+      "priority": "high",
+      "exactMatchRule": "Same brand and product line, count, shipping and promotion conditions; lowest effective unit price with adequate quality, store brands valid; prijs per tablet",
+      "retailerSourceIds": [
+        "action",
+        "kruidvat",
+        "etos",
+        "trekpleister",
+        "plein",
+        "ah",
+        "jumbo",
+        "lidl",
+        "aldi",
+        "dirk",
+        "amazon-nl",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "supermarktscanner",
+        "prijsprofeet-api",
+        "checkjebon-open-data",
+        "superprijsvergelijker"
+      ],
+      "discoverySourceIds": [
+        "voordeelmuis",
+        "reclamefolder",
+        "allefolders"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-allesreiniger",
+      "name": "Allesreiniger en schoonmaakmiddelen",
+      "category": "drugstore",
+      "priority": "high",
+      "exactMatchRule": "Same formulation or functional equivalent, concentrate dilution where relevant; lowest effective unit price with adequate quality, store brands valid; prijs per liter",
+      "retailerSourceIds": [
+        "action",
+        "kruidvat",
+        "etos",
+        "trekpleister",
+        "plein",
+        "ah",
+        "jumbo",
+        "lidl",
+        "aldi",
+        "dirk",
+        "amazon-nl",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "supermarktscanner",
+        "prijsprofeet-api",
+        "checkjebon-open-data",
+        "superprijsvergelijker"
+      ],
+      "discoverySourceIds": [
+        "voordeelmuis",
+        "reclamefolder",
+        "allefolders"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-toiletpapier",
+      "name": "Toiletpapier",
+      "category": "drugstore",
+      "priority": "high",
+      "exactMatchRule": "Roll sheets and ply, not rolls alone; lowest effective unit price with adequate quality, store brands valid; prijs per 100 vellen",
+      "retailerSourceIds": [
+        "action",
+        "kruidvat",
+        "etos",
+        "trekpleister",
+        "plein",
+        "ah",
+        "jumbo",
+        "lidl",
+        "aldi",
+        "dirk",
+        "amazon-nl",
+        "amazon-de"
+      ],
+      "crosscheckSourceIds": [
+        "supermarktscanner",
+        "prijsprofeet-api",
+        "checkjebon-open-data",
+        "superprijsvergelijker"
+      ],
+      "discoverySourceIds": [
+        "voordeelmuis",
+        "reclamefolder",
+        "allefolders"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-shampoo",
+      "name": "Shampoo",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "Brand, formula, bottle size, hair type and NL all-in price; lowest effective unit price with adequate quality, store brands valid; prijs per 100 ml",
+      "retailerSourceIds": [
+        "janzen",
+        "rituals",
+        "douglas",
+        "kaars-nl",
+        "ici-paris-xl",
+        "plein",
+        "salontopper",
+        "notino",
+        "kruidvat",
+        "etos",
+        "trekpleister"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "prijspuls",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-doucheproducten",
+      "name": "Douchegel en shower foam",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "JANZEN Earth and Rituals Homme/Sport exact variant separately; lowest effective unit price with adequate quality, store brands valid; prijs per 100 ml",
+      "retailerSourceIds": [
+        "janzen",
+        "rituals",
+        "douglas",
+        "kaars-nl",
+        "ici-paris-xl",
+        "plein",
+        "salontopper",
+        "notino",
+        "kruidvat",
+        "etos",
+        "trekpleister"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "prijspuls",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-koffie",
+      "name": "Koffiebonen",
+      "category": "coffee",
+      "priority": "high",
+      "exactMatchRule": "Giraffe Original Blend exact blend and form; subscription separately; lowest effective unit price with adequate quality, store brands valid; prijs per kg",
+      "retailerSourceIds": [
+        "giraffe-coffee",
+        "koffievoordeel",
+        "koffiecenter"
+      ],
+      "crosscheckSourceIds": [
+        "roazon",
+        "prijspuls"
+      ],
+      "discoverySourceIds": [
+        "pepper"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-huishoud-boodschappen",
+      "name": "Terugkerende boodschappen",
+      "category": "groceries",
+      "priority": "high",
+      "exactMatchRule": "Brand, package, ingredient, deposit, promotion limits, loyalty conditions; lowest effective unit price with adequate quality, store brands valid; prijs per kg/liter/stuk",
+      "retailerSourceIds": [
+        "ah",
+        "jumbo",
+        "lidl",
+        "aldi",
+        "dirk",
+        "plus",
+        "hoogvliet",
+        "dekamarkt",
+        "vomar",
+        "nettorama",
+        "picnic"
+      ],
+      "crosscheckSourceIds": [
+        "supermarktscanner",
+        "prijsprofeet-api",
+        "checkjebon-open-data",
+        "superprijsvergelijker"
+      ],
+      "discoverySourceIds": [
+        "allesupers",
+        "reclamefolder",
+        "voordeelmuis"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-verf",
+      "name": "Verf, primers en schildersbenodigdheden",
+      "category": "diy",
+      "priority": "high",
+      "exactMatchRule": "Same paint type, coverage and brand; quantities and delivery; lowest effective unit price with adequate quality, store brands valid; prijs per liter",
+      "retailerSourceIds": [
+        "hornbach",
+        "bauhaus",
+        "gamma",
+        "praxis",
+        "karwei",
+        "toolstation",
+        "bouwmaat",
+        "onlineverf",
+        "de-verfzaak",
+        "verf-nl",
+        "verfwinkel",
+        "lidl"
+      ],
+      "crosscheckSourceIds": [
+        "consumentenbond-bouwmarkt",
+        "localfind-bouwmarkt",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "reclamefolder",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-gereedschap",
+      "name": "Gereedschap en machines",
+      "category": "diy",
+      "priority": "high",
+      "exactMatchRule": "Exact SKU, battery kit and warranty; lowest effective unit price with adequate quality, store brands valid; exact model",
+      "retailerSourceIds": [
+        "hornbach",
+        "bauhaus",
+        "gamma",
+        "praxis",
+        "karwei",
+        "toolstation",
+        "bouwmaat",
+        "onlineverf",
+        "de-verfzaak",
+        "verf-nl",
+        "verfwinkel",
+        "lidl"
+      ],
+      "crosscheckSourceIds": [
+        "consumentenbond-bouwmarkt",
+        "localfind-bouwmarkt",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "reclamefolder",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-tuin",
+      "name": "Tuin, bestrating en buitenprojecten",
+      "category": "diy",
+      "priority": "high",
+      "exactMatchRule": "Quality, transport and installation costs; lowest effective unit price with adequate quality, store brands valid; prijs per m²/stuk",
+      "retailerSourceIds": [
+        "hornbach",
+        "bauhaus",
+        "gamma",
+        "praxis",
+        "karwei",
+        "toolstation",
+        "bouwmaat",
+        "onlineverf",
+        "de-verfzaak",
+        "verf-nl",
+        "verfwinkel",
+        "lidl"
+      ],
+      "crosscheckSourceIds": [
+        "consumentenbond-bouwmarkt",
+        "localfind-bouwmarkt",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "reclamefolder",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-opbergen",
+      "name": "Opbergen, keuken en huishoudartikelen",
+      "category": "home",
+      "priority": "high",
+      "exactMatchRule": "Material, size, durability and equivalent quality; lowest effective unit price with adequate quality, store brands valid; prijs per stuk/set",
+      "retailerSourceIds": [
+        "action",
+        "zeeman",
+        "xenos",
+        "wibra",
+        "hema",
+        "ikea",
+        "jysk",
+        "bol",
+        "amazon-nl"
+      ],
+      "crosscheckSourceIds": [
+        "kieskeurig",
+        "prijsalerts"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "reclamefolder"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "household-textiel",
+      "name": "Textiel en basics",
+      "category": "home",
+      "priority": "high",
+      "exactMatchRule": "Size, quality and useful need; exclude irrelevant socks; lowest effective unit price with adequate quality, store brands valid; prijs per stuk",
+      "retailerSourceIds": [
+        "action",
+        "zeeman",
+        "xenos",
+        "wibra",
+        "hema",
+        "ikea",
+        "jysk",
+        "bol",
+        "amazon-nl"
+      ],
+      "crosscheckSourceIds": [
+        "kieskeurig",
+        "prijsalerts"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "reclamefolder"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Unit price + actual package price and conditions must both be verified; if no usable published data leave unknown.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "event-sales",
+      "name": "Sample sales Nederland (premium, designer, mens/womens)",
+      "category": "sales",
+      "priority": "high",
+      "exactMatchRule": "Official organizer/date/tickets/venue/size; brand and condition",
+      "retailerSourceIds": [
+        "we-love-sample-sales",
+        "stockverkopen",
+        "your-sample-sale",
+        "chicmi",
+        "eventbrite-nl"
+      ],
+      "crosscheckSourceIds": [
+        "stockverkopen",
+        "we-love-sample-sales"
+      ],
+      "discoverySourceIds": [
+        "stockverkopen",
+        "we-love-sample-sales"
+      ],
+      "minimumRetailersTarget": 1,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Event or giveaway confirmation, not arbitrary discount percentage.",
+      "frequency": "daily"
+    },
+    {
+      "id": "event-contests",
+      "name": "Grote echte gratis winacties (prijs >= €250)",
+      "category": "contests",
+      "priority": "high",
+      "exactMatchRule": "Official organizer terms, NL eligibility, deadline, prize value, free entry; do not count newsletters as consent-free",
+      "retailerSourceIds": [
+        "anwb",
+        "wibra-winacties",
+        "gratiz",
+        "prijsvragen-nl",
+        "gratiswinactie"
+      ],
+      "crosscheckSourceIds": [
+        "gratiz",
+        "prijsvragen-nl"
+      ],
+      "discoverySourceIds": [
+        "gratiz",
+        "prijsvragen-nl"
+      ],
+      "minimumRetailersTarget": 1,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Event or giveaway confirmation, not arbitrary discount percentage.",
+      "frequency": "daily"
+    }
+  ]
+}

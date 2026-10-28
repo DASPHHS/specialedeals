@@ -17,9 +17,9 @@ class PriceEngineTests(unittest.TestCase):
  def test_same_variant_and_condition(self):
     r=rank([obs(),obs(seller="Shop B",priceEUR="790",shippingEUR="15"),obs(variantKey="ultra-4-49mm-new",priceEUR="900"),obs(condition="refurbished",priceEUR="600")],NOW)
     self.assertEqual(len(r["items"]),3)
-    self.assertEqual(r["items"][1]["lowestChecked"]["seller"],"Shop A")
-    self.assertEqual(r["items"][1]["checkedSellerCount"],2)
-    self.assertEqual(r["items"][1]["discountStatus"],"not_established_without_valid_independent_reference")
+    self.assertEqual(r["items"][0]["lowestChecked"]["seller"],"Shop A")
+    self.assertEqual(r["items"][0]["checkedSellerCount"],2)
+    self.assertEqual(r["items"][0]["discountStatus"],"not_established_without_valid_independent_reference")
  def test_jsonld_extraction(self):
     page='<script type="application/ld+json">{"@type":"Product","name":"Watch Ultra 3","sku":"U3","offers":{"@type":"Offer","price":"799.95","priceCurrency":"EUR","availability":"https://schema.org/InStock"}}</script>'
     x,state=extract_product_offers(page,"Watch Ultra 3")

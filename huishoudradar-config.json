@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "purpose": "Personal recurring household shopping benchmarks and exceptional deal discovery",
+  "scope": {
+    "localPhysical": "Bleiswijk area, within 20 km only when store address verified",
+    "online": "Reliable sellers delivering to NL",
+    "publicDataOnly": true
+  },
+  "categories": [
+    {
+      "id": "was-en-schoonmaak",
+      "name": "Wassen & schoonmaken",
+      "priority": "high",
+      "products": [
+        {
+          "id": "wasmiddel-pods",
+          "name": "Wasmiddel pods/capsules",
+          "unit": "prijs per wasbeurt",
+          "compare": "Identical formulation, dose count, recommended dosage, shipping and loyalty conditions"
+        },
+        {
+          "id": "vaatwastabletten",
+          "name": "Vaatwastabletten",
+          "unit": "prijs per tablet",
+          "compare": "Same brand and product line, count, shipping and promotion conditions"
+        },
+        {
+          "id": "allesreiniger",
+          "name": "Allesreiniger en schoonmaakmiddelen",
+          "unit": "prijs per liter",
+          "compare": "Same formulation or functional equivalent, concentrate dilution where relevant"
+        },
+        {
+          "id": "toiletpapier",
+          "name": "Toiletpapier",
+          "unit": "prijs per 100 vellen",
+          "compare": "Roll sheets and ply, not rolls alone"
+        }
+      ]
+    },
+    {
+      "id": "persoonlijke-verzorging",
+      "name": "Persoonlijke verzorging",
+      "priority": "high",
+      "products": [
+        {
+          "id": "shampoo",
+          "name": "Shampoo",
+          "unit": "prijs per 100 ml",
+          "compare": "Brand, formula, bottle size, hair type and NL all-in price"
+        },
+        {
+          "id": "doucheproducten",
+          "name": "Douchegel en shower foam",
+          "unit": "prijs per 100 ml",
+          "compare": "JANZEN Earth and Rituals Homme/Sport exact variant separately"
+        }
+      ]
+    },
+    {
+      "id": "boodschappen",
+      "name": "Levensmiddelen & koffie",
+      "priority": "high",
+      "products": [
+        {
+          "id": "koffie",
+          "name": "Koffiebonen",
+          "unit": "prijs per kg",
+          "compare": "Giraffe Original Blend exact blend and form; subscription separately"
+        },
+        {
+          "id": "huishoud-boodschappen",
+          "name": "Terugkerende boodschappen",
+          "unit": "prijs per kg/liter/stuk",
+          "compare": "Brand, package, ingredient, deposit, promotion limits, loyalty conditions"
+        }
+      ]
+    },
+    {
+      "id": "bouwmarkt",
+      "name": "Bouwmarkt & klussen",
+      "priority": "high",
+      "products": [
+        {
+          "id": "verf",
+          "name": "Verf, primers en schildersbenodigdheden",
+          "unit": "prijs per liter",
+          "compare": "Same paint type, coverage and brand; quantities and delivery"
+        },
+        {
+          "id": "gereedschap",
+          "name": "Gereedschap en machines",
+          "unit": "exact model",
+          "compare": "Exact SKU, battery kit and warranty"
+        },
+        {
+          "id": "tuin",
+          "name": "Tuin, bestrating en buitenprojecten",
+          "unit": "prijs per m²/stuk",
+          "compare": "Quality, transport and installation costs"
+        }
+      ]
+    },
+    {
+      "id": "wonen-en-discount",
+      "name": "Wonen & discountwinkels",
+      "priority": "medium",
+      "products": [
+        {
+          "id": "opbergen",
+          "name": "Opbergen, keuken en huishoudartikelen",
+          "unit": "prijs per stuk/set",
+          "compare": "Material, size, durability and equivalent quality"
+        },
+        {
+          "id": "textiel",
+          "name": "Textiel en basics",
+          "unit": "prijs per stuk",
+          "compare": "Size, quality and useful need; exclude irrelevant socks"
+        }
+      ]
+    }
+  ],
+  "retailers": [
+    "Albert Heijn",
+    "Jumbo",
+    "Lidl",
+    "Aldi",
+    "Dirk",
+    "Kruidvat",
+    "Etos",
+    "Trekpleister",
+    "Action",
+    "Zeeman",
+    "Xenos",
+    "HEMA",
+    "Wibra",
+    "Praxis",
+    "Gamma",
+    "Karwei",
+    "Hornbach",
+    "Bauhaus",
+    "Toolstation",
+    "Hubo"
+  ],
+  "dealDiscovery": [
+    "Pepper",
+    "SuperSales",
+    "actuele officiële folderaanbiedingen",
+    "officiële retailers",
+    "vergelijkers alleen voor ontdekking"
+  ],
+  "rules": {
+    "bestEverydayBuy": "Publish only with independently observed comparable shelf/unit prices and confirmed local or online availability. A cheap unit price does not imply same product quality.",
+    "deal": "Exact SKU and verified all-in NL price, independent comparator or price history, genuine >=10% discount, show absolute EUR saving and percentage.",
+    "exceptionalDeals": "Prioritize high absolute EUR saving plus personal relevance and quality; do not promote percentage alone.",
+    "unitPrices": [
+      "per wash",
+      "per dishwasher tablet",
+      "per 100ml",
+      "per litre",
+      "per kg",
+      "per piece",
+      "per m2"
+    ],
+    "loyalty": "Show member-only prices and conditions separately",
+    "freshnessHours": 36,
+    "noInventedPrices": true
+  },
+  "favoritesDefault": [
+    "wasmiddel-pods",
+    "vaatwastabletten",
+    "allesreiniger",
+    "shampoo",
+    "koffie",
+    "verf",
+    "gereedschap"
+  ]
+}

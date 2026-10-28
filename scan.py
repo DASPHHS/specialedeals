@@ -7,6 +7,7 @@ import json
 import re
 import urllib.request
 from deal_verification import verified_offers
+from candidate_quality import candidate_quality
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit
 
@@ -275,7 +276,11 @@ def main():
     ident=hashlib.sha256((kind+" "+url.split("?")[0]).encode()).hexdigest()[:20]
     # Unverified product links remain discovery data, never storefront deals.
     if kind=="deals":
-     deal_candidates[ident]={"id":ident,"title":title,"url":url,"source":name,"wishlistMatches":matched_wishes,"detectedAt":now,"status":"Niet geverifieerd: actuele prijs en vergelijking ontbreken"}
+     candidate={"id":ident,"title":title,"url":url,"source":name,"wishlistMatches":matched_wishes,"detectedAt":now,"status":"Niet geverifieerd: actuele prijs en vergelijking ontbreken"}
+     eligible,reason=candidate_quality(candidate)
+     if not eligible:continue
+     candidate["qualityGate"]=reason
+     deal_candidates[ident]=candidate
      count+=1
      continue
     if ident in items:items[ident]["lastSeenAt"]=now;items[ident]["category"]=classify(title,kind);items[ident]["wishlistMatches"]=matched_wishes;count+=1;continue

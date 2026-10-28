@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:26:16.092124+00:00",
+  "updatedAt": "2026-10-28T15:29:17.939272+00:00",
   "items": [
     {
       "id": "6b12ec2e0d9f6ec25957",
@@ -7,17 +7,9 @@
       "url": "https://nl.pepper.com/aanbiedingen/dagdeal-11-gratis-op-elho-bloempotten-voor-binnen-en-buiten-423984",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "fa6c9cbbeb1b5504734d",
-      "title": "Adidas Training Essentials broek voor heren",
-      "url": "https://nl.pepper.com/aanbiedingen/adidas-training-essentials-broek-voor-heren-423973",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
+      "detectedAt": "2026-10-28T15:29:17.939272+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
       "id": "1c79ba124a579accfad5",
@@ -25,8 +17,9 @@
       "url": "https://nl.pepper.com/aanbiedingen/bol-dagdeal-meerdere-soorten-en-maten-badjassen-tot-30-korting-424062",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
+      "detectedAt": "2026-10-28T15:29:17.939272+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
       "id": "66db1821d1a6e627e76a",
@@ -34,8 +27,9 @@
       "url": "https://nl.pepper.com/aanbiedingen/tijdeljk-tot-69-korting-op-robotstofzuigers-oa-roborock-q10-s5-roborock-q7-m5-at-bol-423884",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
+      "detectedAt": "2026-10-28T15:29:17.939272+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
       "id": "f310e21dfd4106487cb0",
@@ -43,85 +37,9 @@
       "url": "https://nl.pepper.com/aanbiedingen/parkside-hogedrukreiniger-silent-110-bar-424023",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "e04a5794a4b6ebc0baae",
-      "title": "Apple Watch Ultra 4",
-      "url": "https://www.amac.nl/watch/apple-watch-ultra-4",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-watch-ultra"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "d80458dc912950530294",
-      "title": "Apple Watch Ultra 3",
-      "url": "https://www.amac.nl/watch/apple-watch-ultra-3",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-watch-ultra"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "5d5d60bf73d2a2611fd4",
-      "title": "[DEMO]MacBook Pro 16\" - M4 Pro 14C-CPU & 20C-GPU - 24GB - 512GB - 140W USB-C - (Standaard-display) - Space Black",
-      "url": "https://www.amac.nl/demo-macbook-pro-16-m4-pro-14c-cpu-20c-gpu-24gb-512gb-140w-usb-c-standaard-display-space-black",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "6f02ff94afff9f306f71",
-      "title": "[DEMO]MacBook Pro 14\" - M4 Pro 12C-CPU & 16C-GPU - 24GB - 512GB - 70W USB-C - (Standaard-display) - Silver",
-      "url": "https://www.amac.nl/demo-macbook-pro-14-m4-pro-12c-cpu-16c-gpu-24gb-512gb-70w-usb-c-standaard-display-silver",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "1f873ec0bcca0978a437",
-      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Starlight - NL KEY CTO",
-      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-starlight-nl-key-cto",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "0cd6402834f5a55224e3",
-      "title": "[Open Box] MacBook Air 13\" - M5 10C-CPU & 8C-GPU - 16GB - 512GB - Sky Blue",
-      "url": "https://www.amac.nl/open-box-macbook-air-13-m5-10c-cpu-8c-gpu-16gb-512gb-sky-blue",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
-    },
-    {
-      "id": "8ebef657504a563265a7",
-      "title": "[Open Box] MacBook Pro 16\" - M5 Pro 18C-CPU & 20C-GPU - 48GB - 1TB - ST-Display - SIlver",
-      "url": "https://www.amac.nl/open-box-macbook-pro-16-m5-pro-18c-cpu-20c-gpu-48gb-1tb-st-display-silver",
-      "source": "Amac Apple aanbiedingen",
-      "wishlistMatches": [
-        "apple-macbook"
-      ],
-      "detectedAt": "2026-10-28T15:26:16.092124+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken"
+      "detectedAt": "2026-10-28T15:29:17.939272+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }
   ],
   "notice": "Discovery only, not a confirmed deal, no automatic advertised discount proof"

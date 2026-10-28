@@ -54,7 +54,29 @@
       "koffie",
       "kwaliteitsschoenen"
     ],
-    "pricePolicy": "Exact model, specificaties, nieuw/refurbished, maat, voorraad, betrouwbare verkoper, totaalprijs inclusief btw/verzending/invoerkosten, retouren en garantie; geen laagste-prijs-claim zonder betrouwbare vergelijking en prijshistorie"
+    "pricePolicy": "Exact model, specificaties, nieuw/refurbished, maat, voorraad, betrouwbare verkoper, totaalprijs inclusief btw/verzending/invoerkosten, retouren en garantie; geen laagste-prijs-claim zonder betrouwbare vergelijking en prijshistorie",
+    "arcteryxInternational": {
+      "scope": "NL, België, Duitsland, Oostenrijk, Frankrijk, Italië, Spanje, Scandinavische landen en andere internationale webshops/outlets",
+      "shippingRequirement": "Expliciet verzenden naar Nederland en in voorraad in herenmaat XL",
+      "totalCost": "Artikelprijs + btw + NL-verzendkosten + verplichte invoerheffingen en eventuele afhandelingskosten",
+      "minimumVerifiedDiscountPercent": 10,
+      "compare": "Exact hetzelfde Arc'teryx-model, maat XL, kleur, conditie, modeljaar en artikelcode; controleer onafhankelijke actuele prijs of echte prijshistorie",
+      "exclude": "Winkels zonder levering naar Nederland of zonder betrouwbare kostenspecificatie; algemene outdoormerken behalve Arc'teryx",
+      "priorityRetailers": [
+        "Arc'teryx officiële outlet",
+        "Bergfreunde",
+        "Bergzeit",
+        "Bever",
+        "Trekkinn",
+        "Snowleader",
+        "Hardloop",
+        "Ekosport",
+        "Sport Conrad",
+        "Barrabes",
+        "andere betrouwbare retailers alleen na verificatie"
+      ],
+      "note": "Retailers zijn zoekkandidaten, géén bevestiging van actuele verzending of korting"
+    }
   },
   "deals": {
     "discoverySources": [

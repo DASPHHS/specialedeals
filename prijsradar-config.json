@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "items": [
+    {
+      "id": "janzen-earth-46-foam-200",
+      "brand": "JANZEN",
+      "product": "Earth 46 Shower Foam",
+      "size": "200 ml",
+      "ean": "8717612801469",
+      "watch": [
+        "single",
+        "multipack"
+      ],
+      "sources": [
+        "janzen.com",
+        "douglas.nl",
+        "etos.nl",
+        "kaars.nl"
+      ]
+    },
+    {
+      "id": "rituals-foam",
+      "brand": "Rituals",
+      "product": "Foaming Shower Gel",
+      "variants": "Separate collection and EAN; start with Sakura 200 ml",
+      "watch": [
+        "foam",
+        "deodorant",
+        "other body care"
+      ],
+      "sources": [
+        "rituals.com",
+        "drogist.nl",
+        "parfumerie.nl",
+        "douglas.nl"
+      ]
+    },
+    {
+      "id": "giraffe-original-350",
+      "brand": "Giraffe Coffee Roasters",
+      "product": "Original Blend coffee beans",
+      "size": "350 g",
+      "sources": [
+        "giraffecoffee.com",
+        "same-product resellers"
+      ]
+    },
+    {
+      "id": "giraffe-original-1000",
+      "brand": "Giraffe Coffee Roasters",
+      "product": "Original Blend coffee beans",
+      "size": "1000 g",
+      "sources": [
+        "giraffecoffee.com",
+        "same-product resellers"
+      ]
+    }
+  ],
+  "reporting": {
+    "lowestCurrentPrice": "Only after independent current retailer and shipping verification; include EUR per unit and delivered NL total",
+    "largestDiscount": "At least 10% against independent same-SKU current price or genuine history",
+    "showPriceEvenWithoutDeal": true,
+    "doNotCallUnverifiedLowest": true,
+    "coffeeCompareSameBlendOnly": true,
+    "subscriptionSeparate": true
+  }
+}

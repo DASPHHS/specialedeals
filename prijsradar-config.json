@@ -160,7 +160,10 @@
       "id": "premium-padel-balls",
       "brand": "HEAD",
       "product": "HEAD Padel Pro S+ en Pro+ ballen",
-      "compare": "Exact model, verpakkingsgrootte, prijs per 3 ballen en bezorgkosten naar Nederland. Geen kortingsclaim zonder betrouwbare referentie."
+      "compare": "ALLEEN bewezen tijdelijke korting >=10% op identiek HEAD Pro S+ of Pro+ model en dezelfde verpakkingsomvang; normale nieuwprijzen en gewone voordelige bulkhoeveelheden zijn GEEN deal. Toon historische eerlijke referentie, actieprijs inclusief NL bezorging, absolute EUR- en procentuele besparing, en euro per 3 ballen. Bij geen bewijs: geen deal.",
+      "discountOnly": true,
+      "minimumVerifiedDiscountPercent": 10,
+      "showRegularPriceAsRecommendation": false
     }
   ],
   "reporting": {

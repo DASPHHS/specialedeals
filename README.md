@@ -26,6 +26,15 @@ De configuratie is gescheiden van de scanners en van de website. De automatische
 
 ### Prijzen en koopadvies
 
+**Harde minimumregel vanaf 28 oktober 2026: minimaal 10% aantoonbare, echte korting.** De actuele totale kassaprijs moet minstens 10% lager zijn dan een recent gecontroleerde prijs van exact hetzelfde product bij een onafhankelijke retailer of een gedocumenteerde echte transactieprijs uit de prijshistorie. Een adviesprijs (MSRP), producttitel met 'sale', losse Apple Watch Ultra-pagina, kortingsclaim of onduidelijke bron telt niet. Controle blijft 36 uur geldig.
+
+- `deal-kandidaten.json`: ontdekte producten, NIET zichtbaar als koopdeal op de website.
+- `verified-deals.json`: alleen door extra brononderzoek verifieerbare aanbiedingen met SKU/variant, winkel, concrete totaalprijs, onafhankelijke vergelijking, verzendkosten, voorraad, verificatiedatum en minimaal 10% korting.
+- `deal_verification.py`: harde controle op prijs, exact model, verschil, onafhankelijke vergelijking, geldigheid en leverbaarheid. Onvolledige aanbiedingen worden geweigerd.
+- De publieke site controleert de 10%-drempel opnieuw, ook wanneer oude data nog in de browser zit. Daardoor kan het koopdealoverzicht terecht leeg zijn.
+
+**ING Punten:** `radar-profiel.json` bevat ook een beleid voor officiële ING-kortingscodes of Puntenwinkel-voordelen. Alleen kortingscodes met minstens 10% effectieve korting en een netto lagere prijs dan de marktprijs zijn interessant. De puntenkosten, eventuele bijbetaling, vervaldatum en voorwaarden moeten bevestigd zijn. Het persoonlijke puntensaldo wordt NIET in deze publieke GitHub-repository opgeslagen.
+
 Een zoekresultaat is **geen** gecontroleerde deal. De scanner slaat alleen kandidaatvondsten op en kan niet garanderen dat iets de laagste prijs is. Een echte prijsvergelijking vereist het identieke artikel (EAN/SKU, model/generatie, uitvoering, conditie en maat), actuele voorraad, prijs plus btw, bezorging naar Nederland, eventuele invoerkosten, retourvoorwaarden, garantie en onafhankelijke concurrentprijzen of historie. Onduidelijke kortingpercentages zijn geen koopadvies.
 
 In `data.json` staan de leesbare kandidaten, bronfouten, resultaten die aan verlanglijstitems gekoppeld zijn, en de laatste scan. Producten en Apple-accessoires/categoriepagina's worden zo goed mogelijk gescheiden; ook hier is validatie bij de bron nodig.

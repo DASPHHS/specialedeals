@@ -2,10 +2,10 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
-    - cron: '20 5,7,11,15,19 * * *'
+    - cron: '17 * * * *'
 permissions:
   contents: write
 concurrency:

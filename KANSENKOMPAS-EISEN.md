@@ -33,6 +33,13 @@ KOOPDEAL: >=10% aantoonbaar voordeel op exacte variant en NL all-in totaal tegen
 3. Bronmonitor en gedateerde geverifieerde winacties/sample-sales — **GEDEELTELIJK**.
 4. Één in Gmail verzonden dagelijkse e-mail met deduplicatie en beveiligde secrets — **OPEN**.
 5. End-to-end tests van JSON + UI op mobiel en desktop — **OPEN**.
-6. Gedeelde ChatGPT-chat https://chatgpt.com/share/6ae20eb2-c284-83ed-98bf-475606cc2e3c — **NIET INGelezen**: link niet toegankelijk vanuit deze omgeving. Vereisten daarvan nog niet aantoonbaar gemerged.
+6. Gedeelde ChatGPT-chat: tekst door gebruiker aangeleverd en aanvullende voorkeuren verwerkt in taak en dit document; technische claims afzonderlijk te verifiëren.
 
 De dagelijkse taak leest deze publieke configuratie en moet externe feiten zelf toetsen. GitHub Actions draait los van de ChatGPT-taak en is niet vanzelf een mailserver.
+
+## Aanvulling: Pepper, huishoudradar en categorieprofiel (28-10-2026)
+- Pepper en vergelijkbare dealsites dienen als ontdekking, niet als onafhankelijk bewijs. Toon bij echte koopdeals absoluut EUR-voordeel en percentage tegenover dezelfde actuele all-in SKU-prijs of echte prijshistorie. Rangschik op persoonlijk nut en netto besparing; ook uitzonderlijke deals buiten bekende merken.
+- Nieuw `huishoudradar-config.json`: levensmiddelen, koffie, shampoo, wasmiddelpods, vaatwastabletten, schoonmaakmiddelen, toiletpapier, verf, gereedschap, tuin, discount- en huishoudartikelen. Bronnetwerk: supermarkten, drogisterijen, Action, Zeeman, Xenos, HEMA, Wibra en bouwmarkten.
+- Maak onderscheid tussen structureel beste koop en tijdelijke aanbieding. Normaliseer naar EUR per wasbeurt/tablet/100 ml/liter/kg/stuk/m², en controleer vergelijkbare kwaliteit, verpakking, dosering, voorwaarden en beschikbaarheid. Geen winkel als goedkoopste aanwijzen zonder recente onafhankelijke gegevens.
+- Favorietenfilters zijn toegevoegd in het GitHub Pages-verlanglijstscherm. Live unit-price crawler, prijs- en historieopslag en een automatische aanbevelingsmotor zijn **nog open**.
+- De door gebruiker geplakte gedeelde-chattekst is nu gelezen. Toegevoegd: categoriefilters voor winacties (huis/tuin, auto's, reizen, uitjes, geld, elektronica, gratis spullen), premium/designer sample sales, geen Prijzenzolder-spam of herensokken, ANWB-kaliber grote hoofdprijzen. De eerdere beweringen in die tekst over wat al technisch werkt zijn niet als bewijs overgenomen.

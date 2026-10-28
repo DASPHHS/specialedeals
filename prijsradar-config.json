@@ -20,19 +20,24 @@
       ]
     },
     {
-      "id": "rituals-foam",
+      "id": "rituals-homme-foam-200",
       "brand": "Rituals",
-      "product": "Foaming Shower Gel",
-      "variants": "Separate collection and EAN; start with Sakura 200 ml",
-      "watch": [
-        "foam",
-        "deodorant",
-        "other body care"
-      ],
+      "product": "Homme Foaming Shower Gel",
+      "size": "200 ml",
+      "compare": "Exact Homme formula 200 ml EAN and all-in NL price",
       "sources": [
         "rituals.com",
-        "drogist.nl",
-        "parfumerie.nl",
+        "douglas.nl"
+      ]
+    },
+    {
+      "id": "rituals-sport-foam-200",
+      "brand": "Rituals",
+      "product": "Sport Foaming Shower Gel",
+      "size": "200 ml",
+      "compare": "Exact Sport formula 200 ml EAN and all-in NL price",
+      "sources": [
+        "rituals.com",
         "douglas.nl"
       ]
     },
@@ -54,23 +59,6 @@
       "sources": [
         "giraffecoffee.com",
         "same-product resellers"
-      ]
-    },
-    {
-      "id": "rituals-homme-sport",
-      "brand": "Rituals",
-      "product": "Homme and Sport lines",
-      "watch": [
-        "foaming shower gel",
-        "deodorant",
-        "other body care"
-      ],
-      "compare": "Same line EAN volume and package only",
-      "sources": [
-        "rituals.com",
-        "douglas.nl",
-        "etos.nl",
-        "other verified NL sellers"
       ]
     },
     {
@@ -124,6 +112,50 @@
         "coffee"
       ],
       "policy": "Check price history, exact SKU, delivered NL cost; do not trust inflated list prices"
+    },
+    {
+      "id": "arcteryx-l-xl",
+      "brand": "Arc'teryx",
+      "product": "Herenkleding L/XL · broeken W32/W33/W34",
+      "watch": [
+        "Atom",
+        "Gamma",
+        "Beta",
+        "Alpha",
+        "hardshell",
+        "softshell",
+        "T-shirts",
+        "hoodies",
+        "pants",
+        "caps",
+        "gloves",
+        "backpacks"
+      ],
+      "compare": "Identical SKU size color condition, in-stock NL shipping all-in"
+    },
+    {
+      "id": "hoka-eu47",
+      "brand": "HOKA",
+      "product": "Herenschoenen circa EU 47",
+      "compare": "Exact model width colour shoe size and NL all-in price"
+    },
+    {
+      "id": "apple-macbook",
+      "brand": "Apple",
+      "product": "MacBook Air / Pro",
+      "compare": "Chip RAM SSD keyboard screen warranty and same model"
+    },
+    {
+      "id": "apple-watch-ultra",
+      "brand": "Apple",
+      "product": "Watch Ultra",
+      "compare": "Generation band configuration condition and NL shipping"
+    },
+    {
+      "id": "padel-premium",
+      "category": "sport",
+      "product": "Padel · premium accessoires",
+      "compare": "Exact model size and version"
     }
   ],
   "reporting": {
@@ -133,6 +165,8 @@
     "doNotCallUnverifiedLowest": true,
     "coffeeCompareSameBlendOnly": true,
     "subscriptionSeparate": true,
-    "refreshCadence": "Hourly discovery through GitHub Actions; independent live price verification required before lowest-price or discount claims"
+    "refreshCadence": "Hourly discovery through GitHub Actions; independent live price verification required before lowest-price or discount claims",
+    "minimalPublicationQuality": "No price, fake reference, stale price, generic product listing or candidate promoted to verified recommendation",
+    "delivery": "One ChatGPT daily briefing 08:00 Europe/Amsterdam. Gmail delivery separate and not configured."
   }
 }

@@ -27,6 +27,9 @@ SOURCES=[
  ("Bever sale","deals","https://www.bever.nl/c/aanbiedingen.html"),
  ("Bergfreunde sale","deals","https://www.bergfreunde.nl/outlet/"),
  ("Bergzeit sale","deals","https://www.bergzeit.nl/outlet/"),
+ ("Arc'teryx Bergfreunde sale","deals","https://www.bergfreunde.nl/outlet/merken/arcteryx/"),
+ ("Arc'teryx Bever sale","deals","https://www.bever.nl/c/sale/arcteryx.html"),
+ ("Arc'teryx official outlet","deals","https://outlet.arcteryx.com/nl/en"),
 ]
 SIGNALS={"sales":("sample sale","stock sale","stockverkoop","stock sale","merkkleding","archive sale","outlet sale","warehouse sale","sample-sale","/sample","stock-sale","stockverkoop","sample sale"),
 "contests":("win een","win de","win het","win 2","win 5","winactie","prijsvraag","giveaway","winnen","/winactie/"),
@@ -146,7 +149,7 @@ OUTDOOR_EXCLUDED_BRANDS=(
  "black diamond","protest","bergans","marmot","montane","cotopaxi",
  "mountain equipment","berghaus","regatta","lowe alpine",
 )
-OUTDOOR_SOURCE_NAMES=("Bever sale","Bergfreunde sale","Bergzeit sale")
+OUTDOOR_SOURCE_NAMES=("Bever sale","Bergfreunde sale","Bergzeit sale","Arc'teryx Bergfreunde sale","Arc'teryx Bever sale","Arc'teryx official outlet")
 OUTDOOR_GENERIC_TERMS=(
  "outdoor","outdoorschoen","wandel","hiking","trekking","hardshell",
  "softshell","bergwandelen","bergklimmen","bergkleding","klimjas",

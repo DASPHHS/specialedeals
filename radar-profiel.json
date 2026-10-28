@@ -28,7 +28,9 @@
       "Dyson",
       "HOKA",
       "JANZEN Earth",
-      "Rituals"
+      "Rituals",
+      "Giraffe Coffee Roasters",
+      "Yves Saint Laurent"
     ],
     "watchProducts": [
       "Apple AirPods",
@@ -57,10 +59,10 @@
     "pricePolicy": "Exact model, specificaties, nieuw/refurbished, maat, voorraad, betrouwbare verkoper, totaalprijs inclusief btw/verzending/invoerkosten, retouren en garantie; geen laagste-prijs-claim zonder betrouwbare vergelijking en prijshistorie",
     "arcteryxInternational": {
       "scope": "NL, België, Duitsland, Oostenrijk, Frankrijk, Italië, Spanje, Scandinavische landen en andere internationale webshops/outlets",
-      "shippingRequirement": "Expliciet verzenden naar Nederland en in voorraad in herenmaat XL",
+      "shippingRequirement": "Expliciet verzenden naar Nederland en in voorraad in herenmaat L of XL of broeken W32/W33/W34",
       "totalCost": "Artikelprijs + btw + NL-verzendkosten + verplichte invoerheffingen en eventuele afhandelingskosten",
       "minimumVerifiedDiscountPercent": 10,
-      "compare": "Exact hetzelfde Arc'teryx-model, maat XL, kleur, conditie, modeljaar en artikelcode; controleer onafhankelijke actuele prijs of echte prijshistorie",
+      "compare": "Exact Arc'teryx SKU, maat L/XL of W32/W33/W34 voor broeken, kleur, conditie, modeljaar en actuele totaalprijs",
       "exclude": "Winkels zonder levering naar Nederland of zonder betrouwbare kostenspecificatie; algemene outdoormerken behalve Arc'teryx",
       "priorityRetailers": [
         "Arc'teryx officiële outlet",

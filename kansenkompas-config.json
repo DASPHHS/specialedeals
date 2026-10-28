@@ -51,5 +51,22 @@
     "dailyDigestOwner": "ChatGPT Kansenkompas | Dagoverzicht",
     "externalMailersMustBeReviewedSeparately": true,
     "githubWriteByDailyDigest": false
+  },
+  "sources": {
+    "columbusTravel": {
+      "url": "https://www.columbusmagazine.nl/thema/win/",
+      "frequency": "daily",
+      "trust": "established publisher; each contest requires independent individual verification",
+      "minimumPrizeEUR": 250,
+      "require": [
+        "official_terms",
+        "free_entry",
+        "NL_eligibility",
+        "deadline",
+        "prize_value",
+        "costs_and_taxes"
+      ],
+      "unverifiedStatus": "research_lead_only"
+    }
   }
 }

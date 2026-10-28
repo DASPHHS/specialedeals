@@ -1,6 +1,6 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-10-28T15:34:03.308043+00:00",
   "items": [],
   "rejected": [],
-  "notice": "No verified current all-in prices yet. Run price_engine.py after evidence ingestion."
+  "notice": "No deal inferred from prices alone. Lowest only among checked sellers."
 }

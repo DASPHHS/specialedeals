@@ -45,7 +45,7 @@
         "Arcteryx"
       ],
       "region": "NL + EU",
-      "notes": "Uitsluitend Arc'teryx als outdoor-merk; heren XL; Nederlandse en betrouwbare internationale aanbiedingen inclusief verzendkosten, retouren en garantie",
+      "notes": "Uitsluitend Arc'teryx als outdoormerk; heren L en XL, broeken W32/W33/W34; overige artikelen passende maat; SKU, NL levering en werkelijke korting controleren",
       "maxPriceEUR": null
     },
     {
@@ -135,6 +135,56 @@
       "notes": "Vergelijk dezelfde Ultra-generatie, maat, cellular, nieuw/refurbished en garantie; geen bandjes",
       "maxPriceEUR": null,
       "category": "Apple & elektronica"
+    },
+    {
+      "id": "rituals-homme",
+      "name": "Rituals Homme douchefoam en deodorant",
+      "keywords": [
+        "Rituals Homme douchefoam en deodorant"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Exacte variant en NL totaalprijs controleren"
+    },
+    {
+      "id": "rituals-sport",
+      "name": "Rituals Sport douchefoam en deodorant",
+      "keywords": [
+        "Rituals Sport douchefoam en deodorant"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Exacte variant en NL totaalprijs controleren"
+    },
+    {
+      "id": "giraffe-original",
+      "name": "Giraffe Original Blend 350 g en 1 kg",
+      "keywords": [
+        "Giraffe Original Blend 350 g en 1 kg"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Exacte variant en NL totaalprijs controleren"
+    },
+    {
+      "id": "ysl-m7",
+      "name": "Yves Saint Laurent M7 parfum — alleen uitzonderlijk voordeel",
+      "keywords": [
+        "Yves Saint Laurent M7 parfum — alleen uitzonderlijk voordeel"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Exacte variant en NL totaalprijs controleren"
+    },
+    {
+      "id": "ysl-y",
+      "name": "Yves Saint Laurent Y — EDT, EDP en Le Parfum",
+      "keywords": [
+        "Yves Saint Laurent Y — EDT, EDP en Le Parfum"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Exacte variant en NL totaalprijs controleren"
     }
   ],
   "outdoorBrandAllowlist": [

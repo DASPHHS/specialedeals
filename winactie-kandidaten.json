@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-28T15:24:33.643391+00:00",
+  "updatedAt": "2026-10-28T15:26:40.515631+00:00",
   "status": "Alleen zoekkandidaten. Niet aanbevelen zonder officieel bewijs van NL-toelating, kosteloosheid, concrete waarde en levering",
-  "items": [],
+  "items": [
+    {
+      "title": "Las Vegas Car Shows | 2026 Las Vegas Concours at Wynn",
+      "url": "https://www.lasvegasconcours.com/",
+      "snippet": "Save the date for October 29–Nov 2, 2026! A celebration of heritage, craftsmanship, and innovation, Concours at Wynn Las Vegas brings car enthusiasts from around the world to revel in automotive excellence against the dynamic backdrop of The Strip.",
+      "verificationStatus": "Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"
+    },
+    {
+      "title": "Concours d'Elegance — The World's Car Events",
+      "url": "https://concoursdelegance.com/",
+      "snippet": "The definitive directory of prestigious car events across the United States. Search concours, rallies, and shows by date, location, and type.",
+      "verificationStatus": "Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"
+    }
+  ],
   "errors": []
 }

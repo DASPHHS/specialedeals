@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-10-28",
+  "status": "indicative_public_web_prices_not_verified_lowest_delivered",
+  "currency": "EUR",
+  "items": [
+    {
+      "id": "janzen-earth-46-foam-200",
+      "product": "JANZEN Earth 46 Shower Foam",
+      "quantity": "200 ml",
+      "observations": [
+        {
+          "shop": "Douglas",
+          "priceEUR": 7.12,
+          "url": "https://www.douglas.nl/nl/b/janzen/lichaam/lichaamsreiniging/doucheschuim/b7000_130102"
+        },
+        {
+          "shop": "Kaars.nl",
+          "priceEUR": 9,
+          "url": "https://kaars.nl/janzen-shower-foam-earth-46-200-ml/"
+        },
+        {
+          "shop": "JANZEN",
+          "priceEUR": 9.5,
+          "url": "https://janzen.com/nl/lichaamsverzorging/bad-en-douche/shower-foam?page=1"
+        }
+      ],
+      "deliveredPriceVerified": false
+    },
+    {
+      "id": "rituals-sakura-foam-200",
+      "product": "Rituals Sakura Foaming Shower Gel",
+      "quantity": "200 ml",
+      "observations": [
+        {
+          "shop": "Rituals",
+          "priceEUR": 10.9,
+          "url": "https://www.rituals.com/nl-nl/the-ritual-of-sakura-foaming-shower-gel-1115587.html"
+        }
+      ],
+      "deliveredPriceVerified": false
+    },
+    {
+      "id": "giraffe-original-350",
+      "product": "Giraffe Original Blend coffee beans",
+      "quantity": "350 g",
+      "observations": [
+        {
+          "shop": "Giraffe",
+          "priceEUR": 12.95,
+          "url": "https://giraffecoffee.com/products/original-blend"
+        }
+      ],
+      "deliveredPriceVerified": false
+    },
+    {
+      "id": "giraffe-original-1000",
+      "product": "Giraffe Original Blend coffee beans",
+      "quantity": "1000 g",
+      "observations": [
+        {
+          "shop": "Giraffe",
+          "priceEUR": 35,
+          "url": "https://giraffecoffee.com/products/original-blend"
+        },
+        {
+          "shop": "Giraffe subscription",
+          "priceEUR": 33.25,
+          "url": "https://giraffecoffee.com/products/original-blend",
+          "subscription": true
+        }
+      ],
+      "deliveredPriceVerified": false
+    }
+  ]
+}

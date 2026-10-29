@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'price_engine.py', 'test_price_engine.py', 'price-observations.json', 'bronnenregister.json', 'onderzoeksplan.json', 'huishoudradar-config.json', 'prijsradar-config.json', 'test_research_plan.py', 'candidate_quality.py', 'test_candidate_quality.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'price_engine.py', 'price_probe.py', 'price_history.py', 'product-targets.json', 'test_price_probe.py', 'test_price_history.py', 'test_price_engine.py', 'price-observations.json', 'bronnenregister.json', 'onderzoeksplan.json', 'huishoudradar-config.json', 'prijsradar-config.json', 'test_research_plan.py', 'candidate_quality.py', 'test_candidate_quality.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
@@ -23,11 +23,15 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate scanner
-        run: python -m py_compile scan.py discover_winacties.py deal_verification.py candidate_quality.py price_engine.py
+        run: python -m py_compile scan.py discover_winacties.py deal_verification.py candidate_quality.py price_engine.py price_probe.py price_history.py
       - name: Test preferences, wishlist and outdoor filtering
-        run: python -m unittest -v test_outdoor.py test_watchlist.py test_pricegate.py test_candidate_quality.py test_price_engine.py test_research_plan.py
+        run: python -m unittest -v test_outdoor.py test_watchlist.py test_pricegate.py test_candidate_quality.py test_price_engine.py test_price_probe.py test_price_history.py test_research_plan.py
       - name: Read public sources
         run: python scan.py
+      - name: Probe configured exact product pages (research leads only)
+        run: python price_probe.py
+      - name: Store unverified price candidates with timestamps
+        run: python price_history.py
       - name: Calculate verified pricepeil from evidence only
         run: python price_engine.py
       - name: Discover major NL and international giveaways
@@ -38,6 +42,8 @@ jobs:
           python -m json.tool winactie-kandidaten.json > /dev/null
           python -m json.tool deal-kandidaten.json > /dev/null
           python -m json.tool verified-pricepeil.json > /dev/null
+          python -m json.tool price-probes.json > /dev/null
+          python -m json.tool price-history-summary.json > /dev/null
           python -m json.tool bronnenregister.json > /dev/null
           python -m json.tool onderzoeksplan.json > /dev/null
       - name: Publish results safely
@@ -50,6 +56,9 @@ jobs:
           cp winactie-kandidaten.json "$RUNNER_TEMP/winactie-kandidaten.json"
           cp deal-kandidaten.json "$RUNNER_TEMP/deal-kandidaten.json"
           cp verified-pricepeil.json "$RUNNER_TEMP/verified-pricepeil.json"
+          cp price-probes.json "$RUNNER_TEMP/price-probes.json"
+          cp price-history.sqlite3 "$RUNNER_TEMP/price-history.sqlite3"
+          cp price-history-summary.json "$RUNNER_TEMP/price-history-summary.json"
           source_scanner=$(git hash-object scan.py)
           for attempt in 1 2 3; do
             git fetch origin main
@@ -63,7 +72,10 @@ jobs:
             cp "$RUNNER_TEMP/winactie-kandidaten.json" winactie-kandidaten.json
             cp "$RUNNER_TEMP/deal-kandidaten.json" deal-kandidaten.json
             cp "$RUNNER_TEMP/verified-pricepeil.json" verified-pricepeil.json
-            git add data.json winactie-kandidaten.json deal-kandidaten.json verified-pricepeil.json
+            cp "$RUNNER_TEMP/price-probes.json" price-probes.json
+            cp "$RUNNER_TEMP/price-history.sqlite3" price-history.sqlite3
+            cp "$RUNNER_TEMP/price-history-summary.json" price-history-summary.json
+            git add data.json winactie-kandidaten.json deal-kandidaten.json verified-pricepeil.json price-probes.json price-history.sqlite3 price-history-summary.json
             if git diff --cached --quiet; then
               echo "Nothing changed."
               exit 0

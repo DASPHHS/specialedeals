@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "reportTitle": "Kansenkompas | Dagoverzicht",
   "delivery": {
     "singleDailyDigest": true,
@@ -15,6 +15,7 @@
   "sections": [
     "urgent_verified_winacties",
     "verified_purchase_deals",
+    "verified_current_price_comparisons",
     "sample_sales",
     "home_projects",
     "ing_benefits",
@@ -68,5 +69,80 @@
       ],
       "unverifiedStatus": "research_lead_only"
     }
+  },
+  "researchPolicy": {
+    "allocation": {
+      "dealCommunities": 1,
+      "retailers": 1,
+      "priceComparatorsAndHistory": 1
+    },
+    "reportBalance": {
+      "verifiedDeals": 1,
+      "verifiedCurrentPriceComparisons": 1
+    },
+    "preferredRetailersPerExactVariant": 4,
+    "communitySources": [
+      "Pepper",
+      "mydealz"
+    ],
+    "strictIndependentVerification": true,
+    "excludeWomenFocusedSampleSales": true,
+    "mixedSampleSalesRequireConfirmedMenswear": true,
+    "padelBallsDiscountOnly": true,
+    "unverifiablePricesNeverRepresentedAsLive": true
+  },
+  "implementationConstraints": {
+    "budgetEUR": 0,
+    "paidApisAllowed": false,
+    "paidFeedsAllowed": false,
+    "paidHostingAllowed": false,
+    "paidServicesRequireExplicitPriorApproval": true,
+    "prefer": [
+      "Python standard library",
+      "GitHub Actions within available free quotas",
+      "GitHub Pages",
+      "SQLite",
+      "public permitted feeds",
+      "schema.org JSON-LD",
+      "offline fixture tests"
+    ],
+    "successCriteria": [
+      "At least one real exact-SKU product source yields an observed price with timestamp",
+      "Never publish product probe as verified NL total without confirmed shipping",
+      "Historical snapshots retained across scans",
+      "Test suite passes before merge",
+      "No false discount claims"
+    ]
+  },
+  "playtomicPromotions": {
+    "enabled": true,
+    "priority": "same-as-other-padel-savings",
+    "region": "Netherlands",
+    "sources": [
+      "official club promotion pages",
+      "official club social announcements",
+      "Playtomic club offers",
+      "publicly documented promo terms"
+    ],
+    "keywords": [
+      "Playtomic kortingscode",
+      "Playtomic promotiecode",
+      "padelclub voucher",
+      "padel baan boeken korting",
+      "Playtomic code club"
+    ],
+    "requirements": [
+      "club name and location",
+      "literal code or explicit redemption method",
+      "validity dates and usage times",
+      "eligible booking type",
+      "original and discounted booking price when available",
+      "source URL",
+      "verified not expired"
+    ],
+    "doNotClaimPlatformWideCodes": true,
+    "doNotPublishUnverifiedCodes": true,
+    "reportIn": "single daily digest",
+    "noSeparateAlerts": true
   }
 }

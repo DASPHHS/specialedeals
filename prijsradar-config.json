@@ -84,9 +84,9 @@
       "id": "ysl-m7",
       "brand": "Yves Saint Laurent",
       "product": "M7 fragrance",
-      "frequency": "low",
+      "frequency": "daily_or_rotated",
       "alert": "Only exceptional independently verified discount; about annual purchase",
-      "compare": "M7 versus M7 Oud Absolu separate; exact concentration and ml"
+      "compare": "Original M7 EDT separately from M7 Oud Absolu, exact bottle volume, concentration, EAN and condition. Always compare current all-in NL prices; call a deal only with independent >=10% proof."
     },
     {
       "id": "ysl-y",
@@ -164,6 +164,17 @@
       "discountOnly": true,
       "minimumVerifiedDiscountPercent": 10,
       "showRegularPriceAsRecommendation": false
+    },
+    {
+      "id": "michael-kors-pour-homme-edp",
+      "brand": "Michael Kors",
+      "product": "Pour Homme Eau de Parfum",
+      "watch": [
+        "50 ml",
+        "100 ml"
+      ],
+      "compare": "Only the same Eau de Parfum concentration, exact volume and EAN; no EDT or sample. Current NL delivered price, stock and independent historical/retailer reference required.",
+      "minimumVerifiedDiscountPercent": 10
     }
   ],
   "reporting": {

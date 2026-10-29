@@ -6,6 +6,9 @@ GENERIC_LISTING = re.compile(r"^(?:apple\s+)?(?:watch\s+ultra\s*\d+|airpods(?:\s
 CONDITION_MARKER = re.compile(r"\b(?:demo|open[ -]?box|refurbished|renewed|tweedehands|gebruikte)\b",re.I)
 PROMOTION_MARKER = re.compile(r"(?:\b(?:korting|actieprijs|dagdeal|aanbieding|deal|uitverkoop|opruiming|sale)\b|\d{1,2}%\s*(?:korting|off)|(?:1\s*\+\s*1|2\s*\+\s*1)\s*gratis)",re.I)
 
+WOMEN_ONLY_MARKERS = re.compile(r"\b(?:dames(?:kleding|mode|collectie)?|womenswear|women(?:'s)?\s+(?:only|sample\s+sale|fashion)|lingerie|bh['’]?s|beha['’]?s)\b", re.I)
+MEN_MARKERS = re.compile(r"\b(?:heren(?:kleding|mode|collectie)?|menswear|men(?:'s)?\s+(?:fashion|clothing|sample\s+sale)|unisex)\b", re.I)
+
 def candidate_quality(item):
     """Return (eligible, reason) for a *research candidate*, never a verified deal."""
     title=str(item.get('title') or '').strip()
@@ -13,6 +16,8 @@ def candidate_quality(item):
     parsed=urlsplit(url)
     if not title or parsed.scheme!='https' or not parsed.hostname:
         return False,'Geen concrete HTTPS-productlink'
+    if item.get('kind') in ('sales','sample_sale','sample-sales') and WOMEN_ONLY_MARKERS.search(title) and not MEN_MARKERS.search(title):
+        return False,'Damesgerichte sample sale zonder bevestigd herenaanbod'
     if GENERIC_LISTING.fullmatch(title):
         return False,'Reguliere product-/categoriepagina, geen aanbieding'
     if CONDITION_MARKER.search(title):

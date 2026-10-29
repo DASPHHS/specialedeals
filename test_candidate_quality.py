@@ -4,6 +4,10 @@ from candidate_quality import candidate_quality
 class CandidateQualityTests(unittest.TestCase):
  def check(self,title,source='Amac Apple aanbiedingen',matches=None):
   return candidate_quality({'title':title,'url':'https://www.amac.nl/product','source':source,'wishlistMatches':matches or []})[0]
+ def test_women_only_sample_sale_excluded(self):
+  self.assertFalse(candidate_quality({'kind':'sales','title':'NIKKIE damesmode sample sale','url':'https://example.com/event','source':'Sample sales'})[0])
+ def test_mixed_menswear_sale_retained_as_lead(self):
+  self.assertTrue(candidate_quality({'kind':'sales','title':'Heren en dames sample sale - 50% korting','url':'https://example.com/event','source':'Sample sales'})[0])
  def test_full_price_apple_watch_rejected(self):self.assertFalse(self.check('Apple Watch Ultra 4',matches=['apple-watch-ultra']))
  def test_ordinary_apple_rejected(self):self.assertFalse(self.check('Apple MacBook Pro 16',matches=['apple-macbook']))
  def test_open_box_rejected(self):self.assertFalse(self.check('[Open Box] MacBook Air M5',matches=['apple-macbook']))

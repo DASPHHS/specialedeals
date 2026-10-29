@@ -5,6 +5,7 @@ import json
 import pathlib
 import urllib.request
 from urllib.parse import urlsplit
+from decimal import Decimal
 from price_engine import extract_product_offers
 
 INPUT=pathlib.Path("product-targets.json")
@@ -17,6 +18,8 @@ def probe(target, fetcher=None):
         return {"targetId":target.get("id"),"status":"invalid_url"}
     fetcher=fetcher or fetch
     try:
+        if target.get("adapter")=="shopify":
+            return probe_shopify(target,fetcher)
         html=fetcher(url)
         offers,reason=extract_product_offers(html,target.get("expectedName"))
         expected_sku=target.get("sku")
@@ -34,6 +37,27 @@ def probe(target, fetcher=None):
                 "priceEUR":o["priceEUR"],"inStock":True,
                 "shippingVerified":False,"shipsToNL":None,
                 "note":"No verified shipping, checkout, seller trust, warranty or exact variant beyond SKU/GTIN; NOT a verified price."}
+    except Exception as exc:
+        return {"targetId":target.get("id"),"status":"source_error","errorType":type(exc).__name__}
+
+def probe_shopify(target, fetcher):
+    """Shopify public product JSON: variant-specific item price, never checkout verified."""
+    url=target["url"]
+    try:
+        data=json.loads(fetcher(url.rstrip("/")+".js"))
+        expected=str(target.get("variantTitle","")).casefold().strip()
+        if not expected: return {"targetId":target.get("id"),"status":"identity_not_configured"}
+        matches=[v for v in data.get("variants",[]) if str(v.get("public_title") or v.get("title") or "").casefold().strip()==expected]
+        if len(matches)!=1: return {"targetId":target.get("id"),"status":"identity_not_matched"}
+        v=matches[0]
+        if v.get("available") is not True: return {"targetId":target.get("id"),"status":"out_of_stock"}
+        price=Decimal(str(v["price"]))/100
+        if not price.is_finite() or price<=0: return {"targetId":target.get("id"),"status":"invalid_price"}
+        return {"targetId":target["id"],"status":"product_price_candidate","seller":target["seller"],
+                "url":url,"productId":target["productId"],"variantKey":target["variantKey"],
+                "sku":v.get("sku"),"shopifyVariantId":str(v["id"]),"priceEUR":str(price.quantize(Decimal("0.01"))),
+                "inStock":True,"shippingVerified":False,"shipsToNL":None,
+                "note":"Exact Shopify variant title; shipping, checkout, seller trust and NL total NOT verified."}
     except Exception as exc:
         return {"targetId":target.get("id"),"status":"source_error","errorType":type(exc).__name__}
 

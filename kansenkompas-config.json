@@ -113,5 +113,36 @@
       "Test suite passes before merge",
       "No false discount claims"
     ]
+  },
+  "playtomicPromotions": {
+    "enabled": true,
+    "priority": "same-as-other-padel-savings",
+    "region": "Netherlands",
+    "sources": [
+      "official club promotion pages",
+      "official club social announcements",
+      "Playtomic club offers",
+      "publicly documented promo terms"
+    ],
+    "keywords": [
+      "Playtomic kortingscode",
+      "Playtomic promotiecode",
+      "padelclub voucher",
+      "padel baan boeken korting",
+      "Playtomic code club"
+    ],
+    "requirements": [
+      "club name and location",
+      "literal code or explicit redemption method",
+      "validity dates and usage times",
+      "eligible booking type",
+      "original and discounted booking price when available",
+      "source URL",
+      "verified not expired"
+    ],
+    "doNotClaimPlatformWideCodes": true,
+    "doNotPublishUnverifiedCodes": true,
+    "reportIn": "single daily digest",
+    "noSeparateAlerts": true
   }
 }

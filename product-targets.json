@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "targets": [],
+  "instructions": "Add exact HTTPS product pages with id, productId, variantKey, seller, expectedName, and exact GTIN or SKU. No category pages. Probe output is never a verified offer; NL delivery/checkout and identity must still be checked."
+}

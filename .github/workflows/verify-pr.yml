@@ -1,0 +1,28 @@
+name: Verify Speciale Deals pull request
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile modules
+        run: python -m py_compile scan.py price_probe.py price_history.py price_engine.py candidate_quality.py
+      - name: Run regression suite
+        run: python -m unittest discover -p 'test_*.py' -v
+      - name: Probe pipeline without configured live targets
+        run: |
+          python price_probe.py
+          python price_history.py
+          python price_engine.py
+          python -m json.tool price-probes.json >/dev/null
+          python -m json.tool price-history-summary.json >/dev/null
+          python -m json.tool verified-pricepeil.json >/dev/null

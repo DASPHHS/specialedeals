@@ -90,5 +90,28 @@
     "mixedSampleSalesRequireConfirmedMenswear": true,
     "padelBallsDiscountOnly": true,
     "unverifiablePricesNeverRepresentedAsLive": true
+  },
+  "implementationConstraints": {
+    "budgetEUR": 0,
+    "paidApisAllowed": false,
+    "paidFeedsAllowed": false,
+    "paidHostingAllowed": false,
+    "paidServicesRequireExplicitPriorApproval": true,
+    "prefer": [
+      "Python standard library",
+      "GitHub Actions within available free quotas",
+      "GitHub Pages",
+      "SQLite",
+      "public permitted feeds",
+      "schema.org JSON-LD",
+      "offline fixture tests"
+    ],
+    "successCriteria": [
+      "At least one real exact-SKU product source yields an observed price with timestamp",
+      "Never publish product probe as verified NL total without confirmed shipping",
+      "Historical snapshots retained across scans",
+      "Test suite passes before merge",
+      "No false discount claims"
+    ]
   }
 }

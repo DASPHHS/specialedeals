@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "reportTitle": "Kansenkompas | Dagoverzicht",
   "delivery": {
     "singleDailyDigest": true,
@@ -15,6 +15,7 @@
   "sections": [
     "urgent_verified_winacties",
     "verified_purchase_deals",
+    "verified_current_price_comparisons",
     "sample_sales",
     "home_projects",
     "ing_benefits",
@@ -68,5 +69,26 @@
       ],
       "unverifiedStatus": "research_lead_only"
     }
+  },
+  "researchPolicy": {
+    "allocation": {
+      "dealCommunities": 1,
+      "retailers": 1,
+      "priceComparatorsAndHistory": 1
+    },
+    "reportBalance": {
+      "verifiedDeals": 1,
+      "verifiedCurrentPriceComparisons": 1
+    },
+    "preferredRetailersPerExactVariant": 4,
+    "communitySources": [
+      "Pepper",
+      "mydealz"
+    ],
+    "strictIndependentVerification": true,
+    "excludeWomenFocusedSampleSales": true,
+    "mixedSampleSalesRequireConfirmedMenswear": true,
+    "padelBallsDiscountOnly": true,
+    "unverifiablePricesNeverRepresentedAsLive": true
   }
 }

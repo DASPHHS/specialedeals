@@ -1,5 +1,16 @@
 {
   "version": 1,
-  "targets": [],
+  "targets": [
+    {
+      "id": "giraffe-original-1000-official",
+      "adapter": "shopify",
+      "productId": "giraffe-original-1000",
+      "variantKey": "original-blend-1000g-whole-beans-onetime",
+      "seller": "Giraffe Coffee Roasters",
+      "url": "https://giraffecoffee.com/products/original-blend",
+      "variantTitle": "1000 gram koffiebonen",
+      "note": "Exploratory exact-title match only. If public Shopify JSON differs or subscription differs, status will be mismatch; never infer verified NL shipping."
+    }
+  ],
   "instructions": "Add exact HTTPS product pages with id, productId, variantKey, seller, expectedName, and exact GTIN or SKU. No category pages. Probe output is never a verified offer; NL delivery/checkout and identity must still be checked."
 }

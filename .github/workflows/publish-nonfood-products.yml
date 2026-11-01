@@ -8,6 +8,8 @@ on:
     paths:
       - "integrations/weekdeals/publish_nonfood_deals.py"
       - "integrations/weekdeals/tests/test_nonfood.py"
+      - "integrations/weekdeals/tests/test_da_adapter.py"
+      - "integrations/weekdeals/da_adapter.py"
       - ".github/workflows/publish-nonfood-products.yml"
 permissions:
   contents: write
@@ -25,11 +27,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install official DA HTML parser
+        run: python -m pip install "beautifulsoup4>=4.12,<5"
       - name: Validate parsing and price semantics
         env:
           PYTHONPATH: integrations/weekdeals
         run: |
-          python -m unittest discover -s integrations/weekdeals/tests -p "test_nonfood.py" -v
+          python -m unittest discover -s integrations/weekdeals/tests -p "test_*food.py" -v
+          python -m unittest discover -s integrations/weekdeals/tests -p "test_da_adapter.py" -v
           python -m py_compile integrations/weekdeals/publish_nonfood_deals.py
       - name: Read public nonfood product selection
         run: python integrations/weekdeals/publish_nonfood_deals.py
@@ -43,7 +48,7 @@ jobs:
           x=json.loads(Path("weekdeals/nonfood.json").read_text())
           ids=[r["id"] for r in x["deals"]]
           assert len(ids)>=15 and len(ids)==len(set(ids))
-          assert all(r.get("tot") and (r.get("prijs",0)>0 or r.get("actievorm")) for r in x["deals"])
+          assert all((r.get("tot") or (r.get("einddatum_onbekend") and r.get("waargenomen_op"))) and (r.get("prijs",0)>0 or r.get("actievorm")) for r in x["deals"])
           print("Nonfood validation OK:",len(ids),x["counts"])
           PY
           cp weekdeals/nonfood.json "$RUNNER_TEMP/nonfood.json"

@@ -21,6 +21,16 @@ for url in urls:
    raw=r.read(180000)
    try:
     doc=json.loads(raw)
+    if url=="https://prijspuls.nl/api/prijzen":
+     from public_price_peil import build,TZ
+     from datetime import datetime
+     try:
+      market=build(doc,datetime.now(TZ))
+      print("Prijspuls adapter dry run:",market["usablePriceLevels"],
+            {k:v["available"] for k,v in market["groups"].items()})
+     except (ValueError,TypeError) as exc:
+      print("Prijspuls adapter source validation failed:",str(exc))
+      raise
     if isinstance(doc,dict):
      example={k:(str(v)[:500] if not isinstance(v,(dict,list)) else
           {"type":type(v).__name__,"length":len(v),"first":str(v[:1] if isinstance(v,list) else list(v.items())[:4])[:1800]})

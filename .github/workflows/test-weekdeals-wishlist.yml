@@ -1,0 +1,45 @@
+name: Test Weekdeals Wishlist Matching
+on:
+  push:
+    branches:
+      - "feat/weekdeals-wishlist-20261101"
+    paths:
+      - "wishlist.json"
+      - "weekdeals/index.html"
+      - "weekdeals/wishlist_match.js"
+      - "integrations/weekdeals/tests/test_wishlist_match.js"
+      - ".github/workflows/test-weekdeals-wishlist.yml"
+  pull_request:
+    paths:
+      - "wishlist.json"
+      - "weekdeals/index.html"
+      - "weekdeals/wishlist_match.js"
+      - "integrations/weekdeals/tests/test_wishlist_match.js"
+      - ".github/workflows/test-weekdeals-wishlist.yml"
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify wishlist matching, accessory exclusions and JSON
+        run: |
+          node --check weekdeals/wishlist_match.js
+          node integrations/weekdeals/tests/test_wishlist_match.js
+          python -m json.tool wishlist.json >/dev/null
+      - name: Check inline page JavaScript
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          html=Path("weekdeals/index.html").read_text(encoding="utf-8")
+          scripts=re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>",html,re.S|re.I)
+          assert scripts and scripts[-1].strip()
+          Path("/tmp/weekdeals-inline.js").write_text(scripts[-1],encoding="utf-8")
+          PY
+          node --check /tmp/weekdeals-inline.js

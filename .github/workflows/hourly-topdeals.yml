@@ -9,6 +9,8 @@ on:
       - "test_hourly_topdeals.py"
       - "wishlist_pricewatch.py"
       - "probe_public_prices.py"
+      - "public_price_peil.py"
+      - "test_public_price_peil.py"
       - "test_wishlist_pricewatch.py"
       - "wishlist_radar.py"
       - "verlanglijst/app.js"
@@ -50,8 +52,8 @@ jobs:
           node-version: "22"
       - name: Regression tests and UI syntax
         run: |
-          python -m py_compile hourly_topdeals.py wishlist_pricewatch.py wishlist_radar.py
-          python -m unittest -v test_hourly_topdeals.py test_wishlist_pricewatch.py test_wishlist_radar.py
+          python -m py_compile hourly_topdeals.py wishlist_pricewatch.py wishlist_radar.py public_price_peil.py
+          python -m unittest -v test_hourly_topdeals.py test_wishlist_pricewatch.py test_wishlist_radar.py test_public_price_peil.py
           node --check topdeals/app.js
           node --check verlanglijst/app.js
           node ui/site-smoke.test.js
@@ -63,6 +65,22 @@ jobs:
         run: python wishlist_pricewatch.py --online
       - name: Build updated personal wishlist price comparisons
         run: python wishlist_radar.py
+      - name: Read permitted Prijspuls public catalogue (do not mistake for SKU offers)
+        if: github.event_name != 'pull_request'
+        run: |
+          if python public_price_peil.py; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("topdeals/prijspeil.json").read_text())
+          assert p["source"]=="prijspuls.nl" and p["usablePriceLevels"]>=15
+          assert all(not x["verifiedDiscount"] and not x["deliveredPriceVerified"]
+                     for g in p["groups"].values() for x in g["top10"])
+          print("Verified sourced generic market comparisons:",p["usablePriceLevels"])
+          PY
+          else
+            echo "::warning::Prijspuls API not available; retain previous measurement without refreshing it"
+          fi
       - name: Generate Top 10 from source snapshots
         run: python hourly_topdeals.py
       - name: Assert individual category count and discount semantics
@@ -102,9 +120,11 @@ jobs:
         run: |
           set -euo pipefail
           cp topdeals/data.json "$RUNNER_TEMP/top10-data.json"
+          if [[ -f topdeals/prijspeil.json ]]; then cp topdeals/prijspeil.json "$RUNNER_TEMP/pricepeil.json"; fi
           cp verlanglijst/signalen.json "$RUNNER_TEMP/wishlist-signalen.json"
           cp verlanglijst/prijsvergelijkers.json "$RUNNER_TEMP/pricewatch-comparisons.json"
           code_sha=$(git hash-object hourly_topdeals.py)
+          public_sha=$(git hash-object public_price_peil.py)
           price_sha=$(git hash-object wishlist_pricewatch.py)
           radar_sha=$(git hash-object wishlist_radar.py)
           wish_sha=$(git hash-object wishlist.json)
@@ -112,7 +132,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git fetch origin main
-            if [[ "$(git show origin/main:wishlist_pricewatch.py | git hash-object --stdin)" != "$price_sha" ]] ||
+            if [[ "$(git show origin/main:public_price_peil.py | git hash-object --stdin)" != "$public_sha" ]] ||
+               [[ "$(git show origin/main:wishlist_pricewatch.py | git hash-object --stdin)" != "$price_sha" ]] ||
                [[ "$(git show origin/main:wishlist_radar.py | git hash-object --stdin)" != "$radar_sha" ]] ||
                [[ "$(git show origin/main:hourly_topdeals.py | git hash-object --stdin)" != "$code_sha" ]] ||
                [[ "$(git show origin/main:wishlist.json | git hash-object --stdin)" != "$wish_sha" ]]; then
@@ -123,10 +144,11 @@ jobs:
             git reset --hard origin/main
             mkdir -p topdeals
             cp "$RUNNER_TEMP/top10-data.json" topdeals/data.json
+            if [[ -f "$RUNNER_TEMP/pricepeil.json" ]]; then cp "$RUNNER_TEMP/pricepeil.json" topdeals/prijspeil.json; fi
             mkdir -p verlanglijst
             cp "$RUNNER_TEMP/wishlist-signalen.json" verlanglijst/signalen.json
             cp "$RUNNER_TEMP/pricewatch-comparisons.json" verlanglijst/prijsvergelijkers.json
-            git add topdeals/data.json verlanglijst/signalen.json verlanglijst/prijsvergelijkers.json
+            git add topdeals/data.json topdeals/prijspeil.json verlanglijst/signalen.json verlanglijst/prijsvergelijkers.json
             if git diff --cached --quiet; then
               echo "No changed result";exit 0
             fi

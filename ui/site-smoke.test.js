@@ -1,0 +1,33 @@
+"use strict";
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const vm=require("node:vm");
+const root=path.resolve(__dirname,"..");
+function read(p){return fs.readFileSync(path.join(root,p),"utf8");}
+function inlineScripts(html){
+  return [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
+}
+const main=read("index.html"),week=read("weekdeals/index.html"),css=read("ui/speciale.css");
+for(const [name,html] of [["homepage",main],["weekdeals",week]]){
+  const scripts=inlineScripts(html);
+  assert(scripts.length>0,name+" has no inline JavaScript");
+  for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i],{filename:name+"-"+i+".js"});
+  assert(html.includes("ui/speciale.css"),name+" missing shared stylesheet");
+}
+assert(main.includes('id="lens"'),"Missing opportunity selector");
+assert(main.includes('value="opportunities"'),"Missing opportunities");
+assert(main.includes('value="discount"'),"Missing evidence-aware discount sort");
+assert(main.includes('value="saving"'),"Missing euro savings sort");
+assert(main.includes('value="deadline"'),"Missing urgency sort");
+assert(main.includes('id="resetFilters"'),"Missing reset button");
+assert(main.includes('class="mobile-dock"'),"Missing mobile nav");
+assert(main.includes('src="./ui/deal-filters.js"'),"Missing evidence helper");
+assert(week.includes('id="offerType"'),"Missing Weekdeals filter");
+assert(week.includes('id="rank"'),"Missing Weekdeals ranking");
+assert(week.includes('value="loyalty"'),"Missing loyalty filter");
+assert(week.includes('id="weekFound"'),"Missing Weekdeals stats");
+assert(css.includes("prefers-reduced-motion"),"Respect reduced motion");
+assert(css.includes(":focus-visible"),"Keyboard focus styles");
+assert(css.includes("@media(max-width:700px)"),"Mobile layout");
+console.log("Site HTML, scripts, navigation and styling smoke tests passed");

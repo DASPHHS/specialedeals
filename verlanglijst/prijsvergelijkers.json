@@ -1,93 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T14:30:52.963305+01:00",
+  "updatedAt": "2026-11-01T14:39:12.730789+01:00",
   "provider": "Tweakers Pricewatch (undocumented public suggest endpoint)",
-  "scope": "Search suggestions; no direct retailer price/stock or checkout validation",
-  "searchedThisRun": 5,
-  "errorCount": 5,
-  "errors": [
-    {
-      "wishId": "apple-airpods",
-      "reason": "Expecting value: line 2 column 1 (char 1)"
-    },
-    {
-      "wishId": "apple-airpods-pro",
-      "reason": "Expecting value: line 2 column 1 (char 1)"
-    },
-    {
-      "wishId": "apple-macbook",
-      "reason": "Expecting value: line 2 column 1 (char 1)"
-    },
-    {
-      "wishId": "apple-watch-ultra",
-      "reason": "Expecting value: line 2 column 1 (char 1)"
-    },
-    {
-      "wishId": "apple-imac",
-      "reason": "Expecting value: line 2 column 1 (char 1)"
-    }
-  ],
+  "scope": "Undocumented endpoint returned non-JSON from GitHub Actions; automatic access disabled",
+  "searchedThisRun": 0,
+  "errorCount": 0,
+  "errors": [],
   "results": [
     {
       "wishId": "apple-airpods-pro",
-      "query": "Apple AirPods Pro",
-      "searchedAt": "2026-11-01T14:30:52.963305+01:00",
-      "status": "source_error",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "apple-airpods",
-      "query": "Apple AirPods 4 ANC",
-      "searchedAt": "2026-11-01T14:30:52.963305+01:00",
-      "status": "source_error",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "apple-macbook",
-      "query": "Apple MacBook Air",
-      "searchedAt": "2026-11-01T14:30:52.963305+01:00",
-      "status": "source_error",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "apple-imac",
-      "query": "Apple iMac",
-      "searchedAt": "2026-11-01T14:30:52.963305+01:00",
-      "status": "source_error",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "apple-watch-ultra",
-      "query": "Apple Watch Ultra",
-      "searchedAt": "2026-11-01T14:30:52.963305+01:00",
-      "status": "source_error",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "usb-hubs-premium",
-      "searchedAt": null,
-      "status": "not_scanned",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "hightech-gadgets",
-      "searchedAt": null,
-      "status": "not_scanned",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "dyson-handstofzuiger",
-      "searchedAt": null,
-      "status": "not_scanned",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     },
     {
       "wishId": "dyson-airwrap",
-      "searchedAt": null,
-      "status": "not_scanned",
-      "offers": []
+      "status": "source_unavailable",
+      "offers": [],
+      "searchedAt": null
     }
   ],
   "comparisonCount": 0,
-  "policy": "All prices are Pricewatch indications; no verified discount or delivered NL total."
+  "policy": "No Pricewatch price is verified, connected or reported as current."
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T14:31:11.534241+01:00",
+  "updatedAt": "2026-11-01T14:39:12.781637+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
     "2026-11-01T14:09:31+01:00"
@@ -60,7 +60,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -136,7 +136,7 @@
       "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -155,7 +155,7 @@
       "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -174,7 +174,7 @@
       "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -193,7 +193,7 @@
       "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -307,7 +307,7 @@
       "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -358,7 +358,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -377,7 +377,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {
@@ -415,7 +415,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_supported",
+      "pricewatchStatus": "source_unavailable",
       "pricewatchSearchedAt": null
     },
     {

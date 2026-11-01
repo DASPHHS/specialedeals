@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T14:39:22.263879+01:00",
+  "generatedAt": "2026-11-01T15:30:45.270588+01:00",
   "source": "prijspuls.nl",
   "sourceUrl": "https://prijspuls.nl/",
   "licenseUrl": "https://prijspuls.nl/pers",
-  "sourceGeneratedAt": "2026-11-01T13:32:37.355000+00:00",
+  "sourceGeneratedAt": "2026-11-01T14:30:03.369000+00:00",
   "catalogueCount": 448,
   "usablePriceLevels": 434,
   "type": "generic_product_category_market_comparisons_not_retail_offers",
@@ -12,24 +12,8 @@
   "groups": {
     "supermarkt": {
       "label": "Supermarkt & boodschappen",
-      "available": 2,
+      "available": 1,
       "top10": [
-        {
-          "term": "pizza oven",
-          "url": "https://prijspuls.nl/vergelijk/pizza-oven",
-          "group": "supermarkt",
-          "lowestEUR": 79.95,
-          "averageEUR": 302.95,
-          "shops": 16,
-          "offers": 60,
-          "measuredAt": "2026-10-31T21:51:31.522000+00:00",
-          "spreadPercent": 73.6,
-          "condition": "nieuw",
-          "type": "generic_market_price_level_not_a_deal",
-          "verifiedProductMatch": false,
-          "verifiedDiscount": false,
-          "deliveredPriceVerified": false
-        },
         {
           "term": "koffie",
           "url": "https://prijspuls.nl/vergelijk/koffie",
@@ -216,8 +200,24 @@
     },
     "bouwmarkt": {
       "label": "Bouwmarkt & klussen",
-      "available": 3,
+      "available": 4,
       "top10": [
+        {
+          "term": "werkbroek",
+          "url": "https://prijspuls.nl/vergelijk/werkbroek",
+          "group": "bouwmarkt",
+          "lowestEUR": 18.95,
+          "averageEUR": 42.19,
+          "shops": 19,
+          "offers": 60,
+          "measuredAt": "2026-10-31T21:08:31.273000+00:00",
+          "spreadPercent": 55.1,
+          "condition": "nieuw",
+          "type": "generic_market_price_level_not_a_deal",
+          "verifiedProductMatch": false,
+          "verifiedDiscount": false,
+          "deliveredPriceVerified": false
+        },
         {
           "term": "boormachine",
           "url": "https://prijspuls.nl/vergelijk/boormachine",
@@ -372,24 +372,8 @@
     },
     "elektronica": {
       "label": "Elektronica & gadgets",
-      "available": 9,
+      "available": 8,
       "top10": [
-        {
-          "term": "tv meubel",
-          "url": "https://prijspuls.nl/vergelijk/tv-meubel",
-          "group": "elektronica",
-          "lowestEUR": 176.99,
-          "averageEUR": 385.29,
-          "shops": 8,
-          "offers": 60,
-          "measuredAt": "2026-10-31T23:02:39.370000+00:00",
-          "spreadPercent": 54.1,
-          "condition": "nieuw",
-          "type": "generic_market_price_level_not_a_deal",
-          "verifiedProductMatch": false,
-          "verifiedDiscount": false,
-          "deliveredPriceVerified": false
-        },
         {
           "term": "lenovo laptop",
           "url": "https://prijspuls.nl/vergelijk/lenovo-laptop",
@@ -672,8 +656,24 @@
     },
     "huis": {
       "label": "Wonen & huishouden",
-      "available": 14,
+      "available": 16,
       "top10": [
+        {
+          "term": "pizza oven",
+          "url": "https://prijspuls.nl/vergelijk/pizza-oven",
+          "group": "huis",
+          "lowestEUR": 79.95,
+          "averageEUR": 302.95,
+          "shops": 16,
+          "offers": 60,
+          "measuredAt": "2026-10-31T21:51:31.522000+00:00",
+          "spreadPercent": 73.6,
+          "condition": "nieuw",
+          "type": "generic_market_price_level_not_a_deal",
+          "verifiedProductMatch": false,
+          "verifiedDiscount": false,
+          "deliveredPriceVerified": false
+        },
         {
           "term": "terrarium lamp",
           "url": "https://prijspuls.nl/vergelijk/terrarium-lamp",
@@ -732,6 +732,22 @@
           "offers": 30,
           "measuredAt": "2026-10-31T19:38:20.913000+00:00",
           "spreadPercent": 87.2,
+          "condition": "nieuw",
+          "type": "generic_market_price_level_not_a_deal",
+          "verifiedProductMatch": false,
+          "verifiedDiscount": false,
+          "deliveredPriceVerified": false
+        },
+        {
+          "term": "tv meubel",
+          "url": "https://prijspuls.nl/vergelijk/tv-meubel",
+          "group": "huis",
+          "lowestEUR": 176.99,
+          "averageEUR": 385.29,
+          "shops": 8,
+          "offers": 60,
+          "measuredAt": "2026-10-31T23:02:39.370000+00:00",
+          "spreadPercent": 54.1,
           "condition": "nieuw",
           "type": "generic_market_price_level_not_a_deal",
           "verifiedProductMatch": false,
@@ -801,61 +817,13 @@
           "verifiedProductMatch": false,
           "verifiedDiscount": false,
           "deliveredPriceVerified": false
-        },
-        {
-          "term": "amerikaanse koelkast",
-          "url": "https://prijspuls.nl/vergelijk/amerikaanse-koelkast",
-          "group": "huis",
-          "lowestEUR": 511.66,
-          "averageEUR": 1260.28,
-          "shops": 5,
-          "offers": 60,
-          "measuredAt": "2026-10-31T22:45:39.535000+00:00",
-          "spreadPercent": 59.4,
-          "condition": "nieuw",
-          "type": "generic_market_price_level_not_a_deal",
-          "verifiedProductMatch": false,
-          "verifiedDiscount": false,
-          "deliveredPriceVerified": false
-        },
-        {
-          "term": "koelkast",
-          "url": "https://prijspuls.nl/vergelijk/koelkast",
-          "group": "huis",
-          "lowestEUR": 177,
-          "averageEUR": 1119.42,
-          "shops": 4,
-          "offers": 60,
-          "measuredAt": "2026-11-01T00:31:22.956000+00:00",
-          "spreadPercent": 84.2,
-          "condition": "nieuw",
-          "type": "generic_market_price_level_not_a_deal",
-          "verifiedProductMatch": false,
-          "verifiedDiscount": false,
-          "deliveredPriceVerified": false
         }
       ]
     },
     "overig": {
       "label": "Overige categorieën",
-      "available": 374,
+      "available": 373,
       "top10": [
-        {
-          "term": "werkbroek",
-          "url": "https://prijspuls.nl/vergelijk/werkbroek",
-          "group": "overig",
-          "lowestEUR": 18.95,
-          "averageEUR": 42.19,
-          "shops": 19,
-          "offers": 60,
-          "measuredAt": "2026-10-31T21:08:31.273000+00:00",
-          "spreadPercent": 55.1,
-          "condition": "nieuw",
-          "type": "generic_market_price_level_not_a_deal",
-          "verifiedProductMatch": false,
-          "verifiedDiscount": false,
-          "deliveredPriceVerified": false
-        },
         {
           "term": "pizzasteen",
           "url": "https://prijspuls.nl/vergelijk/pizzasteen",
@@ -989,11 +957,27 @@
           "url": "https://prijspuls.nl/vergelijk/aquariumfilter",
           "group": "overig",
           "lowestEUR": 1.49,
-          "averageEUR": 36.6,
+          "averageEUR": 55.01,
           "shops": 13,
           "offers": 60,
           "measuredAt": "2026-10-31T19:37:17.021000+00:00",
-          "spreadPercent": 95.9,
+          "spreadPercent": 97.3,
+          "condition": "nieuw",
+          "type": "generic_market_price_level_not_a_deal",
+          "verifiedProductMatch": false,
+          "verifiedDiscount": false,
+          "deliveredPriceVerified": false
+        },
+        {
+          "term": "hoofdlamp",
+          "url": "https://prijspuls.nl/vergelijk/hoofdlamp",
+          "group": "overig",
+          "lowestEUR": 4.99,
+          "averageEUR": 20.45,
+          "shops": 13,
+          "offers": 60,
+          "measuredAt": "2026-10-31T16:59:47.491000+00:00",
+          "spreadPercent": 75.6,
           "condition": "nieuw",
           "type": "generic_market_price_level_not_a_deal",
           "verifiedProductMatch": false,

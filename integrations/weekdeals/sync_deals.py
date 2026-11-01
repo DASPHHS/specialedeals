@@ -263,6 +263,34 @@ def apply(book,raw):
                  f"'Alle deals'!K2:K>={start};'Alle deals'!J2:J<>\"\";"
                  f"'Alle deals'!K2:K<>\"\");\"\")")
         w.update(range_name="A2",values=[[formula]],value_input_option="USER_ENTERED")
+    # Format all imported rows, not just the starter's first 300 rows.
+    format_requests=[]
+    for tab in ("Alle deals","Deze week","Volgende week"):
+        target=book.worksheet(tab)
+        full={"sheetId":target.id,"startRowIndex":1,"endRowIndex":len(records)+1}
+        for startcol,endcol,kind,pattern in (
+            (4,6,"CURRENCY","€ #,##0.00"),
+            (6,7,"PERCENT","0.0%"),
+            (9,11,"DATE","dd-mm-yyyy"),
+            (13,14,"DATE","dd-mm-yyyy"),
+            (18,19,"CURRENCY","€ #,##0.00"),
+            (21,22,"CURRENCY","€ #,##0.00"),
+            (28,29,"CURRENCY","€ #,##0.00")
+        ):
+            format_requests.append({"repeatCell":{
+                "range":dict(full,startColumnIndex=startcol,endColumnIndex=endcol),
+                "cell":{"userEnteredFormat":{"numberFormat":{"type":kind,"pattern":pattern}}},
+                "fields":"userEnteredFormat.numberFormat"}})
+        format_requests.append({"repeatCell":{
+            "range":{"sheetId":target.id,"startRowIndex":0,"endRowIndex":1},
+            "cell":{"userEnteredFormat":{
+                "backgroundColor":{"red":0.92,"green":0.93,"blue":0.94},
+                "textFormat":{"bold":True}}},
+            "fields":"userEnteredFormat.backgroundColor,userEnteredFormat.textFormat"}})
+        format_requests.append({"updateSheetProperties":{
+            "properties":{"sheetId":target.id,"gridProperties":{"frozenRowCount":1}},
+            "fields":"gridProperties.frozenRowCount"}})
+    book.batch_update({"requests":format_requests})
     overview=book.worksheet("Overzicht")
     overview.update(range_name="A1:B3",values=[
         ["WEEKDEALS NL | ACTUELE API-SYNC",""],

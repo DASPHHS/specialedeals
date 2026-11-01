@@ -47,6 +47,12 @@ def amount(value):
 
 def classify(term):
  t=str(term or "").casefold()
+ # Strong exceptions: TV furniture is not electronics, a pizza oven is
+ # kitchen equipment rather than a supermarket pizza, workwear is DIY.
+ if re.search(r"\b(tv.?meubel|televisiemeubel|pizza.?oven|terrarium.?lamp)\b",t):
+  return "huis"
+ if re.search(r"\b(werkbroek|veiligheidsschoen|werkhandschoen)\b",t):
+  return "bouwmarkt"
  for group,pat in RULES.items():
   if re.search(pat,t):return group
  return "overig"

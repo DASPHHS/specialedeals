@@ -78,6 +78,9 @@ def on_tweakers(url):
 def valid_model(title,wish):
     if not matches(title,wish):return False
     text=norm(title)
+    if wish["id"] in ("apple-airpods","apple-airpods-pro"):
+        if re.search(r"\b(hoesje|cover|accessoire|beschermhoes)\b|\bairpods(?: pro)? case\b",text):
+            return False
     wid=wish["id"]
     if wid=="apple-airpods":
         if re.search(r"\b(zonder|without|geen|no)\s+(?:actieve?\s+)?(?:noise\s+)?(?:cancell?ing|ruisonderdrukking|anc)\b",text):return False

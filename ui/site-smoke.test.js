@@ -15,6 +15,10 @@ for(const [name,html] of [["homepage",main],["weekdeals",week]]){
   for(let i=0;i<scripts.length;i++)new vm.Script(scripts[i],{filename:name+"-"+i+".js"});
   assert(html.includes("ui/speciale.css"),name+" missing shared stylesheet");
 }
+assert(main.includes("function currentSampleLead("),"Sample event publication gate missing");
+assert(!main.includes('x.organizerVerified===true'),"Sample events must not be silently hidden without auto verification");
+assert(read("verlanglijst/index.html").includes('value="research"'),"Missing researched-product filter");
+assert(read("verlanglijst/app.js").includes("function researchRow("),"Research result rendering missing");
 assert(main.includes('id="lens"'),"Missing opportunity selector");
 assert(main.includes('value="opportunities"'),"Missing opportunities");
 assert(main.includes('value="discount"'),"Missing evidence-aware discount sort");

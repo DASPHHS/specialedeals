@@ -9,6 +9,11 @@ on:
       - "weekdeals/index.html"
       - "ui/**"
       - "verlanglijst/**"
+      - "scan.py"
+      - "discover_winacties.py"
+      - "wishlist_search.py"
+      - "test_discovery_quality.py"
+      - "test_wishlist_search.py"
       - ".github/workflows/test-website-ui.yml"
   pull_request:
     paths:
@@ -16,6 +21,11 @@ on:
       - "weekdeals/index.html"
       - "ui/**"
       - "verlanglijst/**"
+      - "scan.py"
+      - "discover_winacties.py"
+      - "wishlist_search.py"
+      - "test_discovery_quality.py"
+      - "test_wishlist_search.py"
       - ".github/workflows/test-website-ui.yml"
 permissions:
   contents: read
@@ -34,6 +44,7 @@ jobs:
           node ui/deal-filters.test.js
           node ui/site-smoke.test.js
           node --check verlanglijst/app.js
+          python -m unittest -v test_discovery_quality.py test_wishlist_search.py
           node integrations/weekdeals/tests/test_wishlist_match.js
       - name: Validate configuration files
         run: |

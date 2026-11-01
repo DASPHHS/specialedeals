@@ -36,7 +36,7 @@
         <aside class="wish-hero-side">
           <div class="side-label">VERLANGEN VS. KOPEN</div>
           <div class="side-number" id="heroMatchCount">—</div>
-          <div class="side-caption">zoekmatches in recente bronnen</div>
+          <div class="side-caption">winkel- en zoekvondsten, niet per se koopdeals</div>
           <div class="side-rule"></div>
           <p>Een productmatch is een <strong>onderzoekslead</strong>. Alleen onafhankelijk gecontroleerde korting telt als koopdeal.</p>
           <a href="#howItWorks">Zo werkt de controle ↗</a>
@@ -49,7 +49,7 @@
     <section class="wish-overview" aria-label="Samenvatting">
       <div class="wish-stat"><span>Gevolgde wensen</span><strong id="statWishes">—</strong><small>Centraal + dit apparaat</small></div>
       <div class="wish-stat"><span>Bewezen koopdeals</span><strong id="statVerified">—</strong><small>Minimaal 10% écht voordeel</small></div>
-      <div class="wish-stat"><span>Te controleren hits</span><strong id="statCandidates">—</strong><small>Exacte variant nog toetsen</small></div>
+      <div class="wish-stat"><span>Te controleren hits</span><strong id="statCandidates">—</strong><small>Winkelacties + zoekvondsten</small></div>
       <div class="wish-stat"><span>Winkels in bronfeed</span><strong id="statStores">—</strong><small>Geen claim op alle webshops</small></div>
     </section>
     <section class="wish-editor" id="editor" hidden aria-label="Product toevoegen of aanpassen">
@@ -89,7 +89,7 @@
     </section>
     <section class="wish-main" id="wishlistResults" aria-labelledby="listHeading">
       <div class="wish-section-heading">
-        <div><div class="wish-overline dark">JOUW OVERZICHT</div><h2 id="listHeading">Mijn verlanglijst</h2><p>Je hoeft niet meer door alle acties te bladeren. Iedere wens heeft zijn eigen resultaten.</p></div>
+        <div><div class="wish-overline dark">JOUW OVERZICHT</div><h2 id="listHeading">Mijn verlanglijst</h2><p>Iedere wens heeft eigen resultaten, met aparte labels voor bewezen deals, onbevestigde winkelacties en externe zoekvondsten.</p></div>
         <div class="wish-heading-actions">
           <button type="button" class="secondary-button" id="downloadList">↓ Exporteer wensen</button>
           <button type="button" class="secondary-button" id="importList">↑ Importeer JSON</button>
@@ -102,7 +102,8 @@
           <select id="wishStatus">
             <option value="all">Alle wensen</option>
             <option value="verified">Met bewezen deal</option>
-            <option value="candidate">Met mogelijke aanbieding</option>
+            <option value="candidate">Met mogelijke winkelactie</option>
+            <option value="research">Met externe zoekvondsten</option>
             <option value="missing">Nog geen vondsten</option>
             <option value="local">Eigen toevoegingen</option>
           </select>

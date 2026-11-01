@@ -223,7 +223,7 @@ def official_contests(now):
  """Explicitly curated organizer records. Never infer verification from aggregator text."""
  with open("verified-winacties.json",encoding="utf-8") as f:entries=json.load(f)["contests"]
  today=dt.datetime.now(dt.timezone.utc).date().isoformat()
- return [{**v,"id":"official-"+v["id"],"kind":"contests","source":v["organizer"],"audience":"all","score":95,"discoveredAt":now,"lastSeenAt":now,"status":"Voorwaarden gecontroleerd"} for v in entries if v.get("startDate","")<=today<=v.get("endDate","") and v.get("officialTermsUrl")]
+ return [{**v,"id":"official-"+v["id"],"kind":"contests","source":v["organizer"],"audience":"all","score":95,"discoveredAt":now,"lastSeenAt":now,"status":"Voorwaarden handmatig gecontroleerd op "+str(v.get("verifiedAt") or "onbekend")+"; controleer opnieuw bij deelname"} for v in entries if v.get("startDate","")<=today<=v.get("endDate","") and v.get("officialTermsUrl")]
 
 
 def duplicate_key(item):
@@ -240,6 +240,43 @@ def unique_offers(rows):
   seen.add(key);out.append(item)
  return out
 
+
+def is_real_sample_sale_event(title,url):
+ """Do not list brand archives, year-round category listings or old sale pages as live events."""
+ path=urlsplit(url).path.lower()
+ title=str(title or "")
+ if "/samplesales_per_merk/" in path or "/brand/" in path or "/brands/" in path:
+  return False
+ if path.endswith(("samplesales.html","/evenementen","/sample-sales","/sale")):
+  return False
+ # A dated event detail, not a brand/category directory. These path rules
+ # are source-specific and deliberately conservative.
+ detail=(
+  bool(re.search(r"/samplesaleagenda/\d+/",path)) or
+  bool(re.search(r"/\d{4,}/[^/]+\.html$",path)) or
+  ("/event/" in path and "sample" in (path+" "+title.lower()))
+ )
+ if not detail:return False
+ years=[int(y) for y in re.findall(r"\b20\d{2}\b",title+" "+path)]
+ if years and max(years)<dt.date.today().year:
+  return False
+ return True
+
+
+def valid_retained_sale(item,today=None):
+ """A past link cannot survive simply because it was discovered <7 days ago."""
+ if today is None:today=dt.datetime.now(dt.timezone.utc).date()
+ seen=str(item.get("lastSeenAt") or item.get("discoveredAt") or "")[:10]
+ try:
+  checked=dt.date.fromisoformat(seen)
+ except ValueError:
+  return False
+ if not dt.timedelta(0)<=today-checked<=dt.timedelta(days=2):
+  return False
+ return is_real_sample_sale_event(item.get("title",""),item.get("url",""))
+
+
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  with open("wishlist.json",encoding="utf-8") as f:wishlist=json.load(f)
@@ -254,7 +291,7 @@ def main():
   with open("data.json",encoding="utf-8") as f:old=json.load(f)
  except (ValueError,OSError):old={"items":[]}
  # Retain previous recent discoveries only if they are younger than 7 days; do not imply new verification.
- items={x["id"]:x for x in old.get("items",[]) if x.get("kind")=="sales" and x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind",""),x.get("source","")) and (x.get("kind")!="contests" or worthwhile_contest(x.get("title",""),x.get("url","")))}
+ items={x["id"]:x for x in old.get("items",[]) if x.get("kind")=="sales" and x.get("id") and x.get("discoveredAt","")[:10]>=str(dt.date.today()-dt.timedelta(days=7)) and not is_navigation(x.get("title",""),x.get("url",""),x.get("kind","")) and high_quality_candidate(x.get("title",""),x.get("kind",""),x.get("source","")) and valid_retained_sale(x)}
  statuses=[]
  for name,kind,base in SOURCES:
   try:
@@ -266,6 +303,7 @@ def main():
     if any(x in url.casefold() for x in ("/privacy","/cookie","/contact","/account","/login","facebook.com","instagram.com")):continue
     if is_navigation(title,url,kind):continue
     if not high_quality_candidate(title,kind,name):continue
+    if kind=="sales" and not is_real_sample_sale_event(title,url):continue
     matched_wishes=wishlist_hits(title,wishlist_items)
     if kind=="contests" and not worthwhile_contest(title,url):continue
     phrase=(title+" "+parts.path).casefold()

@@ -6,7 +6,9 @@ on:
   pull_request:
     paths:
       - "wishlist_radar.py"
+      - "wishlist_search.py"
       - "test_wishlist_radar.py"
+      - "test_wishlist_search.py"
       - "verlanglijst/**"
       - "wishlist.json"
       - ".github/workflows/publish-wishlist-radar.yml"
@@ -14,7 +16,9 @@ on:
     branches: [main]
     paths:
       - "wishlist_radar.py"
+      - "wishlist_search.py"
       - "test_wishlist_radar.py"
+      - "test_wishlist_search.py"
       - "verlanglijst/index.html"
       - "verlanglijst/app.js"
       - "verlanglijst/style.css"
@@ -44,9 +48,12 @@ jobs:
           node-version: "22"
       - name: Validate parser, evidence policy and UI
         run: |
-          python -m py_compile wishlist_radar.py
-          python -m unittest -v test_wishlist_radar.py
+          python -m py_compile wishlist_radar.py wishlist_search.py
+          python -m unittest -v test_wishlist_radar.py test_wishlist_search.py
           node --check verlanglijst/app.js
+      - name: Research product-specific web results (not price verification)
+        if: github.event_name != 'pull_request'
+        run: python wishlist_search.py --online
       - name: Build compact wishlist index
         run: python wishlist_radar.py
       - name: Verify published schema
@@ -60,6 +67,7 @@ jobs:
           assert r["verifiedDealCount"] == sum(i["verifiedCount"] for i in r["items"])
           assert r["candidateCount"] == sum(i["candidateCount"] for i in r["items"])
           assert r["shopsSeen"] > 0
+          assert r["researchLeadCount"] == sum(i["researchLeadCount"] for i in r["items"])
           assert all(c["verifiedDiscount"] is False for i in r["items"] for c in i["candidates"])
           print("Radar verified:", r["wishCount"],"wishes,", r["candidateCount"],"candidates")
           PY
@@ -69,13 +77,16 @@ jobs:
         run: |
           set -euo pipefail
           cp verlanglijst/signalen.json "$RUNNER_TEMP/signalen.json"
+          cp verlanglijst/zoekvondsten.json "$RUNNER_TEMP/zoekvondsten.json"
           input_sha=$(git hash-object wishlist_radar.py)
+          search_sha=$(git hash-object wishlist_search.py)
           wish_sha=$(git hash-object wishlist.json)
           for attempt in 1 2 3; do
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git fetch origin main
-            if [[ "$(git show origin/main:wishlist_radar.py | git hash-object --stdin)" != "$input_sha" ]] ||
+            if [[ "$(git show origin/main:wishlist_search.py | git hash-object --stdin)" != "$search_sha" ]] ||
+               [[ "$(git show origin/main:wishlist_radar.py | git hash-object --stdin)" != "$input_sha" ]] ||
                [[ "$(git show origin/main:wishlist.json | git hash-object --stdin)" != "$wish_sha" ]]; then
               echo "Radar script or wishlist changed during the build; skip stale index."
               exit 0
@@ -84,7 +95,8 @@ jobs:
             git reset --hard origin/main
             mkdir -p verlanglijst
             cp "$RUNNER_TEMP/signalen.json" verlanglijst/signalen.json
-            git add verlanglijst/signalen.json
+            cp "$RUNNER_TEMP/zoekvondsten.json" verlanglijst/zoekvondsten.json
+            git add verlanglijst/signalen.json verlanglijst/zoekvondsten.json
             if git diff --cached --quiet; then
               echo "No update necessary"
               exit 0

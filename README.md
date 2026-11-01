@@ -1,5 +1,11 @@
 # Speciale Deals
 
+### Alle 22 expliciete verlanglijstwensen in de uurlijkse Top 10
+
+De door de gebruiker opnieuw aangeleverde **22 wensen** staan als de eerste 22 profielen in `wishlist.json.searchProfiles`. Daarbij blijven MacBook Air/Pro, HOKA Arahi/Kawana en de verschillende Arc'teryx-uitvoeringen **apart zichtbaar** op [de persoonlijke Top 10](https://dasphhs.github.io/specialedeals/topdeals/?categorie=persoonlijk). De 23e bestaande profielregel is *Bijzondere sample sales* en blijft via de aparte evenementenscanner gevolgd. Bij ieder profiel wordt per uur de bestaande **feed-index** vergeleken: gevonden winkelkandidaten, geen actuele kandidaten, nog geen externe contractfeed of aparte evenementenscanner. De originele bronverversingsdatum en rankingtijd zijn gescheiden; een prijs zonder exacte SKU, ANC/maat/stock of bezorging naar Nederland krijgt geen koopdealstatus. Voor de 3 diensten (internet/tv, unlimited sim-only, gas/elektra) zijn op dit moment nog geen contract-API's aangesloten, dus hiervoor wordt niet gedaan alsof een uurlijkse prijsvergelijking slaagt.
+
+De categorie-indeling heeft regressietests op echte fout-positieven: douchegel met *bloem* is geen tuinartikel, *deodorant roller* geen bouwmarktmateriaal, *Sour apple* geen Apple-elektronica en BBQ-pizza geen barbecue. Bij twijfel blijft het product in supermarkt of overig totdat een betrouwbaar kenmerk het echt categoriseert.
+
 ## Uurlijkse Top 10 koopjes per categorie
 
 Nieuwe [Top 10 startpagina](https://dasphhs.github.io/specialedeals/topdeals/) met eigen deelbare categorieroutes:

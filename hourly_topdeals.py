@@ -47,18 +47,85 @@ NOISE=re.compile(r"\b(loterij|casino|loten|gok|seks|erotiek|vape|nicotine|alcoho
 
 
 def classify(row):
-    text=" ".join(str(row.get(k) or "") for k in ("product","categorie"))
+    """Use source/category first. Ambiguous words alone MUST NOT decide domain.
+
+    'Bloem' in a fragrance isn't a garden flower, 'roller' is not a DIY roller,
+    'apple' can be food or beer, and 'BBQ' in a pizza isn't a barbecue unit.
+    """
+    title=str(row.get("product") or "")
     cat=str(row.get("categorie") or "").lower().strip()
     store=str(row.get("winkel") or "").lower().strip()
-    if BUILD.search(text):return "bouwmarkt"
-    if store=="intratuin" or GARDEN.search(text) or "tuin &" in cat:return "tuin"
-    if TECH.search(text):return "elektronica"
-    if SPORT.search(text):return "sport"
-    if CARECAT.intersection({cat}) or CARE.search(text):return "drogisterij"
-    if HOME.search(text) or "household" in cat or "cleaning" in cat:return "huis"
-    if cat in FOODCAT or row.get("bron")=="PrijsProfeet":return "supermarkt"
+    source=str(row.get("bron") or "")
+    text=title.casefold()
+    # Product groups with genuinely distinctive commercial terms.
+    actual_build=re.search(
+        r"\b(accuboormachine|accuschroefmachine|boormachine|klopboormachine|"
+        r"schuurmachine|kettingzaag|decoupeerzaag|cirkelzaag|boorset|schroefset|"
+        r"schroevendraaier|verfroller|verfbak|schilderstape|verfkwast|"
+        r"muurverf|lakverf|kitpistool|tegelzaag|isolatieplaat|"
+        r"bouwlaser|gereedschapskoffer|werkbank|elektrische zaag)\b",text)
+    actual_garden=re.search(
+        r"\b(potgrond|tuinaarde|tuinstoel|tuinset|tuinbank|tuinmeubel|"
+        r"bloempot|plantenpot|tuinplant|kamerplant|tuinslang|"
+        r"grasmaaier|robotmaaier|heggenschaar|bladblazer|"
+        r"hogedrukreiniger|tuingereedschap|tuinverlichting|"
+        r"terrashaard|vuurkorf|barbecue toestel|barbecue grill|bbq grill|"
+        r"loungeset|tuinkussen|tuintafel|plantenbak)\b",text)
+    actual_tech=re.search(
+        r"\b(airpods|macbook|imac|iphone|ipad|apple watch|apple tv|"
+        r"usb4|thunderbolt|usb.?hub|dockings?tation|monitor|"
+        r"televisie|smartphone|koptelefoon|bluetooth speaker|"
+        r"powerbank|laptop|gaming console|tablet|"
+        r"oled scherm|draadloze oordopjes)\b",text)
+    actual_sport=re.search(
+        r"\b(hoka|arc.?teryx|padelballen|padelracket|tennisracket|"
+        r"hardloopschoenen|sportschoenen|sportjack|outdoorjas|"
+        r"voetbalschoenen|yogamat|fitnessapparaat|outdoor.?jas|"
+        r"outdoor sweatjack)\b",text)
+    actual_home=re.search(
+        r"\b(wasmiddel|vaatwastabletten|wasverzachter|toiletpapier|"
+        r"toiletblok|allesreiniger|afwasmiddel|keukenrol|"
+        r"stofzuiger|schoonmaakmiddel|luchtverfrisser|"
+        r"geurproducten|waspods|wasmiddelpods|wasmiddel capsules|"
+        r"afwasblokjes|ariel .* pods|boodschappentas|opbergbox)\b",text)
+    if actual_build:return "bouwmarkt"
+    if actual_garden:return "tuin"
+    if actual_tech:return "elektronica"
+    if actual_sport:return "sport"
+    if actual_home:return "huis"
+    if store=="intratuin" or any(s in cat for s in ("tuin & wonen","tuinartikelen","garden")):
+        return "tuin"
+    if any(s in cat for s in ("bouwmarkt","klus","gereedschap","diy")):
+        return "bouwmarkt"
+    if any(s in cat for s in ("elektronica","computer","multimedia")):
+        return "elektronica"
+    if any(s in cat for s in ("sportartikelen","hardlopen","outdoor")):
+        return "sport"
+    if any(s in cat for s in ("cleaning & laundry","household","huishoudelijk",
+                               "schoonmaak","wasmiddelen","woningonderhoud")):
+        return "huis"
+    # Food always wins against false brand or scent keyword matches.
+    if cat in FOODCAT or any(s in cat for s in (
+        "groente","fruit","vlees","vis","brood","bakkerij","zuivel","melk",
+        "diepvries","bier","wijn","dranken","snoep","chocolade","pizza",
+        "broodbeleg","ijs &","chips","koek","koffie","thee",
+        "aardappelen","rijst &","pasta","babyvoeding","voeding")):
+        return "supermarkt"
+    if cat in CARECAT or any(s in cat for s in ("verzorging","drogisterij",
+        "gezondheid","beauty","health","cosmetica","personal care")):
+        return "drogisterij"
+    if source=="PrijsProfeet":
+        # The PrijsProfeet feed is supermarket-based. Do not infer DIY/tech
+        # from vaguely similar words when the category is unspecified.
+        return "supermarkt"
+    if store in ("kruidvat","etos","trekpleister","da"):
+        if CARE.search(title):return "drogisterij"
+        return "overig"
+    if GARDEN.search(title) and ("outdoor" in cat or "garden" in cat):
+        return "tuin"
+    if HOME.search(title):return "huis"
+    if CARE.search(title):return "drogisterij"
     return "overig"
-
 
 def date10(value):
     v=str(value or "")[:10]
@@ -175,6 +242,73 @@ def pick(row,wishes,source_id):
     }
 
 
+
+def match_search_profile(offer, profile):
+    """An umbrella wish can contain several distinct user requests.
+
+    Do not claim a MacBook Pro offer matches MacBook Air, nor HOKA Kawana an
+    Arahi. All resulting product hits STILL need SKU, size and shipping checks.
+    """
+    if profile.get("kind")!="product":
+        return False
+    ids=set(profile.get("wishlistIds") or [])
+    if not ids.intersection(w["id"] for w in offer.get("wishMatches", [])):
+        return False
+    title=normalize_name(offer.get("title"))
+    label=normalize_name(profile.get("name"))
+    if label=="macbook air": return "macbook air" in title
+    if label=="macbook pro": return "macbook pro" in title
+    if label=="hoka arahi": return "hoka arahi" in title
+    if label=="hoka kawana": return "hoka kawana" in title
+    if label=="vergelijkbare stabiliteitsschoenen":
+        return "hoka gaviota" in title or "stabiliteitsschoen" in title
+    if label=="apple airpods anc alternatief":
+        # Source title alone must actually mention ANC; standard AirPods
+        # without that term cannot be promoted as the user's wanted model.
+        return "anc" in title or "noise cancelling" in title or "ruisonderdrukking" in title
+    return True
+
+
+def profile_checks(profiles,pool,now):
+    """One visible result for EVERY supplied user wish, including services.
+
+    Service profiles and sample-sale research are not eligible price items.
+    These statuses explicitly prevent hourly scans being misreported as
+    actual service contract/API monitoring.
+    """
+    result=[]
+    for profile in profiles:
+        kind=profile.get("kind")
+        candidates=[x for x in pool if match_search_profile(x,profile)] if kind=="product" else []
+        candidates.sort(key=lambda x:(-x["rankScore"],x["priceEUR"]))
+        if kind=="product":
+            state="candidate" if candidates else "no_offer_in_feeds"
+            method="Existing retailer/supermarket feed title-matching, not an exact SKU check"
+            note=("Bronaanbod gevonden, maar variant, eventuele ANC/maat, voorraad en bezorgkosten controleren."
+                  if candidates else "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.")
+        elif kind=="service":
+            state="not_connected"
+            method="Separate contract feeds not connected"
+            note="Geen vergelijkbare live contractprijzen of postcode-/verbruikscontrole aangesloten."
+        else:
+            state="separate_event_monitor"
+            method="Official contest/sample-sale scanner is a separate feed"
+            note="Bijzondere sample sales verschijnen via de afzonderlijke evenementenscanner, niet als webshop-productkorting."
+        result.append({
+          "position":int(profile.get("position") or len(result)+1),
+          "name":str(profile.get("name") or "")[:120],
+          "kind":kind,
+          "state":state,
+          "method":method,
+          "note":note,
+          "checkedAgainstFeedAt":now.isoformat() if kind=="product" else None,
+          "trackedWishIds":list(profile.get("wishlistIds") or []) if kind=="product" else [],
+          "candidateCount":len(candidates),
+          "offers":candidates[:3],
+        })
+    return result
+
+
 def generate(sources,wishlist,now):
     health=[source_health(s,now) for s in sources]
     wishes=wishlist.get("items",[])
@@ -201,6 +335,7 @@ def generate(sources,wishlist,now):
     pool.sort(key=lambda x:(-bool(x["wishMatches"]),-x["rankScore"],
                             -float(x.get("advertisedDiscountPercent") or 0),
                             x["priceEUR"],x["title"].casefold()))
+    profiles=profile_checks(wishlist.get("searchProfiles",[]),pool,now)
     out={}
     for group in ORDER:
         selected=[x for x in pool if x["wishMatches"]] if group=="persoonlijk" else [x for x in pool if x["category"]==group]
@@ -224,6 +359,9 @@ def generate(sources,wishlist,now):
       "siteReviewedNow":False,
       "liveRetailerPriceCheck":False,
       "verifiedDealCount":0,
+      "profileCount":len(profiles),
+      "profileChecks":profiles,
+      "profileOfferCount":sum(p["candidateCount"] for p in profiles),
       "sourceHealth":health,"discarded":discarded,
       "eligibleCount":len(pool),"wishlistMatchedCount":sum(bool(x["wishMatches"]) for x in pool),
       "categories":out

@@ -61,13 +61,22 @@ el("count").textContent=found.length.toLocaleString("nl-NL")+" aanbiedingen";
 for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  const card=text("article","","card");card.append(text("div",d.winkel,"tag"),text("div",d.product,"name"));
  const pricing=document.createElement("div"),p=text("span",typeof d.prijs==="number"?nl.format(d.prijs):"Prijs niet vermeld","price");pricing.append(p);
- if(typeof d.van_prijs==="number"&&d.van_prijs>d.prijs)pricing.append(text("span",nl.format(d.van_prijs),"old"));card.append(pricing);
+ if(typeof d.van_prijs==="number"&&d.van_prijs>d.prijs&&d.prijstype!=="bundeltotaal")pricing.append(text("span",nl.format(d.van_prijs),"old"));card.append(pricing);
  if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% korting","sale"));
  if(d.actievorm)card.append(text("div",d.actievorm,"small"));
  if(d.verpakking)card.append(text("div",d.verpakking,"small"));
+ if(d.prijstype==="bundeltotaal")card.append(text("div","Let op: getoonde prijs is het totale Aldi-bundelbedrag","small"));
+ if(typeof d.bundelaantal==="number"&&d.bundelaantal>=2){
+   card.append(text("div",typeof d.bundelprijs==="number"
+     ? d.bundelaantal+" stuks voor "+nl.format(d.bundelprijs)+" totaal"
+     : "Bundelactie voor "+d.bundelaantal+" stuks; totaalprijs niet bekend","small"));
+ }
+ if(typeof d.eenheidsprijs==="number"&&d.eenheidsprijs>0&&["kg","L","stuk"].includes(d.eenheid))
+   card.append(text("div",nl.format(d.eenheidsprijs)+" per "+d.eenheid,"small"));
+ if(d.einddatum_geschat)card.append(text("div","Einddatum is door bron geschat","small"));
  const bottom=text("div","","bottom");bottom.append(text("div",d.einddatum_onbekend?"Prijs gecontroleerd "+d.waargenomen_op+" · einddatum niet vermeld":d.waargenomen_op?"Gecontroleerd "+d.waargenomen_op+" · gepubliceerd geldig t/m "+(d.tot||"onbekend"):(d.van||"Datum onbekend")+" t/m "+(d.tot||"onbekend"),"small"));
  if(d.bron==="FeedMyCart")bottom.append(text("div",d.einddatum_bron?"Einddatum geldt voor bronpagina, niet per product":"Openbare productselectie; niet de volledige folder","small"));
- if(d.ledenprijs)bottom.append(text("div","Ledenprijs: "+nl.format(d.ledenprijs),"small"));
+ if(typeof d.ledenprijs==="number")bottom.append(text("div","Met klantenkaart"+(d.loyaliteitsprogramma?" ("+d.loyaliteitsprogramma+")":"")+": "+nl.format(d.ledenprijs),"small"));
  if(d.kanaal&&d.kanaal!=="Online/winkel onbekend")bottom.append(text("div",d.kanaal,"small"));
  if(d.url&&/^https:\/\//.test(d.url)){const a=text("a",d.bron==="FeedMyCart"?"Bekijk bronpagina":"Bekijk aanbieding");a.href=d.url;a.rel="noopener noreferrer";a.target="_blank";bottom.append(a)}
  card.append(bottom);el("cards").append(card)}
@@ -76,7 +85,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
 for(const key of ["now","next","all","nonfood"])el(key).addEventListener("click",()=>{mode=key;page=0;for(const k of ["now","next","all","nonfood"])el(k).classList.toggle("active",k===key);render()});
 for(const key of ["search","store","category"])el(key).addEventListener("input",()=>{page=0;render()});
 el("prev").onclick=()=>{page--;render();window.scrollTo(0,0)};el("more").onclick=()=>{page++;render();window.scrollTo(0,0)};
-el("export").onclick=()=>{const rows=[["Winkel","Product","Categorie","Actieprijs","Van-prijs","Van","Tot","Actievorm","Verpakking","Bron-URL"],...filtered().map(d=>[d.winkel,d.product,d.categorie,d.prijs,d.van_prijs,d.van,d.tot,d.actievorm,d.verpakking,d.url])];const csv=rows.map(r=>r.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(";")).join("\r\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}));a.download="weekdeals-bleiswijk-"+iso(new Date())+".csv";a.click();URL.revokeObjectURL(a.href)};
+el("export").onclick=()=>{const rows=[["Winkel","Product","Categorie","Actieprijs","Van-prijs","Van","Tot","Actievorm","Verpakking","Eenheidsprijs","Eenheid","Bundelaantal","Bundeltotaal","Ledenprijs","Loyaliteitsprogramma","Bron-URL"],...filtered().map(d=>[d.winkel,d.product,d.categorie,d.prijs,d.van_prijs,d.van,d.tot,d.actievorm,d.verpakking,d.eenheidsprijs,d.eenheid,d.bundelaantal,d.bundelprijs,d.ledenprijs,d.loyaliteitsprogramma,d.url])];const csv=rows.map(r=>r.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(";")).join("\r\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}));a.download="weekdeals-bleiswijk-"+iso(new Date())+".csv";a.click();URL.revokeObjectURL(a.href)};
 fetch("./deals.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(data=>{if(!Array.isArray(data.deals)||!data.updated_at||!data.source)throw Error("Ongeldig databestand");all=data.deals.concat(nonfoodRows);
 const stores=[...new Set(all.map(d=>d.winkel).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"nl"));for(const s of stores){let o=document.createElement("option");o.value=s;o.textContent=s;el("store").append(o)}
 const cats=[...new Set(all.map(d=>d.categorie).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"nl"));for(const s of cats){let o=document.createElement("option");o.value=s;o.textContent=s;el("category").append(o)}

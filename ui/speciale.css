@@ -249,3 +249,10 @@ body.weekdeals{background:var(--canvas);color:var(--ink);padding-bottom:0}
  .weekdeals .card{min-height:auto}
  .weekdeals .notice{font-size:11px}
 }
+
+/* Keep workspace navigation focused rather than repeating overview cards. */
+body.workspace-active .kk-dashboard{display:none}
+body.workspace-active .panel{margin-top:0}
+#resultcount{font-variant-numeric:tabular-nums}
+#wishsyncStatus{min-height:17px}
+.weekdeals #offerType,.weekdeals #rank{min-width:0}

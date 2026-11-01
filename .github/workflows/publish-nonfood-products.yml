@@ -1,0 +1,61 @@
+name: Publish Nonfood Product Deals
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "integrations/weekdeals/publish_nonfood_deals.py"
+      - "integrations/weekdeals/tests/test_nonfood.py"
+      - ".github/workflows/publish-nonfood-products.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publish-nonfood-products
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate parsing and price semantics
+        env:
+          PYTHONPATH: integrations/weekdeals
+        run: |
+          python -m unittest discover -s integrations/weekdeals/tests -p "test_nonfood.py" -v
+          python -m py_compile integrations/weekdeals/publish_nonfood_deals.py
+      - name: Read public nonfood product selection
+        run: python integrations/weekdeals/publish_nonfood_deals.py
+      - name: Validate output and publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path("weekdeals/nonfood.json").read_text())
+          ids=[r["id"] for r in x["deals"]]
+          assert len(ids)>=15 and len(ids)==len(set(ids))
+          assert all(r["prijs"]>0 and r["tot"] for r in x["deals"])
+          print("Nonfood validation OK:",len(ids),x["counts"])
+          PY
+          cp weekdeals/nonfood.json "$RUNNER_TEMP/nonfood.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+          mkdir -p weekdeals
+          cp "$RUNNER_TEMP/nonfood.json" weekdeals/nonfood.json
+          git add weekdeals/nonfood.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh nonfood product prices [skip ci]"
+            git push origin HEAD:main
+          fi

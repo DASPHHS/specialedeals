@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-11-01",
   "inputs": [
     "bronnenregister.json",
     "prijsradar-config.json",
@@ -138,7 +138,10 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "giraffe-original"
+      ]
     },
     {
       "id": "giraffe-original-1000",
@@ -161,7 +164,10 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "giraffe-original"
+      ]
     },
     {
       "id": "dyson-cordless",
@@ -201,14 +207,17 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "dyson-handstofzuiger"
+      ]
     },
     {
       "id": "apple-airpods",
       "name": "AirPods standard and Pro",
       "category": "tech",
       "priority": "high",
-      "exactMatchRule": "Exact generation, case connector, sealed/new, no spare cases",
+      "exactMatchRule": "AirPods standaard uitsluitend uitvoering met ANC; Pro heeft voorkeur. Generatie, laadcase, nieuwstaat en garantie; geen accessoires",
       "retailerSourceIds": [
         "apple",
         "dyson",
@@ -241,7 +250,11 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "apple-airpods",
+        "apple-airpods-pro"
+      ]
     },
     {
       "id": "ysl-m7",
@@ -371,14 +384,17 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "arcteryx-outdoor"
+      ]
     },
     {
       "id": "hoka-eu47",
       "name": "Herenschoenen circa EU 47",
       "category": "running",
       "priority": "high",
-      "exactMatchRule": "HOKA exact men's model and size EU47 plus width",
+      "exactMatchRule": "Herenmaat EU 47 1/3; Arahi/Kawana, of Gaviota alleen bij bewezen passende pronatie; specifieke modelgeneratie, breedte en NL retourbeleid controleren",
       "retailerSourceIds": [
         "hoka",
         "all4running",
@@ -400,7 +416,10 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "hoka-schoenen"
+      ]
     },
     {
       "id": "apple-macbook",
@@ -996,6 +1015,233 @@
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Event or giveaway confirmation, not arbitrary discount percentage.",
       "frequency": "daily"
+    },
+    {
+      "id": "janzen-earth",
+      "name": "JANZEN Earth 46: foam, gel, deodorant, sticks, refills and sets",
+      "category": "care",
+      "priority": "high",
+      "exactMatchRule": "Earth 46 only; compare same product type, scent, volume and pack count; query each form separately",
+      "retailerSourceIds": [
+        "janzen",
+        "bol",
+        "etos",
+        "kruidvat",
+        "douglas",
+        "notino",
+        "amazon-nl"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "geurcheck"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "rituals-homme",
+      "name": "Rituals Homme shower foam and deodorant",
+      "category": "care",
+      "priority": "standard",
+      "exactMatchRule": "Separate Homme foam and deodorant; exact product type, ml and pack; no generic Rituals hits",
+      "retailerSourceIds": [
+        "rituals",
+        "douglas",
+        "etos",
+        "bol",
+        "amazon-nl"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "rituals-sport",
+      "name": "Rituals Sport shower foam and deodorant",
+      "category": "care",
+      "priority": "standard",
+      "exactMatchRule": "Separate Sport foam and deodorant; never compare to Homme or different volumes",
+      "retailerSourceIds": [
+        "rituals",
+        "douglas",
+        "etos",
+        "bol",
+        "amazon-nl"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "kieskeurig"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "apple-imac",
+      "name": "Apple iMac exact configurations",
+      "category": "tech",
+      "priority": "high",
+      "exactMatchRule": "Same M-chip generation, display size, RAM, SSD, keyboard language, condition and warranty; no accessories",
+      "retailerSourceIds": [
+        "apple",
+        "amac",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "alternate",
+        "azerty",
+        "megekko"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "lampe-berger-geuren",
+      "name": "Lampe Berger / Maison Berger luxury home scents",
+      "category": "home",
+      "priority": "high",
+      "exactMatchRule": "Separate exact Maison Berger scent, refill composition and per-100-ml size from functionally similar affordable fragrance alternatives; never declare alternatives identical",
+      "retailerSourceIds": [
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "douglas",
+        "notino",
+        "kaars-nl"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "savescout"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "usb-hubs-premium",
+      "name": "Premium USB4 / Thunderbolt 4-5 docks",
+      "category": "tech",
+      "priority": "high",
+      "exactMatchRule": "Verify actual USB4/TB4/TB5 specification, host compatibility, available bandwidth, video output, charging and included power unit by precise manufacturer SKU",
+      "retailerSourceIds": [
+        "coolblue",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "mediamarkt",
+        "alternate",
+        "azerty",
+        "megekko",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de",
+        "geizhals"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "hightech-gadgets",
+      "name": "Innovation-led e-ink, OLED portable displays, Matter hubs and Qi2 devices",
+      "category": "tech",
+      "priority": "standard",
+      "exactMatchRule": "Functional alternatives are discovery only; check product claims, safety, support, compatibility, and unique SKU; no generic accessory hits",
+      "retailerSourceIds": [
+        "coolblue",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "mediamarkt",
+        "alternate",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "tweakers-pricewatch",
+        "kieskeurig",
+        "idealo-de"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
+      "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "premium-padel-balls",
+      "name": "HEAD Padel Pro S+ and HEAD Padel Pro+ balls",
+      "category": "sport",
+      "priority": "high",
+      "exactMatchRule": "Only identical HEAD Pro S+ or Pro+ version, pack count and number of balls. Compare total delivered price and EUR per 3 balls. Bulk unit price alone is NOT a temporary discount",
+      "retailerSourceIds": [
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "amazon-be"
+      ],
+      "crosscheckSourceIds": [
+        "prijsalerts",
+        "idealo-de",
+        "geizhals"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Show deal ONLY with >=10% independently verified real temporary reduction and concrete same-SKU comparable history; article price and NL shipping included; without history no verified deal.",
+      "frequency": "daily_or_rotated"
     }
   ]
 }

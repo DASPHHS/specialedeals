@@ -46,7 +46,7 @@ CARECAT={"health & beauty","drogisterij","personal care","beauty"}
 NOISE=re.compile(r"\b(loterij|casino|loten|gok|seks|erotiek|vape|nicotine|alcohol|wijn|bier|whisky)\b",re.I)
 
 
-def classify(row):
+def classify(row,source_id=None):
     """Use source/category first. Ambiguous words alone MUST NOT decide domain.
 
     'Bloem' in a fragrance isn't a garden flower, 'roller' is not a DIY roller,
@@ -55,7 +55,7 @@ def classify(row):
     title=str(row.get("product") or "")
     cat=str(row.get("categorie") or "").lower().strip()
     store=str(row.get("winkel") or "").lower().strip()
-    source=str(row.get("bron") or "")
+    source=str(row.get("bron") or source_id or "")
     text=title.casefold()
     # Product groups with genuinely distinctive commercial terms.
     actual_build=re.search(
@@ -75,7 +75,7 @@ def classify(row):
         r"\b(airpods|macbook|imac|iphone|ipad|apple watch|apple tv|"
         r"usb4|thunderbolt|usb.?hub|dockings?tation|monitor|"
         r"televisie|smartphone|koptelefoon|bluetooth speaker|"
-        r"powerbank|laptop|gaming console|tablet|"
+        r"powerbank|laptop|gaming console|"
         r"oled scherm|draadloze oordopjes)\b",text)
     actual_sport=re.search(
         r"\b(hoka|arc.?teryx|padelballen|padelracket|tennisracket|"
@@ -87,7 +87,7 @@ def classify(row):
         r"toiletblok|allesreiniger|afwasmiddel|keukenrol|"
         r"stofzuiger|schoonmaakmiddel|luchtverfrisser|"
         r"geurproducten|waspods|wasmiddelpods|wasmiddel capsules|"
-        r"afwasblokjes|ariel .* pods|boodschappentas|opbergbox)\b",text)
+        r"afwasblokjes|ariel.*pods|robij[n]? quickwash|boodschappentas|opbergbox)\b",text)
     if actual_build:return "bouwmarkt"
     if actual_garden:return "tuin"
     if actual_tech:return "elektronica"
@@ -207,7 +207,7 @@ def pick(row,wishes,source_id):
     p=price_value(row.get("prijs"))
     discount=asserted_discount(row)
     note,direct=quality(row)
-    group=classify(row)
+    group=classify(row,source_id)
     # Personal matches at top. Real source evidence quality matters more than high %
     # from a store MSRP. Always penalize uncheckable bundles.
     score=(135 if names else 0)+(20 if direct else 5)

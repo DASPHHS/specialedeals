@@ -8,7 +8,7 @@ function read(p){return fs.readFileSync(path.join(root,p),"utf8");}
 function inlineScripts(html){
   return [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).filter(x=>x.trim());
 }
-const main=read("index.html"),week=read("weekdeals/index.html"),css=read("ui/speciale.css");
+const main=read("index.html"),week=read("weekdeals/index.html"),wishlist=read("verlanglijst/index.html"),css=read("ui/speciale.css");
 for(const [name,html] of [["homepage",main],["weekdeals",week]]){
   const scripts=inlineScripts(html);
   assert(scripts.length>0,name+" has no inline JavaScript");
@@ -30,4 +30,13 @@ assert(week.includes('id="weekFound"'),"Missing Weekdeals stats");
 assert(css.includes("prefers-reduced-motion"),"Respect reduced motion");
 assert(css.includes(":focus-visible"),"Keyboard focus styles");
 assert(css.includes("@media(max-width:700px)"),"Mobile layout");
-console.log("Site HTML, scripts, navigation and styling smoke tests passed");
+assert(main.includes('href="./verlanglijst/"'),"Homepage wishlist nav missing");
+assert(wishlist.includes('id="wishGrid"'),"Wishlist grid missing");
+assert(wishlist.includes('id="wishForm"'),"Wishlist editor missing");
+assert(wishlist.includes('id="wishStatus"'),"Wishlist filtering missing");
+assert(wishlist.includes('id="downloadList"')&&wishlist.includes('id="importList"'),"Wishlist backup tools missing");
+assert(wishlist.includes('src="./app.js"'),"Wishlist JS not linked");
+assert(wishlist.includes('href="./style.css"'),"Wishlist style not linked");
+assert(read("verlanglijst/style.css").includes("prefers-reduced-motion"),"Wishlist motion settings missing");
+new vm.Script(read("verlanglijst/app.js"),{filename:"verlanglijst/app.js"});
+console.log("Site HTML, scripts, navigation and wishlist styling smoke tests passed");

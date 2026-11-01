@@ -34,7 +34,7 @@
      targetPriceEUR:w.targetPriceEUR,url:w.url,local:true})));
  }
  const getHits=id=>{const s=signals?.items?.find(w=>w.id===id);
-  return {verified:s?.verifiedDeals||[],candidates:s?.candidates||[],vcount:s?.verifiedCount||0,ccount:s?.candidateCount||0,leads:s?.researchLeads||[],lcount:s?.researchLeadCount||0,searchStatus:s?.researchStatus||"not_scanned"};
+  return {verified:s?.verifiedDeals||[],candidates:s?.candidates||[],vcount:s?.verifiedCount||0,ccount:s?.candidateCount||0,leads:s?.researchLeads||[],lcount:s?.researchLeadCount||0,searchStatus:s?.researchStatus||"not_scanned",pricewatch:s?.pricewatchOffers||[],pcount:s?.pricewatchCount||0,pstatus:s?.pricewatchStatus||"not_supported"};
  };
  function status(text,error=false){el("pageStatus").textContent=text;el("pageStatus").dataset.error=String(error)}
  function migrate(){
@@ -74,19 +74,30 @@
    (url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Controleer productpagina ↗</a>':'')+
    '</article>';
  }
+ function pricewatchRow(x){
+  const url=urlSafe(x.url);
+  const indication=x.indicativePriceEUR!=null&&Number.isFinite(Number(x.indicativePriceEUR))?
+     '<strong>Prijsindicatie vanaf '+esc(eur(Number(x.indicativePriceEUR)))+'*</strong>':
+     '<strong>Bekijk actuele winkelprijzen bij vergelijker</strong>';
+  return '<article class="wish-offer research-lead"><div class="wish-offer-label">PRICEWATCH · PRODUCTVERGELIJKING, GEEN BEWEZEN KORTING</div>'+
+   '<h4>'+esc(x.title)+'</h4><div class="wish-offer-price">'+indication+'</div>'+
+   '<p>Tweakers Pricewatch · '+esc(x.observedAt||"")+' · minimumindicatie is geen bevestigde NL-afrekenprijs. Maat, uitvoering, winkel, voorraad en verzending controleren.</p>'+
+   (url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Bekijk onafhankelijke prijsvergelijking ↗</a>':'')+'</article>';
+ }
  function wishCard(w){
-  const h=getHits(w.id),count=h.verified.length+h.candidates.length+h.leads.length,open=expanded.has(w.id);
+  const h=getHits(w.id),count=h.verified.length+h.candidates.length+h.leads.length+h.pricewatch.length,open=expanded.has(w.id);
   const target=Number(w.targetPriceEUR)>0?Number(w.targetPriceEUR):null;
   const within=target&&h.verified.some(x=>Number(x.totalPriceEUR)<=target);
   const label=h.vcount?'<span class="wish-badge verified">✓ '+h.vcount+' bewezen koopdeal(s)</span>':
     h.ccount?'<span class="wish-badge candidate">◷ '+h.ccount+' mogelijke winkelactie(s)</span>':
+    h.pcount?'<span class="wish-badge candidate">€ '+h.pcount+' vergelijking(en) — prijs controleren</span>':
     h.lcount?'<span class="wish-badge local">⌕ '+h.lcount+' externe zoekvondst(en) — niet gecontroleerd</span>':
     '<span class="wish-badge">Nog geen actuele match</span>';
   const actions=(count?'<button class="wish-mini" type="button" data-action="expand" data-id="'+esc(w.id)+'" aria-expanded="'+open+'">'+(open?'Verberg hits':'Bekijk '+count+' hits')+'</button>':'')+
    '<button class="wish-mini light" type="button" data-action="edit" data-id="'+esc(w.id)+'">Bewerk</button>'+
    (w.local?'<button class="wish-mini light" type="button" data-action="remove" data-id="'+esc(w.id)+'" aria-label="Verwijder deze wens">×</button>':'');
   const search="https://www.google.com/search?tbm=shop&q="+encodeURIComponent(w.name);
-  const offers=h.verified.map(x=>offerRow(x,true)).join("")+h.candidates.map(x=>offerRow(x,false)).join("")+h.leads.map(researchRow).join("");
+  const offers=h.verified.map(x=>offerRow(x,true)).join("")+h.candidates.map(x=>offerRow(x,false)).join("")+h.leads.map(researchRow).join("")+h.pricewatch.map(pricewatchRow).join("");
   return '<article class="wish-card'+(h.vcount?' with-deal':'')+'" id="wish-'+esc(w.id)+'">'+
    '<div class="wish-card-top"><div><span class="wish-card-category">'+esc(w.category)+'</span><h3>'+esc(w.name)+'</h3></div>'+
    '<span class="wish-card-icon" aria-hidden="true">'+(h.vcount?'✳':h.ccount?'⌕':'♡')+'</span></div>'+
@@ -114,24 +125,24 @@
    if(q&&!([w.name,w.category,w.notes].join(" ").toLocaleLowerCase("nl-NL").includes(q)))return false;
    if(f==="verified"&&!h.vcount)return false;
    if(f==="candidate"&&!h.ccount)return false;
-   if(f==="research"&&!h.lcount)return false;
-   if(f==="missing"&&(h.vcount||h.ccount||h.lcount))return false;
+   if(f==="research"&&!(h.lcount||h.pcount))return false;
+   if(f==="missing"&&(h.vcount||h.ccount||h.lcount||h.pcount))return false;
    if(f==="local"&&!w.local)return false;return true;
   });
   selected.sort((a,b)=>{
    const x=getHits(a.id),y=getHits(b.id);
    if(sort==="name")return a.name.localeCompare(b.name,"nl");
    if(sort==="target")return (Number(a.targetPriceEUR)||Infinity)-(Number(b.targetPriceEUR)||Infinity)||a.name.localeCompare(b.name,"nl");
-   if(sort==="count")return y.ccount+y.vcount+y.lcount-x.ccount-x.vcount-x.lcount||a.name.localeCompare(b.name,"nl");
-   return y.vcount-x.vcount||y.ccount-x.ccount||y.lcount-x.lcount||a.name.localeCompare(b.name,"nl");
+   if(sort==="count")return y.ccount+y.vcount+y.lcount+y.pcount-x.ccount-x.vcount-x.lcount-x.pcount||a.name.localeCompare(b.name,"nl");
+   return y.vcount-x.vcount||y.ccount-x.ccount||y.lcount+y.pcount-x.lcount-x.pcount||a.name.localeCompare(b.name,"nl");
   });
   el("wishGrid").innerHTML=selected.map(wishCard).join("");
   el("emptyState").hidden=selected.length>0;
   el("statWishes").textContent=wishes.length.toLocaleString("nl-NL");
   el("statVerified").textContent=(signals?.verifiedDealCount??0).toLocaleString("nl-NL");
-  el("statCandidates").textContent=((signals?.candidateCount??0)+(signals?.researchLeadCount??0)).toLocaleString("nl-NL");
+  el("statCandidates").textContent=((signals?.candidateCount??0)+(signals?.researchLeadCount??0)+(signals?.pricewatchCount??0)).toLocaleString("nl-NL");
   el("statStores").textContent=signals?.shopsSeen!=null?signals.shopsSeen.toLocaleString("nl-NL"):"—";
-  el("heroMatchCount").textContent=((signals?.candidateCount??0)+(signals?.researchLeadCount??0)).toLocaleString("nl-NL");
+  el("heroMatchCount").textContent=((signals?.candidateCount??0)+(signals?.researchLeadCount??0)+(signals?.pricewatchCount??0)).toLocaleString("nl-NL");
   renderServices();
   renderOriginalProfiles();
  }
@@ -215,7 +226,7 @@
   else if(!signals)status("Centrale verlanglijst geladen; de nieuwe radar-index is nog niet beschikbaar.",true);
   else{
    const when=signals.updatedAt?new Date(signals.updatedAt).toLocaleString("nl-NL",{timeZone:"Europe/Amsterdam"}):"onbekend";
-   status("Brondata "+when+" · "+signals.shopsSeen+" winkels in algemene winkelacties · "+signals.candidateCount+" mogelijke winkelacties · "+(signals.researchLeadCount||0)+" externe zoekvondsten. Dat is geen volledige webshopdekking.");
+   status("Brondata "+when+" · "+signals.shopsSeen+" winkels in algemene winkelacties · "+signals.candidateCount+" mogelijke winkelacties · "+(signals.researchLeadCount||0)+" externe zoekvondsten · "+(signals.pricewatchCount||0)+" Pricewatch-productvergelijkingen. Dat is geen volledige webshopdekking.");
   }render();
  }
  el("wishGrid").addEventListener("click",e=>{

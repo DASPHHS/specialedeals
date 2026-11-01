@@ -1,0 +1,55 @@
+name: Probe public large deals index
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/probe-deals-index.yml"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install "beautifulsoup4>=4.12,<5"
+      - name: Identify useful public product pagination
+        run: |
+          python - <<'PY'
+          import re,json
+          from bs4 import BeautifulSoup
+          from urllib.request import Request,urlopen
+          urls=[
+            "https://feedmycart.nl/en/deals/netherlands/",
+            "https://feedmycart.nl/en/deals/netherlands/?page=2",
+            "https://feedmycart.nl/en/deals/netherlands/?category=health-beauty",
+            "https://feedmycart.nl/en/deals/netherlands/?chain=kruidvat",
+            "https://feedmycart.nl/en/deals/netherlands/?q=elmex",
+            "https://feedmycart.nl/en/countries/netherlands/kruidvat/?page=2",
+            "https://feedmycart.nl/en/categories/netherlands/health-beauty/",
+          ]
+          for url in urls:
+            try:
+              with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0 (personal, research for public offer data)"}),timeout=30) as r:
+                html=r.read(1800000).decode("utf-8","replace");status=r.status;final=r.url
+              s=BeautifulSoup(html,"html.parser")
+              cards=s.select("li.deal")
+              scripts=s.select('script[type="application/ld+json"]')
+              ldcounts=[]
+              for a in scripts:
+                try:
+                  d=json.loads(a.string or a.get_text())
+                  if isinstance(d,list):ls=d
+                  else:ls=[d]
+                  ldcounts += [len(e.get("itemListElement",[])) for e in ls if isinstance(e,dict)]
+                except Exception:pass
+              print("PAGE",url,"STATUS",status,"final",final,"bytes",len(html),
+                    "cards",len(cards),"ldcounts",ldcounts,
+                    "h1",s.h1.get_text(" ",strip=True)[:110] if s.h1 else "",
+                    "first_cards",[c.get_text(" ",strip=True)[:90] for c in cards[:3]])
+              if url==urls[0]:
+                print("LINKS",[{"href":a.get("href"),"text":a.get_text(" ",strip=True)[:40]} for a in s.select("main a[href]")[:55]])
+                print("FORMS",[str(f)[:850] for f in s.select("form")[:3]])
+            except Exception as e:print("ERROR",url,type(e).__name__,str(e)[:180])
+          PY

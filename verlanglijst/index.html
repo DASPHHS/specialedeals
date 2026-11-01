@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14291d">
+  <meta name="description" content="Persoonlijke verlanglijst met aanbiedingenradar, exacte productvarianten en controle van echte kortingsclaims.">
+  <title>Mijn verlanglijst | Speciale Deals</title>
+  <link rel="stylesheet" href="../ui/speciale.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body class="wish-app">
+  <a class="skip" href="#wishlistResults">Naar de verlanglijst</a>
+  <header class="wishlist-hero">
+    <div class="wish-container">
+      <nav class="wish-navigation" aria-label="Hoofdmenu">
+        <a class="wish-brand" href="../"><span class="wish-brand-logo" aria-hidden="true">✳</span><span>Speciale Deals</span></a>
+        <div class="wish-navlinks">
+          <a href="../">Ontdekken</a>
+          <a href="./" aria-current="page">Mijn verlanglijst</a>
+          <a href="../weekdeals/">Weekdeals</a>
+          <a href="../#projects">Huisprojecten</a>
+        </div>
+      </nav>
+      <div class="wish-intro">
+        <div>
+          <div class="wish-overline"><span class="signal-dot"></span> JOUW PERSOONLIJKE KOOPRADAR</div>
+          <h1>Jouw wensen.<br><em>De juiste aanbiedingen.</em></h1>
+          <p>Al je producten op één plek. Ontdek passende winkelacties, bewaak je streefprijs en zie meteen wat écht gecontroleerd is.</p>
+          <div class="wish-main-actions">
+            <button type="button" class="wish-button primary" id="addToggle">+ Product toevoegen</button>
+            <button type="button" class="wish-button quiet" id="reloadData">↻ Aanbiedingen vernieuwen</button>
+          </div>
+        </div>
+        <aside class="wish-hero-side">
+          <div class="side-label">VERLANGEN VS. KOPEN</div>
+          <div class="side-number" id="heroMatchCount">—</div>
+          <div class="side-caption">zoekmatches in recente bronnen</div>
+          <div class="side-rule"></div>
+          <p>Een productmatch is een <strong>onderzoekslead</strong>. Alleen onafhankelijk gecontroleerde korting telt als koopdeal.</p>
+          <a href="#howItWorks">Zo werkt de controle ↗</a>
+        </aside>
+      </div>
+    </div>
+  </header>
+  <main class="wish-container">
+    <div id="pageStatus" class="wish-system-status" role="status" aria-live="polite">Verlanglijst en brondata laden…</div>
+    <section class="wish-overview" aria-label="Samenvatting">
+      <div class="wish-stat"><span>Gevolgde wensen</span><strong id="statWishes">—</strong><small>Centraal + dit apparaat</small></div>
+      <div class="wish-stat"><span>Bewezen koopdeals</span><strong id="statVerified">—</strong><small>Minimaal 10% écht voordeel</small></div>
+      <div class="wish-stat"><span>Te controleren hits</span><strong id="statCandidates">—</strong><small>Exacte variant nog toetsen</small></div>
+      <div class="wish-stat"><span>Winkels in bronfeed</span><strong id="statStores">—</strong><small>Geen claim op alle webshops</small></div>
+    </section>
+    <section class="wish-editor" id="editor" hidden aria-label="Product toevoegen of aanpassen">
+      <div class="editor-head"><div><div class="wish-overline dark">BEPAAL WAT JE ZOEKT</div><h2 id="editorTitle">Voeg een wens toe</h2></div><button type="button" id="editorClose" class="editor-dismiss" aria-label="Sluit formulier">×</button></div>
+      <form id="wishForm">
+        <input type="hidden" id="editId">
+        <div class="form-layout">
+          <label class="form-wide">Product, merk en model*
+            <input type="text" id="productName" required maxlength="150" placeholder="Bijv. HOKA Arahi 8 heren EU 47⅓">
+          </label>
+          <label>Categorie
+            <select id="productCategory">
+              <option value="Apple & elektronica">Apple & elektronica</option>
+              <option value="Mode & outdoor">Mode & outdoor</option>
+              <option value="Sport">Sport</option>
+              <option value="Verzorging & huisgeur">Verzorging & huisgeur</option>
+              <option value="Tech & gadgets">Tech & gadgets</option>
+              <option value="Huishouden">Huishouden</option>
+              <option value="Overig">Overig</option>
+            </select>
+          </label>
+          <label>Maximale richtprijs (€)
+            <input type="number" id="productTarget" min="1" max="100000" step=".01" placeholder="Optioneel">
+          </label>
+          <label class="form-wide">Gewenste variant / maat
+            <input type="text" id="productNotes" maxlength="250" placeholder="Bijv. L of XL, nieuw, zwart, USB-C; geen accessoires">
+          </label>
+          <label class="form-wide">Link naar exact product (optioneel)
+            <input type="url" id="productURL" maxlength="500" placeholder="https://webshop.nl/product/...">
+          </label>
+        </div>
+        <div class="form-footer">
+          <button type="submit" class="wish-button primary" id="saveWish">Wens opslaan</button>
+          <span id="formStatus" role="status">Lokale wijzigingen blijven op dit apparaat. De centrale scanner volgt de gepubliceerde GitHub-lijst.</span>
+        </div>
+      </form>
+    </section>
+    <section class="wish-main" id="wishlistResults" aria-labelledby="listHeading">
+      <div class="wish-section-heading">
+        <div><div class="wish-overline dark">JOUW OVERZICHT</div><h2 id="listHeading">Mijn verlanglijst</h2><p>Je hoeft niet meer door alle acties te bladeren. Iedere wens heeft zijn eigen resultaten.</p></div>
+        <div class="wish-heading-actions">
+          <button type="button" class="secondary-button" id="downloadList">↓ Exporteer wensen</button>
+          <button type="button" class="secondary-button" id="importList">↑ Importeer JSON</button>
+          <input type="file" id="importFile" accept=".json,application/json" hidden>
+        </div>
+      </div>
+      <div class="wish-filterbar">
+        <label class="wish-search"><span class="sr-only">Zoek in verlanglijst</span><input type="search" id="wishSearch" placeholder="Zoek een product of merk…"></label>
+        <label><span class="sr-only">Filter status</span>
+          <select id="wishStatus">
+            <option value="all">Alle wensen</option>
+            <option value="verified">Met bewezen deal</option>
+            <option value="candidate">Met mogelijke aanbieding</option>
+            <option value="missing">Nog geen vondsten</option>
+            <option value="local">Eigen toevoegingen</option>
+          </select>
+        </label>
+        <label><span class="sr-only">Sorteer wensen</span>
+          <select id="wishSort">
+            <option value="recommended">Meest interessant</option>
+            <option value="count">Meeste matches</option>
+            <option value="name">Productnaam A–Z</option>
+            <option value="target">Richtprijs eerst</option>
+          </select>
+        </label>
+        <button type="button" id="clearWishFilters" class="secondary-button">Wis filters</button>
+      </div>
+      <div id="wishGrid" class="wish-grid" aria-live="polite"><div class="loading-card">Gegevens laden…</div></div>
+      <div id="emptyState" class="wish-empty" hidden><h3>Geen wensen binnen deze selectie</h3><p>Verander de filters of voeg een nieuw product toe. Geen resultaten betekent niet automatisch dat er geen aanbiedingen bestaan.</p></div>
+    </section>
+    <section class="wish-info" id="howItWorks">
+      <div><div class="wish-overline dark">BETROUWBAAR EN PRAKTISCH</div><h2>Een radar die geen kortingen verzint.</h2><p>De site koppelt je wensen aan aanbiedingen uit de aangesloten bronnen. Producttitels kunnen onvolledig zijn; daarom zetten we een mogelijke match nooit automatisch om in een koopadvies. Streefprijzen vergelijken we pas definitief nadat bezorgkosten en de exacte uitvoering zijn bevestigd.</p></div>
+      <div class="wish-steps"><div><b>01</b><span>Zoek een specifiek model, maat of versie</span></div><div><b>02</b><span>Bekijk winkelacties en herken onzekerheden</span></div><div><b>03</b><span>Koop pas bij onafhankelijk geverifieerd voordeel</span></div></div>
+    </section>
+    <section class="wish-integrations">
+      <div><h2>Meer winkels doorzoeken?</h2><p>De radar gebruikt de bestaande bronkoppelingen en breidt die gecontroleerd uit. Een ontbrekende winkel is geen negatieve zoekuitkomst. Voor een eigen product kun je ook direct breder zoeken.</p></div>
+      <div class="integration-links"><a href="../weekdeals/">Alle Weekdeals ↗</a><a href="https://github.com/DASPHHS/specialedeals/edit/main/wishlist.json" rel="noopener noreferrer" target="_blank">Centrale verlanglijst beheren ↗</a></div>
+    </section>
+    <p class="wish-footnote">Privacy: lokaal toegevoegde wensen, richtprijzen en links staan uitsluitend in de opslag van deze browser. Ze worden niet automatisch naar GitHub, andere apparaten of de dagelijkse ChatGPT-alert verzonden. Exporteer je lijst om een back-up te maken of gebruik de centrale GitHub-lijst voor automatische scans.</p>
+  </main>
+  <footer class="wish-footer"><div class="wish-container"><strong>✳ Speciale Deals</strong><span>Gebouwd voor beter kopen, niet voor meer kopen.</span><a href="../">Terug naar overzicht ↗</a></div></footer>
+  <nav class="mobile-dock" aria-label="Mobiele navigatie">
+    <a href="../"><span class="dock-symbol">⌕</span>Ontdekken</a>
+    <a href="./" aria-current="page"><span class="dock-symbol">♡</span>Verlanglijst</a>
+    <a href="../#projects"><span class="dock-symbol">⌂</span>Projecten</a>
+    <a href="../weekdeals/"><span class="dock-symbol">▦</span>Weekdeals</a>
+  </nav>
+</body></html>

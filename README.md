@@ -2,6 +2,23 @@
 
 Publiek dashboard: https://dasphhs.github.io/specialedeals/
 
+
+## Mijn verlanglijst — automatische productradar
+
+De nieuwe [verlanglijstpagina](https://dasphhs.github.io/specialedeals/verlanglijst/) laat iedere centrale wens als eigen kaart zien, met **geverifieerde koopdeals** gescheiden van nog te controleren winkelacties. De pagina ondersteunt zoeken, statusfilters, sorteren, een richtprijs, eigen aanvullingen, varianten, link naar een product, import en export van JSON.
+
+**Automatische index:** wishlist_radar.py leest de centrale wishlist.json en de reeds bestaande weekdeals/deals.json (PrijsProfeet), weekdeals/nonfood.json (FeedMyCart, DA.nl, Intratuin.nl) en verified-deals.json. De GitHub Action publish-wishlist-radar.yml maakt tweemaal per ochtend een compacte verlanglijst/signalen.json en publiceert die op GitHub Pages. De browser hoeft dus niet iedere keer de volledige supermarktfeed te downloaden.
+
+**Bewijsstatus:** een productmatch is een *onbevestigde winkelactie*. Geadverteerde van-prijzen zijn geen onafhankelijk bewijs. Alleen recente controle van exacte SKU/model/variant, echte referentie, complete NL-totaalprijs en minimaal 10% daling mag koopdeal heten. Onbekende maten, ANC, conditie en voorraad worden expliciet niet bevestigd.
+
+**Eigen wijzigingen:** nieuwe wensen en aangepaste richtprijzen worden lokaal in deze browser opgeslagen; de website heeft geen gebruikersauthenticatie of schrijftoegang naar de openbare centrale GitHub-lijst. Exporteer je gegevens als backup en neem nieuwe wensen op in de centrale [wishlist.json](https://github.com/DASPHHS/specialedeals/edit/main/wishlist.json) om ze ook automatisch in de centrale scanner en 08.00-ChatGPT-alert op te nemen. Er is **geen** automatische synchronisatie tussen apparaten en **geen** pushmelding.
+
+**Webshopdekking:** geen enkele scraper kan legaal en betrouwbaar zonder API of toestemming alle webshops dekken. Deze versie verwerkt bestaande aangesloten bronfeeds en biedt per wens een handmatige bredere Google Shopping-zoeklink. Nieuwe winkelbronnen moeten als afzonderlijke betrouwbare adapter worden toegevoegd; er is geen anti-bot bypass. Geen winkelreferentiekorting wordt verward met onafhankelijk vastgesteld voordeel.
+
+**GitHub-onderzoek:** inspiratie: [KortingKlok](https://github.com/RashadAnsari/KortingKlok) (prijs-snapshots en notificaties), [PriceBuddy](https://github.com/jez500/pricebuddy) (individuele URLs en prijsdoelen), [Arc'teryx Deals Platform](https://github.com/wantai-dev/001-arcteryx-deals-platform) (varianten en beschikbare maten). Het Arc'teryx DATA_UPDATE_REPORT.md waarschuwt dat sommige maat- en voorraadvelden fictieve defaults zijn: deze worden **niet** als feiten overgenomen. [Black Friday Deals](https://github.com/mRs-/Black-Friday-Deals) en promo-codes-topic zijn hoogstens ontdekkingsbronnen, geen winkelprijsbewijs.
+
+Tests: python -m unittest -v test_wishlist_radar.py en node ui/site-smoke.test.js.
+
 ## Nieuwe gebruikersinterface (november 2026)
 
 De website heeft een gezamenlijke visuele stijl voor [Speciale Deals](https://dasphhs.github.io/specialedeals/) en [Weekdeals](https://dasphhs.github.io/specialedeals/weekdeals/). De mobiele weergave heeft directe navigatie naar Ontdekken, Verlanglijst, Huisprojecten en Weekdeals.

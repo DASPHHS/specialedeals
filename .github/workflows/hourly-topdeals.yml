@@ -8,6 +8,7 @@ on:
       - "hourly_topdeals.py"
       - "test_hourly_topdeals.py"
       - "wishlist_pricewatch.py"
+      - "probe_public_prices.py"
       - "test_wishlist_pricewatch.py"
       - "wishlist_radar.py"
       - "verlanglijst/app.js"
@@ -54,6 +55,9 @@ jobs:
           node --check topdeals/app.js
           node --check verlanglijst/app.js
           node ui/site-smoke.test.js
+      - name: Inspect documented public price API responses
+        if: github.event_name == 'pull_request'
+        run: python probe_public_prices.py
       - name: Research specific Apple/Dyson/tech products via public Pricewatch suggestions
         if: github.event_name != 'pull_request'
         run: python wishlist_pricewatch.py --online

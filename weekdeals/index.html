@@ -4,7 +4,7 @@
 :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#162235;background:#f4f6f9}*{box-sizing:border-box}body{margin:0}header{background:#15253b;color:white;padding:28px 20px}header>div,main,footer{max-width:1200px;margin:auto}h1{margin:0 0 8px;font-size:clamp(26px,4vw,39px);letter-spacing:-.04em}p{line-height:1.5}.sub{color:#bfd3e7;margin:0}main{padding:24px 16px}nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}button,input,select{font:inherit}button{background:white;color:#1e3550;border:1px solid #cfd8e4;padding:10px 14px;border-radius:12px;cursor:pointer}button.active,button.primary{background:#156f63;border-color:#156f63;color:white}.controls{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;background:white;border:1px solid #dee5ed;border-radius:16px;padding:14px;margin-bottom:16px}input,select{width:100%;border:1px solid #d3dce6;border-radius:10px;padding:11px;background:#fff;color:#162235}.meta{display:flex;gap:14px;flex-wrap:wrap;color:#52657a;margin:12px 0 20px}.notice{border-left:4px solid #c59b3a;background:#fff8e8;padding:12px 16px;border-radius:8px;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}.card{background:#fff;border:1px solid #dce4ec;border-radius:16px;padding:17px;display:flex;flex-direction:column;gap:8px;min-height:202px}.tag{font-size:12px;font-weight:700;color:#225f58;text-transform:uppercase;letter-spacing:.03em}.name{font-weight:750;font-size:17px;line-height:1.3;min-height:43px}.price{font-size:27px;font-weight:800;letter-spacing:-.04em}.old{color:#66768a;text-decoration:line-through;font-size:14px;margin-left:8px}.sale{color:#096a4c;font-weight:700;font-size:13px}.small{font-size:12px;color:#52657a}.bottom{margin-top:auto}.bottom a{font-size:13px;color:#146d61;font-weight:700;overflow-wrap:anywhere}.status{padding:20px;background:white;border:1px solid #dce4ec;border-radius:12px}.pager{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px}.hide{display:none}footer{padding:20px 16px 40px;color:#64758a;font-size:13px}footer a{color:#256d69}@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.controls button{grid-column:1/-1}.card{min-height:182px}header{padding:25px 16px}} 
 .folderlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:16px 0 26px}.foldersTitle{margin:20px 0 10px;font-size:21px}.folderNote{font-size:13px;color:#566b80}.directory{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.directory a{display:flex;justify-content:space-between;gap:8px;border:1px solid #dce4ec;background:#fff;border-radius:11px;padding:12px 14px;text-decoration:none;color:#105c54;font-weight:700}.directory small{font-size:12px;font-weight:400;color:#63768d}.folderAction{display:inline-block;margin-top:12px;background:#156f63;border-radius:10px;padding:9px 12px;color:#fff;font-size:13px;text-decoration:none;font-weight:700}.folderinfo{border:1px solid #d7e2eb;background:#fff;border-radius:12px;padding:14px;margin:12px 0}.folderinfo p{margin:4px 0}.meta a{color:#146d61}</style></head>
 <body><header><div><h1>Weekdeals Bleiswijk</h1><p class="sub">Actuele aanbiedingen vergelijken · lokale winkels en online mogelijkheden</p></div></header>
-<main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button><button id="nonfood">Drogisterij & andere winkels</button><button id="foldersTab">Overige winkels</button></nav>
+<main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button><button id="wishlist">Mijn verlanglijst</button><button id="nonfood">Drogisterij & andere winkels</button><button id="foldersTab">Overige winkels</button></nav>
 <div class="notice" id="scope">Supermarktacties via PrijsProfeet; geselecteerde drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart, plus prijsacties op DA.nl en Intratuin.nl. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.</div>
 <div class="controls"><input id="search" type="search" placeholder="Zoek product, merk of winkel…" aria-label="Zoeken"><select id="store" aria-label="Winkel"><option value="">Alle winkels</option></select><select id="category" aria-label="Categorie"><option value="">Alle categorieën</option></select><button id="export">Export CSV</button></div>
 <div class="meta"><span id="count">Gegevens ophalen…</span><span id="stamp"></span><span id="scopeInfo"></span></div>
@@ -37,9 +37,10 @@
   <p class="folderNote" style="margin-top:18px">Folders via <a href="https://folderwijzer.nl/" target="_blank" rel="noopener noreferrer">Folderwijzer</a>; productprijzen in de folder bekijken. De overige winkelpagina’s zijn nog geen live import.</p>
 </section>
 </main><footer><a href="https://www.prijsprofeet.nl" rel="noopener noreferrer" target="_blank">Aanbiedingen via PrijsProfeet</a> · Folders via <a href="https://folderwijzer.nl/" rel="noopener noreferrer" target="_blank">Folderwijzer</a> · Geen bewijs van actuele voorraad per filiaal · <a href="../">Terug naar Speciale Deals</a></footer>
+<script src="./wishlist_match.js"></script>
 <script>
 "use strict";
-let all=[],nonfoodRows=[],mode="now",page=0;const pageSize=48, el=id=>document.getElementById(id), nl=new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"});
+let all=[],nonfoodRows=[],wishlistItems=[],wishlistError="",mode="now",page=0;const pageSize=48, el=id=>document.getElementById(id), nl=new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"});
 const norm=s=>String(s||"").toLocaleLowerCase("nl-NL");
 function monday(offset=0){const n=new Date(),d=new Date(n.getFullYear(),n.getMonth(),n.getDate());d.setDate(d.getDate()-(d.getDay()+6)%7+offset);return d;}
 function iso(d){return [d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-")}
@@ -49,17 +50,24 @@ return all.filter(d=>{const today=iso(new Date()),isObserved=!!d.waargenomen_op;
 const current=d.tot?d.tot>=today:d.waargenomen_op===today;
 const inPeriod=d.tot?d.tot>=a&&((d.van&&d.van<=b)||(isObserved&&d.waargenomen_op<=b)):
    (mode==="now"&&d.waargenomen_op===today);
-return (mode==="all"||mode==="nonfood"||inPeriod)&&
+return (mode==="wishlist" ? (current&&(!d.van||d.van<=today)&&window.WeekdealsWishlist?.matches(d.product,wishlistItems).length>0) : (mode==="all"||mode==="nonfood"||inPeriod))&&
 (mode!=="nonfood"||d.bron==="FeedMyCart"||d.bron==="DA.nl"||d.bron==="Intratuin.nl")&&
 (!isObserved||current)&&(!store||d.winkel===store)&&(!cat||d.categorie===cat)&&
 (!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))
 }).sort((a,b)=>a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl"))}
 function text(tag,value,cls){const n=document.createElement(tag);n.textContent=value;if(cls)n.className=cls;return n}
-function render(){if(!el("folderSection").classList.contains("hide"))return;const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
-el("message").classList.toggle("hide",found.length>0);el("message").textContent=all.length? "Geen aanbiedingen gevonden met deze filters.":"Geen gegevens beschikbaar. Controleer de laatste GitHub-run.";
+function render(){if(!el("folderSection").classList.contains("hide"))return;const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));
+if(mode==="wishlist")el("scope").textContent="Mijn verlanglijst: mogelijke productmatches uit actuele openbare bronnen. Geen bewijs van 10% echte korting, identieke uitvoering, maat, voorraad of bezorgkosten naar Nederland.";
+else el("scope").textContent="Supermarktacties via PrijsProfeet; geselecteerde drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart, plus prijsacties op DA.nl en Intratuin.nl. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.";page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
+el("message").classList.toggle("hide",found.length>0);el("message").textContent=mode==="wishlist"&&wishlistError?wishlistError:all.length? "Geen aanbiedingen gevonden met deze filters.":"Geen gegevens beschikbaar. Controleer de laatste GitHub-run.";
 el("count").textContent=found.length.toLocaleString("nl-NL")+" aanbiedingen";
 for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  const card=text("article","","card");card.append(text("div",d.winkel,"tag"),text("div",d.product,"name"));
+ if(mode==="wishlist"){
+   const matches=window.WeekdealsWishlist?.matches(d.product,wishlistItems)||[];
+   card.append(text("div","Verlanglijst: "+matches.map(x=>x.name).join(", "),"sale"));
+   card.append(text("div","Zoekhit, geen geverifieerde koopdeal. Variant, actuele voorraad, eerlijke vergelijking en NL totaalprijs nog controleren.","small"));
+ }
  const pricing=document.createElement("div"),p=text("span",typeof d.prijs==="number"?nl.format(d.prijs):"Prijs niet vermeld","price");pricing.append(p);
  if(typeof d.van_prijs==="number"&&d.van_prijs>d.prijs&&d.prijstype!=="bundeltotaal")pricing.append(text("span",nl.format(d.van_prijs),"old"));card.append(pricing);
  if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% korting","sale"));
@@ -82,7 +90,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  card.append(bottom);el("cards").append(card)}
  el("pager").classList.toggle("hide",found.length<=pageSize);el("pageText").textContent=(page+1)+" / "+pages;el("prev").disabled=page===0;el("more").disabled=page>=pages-1;
 }
-for(const key of ["now","next","all","nonfood"])el(key).addEventListener("click",()=>{mode=key;page=0;for(const k of ["now","next","all","nonfood"])el(k).classList.toggle("active",k===key);render()});
+for(const key of ["now","next","all","nonfood","wishlist"])el(key).addEventListener("click",()=>{mode=key;page=0;for(const k of ["now","next","all","nonfood","wishlist"])el(k).classList.toggle("active",k===key);render()});
 for(const key of ["search","store","category"])el(key).addEventListener("input",()=>{page=0;render()});
 el("prev").onclick=()=>{page--;render();window.scrollTo(0,0)};el("more").onclick=()=>{page++;render();window.scrollTo(0,0)};
 el("export").onclick=()=>{const rows=[["Winkel","Product","Categorie","Actieprijs","Van-prijs","Van","Tot","Actievorm","Verpakking","Eenheidsprijs","Eenheid","Bundelaantal","Bundeltotaal","Ledenprijs","Loyaliteitsprogramma","Bron-URL"],...filtered().map(d=>[d.winkel,d.product,d.categorie,d.prijs,d.van_prijs,d.van,d.tot,d.actievorm,d.verpakking,d.eenheidsprijs,d.eenheid,d.bundelaantal,d.bundelprijs,d.ledenprijs,d.loyaliteitsprogramma,d.url])];const csv=rows.map(r=>r.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(";")).join("\r\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}));a.download="weekdeals-bleiswijk-"+iso(new Date())+".csv";a.click();URL.revokeObjectURL(a.href)};
@@ -116,14 +124,14 @@ function drawFolders(){
  if(!el("folderSection").classList.contains("hide"))el("count").textContent=found.length+" folders · andere winkels als directe links";
 }
 el("foldersTab").addEventListener("click",()=>{
- for(const k of ["now","next","all","nonfood"])el(k).classList.remove("active");
+ for(const k of ["now","next","all","nonfood","wishlist"])el(k).classList.remove("active");
  el("foldersTab").classList.add("active");
  el("folderSection").classList.remove("hide");
  for(const k of ["cards","pager","message"])el(k).classList.add("hide");
  el("search").closest(".controls").classList.add("hide");
  drawFolders();
 });
-for(const k of ["now","next","all","nonfood"])el(k).addEventListener("click",()=>{
+for(const k of ["now","next","all","nonfood","wishlist"])el(k).addEventListener("click",()=>{
  el("foldersTab").classList.remove("active");
  el("folderSection").classList.add("hide");
  el("search").closest(".controls").classList.remove("hide");
@@ -140,6 +148,20 @@ function syncSelections(){
     }
   }
 }
+fetch("../wishlist.json?ts="+Date.now(),{cache:"no-store"})
+  .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
+  .then(data=>{
+    if(!Array.isArray(data.items)||!window.WeekdealsWishlist)throw Error("Ongeldig verlanglijstbestand");
+    wishlistItems=data.items;
+    wishlistError="";
+    render();
+  })
+  .catch(err=>{
+    wishlistItems=[];
+    wishlistError="Verlanglijst kon niet worden geladen: "+err.message;
+    render();
+  });
+
 fetch("./nonfood.json?ts="+Date.now(),{cache:"no-store"})
   .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
   .then(data=>{

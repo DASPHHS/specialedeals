@@ -26,6 +26,26 @@ artikelprijs bij `2+3 gratis` is **niet** de effectieve prijs van vijf stuks.
 Het einde van zulke DA-acties wordt niet vermeld: die regels zijn slechts
 geldig als gecontroleerde momentopname van vandaag. Niets wordt verzonnen.
 
+## Persoonlijke verlanglijst (toegevoegd 1 november 2026)
+
+De Weekdeals-pagina heeft een knop **Mijn verlanglijst**. Die leest de centrale
+`../wishlist.json` en laat alleen naamovereenkomsten zien in de al bestaande
+supermarkt- en non-foodfeeds. De controle gebeurt in `weekdeals/wishlist_match.js`
+en heeft geen serviceaccounts of externe sleutels nodig.
+
+Een match is **uitsluitend een signaal om te onderzoeken**. Zonder exacte
+model-/maatvergelijking, actuele voorraad, onafhankelijke prijsreferentie,
+bezorgkosten naar Nederland en minstens 10% echt voordeel ontstaat nooit
+automatisch een geverifieerd koopadvies. De pagina zegt dit expliciet.
+
+De wensen bevatten onder andere AirPods met ANC (Pro heeft voorkeur), iMac,
+MacBook, Arc'teryx, HOKA Arahi/Kawana/Gaviota maat 47 1/3, luxe Maison Berger
+huisgeuren en innovatieve USB4/Thunderbolt-hubs. Dit breidt de *zoekcriteria*
+uit, niet automatisch het aantal aangesloten winkels. Een openbare aanbieding
+kan zonder prijs of zonder passende maat nog steeds worden uitgesloten.
+
+Controle: `node integrations/weekdeals/tests/test_wishlist_match.js`.
+
 ## Codebestanden
 
 | Bestand | Functie |

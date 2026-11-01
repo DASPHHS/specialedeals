@@ -7,6 +7,14 @@ on:
     paths:
       - "hourly_topdeals.py"
       - "test_hourly_topdeals.py"
+      - "wishlist_pricewatch.py"
+      - "test_wishlist_pricewatch.py"
+      - "wishlist_radar.py"
+      - "verlanglijst/app.js"
+      - "wishlist_pricewatch.py"
+      - "test_wishlist_pricewatch.py"
+      - "wishlist_radar.py"
+      - "verlanglijst/app.js"
       - "topdeals/**"
       - "wishlist.json"
       - ".github/workflows/hourly-topdeals.yml"
@@ -41,10 +49,16 @@ jobs:
           node-version: "22"
       - name: Regression tests and UI syntax
         run: |
-          python -m py_compile hourly_topdeals.py
-          python -m unittest -v test_hourly_topdeals.py
+          python -m py_compile hourly_topdeals.py wishlist_pricewatch.py wishlist_radar.py
+          python -m unittest -v test_hourly_topdeals.py test_wishlist_pricewatch.py test_wishlist_radar.py
           node --check topdeals/app.js
+          node --check verlanglijst/app.js
           node ui/site-smoke.test.js
+      - name: Research specific Apple/Dyson/tech products via public Pricewatch suggestions
+        if: github.event_name != 'pull_request'
+        run: python wishlist_pricewatch.py --online
+      - name: Build updated personal wishlist price comparisons
+        run: python wishlist_radar.py
       - name: Generate Top 10 from source snapshots
         run: python hourly_topdeals.py
       - name: Assert individual category count and discount semantics
@@ -57,6 +71,9 @@ jobs:
           prefs=json.loads(Path("wishlist.json").read_text(encoding="utf-8"))
           assert d["profileCount"]==len(prefs["searchProfiles"])==23
           assert d["profileOfferCount"]==sum(x["candidateCount"] for x in d["profileChecks"])
+          assert d["profileComparisonCount"]==sum(x["comparisonCount"] for x in d["profileChecks"])
+          assert all(c["verifiedDiscount"] is False and c["shippingVerified"] is False
+              for p in d["profileChecks"] for c in p["comparisons"])
           assert [x["name"] for x in d["profileChecks"]]==[x["name"] for x in prefs["searchProfiles"]]
           assert all(x["candidateCount"]==0 for x in d["profileChecks"] if x["kind"] in ("service","event"))
           assert all(x["checkedAgainstFeedAt"] is None for x in d["profileChecks"] if x["kind"]!="product")
@@ -81,13 +98,19 @@ jobs:
         run: |
           set -euo pipefail
           cp topdeals/data.json "$RUNNER_TEMP/top10-data.json"
+          cp verlanglijst/signalen.json "$RUNNER_TEMP/wishlist-signalen.json"
+          cp verlanglijst/prijsvergelijkers.json "$RUNNER_TEMP/pricewatch-comparisons.json"
           code_sha=$(git hash-object hourly_topdeals.py)
+          price_sha=$(git hash-object wishlist_pricewatch.py)
+          radar_sha=$(git hash-object wishlist_radar.py)
           wish_sha=$(git hash-object wishlist.json)
           for attempt in 1 2 3 4 5; do
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git fetch origin main
-            if [[ "$(git show origin/main:hourly_topdeals.py | git hash-object --stdin)" != "$code_sha" ]] ||
+            if [[ "$(git show origin/main:wishlist_pricewatch.py | git hash-object --stdin)" != "$price_sha" ]] ||
+               [[ "$(git show origin/main:wishlist_radar.py | git hash-object --stdin)" != "$radar_sha" ]] ||
+               [[ "$(git show origin/main:hourly_topdeals.py | git hash-object --stdin)" != "$code_sha" ]] ||
                [[ "$(git show origin/main:wishlist.json | git hash-object --stdin)" != "$wish_sha" ]]; then
               echo "Code or preferences changed during ranking; refusing stale publish"
               exit 0
@@ -96,7 +119,10 @@ jobs:
             git reset --hard origin/main
             mkdir -p topdeals
             cp "$RUNNER_TEMP/top10-data.json" topdeals/data.json
-            git add topdeals/data.json
+            mkdir -p verlanglijst
+            cp "$RUNNER_TEMP/wishlist-signalen.json" verlanglijst/signalen.json
+            cp "$RUNNER_TEMP/pricewatch-comparisons.json" verlanglijst/prijsvergelijkers.json
+            git add topdeals/data.json verlanglijst/signalen.json verlanglijst/prijsvergelijkers.json
             if git diff --cached --quiet; then
               echo "No changed result";exit 0
             fi

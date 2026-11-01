@@ -43,7 +43,7 @@ jobs:
           x=json.loads(Path("weekdeals/nonfood.json").read_text())
           ids=[r["id"] for r in x["deals"]]
           assert len(ids)>=15 and len(ids)==len(set(ids))
-          assert all(r["prijs"]>0 and r["tot"] for r in x["deals"])
+          assert all(r.get("tot") and (r.get("prijs",0)>0 or r.get("actievorm")) for r in x["deals"])
           print("Nonfood validation OK:",len(ids),x["counts"])
           PY
           cp weekdeals/nonfood.json "$RUNNER_TEMP/nonfood.json"

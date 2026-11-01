@@ -243,6 +243,17 @@ def main():
         except Exception as err:
             LOG.warning("Source %s unavailable: %s",chain,err)
             failures[CHAINS[chain]]=str(err)[:150]
+    # DA is an official retailer source. Its visible page has no per-item end
+    # date. Only today's snapshot is displayed by the site.
+    try:
+        from da_adapter import fetch as fetch_da
+        da_rows=fetch_da(now)
+        all_rows.extend(da_rows)
+        counts["DA"]=len(da_rows)
+        LOG.info("DA: %d official product offers; individual expiry unknown",len(da_rows))
+    except Exception as err:
+        LOG.warning("DA source unavailable: %s",err)
+        failures["DA"]=str(err)[:150]
     if len(all_rows)<15 or len(counts)<2:
         raise RuntimeError("Insufficient coverage; keep previous JSON untouched")
     output={"schema_version":1,

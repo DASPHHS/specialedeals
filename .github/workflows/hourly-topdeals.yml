@@ -148,7 +148,8 @@ jobs:
             mkdir -p verlanglijst
             cp "$RUNNER_TEMP/wishlist-signalen.json" verlanglijst/signalen.json
             cp "$RUNNER_TEMP/pricewatch-comparisons.json" verlanglijst/prijsvergelijkers.json
-            git add topdeals/data.json topdeals/prijspeil.json verlanglijst/signalen.json verlanglijst/prijsvergelijkers.json
+            git add topdeals/data.json verlanglijst/signalen.json verlanglijst/prijsvergelijkers.json
+            if [[ -f topdeals/prijspeil.json ]]; then git add topdeals/prijspeil.json; fi
             if git diff --cached --quiet; then
               echo "No changed result";exit 0
             fi

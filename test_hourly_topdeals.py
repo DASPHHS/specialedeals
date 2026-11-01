@@ -37,6 +37,11 @@ class Top10Tests(unittest.TestCase):
     self.assertEqual(classify(offer("Beyond Meat Plant-based burger",categorie="Vleesvervangers",winkel="Albert Heijn")),"supermarkt")
     self.assertEqual(classify(offer("Alle Apple Bandit, Desperados of Texels speciaalbier",categorie="Beer",winkel="Boon's Markt")),"supermarkt")
     self.assertEqual(classify(offer("Ariel The big one original pods",categorie="Wasmiddelen",winkel="Hoogvliet")),"huis")
+    self.assertEqual(classify(offer("Côte d'Or Tablet puur amandel karamel",categorie="Chocolade",bron=None),"PrijsProfeet"),"supermarkt")
+    self.assertEqual(classify(offer("Milka Chocolade biscuit tablet lu",categorie="Overig",bron=None),"PrijsProfeet"),"supermarkt")
+    self.assertEqual(classify(offer("Hoogvliet Goudse 48+ kaasstuk jong",categorie="Kaas",bron=None),"PrijsProfeet"),"supermarkt")
+    self.assertEqual(classify(offer("Robijn Quickwash optimum white",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
+    self.assertEqual(classify(offer("Ariel Pods",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
 
  def test_deal_gates(self):
     self.assertTrue(eligible(offer(),NOW))

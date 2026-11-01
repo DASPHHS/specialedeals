@@ -10,6 +10,7 @@ on:
       - "integrations/weekdeals/tests/test_nonfood.py"
       - "integrations/weekdeals/tests/test_da_adapter.py"
       - "integrations/weekdeals/da_adapter.py"
+      - "weekdeals/index.html"
       - ".github/workflows/publish-nonfood-products.yml"
 permissions:
   contents: write
@@ -36,6 +37,19 @@ jobs:
           python -m unittest discover -s integrations/weekdeals/tests -p "test_*food.py" -v
           python -m unittest discover -s integrations/weekdeals/tests -p "test_da_adapter.py" -v
           python -m py_compile integrations/weekdeals/publish_nonfood_deals.py
+      - name: Check web page JavaScript syntax
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          html=Path("weekdeals/index.html").read_text(encoding="utf-8")
+          scripts=re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>",html,re.S|re.I)
+          if not scripts:
+              raise SystemExit("No inline website JavaScript found")
+          Path("/tmp/weekdeals-front.js").write_text(scripts[-1],encoding="utf-8")
+          print("Website JavaScript extracted:",len(scripts[-1]),"characters")
+          PY
+          node --check /tmp/weekdeals-front.js
       - name: Read public nonfood product selection
         run: python integrations/weekdeals/publish_nonfood_deals.py
       - name: Validate output and publish

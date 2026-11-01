@@ -22,7 +22,56 @@ QUERIES=[
  "Belgium winactie Nederland inwoners deelname 2026 hoofdprijs",
  "UK Europe giveaway Netherlands eligible official rules 2026",
 ]
-EXCLUDED=("win-rar.com","winrar.com","microsoft.com","merriam-webster.com","dictionary.com","wikipedia.org","prijzenzolder.nl","gratiswinactie.nl","prijsvragen.nl","gratiz.nl","loterij","casino","spelletjesweb")
+EXCLUDED=(
+ "win-rar.com","winrar.com","microsoft.com","merriam-webster.com",
+ "dictionary.com","wikipedia.org","prijzenzolder.nl","gratiswinactie.nl",
+ "prijsvragen.nl","gratiz.nl","loterij","casino","spelletjesweb",
+ "reverso.net","wiktionary.org","wordreference.com","bab.la",
+ "concoursparts.com","lasvegasconcours.com","dictionary.reverso.net",
+)
+PRIZE_TERMS=re.compile(
+ r"\b(auto|fiat|car|fiets|bike|reis|vacation|holiday|vakantie|"
+ r"keuken|kitchen|renovation|verbouwing|dyson|miele|apple|macbook|"
+ r"iphone|laptop|scooter|e-bike|cadeaubon|tegoed|winactie)\b|€|\$|"
+ r"\b\d[\d.,]*\s?(euro|euros)\b",re.I)
+ACTIVE_VERBS=re.compile(
+ r"\b(win\s+(?:een|de|het|an?|a|the|[€$]\s*\d)|"
+ r"winactie|prijsvraag|verloot|verloting|giveaway|sweepstakes|"
+ r"gagnez|gewinnspiel|wedstrijd\s*:\s*win)\b",re.I)
+JUNK=re.compile(
+ r"\b(lexicon|dictionary|definition|définition|signification|"
+ r"parts and accessories|car show|schedule of events|festival|"
+ r"ticket sales|dictionary|synonym|word meaning|de betekenis)\b",re.I)
+CURRENT_YEAR=dt.datetime.now(dt.timezone.utc).year
+
+
+def valid_candidate(title,link,description):
+ """Return only plausible contest leads, not general pages or word meanings.
+
+ The presence of 'concours' or 'win' as a substring is NOT a prize offer.
+ Date/eligibility/value are unknown until the organizer is verified.
+ """
+ if not isinstance(title,str) or not isinstance(link,str):
+  return False
+ url=urllib.parse.urlsplit(link)
+ if url.scheme!="https" or not url.hostname or url.username or url.password:
+  return False
+ host=url.hostname.lower()
+ if any(x in host for x in EXCLUDED):
+  return False
+ if JUNK.search(title):
+  return False
+ if not ACTIVE_VERBS.search(title):
+  return False
+ if not PRIZE_TERMS.search(title+" "+description[:250]):
+  return False
+ if re.search(r"\b(20\d{2})\b",title):
+  years=[int(y) for y in re.findall(r"\b(20\d{2})\b",title)]
+  if max(years)<CURRENT_YEAR:
+   return False
+ return True
+
+
 def search(q):
  url="https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss"})
  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
@@ -31,10 +80,11 @@ def search(q):
  for entry in root.findall(".//item"):
   title=entry.findtext("title","").strip()
   link=entry.findtext("link","").strip()
-  if not link.startswith("https://") or any(x in link.lower() for x in EXCLUDED):continue
-  if not re.search(r"\b(win (?:een|de|het|an?|a|the)|giveaway|sweepstakes|gewinnspiel|concours|gagnez|verloting|verloot|prijsvraag|winactie|wedstrijd)\b",title,re.I):continue
-  if not re.search(r"auto|fiat|car\b|fiets|bike|reis|vacation|holiday|vakantie|keuken|kitchen|renovation|verbouwing|dyson|miele|apple|macbook|iphone|€|eur|\$|[0-9][.,]?[0-9]*\s?(euro|euros)",title+" "+entry.findtext("description",""),re.I):continue
-  yield {"title":title[:180],"url":link,"snippet":entry.findtext("description","")[:320],"verificationStatus":"Niet bevestigd: Nederlandse deelname, prijswaarde, deadline en internationale levering expliciet bij organisator controleren"}
+  description=entry.findtext("description","").strip()
+  if not valid_candidate(title,link,description):continue
+  yield {"title":title[:180],"url":link,"snippet":description[:320],
+         "origin":"Bing RSS zoekresultaat",
+         "verificationStatus":"Onderzoekslead, niet geverifieerd: officiële prijswaarde, deadline, Nederlandse deelname en kosten controleren"}
 
 def main():
  results={}

@@ -158,6 +158,44 @@
  el("reset").addEventListener("click",()=>{
   el("search").value="";el("discount").value="all";el("saved").value="all";render();
  });
+ function renderMarket(priceIndex){
+  const st=el("marketStatus"),area=el("marketGrid");
+  if(!priceIndex||priceIndex.source!=="prijspuls.nl"||!priceIndex.groups){
+    st.textContent="De aanvullende marktprijzen zijn tijdelijk niet beschikbaar; de reguliere Weekdeals blijven zichtbaar.";
+    area.replaceChildren();return;
+  }
+  const measured=priceIndex.sourceGeneratedAt?dateNL(priceIndex.sourceGeneratedAt):"niet vermeld";
+  const stale=Date.now()-new Date(priceIndex.generatedAt).getTime()>48*3600000;
+  st.textContent="Bron: Prijspuls · catalogus "+measured+
+    " · "+Number(priceIndex.usablePriceLevels||0).toLocaleString("nl-NL")+
+    " algemene actuele productvergelijkingen"+(stale?" · BEREKENING VEROUDERD":"")+
+    ". Geen exacte productmatching of geverifieerde kortingen.";
+  const keys=active&&priceIndex.groups[active]?[active]:["bouwmarkt","tuin","elektronica","sport","huis","drogisterij"];
+  area.innerHTML=keys.map(group=>{
+   const g=priceIndex.groups[group];
+   if(!g)return "";
+   const items=(g.top10||[]).slice(0,active?8:3);
+   const cards=items.map(x=>{
+     const url=validLink(x.url);
+     return '<article class="top-market-card"><div class="top-market-tag">'+escape(g.label)+'</div>'+
+       '<h4>'+escape(x.term)+'</h4>'+
+       '<div class="top-market-fig">Laagste gemeten: <strong>'+eur(Number(x.lowestEUR))+'</strong></div>'+
+       '<p>Gemiddelde '+eur(Number(x.averageEUR))+' · '+escape(x.shops)+' winkels · '+escape(x.offers)+' aanbiedingen</p>'+
+       '<small>Meetmoment '+escape(dateNL(x.measuredAt))+
+       ' · algemene zoekterm, geen SKU of NL-checkoutprijs.</small>'+
+       (url?'<a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">Bekijk volledige bronvergelijking ↗</a>':'')+
+       '</article>';
+   }).join("");
+   return '<div class="top-market-group"><h3>'+escape(g.label)+' <small>'+escape(g.available)+' prijstermen</small></h3>'+
+      (cards?'<div class="top-market-cards">'+cards+'</div>':
+       '<p>Geen recente algemene prijsvergelijking voor deze categorie.</p>')+
+     '</div>';
+  }).join("");
+ }
+ fetch("./prijspeil.json?v="+Date.now(),{cache:"no-store"})
+   .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
+   .then(renderMarket)
+   .catch(e=>renderMarket(null));
  fetch("./data.json?v="+Date.now(),{cache:"no-store"})
    .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
    .then(j=>{if(!j.categories||!categories.every(k=>j.categories[k]?.top10 instanceof Array))throw Error("Onverwacht datamodel");

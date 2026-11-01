@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:53:44.613101+01:00",
+  "updatedAt": "2026-11-01T14:09:48.283867+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
     "2026-11-01T13:24:28+01:00"
@@ -8,7 +8,7 @@
   "wishCount": 23,
   "candidateCount": 0,
   "verifiedDealCount": 0,
-  "researchLeadCount": 0,
+  "researchLeadCount": 2,
   "researchCheckedCount": 12,
   "researchErrorCount": 0,
   "shopsSeen": 27,
@@ -54,7 +54,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -69,7 +69,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -84,7 +84,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -100,7 +100,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "apple-airpods",
@@ -115,7 +115,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "apple-airpods-pro",
@@ -130,7 +130,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "apple-macbook",
@@ -145,7 +145,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "apple-watch-ultra",
@@ -160,7 +160,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "rituals-homme",
@@ -175,7 +175,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "rituals-sport",
@@ -190,7 +190,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "giraffe-original",
@@ -205,7 +205,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "ysl-m7",
@@ -220,7 +220,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "ysl-y",
@@ -235,7 +235,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "apple-imac",
@@ -250,7 +250,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "lampe-berger-geuren",
@@ -262,10 +262,23 @@
       "candidates": [],
       "verifiedCount": 0,
       "verifiedDeals": [],
-      "researchLeadCount": 0,
-      "researchLeads": [],
+      "researchLeadCount": 2,
+      "researchLeads": [
+        {
+          "title": "OFFICIAL LAMPE BERGER STORE - MAISON BERGER",
+          "url": "https://maison-berger.com/",
+          "domain": "maison-berger.com",
+          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
+        },
+        {
+          "title": "Best Sellers – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER",
+          "url": "https://maison-berger.com/collections/best-sellers",
+          "domain": "maison-berger.com",
+          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
+        }
+      ],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
     },
     {
       "id": "usb-hubs-premium",
@@ -279,7 +292,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -294,7 +307,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -309,7 +322,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -324,7 +337,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -339,7 +352,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -354,7 +367,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -369,7 +382,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     },
     {
@@ -384,7 +397,7 @@
       "verifiedDeals": [],
       "researchLeadCount": 0,
       "researchLeads": [],
-      "researchStatus": "not_scanned",
+      "researchStatus": "stale",
       "researchSearchedAt": null
     }
   ],

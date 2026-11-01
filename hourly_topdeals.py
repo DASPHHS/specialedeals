@@ -47,18 +47,85 @@ NOISE=re.compile(r"\b(loterij|casino|loten|gok|seks|erotiek|vape|nicotine|alcoho
 
 
 def classify(row):
-    text=" ".join(str(row.get(k) or "") for k in ("product","categorie"))
+    """Use source/category first. Ambiguous words alone MUST NOT decide domain.
+
+    'Bloem' in a fragrance isn't a garden flower, 'roller' is not a DIY roller,
+    'apple' can be food or beer, and 'BBQ' in a pizza isn't a barbecue unit.
+    """
+    title=str(row.get("product") or "")
     cat=str(row.get("categorie") or "").lower().strip()
     store=str(row.get("winkel") or "").lower().strip()
-    if BUILD.search(text):return "bouwmarkt"
-    if store=="intratuin" or GARDEN.search(text) or "tuin &" in cat:return "tuin"
-    if TECH.search(text):return "elektronica"
-    if SPORT.search(text):return "sport"
-    if CARECAT.intersection({cat}) or CARE.search(text):return "drogisterij"
-    if HOME.search(text) or "household" in cat or "cleaning" in cat:return "huis"
-    if cat in FOODCAT or row.get("bron")=="PrijsProfeet":return "supermarkt"
+    source=str(row.get("bron") or "")
+    text=title.casefold()
+    # Product groups with genuinely distinctive commercial terms.
+    actual_build=re.search(
+        r"\b(accuboormachine|accuschroefmachine|boormachine|klopboormachine|"
+        r"schuurmachine|decoupeerzaag|cirkelzaag|boorset|schroefset|"
+        r"schroevendraaier|verfroller|verfbak|schilderstape|verfkwast|"
+        r"muurverf|lakverf|kitpistool|tegelzaag|isolatieplaat|"
+        r"bouwlaser|gereedschapskoffer|werkbank|elektrische zaag)\b",text)
+    actual_garden=re.search(
+        r"\b(potgrond|tuinaarde|tuinstoel|tuinset|tuinbank|tuinmeubel|"
+        r"bloempot|plantenpot|tuinplant|kamerplant|tuinslang|"
+        r"grasmaaier|robotmaaier|heggenschaar|bladblazer|"
+        r"hogedrukreiniger|tuingereedschap|tuinverlichting|"
+        r"terrashaard|vuurkorf|barbecue toestel|barbecue grill|bbq grill|"
+        r"loungeset|tuinkussen|tuintafel|plantenbak)\b",text)
+    actual_tech=re.search(
+        r"\b(airpods|macbook|imac|iphone|ipad|apple watch|apple tv|"
+        r"usb4|thunderbolt|usb.?hub|dockings?tation|monitor|"
+        r"televisie|smartphone|koptelefoon|bluetooth speaker|"
+        r"powerbank|laptop|gaming console|tablet|"
+        r"oled scherm|draadloze oordopjes)\b",text)
+    actual_sport=re.search(
+        r"\b(hoka|arc.?teryx|padelballen|padelracket|tennisracket|"
+        r"hardloopschoenen|sportschoenen|sportjack|outdoorjas|"
+        r"voetbalschoenen|yogamat|fitnessapparaat|"
+        r"outdoor sweatjack)\b",text)
+    actual_home=re.search(
+        r"\b(wasmiddel|vaatwastabletten|wasverzachter|toiletpapier|"
+        r"toiletblok|allesreiniger|afwasmiddel|keukenrol|"
+        r"stofzuiger|schoonmaakmiddel|luchtverfrisser|"
+        r"geurproducten|waspods|wasmiddelpods|wasmiddel capsules|"
+        r"afwasblokjes|boodschappentas|opbergbox)\b",text)
+    if actual_build:return "bouwmarkt"
+    if actual_garden:return "tuin"
+    if actual_tech:return "elektronica"
+    if actual_sport:return "sport"
+    if actual_home:return "huis"
+    if store=="intratuin" or any(s in cat for s in ("tuin & wonen","tuinartikelen","garden")):
+        return "tuin"
+    if any(s in cat for s in ("bouwmarkt","klus","gereedschap","diy")):
+        return "bouwmarkt"
+    if any(s in cat for s in ("elektronica","computer","multimedia")):
+        return "elektronica"
+    if any(s in cat for s in ("sportartikelen","hardlopen","outdoor")):
+        return "sport"
+    if any(s in cat for s in ("cleaning & laundry","household","huishoudelijk",
+                               "schoonmaak","wasmiddelen","woningonderhoud")):
+        return "huis"
+    # Food always wins against false brand or scent keyword matches.
+    if cat in FOODCAT or any(s in cat for s in (
+        "groente","fruit","vlees","vis","brood","bakkerij","zuivel","melk",
+        "diepvries","bier","wijn","dranken","snoep","chocolade","pizza",
+        "broodbeleg","ijs &","chips","koek","koffie","thee",
+        "aardappelen","rijst &","pasta","babyvoeding","voeding")):
+        return "supermarkt"
+    if cat in CARECAT or any(s in cat for s in ("verzorging","drogisterij",
+        "gezondheid","beauty","health","cosmetica","personal care")):
+        return "drogisterij"
+    if source=="PrijsProfeet":
+        # The PrijsProfeet feed is supermarket-based. Do not infer DIY/tech
+        # from vaguely similar words when the category is unspecified.
+        return "supermarkt"
+    if store in ("kruidvat","etos","trekpleister","da"):
+        if CARE.search(title):return "drogisterij"
+        return "overig"
+    if GARDEN.search(title) and ("outdoor" in cat or "garden" in cat):
+        return "tuin"
+    if HOME.search(title):return "huis"
+    if CARE.search(title):return "drogisterij"
     return "overig"
-
 
 def date10(value):
     v=str(value or "")[:10]

@@ -48,8 +48,8 @@ jobs:
           node-version: "22"
       - name: Validate parser, evidence policy and UI
         run: |
-          python -m py_compile wishlist_radar.py wishlist_search.py
-          python -m unittest -v test_wishlist_radar.py test_wishlist_search.py
+          python -m py_compile wishlist_radar.py wishlist_search.py wishlist_pricewatch.py
+          python -m unittest -v test_wishlist_radar.py test_wishlist_search.py test_wishlist_pricewatch.py
           node --check verlanglijst/app.js
       - name: Research product-specific web results (not price verification)
         if: github.event_name != 'pull_request'
@@ -68,6 +68,8 @@ jobs:
           assert r["candidateCount"] == sum(i["candidateCount"] for i in r["items"])
           assert r["shopsSeen"] > 0
           assert r["researchLeadCount"] == sum(i["researchLeadCount"] for i in r["items"])
+          assert r["pricewatchCount"] == sum(i["pricewatchCount"] for i in r["items"])
+          assert all(o["verifiedDiscount"] is False and o["shippingVerified"] is False for i in r["items"] for o in i["pricewatchOffers"])
           assert all(c["verifiedDiscount"] is False for i in r["items"] for c in i["candidates"])
           print("Radar verified:", r["wishCount"],"wishes,", r["candidateCount"],"candidates")
           PY

@@ -47,7 +47,7 @@ function dates(){const a=iso(monday(mode==="next"?7:0)),b=iso(monday(mode==="nex
 function filtered(){const {a,b}=dates(),q=norm(el("search").value.trim()),store=el("store").value,cat=el("category").value;
 return all.filter(d=>(mode==="all"||(d.van&&d.tot&&d.van<=b&&d.tot>=a))&&(!store||d.winkel===store)&&(!cat||d.categorie===cat)&&(!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))).sort((a,b)=>a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl"))}
 function text(tag,value,cls){const n=document.createElement(tag);n.textContent=value;if(cls)n.className=cls;return n}
-function render(){const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
+function render(){if(!el("folderSection").classList.contains("hide"))return;const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
 el("message").classList.toggle("hide",found.length>0);el("message").textContent=all.length? "Geen aanbiedingen gevonden met deze filters.":"Geen gegevens beschikbaar. Controleer de laatste GitHub-run.";
 el("count").textContent=found.length.toLocaleString("nl-NL")+" aanbiedingen";
 for(const d of found.slice(page*pageSize,(page+1)*pageSize)){

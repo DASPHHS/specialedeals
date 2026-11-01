@@ -58,7 +58,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  if(d.actievorm)card.append(text("div",d.actievorm,"small"));
  if(d.verpakking)card.append(text("div",d.verpakking,"small"));
  const bottom=text("div","","bottom");bottom.append(text("div",d.waargenomen_op?"Gecontroleerd "+d.waargenomen_op+" · gepubliceerd geldig t/m "+(d.tot||"onbekend"):(d.van||"Datum onbekend")+" t/m "+(d.tot||"onbekend"),"small"));
- if(d.bron==="FeedMyCart")bottom.append(text("div","Openbare productselectie; niet de volledige folder","small"));
+ if(d.bron==="FeedMyCart")bottom.append(text("div",d.einddatum_bron?"Einddatum geldt voor bronpagina, niet per product":"Openbare productselectie; niet de volledige folder","small"));
  if(d.ledenprijs)bottom.append(text("div","Ledenprijs: "+nl.format(d.ledenprijs),"small"));
  if(d.kanaal&&d.kanaal!=="Online/winkel onbekend")bottom.append(text("div",d.kanaal,"small"));
  if(d.url&&/^https:\/\//.test(d.url)){const a=text("a",d.bron==="FeedMyCart"?"Bekijk bronpagina":"Bekijk aanbieding");a.href=d.url;a.rel="noopener noreferrer";a.target="_blank";bottom.append(a)}
@@ -129,7 +129,7 @@ fetch("./nonfood.json?ts="+Date.now(),{cache:"no-store"})
     if(!Array.isArray(data.deals)||!data.updated_at||data.source!=="FeedMyCart")throw Error("Ongeldige non-food import");
     const updated=new Date(data.updated_at).getTime();
     if(!Number.isFinite(updated)||Date.now()-updated>3*24*60*60*1000)throw Error("Nonfood-bron verouderd");
-    nonfoodRows=data.deals.filter(d=>d&&d.bron==="FeedMyCart"&&d.winkel&&d.product&&typeof d.prijs==="number"&&d.tot>=iso(new Date()));
+    nonfoodRows=data.deals.filter(d=>d&&d.bron==="FeedMyCart"&&d.winkel&&d.product&&(typeof d.prijs==="number"||!!d.actievorm)&&d.tot>=iso(new Date()));
     all=all.filter(d=>d.bron!=="FeedMyCart").concat(nonfoodRows);
     syncSelections();
     el("scopeInfo").textContent="Bronnen: PrijsProfeet + FeedMyCart (selectie)";

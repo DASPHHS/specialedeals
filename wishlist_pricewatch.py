@@ -80,7 +80,7 @@ def valid_model(title,wish):
     text=norm(title)
     wid=wish["id"]
     if wid=="apple-airpods":
-        return any(x in text for x in (" anc ","noise cancellation","noise cancelling","ruisonderdrukking"))
+        return bool(re.search(r"\banc\b|noise cancellation|noise cancelling|ruisonderdrukking",text))
     if wid=="dyson-handstofzuiger":
         return bool(re.search(r"\b(v8|v10|v11|v12|v15|gen5|digital slim|omni glide)\b",text))
     if wid=="apple-macbook":return "macbook" in text

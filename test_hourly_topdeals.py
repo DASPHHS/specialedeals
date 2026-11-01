@@ -29,6 +29,15 @@ class Top10Tests(unittest.TestCase):
     self.assertEqual(classify(offer("USB4 Thunderbolt hub",categorie="Overig")),"elektronica")
     self.assertEqual(classify(offer("Arc'teryx outdoor jas",categorie="Outdoor")),"sport")
     self.assertEqual(classify(offer("Koffiebonen 1kg",categorie="Coffee & Tea")),"supermarkt")
+    # Real production examples that previously appeared in wrong Top 10s.
+    self.assertEqual(classify(offer("Happy Earth 100% Natural Deodorant Roller",categorie="Health & Beauty",winkel="Etos")),"drogisterij")
+    self.assertEqual(classify(offer("Dr. Oetker Big Americans pizza bbq chicken",categorie="Frozen",winkel="DekaMarkt")),"supermarkt")
+    self.assertEqual(classify(offer("Le Petit Marseillais Douchegel Bio Tiare Bloem",categorie="Health & Beauty",winkel="Poiesz")),"drogisterij")
+    self.assertEqual(classify(offer("True Dates Sour apple",categorie="Sweets & Snacks",winkel="Albert Heijn")),"supermarkt")
+    self.assertEqual(classify(offer("Beyond Meat Plant-based burger",categorie="Vleesvervangers",winkel="Albert Heijn")),"supermarkt")
+    self.assertEqual(classify(offer("Alle Apple Bandit, Desperados of Texels speciaalbier",categorie="Beer",winkel="Boon's Markt")),"supermarkt")
+    self.assertEqual(classify(offer("Ariel The big one original pods",categorie="Wasmiddelen",winkel="Hoogvliet")),"huis")
+
  def test_deal_gates(self):
     self.assertTrue(eligible(offer(),NOW))
     self.assertFalse(eligible(offer(tot="2026-10-31"),NOW))

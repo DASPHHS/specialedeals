@@ -60,7 +60,7 @@ def classify(row):
     # Product groups with genuinely distinctive commercial terms.
     actual_build=re.search(
         r"\b(accuboormachine|accuschroefmachine|boormachine|klopboormachine|"
-        r"schuurmachine|decoupeerzaag|cirkelzaag|boorset|schroefset|"
+        r"schuurmachine|kettingzaag|decoupeerzaag|cirkelzaag|boorset|schroefset|"
         r"schroevendraaier|verfroller|verfbak|schilderstape|verfkwast|"
         r"muurverf|lakverf|kitpistool|tegelzaag|isolatieplaat|"
         r"bouwlaser|gereedschapskoffer|werkbank|elektrische zaag)\b",text)
@@ -87,7 +87,7 @@ def classify(row):
         r"toiletblok|allesreiniger|afwasmiddel|keukenrol|"
         r"stofzuiger|schoonmaakmiddel|luchtverfrisser|"
         r"geurproducten|waspods|wasmiddelpods|wasmiddel capsules|"
-        r"afwasblokjes|boodschappentas|opbergbox)\b",text)
+        r"afwasblokjes|ariel .* pods|boodschappentas|opbergbox)\b",text)
     if actual_build:return "bouwmarkt"
     if actual_garden:return "tuin"
     if actual_tech:return "elektronica"

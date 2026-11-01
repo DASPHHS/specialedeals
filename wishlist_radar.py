@@ -171,7 +171,7 @@ def verified_deal(deal: dict, wish: dict, now: datetime) -> dict | None:
     }
 
 
-def produce(wishlist: dict, sources: list, audit: dict, now: datetime, research: dict | None = None) -> dict:
+def produce(wishlist: dict, sources: list, audit: dict, now: datetime, research: dict | None = None, pricewatch: dict | None = None) -> dict:
     today = now.date()
     items = [w for w in wishlist.get("items", []) if isinstance(w, dict) and w.get("id")]
     seen = set()
@@ -192,6 +192,8 @@ def produce(wishlist: dict, sources: list, audit: dict, now: datetime, research:
             source_counts[str(entry.get("winkel") or "Onbekend")[:90]] += 1
     research_lookup = {row["wishId"]: row for row in (research or {}).get("results", [])
                        if isinstance(row,dict) and row.get("wishId")}
+    prices = {r["wishId"]:r for r in (pricewatch or {}).get("results",[])
+              if isinstance(r,dict) and r.get("wishId")}
     output_items = []
     for wish in items:
         hits = [candidate(d, wish) for d in offers if matches(d.get("product", ""), wish)]
@@ -212,6 +214,10 @@ def produce(wishlist: dict, sources: list, audit: dict, now: datetime, research:
             "researchLeads": research_lookup.get(wish["id"],{}).get("leads",[])[:MAX_PER_ITEM],
             "researchStatus": research_lookup.get(wish["id"],{}).get("status","not_scanned"),
             "researchSearchedAt": research_lookup.get(wish["id"],{}).get("searchedAt"),
+            "pricewatchCount": len(prices.get(wish["id"],{}).get("offers",[])),
+            "pricewatchOffers": prices.get(wish["id"],{}).get("offers",[])[:MAX_PER_ITEM],
+            "pricewatchStatus": prices.get(wish["id"],{}).get("status","not_supported"),
+            "pricewatchSearchedAt": prices.get(wish["id"],{}).get("searchedAt"),
         })
     return {
         "schemaVersion": 1, "updatedAt": now.isoformat(),
@@ -221,6 +227,8 @@ def produce(wishlist: dict, sources: list, audit: dict, now: datetime, research:
         "researchLeadCount": sum(x["researchLeadCount"] for x in output_items),
         "researchCheckedCount": sum(x["researchStatus"]=="ok" for x in output_items),
         "researchErrorCount": len((research or {}).get("errors",[])),
+        "pricewatchCount": sum(x["pricewatchCount"] for x in output_items),
+        "pricewatchErrorCount": len((pricewatch or {}).get("errors",[])),
         "shopsSeen": len(source_counts), "shops": dict(source_counts.most_common()),
         "items": output_items,
         "policy": "Winkelacties zijn onbevestigde zoekhits. Alleen afzonderlijk geauditeerde identieke modellen met actuele NL-totaalprijs, onafhankelijke referentie en >=10% echte korting zijn koopdeals. Geen voorraad of bezorgkosten verzonnen.",
@@ -240,7 +248,8 @@ def main():
     if sum(len(x.get("deals", [])) for x in feeds) < 5:
         raise SystemExit("Sources missing/empty: refusing to overwrite radar")
     result = produce(wish, feeds, read_json(ROOT/"verified-deals.json", {"deals": []}), now,
-                     read_json(ROOT/"verlanglijst/zoekvondsten.json", {"results": []}))
+                     read_json(ROOT/"verlanglijst/zoekvondsten.json", {"results": []}),
+                     read_json(ROOT/"verlanglijst/prijsvergelijkers.json", {"results": []}))
     path = ROOT / "verlanglijst/signalen.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")

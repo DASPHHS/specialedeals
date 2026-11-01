@@ -132,3 +132,22 @@ jobs:
                         repr(r.get("new","")),repr(r.get("old","")),
                         repr(r.get("promotion","")[:100]),repr(r.get("category","")[:35]))
           PY
+
+      - name: Diagnose JSON-LD vs visible product alignment
+        run: |
+          python - <<'PY'
+          import sys
+          from difflib import SequenceMatcher
+          sys.path.insert(0,"integrations/weekdeals")
+          from publish_nonfood_deals import DealParser,fetch,jsonld_products,money
+          for chain in ("trekpleister","action","kruidvat"):
+              parser=DealParser();parser.feed(fetch(chain))
+              ld=jsonld_products(parser.scripts)
+              print("ALIGN",chain,"cards",len(parser.items),"ld",len(ld))
+              for i,(card,obj) in enumerate(zip(parser.items,ld)):
+                  a=" ".join(card["name"].split());b=" ".join(str(obj.get("name") or "").split())
+                  o=obj.get("offers") or {}
+                  if i<12:
+                      print("PAIR",chain,i,repr(a[:68]),repr(b[:68]),"similarity",round(SequenceMatcher(None,a.casefold(),b.casefold()).ratio(),3),
+                            "price",card["new"],o.get("lowPrice"),"valid",o.get("priceValidUntil"))
+          PY

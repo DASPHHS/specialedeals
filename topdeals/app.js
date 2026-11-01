@@ -74,9 +74,52 @@
       (x.ageHours!==null?' · '+escape(x.ageHours)+' uur oud':'')+'</small></div>';
   }).join("");
  }
+ function renderProfiles(){
+   const show=active==="persoonlijk";
+   el("profileWatch").hidden=!show;
+   if(!show)return;
+   const records=data.profileChecks||[];
+   const goods=records.filter(x=>x.kind==="product"&&x.candidateCount>0);
+   const products=records.filter(x=>x.kind==="product");
+   const services=records.filter(x=>x.kind==="service");
+   const event=records.filter(x=>x.kind==="event");
+   el("profileSummary").innerHTML=
+    '<span><strong>'+products.length+'</strong> productzoekprofielen</span>'+
+    '<span><strong>'+goods.length+'</strong> met onbevestigde winkelhit</span>'+
+    '<span><strong>'+services.length+'</strong> contractvergelijkingen nog niet aangesloten</span>'+
+    '<span><strong>'+event.length+'</strong> aparte sample-sale-radar</span>';
+   el("profileGrid").innerHTML=records.map(record=>{
+     const count=Number(record.candidateCount||0);
+     const kind=record.kind==="service"?"CONTRACT":record.kind==="event"?"EVENEMENT":"PRODUCT";
+     const status=record.state==="candidate"?
+       '<span class="top-watch-state has-candidate">Onderzoeksaanbod · nog controleren</span>':
+       record.state==="no_offer_in_feeds"?
+         '<span class="top-watch-state">Geen match in beschikbare feeds</span>':
+       record.state==="not_connected"?
+         '<span class="top-watch-state not-connected">Geen live contractkoppeling</span>':
+         '<span class="top-watch-state not-connected">Aparte evenementenradar</span>';
+     const offers=(record.offers||[]).map(x=>{
+       const url=validLink(x.url);
+       return '<div class="top-watch-offer"><span>'+escape(x.shop)+': '+escape(x.title)+
+         ' · '+eur(Number(x.priceEUR))+' winkelprijs; verzending niet bevestigd</span>'+
+         (url?'<a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">Bron ↗</a>':'')+'</div>';
+     }).join("");
+     const source=record.checkedAgainstFeedAt?
+        '<small>Vergeleken met feed op '+escape(dateNL(record.checkedAgainstFeedAt))+
+        '; brongegevens kunnen ouder zijn</small>':
+        '<small>Niet beoordeeld met een live contract-/evenementen-API</small>';
+     const link=record.kind==="event"?'../':'../verlanglijst/';
+     return '<article class="top-watch-card"><span class="top-watch-type">'+kind+
+       ' · '+escape(record.position)+'/23</span><h3>'+escape(record.name)+'</h3>'+status+
+       '<p>'+escape(record.note||"")+'</p>'+
+       (count?'<div class="top-watch-offers">'+offers+'</div>':'')+
+       source+'<a class="top-watch-details" href="'+link+'">Bekijk '+(record.kind==="event"?"sample sales":"verlanglijst")+' ↗</a></article>';
+   }).join("");
+ }
  function render(){
   if(!data)return;
   toolbar();
+  renderProfiles();
   const chosen=active?[active]:categories;
   el("categorySections").innerHTML=chosen.map(section).join("");
   el("categorySections").querySelectorAll("button[data-id]").forEach(b=>b.addEventListener("click",()=>{

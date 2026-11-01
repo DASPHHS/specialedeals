@@ -2,7 +2,7 @@ name: Speciale Deals scan
 on:
   push:
     branches: [main]
-    paths: ['scan.py', 'price_engine.py', 'test_price_engine.py', 'price-observations.json', 'bronnenregister.json', 'onderzoeksplan.json', 'huishoudradar-config.json', 'prijsradar-config.json', 'test_research_plan.py', 'candidate_quality.py', 'test_candidate_quality.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'test_discovery_quality.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
+    paths: ['scan.py', 'price_engine.py', 'test_price_engine.py', 'price-observations.json', 'bronnenregister.json', 'onderzoeksplan.json', 'huishoudradar-config.json', 'prijsradar-config.json', 'test_research_plan.py', 'candidate_quality.py', 'test_candidate_quality.py', 'deal_verification.py', 'test_pricegate.py', 'test_outdoor.py', 'test_watchlist.py', 'test_discovery_quality.py', 'discover_winacties.py', 'verified-deals.json', 'verified-winacties.json', 'sample-sales-to-watch.json', 'wishlist.json', 'radar-profiel.json', 'prijsradar-config.json', 'huisprojecten.json', 'winactie-profiel.json', 'index.html', '.github/workflows/scan.yml']
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
@@ -40,6 +40,7 @@ jobs:
           python -m json.tool verified-pricepeil.json > /dev/null
           python -m json.tool bronnenregister.json > /dev/null
           python -m json.tool onderzoeksplan.json > /dev/null
+          python -m json.tool sample-sales-to-watch.json > /dev/null
       - name: Publish results safely
         shell: bash
         run: |

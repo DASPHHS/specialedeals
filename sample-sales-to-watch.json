@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-11-01",
+  "notice": "These are concrete upcoming event pages to recheck, not organizer-verified sales or verified discounts.",
+  "items": [
+    {
+      "id": "circle-of-trust-winter-2026",
+      "title": "Circle of Trust Sample Sale Winter 2026",
+      "url": "https://www.stockverkopen.nl/9246/circle-of-trust-sample-sale-winter-2026-nov-2026.html",
+      "source": "Stockverkopen (evenementagenda)",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-27",
+      "city": "Amstelveen",
+      "location": "Schweitzerlaan 42, Amstelveen",
+      "audience": "all",
+      "brand": "Circle of Trust",
+      "mandatoryTicket": true,
+      "claimedDiscount": "tot 70% volgens evenementenagenda; niet onafhankelijk geverifieerd",
+      "requiredPhrases": [
+        "Circle of Trust Sample Sale Winter 2026",
+        "25 November 2026",
+        "27 November 2026"
+      ],
+      "checkedManuallyAt": "2026-11-01",
+      "notes": "Dames-/heren-/meisjeskleding; toegang alleen met ticket, timeslots. Controleer beschikbaarheid, ticketvoorwaarden en daadwerkelijke maatprijzen bij de organisator."
+    }
+  ]
+}

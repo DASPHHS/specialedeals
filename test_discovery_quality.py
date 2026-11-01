@@ -33,6 +33,22 @@ class DiscoveryQuality(unittest.TestCase):
   self.assertTrue(scan.is_real_sample_sale_event("Kuyichi Sample Sale","https://www.welovesamplesales.nl/samplesaleagenda/8298/kuyichi-sample-sale--2026"))
   self.assertFalse(scan.is_real_sample_sale_event("Wintersale 2025","https://www.stockverkopen.nl/9246/sample-sale-2025.html"))
 
+ def test_curated_event_rechecks_actual_dates_and_is_never_verified_discount(self):
+  import json
+  from pathlib import Path
+  event=json.loads(Path("sample-sales-to-watch.json").read_text())["items"][0]
+  now="2026-11-01T13:00:00+00:00"
+  html='<h1>Circle of Trust Sample Sale Winter 2026</h1><div>25 November 2026</div><div>27 November 2026</div>'
+  offer=scan.read_curated_event(event,now,fetch_page=lambda _:html)
+  self.assertEqual(offer["kind"],"sales")
+  self.assertEqual(offer["startDate"],"2026-11-25")
+  self.assertEqual(offer["endDate"],"2026-11-27")
+  self.assertFalse(offer["organizerVerified"])
+  self.assertFalse(offer["priceVerified"])
+  self.assertIn("Ticket vereist",offer["conditions"])
+  self.assertIsNone(scan.read_curated_event(event,now,fetch_page=lambda _:"Generic brand archive"))
+  self.assertIsNone(scan.read_curated_event(event,"2026-11-28T13:00:00+00:00",fetch_page=lambda _:html))
+
  def test_stale_event_not_carried_forward(self):
   today=dt.date(2026,11,1)
   e={"title":"Kuyichi Sample Sale","url":"https://www.welovesamplesales.nl/samplesaleagenda/8298/kuyichi-sample-sale--2026",

@@ -17,12 +17,26 @@ De configuratie is gescheiden van de scanners en van de website. De automatische
 
 - Apple AirPods **standaard** en Apple AirPods **Pro** apart.
 - Apple MacBook: Air versus Pro, chip, RAM, SSD, scherm en toetsenbord moeten overeenkomen.
+- Apple iMac: exacte chip, RAM, SSD, scherm en toetsenbordconfiguratie.
+- AirPods-voorkeur: ANC vereist voor koopadvies; liever AirPods Pro.
+- Lampe Berger / Maison Berger luxe huisgeuren, met goedkopere alternatieven afzonderlijk beoordeeld.
+- Innovatieve USB4/Thunderbolt 4/5-hubs en hoogwaardige gadgets; geen gewone goedkope adapters.
+- HOKA Arahi/Kawana of relevante stabiliteitsalternatieven rond herenmaat EU 47 1/3.
 - Apple Watch Ultra: exact model/generatie en conditie bepalen.
 - Dyson hand-/snoerloze stofzuiger, JANZEN Earth, HOKA heren rond EU47.
 - Arc'teryx heren XL: **het enige outdoor-merk**. HOKA blijft een afzonderlijke hardloopschoenenwens, geen algemeen outdoormerk.
 - Rituals, verzorging, premium mode, padel en verrassende andere hoogwaardige aanbiedingen blijven interessante ontdekkingscategorieën.
 
 **Voorkeuren uit de GitHub-lijst staan centraal voor de scanner.** De invoervelden op de publieke site bewaren wijzigingen voorlopig alleen in deze browser. Exporteer ze en werk `wishlist.json` bij voor gebruik door de centrale scanner en de dagelijkse ChatGPT-taak. De website kan zonder authenticatie geen persoonlijke GitHub-inhoud wijzigen.
+
+### Weekdeals + verlanglijst
+
+De [Weekdeals-pagina](https://dasphhs.github.io/specialedeals/weekdeals/) toont een
+aparte knop **Mijn verlanglijst**. De browser koppelt de openbare
+supermarkt- en non-foodaanbiedingen aan de centrale `wishlist.json` met
+variant- en accessoire-uitsluitingen. Dit zijn alleen **mogelijke matches**,
+niet de geverifieerde koopdeals van de hoofdsite. Het verandert de bestaande
+brondekking niet; de aanbieding en de exacte uitvoering blijven te controleren.
 
 ### Prijzen en koopadvies
 

@@ -41,7 +41,7 @@ ACTIVE_VERBS=re.compile(
 JUNK=re.compile(
  r"\b(lexicon|dictionary|definition|définition|signification|"
  r"parts and accessories|car show|schedule of events|festival|"
- r"ticket sales|dictionary|synonym|word meaning|de betekenis)\b",re.I)
+ r"ticket sales|dictionary|synonym|word meaning|how to win|de betekenis)\b",re.I)
 CURRENT_YEAR=dt.datetime.now(dt.timezone.utc).year
 
 

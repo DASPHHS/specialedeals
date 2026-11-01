@@ -48,6 +48,29 @@ class NonFoodTests(unittest.TestCase):
         src=src.replace('<b>€3.99</b>','<b>€5.49</b>')
         self.assertEqual(parse(src,"etos",datetime(2026,11,1)),[])
 
+    def test_promotion_without_price_is_kept_but_not_invented(self):
+        src=html_for([("Voorbeeld crème",3.99,5.49,"2026-11-01","")])
+        extra=('<li class="deal"><span class="deal__name">Elmex tandpasta multipak</span>'
+               '<span class="deal__tags">50% korting</span>'
+               '<span class="deal__price"></span></li>')
+        src=src.replace("</ul>",extra+"</ul>").replace("</body>",
+                     "<p>Valid through Sunday, 1 November</p></body>")
+        rows=parse(src,"kruidvat",datetime(2026,11,1))
+        self.assertEqual(len(rows),2)
+        promo=next(r for r in rows if r["product"]=="Elmex tandpasta multipak")
+        self.assertEqual(promo["actievorm"],"50% korting")
+        self.assertNotIn("prijs",promo)
+        self.assertEqual(promo["einddatum_bron"],"Paginabreed; niet per artikel")
+
+    def test_promotion_without_page_date_is_not_published(self):
+        src=html_for([("Voorbeeld crème",3.99,5.49,"2026-11-01","")])
+        extra=('<li class="deal"><span class="deal__name">Elmex tandpasta multipak</span>'
+               '<span class="deal__tags">50% korting</span>'
+               '<span class="deal__price"></span></li>')
+        src=src.replace("</ul>",extra+"</ul>")
+        rows=parse(src,"kruidvat",datetime(2026,11,1))
+        self.assertEqual(len(rows),1)
+
     def test_invalid_html_rejected(self):
         with self.assertRaises(ValueError):
             parse("<html>geen productdata</html>","action",datetime(2026,11,1))

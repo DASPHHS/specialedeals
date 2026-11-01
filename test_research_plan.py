@@ -27,6 +27,11 @@ class ResearchCatalogTests(unittest.TestCase):
         wanted={x["id"] for x in load("prijsradar-config.json")["items"]}
         household={"household-"+p["id"] for c in load("huishoudradar-config.json")["categories"] for p in c["products"]}
         self.assertTrue(wanted <= target_ids,sorted(wanted-target_ids))
+        # Every central wishlist entry must have an explicit research route,
+        # or map to a specialized route for the same item family.
+        wishlist_ids={x["id"] for x in load("wishlist.json")["items"]}
+        routed=target_ids|{i for t in plan["targets"] for i in t.get("wishlistIds",[])}
+        self.assertTrue(wishlist_ids <= routed,sorted(wishlist_ids-routed))
         self.assertTrue(household <= target_ids,sorted(household-target_ids))
         self.assertIn("event-sales",target_ids)
         self.assertIn("event-contests",target_ids)

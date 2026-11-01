@@ -1,6 +1,10 @@
 name: Weekdeals NL to Google Sheets
 
 on:
+  push:
+    paths:
+      - "integrations/weekdeals/**"
+      - ".github/workflows/weekdeals-google-sheets.yml"
   workflow_dispatch:
   schedule:
     - cron: "30 5 * * *" # 06:30 CET / 07:30 CEST

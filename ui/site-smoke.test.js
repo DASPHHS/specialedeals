@@ -48,6 +48,8 @@ assert(main.includes('href="./topdeals/"'),"Homepage Top10 link missing");
 assert(week.includes('href="../topdeals/"'),"Weekdeals Top10 link missing");
 assert(wishlist.includes('href="../topdeals/?categorie=persoonlijk"'),"Wishlist Top10 link missing");
 assert(top.includes('id="categoryNav"')&&top.includes('id="categorySections"'),"Top10 category page missing controls");
+assert(top.includes('id="marketSection"')&&top.includes('id="marketGrid"'),"Public source market comparison section missing");
+assert(read("topdeals/app.js").includes('prijspeil.json'),"Missing sourced independent market price feed");
 assert(top.includes('src="./app.js"')&&top.includes('href="./style.css"'),"Top10 source assets not linked");
 assert(read("topdeals/style.css").includes("prefers-reduced-motion"),"Top10 motion setting missing");
 new vm.Script(read("topdeals/app.js"),{filename:"topdeals/app.js"});

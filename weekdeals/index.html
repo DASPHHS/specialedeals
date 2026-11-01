@@ -52,7 +52,7 @@ el("message").classList.toggle("hide",found.length>0);el("message").textContent=
 el("count").textContent=found.length.toLocaleString("nl-NL")+" aanbiedingen";
 for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  const card=text("article","","card");card.append(text("div",d.winkel,"tag"),text("div",d.product,"name"));
- const pricing=document.createElement("div"),p=text("span",typeof d.prijs==="number"?nl.format(d.prijs):"Prijs onbekend","price");pricing.append(p);
+ const pricing=document.createElement("div"),p=text("span",typeof d.prijs==="number"?nl.format(d.prijs):"Prijs niet vermeld","price");pricing.append(p);
  if(typeof d.van_prijs==="number"&&d.van_prijs>d.prijs)pricing.append(text("span",nl.format(d.van_prijs),"old"));card.append(pricing);
  if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% korting","sale"));
  if(d.actievorm)card.append(text("div",d.actievorm,"small"));
@@ -132,6 +132,7 @@ fetch("./nonfood.json?ts="+Date.now(),{cache:"no-store"})
     nonfoodRows=data.deals.filter(d=>d&&d.bron==="FeedMyCart"&&d.winkel&&d.product&&(typeof d.prijs==="number"||!!d.actievorm)&&d.tot>=iso(new Date()));
     all=all.filter(d=>d.bron!=="FeedMyCart").concat(nonfoodRows);
     syncSelections();
+    el("nonfood").textContent="Drogisterij & Action ("+nonfoodRows.length+")";
     el("scopeInfo").textContent="Bronnen: PrijsProfeet + FeedMyCart (selectie)";
     render();
   }).catch(err=>{el("scopeInfo").textContent="Drogisterij-import niet actueel: "+err.message;});

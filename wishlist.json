@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-11-01",
   "items": [
     {
       "id": "dyson-handstofzuiger",
@@ -23,19 +23,38 @@
         "JANZEN"
       ],
       "region": "NL + EU",
-      "notes": "Let op exacte geur, inhoud en multipack",
-      "maxPriceEUR": null
+      "notes": "Alleen Earth; geur, productvorm, inhoud en (multi)pack strikt vergelijken. Alternatieve luxe huisgeuren apart signaleren.",
+      "maxPriceEUR": null,
+      "matchAny": [
+        "JANZEN Earth"
+      ]
     },
     {
       "id": "hoka-schoenen",
-      "name": "HOKA sportschoenen",
+      "name": "HOKA stabiliteits-/sportschoenen heren EU 47 1/3",
       "keywords": [
         "HOKA",
         "Hoka"
       ],
       "region": "NL + EU",
-      "notes": "Herenmaat ongeveer EU 47; exacte schoenmaat en model nog vast te leggen",
-      "maxPriceEUR": null
+      "notes": "Prioriteit Arahi of Kawana, plus relevante stabiliteitsschoenen zoals Gaviota. Herenmaat EU 47 1/3 expliciet bevestigen en pronatie-/pasvormgeschiktheid niet uit merknaam afleiden; vergelijk modelgeneratie, breedte en retourvoorwaarden.",
+      "maxPriceEUR": null,
+      "matchAny": [
+        "HOKA Arahi",
+        "HOKA Kawana",
+        "HOKA Gaviota"
+      ],
+      "excludeTerms": [
+        "dames",
+        "women",
+        "womens",
+        "kinderen",
+        "kids",
+        "junior",
+        "inlegzool",
+        "veters",
+        "sokken"
+      ]
     },
     {
       "id": "arcteryx-outdoor",
@@ -45,8 +64,21 @@
         "Arcteryx"
       ],
       "region": "NL + EU",
-      "notes": "Uitsluitend Arc'teryx als outdoormerk; heren L en XL, broeken W32/W33/W34; overige artikelen passende maat; SKU, NL levering en werkelijke korting controleren",
-      "maxPriceEUR": null
+      "notes": "Alleen Arc'teryx heren L/XL, broeken W32/W33/W34; SKU/modeljaar/kleur/voorraad en totale NL prijs moeten overeenkomen. Outlets/kleinere betrouwbare EU winkels ook doorzoeken. Zonder maat geen bewezen match.",
+      "maxPriceEUR": null,
+      "matchAny": [
+        "Arc'teryx",
+        "Arcteryx",
+        "Arc Teryx"
+      ],
+      "excludeTerms": [
+        "dames",
+        "women",
+        "womens",
+        "kids",
+        "junior",
+        "kinderen"
+      ]
     },
     {
       "id": "apple-airpods",
@@ -63,10 +95,13 @@
         "AirPods case",
         "hoesje",
         "case",
-        "oplaadcase"
+        "oplaadcase",
+        "cover",
+        "accessoire",
+        "zonder ANC"
       ],
       "region": "NL + EU",
-      "notes": "Vergelijk dezelfde generatie, uitvoering en USB-C/laadcase; geen hoesjes of accessoires als hoofdproduct",
+      "notes": "Uitsluitend uitvoering met actieve ruisonderdrukking (ANC). AirPods Pro heeft voorkeur; standaard-AirPods zonder bevestigde ANC niet als geschikte koopaanbeveling. Exacte generatie, laadcase, staat, NL totaalprijs en korting verifiëren.",
       "maxPriceEUR": null,
       "category": "Apple & elektronica"
     },
@@ -86,7 +121,7 @@
         "cover"
       ],
       "region": "NL + EU",
-      "notes": "Let op dezelfde generatie, type laadcase en nieuw versus refurbished; geen accessoires",
+      "notes": "Voorkeur: AirPods Pro met ANC. Vergelijk generatie, laadcase (USB-C/Lightning), conditie, garantie, voorraad en NL totaalprijs; een winkelactie is niet automatisch een echte korting.",
       "maxPriceEUR": null,
       "category": "Apple & elektronica"
     },
@@ -144,7 +179,14 @@
       ],
       "region": "NL + EU",
       "maxPriceEUR": null,
-      "notes": "Exacte variant en NL totaalprijs controleren"
+      "notes": "Homme douchefoam en deodorant; exacte productvorm, geur, inhoud en bundel vergelijken.",
+      "matchAny": [
+        "Rituals Homme"
+      ],
+      "excludeTerms": [
+        "cadeaubon",
+        "gift card"
+      ]
     },
     {
       "id": "rituals-sport",
@@ -154,7 +196,14 @@
       ],
       "region": "NL + EU",
       "maxPriceEUR": null,
-      "notes": "Exacte variant en NL totaalprijs controleren"
+      "notes": "Sport douchefoam en deodorant; exacte inhoud en variant, niet verwarren met Homme.",
+      "matchAny": [
+        "Rituals Sport"
+      ],
+      "excludeTerms": [
+        "cadeaubon",
+        "gift card"
+      ]
     },
     {
       "id": "giraffe-original",
@@ -164,7 +213,10 @@
       ],
       "region": "NL + EU",
       "maxPriceEUR": null,
-      "notes": "Exacte variant en NL totaalprijs controleren"
+      "notes": "Original Blend koffie 350g of 1kg; vergelijk exact dezelfde bonen en prijs per kilo, inclusief verzending en abonnement apart.",
+      "matchAny": [
+        "Giraffe Original Blend"
+      ]
     },
     {
       "id": "ysl-m7",
@@ -174,7 +226,11 @@
       ],
       "region": "NL + EU",
       "maxPriceEUR": null,
-      "notes": "Exacte variant en NL totaalprijs controleren"
+      "notes": "Alleen uitzonderlijk gecontroleerd voordeel. M7 en M7 Oud Absolu, inhoud en concentratie apart beoordelen.",
+      "matchAny": [
+        "YSL M7",
+        "Yves Saint Laurent M7"
+      ]
     },
     {
       "id": "ysl-y",
@@ -184,7 +240,116 @@
       ],
       "region": "NL + EU",
       "maxPriceEUR": null,
-      "notes": "Exacte variant en NL totaalprijs controleren"
+      "notes": "Y EDT, EDP en Le Parfum apart; exact dezelfde concentratie, inhoud en giftsets niet als identieke fles vergelijken.",
+      "matchAny": [
+        "YSL Y",
+        "Yves Saint Laurent Y"
+      ]
+    },
+    {
+      "id": "apple-imac",
+      "name": "Apple iMac",
+      "keywords": [
+        "Apple iMac",
+        "iMac"
+      ],
+      "matchAny": [
+        "Apple iMac",
+        "iMac"
+      ],
+      "excludeTerms": [
+        "hoes",
+        "cover",
+        "case",
+        "standaard",
+        "monitorarm",
+        "accessoire",
+        "toetsenbord",
+        "muis",
+        "kabel"
+      ],
+      "region": "NL + EU",
+      "category": "Apple & elektronica",
+      "maxPriceEUR": null,
+      "notes": "Chip/generatie, RAM, SSD, schermformaat, poorten en toetsenbordindeling strikt vergelijken; nieuw/refurbished apart."
+    },
+    {
+      "id": "lampe-berger-geuren",
+      "name": "Lampe Berger / Maison Berger luxe huisgeuren",
+      "keywords": [
+        "Lampe Berger",
+        "Maison Berger Paris"
+      ],
+      "matchAny": [
+        "Lampe Berger",
+        "Maison Berger"
+      ],
+      "excludeTerms": [
+        "geurkaars",
+        "lege flacon",
+        "wick only"
+      ],
+      "region": "NL + EU",
+      "category": "Verzorging & huisgeur",
+      "maxPriceEUR": null,
+      "notes": "Voorkeur luxe winkelparfumgeuren en bijvullingen; geurtype, concentratie, inhoud en prijs per 100 ml vergelijken. Goedkopere hoogwaardige alternatieven als aparte, niet identieke producten markeren."
+    },
+    {
+      "id": "usb-hubs-premium",
+      "name": "Innovatieve USB4 / Thunderbolt docks en hubs",
+      "keywords": [
+        "USB4 dock",
+        "USB4 hub",
+        "Thunderbolt 4",
+        "Thunderbolt 5"
+      ],
+      "matchAny": [
+        "USB4 dock",
+        "USB4 hub",
+        "USB4 docking",
+        "Thunderbolt 4 dock",
+        "Thunderbolt 4 hub",
+        "Thunderbolt 5 dock",
+        "Thunderbolt 5 hub",
+        "USB4 docking station"
+      ],
+      "excludeTerms": [
+        "adapterkabel",
+        "alleen kabel",
+        "compatibel met dock"
+      ],
+      "region": "NL + EU",
+      "category": "Tech & gadgets",
+      "maxPriceEUR": null,
+      "notes": "Alleen opvallend hoogwaardige hubs/docks. Controleer werkelijke USB4/TB4/TB5-bandbreedte, USB-PD, video-uitgangen, Mac-compatibiliteit, meegeleverde voeding, garantie en all-in prijs."
+    },
+    {
+      "id": "hightech-gadgets",
+      "name": "Vernieuwende hoogwaardige gadgets",
+      "keywords": [
+        "e-ink tablet",
+        "OLED portable monitor",
+        "Matter smart home hub",
+        "Wi-Fi 7 mesh"
+      ],
+      "matchAny": [
+        "e-ink tablet",
+        "OLED portable monitor",
+        "Matter smart home hub",
+        "Wi-Fi 7 mesh",
+        "Qi2 magnetische powerbank"
+      ],
+      "excludeTerms": [
+        "hoes",
+        "case",
+        "cover",
+        "beschermfolie",
+        "navulling"
+      ],
+      "region": "NL + EU",
+      "category": "Tech & gadgets",
+      "maxPriceEUR": null,
+      "notes": "Ontdekkingscategorie, geen vaste eisen of automatische koopaanbeveling; alleen innovatieve bruikbare producten met onafhankelijke prijs- en kwaliteitscontrole."
     }
   ],
   "outdoorBrandAllowlist": [

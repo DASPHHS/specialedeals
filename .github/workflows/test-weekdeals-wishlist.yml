@@ -2,7 +2,7 @@ name: Test Weekdeals Wishlist Matching
 on:
   push:
     branches:
-      - "feat/weekdeals-wishlist-20261101"
+      - main
     paths:
       - "wishlist.json"
       - "weekdeals/index.html"

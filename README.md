@@ -1,5 +1,18 @@
 # Speciale Deals
 
+## Uurlijkse Top 10 koopjes per categorie
+
+Nieuwe [Top 10 startpagina](https://dasphhs.github.io/specialedeals/topdeals/) met eigen deelbare categorieroutes:
+`?categorie=persoonlijk`, `?categorie=tuin`, `?categorie=bouwmarkt`, `?categorie=supermarkt`, `?categorie=drogisterij`, `?categorie=elektronica`, `?categorie=sport`, `?categorie=huis` en `?categorie=overig`. Deze worden zowel vanuit de homepage, Weekdeals als de centrale verlanglijst gelinkt.
+
+**Per uur:** GitHub Actions `.github/workflows/hourly-topdeals.yml` draait op `7 * * * *` (UTC; ieder uur) en publiceert een opnieuw gerangschikt `topdeals/data.json`. De UI toont precieze berekeningstijd, de laatst bijgewerkte **bronmomenten** en welke feeds ouder dan 48 uur zijn. De uurlijkse rangschikking gebruikt de nieuwste lokale bron-snapshots, **niet** een nieuwe live webshopscan per uur. De PrijsProfeet- en nonfoodbronnen blijven onder de bestaande afzonderlijke workflows binnenkomen. Verlopen aanbiedingen worden geweerd, onbekende einddatum alleen bij bronobservatie vandaag.
+
+**Alleen aantoonbare informatie:** elk topaanbod heeft een geprijsd product en traceerbare HTTPS-link; retailer-advertentiekorting wordt als **winkelreferentie** gelabeld, niet onafhankelijk bewezen voordeel. Verzendkosten, exacte voorraad en lokale filialen zijn onbekend. Bundeltotalen worden niet als individuele prijs of berekend kortingspercentage gebruikt. Vergelijkbare winkelreferenties kunnen inconsistent zijn en worden dan verborgen; alle prijzen blijven onderzoekskandidaten. Meerdere winkeldeals per product kunnen apart worden vermeld als de verkoper verschilt. Zware uitsluitingsfilters verwijderen gevaarlijk/restricted aanbod, maar niet iedere producttitel is inhoudelijk geverifieerd.
+
+**Personalisatie:** de `persoonlijk`-categorie geeft voorrang aan tekstmatches met `wishlist.json` en bewaart voorkeuren in de browser. Een match zonder exact SKU, ANC, maat of NL-totaalprijs is geen bevestigde koopdeal. Een categorie zoals bouwmarkt kan terecht 0 tonen zolang er geen bruikbare productfeed voor aangesloten bouwmarkten is. Een zoekresultaat of folderlink wordt niet automatisch tot echte korting gepromoveerd.
+
+**Tests:** `python -m unittest -v test_hourly_topdeals.py`, `python hourly_topdeals.py`, `node ui/site-smoke.test.js`. Voor echte onafhankelijke korting vereist het project nog geautoriseerde merk-/winkeldata, SKU- en prijsvergelijking plus bevestiging van afrekenkosten. Geen user-specific alert e-mails worden automatisch verzonden door de openbare site.
+
 Publiek dashboard: https://dasphhs.github.io/specialedeals/
 
 

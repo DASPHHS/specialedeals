@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="nl">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#173524">
+ <meta name="description" content="Elk uur opnieuw samengestelde Top 10 met actuele brongegevens voor supermarkt, tuin, bouwmarkt, drogisterij, technologie en jouw verlanglijst.">
+ <title>Top 10 koopjes per categorie | Speciale Deals</title>
+ <link rel="stylesheet" href="../ui/speciale.css">
+ <link rel="stylesheet" href="./style.css">
+ <script src="./app.js" defer></script>
+</head>
+<body class="top-app">
+ <a href="#topResults" class="top-skip">Naar de resultaten</a>
+ <header class="top-hero"><div class="top-container">
+   <nav class="top-nav" aria-label="Hoofdnavigatie">
+    <a class="top-logo" href="../">✳ Speciale Deals</a>
+    <div class="top-navlinks"><a href="../">Ontdekken</a><a href="../verlanglijst/">Mijn verlanglijst</a><a href="../weekdeals/">Alle Weekdeals</a><a href="./" aria-current="page">Top 10</a></div>
+   </nav>
+   <div class="top-kicker"><span class="top-live-dot"></span> PERSOONLIJK KOOPJESOVERZICHT</div>
+   <h1>De beste vondsten.<br><em>Per categorie.</em></h1>
+   <p class="top-hero-copy">Elke uur een nieuwe selectie uit de <strong>beschikbare brondata</strong>. Met extra prioriteit voor jouw verlanglijst, duidelijke winkelkortingen en geen verzonnen besparingen.</p>
+   <div class="top-hero-actions"><a class="top-primary" href="?categorie=persoonlijk">♡ Mijn verlanglijst eerst</a><a class="top-secondary" href="../weekdeals/">Bekijk alle weekdeals ↗</a></div>
+ </div></header>
+ <main class="top-container" id="topResults">
+   <div class="top-health" role="status" id="status" aria-live="polite">Laatste koopjesoverzicht ophalen…</div>
+   <section class="top-stats" aria-label="Transparantie over de scan">
+    <div><small>Geselecteerde productacties</small><strong id="totalEligible">—</strong><span>uit aangesloten bronnen</span></div>
+    <div><small>Matches met verlanglijst</small><strong id="wishlistCount">—</strong><span>onderzoeksleads, geen exacte SKU-garantie</span></div>
+    <div><small>Bewezen kortingen</small><strong id="verifiedCount">—</strong><span>volgens onafhankelijke prijscontrole</span></div>
+    <div><small>Bronbestanden</small><strong id="sourceCount">—</strong><span>actueel genoeg voor deze selectie</span></div>
+   </section>
+   <section class="top-filters" aria-label="Categorie en filters">
+     <div class="top-section-title"><div class="top-kicker dark">KIES JOUW CATEGORIE</div><h2>Top 10 overzichten</h2><p>Iedere categorie heeft een eigen deelbare pagina. De lijsten kunnen korter dan tien zijn als de beschikbare bronnen onvoldoende geschikte acties leveren.</p></div>
+     <nav class="top-category-nav" id="categoryNav" aria-label="Categorieën"></nav>
+     <div class="top-toolbar">
+      <label class="top-search"><span class="sr-only">Zoek in top 10</span><input id="search" type="search" placeholder="Zoek product of winkel…"></label>
+      <label><span class="sr-only">Filter aangeboden korting</span><select id="discount">
+       <option value="all">Alle vermelde acties</option><option value="20">Winkelreferentie ≥20%</option><option value="30">Winkelreferentie ≥30%</option><option value="50">Winkelreferentie ≥50%</option>
+      </select></label>
+      <label><span class="sr-only">Alleen bewaarde deals</span><select id="saved">
+       <option value="all">Alle vondsten</option><option value="saved">♡ Bewaarde vondsten</option></select></label>
+      <button type="button" id="reset" class="top-clear">Herstel filters</button>
+     </div>
+   </section>
+   <div class="top-legend"><strong>Zo lees je de ranglijst:</strong> een winkelkorting of oude winkelprijs is alleen een <em>advertentieclaim</em>, geen onafhankelijk bewezen korting. Bezorgkosten en actuele voorraad zijn niet bevestigd. Bronbestanden worden afzonderlijk vernieuwd; <strong>ieder uur opnieuw rangschikken betekent niet ieder uur elke winkel controleren</strong>.</div>
+   <section id="categorySections" aria-label="De koopjes per categorie"><div class="top-empty">Overzicht laden…</div></section>
+   <section class="top-source-section"><div class="top-section-title"><div class="top-kicker dark">WAAR KOMT DIT VANDAAN?</div><h2>Broncontrole</h2></div>
+    <p>Hieronder staat wanneer iedere aangesloten feed voor het laatst gegevens leverde. Een feed is geen live checkoutcontrole. Bij veroudering wordt deze uit de koopjesselectie geweerd.</p>
+    <div id="sourceGrid" class="top-source-grid"></div>
+   </section>
+   <section class="top-next"><div><div class="top-kicker dark">JOUW PERSOONLIJKE VOORKEUREN</div><h2>Je verlanglijst blijft leidend.</h2>
+    <p>Alle 23 centrale productwensen worden op de producttitels gecontroleerd. Bij nul passende resultaten tonen we geen nepkorting. Voor AirPods ANC, HOKA EU 47⅓ en Arc’teryx-maat moet de exacte uitvoering eerst bevestigd worden.</p></div>
+    <a class="top-primary" href="../verlanglijst/">Beheer mijn verlanglijst ↗</a></section>
+   <p class="top-disclaimer">Privacy: bewaarde vondsten staan alleen in deze browser. De openbare site kan nieuwe lokale wensen niet automatisch centraal toevoegen; daarvoor is een beveiligde synchronisatie nodig. Producten in de getoonde Top 10 zijn geselecteerde onderzoeksvondsten en vormen geen individueel koopadvies.</p>
+ </main>
+ <footer class="top-footer"><div class="top-container"><strong>✳ Speciale Deals</strong><span>Betere keuzes met zichtbare onzekerheden.</span><a href="../weekdeals/">Alle Weekdeals ↗</a></div></footer>
+ <nav class="mobile-dock" aria-label="Snelle navigatie">
+  <a href="../"><span class="dock-symbol">⌕</span>Ontdekken</a>
+  <a href="../verlanglijst/"><span class="dock-symbol">♡</span>Verlanglijst</a>
+  <a href="./" aria-current="page"><span class="dock-symbol">▤</span>Top 10</a>
+  <a href="../weekdeals/"><span class="dock-symbol">▦</span>Weekdeals</a>
+ </nav>
+</body></html>

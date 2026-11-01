@@ -254,6 +254,17 @@ def main():
     except Exception as err:
         LOG.warning("DA source unavailable: %s",err)
         failures["DA"]=str(err)[:150]
+    # Official Intratuin product listing: only special/old prices with clear
+    # price pairs, and only today's observed snapshot without invented expiry.
+    try:
+        from intratuin_adapter import fetch as fetch_intratuin
+        garden=fetch_intratuin(now)
+        all_rows.extend(garden)
+        counts["Intratuin"]=len(garden)
+        LOG.info("Intratuin: %d official specials (first 3 pages)",len(garden))
+    except Exception as err:
+        LOG.warning("Intratuin unavailable: %s",err)
+        failures["Intratuin"]=str(err)[:150]
     if len(all_rows)<15 or len(counts)<2:
         raise RuntimeError("Insufficient coverage; keep previous JSON untouched")
     output={"schema_version":1,

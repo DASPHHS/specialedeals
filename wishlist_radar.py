@@ -40,7 +40,7 @@ def norm(value: object) -> str:
 
 def contains(text: str, phrase: object) -> bool:
     needle = norm(phrase)
-    return bool(needle) and f" {needle} " in f" {text} "
+    return bool(needle) and f" {needle} " in f" {norm(text)} "
 
 
 def matches(title: str, wish: dict) -> bool:

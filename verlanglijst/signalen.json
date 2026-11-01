@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:24:31.746543+01:00",
+  "updatedAt": "2026-11-01T13:36:27.036215+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
-    "2026-11-01T13:05:37+01:00"
+    "2026-11-01T13:24:28+01:00"
   ],
-  "wishCount": 18,
+  "wishCount": 23,
   "candidateCount": 0,
   "verifiedDealCount": 0,
   "shopsSeen": 27,
@@ -231,6 +231,61 @@
       "name": "HEAD Padel Pro S+ / Pro+ ballen",
       "category": "Padel",
       "notes": "Uitsluitend aantoonbare tijdelijke korting minimaal 10% op exacte HEAD Pro S+ of Pro+, gelijke verpakking en prijs per drie ballen; bulkprijzen zonder actiehistorie zijn geen deal. NL bezorgkosten verplicht.",
+      "targetPriceEUR": null,
+      "candidateCount": 0,
+      "candidates": [],
+      "verifiedCount": 0,
+      "verifiedDeals": []
+    },
+    {
+      "id": "dyson-airwrap",
+      "name": "Dyson Airwrap complete haarstyler",
+      "category": "Verzorging & haarstyling",
+      "notes": "Alleen complete originele Dyson Airwrap haarstyler, exacte generatie (bijv. i.d., Co-anda), accessoires, condition nieuw/refurb, kleur, garantie, NL bezorging en echte prijsverlaging apart beoordelen.",
+      "targetPriceEUR": null,
+      "candidateCount": 0,
+      "candidates": [],
+      "verifiedCount": 0,
+      "verifiedDeals": []
+    },
+    {
+      "id": "arcteryx-gamma-broek",
+      "name": "Arc'teryx Gamma herenbroek W32–W34",
+      "category": "Outdoor & kleding",
+      "notes": "Specifiek Gamma broek voor heren, W32/W33/W34 en juiste lengte; modelgeneratie, uitvoering, kleur, stock per maat en all-in NL leverprijs verplicht. Outlet apart.",
+      "targetPriceEUR": null,
+      "candidateCount": 0,
+      "candidates": [],
+      "verifiedCount": 0,
+      "verifiedDeals": []
+    },
+    {
+      "id": "arcteryx-werkbroek-alternatief",
+      "name": "Arc'teryx heren werk-/outdoorbroek vergelijkbaar met Gamma",
+      "category": "Outdoor & kleding",
+      "notes": "Alternatieve robuuste Arc'teryx herenbroek naast Gamma; W32/W33/W34, vergelijk model, slijtvastheid en pasvorm. Alternatief is niet identiek aan Gamma.",
+      "targetPriceEUR": null,
+      "candidateCount": 0,
+      "candidates": [],
+      "verifiedCount": 0,
+      "verifiedDeals": []
+    },
+    {
+      "id": "arcteryx-wit-logo-shirt",
+      "name": "Arc'teryx wit heren T-shirt met logo L/XL",
+      "category": "Outdoor & kleding",
+      "notes": "Uitsluitend wit Arc'teryx heren T-shirt met logo in L of XL. Kleur, logo, maat, pasvorm en voorraad expliciet bevestigen; andere kleuren niet als exacte match.",
+      "targetPriceEUR": null,
+      "candidateCount": 0,
+      "candidates": [],
+      "verifiedCount": 0,
+      "verifiedDeals": []
+    },
+    {
+      "id": "luxe-huisparfum-alternatief",
+      "name": "Betaalbare alternatieven voor luxe winkelparfum-huisgeuren",
+      "category": "Verzorging & huisgeur",
+      "notes": "Alternatieven voor Maison Berger met vergelijkbaar luxe geurprofiel maar lagere kosten. Vergelijk geurtype, gebruik (lamp/elektrisch/stokjes), inhoud, kwaliteit en prijs per 100 ml. Nooit als identiek Maison Berger-product of bewezen korting labelen.",
       "targetPriceEUR": null,
       "candidateCount": 0,
       "candidates": [],

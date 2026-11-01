@@ -256,3 +256,10 @@ body.workspace-active .panel{margin-top:0}
 #resultcount{font-variant-numeric:tabular-nums}
 #wishsyncStatus{min-height:17px}
 .weekdeals #offerType,.weekdeals #rank{min-width:0}
+
+/* Saved-offer actions, accessible and private to the current browser. */
+.offer-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.save-offer{font-size:11px;font-weight:800;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff;color:var(--forest)}
+.save-offer:hover{background:#edf5e9;border-color:#b8d1b8}
+.save-offer[aria-pressed=true]{background:#e9f5e4;border-color:#b8d7b5}
+@media(max-width:490px){.deal .bottom{align-items:flex-start;gap:9px}.offer-actions{gap:7px}.save-offer{padding:8px}.deal .go{font-size:11px}}

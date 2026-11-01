@@ -15,6 +15,10 @@ class PublicPricePeilTests(unittest.TestCase):
   self.assertEqual(classify("ssd 1tb"),"elektronica")
   self.assertEqual(classify("hardloopschoenen"),"sport")
   self.assertEqual(classify("parfum"),"drogisterij")
+  self.assertEqual(classify("pizza oven"),"huis")
+  self.assertEqual(classify("tv meubel"),"huis")
+  self.assertEqual(classify("terrarium lamp"),"huis")
+  self.assertEqual(classify("werkbroek"),"bouwmarkt")
  def test_verification_not_claimed(self):
   v=record(row(),NOW)
   self.assertEqual(v["lowestEUR"],79.95)

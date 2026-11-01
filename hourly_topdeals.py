@@ -80,7 +80,7 @@ def classify(row):
     actual_sport=re.search(
         r"\b(hoka|arc.?teryx|padelballen|padelracket|tennisracket|"
         r"hardloopschoenen|sportschoenen|sportjack|outdoorjas|"
-        r"voetbalschoenen|yogamat|fitnessapparaat|"
+        r"voetbalschoenen|yogamat|fitnessapparaat|outdoor.?jas|"
         r"outdoor sweatjack)\b",text)
     actual_home=re.search(
         r"\b(wasmiddel|vaatwastabletten|wasverzachter|toiletpapier|"
@@ -242,6 +242,73 @@ def pick(row,wishes,source_id):
     }
 
 
+
+def match_search_profile(offer, profile):
+    """An umbrella wish can contain several distinct user requests.
+
+    Do not claim a MacBook Pro offer matches MacBook Air, nor HOKA Kawana an
+    Arahi. All resulting product hits STILL need SKU, size and shipping checks.
+    """
+    if profile.get("kind")!="product":
+        return False
+    ids=set(profile.get("wishlistIds") or [])
+    if not ids.intersection(w["id"] for w in offer.get("wishMatches", [])):
+        return False
+    title=normalize_name(offer.get("title"))
+    label=normalize_name(profile.get("name"))
+    if label=="macbook air": return "macbook air" in title
+    if label=="macbook pro": return "macbook pro" in title
+    if label=="hoka arahi": return "hoka arahi" in title
+    if label=="hoka kawana": return "hoka kawana" in title
+    if label=="vergelijkbare stabiliteitsschoenen":
+        return "hoka gaviota" in title or "stabiliteitsschoen" in title
+    if label=="apple airpods anc alternatief":
+        # Source title alone must actually mention ANC; standard AirPods
+        # without that term cannot be promoted as the user's wanted model.
+        return "anc" in title or "noise cancelling" in title or "ruisonderdrukking" in title
+    return True
+
+
+def profile_checks(profiles,pool,now):
+    """One visible result for EVERY supplied user wish, including services.
+
+    Service profiles and sample-sale research are not eligible price items.
+    These statuses explicitly prevent hourly scans being misreported as
+    actual service contract/API monitoring.
+    """
+    result=[]
+    for profile in profiles:
+        kind=profile.get("kind")
+        candidates=[x for x in pool if match_search_profile(x,profile)] if kind=="product" else []
+        candidates.sort(key=lambda x:(-x["rankScore"],x["priceEUR"]))
+        if kind=="product":
+            state="candidate" if candidates else "no_offer_in_feeds"
+            method="Existing retailer/supermarket feed title-matching, not an exact SKU check"
+            note=("Bronaanbod gevonden, maar variant, eventuele ANC/maat, voorraad en bezorgkosten controleren."
+                  if candidates else "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.")
+        elif kind=="service":
+            state="not_connected"
+            method="Separate contract feeds not connected"
+            note="Geen vergelijkbare live contractprijzen of postcode-/verbruikscontrole aangesloten."
+        else:
+            state="separate_event_monitor"
+            method="Official contest/sample-sale scanner is a separate feed"
+            note="Bijzondere sample sales verschijnen via de afzonderlijke evenementenscanner, niet als webshop-productkorting."
+        result.append({
+          "position":int(profile.get("position") or len(result)+1),
+          "name":str(profile.get("name") or "")[:120],
+          "kind":kind,
+          "state":state,
+          "method":method,
+          "note":note,
+          "checkedAgainstFeedAt":now.isoformat() if kind=="product" else None,
+          "trackedWishIds":list(profile.get("wishlistIds") or []) if kind=="product" else [],
+          "candidateCount":len(candidates),
+          "offers":candidates[:3],
+        })
+    return result
+
+
 def generate(sources,wishlist,now):
     health=[source_health(s,now) for s in sources]
     wishes=wishlist.get("items",[])
@@ -268,6 +335,7 @@ def generate(sources,wishlist,now):
     pool.sort(key=lambda x:(-bool(x["wishMatches"]),-x["rankScore"],
                             -float(x.get("advertisedDiscountPercent") or 0),
                             x["priceEUR"],x["title"].casefold()))
+    profiles=profile_checks(wishlist.get("searchProfiles",[]),pool,now)
     out={}
     for group in ORDER:
         selected=[x for x in pool if x["wishMatches"]] if group=="persoonlijk" else [x for x in pool if x["category"]==group]
@@ -291,6 +359,9 @@ def generate(sources,wishlist,now):
       "siteReviewedNow":False,
       "liveRetailerPriceCheck":False,
       "verifiedDealCount":0,
+      "profileCount":len(profiles),
+      "profileChecks":profiles,
+      "profileOfferCount":sum(p["candidateCount"] for p in profiles),
       "sourceHealth":health,"discarded":discarded,
       "eligibleCount":len(pool),"wishlistMatchedCount":sum(bool(x["wishMatches"]) for x in pool),
       "categories":out

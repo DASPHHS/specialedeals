@@ -2,7 +2,7 @@
 
 ## Korte conclusie
 
-De aangeleverde bronlijst bevat precies **23 niet-lege zoekprofielen**. Deze staan voortaan 1-op-1 in `wishlist.json.searchProfiles`; 20 zijn fysieke producten/productfamilies, 3 zijn contractvergelijkingen (*internet+tv*, *unlimited sim-only*, *gas+elektra*), terwijl **bijzondere sample sales** een evenementzoekprofiel is. Daardoor zijn het 19 productgerichte profielen, drie contractprofielen en één eventprofiel. De verschillen tussen afzonderlijke profielen en gegroepeerde scan-IDs (MacBook Air/Pro, HOKA Arahi/Kawana) zijn expliciet vastgelegd.
+De aangeleverde bronlijst bevat precies **23 niet-lege zoekprofielen**. Deze staan voortaan 1-op-1 in `wishlist.json.searchProfiles`; 19 zijn fysieke producten/productfamilies, 3 zijn contractvergelijkingen (*internet+tv*, *unlimited sim-only*, *gas+elektra*), terwijl **bijzondere sample sales** een evenementzoekprofiel is. Daardoor zijn het 19 productgerichte profielen, drie contractprofielen en één eventprofiel. De verschillen tussen afzonderlijke profielen en gegroepeerde scan-IDs (MacBook Air/Pro, HOKA Arahi/Kawana) zijn expliciet vastgelegd.
 
 ## Wat werkt al
 

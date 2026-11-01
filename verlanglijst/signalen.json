@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T14:30:53.840928+01:00",
+  "updatedAt": "2026-11-01T14:31:11.534241+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
     "2026-11-01T14:09:31+01:00"
@@ -12,7 +12,7 @@
   "researchCheckedCount": 12,
   "researchErrorCount": 0,
   "pricewatchCount": 0,
-  "pricewatchErrorCount": 5,
+  "pricewatchErrorCount": 0,
   "shopsSeen": 27,
   "shops": {
     "Albert Heijn": 3251,
@@ -60,7 +60,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_scanned",
+      "pricewatchStatus": "not_supported",
       "pricewatchSearchedAt": null
     },
     {
@@ -114,7 +114,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -133,11 +133,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "source_error",
-      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "apple-airpods-pro",
@@ -152,11 +152,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "source_error",
-      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "apple-macbook",
@@ -171,11 +171,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "source_error",
-      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "apple-watch-ultra",
@@ -190,11 +190,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "source_error",
-      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "rituals-homme",
@@ -209,7 +209,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -228,7 +228,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -247,7 +247,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -266,7 +266,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -285,7 +285,7 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -304,11 +304,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "source_error",
-      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "lampe-berger-geuren",
@@ -336,7 +336,7 @@
         }
       ],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "researchSearchedAt": "2026-11-01T14:30:51.246789+01:00",
       "pricewatchCount": 0,
       "pricewatchOffers": [],
       "pricewatchStatus": "not_supported",
@@ -358,7 +358,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_scanned",
+      "pricewatchStatus": "not_supported",
       "pricewatchSearchedAt": null
     },
     {
@@ -377,7 +377,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_scanned",
+      "pricewatchStatus": "not_supported",
       "pricewatchSearchedAt": null
     },
     {
@@ -415,7 +415,7 @@
       "researchSearchedAt": null,
       "pricewatchCount": 0,
       "pricewatchOffers": [],
-      "pricewatchStatus": "not_scanned",
+      "pricewatchStatus": "not_supported",
       "pricewatchSearchedAt": null
     },
     {

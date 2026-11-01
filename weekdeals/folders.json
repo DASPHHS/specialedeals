@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-01T11:46:15+01:00",
+  "source": "Folderwijzer",
+  "attribution": "Folders via Folderwijzer",
+  "source_url": "https://folderwijzer.nl/",
+  "description": "Folderniveau: geen productprijzen",
+  "folders": [
+    {
+      "id": "kruidvat:2026-10-27:2026-11-08",
+      "winkel": "Kruidvat",
+      "categorie": "Drogisterij",
+      "van": "2026-10-27",
+      "tot": "2026-11-08",
+      "url": "https://folderwijzer.nl/folder/768/",
+      "aanbiedingen_aantal": 438,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "trekpleister:2026-10-27:2026-11-08",
+      "winkel": "Trekpleister",
+      "categorie": "Drogisterij",
+      "van": "2026-10-27",
+      "tot": "2026-11-08",
+      "url": "https://folderwijzer.nl/folder/769/",
+      "aanbiedingen_aantal": 310,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "xenos:2026-10-19:2026-11-01",
+      "winkel": "Xenos",
+      "categorie": "Wonen & huishoudelijk",
+      "van": "2026-10-19",
+      "tot": "2026-11-01",
+      "url": "https://folderwijzer.nl/folder/731/",
+      "aanbiedingen_aantal": 60,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "xenos:2026-10-19:2026-12-06",
+      "winkel": "Xenos",
+      "categorie": "Wonen & huishoudelijk",
+      "van": "2026-10-19",
+      "tot": "2026-12-06",
+      "url": "https://folderwijzer.nl/folder/732/",
+      "aanbiedingen_aantal": 97,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "xenos:2026-10-19:2026-11-01",
+      "winkel": "Xenos",
+      "categorie": "Wonen & huishoudelijk",
+      "van": "2026-10-19",
+      "tot": "2026-11-01",
+      "url": "https://folderwijzer.nl/folder/770/",
+      "aanbiedingen_aantal": 69,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "xenos:2026-10-26:2027-01-03",
+      "winkel": "Xenos",
+      "categorie": "Wonen & huishoudelijk",
+      "van": "2026-10-26",
+      "tot": "2027-01-03",
+      "url": "https://folderwijzer.nl/folder/767/",
+      "aanbiedingen_aantal": 234,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    }
+  ]
+}

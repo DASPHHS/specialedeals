@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T14:20:45.476240+01:00",
+  "generatedAt": "2026-11-01T14:31:03.183003+01:00",
   "timeZone": "Europe/Amsterdam",
   "sortPolicy": "Wishlist affinity, individual item price, source quality, advertised reference discount and source diversity. This is a ranked shortlist, NOT verified savings.",
   "coverage": "Only PrijsProfeet and selected FeedMyCart/DA/Intratuin sources; not all supermarkets, building-supply stores or webshops.",
@@ -17,12 +17,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-airpods-pro"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 2,
@@ -31,12 +33,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-airpods"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 3,
@@ -45,12 +49,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "lampe-berger-geuren"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 4,
@@ -59,12 +65,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "luxe-huisparfum-alternatief"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 5,
@@ -73,12 +81,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "hightech-gadgets"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 6,
@@ -87,12 +97,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 7,
@@ -101,12 +113,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 8,
@@ -115,12 +129,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-imac"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 9,
@@ -129,12 +145,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "usb-hubs-premium"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 10,
@@ -143,12 +161,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 11,
@@ -157,12 +177,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 12,
@@ -171,12 +193,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 13,
@@ -185,12 +209,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "arcteryx-gamma-broek"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 14,
@@ -199,12 +225,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "arcteryx-werkbroek-alternatief"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 15,
@@ -213,12 +241,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "arcteryx-wit-logo-shirt"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 16,
@@ -230,7 +260,9 @@
       "checkedAgainstFeedAt": null,
       "trackedWishIds": [],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 17,
@@ -242,7 +274,9 @@
       "checkedAgainstFeedAt": null,
       "trackedWishIds": [],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 18,
@@ -254,7 +288,9 @@
       "checkedAgainstFeedAt": null,
       "trackedWishIds": [],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 19,
@@ -263,12 +299,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "dyson-handstofzuiger"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 20,
@@ -277,12 +315,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "dyson-airwrap"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 21,
@@ -291,12 +331,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "apple-watch-ultra"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 22,
@@ -305,12 +347,14 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-01T14:20:45.476240+01:00",
+      "checkedAgainstFeedAt": "2026-11-01T14:31:03.183003+01:00",
       "trackedWishIds": [
         "janzen-earth"
       ],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     },
     {
       "position": 23,
@@ -322,22 +366,25 @@
       "checkedAgainstFeedAt": null,
       "trackedWishIds": [],
       "candidateCount": 0,
-      "offers": []
+      "offers": [],
+      "comparisonCount": 0,
+      "comparisons": []
     }
   ],
   "profileOfferCount": 0,
+  "profileComparisonCount": 0,
   "sourceHealth": [
     {
       "source": "PrijsProfeet",
       "sourceUpdatedAt": "2026-11-01T12:34:36+01:00",
-      "ageHours": 1.8,
+      "ageHours": 1.9,
       "usable": true,
       "offersInSnapshot": 17919
     },
     {
       "source": "FeedMyCart",
       "sourceUpdatedAt": "2026-11-01T14:09:31+01:00",
-      "ageHours": 0.2,
+      "ageHours": 0.4,
       "usable": true,
       "offersInSnapshot": 219
     }

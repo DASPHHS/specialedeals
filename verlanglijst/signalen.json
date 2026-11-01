@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T14:09:48.283867+01:00",
+  "updatedAt": "2026-11-01T14:30:53.840928+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
-    "2026-11-01T13:24:28+01:00"
+    "2026-11-01T14:09:31+01:00"
   ],
   "wishCount": 23,
   "candidateCount": 0,
@@ -11,6 +11,8 @@
   "researchLeadCount": 2,
   "researchCheckedCount": 12,
   "researchErrorCount": 0,
+  "pricewatchCount": 0,
+  "pricewatchErrorCount": 5,
   "shopsSeen": 27,
   "shops": {
     "Albert Heijn": 3251,
@@ -55,7 +57,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_scanned",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "janzen-earth",
@@ -70,7 +76,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "hoka-schoenen",
@@ -85,7 +95,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "arcteryx-outdoor",
@@ -100,7 +114,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "apple-airpods",
@@ -115,7 +133,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "source_error",
+      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
     },
     {
       "id": "apple-airpods-pro",
@@ -130,7 +152,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "source_error",
+      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
     },
     {
       "id": "apple-macbook",
@@ -145,7 +171,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "source_error",
+      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
     },
     {
       "id": "apple-watch-ultra",
@@ -160,7 +190,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "source_error",
+      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
     },
     {
       "id": "rituals-homme",
@@ -175,7 +209,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "rituals-sport",
@@ -190,7 +228,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "giraffe-original",
@@ -205,7 +247,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "ysl-m7",
@@ -220,7 +266,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "ysl-y",
@@ -235,7 +285,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "apple-imac",
@@ -250,7 +304,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "source_error",
+      "pricewatchSearchedAt": "2026-11-01T14:30:52.963305+01:00"
     },
     {
       "id": "lampe-berger-geuren",
@@ -278,7 +336,11 @@
         }
       ],
       "researchStatus": "ok",
-      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00"
+      "researchSearchedAt": "2026-11-01T14:09:27.645377+01:00",
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "usb-hubs-premium",
@@ -293,7 +355,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_scanned",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "hightech-gadgets",
@@ -308,7 +374,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_scanned",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "premium-padel-balls",
@@ -323,7 +393,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "dyson-airwrap",
@@ -338,7 +412,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_scanned",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "arcteryx-gamma-broek",
@@ -353,7 +431,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "arcteryx-werkbroek-alternatief",
@@ -368,7 +450,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "arcteryx-wit-logo-shirt",
@@ -383,7 +469,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     },
     {
       "id": "luxe-huisparfum-alternatief",
@@ -398,7 +488,11 @@
       "researchLeadCount": 0,
       "researchLeads": [],
       "researchStatus": "stale",
-      "researchSearchedAt": null
+      "researchSearchedAt": null,
+      "pricewatchCount": 0,
+      "pricewatchOffers": [],
+      "pricewatchStatus": "not_supported",
+      "pricewatchSearchedAt": null
     }
   ],
   "policy": "Winkelacties zijn onbevestigde zoekhits. Alleen afzonderlijk geauditeerde identieke modellen met actuele NL-totaalprijs, onafhankelijke referentie en >=10% echte korting zijn koopdeals. Geen voorraad of bezorgkosten verzonnen.",

@@ -1,35 +1,79 @@
-# Weekdeals NL → persoonlijke Google Sheet
+# Weekdeals Bleiswijk — automatische aanbiedingen zonder Google Cloud
 
-**GitHub Actions staat ingesteld op dagelijks 05:30 UTC:** 06:30 uur in de winter en 07:30 uur in de zomer. Het script gebruikt de openbare Nederlandse PrijsProfeet-API. De API-test werkt zonder Google-inlog; schrijven naar je Google Sheet vereist nog aparte autorisatie.
+**Website:** https://dasphhs.github.io/specialedeals/weekdeals/
 
-De eerste fase ondersteunt supermarktacties. Action, Kruidvat, Etos, DA, Xenos, Zeeman, Wibra, HEMA, Praxis, GAMMA, HORNBACH, Intratuin, bol en andere webshops zijn al opgenomen in de broninventarisatie in de Google Sheet, maar hebben nog geen productimport. Picnic is een afzonderlijke, accountgebonden potentiële adapter.
+Dit project draait volledig via GitHub Actions en GitHub Pages. Er zijn geen
+eigen servers, serviceaccounts of geheime API-sleutels nodig voor de publieke bronnen.
 
-## Eénmalige veilige autorisatie
+## Wat werkt nu?
 
-1. Maak een Google Cloud-serviceaccount dat de Google Sheets API mag gebruiken en maak een JSON-sleutel.
-2. Deel de bestaande Google Sheet als **Bewerker** met het adres in het veld client_email uit de JSON-sleutel.
-3. Open **GitHub → DASPHHS/specialedeals → Settings → Secrets and variables → Actions → New repository secret**.
-4. Voeg twee secrets toe: GOOGLE_SERVICE_ACCOUNT_JSON (de volledige JSON-sleutel) en GOOGLE_SHEET_ID (de ID tussen /d/ en /edit in de URL van je Sheet). Optioneel: PRIJSPROFEET_API_KEY (gratis API-sleutel voor hogere limieten).
-5. Open **Actions → Weekdeals NL to Google Sheets → Run workflow** en controleer daarna je Sheet en de workflow-log.
+De API van PrijsProfeet levert een grote, gepagineerde selectie Nederlandse
+supermarktacties. De dagelijkse GitHub-run controleert de volledigheid vóór
+publicatie en schrijft `weekdeals/deals.json` naar GitHub Pages.
 
-**Zonder deze secrets wordt er geen Google Sheet bijgewerkt.** De dagelijkse workflow kan dan alleen de importer en de live bron-API testen. Deel een privésleutel nooit via chat, een issue, een commit of een openbare spreadsheet.
+Daarnaast wordt `weekdeals/nonfood.json` dagelijks opnieuw opgebouwd met
+zichtbare productaanbiedingen voor Kruidvat, Etos, Trekpleister, Action en Wibra
+via de openbare productselectie van FeedMyCart. DA komt rechtstreeks van de
+officiële `https://www.da.nl/aanbiedingen`-pagina.
 
-## Datastroom en controles
+**Geverifieerde stand 1 november 2026:** 174 niet-supermarktproducten en
+-acties: Kruidvat 40, Etos 40, Trekpleister 40, DA 24, Action 17, Wibra 13.
+Dit is **niet de volledige folderinhoud**. Onder de 40 Kruidvat-acties zijn
+39 acties waarvoor de openbare bron wél de korting maar géén europrijs noemt.
+Deze worden als `Prijs niet vermeld` weergegeven.
 
-De importer leest ALLE pagina's van /api/v1/products/promotional/all, waarbij per pagina maximaal 100 deals worden opgehaald. Hij controleert totalen, ontbrekende product-ID's, nulresultaten, dubbele IDs en veranderingen tijdens paginering.
+Het DA-overzicht geeft op de eerste HTML-pagina 24 producten. Een vermelde
+artikelprijs bij `2+3 gratis` is **niet** de effectieve prijs van vijf stuks.
+Het einde van zulke DA-acties wordt niet vermeld: die regels zijn slechts
+geldig als gecontroleerde momentopname van vandaag. Niets wordt verzonnen.
 
-Hij bewaart in Google Sheets onder meer de actieprijs, eventuele van-prijs, actieperiode, EAN, bundelprijs, ledenprijs, online/winkel-only en bronlink. Onbekende lokale voorraad of geschatte einddatum wordt gemarkeerd en niet als bevestiging gepresenteerd. De oorspronkelijke 49 demonstratierecords worden bij een geslaagde volledige import vervangen; toekomstige deals van andere adapters blijven behouden.
+## Codebestanden
 
-Vóór publicatie worden de resultaten naar het tabblad **API import - staging** geschreven en gecontroleerd. De daadwerkelijke vervanging van het tabblad **Alle deals** gebeurt met één Google Sheets batchUpdate. Weekweergaven gebruiken overlap met de lopende kalenderweek. Expired API-ID's worden eenmalig bewaard in **Historie**.
+| Bestand | Functie |
+|---|---|
+| `sync_deals.py` | PrijsProfeet ophalen, paginering, kwaliteitscontroles; optioneel Sheets-writer |
+| `publish_json.py` | API-aanbiedingen compacter publiceren in GitHub Pages |
+| `publish_nonfood_deals.py` | Productkaarten van vijf overige winkelketens controleren |
+| `da_adapter.py` | Officiële DA-aanbiedingenpagina uitlezen (naam, prijs, actie, bronlink) |
+| `publish_folders.py` | Alleen foldermetadata (geen productprijzen), apart van de productimport |
+| `tests/test_sync.py` | Supermarkt-API en foutcondities |
+| `tests/test_nonfood.py` | Productkaarten, promoties zonder prijs, vervaldatums |
+| `tests/test_da_adapter.py` | Officiële DA-productkaarten en onbekende einddatum |
 
-De volledigheidscontrole geldt voor de gerapporteerde PrijsProfeet-dataset, niet voor de werkelijkheid van alle winkels. Aanbiedingen zijn indicatief en lokale winkelprijzen kunnen afwijken. De gratis API vereist bronvermelding: [Aanbiedingen via PrijsProfeet](https://www.prijsprofeet.nl).
+### Dagelijkse jobs
 
-## Code en tests
+- `.github/workflows/publish-weekdeals.yml` — supermarktproducten dagelijks om
+  05:45 UTC (06:45 winter / 07:45 zomer).
+- `.github/workflows/publish-nonfood-products.yml` — niet-supermarktproducten
+  dagelijks om 06:10 UTC (07:10 winter / 08:10 zomer).
+- `.github/workflows/publish-weekdeals-folders.yml` — losse foldermetadata,
+  niet nodig om individuele productprijzen te kunnen bekijken.
+- `.github/workflows/weekdeals-google-sheets.yml` — optioneel, **alleen handmatig**.
+  Niet ingeschakeld voor automatische uitvoering: geen Google Cloud nodig.
 
-Importer: integrations/weekdeals/sync_deals.py
+## Dataveiligheid en eerlijkheid
 
-Tests: integrations/weekdeals/tests/test_sync.py
+De website controleert publicatiedatums, winkel, actieprijs en (wanneer bekend)
+kortingspercentage. Producten zonder concrete prijs mogen alleen zichtbaar worden
+als een échte actieomschrijving is gevonden. Bij een onbekende einddatum geeft
+de site dat duidelijk aan en toont de productmomentopname alleen op de
+controle-dag. Uit landelijke aanbiedingen volgt **geen** lokale voorraadgarantie
+voor Bleiswijk of omgeving.
 
-GitHub Actions: .github/workflows/weekdeals-google-sheets.yml
+Publieke bronnen: [PrijsProfeet](https://www.prijsprofeet.nl),
+[FeedMyCart](https://feedmycart.nl/en/countries/netherlands/) en
+[DA](https://www.da.nl/aanbiedingen). Voor Xenos, Zeeman, HEMA, bouwmarkten
+en overige winkels zijn nog geen voldoende betrouwbare productfeeds geactiveerd.
 
-API-specificatie: https://github.com/PrijsProfeet/supermarkt-api/blob/main/openapi.json
+Opmerking over andere scrapers: een Playwright-script dat alleen een installatie-
+instructie geeft is niet reproduceerbaar zonder het werkelijke `.py`-bestand.
+Folderz gaf bij de GitHub-proef een lege HTTP 202-reactie, en Folderwijzer
+blokkeerde productpagina's met HTTP 403. Die worden daarom niet als
+werkende productimport aangemerkt.
+
+## Zelf controleren of alles werkt
+
+Open het tabblad **Actions** van de GitHub-repository, selecteer de
+`Publish Nonfood Product Deals`- of `Publish Weekdeals Bleiswijk`-workflow,
+en controleer of de laatste run **success** heeft. Open daarna de website en
+selecteer `Drogisterij & Action`. Filters en CSV-export werken zonder login.

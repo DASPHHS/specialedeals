@@ -151,3 +151,24 @@ jobs:
                       print("PAIR",chain,i,repr(a[:68]),repr(b[:68]),"similarity",round(SequenceMatcher(None,a.casefold(),b.casefold()).ratio(),3),
                             "price",card["new"],o.get("lowPrice"),"valid",o.get("priceValidUntil"))
           PY
+
+      - name: Inspect official DA and Zeeman product markup
+        run: |
+          python - <<'PY'
+          import re
+          from urllib.request import Request,urlopen
+          for url in ("https://www.da.nl/aanbiedingen",
+                      "https://www.zeeman.com/nl-nl/weekaanbiedingen",
+                      "https://www.xenos.nl/folder",
+                      "https://www.hema.nl/aanbiedingen"):
+              try:
+                  with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0 (personal deal tracking)"}),timeout=30) as r:
+                      s=r.read(900000).decode("utf-8","replace")
+                      print("OFFICIAL",url,r.status,"bytes",len(s),"jsonld",s.count("application/ld+json"),
+                            "product-key",s.lower().count('"@type":"product"'),
+                            "link-products",s.lower().count("product-card"))
+                      for term in ("Melatonine kids","Dames Sweater","Xenos week","__NEXT_DATA__"):
+                          i=s.find(term)
+                          if i!=-1:print("SNIP",url,term,s[max(0,i-320):i+480].replace("\n"," ")[:800])
+              except Exception as e:print("OFFICIAL ERROR",url,repr(e))
+          PY

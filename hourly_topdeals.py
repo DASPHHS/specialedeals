@@ -87,7 +87,14 @@ def classify(row,source_id=None):
         r"toiletblok|allesreiniger|afwasmiddel|keukenrol|"
         r"stofzuiger|schoonmaakmiddel|luchtverfrisser|"
         r"geurproducten|waspods|wasmiddelpods|wasmiddel capsules|"
-        r"afwasblokjes|ariel.*pods|robij[n]? quickwash|boodschappentas|opbergbox)\b",text)
+        r"afwasblokjes|ariel.*pods|robij[n]? quickwash|wsmiddel|boodschappentas|opbergbox)\b",text)
+    # Explicit high-signal items missing from broad grocery category exports.
+    actual_bedding=re.search(r"\b(matras|matrassen|dekbedovertrek|kussensloop|boxspring|kussenset)\b",text)
+    actual_care=re.search(r"\b(mascara|lipgloss|lipstick|oogschaduw|make-up|"
+        r"max factor|facefinity|bodycrème|bodycreme|bodylotion|deodorant|"
+        r"tandpasta|doucecrème|douchecrème|handcrème|dagcrème)\b",text)
+    if actual_bedding:return "huis"
+    if actual_care:return "drogisterij"
     if actual_build:return "bouwmarkt"
     if actual_garden:return "tuin"
     if actual_tech:return "elektronica"

@@ -42,6 +42,11 @@ class Top10Tests(unittest.TestCase):
     self.assertEqual(classify(offer("Hoogvliet Goudse 48+ kaasstuk jong",categorie="Kaas",bron=None),"PrijsProfeet"),"supermarkt")
     self.assertEqual(classify(offer("Robijn Quickwash optimum white",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
     self.assertEqual(classify(offer("Ariel Pods",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
+    self.assertEqual(classify(offer("Emma Aanpasbaar matras 90 x 200 cm",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
+    self.assertEqual(classify(offer("Happy Earth 100% Natuurlijke Nourishing Bodycrème",categorie="Overig",bron=None),"FeedMyCart"),"drogisterij")
+    self.assertEqual(classify(offer("Max Factor Facefinity Compact Refill",categorie="Overig",bron=None),"FeedMyCart"),"drogisterij")
+    self.assertEqual(classify(offer("Max Factor Mascara",categorie="Overig",bron=None),"FeedMyCart"),"drogisterij")
+    self.assertEqual(classify(offer("Robijn Vloeibaar wsmiddel pinksensation",categorie="Overig",bron=None),"PrijsProfeet"),"huis")
 
  def test_deal_gates(self):
     self.assertTrue(eligible(offer(),NOW))

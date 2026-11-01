@@ -1,12 +1,35 @@
 <!doctype html>
-<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0f172a"><title>Weekdeals Bleiswijk</title>
+<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0f172a"><title>Weekdeals | Speciale Deals</title>
 <style>
 :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#162235;background:#f4f6f9}*{box-sizing:border-box}body{margin:0}header{background:#15253b;color:white;padding:28px 20px}header>div,main,footer{max-width:1200px;margin:auto}h1{margin:0 0 8px;font-size:clamp(26px,4vw,39px);letter-spacing:-.04em}p{line-height:1.5}.sub{color:#bfd3e7;margin:0}main{padding:24px 16px}nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}button,input,select{font:inherit}button{background:white;color:#1e3550;border:1px solid #cfd8e4;padding:10px 14px;border-radius:12px;cursor:pointer}button.active,button.primary{background:#156f63;border-color:#156f63;color:white}.controls{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;background:white;border:1px solid #dee5ed;border-radius:16px;padding:14px;margin-bottom:16px}input,select{width:100%;border:1px solid #d3dce6;border-radius:10px;padding:11px;background:#fff;color:#162235}.meta{display:flex;gap:14px;flex-wrap:wrap;color:#52657a;margin:12px 0 20px}.notice{border-left:4px solid #c59b3a;background:#fff8e8;padding:12px 16px;border-radius:8px;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}.card{background:#fff;border:1px solid #dce4ec;border-radius:16px;padding:17px;display:flex;flex-direction:column;gap:8px;min-height:202px}.tag{font-size:12px;font-weight:700;color:#225f58;text-transform:uppercase;letter-spacing:.03em}.name{font-weight:750;font-size:17px;line-height:1.3;min-height:43px}.price{font-size:27px;font-weight:800;letter-spacing:-.04em}.old{color:#66768a;text-decoration:line-through;font-size:14px;margin-left:8px}.sale{color:#096a4c;font-weight:700;font-size:13px}.small{font-size:12px;color:#52657a}.bottom{margin-top:auto}.bottom a{font-size:13px;color:#146d61;font-weight:700;overflow-wrap:anywhere}.status{padding:20px;background:white;border:1px solid #dce4ec;border-radius:12px}.pager{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px}.hide{display:none}footer{padding:20px 16px 40px;color:#64758a;font-size:13px}footer a{color:#256d69}@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.controls button{grid-column:1/-1}.card{min-height:182px}header{padding:25px 16px}} 
-.folderlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:16px 0 26px}.foldersTitle{margin:20px 0 10px;font-size:21px}.folderNote{font-size:13px;color:#566b80}.directory{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.directory a{display:flex;justify-content:space-between;gap:8px;border:1px solid #dce4ec;background:#fff;border-radius:11px;padding:12px 14px;text-decoration:none;color:#105c54;font-weight:700}.directory small{font-size:12px;font-weight:400;color:#63768d}.folderAction{display:inline-block;margin-top:12px;background:#156f63;border-radius:10px;padding:9px 12px;color:#fff;font-size:13px;text-decoration:none;font-weight:700}.folderinfo{border:1px solid #d7e2eb;background:#fff;border-radius:12px;padding:14px;margin:12px 0}.folderinfo p{margin:4px 0}.meta a{color:#146d61}</style></head>
-<body><header><div><h1>Weekdeals Bleiswijk</h1><p class="sub">Actuele aanbiedingen vergelijken · lokale winkels en online mogelijkheden</p></div></header>
+.folderlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:16px 0 26px}.foldersTitle{margin:20px 0 10px;font-size:21px}.folderNote{font-size:13px;color:#566b80}.directory{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.directory a{display:flex;justify-content:space-between;gap:8px;border:1px solid #dce4ec;background:#fff;border-radius:11px;padding:12px 14px;text-decoration:none;color:#105c54;font-weight:700}.directory small{font-size:12px;font-weight:400;color:#63768d}.folderAction{display:inline-block;margin-top:12px;background:#156f63;border-radius:10px;padding:9px 12px;color:#fff;font-size:13px;text-decoration:none;font-weight:700}.folderinfo{border:1px solid #d7e2eb;background:#fff;border-radius:12px;padding:14px;margin:12px 0}.folderinfo p{margin:4px 0}.meta a{color:#146d61}</style><link rel="stylesheet" href="../ui/speciale.css"></head>
+<body class="weekdeals"><header><div><a class="week-back" href="../">← Terug naar Speciale Deals</a><div class="week-overline">JOUW AANBIEDINGENOVERZICHT</div><h1>De weekdeals.<br>Helder op een rij.</h1><p class="sub">Supermarktacties, drogisterijaanbiedingen en andere winkelvondsten. Zoek slimmer, vergelijk per product en ontdek matches met je verlanglijst.</p></div></header>
 <main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button><button id="wishlist">Mijn verlanglijst</button><button id="nonfood">Drogisterij & andere winkels</button><button id="foldersTab">Overige winkels</button></nav>
 <div class="notice" id="scope">Supermarktacties via PrijsProfeet; geselecteerde drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart, plus prijsacties op DA.nl en Intratuin.nl. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.</div>
-<div class="controls"><input id="search" type="search" placeholder="Zoek product, merk of winkel…" aria-label="Zoeken"><select id="store" aria-label="Winkel"><option value="">Alle winkels</option></select><select id="category" aria-label="Categorie"><option value="">Alle categorieën</option></select><button id="export">Export CSV</button></div>
+<div class="controls">
+<input id="search" type="search" placeholder="Zoek product, merk of winkel…" aria-label="Zoeken">
+<select id="store" aria-label="Winkel"><option value="">Alle winkels</option></select>
+<select id="category" aria-label="Categorie"><option value="">Alle categorieën</option></select>
+<select id="offerType" aria-label="Soort aanbieding">
+<option value="all">Alle actievormen</option>
+<option value="discount30">Winkelkorting vanaf 30%</option>
+<option value="price">Met concrete prijs</option>
+<option value="loyalty">Met ledenprijs</option>
+<option value="bundle">Bundelaanbiedingen</option>
+</select>
+<select id="rank" aria-label="Sorteer aanbiedingen">
+<option value="name">Winkel en product</option>
+<option value="discount">Hoogste vermelde korting</option>
+<option value="priceLow">Laagste artikelprijs</option>
+<option value="priceHigh">Hoogste artikelprijs</option>
+</select>
+<button id="export">↓ Exporteer CSV</button>
+</div>
+<section class="week-metrics" aria-label="Stand van de aanbiedingenscanner">
+<div class="week-metric"><strong id="weekFound">—</strong><span>Getoonde aanbiedingen</span></div>
+<div class="week-metric"><strong id="weekPriced">—</strong><span>Met vermelde prijs</span></div>
+<div class="week-metric"><strong id="weekStores">—</strong><span>Winkels in selectie</span></div>
+</section>
 <div class="meta"><span id="count">Gegevens ophalen…</span><span id="stamp"></span><span id="scopeInfo"></span></div>
 <div id="message" class="status">Aanbiedingen laden…</div><section class="grid" id="cards" aria-live="polite"></section>
 <div id="pager" class="pager hide"><button id="prev">Vorige</button><span id="pageText"></span><button id="more">Volgende</button></div>
@@ -53,14 +76,35 @@ const inPeriod=d.tot?d.tot>=a&&((d.van&&d.van<=b)||(isObserved&&d.waargenomen_op
 return (mode==="wishlist" ? (current&&(!d.van||d.van<=today)&&window.WeekdealsWishlist?.matches(d.product,wishlistItems).length>0) : (mode==="all"||mode==="nonfood"||inPeriod))&&
 (mode!=="nonfood"||d.bron==="FeedMyCart"||d.bron==="DA.nl"||d.bron==="Intratuin.nl")&&
 (!isObserved||current)&&(!store||d.winkel===store)&&(!cat||d.categorie===cat)&&
-(!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))
-}).sort((a,b)=>a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl"))}
+(!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))&&
+(el("offerType").value==="all"||
+ (el("offerType").value==="discount30"&&typeof d.korting==="number"&&d.korting>=.30&&!d.bundelaantal&&d.prijstype!=="bundeltotaal")||
+ (el("offerType").value==="price"&&typeof d.prijs==="number"&&d.prijs>0)||
+ (el("offerType").value==="loyalty"&&typeof d.ledenprijs==="number"&&d.ledenprijs>0)||
+ (el("offerType").value==="bundle"&&typeof d.bundelaantal==="number"&&d.bundelaantal>=2))
+}).sort((a,b)=>{
+ const mode=el("rank").value;
+ if(mode==="discount"){
+   const x=(typeof a.korting==="number"&&!a.bundelaantal?a.korting:-1);
+   const y=(typeof b.korting==="number"&&!b.bundelaantal?b.korting:-1);
+   if(x!==y)return y-x;
+ }
+ if(mode==="priceLow"||mode==="priceHigh"){
+   const x=typeof a.prijs==="number"?a.prijs:(mode==="priceLow"?Infinity:-Infinity);
+   const y=typeof b.prijs==="number"?b.prijs:(mode==="priceLow"?Infinity:-Infinity);
+   if(x!==y)return mode==="priceLow"?x-y:y-x;
+ }
+ return a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl")
+})}
 function text(tag,value,cls){const n=document.createElement(tag);n.textContent=value;if(cls)n.className=cls;return n}
 function render(){if(!el("folderSection").classList.contains("hide"))return;const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));
 if(mode==="wishlist")el("scope").textContent="Mijn verlanglijst: mogelijke productmatches uit actuele openbare bronnen. Geen bewijs van 10% echte korting, identieke uitvoering, maat, voorraad of bezorgkosten naar Nederland.";
 else el("scope").textContent="Supermarktacties via PrijsProfeet; geselecteerde drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart, plus prijsacties op DA.nl en Intratuin.nl. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.";page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
 el("message").classList.toggle("hide",found.length>0);el("message").textContent=mode==="wishlist"&&wishlistError?wishlistError:all.length? "Geen aanbiedingen gevonden met deze filters.":"Geen gegevens beschikbaar. Controleer de laatste GitHub-run.";
 el("count").textContent=found.length.toLocaleString("nl-NL")+" aanbiedingen";
+el("weekFound").textContent=found.length.toLocaleString("nl-NL");
+el("weekPriced").textContent=found.filter(d=>typeof d.prijs==="number"&&d.prijs>0).length.toLocaleString("nl-NL");
+el("weekStores").textContent=new Set(found.map(d=>d.winkel).filter(Boolean)).size.toLocaleString("nl-NL");
 for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  const card=text("article","","card");card.append(text("div",d.winkel,"tag"),text("div",d.product,"name"));
  if(mode==="wishlist"){
@@ -70,7 +114,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  }
  const pricing=document.createElement("div"),p=text("span",typeof d.prijs==="number"?nl.format(d.prijs):"Prijs niet vermeld","price");pricing.append(p);
  if(typeof d.van_prijs==="number"&&d.van_prijs>d.prijs&&d.prijstype!=="bundeltotaal")pricing.append(text("span",nl.format(d.van_prijs),"old"));card.append(pricing);
- if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% korting","sale"));
+ if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% volgens winkelreferentie","sale"));
  if(d.actievorm)card.append(text("div",d.actievorm,"small"));
  if(d.verpakking)card.append(text("div",d.verpakking,"small"));
  if(d.prijstype==="bundeltotaal")card.append(text("div","Let op: getoonde prijs is het totale Aldi-bundelbedrag","small"));
@@ -91,7 +135,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  el("pager").classList.toggle("hide",found.length<=pageSize);el("pageText").textContent=(page+1)+" / "+pages;el("prev").disabled=page===0;el("more").disabled=page>=pages-1;
 }
 for(const key of ["now","next","all","nonfood","wishlist"])el(key).addEventListener("click",()=>{mode=key;page=0;for(const k of ["now","next","all","nonfood","wishlist"])el(k).classList.toggle("active",k===key);render()});
-for(const key of ["search","store","category"])el(key).addEventListener("input",()=>{page=0;render()});
+for(const key of ["search","store","category","offerType","rank"])el(key).addEventListener("input",()=>{page=0;render()});
 el("prev").onclick=()=>{page--;render();window.scrollTo(0,0)};el("more").onclick=()=>{page++;render();window.scrollTo(0,0)};
 el("export").onclick=()=>{const rows=[["Winkel","Product","Categorie","Actieprijs","Van-prijs","Van","Tot","Actievorm","Verpakking","Eenheidsprijs","Eenheid","Bundelaantal","Bundeltotaal","Ledenprijs","Loyaliteitsprogramma","Bron-URL"],...filtered().map(d=>[d.winkel,d.product,d.categorie,d.prijs,d.van_prijs,d.van,d.tot,d.actievorm,d.verpakking,d.eenheidsprijs,d.eenheid,d.bundelaantal,d.bundelprijs,d.ledenprijs,d.loyaliteitsprogramma,d.url])];const csv=rows.map(r=>r.map(v=>'"'+String(v??"").replaceAll('"','""')+'"').join(";")).join("\r\n");const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}));a.download="weekdeals-bleiswijk-"+iso(new Date())+".csv";a.click();URL.revokeObjectURL(a.href)};
 fetch("./deals.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(data=>{if(!Array.isArray(data.deals)||!data.updated_at||!data.source)throw Error("Ongeldig databestand");all=data.deals.concat(nonfoodRows);

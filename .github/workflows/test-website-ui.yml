@@ -1,0 +1,37 @@
+name: Website UI quality checks
+on:
+  push:
+    branches:
+      - main
+      - "feat/premium-ui-filters-20261101"
+    paths:
+      - "index.html"
+      - "weekdeals/index.html"
+      - "ui/**"
+      - ".github/workflows/test-website-ui.yml"
+  pull_request:
+    paths:
+      - "index.html"
+      - "weekdeals/index.html"
+      - "ui/**"
+      - ".github/workflows/test-website-ui.yml"
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check syntax, responsive HTML and feature wiring
+        run: |
+          node --check ui/deal-filters.js
+          node ui/deal-filters.test.js
+          node ui/site-smoke.test.js
+          node integrations/weekdeals/tests/test_wishlist_match.js
+      - name: Validate configuration files
+        run: |
+          python -m json.tool wishlist.json >/dev/null

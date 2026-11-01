@@ -2,6 +2,18 @@
 
 Publiek dashboard: https://dasphhs.github.io/specialedeals/
 
+## Nieuwe gebruikersinterface (november 2026)
+
+De website heeft een gezamenlijke visuele stijl voor [Speciale Deals](https://dasphhs.github.io/specialedeals/) en [Weekdeals](https://dasphhs.github.io/specialedeals/weekdeals/). De mobiele weergave heeft directe navigatie naar Ontdekken, Verlanglijst, Huisprojecten en Weekdeals.
+
+**Ontdekken:** snelle filters voor *Buitenkansjes*, *Hoogste bewezen korting*, *Grootste besparing in euro's*, *Sluit binnenkort*, *Nieuw deze week*, *Mijn verlanglijst* en *Bewaard*. Met **Wis filters** terug naar het standaardoverzicht. Kansen kun je met **Bewaar** lokaal markeren; ze worden uitsluitend in deze browser opgeslagen. Buitenkansjes zijn geverifieerde koopdeals van minimaal 20% korting of minimaal €75 aantoonbaar voordeel, officieel gecontroleerde winacties met prijswaarde vanaf €1.000, of relevante door de organisator bevestigde sample sales. Onbevestigde kortingsclaims uit research-kandidaten blijven hiervan gescheiden. Nul resultaten is een correcte uitkomst als er geen bewijs is.
+
+**Weekdeals:** extra filters voor concreet vermelde prijs, getoonde winkelkorting vanaf 30%, ledenprijs of bundelaanbieding; sortering op getoonde korting of artikelprijs, plus kaart- en CSV-overzicht. **Let op:** een door een winkel vermelde actie- of van-prijs bewijst nog geen echte prijsdaling ten opzichte van onafhankelijke historie. Weekdeals mag daarom geen geverifieerde prijsbesparing suggereren. Voor lokale prijzen en voorraad blijft een aparte controle nodig.
+
+**Verlanglijst:** een knop **Herstel ontbrekende wensen** voegt nieuwe centrale wensen toe aan een oudere lokaal opgeslagen lijst, zonder eigen toevoegingen te overschrijven. Om gewijzigde voorkeuren naar de scanner te sturen, moet de centrale `wishlist.json` nog steeds in GitHub worden bijgewerkt.
+
+Technisch: `ui/speciale.css`, `ui/deal-filters.js` en `ui/site-smoke.test.js`; CI via `.github/workflows/test-website-ui.yml`. De front-end houdt zich aan bestaande privacy- en prijsverificatieregels.
+
 ## Één centrale voorkeurenset
 
 De configuratie is gescheiden van de scanners en van de website. De automatische GitHub-scan leest:

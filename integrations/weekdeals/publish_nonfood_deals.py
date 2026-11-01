@@ -163,6 +163,52 @@ def parse(html,chain,observed):
             entry["korting"]=round((old-price)/old,6)
         if promo:entry["actievorm"]=promo[:160]
         data.append(entry)
+    # Public chain pages also contain visible offer cards absent from JSON-LD.
+    # Read only facts visibly printed on the card; the page-wide date is not
+    # claimed to be an individually verified promotion end date.
+    page_end=None
+    month_match=re.search(
+        r"Valid through\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+(\d{1,2})\s+"
+        r"(January|February|March|April|May|June|July|August|September|October|November|December)",
+        html,re.I)
+    if month_match:
+        try:
+            guessed=datetime.strptime(
+                month_match.group(1)+" "+month_match.group(2)+" "+str(observed.year),"%d %B %Y").date()
+            if guessed<observed.date() and (observed.date()-guessed).days>180:
+                guessed=guessed.replace(year=observed.year+1)
+            if observed.date()<=guessed and (guessed-observed.date()).days<=45:
+                page_end=guessed.isoformat()
+        except ValueError:
+            pass
+    ld_names={str(obj.get("name") or "").strip().casefold() for obj in ld}
+    for normalized,card in visible.items():
+        if normalized in ld_names:
+            continue  # Never downgrade a JSON-LD price contradiction to unvalidated HTML.
+        if not page_end:
+            continue
+        name=" ".join(card["name"].split())
+        price=money(card["new"])
+        promo=" ".join(card["promotion"].split())
+        if len(name)<3 or (price is None and not promo):
+            continue
+        old=money(card["old"])
+        if price is not None and old is not None and old<=price:
+            old=None
+        key=hashlib.sha256(
+            f"{chain}|{name.casefold()}|{price}|{page_end}|html".encode()).hexdigest()[:16]
+        extra={"id":f"feedmycart:{chain}:{key}","winkel":CHAINS[chain],
+               "product":name,"categorie":card["category"] or "Overig",
+               "tot":page_end,"waargenomen_op":observed.date().isoformat(),
+               "startdatum_onbekend":True,"einddatum_bron":"Paginabreed; niet per artikel",
+               "bron":"FeedMyCart","url":BASE.format(chain),
+               "kwaliteit":"Openbare productkaart; einddatum op paginaniveau, voorraad niet bevestigd"}
+        if price is not None:extra["prijs"]=price
+        if price is not None and old is not None:
+            extra["van_prijs"]=old
+            extra["korting"]=round((old-price)/old,6)
+        if promo:extra["actievorm"]=promo[:160]
+        data.append(extra)
     unique={x["id"]:x for x in data}
     LOG.info("%s: %d visible, %d JSON-LD, %d valid, %d skipped",
              chain,len(parser.items),len(ld),len(unique),rejected)

@@ -277,6 +277,48 @@ def valid_retained_sale(item,today=None):
 
 
 
+
+def read_curated_event(event,now,fetch_page=fetch):
+ """Recheck a known event detail on the source agenda before publishing it.
+
+ This is *not* independent organizer confirmation of tickets, stock, discounts
+ or prices. A source failure removes the lead instead of presenting old dates.
+ """
+ today=dt.datetime.fromisoformat(now.replace("Z","+00:00")).date()
+ try:
+  begin=dt.date.fromisoformat(event["startDate"])
+  end=dt.date.fromisoformat(event["endDate"])
+ except (KeyError,TypeError,ValueError):
+  return None
+ if end<today or begin>end or end-begin>dt.timedelta(days=30):
+  return None
+ url=event.get("url","")
+ if not is_real_sample_sale_event(event.get("title",""),url):
+  return None
+ raw=fetch_page(url)
+ page=html.unescape(re.sub(r"<[^>]*>"," ",raw)).casefold()
+ page=" ".join(page.split())
+ if not all(" ".join(str(phrase).casefold().split()) in page
+            for phrase in event.get("requiredPhrases",[])) or not event.get("requiredPhrases"):
+  return None
+ return {
+  "id":"curated-"+event["id"],"kind":"sales",
+  "title":event["title"],"source":event.get("source","Evenementagenda"),
+  "url":url,"score":75,"category":"Sample sales",
+  "city":event.get("city"),"location":event.get("location"),
+  "startDate":begin.isoformat(),"endDate":end.isoformat(),
+  "audience":event.get("audience","all"),"organizerVerified":False,
+  "priceVerified":False,"discoveredAt":now,"lastSeenAt":now,
+  "status":"Evenementagenda vandaag opnieuw geraadpleegd; organisator niet geverifieerd",
+  "description":event.get("notes","Controleer toegang en actuele voorwaarden bij de organisator."),
+  "conditions":"Ticket vereist" if event.get("mandatoryTicket") else "Toegang bij organisator controleren",
+  "discountClaim":event.get("claimedDiscount"),
+  "sourceCheckedAt":now,"eventPageObserved":True,
+  "wishlistMatches":[]
+ }
+
+
+
 def main():
  with open("winactie-profiel.json",encoding="utf-8") as f:contest_profile=json.load(f)
  with open("wishlist.json",encoding="utf-8") as f:wishlist=json.load(f)
@@ -327,6 +369,28 @@ def main():
     count+=1
    statuses.append({"name":name,"status":"ok","count":count})
   except Exception as e:statuses.append({"name":name,"status":"error","count":0,"error":str(e)[:120]})
+ # Individually monitored sample-sale event pages: date/brand evidence must be
+ # present in the actual source HTML today; these remain unverified offers.
+ try:
+  with open("sample-sales-to-watch.json",encoding="utf-8") as f:
+   monitored_events=json.load(f).get("items",[])
+ except (OSError,ValueError):
+  monitored_events=[]
+ for event in monitored_events:
+  try:
+   row=read_curated_event(event,now)
+   if row:
+    row["wishlistMatches"]=wishlist_hits(row["title"],wishlist_items)
+    items[row["id"]]=row
+    statuses.append({"name":event.get("title","Evenement"),"status":"ok","count":1})
+   else:
+    items.pop("curated-"+str(event.get("id")),None)
+    statuses.append({"name":event.get("title","Evenement"),"status":"no_match","count":0,
+                     "error":"Geen controleerbare actuele datums of eventdetail"})
+  except Exception as err:
+   items.pop("curated-"+str(event.get("id")),None)
+   statuses.append({"name":event.get("title","Evenement"),"status":"error","count":0,
+                    "error":str(err)[:100]})
  # Conservative expiration until explicit date parsing is available.
  for record in items.values():
   record["category"]=classify(record.get("title",""),record.get("kind",""))

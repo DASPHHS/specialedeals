@@ -47,3 +47,36 @@ jobs:
                       print("SAMPLE",page[max(0,idx-450):idx+850].replace("\n"," ")[:1300])
               except Exception as e:print("ERROR",url,repr(e))
           PY
+
+      - name: Check Folderz public listing accessibility and semantics
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          from urllib.error import HTTPError
+          from html.parser import HTMLParser
+          class A(HTMLParser):
+              def __init__(self):super().__init__();self.results=[];self.a=None
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if tag=="a" and ("/aanbieding" in a.get("href","") or "/actie" in a.get("href","")):
+                      self.a={"href":a.get("href"),"class":a.get("class"),"text":""}
+              def handle_data(self,txt):
+                  if self.a:self.a["text"]+=txt[:70]
+              def handle_endtag(self,tag):
+                  if tag=="a" and self.a:
+                      if len(self.results)<6:self.results.append(self.a)
+                      self.a=None
+          for url in ["https://www.folderz.nl/aanbiedingen/kruidvat",
+                      "https://www.folderz.nl/aanbiedingen/trekpleister",
+                      "https://www.folderz.nl/aanbiedingen/xenos"]:
+              try:
+                  with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0"}),timeout=25) as r:
+                      html=r.read().decode("utf-8","replace");status=r.status
+                  p=A();p.feed(html)
+                  print("FOLDERZ",url,"HTTP",status,"bytes",len(html),
+                        "anchors",p.results,"script_json",html.find("application/ld+json"))
+                  for key in ["Kruidvat lippenbalsem","Kruidvat","aanbieding-card","nu geldig"]:
+                      idx=html.find(key)
+                      if idx>=0:print("CONTEXT",key,html[max(0,idx-200):idx+300].replace("\n"," ")[:500])
+              except Exception as e: print("FOLDERZ ERROR",url,repr(e))
+          PY

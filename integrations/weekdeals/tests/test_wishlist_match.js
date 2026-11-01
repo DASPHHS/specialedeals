@@ -1,6 +1,6 @@
 "use strict";
 const assert = require("node:assert/strict");
-const {matches, containsPhrase} = require("../wishlist_match.js");
+const {matches, containsPhrase} = require("../../../weekdeals/wishlist_match.js");
 const {readFileSync} = require("node:fs");
 const {resolve} = require("node:path");
 const wishlist = JSON.parse(readFileSync(resolve(__dirname, "../../../wishlist.json"), "utf8")).items;

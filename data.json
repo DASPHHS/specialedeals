@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T12:24:27.388467+00:00",
+  "updatedAt": "2026-11-01T12:36:26.857856+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-11-01T12:24:27.388467+00:00",
-      "lastSeenAt": "2026-11-01T12:24:27.388467+00:00",
+      "discoveredAt": "2026-11-01T12:36:26.857856+00:00",
+      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -43,8 +43,8 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-11-01T12:24:27.388467+00:00",
-      "lastSeenAt": "2026-11-01T12:24:27.388467+00:00",
+      "discoveredAt": "2026-11-01T12:36:26.857856+00:00",
+      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
       "status": "Voorwaarden gecontroleerd"
     },
     {
@@ -73,7 +73,7 @@
       "score": 61,
       "audience": "all",
       "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-11-01T12:24:27.388467+00:00",
+      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
       "category": "Sample sales",
       "wishlistMatches": []
     },
@@ -209,7 +209,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "SuperSales",
@@ -278,7 +278,7 @@
   "wishlistLastRead": "2026-11-01",
   "radarProfileLastRead": "2026-10-28",
   "minDealDiscountPercent": 10,
-  "dealCandidates": 3,
+  "dealCandidates": 4,
   "wishlistProducts": [
     {
       "id": "dyson-handstofzuiger",
@@ -386,6 +386,36 @@
       "id": "premium-padel-balls",
       "name": "HEAD Padel Pro S+ / Pro+ ballen",
       "category": "Padel",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "dyson-airwrap",
+      "name": "Dyson Airwrap complete haarstyler",
+      "category": "Verzorging & haarstyling",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "arcteryx-gamma-broek",
+      "name": "Arc'teryx Gamma herenbroek W32–W34",
+      "category": "Outdoor & kleding",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "arcteryx-werkbroek-alternatief",
+      "name": "Arc'teryx heren werk-/outdoorbroek vergelijkbaar met Gamma",
+      "category": "Outdoor & kleding",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "arcteryx-wit-logo-shirt",
+      "name": "Arc'teryx wit heren T-shirt met logo L/XL",
+      "category": "Outdoor & kleding",
+      "maxPriceEUR": null
+    },
+    {
+      "id": "luxe-huisparfum-alternatief",
+      "name": "Betaalbare alternatieven voor luxe winkelparfum-huisgeuren",
+      "category": "Verzorging & huisgeur",
       "maxPriceEUR": null
     }
   ],

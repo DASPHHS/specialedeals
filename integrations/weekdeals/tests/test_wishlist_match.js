@@ -31,5 +31,7 @@ assert.deepEqual(ids("Andere koffiebonen 1kg"), []);
 assert.deepEqual(ids("Apple Watch Ultra 3 bandje"), []);
 assert.deepEqual(ids("YSL Y eau de parfum 100ml"), ["ysl-y"]);
 assert.deepEqual(ids("YSL M7 Oud Absolu 80ml"), ["ysl-m7"]);
+assert.deepEqual(ids("HEAD Padel Pro S+ ballen 3-pack"), ["premium-padel-balls"]);
+assert.deepEqual(ids("HEAD Padel Pro+ racket"), []);
 assert.deepEqual(ids(""), []);
 console.log("Wishlist matcher: all candidate matching tests passed");

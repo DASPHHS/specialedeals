@@ -3,6 +3,14 @@
 Publiek dashboard: https://dasphhs.github.io/specialedeals/
 
 
+## 23 aangeleverde wensen, inclusief contractvergelijkingen
+
+De oorspronkelijke lijst met 23 ingevulde zoekprofielen staat nu volledig en in dezelfde volgorde in `wishlist.json.searchProfiles`. Gedeelde zoekgroepen (MacBook Air/Pro, HOKA Arahi/Kawana) verwijzen naar de juiste centrale productwens zonder een dubbel aanbod als afzonderlijke bewezen korting te tellen. Nieuw als afzonderlijke productwens: Dyson Airwrap, Arc'teryx Gamma broek, vergelijkbare Arc'teryx werkbroek, wit Arc'teryx logo T-shirt en betaalbare alternatieven voor luxe huisparfums.
+
+Internet/TV, unlimited sim-only en gas/elektra staan apart in `wishlist.json.serviceProfiles`: dat zijn contractvergelijkingen zonder automatische webshopkorting. De verlanglijstpagina toont deze profielen afzonderlijk en vermeldt dat er nog geen rechtstreekse live contractfeed gekoppeld is. Sample sales vallen onder het bestaande `event-sales`-onderzoek.
+
+Het uitgewerkte [GitHub- en API-onderzoek](integrations/merchant_feeds/RESEARCH.md) onderscheidt Spryker-product-aanbodverwijzingen (architectuur, géén openbare prijs-API), PriceBuddy/changedetection (eigen monitoring), Awin/Daisycon/TradeTracker (licentie-afhankelijke echte merchant productfeeds), Keepa (Amazon-prijshistorie) en bol/Google Merchant APIs (alleen met passende partner-/merchanttoegang). De standaard[feedadapter](integrations/merchant_feeds/adapter.py) normaliseert uitsluitend aangeleverde, toegestane CSV/JSON-productfeeds en promoveert nooit winkelkortingsclaims naar geverifieerde deals.
+
 ## Mijn verlanglijst — automatische productradar
 
 De nieuwe [verlanglijstpagina](https://dasphhs.github.io/specialedeals/verlanglijst/) laat iedere centrale wens als eigen kaart zien, met **geverifieerde koopdeals** gescheiden van nog te controleren winkelacties. De pagina ondersteunt zoeken, statusfilters, sorteren, een richtprijs, eigen aanvullingen, varianten, link naar een product, import en export van JSON.

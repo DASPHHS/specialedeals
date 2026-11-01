@@ -183,11 +183,24 @@ def build(wishes,previous,now,lookup=search,sleep=lambda _:None):
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument("--online",action="store_true")
+    parser.add_argument("--disabled",action="store_true",help="Publish truthful source-unavailable state without requesting undocumented API")
     args=parser.parse_args()
     now=datetime.now(ZONE)
     wishlist=json.loads((ROOT/"wishlist.json").read_text(encoding="utf-8"))
     try:previous=json.loads(OUTPUT.read_text(encoding="utf-8"))
     except (OSError,ValueError):previous={}
+    if args.disabled:
+        data={"schemaVersion":1,"updatedAt":now.isoformat(),
+              "provider":"Tweakers Pricewatch (undocumented public suggest endpoint)",
+              "scope":"Undocumented endpoint returned non-JSON from GitHub Actions; automatic access disabled",
+              "searchedThisRun":0,"errorCount":0,"errors":[],
+              "results":[{"wishId":wid,"status":"source_unavailable","offers":[],"searchedAt":None} for wid in QUERIES],
+              "comparisonCount":0,
+              "policy":"No Pricewatch price is verified, connected or reported as current."}
+        OUTPUT.parent.mkdir(parents=True,exist_ok=True)
+        OUTPUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        print("Pricewatch suggestion feed is unavailable; stopped undocumented requests without inventing prices")
+        return
     data=build(wishlist["items"],previous,now,lookup=search if args.online else lambda w,n:[])
     if not args.online:
         print("Offline sanity run completed; no file changed")

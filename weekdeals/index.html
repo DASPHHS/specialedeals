@@ -5,7 +5,7 @@
 .folderlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:16px 0 26px}.foldersTitle{margin:20px 0 10px;font-size:21px}.folderNote{font-size:13px;color:#566b80}.directory{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.directory a{display:flex;justify-content:space-between;gap:8px;border:1px solid #dce4ec;background:#fff;border-radius:11px;padding:12px 14px;text-decoration:none;color:#105c54;font-weight:700}.directory small{font-size:12px;font-weight:400;color:#63768d}.folderAction{display:inline-block;margin-top:12px;background:#156f63;border-radius:10px;padding:9px 12px;color:#fff;font-size:13px;text-decoration:none;font-weight:700}.folderinfo{border:1px solid #d7e2eb;background:#fff;border-radius:12px;padding:14px;margin:12px 0}.folderinfo p{margin:4px 0}.meta a{color:#146d61}</style></head>
 <body><header><div><h1>Weekdeals Bleiswijk</h1><p class="sub">Actuele aanbiedingen vergelijken · lokale winkels en online mogelijkheden</p></div></header>
 <main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button><button id="nonfood">Drogisterij & Action</button><button id="foldersTab">Overige winkels</button></nav>
-<div class="notice" id="scope">Supermarktacties via PrijsProfeet; geselecteerde concrete drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.</div>
+<div class="notice" id="scope">Supermarktacties via PrijsProfeet; geselecteerde drogisterij-, Action- en Wibra-aanbiedingen via FeedMyCart, plus gecontroleerde DA-prijzen via DA.nl. De niet-food selectie is niet gelijk aan de complete folder. Lokale prijzen en voorraad kunnen verschillen.</div>
 <div class="controls"><input id="search" type="search" placeholder="Zoek product, merk of winkel…" aria-label="Zoeken"><select id="store" aria-label="Winkel"><option value="">Alle winkels</option></select><select id="category" aria-label="Categorie"><option value="">Alle categorieën</option></select><button id="export">Export CSV</button></div>
 <div class="meta"><span id="count">Gegevens ophalen…</span><span id="stamp"></span><span id="scopeInfo"></span></div>
 <div id="message" class="status">Aanbiedingen laden…</div><section class="grid" id="cards" aria-live="polite"></section>
@@ -45,7 +45,15 @@ function monday(offset=0){const n=new Date(),d=new Date(n.getFullYear(),n.getMon
 function iso(d){return [d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-")}
 function dates(){const a=iso(monday(mode==="next"?7:0)),b=iso(monday(mode==="next"?13:6));return {a,b}}
 function filtered(){const {a,b}=dates(),q=norm(el("search").value.trim()),store=el("store").value,cat=el("category").value;
-return all.filter(d=>(mode==="all"||mode==="nonfood"||(d.tot&&d.tot>=a&&((d.van&&d.van<=b)||(d.waargenomen_op&&d.waargenomen_op<=b))))&&(mode!=="nonfood"||d.bron==="FeedMyCart")&&(!d.waargenomen_op||d.tot>=iso(new Date()))&&(!store||d.winkel===store)&&(!cat||d.categorie===cat)&&(!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))).sort((a,b)=>a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl"))}
+return all.filter(d=>{const today=iso(new Date()),isObserved=!!d.waargenomen_op;
+const current=d.tot?d.tot>=today:d.waargenomen_op===today;
+const inPeriod=d.tot?d.tot>=a&&((d.van&&d.van<=b)||(isObserved&&d.waargenomen_op<=b)):
+   (mode==="now"&&d.waargenomen_op===today);
+return (mode==="all"||mode==="nonfood"||inPeriod)&&
+(mode!=="nonfood"||d.bron==="FeedMyCart"||d.bron==="DA.nl")&&
+(!isObserved||current)&&(!store||d.winkel===store)&&(!cat||d.categorie===cat)&&
+(!q||norm([d.product,d.winkel,d.categorie,d.verpakking,d.ean].join(" ")).includes(q))
+}).sort((a,b)=>a.winkel.localeCompare(b.winkel,"nl")||a.product.localeCompare(b.product,"nl"))}
 function text(tag,value,cls){const n=document.createElement(tag);n.textContent=value;if(cls)n.className=cls;return n}
 function render(){if(!el("folderSection").classList.contains("hide"))return;const found=filtered(),pages=Math.max(1,Math.ceil(found.length/pageSize));page=Math.max(0,Math.min(page,pages-1));el("cards").replaceChildren();
 el("message").classList.toggle("hide",found.length>0);el("message").textContent=all.length? "Geen aanbiedingen gevonden met deze filters.":"Geen gegevens beschikbaar. Controleer de laatste GitHub-run.";
@@ -57,7 +65,7 @@ for(const d of found.slice(page*pageSize,(page+1)*pageSize)){
  if(typeof d.korting==="number"&&d.korting>0&&d.korting<=1&&!d.bundelaantal)card.append(text("div",Math.round(d.korting*100)+"% korting","sale"));
  if(d.actievorm)card.append(text("div",d.actievorm,"small"));
  if(d.verpakking)card.append(text("div",d.verpakking,"small"));
- const bottom=text("div","","bottom");bottom.append(text("div",d.waargenomen_op?"Gecontroleerd "+d.waargenomen_op+" · gepubliceerd geldig t/m "+(d.tot||"onbekend"):(d.van||"Datum onbekend")+" t/m "+(d.tot||"onbekend"),"small"));
+ const bottom=text("div","","bottom");bottom.append(text("div",d.einddatum_onbekend?"Prijs gecontroleerd "+d.waargenomen_op+" · einddatum niet vermeld":d.waargenomen_op?"Gecontroleerd "+d.waargenomen_op+" · gepubliceerd geldig t/m "+(d.tot||"onbekend"):(d.van||"Datum onbekend")+" t/m "+(d.tot||"onbekend"),"small"));
  if(d.bron==="FeedMyCart")bottom.append(text("div",d.einddatum_bron?"Einddatum geldt voor bronpagina, niet per product":"Openbare productselectie; niet de volledige folder","small"));
  if(d.ledenprijs)bottom.append(text("div","Ledenprijs: "+nl.format(d.ledenprijs),"small"));
  if(d.kanaal&&d.kanaal!=="Online/winkel onbekend")bottom.append(text("div",d.kanaal,"small"));
@@ -129,11 +137,11 @@ fetch("./nonfood.json?ts="+Date.now(),{cache:"no-store"})
     if(!Array.isArray(data.deals)||!data.updated_at||data.source!=="FeedMyCart")throw Error("Ongeldige non-food import");
     const updated=new Date(data.updated_at).getTime();
     if(!Number.isFinite(updated)||Date.now()-updated>3*24*60*60*1000)throw Error("Nonfood-bron verouderd");
-    nonfoodRows=data.deals.filter(d=>d&&d.bron==="FeedMyCart"&&d.winkel&&d.product&&(typeof d.prijs==="number"||!!d.actievorm)&&d.tot>=iso(new Date()));
-    all=all.filter(d=>d.bron!=="FeedMyCart").concat(nonfoodRows);
+    nonfoodRows=data.deals.filter(d=>d&&(d.bron==="FeedMyCart"||d.bron==="DA.nl")&&d.winkel&&d.product&&(typeof d.prijs==="number"||!!d.actievorm)&&(d.tot?d.tot>=iso(new Date()):d.waargenomen_op===iso(new Date())));
+    all=all.filter(d=>d.bron!=="FeedMyCart"&&d.bron!=="DA.nl").concat(nonfoodRows);
     syncSelections();
     el("nonfood").textContent="Drogisterij & Action ("+nonfoodRows.length+")";
-    el("scopeInfo").textContent="Bronnen: PrijsProfeet + FeedMyCart (selectie)";
+    el("scopeInfo").textContent="Bronnen: PrijsProfeet + FeedMyCart + DA.nl (selectie)";
     render();
   }).catch(err=>{el("scopeInfo").textContent="Drogisterij-import niet actueel: "+err.message;});
 

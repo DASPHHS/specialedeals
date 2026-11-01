@@ -350,6 +350,30 @@
       "category": "Tech & gadgets",
       "maxPriceEUR": null,
       "notes": "Ontdekkingscategorie, geen vaste eisen of automatische koopaanbeveling; alleen innovatieve bruikbare producten met onafhankelijke prijs- en kwaliteitscontrole."
+    },
+    {
+      "id": "premium-padel-balls",
+      "name": "HEAD Padel Pro S+ / Pro+ ballen",
+      "keywords": [
+        "HEAD Padel Pro S+",
+        "HEAD Padel Pro+"
+      ],
+      "matchAny": [
+        "HEAD Padel Pro S+",
+        "HEAD Padel Pro+"
+      ],
+      "excludeTerms": [
+        "racket",
+        "padeltas",
+        "padel racket",
+        "tas"
+      ],
+      "region": "NL + EU",
+      "category": "Padel",
+      "maxPriceEUR": null,
+      "discountOnly": true,
+      "minimumVerifiedDiscountPercent": 10,
+      "notes": "Uitsluitend aantoonbare tijdelijke korting minimaal 10% op exacte HEAD Pro S+ of Pro+, gelijke verpakking en prijs per drie ballen; bulkprijzen zonder actiehistorie zijn geen deal. NL bezorgkosten verplicht."
     }
   ],
   "outdoorBrandAllowlist": [

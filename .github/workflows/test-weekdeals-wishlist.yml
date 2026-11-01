@@ -5,6 +5,8 @@ on:
       - main
     paths:
       - "wishlist.json"
+      - "onderzoeksplan.json"
+      - "test_research_plan.py"
       - "weekdeals/index.html"
       - "weekdeals/wishlist_match.js"
       - "integrations/weekdeals/tests/test_wishlist_match.js"
@@ -32,6 +34,7 @@ jobs:
           node --check weekdeals/wishlist_match.js
           node integrations/weekdeals/tests/test_wishlist_match.js
           python -m json.tool wishlist.json >/dev/null
+          python -m unittest -v test_research_plan.py
       - name: Check inline page JavaScript
         run: |
           python - <<'PY'

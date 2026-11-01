@@ -50,8 +50,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
-          git checkout main
-          git pull --rebase origin main
+          git checkout -f main
+          git reset --hard origin/main
           mkdir -p weekdeals
           cp "$RUNNER_TEMP/nonfood.json" weekdeals/nonfood.json
           git add weekdeals/nonfood.json

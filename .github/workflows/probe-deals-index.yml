@@ -26,6 +26,10 @@ jobs:
             "https://feedmycart.nl/en/deals/netherlands/?category=health-beauty",
             "https://feedmycart.nl/en/deals/netherlands/?chain=kruidvat",
             "https://feedmycart.nl/en/deals/netherlands/?q=elmex",
+            "https://feedmycart.nl/en/deals/netherlands/health-beauty/",
+            "https://feedmycart.nl/en/deals/netherlands/cleaning-laundry/",
+            "https://feedmycart.nl/en/deals/netherlands/household/",
+            "https://feedmycart.nl/en/deals/netherlands/baby-kids/",
             "https://feedmycart.nl/en/countries/netherlands/kruidvat/?page=2",
             "https://feedmycart.nl/en/categories/netherlands/health-beauty/",
           ]

@@ -190,3 +190,26 @@ jobs:
                       print("DA-HIT",term,s.find(term))
               except Exception as e:print("DA-ERROR",url,repr(e))
           PY
+
+      - name: Inspect DA visible card selectors and prices
+        run: |
+          python -m pip -q install beautifulsoup4
+          python - <<'PY'
+          import re
+          from bs4 import BeautifulSoup
+          from urllib.request import Request,urlopen
+          with urlopen(Request("https://www.da.nl/aanbiedingen",headers={"User-Agent":"WeekdealsBleiswijk/1.0"}),timeout=30) as r:s=r.read().decode("utf-8","replace")
+          soup=BeautifulSoup(s,"html.parser")
+          hs=soup.select("h2.ProductListItem-title")
+          print("DA-BS4","productcount",len(hs))
+          for h in hs[:3]:
+              print("DA-TITLE",h.get_text(" ",strip=True))
+              for i,p in enumerate(h.parents):
+                  if i>6:break
+                  print("DA-PARENT",i,p.name,p.get("class"),"txt",p.get_text(" ",strip=True)[-170:])
+              parent=next((p for p in h.parents if p.get("class") and any("ProductListItem" in x and ("root" in x.lower() or "container" in x.lower()) for x in p.get("class",[]))),None)
+              if parent:
+                  print("DA-ROOT",str(parent)[:900])
+                  for cls in ["ProductListPrice-root","price","decimal","ProductListItem-title"]:
+                      x=parent.select("."+cls);print("DA-SELECT",cls,[y.get_text(" ",strip=True)[:60] for y in x[:5]])
+          PY

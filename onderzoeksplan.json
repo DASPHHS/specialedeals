@@ -386,7 +386,10 @@
       "priceEvidence": "Current NL all-in purchase price incl. VAT/shipping; source URL, timestamp and seller. MSRP not a discount.",
       "frequency": "daily_or_rotated",
       "wishlistIds": [
-        "arcteryx-outdoor"
+        "arcteryx-outdoor",
+        "arcteryx-gamma-broek",
+        "arcteryx-werkbroek-alternatief",
+        "arcteryx-wit-logo-shirt"
       ]
     },
     {
@@ -1154,7 +1157,10 @@
       "minimumRetailersTarget": 3,
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Current NL all-in price with timestamp. Only claim >=10% discount with independently evidenced real history or comparable identical SKU; MSRP is insufficient.",
-      "frequency": "daily_or_rotated"
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "luxe-huisparfum-alternatief"
+      ]
     },
     {
       "id": "usb-hubs-premium",
@@ -1242,6 +1248,39 @@
       "minimumIndependentCrosschecksTarget": 1,
       "priceEvidence": "Show deal ONLY with >=10% independently verified real temporary reduction and concrete same-SKU comparable history; article price and NL shipping included; without history no verified deal.",
       "frequency": "daily_or_rotated"
+    },
+    {
+      "id": "dyson-airwrap",
+      "name": "Dyson Airwrap complete haarstyler",
+      "category": "beauty-tech",
+      "priority": "standard",
+      "exactMatchRule": "Dyson Airwrap complete original styling set by generation, exact attachments, color and warranty, new versus refurbished strictly separate. Exclude loose attachments, cases and compatible imitations.",
+      "retailerSourceIds": [
+        "dyson",
+        "coolblue",
+        "mediamarkt",
+        "bol",
+        "amazon-nl",
+        "amazon-de",
+        "galaxus",
+        "proshop"
+      ],
+      "crosscheckSourceIds": [
+        "kieskeurig",
+        "idealo-de",
+        "keepa"
+      ],
+      "discoverySourceIds": [
+        "pepper",
+        "mydealz"
+      ],
+      "minimumRetailersTarget": 3,
+      "minimumIndependentCrosschecksTarget": 1,
+      "priceEvidence": "Exact model configuration, all-in Dutch delivery costs, real stock and independently verified same-model price history; no advertised MSRP as proof.",
+      "frequency": "daily_or_rotated",
+      "wishlistIds": [
+        "dyson-airwrap"
+      ]
     }
   ]
 }

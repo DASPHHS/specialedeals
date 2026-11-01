@@ -16,7 +16,7 @@
   if(/usb|thunderbolt|gadgets|e-ink/.test(n))return "Tech & gadgets";
   return "Overig";
  };
- let central=[],signals=null,editing=null,expanded=new Set(),loaded=false;
+ let central=[],serviceProfiles=[],searchProfiles=[],signals=null,editing=null,expanded=new Set(),loaded=false;
  let state={local:[],overrides:{}};
  try{const x=JSON.parse(localStorage.getItem(KEY)||"null");
   if(x&&typeof x==="object"){if(Array.isArray(x.local))state.local=x.local;
@@ -78,7 +78,7 @@
    (w.local?'<button class="wish-mini light" type="button" data-action="remove" data-id="'+esc(w.id)+'" aria-label="Verwijder deze wens">×</button>':'');
   const search="https://www.google.com/search?tbm=shop&q="+encodeURIComponent(w.name);
   const offers=h.verified.map(x=>offerRow(x,true)).join("")+h.candidates.map(x=>offerRow(x,false)).join("");
-  return '<article class="wish-card'+(h.vcount?' with-deal':'')+'">'+
+  return '<article class="wish-card'+(h.vcount?' with-deal':'')+'" id="wish-'+esc(w.id)+'">'+
    '<div class="wish-card-top"><div><span class="wish-card-category">'+esc(w.category)+'</span><h3>'+esc(w.name)+'</h3></div>'+
    '<span class="wish-card-icon" aria-hidden="true">'+(h.vcount?'✳':h.ccount?'⌕':'♡')+'</span></div>'+
    '<div class="wish-card-status">'+label+(w.local?'<span class="wish-badge local">Alleen op dit apparaat</span>':'')+
@@ -119,6 +119,26 @@
   el("statCandidates").textContent=(signals?.candidateCount??0).toLocaleString("nl-NL");
   el("statStores").textContent=signals?.shopsSeen!=null?signals.shopsSeen.toLocaleString("nl-NL"):"—";
   el("heroMatchCount").textContent=(signals?.candidateCount??0).toLocaleString("nl-NL");
+  renderServices();
+  renderOriginalProfiles();
+ }
+
+ function renderServices(){
+  el("servicesGrid").innerHTML=serviceProfiles.length?serviceProfiles.map(x=>
+    '<article class="watch-service-card"><span class="wish-card-category">'+esc(x.category||"Abonnement")+'</span>'+
+    '<h3>'+esc(x.name)+'</h3><p>'+esc(x.notes||"")+'</p>'+
+    '<div class="watch-service-unit">Vergelijk: '+esc(x.comparisonUnit||"contractvoorwaarden")+'</div>'+
+    '<span class="wish-badge candidate">Nog geen gekoppelde live contractfeed</span></article>'
+  ).join(""):'<p>Er zijn nog geen centrale contractprofielen beschikbaar.</p>';
+ }
+ function renderOriginalProfiles(){
+  el("originalProfiles").innerHTML=searchProfiles.length?searchProfiles.map(p=>{
+    const id=p.wishlistIds?.[0];
+    const link=id?'#wish-'+encodeURIComponent(id):p.kind==="service"?'#servicesTitle':'../#sales';
+    const kind=p.kind==="service"?"Contract":p.kind==="event"?"Evenement":"Product";
+    return '<a href="'+esc(link)+'" class="original-profile-row"><span class="original-profile-num">'+p.position+'.</span>'+
+      '<span>'+esc(p.name)+'</span><small>'+kind+'</small></a>';
+   }).join(""):'<p>De 23 zoekprofielen konden niet worden geladen.</p>';
  }
  function edit(w){
   editing=w||null;el("editor").hidden=false;el("wishForm").reset();
@@ -176,7 +196,7 @@
   status("Centrale lijst en actueel winkelaanbod laden…");
   const fetchJson=async url=>{const r=await fetch(url+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()};
   const [a,b]=await Promise.allSettled([fetchJson("../wishlist.json"),fetchJson("./signalen.json")]);
-  if(a.status==="fulfilled"&&Array.isArray(a.value.items)){central=a.value.items;if(!loaded)migrate();loaded=true}
+  if(a.status==="fulfilled"&&Array.isArray(a.value.items)){central=a.value.items;serviceProfiles=Array.isArray(a.value.serviceProfiles)?a.value.serviceProfiles:[];searchProfiles=Array.isArray(a.value.searchProfiles)?a.value.searchProfiles:[];if(!loaded)migrate();loaded=true}
   signals=b.status==="fulfilled"&&Array.isArray(b.value.items)?b.value:null;
   if(!central.length)status("Centrale verlanglijst niet bereikbaar. Je lokale wensen blijven zichtbaar.",true);
   else if(!signals)status("Centrale verlanglijst geladen; de nieuwe radar-index is nog niet beschikbaar.",true);

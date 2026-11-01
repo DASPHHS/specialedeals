@@ -99,6 +99,9 @@
    '<div class="wish-card-cta"><div class="wish-card-actions">'+actions+'</div><a href="'+esc(search)+'" target="_blank" rel="noopener noreferrer">Zoek breder ↗</a></div>'+
    (w.url&&urlSafe(w.url)?'<a href="'+esc(urlSafe(w.url))+'" class="wish-more-note" target="_blank" rel="noopener noreferrer">Jouw productlink ↗</a>':'')+
    (w.local?'<div class="wish-more-note">Nieuwe lokale wensen worden nog niet automatisch via de centrale bronnen doorzocht. Voeg ze aan GitHub toe voor dagelijkse tracking.</div>':'')+
+   (!w.local&&h.searchStatus==="source_error"?'<div class="wish-more-note">Externe productzoekbron gaf een fout; er is geen volledige controle uitgevoerd.</div>':
+    !w.local&&h.searchStatus==="not_scanned"?'<div class="wish-more-note">Deze wens wacht nog op de gerichte externe zoekronde.</div>':
+    !w.local&&h.searchStatus==="stale"?'<div class="wish-more-note">Eerdere zoekresultaten zijn verlopen en verborgen tot een nieuwe controle.</div>':'')+
    (count?'<div class="wish-offers" '+(open?'':'hidden')+'>'+offers+
      (h.ccount>h.candidates.length?'<p class="wish-more-note">'+(h.ccount-h.candidates.length)+' extra onderzoekshits niet getoond.</p>':'')+'</div>':'')+
    '</article>';

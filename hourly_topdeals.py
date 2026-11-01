@@ -276,7 +276,7 @@ def match_search_profile(offer, profile):
     return True
 
 
-def profile_checks(profiles,pool,now):
+def profile_checks(profiles,pool,now,pricewatch=None):
     """One visible result for EVERY supplied user wish, including services.
 
     Service profiles and sample-sale research are not eligible price items.
@@ -284,12 +284,25 @@ def profile_checks(profiles,pool,now):
     actual service contract/API monitoring.
     """
     result=[]
+    comparison_by_wish={r["wishId"]:r for r in (pricewatch or {}).get("results",[])
+                        if isinstance(r,dict) and r.get("wishId")}
     for profile in profiles:
         kind=profile.get("kind")
         candidates=[x for x in pool if match_search_profile(x,profile)] if kind=="product" else []
         candidates.sort(key=lambda x:(-x["rankScore"],x["priceEUR"]))
+        comparisons=[]
         if kind=="product":
-            state="candidate" if candidates else "no_offer_in_feeds"
+            for wid in profile.get("wishlistIds") or []:
+                row=comparison_by_wish.get(wid,{})
+                for item in row.get("offers",[]):
+                    title=normalize_name(item.get("title",""))
+                    label=normalize_name(profile.get("name",""))
+                    if label=="macbook air" and "macbook air" not in title:continue
+                    if label=="macbook pro" and "macbook pro" not in title:continue
+                    if label=="hoka arahi" and "hoka arahi" not in title:continue
+                    if label=="hoka kawana" and "hoka kawana" not in title:continue
+                    comparisons.append(item)
+            state="candidate" if candidates else "price_comparison" if comparisons else "no_offer_in_feeds"
             method="Existing retailer/supermarket feed title-matching, not an exact SKU check"
             note=("Bronaanbod gevonden, maar variant, eventuele ANC/maat, voorraad en bezorgkosten controleren."
                   if candidates else "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.")
@@ -312,11 +325,13 @@ def profile_checks(profiles,pool,now):
           "trackedWishIds":list(profile.get("wishlistIds") or []) if kind=="product" else [],
           "candidateCount":len(candidates),
           "offers":candidates[:3],
+          "comparisonCount":len(comparisons),
+          "comparisons":comparisons[:3],
         })
     return result
 
 
-def generate(sources,wishlist,now):
+def generate(sources,wishlist,now,pricewatch=None):
     health=[source_health(s,now) for s in sources]
     wishes=wishlist.get("items",[])
     pool=[]
@@ -342,7 +357,7 @@ def generate(sources,wishlist,now):
     pool.sort(key=lambda x:(-bool(x["wishMatches"]),-x["rankScore"],
                             -float(x.get("advertisedDiscountPercent") or 0),
                             x["priceEUR"],x["title"].casefold()))
-    profiles=profile_checks(wishlist.get("searchProfiles",[]),pool,now)
+    profiles=profile_checks(wishlist.get("searchProfiles",[]),pool,now,pricewatch)
     out={}
     for group in ORDER:
         selected=[x for x in pool if x["wishMatches"]] if group=="persoonlijk" else [x for x in pool if x["category"]==group]
@@ -369,6 +384,7 @@ def generate(sources,wishlist,now):
       "profileCount":len(profiles),
       "profileChecks":profiles,
       "profileOfferCount":sum(p["candidateCount"] for p in profiles),
+      "profileComparisonCount":sum(p["comparisonCount"] for p in profiles),
       "sourceHealth":health,"discarded":discarded,
       "eligibleCount":len(pool),"wishlistMatchedCount":sum(bool(x["wishMatches"]) for x in pool),
       "categories":out
@@ -381,7 +397,7 @@ def main():
         return json.loads((ROOT/path).read_text(encoding="utf-8"))
     feeds=[read("weekdeals/deals.json"),read("weekdeals/nonfood.json")]
     wishlist=read("wishlist.json")
-    data=generate(feeds,wishlist,now)
+    data=generate(feeds,wishlist,now,read("verlanglijst/prijsvergelijkers.json") if (ROOT/"verlanglijst/prijsvergelijkers.json").exists() else None)
     if not any(x["usable"] for x in data["sourceHealth"]):
         raise SystemExit("All input sources stale or missing: refusing to publish misleading top-10")
     OUT.parent.mkdir(parents=True,exist_ok=True)

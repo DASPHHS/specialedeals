@@ -1,0 +1,99 @@
+name: Publish wishlist product radar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 5,6 * * *"
+  pull_request:
+    paths:
+      - "wishlist_radar.py"
+      - "test_wishlist_radar.py"
+      - "verlanglijst/**"
+      - "wishlist.json"
+      - ".github/workflows/publish-wishlist-radar.yml"
+  push:
+    branches: [main]
+    paths:
+      - "wishlist_radar.py"
+      - "test_wishlist_radar.py"
+      - "verlanglijst/index.html"
+      - "verlanglijst/app.js"
+      - "verlanglijst/style.css"
+      - "wishlist.json"
+      - "weekdeals/deals.json"
+      - "weekdeals/nonfood.json"
+      - "verified-deals.json"
+      - ".github/workflows/publish-wishlist-radar.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publish-wishlist-radar
+  cancel-in-progress: false
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate parser, evidence policy and UI
+        run: |
+          python -m py_compile wishlist_radar.py
+          python -m unittest -v test_wishlist_radar.py
+          node --check verlanglijst/app.js
+      - name: Build compact wishlist index
+        run: python wishlist_radar.py
+      - name: Verify published schema
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          w=json.loads(Path("wishlist.json").read_text())
+          r=json.loads(Path("verlanglijst/signalen.json").read_text())
+          assert r["wishCount"] == len(w["items"]) == len(r["items"])
+          assert r["verifiedDealCount"] == sum(i["verifiedCount"] for i in r["items"])
+          assert r["candidateCount"] == sum(i["candidateCount"] for i in r["items"])
+          assert r["shopsSeen"] > 0
+          assert all(c["verifiedDiscount"] is False for i in r["items"] for c in i["candidates"])
+          print("Radar verified:", r["wishCount"],"wishes,", r["candidateCount"],"candidates")
+          PY
+      - name: Publish results safely
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp verlanglijst/signalen.json "$RUNNER_TEMP/signalen.json"
+          input_sha=$(git hash-object wishlist_radar.py)
+          wish_sha=$(git hash-object wishlist.json)
+          for attempt in 1 2 3; do
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git fetch origin main
+            if [[ "$(git show origin/main:wishlist_radar.py | git hash-object --stdin)" != "$input_sha" ]] ||
+               [[ "$(git show origin/main:wishlist.json | git hash-object --stdin)" != "$wish_sha" ]]; then
+              echo "Radar script or wishlist changed during the build; skip stale index."
+              exit 0
+            fi
+            git checkout -f main
+            git reset --hard origin/main
+            mkdir -p verlanglijst
+            cp "$RUNNER_TEMP/signalen.json" verlanglijst/signalen.json
+            git add verlanglijst/signalen.json
+            if git diff --cached --quiet; then
+              echo "No update necessary"
+              exit 0
+            fi
+            git commit -m "Publish current wishlist offers [skip ci]"
+            if git push origin HEAD:main; then
+              echo "Wishlist index published" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Concurrent push, retrying ($attempt/3)"
+          done
+          exit 1

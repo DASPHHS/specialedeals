@@ -172,3 +172,21 @@ jobs:
                           if i!=-1:print("SNIP",url,term,s[max(0,i-320):i+480].replace("\n"," ")[:800])
               except Exception as e:print("OFFICIAL ERROR",url,repr(e))
           PY
+
+      - name: Inspect exact DA SSR product card price and pagination
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          import re
+          for url in ("https://www.da.nl/aanbiedingen", "https://www.da.nl/aanbiedingen?page=2"):
+              try:
+                  with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0 personal"}),timeout=30) as r:s=r.read(2200000).decode("utf-8","replace")
+                  print("DA",url,"length",len(s),"titles",s.count("ProductListItem-title"),
+                        "prices",s.count("ProductListItem-price"),"items",s.count("ProductListItem"),"links",s.count("/product/"))
+                  needle="ProductListItem-title"
+                  i=s.find(needle)
+                  if i>=0: print("DA-RAW",url,s[max(0,i-1100):i+3300].replace("\n"," ")[:4500])
+                  for term in ("2+3 Gratis","priceCurrency","validUntil","salePrice","priceValue","ProductListItem"):
+                      print("DA-HIT",term,s.find(term))
+              except Exception as e:print("DA-ERROR",url,repr(e))
+          PY

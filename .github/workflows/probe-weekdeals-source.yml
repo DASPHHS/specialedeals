@@ -116,3 +116,19 @@ jobs:
                         "old_del",html.count("<del"),"strikethrough",html.count("<s>"))
               except Exception as e:print("MARKUP ERROR",chain,repr(e))
           PY
+
+      - name: Diagnose non-food visible cards with no euro price
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,"integrations/weekdeals")
+          from publish_nonfood_deals import DealParser,fetch,jsonld_products,money
+          for chain in ("kruidvat","trekpleister","action","etos","wibra"):
+              parser=DealParser(); parser.feed(fetch(chain))
+              ld=jsonld_products(parser.scripts)
+              print("DETAIL",chain,"cards",len(parser.items),"jsonld",len(ld))
+              for r in parser.items[:8]:
+                  print("CARD",chain,repr(r.get("name","")[:65]),
+                        repr(r.get("new","")),repr(r.get("old","")),
+                        repr(r.get("promotion","")[:100]),repr(r.get("category","")[:35]))
+          PY

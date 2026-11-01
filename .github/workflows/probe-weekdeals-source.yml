@@ -1,0 +1,49 @@
+name: Probe nonfood HTML layout
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/probe-weekdeals-source.yml"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Inspect official public offer listing HTML
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          from html.parser import HTMLParser
+          class P(HTMLParser):
+              def __init__(self):super().__init__();self.stack=[];self.count=0
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs);self.stack.append((tag,a))
+                  href=a.get("href","")
+                  if tag=="a" and ("/aanbieding/" in href or "/product/" in href):
+                      if self.count<10:
+                          print("OFFER_ANCHOR",href,"CLASS",a.get("class",""),"ANCESTORS",[(k,v.get("class","")) for k,v in self.stack[-5:]])
+                      self.count+=1
+              def handle_endtag(self,tag):
+                  if self.stack:self.stack.pop()
+          for url in ["https://folderwijzer.nl/winkel/kruidvat/",
+                      "https://folderwijzer.nl/winkel/trekpleister/",
+                      "https://folderwijzer.nl/winkel/xenos/"]:
+              try:
+                  req=Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0 personal"})
+                  with urlopen(req,timeout=25) as r:page=r.read().decode("utf-8","replace")
+                  parser=P();parser.feed(page)
+                  print("URL",url,"size",len(page),"offer_anchors",parser.count,
+                        "html_head",page[:250].replace("\n"," "))
+                  if parser.count==0:
+                      for key in ("offer-card","offer-card__","product-card","aanbieding-card","offer-grid"):
+                          print("LOOKUP",key,page.find(key))
+                      idx=page.find("Lucovitaal")
+                      print("SAMPLE",page[max(0,idx-450):idx+850].replace("\n"," ")[:1300])
+              except Exception as e:print("ERROR",url,repr(e))
+          PY

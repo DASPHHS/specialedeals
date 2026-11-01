@@ -68,10 +68,13 @@
  function sources(){
   el("sourceGrid").innerHTML=(data?.sourceHealth||[]).map(x=>{
     const s=x.sourceUpdatedAt?dateNL(x.sourceUpdatedAt):"geen datum";
+    const stamp=Date.parse(x.sourceUpdatedAt);
+    const age=Date.now()-stamp;
+    const live=Number.isFinite(stamp)&&age>=-3600000&&age<=48*3600000;
     return '<div class="top-source"><strong>'+escape(x.source)+'</strong>'+
-      '<span class="'+(x.usable?'top-good':'top-bad')+'">'+(x.usable?'Bronbestand recent genoeg':'Bronbestand te oud / niet beschikbaar')+'</span>'+
+      '<span class="'+(live?'top-good':'top-bad')+'">'+(live?'Bronbestand recent genoeg':'Bronbestand te oud / niet beschikbaar')+'</span>'+
       '<small>Laatst bijgewerkt: '+s+' · '+escape(x.offersInSnapshot)+' records'+
-      (x.ageHours!==null?' · '+escape(x.ageHours)+' uur oud':'')+'</small></div>';
+      (Number.isFinite(age)?' · '+(age/3600000).toFixed(1)+' uur oud':'')+'</small></div>';
   }).join("");
  }
  function renderProfiles(){
@@ -130,6 +133,29 @@
  function render(){
   if(!data)return;
   toolbar();
+  const verified=Number(data.verifiedDealCount||0);
+  el("buyAdvice").textContent=verified===0
+    ? "KOOPADVIES: nog geen onafhankelijk bevestigde koopdeals in deze Top-10-feed. Dit zijn onderzoeksvondsten. Controleer zelf de exacte uitvoering, winkelprijs, voorwaarden en verzending voordat je koopt. De aparte dagelijkse e-mail kan wel rechtstreeks gecontroleerde aanbiedingen bevatten."
+    : "KOOPADVIES: "+verified+" onafhankelijk gecontroleerde aanbieding(en) in deze feed. Niet alle kaarten zijn geverifieerd; controleer bij iedere vondst de actuele winkelprijs en verzendkosten.";
+  const pub=Date.parse(data.generatedAt);
+  const currentFeeds=(data.sourceHealth||[]).filter(x=>{
+    const stamp=Date.parse(x.sourceUpdatedAt);
+    const age=Date.now()-stamp;
+    return Number.isFinite(stamp)&&age>=-3600000&&age<=48*3600000;
+  });
+  const pubAge=Date.now()-pub;
+  if(!Number.isFinite(pub)||pubAge < -3600000||pubAge > 48*3600000||!currentFeeds.length){
+    el("profileWatch").hidden=true;
+    el("categorySections").innerHTML='<div class="top-empty"><h3>Geen betrouwbare actuele Top 10</h3>Het overzicht of alle aangesloten bronbestanden zijn verouderd. Oude aanbiedingen worden niet als actueel gepresenteerd. Gebruik de afzonderlijke weekdeals en controleer winkelprijzen opnieuw.</div>';
+    el("totalEligible").textContent="—";
+    el("wishlistCount").textContent="—";
+    el("verifiedCount").textContent="—";
+    el("sourceCount").textContent="0/"+(data.sourceHealth||[]).length;
+    el("buyAdvice").textContent="GEEN KOOPADVIES: de openbare Top-10-gegevens zijn niet actueel genoeg.";
+    status("Top 10 verouderd: geen actueel koopadvies op basis van deze bronbestanden.",true);
+    sources();
+    return;
+  }
   renderProfiles();
   const chosen=active?[active]:categories;
   el("categorySections").innerHTML=chosen.map(section).join("");

@@ -1,0 +1,66 @@
+name: Publish Weekdeals Bleiswijk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 5 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "integrations/weekdeals/publish_json.py"
+      - "integrations/weekdeals/sync_deals.py"
+      - "integrations/weekdeals/tests/**"
+      - "weekdeals/index.html"
+      - ".github/workflows/publish-weekdeals.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publish-weekdeals
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test import model
+        env:
+          PYTHONPATH: integrations/weekdeals
+        run: python -m unittest discover -s integrations/weekdeals/tests -v
+      - name: Retrieve complete offer feed
+        run: python integrations/weekdeals/publish_json.py
+      - name: Validate generated dataset
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("weekdeals/deals.json").read_text())
+          assert p["total_published"]==len(p["deals"])
+          assert p["total_api"]>=p["total_published"]>=100
+          assert len({d["id"] for d in p["deals"]})==len(p["deals"])
+          print("Verified",p["total_published"],"unique offers")
+          PY
+      - name: Publish atomically to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp weekdeals/deals.json "$RUNNER_TEMP/weekdeals.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+          mkdir -p weekdeals
+          cp "$RUNNER_TEMP/weekdeals.json" weekdeals/deals.json
+          git add weekdeals/deals.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Weekdeals supermarket offers [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No changes to publish"
+          fi
+          echo "Weekdeals JSON published" >> "$GITHUB_STEP_SUMMARY"

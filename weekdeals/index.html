@@ -2,15 +2,41 @@
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0f172a"><title>Weekdeals Bleiswijk</title>
 <style>
 :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#162235;background:#f4f6f9}*{box-sizing:border-box}body{margin:0}header{background:#15253b;color:white;padding:28px 20px}header>div,main,footer{max-width:1200px;margin:auto}h1{margin:0 0 8px;font-size:clamp(26px,4vw,39px);letter-spacing:-.04em}p{line-height:1.5}.sub{color:#bfd3e7;margin:0}main{padding:24px 16px}nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}button,input,select{font:inherit}button{background:white;color:#1e3550;border:1px solid #cfd8e4;padding:10px 14px;border-radius:12px;cursor:pointer}button.active,button.primary{background:#156f63;border-color:#156f63;color:white}.controls{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;background:white;border:1px solid #dee5ed;border-radius:16px;padding:14px;margin-bottom:16px}input,select{width:100%;border:1px solid #d3dce6;border-radius:10px;padding:11px;background:#fff;color:#162235}.meta{display:flex;gap:14px;flex-wrap:wrap;color:#52657a;margin:12px 0 20px}.notice{border-left:4px solid #c59b3a;background:#fff8e8;padding:12px 16px;border-radius:8px;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}.card{background:#fff;border:1px solid #dce4ec;border-radius:16px;padding:17px;display:flex;flex-direction:column;gap:8px;min-height:202px}.tag{font-size:12px;font-weight:700;color:#225f58;text-transform:uppercase;letter-spacing:.03em}.name{font-weight:750;font-size:17px;line-height:1.3;min-height:43px}.price{font-size:27px;font-weight:800;letter-spacing:-.04em}.old{color:#66768a;text-decoration:line-through;font-size:14px;margin-left:8px}.sale{color:#096a4c;font-weight:700;font-size:13px}.small{font-size:12px;color:#52657a}.bottom{margin-top:auto}.bottom a{font-size:13px;color:#146d61;font-weight:700;overflow-wrap:anywhere}.status{padding:20px;background:white;border:1px solid #dce4ec;border-radius:12px}.pager{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px}.hide{display:none}footer{padding:20px 16px 40px;color:#64758a;font-size:13px}footer a{color:#256d69}@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.controls button{grid-column:1/-1}.card{min-height:182px}header{padding:25px 16px}} 
-</style></head>
+.folderlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:16px 0 26px}.foldersTitle{margin:20px 0 10px;font-size:21px}.folderNote{font-size:13px;color:#566b80}.directory{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.directory a{display:flex;justify-content:space-between;gap:8px;border:1px solid #dce4ec;background:#fff;border-radius:11px;padding:12px 14px;text-decoration:none;color:#105c54;font-weight:700}.directory small{font-size:12px;font-weight:400;color:#63768d}.folderAction{display:inline-block;margin-top:12px;background:#156f63;border-radius:10px;padding:9px 12px;color:#fff;font-size:13px;text-decoration:none;font-weight:700}.folderinfo{border:1px solid #d7e2eb;background:#fff;border-radius:12px;padding:14px;margin:12px 0}.folderinfo p{margin:4px 0}.meta a{color:#146d61}</style></head>
 <body><header><div><h1>Weekdeals Bleiswijk</h1><p class="sub">Actuele aanbiedingen vergelijken · lokale winkels en online mogelijkheden</p></div></header>
-<main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button></nav>
-<div class="notice" id="scope">De supermarktgegevens komen van PrijsProfeet. Lokale voorraad en prijzen kunnen verschillen. Action, drogisterijen, bouwmarkten en webshops worden later gekoppeld.</div>
+<main><nav aria-label="Periode"><button id="now" class="active">Deze week</button><button id="next">Volgende week</button><button id="all">Alle beschikbare acties</button><button id="foldersTab">Folders & andere winkels</button></nav>
+<div class="notice" id="scope">Supermarktprijzen komen van PrijsProfeet; folderlinks van Folderwijzer. Folderlinks bevatten nog geen afzonderlijke productprijzen. Lokale voorraad en prijzen kunnen verschillen.</div>
 <div class="controls"><input id="search" type="search" placeholder="Zoek product, merk of winkel…" aria-label="Zoeken"><select id="store" aria-label="Winkel"><option value="">Alle winkels</option></select><select id="category" aria-label="Categorie"><option value="">Alle categorieën</option></select><button id="export">Export CSV</button></div>
 <div class="meta"><span id="count">Gegevens ophalen…</span><span id="stamp"></span><span id="scopeInfo"></span></div>
 <div id="message" class="status">Aanbiedingen laden…</div><section class="grid" id="cards" aria-live="polite"></section>
 <div id="pager" class="pager hide"><button id="prev">Vorige</button><span id="pageText"></span><button id="more">Volgende</button></div>
-</main><footer><a href="https://www.prijsprofeet.nl" rel="noopener noreferrer" target="_blank">Aanbiedingen via PrijsProfeet</a> · Geen bewijs van actuele voorraad per filiaal · <a href="../">Terug naar Speciale Deals</a></footer>
+<section id="folderSection" class="hide">
+  <h2 class="foldersTitle">Actuele folders: drogisterijen en woonwinkels</h2>
+  <p class="folderNote">De geldigheidsdatums en folderaantallen komen uit de openbare bron. Klik door voor de producten en prijzen: die worden nog niet automatisch overgenomen.</p>
+  <div id="folderState" class="folderinfo">Folders laden…</div>
+  <div class="folderlist" id="folderCards"></div>
+  <h2 class="foldersTitle">Meer winkels direct bekijken</h2>
+  <p class="folderNote">Hieronder staan officiële winkelwebsites. Dit zijn links, geen automatisch gecontroleerde productdeals.</p>
+  <div class="directory">
+    <a href="https://www.action.com/nl-nl/weekactie/" target="_blank" rel="noopener noreferrer"><span>Action</span><small>Weekactie</small></a>
+    <a href="https://www.kruidvat.nl/acties" target="_blank" rel="noopener noreferrer"><span>Kruidvat</span><small>Acties</small></a>
+    <a href="https://www.etos.nl/" target="_blank" rel="noopener noreferrer"><span>Etos</span><small>Winkelwebsite</small></a>
+    <a href="https://www.da.nl/" target="_blank" rel="noopener noreferrer"><span>DA</span><small>Winkelwebsite</small></a>
+    <a href="https://www.trekpleister.nl/" target="_blank" rel="noopener noreferrer"><span>Trekpleister</span><small>Winkelwebsite</small></a>
+    <a href="https://www.xenos.nl/" target="_blank" rel="noopener noreferrer"><span>Xenos</span><small>Winkelwebsite</small></a>
+    <a href="https://www.zeeman.com/nl-nl/aanbiedingen" target="_blank" rel="noopener noreferrer"><span>Zeeman</span><small>Aanbiedingen</small></a>
+    <a href="https://www.wibra.nl/" target="_blank" rel="noopener noreferrer"><span>Wibra</span><small>Winkelwebsite</small></a>
+    <a href="https://www.hema.nl/" target="_blank" rel="noopener noreferrer"><span>HEMA</span><small>Winkelwebsite</small></a>
+    <a href="https://www.praxis.nl/" target="_blank" rel="noopener noreferrer"><span>Praxis</span><small>Winkelwebsite</small></a>
+    <a href="https://www.gamma.nl/" target="_blank" rel="noopener noreferrer"><span>GAMMA</span><small>Winkelwebsite</small></a>
+    <a href="https://www.hornbach.nl/" target="_blank" rel="noopener noreferrer"><span>HORNBACH</span><small>Winkelwebsite</small></a>
+    <a href="https://www.intratuin.nl/" target="_blank" rel="noopener noreferrer"><span>Intratuin</span><small>Winkelwebsite</small></a>
+    <a href="https://www.bol.com/nl/nl/" target="_blank" rel="noopener noreferrer"><span>bol</span><small>Webshop</small></a>
+    <a href="https://picnic.app/nl/" target="_blank" rel="noopener noreferrer"><span>Picnic</span><small>Account nodig</small></a>
+  </div>
+  <p class="folderNote" style="margin-top:18px">Folders via <a href="https://folderwijzer.nl/" target="_blank" rel="noopener noreferrer">Folderwijzer</a>; productprijzen in de folder bekijken. De overige winkelpagina’s zijn nog geen live import.</p>
+</section>
+</main><footer><a href="https://www.prijsprofeet.nl" rel="noopener noreferrer" target="_blank">Aanbiedingen via PrijsProfeet</a> · Folders via <a href="https://folderwijzer.nl/" rel="noopener noreferrer" target="_blank">Folderwijzer</a> · Geen bewijs van actuele voorraad per filiaal · <a href="../">Terug naar Speciale Deals</a></footer>
 <script>
 "use strict";
 let all=[],mode="now",page=0;const pageSize=48, el=id=>document.getElementById(id), nl=new Intl.NumberFormat("nl-NL",{style:"currency",currency:"EUR"});
@@ -46,4 +72,48 @@ fetch("./deals.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw 
 const stores=[...new Set(all.map(d=>d.winkel).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"nl"));for(const s of stores){let o=document.createElement("option");o.value=s;o.textContent=s;el("store").append(o)}
 const cats=[...new Set(all.map(d=>d.categorie).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"nl"));for(const s of cats){let o=document.createElement("option");o.value=s;o.textContent=s;el("category").append(o)}
 el("stamp").textContent="Laatst bijgewerkt: "+new Date(data.updated_at).toLocaleString("nl-NL",{dateStyle:"medium",timeStyle:"short"});el("scopeInfo").textContent="Bron: "+data.source;render()}).catch(err=>{el("count").textContent="Nog geen import";el("message").textContent="De eerste automatische import is nog niet gepubliceerd. Kijk bij de GitHub Actions-run voor de oorzaak.";el("stamp").textContent=err.message;});
+
+let folderData=null,folderLoadError=false;
+function folderCard(folder){
+ const card=text("article","","card");
+ card.append(text("div",folder.categorie||"Folder","tag"),text("div",folder.winkel||"Winkel","name"));
+ const range=(folder.van||"Onbekend")+" t/m "+(folder.tot||"onbekend");
+ card.append(text("div","Geldig: "+range,"small"));
+ if(Number.isInteger(folder.aanbiedingen_aantal))card.append(text("div",folder.aanbiedingen_aantal.toLocaleString("nl-NL")+" aanbiedingen vermeld in folder","small"));
+ card.append(text("p","Productprijzen staan in de folder, niet in dit overzicht.","folderNote"));
+ if(typeof folder.url==="string"&&folder.url.startsWith("https://folderwijzer.nl/")){
+   const link=text("a","Bekijk actuele folder","folderAction");
+   link.href=folder.url;link.target="_blank";link.rel="noopener noreferrer";
+   card.append(link);
+ }
+ return card;
+}
+function drawFolders(){
+ const today=iso(new Date()),found=(folderData?.folders||[]).filter(f=>f.tot>=today);
+ el("folderCards").replaceChildren(...found.map(folderCard));
+ el("folderState").textContent=folderLoadError?"Folderfeed tijdelijk niet bereikbaar. Gebruik de directe links hieronder.":
+   folderData===null?"Folders laden…":
+   found.length?found.length+" folders beschikbaar voor Kruidvat, Trekpleister en/of Xenos. Geen geïmporteerde productprijzen.":
+   "Geen geldige folders in de feed. Gebruik de directe winkelpagina's hieronder.";
+ if(!el("folderSection").classList.contains("hide"))el("count").textContent=found.length+" folders · andere winkels als directe links";
+}
+el("foldersTab").addEventListener("click",()=>{
+ for(const k of ["now","next","all"])el(k).classList.remove("active");
+ el("foldersTab").classList.add("active");
+ el("folderSection").classList.remove("hide");
+ for(const k of ["cards","pager","message"])el(k).classList.add("hide");
+ el("search").closest(".controls").classList.add("hide");
+ drawFolders();
+});
+for(const k of ["now","next","all"])el(k).addEventListener("click",()=>{
+ el("foldersTab").classList.remove("active");
+ el("folderSection").classList.add("hide");
+ el("search").closest(".controls").classList.remove("hide");
+ el("cards").classList.remove("hide");
+ render();
+});
+fetch("./folders.json?ts="+Date.now(),{cache:"no-store"})
+ .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
+ .then(data=>{if(!Array.isArray(data.folders)||!data.updated_at)throw Error("Invalid folder feed");folderData=data;drawFolders()})
+ .catch(()=>{folderLoadError=true;drawFolders()});
 </script></body></html>

@@ -15,6 +15,7 @@ def main():
     raw=fetch_all()
     mapped=normalize_all(raw,now.date().isoformat())
     deals=[]
+    raw_by_id={"prijsprofeet:"+str(p.get("retailer"))+":"+str(p.get("product_id")):p for p in raw}
     for r in mapped:
         d=dict(zip([
             "id","winkel","product","categorie","prijs","van_prijs","korting",
@@ -26,7 +27,7 @@ def main():
         ],r))
         for key in ("van_datum_serial","tot_datum_serial","check_datum_serial"):
             d.pop(key,None)
-        source=next((p for p in raw if "prijsprofeet:"+str(p.get("retailer"))+":"+str(p.get("product_id"))==d["id"]),None)
+        source=raw_by_id.get(d["id"])
         if source is None: raise ValueError("Missing source match")
         d["van"]=source.get("valid_from") or ""
         d["tot"]=source.get("valid_until") or ""

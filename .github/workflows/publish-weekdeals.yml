@@ -9,7 +9,6 @@ on:
       - "integrations/weekdeals/publish_json.py"
       - "integrations/weekdeals/sync_deals.py"
       - "integrations/weekdeals/tests/**"
-      - "weekdeals/index.html"
       - ".github/workflows/publish-weekdeals.yml"
 permissions:
   contents: write
@@ -52,8 +51,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
-          git checkout main
-          git pull --rebase origin main
+          git checkout -f main
+          git reset --hard origin/main
           mkdir -p weekdeals
           cp "$RUNNER_TEMP/weekdeals.json" weekdeals/deals.json
           git add weekdeals/deals.json

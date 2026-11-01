@@ -80,3 +80,22 @@ jobs:
                       if idx>=0:print("CONTEXT",key,html[max(0,idx-200):idx+300].replace("\n"," ")[:500])
               except Exception as e: print("FOLDERZ ERROR",url,repr(e))
           PY
+
+      - name: Probe direct retailer and alternate public offer sources
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          for url in ["https://www.kruidvat.nl/aanbiedingen/dezeweek",
+                      "https://www.trekpleister.nl/aanbiedingen",
+                      "https://www.reclamefolder.nl/winkels/kruidvat/",
+                      "https://feedmycart.nl/en/countries/netherlands/trekpleister/",
+                      "https://www.action.com/nl-nl/weekactie/"]:
+              try:
+                  with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0"}),timeout=25) as r:
+                      html=r.read(250000).decode("utf-8","replace")
+                      print("SOURCE",url,"HTTP",r.status,"html",len(html),
+                            "title_at",html.find("<title"),"Kruidvat_at",html.find("Kruidvat"),
+                            "offer_string",html.find("aanbieding"),"product_string",html.find("product"),
+                            "snip",html[:140].replace("\n"," "))
+              except Exception as e:print("SOURCE ERROR",url,repr(e))
+          PY

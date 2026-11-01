@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-11-01",
   "contests": [
     {
       "id": "anwb-droomvakantie-2026",
@@ -34,6 +34,22 @@
       "verifiedAt": "2026-10-28",
       "conditions": "Gratis; NL 18+; geen aankoop; één inzending; juist antwoord vereist voor hoofdprijs; nieuwsbrief optioneel. Kansspelbelasting voor Wibra.",
       "score": 100
+    },
+    {
+      "id": "anwb-parijs-kampioen4-2026",
+      "title": "ANWB: win een 3-daagse stedentrip Parijs voor twee",
+      "description": "Gratis puzzelwinactie van ANWB voor inwoners van Nederland van 18 jaar en ouder. Hoofdprijs: 3-daagse stedentrip Parijs voor twee, ter waarde van €439,50. Deelname vereist de oplossing van de woordzoeker uit Laten We Gaan/Kampioen 4; zonder puzzelantwoord kun je niet geldig deelnemen. Reiskosten, parkeren, toeristenbelasting en verzekering zijn niet inbegrepen.",
+      "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/magazines/puzzel-mee-k4-stellen-2026",
+      "organizer": "ANWB",
+      "category": "Vakanties & reizen",
+      "prizeValueEUR": 439.5,
+      "price": "Prijswaarde €439,50",
+      "startDate": "2026-10-27",
+      "endDate": "2026-12-31",
+      "date": "Tot en met 31 december 2026",
+      "officialTermsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/magazines/puzzel-mee-k4-stellen-2026",
+      "verifiedAt": "2026-11-01",
+      "conditions": "Gratis; Nederland 18+; correcte woordzoekeroplossing vereist; één deelname; vervoer, parkeren en toeristenbelasting niet inbegrepen. Officiële voorwaarden op actiepagina."
     }
   ]
 }

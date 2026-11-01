@@ -1,0 +1,104 @@
+name: Hourly personal Top 10
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"
+  pull_request:
+    paths:
+      - "hourly_topdeals.py"
+      - "test_hourly_topdeals.py"
+      - "topdeals/**"
+      - "wishlist.json"
+      - ".github/workflows/hourly-topdeals.yml"
+  push:
+    branches: [main]
+    paths:
+      - "hourly_topdeals.py"
+      - "test_hourly_topdeals.py"
+      - "topdeals/index.html"
+      - "topdeals/app.js"
+      - "topdeals/style.css"
+      - "wishlist.json"
+      - ".github/workflows/hourly-topdeals.yml"
+permissions:
+  contents: write
+concurrency:
+  group: hourly-personal-top10
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Regression tests and UI syntax
+        run: |
+          python -m py_compile hourly_topdeals.py
+          python -m unittest -v test_hourly_topdeals.py
+          node --check topdeals/app.js
+          node ui/site-smoke.test.js
+      - name: Generate Top 10 from source snapshots
+        run: python hourly_topdeals.py
+      - name: Assert individual category count and discount semantics
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("topdeals/data.json").read_text(encoding="utf-8"))
+          assert len(d["categories"]) == 9
+          assert d["eligibleCount"] > 10, "Insufficient source offers"
+          assert sum(x["usable"] for x in d["sourceHealth"]) >= 1
+          for key,cat in d["categories"].items():
+              assert len(cat["top10"])<=10
+              assert len({x["id"] for x in cat["top10"]})==len(cat["top10"])
+              for offer in cat["top10"]:
+                  assert offer["verifiedDeal"] is False
+                  assert offer["verifiedAllInPrice"] is False
+                  assert offer["shippingEUR"] is None
+                  assert offer["priceEUR"]>0 and offer["url"].startswith("https://")
+                  if offer["advertisedDiscountPercent"] is not None:
+                      assert offer["advertisedReferenceEUR"]>offer["priceEUR"]
+          print("Verified data model: "+", ".join(k+" "+str(len(v["top10"])) for k,v in d["categories"].items()))
+          PY
+      - name: Publish hourly snapshot with concurrent-push retry
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp topdeals/data.json "$RUNNER_TEMP/top10-data.json"
+          code_sha=$(git hash-object hourly_topdeals.py)
+          wish_sha=$(git hash-object wishlist.json)
+          for attempt in 1 2 3 4 5; do
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git fetch origin main
+            if [[ "$(git show origin/main:hourly_topdeals.py | git hash-object --stdin)" != "$code_sha" ]] ||
+               [[ "$(git show origin/main:wishlist.json | git hash-object --stdin)" != "$wish_sha" ]]; then
+              echo "Code or preferences changed during ranking; refusing stale publish"
+              exit 0
+            fi
+            git checkout -f main
+            git reset --hard origin/main
+            mkdir -p topdeals
+            cp "$RUNNER_TEMP/top10-data.json" topdeals/data.json
+            git add topdeals/data.json
+            if git diff --cached --quiet; then
+              echo "No changed result";exit 0
+            fi
+            git commit -m "Hourly category Top 10 [skip ci]"
+            if git push origin HEAD:main; then
+              echo "### Hourly top 10 published" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Concurrent publication; retry $attempt"
+            sleep $((attempt*2))
+          done
+          exit 1

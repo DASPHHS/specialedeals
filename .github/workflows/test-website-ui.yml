@@ -15,6 +15,7 @@ on:
       - "index.html"
       - "weekdeals/index.html"
       - "ui/**"
+      - "verlanglijst/**"
       - ".github/workflows/test-website-ui.yml"
 permissions:
   contents: read

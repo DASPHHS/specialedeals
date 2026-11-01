@@ -60,9 +60,9 @@ jobs:
       - name: Inspect documented public price API responses
         if: github.event_name == 'pull_request'
         run: python probe_public_prices.py
-      - name: Research specific Apple/Dyson/tech products via public Pricewatch suggestions
+      - name: Mark unverified Tweakers source offline without generating fake price data
         if: github.event_name != 'pull_request'
-        run: python wishlist_pricewatch.py --online
+        run: python wishlist_pricewatch.py --disabled
       - name: Build updated personal wishlist price comparisons
         run: python wishlist_radar.py
       - name: Read permitted Prijspuls public catalogue (do not mistake for SKU offers)

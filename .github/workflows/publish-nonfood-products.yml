@@ -10,6 +10,8 @@ on:
       - "integrations/weekdeals/tests/test_nonfood.py"
       - "integrations/weekdeals/tests/test_da_adapter.py"
       - "integrations/weekdeals/da_adapter.py"
+      - "integrations/weekdeals/intratuin_adapter.py"
+      - "integrations/weekdeals/tests/test_intratuin_adapter.py"
       - "weekdeals/index.html"
       - ".github/workflows/publish-nonfood-products.yml"
 permissions:
@@ -36,6 +38,7 @@ jobs:
         run: |
           python -m unittest discover -s integrations/weekdeals/tests -p "test_*food.py" -v
           python -m unittest discover -s integrations/weekdeals/tests -p "test_da_adapter.py" -v
+          python -m unittest discover -s integrations/weekdeals/tests -p "test_intratuin_adapter.py" -v
           python -m py_compile integrations/weekdeals/publish_nonfood_deals.py
       - name: Check web page JavaScript syntax
         run: |

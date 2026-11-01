@@ -99,3 +99,20 @@ jobs:
                             "snip",html[:140].replace("\n"," "))
               except Exception as e:print("SOURCE ERROR",url,repr(e))
           PY
+
+      - name: Inspect FeedMyCart product list markup
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          for chain,term in [("etos","Oral-B"),("trekpleister","kruidnoten"),
+                             ("action","Pet Dreamteam"),("wibra","€")]:
+              url=f"https://feedmycart.nl/en/countries/netherlands/{chain}/"
+              try:
+                  with urlopen(Request(url,headers={"User-Agent":"WeekdealsBleiswijk/1.0"}),timeout=20) as r:html=r.read().decode("utf-8","replace")
+                  at=html.lower().find(term.lower())
+                  print("MARKUP",chain,"size",len(html),"term_idx",at,
+                        "sample",html[max(at-700,0):at+700].replace("\n"," ")[:1400])
+                  print("HTML_COUNTS",chain,"li",html.count("<li"),"table",html.count("<table"),
+                        "old_del",html.count("<del"),"strikethrough",html.count("<s>"))
+              except Exception as e:print("MARKUP ERROR",chain,repr(e))
+          PY

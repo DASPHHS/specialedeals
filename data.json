@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T12:36:26.857856+00:00",
+  "updatedAt": "2026-11-01T12:53:24.998498+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,9 +20,9 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-11-01T12:36:26.857856+00:00",
-      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
-      "status": "Voorwaarden gecontroleerd"
+      "discoveredAt": "2026-11-01T12:53:24.998498+00:00",
+      "lastSeenAt": "2026-11-01T12:53:24.998498+00:00",
+      "status": "Voorwaarden handmatig gecontroleerd op 2026-10-27; controleer opnieuw bij deelname"
     },
     {
       "id": "official-wibra-fiat-topolino-2026",
@@ -43,114 +43,32 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-11-01T12:36:26.857856+00:00",
-      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
-      "status": "Voorwaarden gecontroleerd"
+      "discoveredAt": "2026-11-01T12:53:24.998498+00:00",
+      "lastSeenAt": "2026-11-01T12:53:24.998498+00:00",
+      "status": "Voorwaarden handmatig gecontroleerd op 2026-10-28; controleer opnieuw bij deelname"
     },
     {
-      "id": "950a816fc8d01b256478",
-      "kind": "sales",
-      "title": "Kuyichi Sample Sale",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/samplesaleagenda/8298/kuyichi-sample-sale--2026",
-      "status": "Te controleren",
-      "score": 61,
+      "id": "official-anwb-parijs-kampioen4-2026",
+      "title": "ANWB: win een 3-daagse stedentrip Parijs voor twee",
+      "description": "Gratis puzzelwinactie van ANWB voor inwoners van Nederland van 18 jaar en ouder. Hoofdprijs: 3-daagse stedentrip Parijs voor twee, ter waarde van €439,50. Deelname vereist de oplossing van de woordzoeker uit Laten We Gaan/Kampioen 4; zonder puzzelantwoord kun je niet geldig deelnemen. Reiskosten, parkeren, toeristenbelasting en verzekering zijn niet inbegrepen.",
+      "url": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/magazines/puzzel-mee-k4-stellen-2026",
+      "organizer": "ANWB",
+      "category": "Vakanties & reizen",
+      "prizeValueEUR": 439.5,
+      "price": "Prijswaarde €439,50",
+      "startDate": "2026-10-27",
+      "endDate": "2026-12-31",
+      "date": "Tot en met 31 december 2026",
+      "officialTermsUrl": "https://www.anwb.nl/vakantie/reizen-van-anwb/winacties/magazines/puzzel-mee-k4-stellen-2026",
+      "verifiedAt": "2026-11-01",
+      "conditions": "Gratis; Nederland 18+; correcte woordzoekeroplossing vereist; vervoer, parkeren en toeristenbelasting niet inbegrepen. Officiële voorwaarden op actiepagina.",
+      "kind": "contests",
+      "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "869400b768b2d1e50695",
-      "kind": "sales",
-      "title": "Tommy Hilfiger",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/samplesales_per_merk/224/Tommy_Hilfiger",
-      "status": "Te controleren",
-      "score": 61,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-11-01T12:36:26.857856+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "7bea63d60e07c1a25714",
-      "kind": "sales",
-      "title": "Circle of Trust",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/samplesales_per_merk/180/Circle_of_Trust",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "403b299c14bd55b6aac8",
-      "kind": "sales",
-      "title": "Circle of Trust Sample Sale Winter 2026",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/9246/circle-of-trust-sample-sale-winter-2026-nov-2026.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "dbcef369464c907a1d09",
-      "kind": "sales",
-      "title": "LOVE STORIES",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/samplesales_per_merk/4350/LOVE_STORIES",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "fa4a196a9df5b2d92460",
-      "kind": "sales",
-      "title": "Love Stories Sample Sale Amsterdam",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "We Love Sample Sales",
-      "url": "https://www.welovesamplesales.nl/samplesaleagenda/8307/love-stories-sample-sale-amsterdam--2025--2026",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
-    },
-    {
-      "id": "0be04318ca096fbd67fd",
-      "kind": "sales",
-      "title": "Love Stories Sample Sale Amsterdam",
-      "description": "Evenementvermelding. Controleer plaats, datum, maten, tickets en prijzen bij de organisator.",
-      "source": "Stockverkopen",
-      "url": "https://www.stockverkopen.nl/9245/love-stories-sample-sale-amsterdam--2025--2026.html",
-      "status": "Te controleren",
-      "score": 53,
-      "audience": "all",
-      "discoveredAt": "2026-10-27T18:26:05.375065+00:00",
-      "lastSeenAt": "2026-10-28T15:49:15.587050+00:00",
-      "category": "Sample sales",
-      "wishlistMatches": []
+      "score": 95,
+      "discoveredAt": "2026-11-01T12:53:24.998498+00:00",
+      "lastSeenAt": "2026-11-01T12:53:24.998498+00:00",
+      "status": "Voorwaarden handmatig gecontroleerd op 2026-11-01; controleer opnieuw bij deelname"
     }
   ],
   "sources": [
@@ -162,7 +80,7 @@
     {
       "name": "Stockverkopen",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Your Sample Sale",

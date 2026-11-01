@@ -30,6 +30,7 @@ FIELDS = {
     "condition": ("condition", "item_condition"),
     "availability": ("availability", "stock_status", "in_stock"),
     "observedAt": ("observed_at", "last_updated", "updated_at"),
+    "shipTo": ("ships_to", "delivery_country", "shipping_country", "ship_to_country"),
     "variant": ("variant", "variant_key", "size", "model"),
 }
 REJECT_UNSAFE = {"javascript", "data", "file", "http"}
@@ -83,6 +84,7 @@ def normalized(row: dict, provider: str) -> dict | None:
     currency = str(field(row, "currency") or "EUR").strip().upper()
     if not url or not merchant or len(title) < 4 or price is None or price == 0 or currency != "EUR":
         return None
+    ships_to = str(field(row, "shipTo") or "").strip().upper()
     shipping_raw = field(row, "shipping")
     shipping = money(shipping_raw) if shipping_raw is not None else None
     if shipping_raw is not None and shipping is None:
@@ -111,7 +113,8 @@ def normalized(row: dict, provider: str) -> dict | None:
         "availability": str(field(row,"availability") or "unknown")[:60],
         "currency": "EUR", "itemPriceEUR": price,
         "shippingEUR": shipping,
-        "deliveredPriceNL_EUR": round(price + shipping, 2) if shipping is not None else None,
+        "deliveredPriceNL_EUR": round(price + shipping, 2) if shipping is not None and ships_to == "NL" else None,
+        "shippingCountryConfirmed": ships_to == "NL",
         "observedAt": observed or None,
         "status": "research_candidate_not_verified",
         "verifiedDiscount": False, "independentReferenceEUR": None,

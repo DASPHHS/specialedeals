@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-01T13:53:25.608531+01:00",
+  "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
+  "searchedThisRun": 12,
+  "errors": [],
+  "results": [
+    {
+      "wishId": "dyson-handstofzuiger",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "janzen-earth",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "hoka-schoenen",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "arcteryx-outdoor",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Arc'teryx",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "apple-airpods",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Apple AirPods (standaardmodel)",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "apple-airpods-pro",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "AirPods Pro",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "apple-macbook",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Apple MacBook",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "apple-watch-ultra",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Watch Ultra",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "rituals-homme",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Rituals Homme",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "rituals-sport",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Rituals Sport",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "giraffe-original",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Giraffe Original Blend",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "ysl-m7",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Yves Saint Laurent M7",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "ysl-y",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Yves Saint Laurent Y",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "apple-imac",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Apple iMac",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "lampe-berger-geuren",
+      "searchedAt": "2026-11-01T13:53:25.608531+01:00",
+      "query": "Lampe Berger",
+      "leads": [],
+      "status": "ok",
+      "searchSource": "Bing RSS webzoekresultaten"
+    },
+    {
+      "wishId": "usb-hubs-premium",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "hightech-gadgets",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "premium-padel-balls",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "dyson-airwrap",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "arcteryx-gamma-broek",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "arcteryx-werkbroek-alternatief",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "arcteryx-wit-logo-shirt",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    },
+    {
+      "wishId": "luxe-huisparfum-alternatief",
+      "status": "not_scanned",
+      "leads": [],
+      "searchedAt": null
+    }
+  ],
+  "disclaimer": "A search hit is not proof of in-stock products, discounted price, shipment to NL or current listing."
+}

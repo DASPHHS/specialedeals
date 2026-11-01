@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:36:27.036215+01:00",
+  "updatedAt": "2026-11-01T13:53:44.613101+01:00",
   "sourceSnapshots": [
     "2026-11-01T12:34:36+01:00",
     "2026-11-01T13:24:28+01:00"
@@ -8,6 +8,9 @@
   "wishCount": 23,
   "candidateCount": 0,
   "verifiedDealCount": 0,
+  "researchLeadCount": 0,
+  "researchCheckedCount": 12,
+  "researchErrorCount": 0,
   "shopsSeen": 27,
   "shops": {
     "Albert Heijn": 3251,
@@ -48,7 +51,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "janzen-earth",
@@ -59,7 +66,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "hoka-schoenen",
@@ -70,7 +81,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "arcteryx-outdoor",
@@ -81,7 +96,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "apple-airpods",
@@ -92,7 +111,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "apple-airpods-pro",
@@ -103,7 +126,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "apple-macbook",
@@ -114,7 +141,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "apple-watch-ultra",
@@ -125,7 +156,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "rituals-homme",
@@ -136,7 +171,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "rituals-sport",
@@ -147,7 +186,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "giraffe-original",
@@ -158,7 +201,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "ysl-m7",
@@ -169,7 +216,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "ysl-y",
@@ -180,7 +231,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "apple-imac",
@@ -191,7 +246,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "lampe-berger-geuren",
@@ -202,7 +261,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "ok",
+      "researchSearchedAt": "2026-11-01T13:53:25.608531+01:00"
     },
     {
       "id": "usb-hubs-premium",
@@ -213,7 +276,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "hightech-gadgets",
@@ -224,7 +291,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "premium-padel-balls",
@@ -235,7 +306,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "dyson-airwrap",
@@ -246,7 +321,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "arcteryx-gamma-broek",
@@ -257,7 +336,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "arcteryx-werkbroek-alternatief",
@@ -268,7 +351,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "arcteryx-wit-logo-shirt",
@@ -279,7 +366,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     },
     {
       "id": "luxe-huisparfum-alternatief",
@@ -290,7 +381,11 @@
       "candidateCount": 0,
       "candidates": [],
       "verifiedCount": 0,
-      "verifiedDeals": []
+      "verifiedDeals": [],
+      "researchLeadCount": 0,
+      "researchLeads": [],
+      "researchStatus": "not_scanned",
+      "researchSearchedAt": null
     }
   ],
   "policy": "Winkelacties zijn onbevestigde zoekhits. Alleen afzonderlijk geauditeerde identieke modellen met actuele NL-totaalprijs, onafhankelijke referentie en >=10% echte korting zijn koopdeals. Geen voorraad of bezorgkosten verzonnen.",

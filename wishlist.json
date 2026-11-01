@@ -374,6 +374,138 @@
       "discountOnly": true,
       "minimumVerifiedDiscountPercent": 10,
       "notes": "Uitsluitend aantoonbare tijdelijke korting minimaal 10% op exacte HEAD Pro S+ of Pro+, gelijke verpakking en prijs per drie ballen; bulkprijzen zonder actiehistorie zijn geen deal. NL bezorgkosten verplicht."
+    },
+    {
+      "id": "dyson-airwrap",
+      "name": "Dyson Airwrap complete haarstyler",
+      "category": "Verzorging & haarstyling",
+      "keywords": [
+        "Dyson Airwrap"
+      ],
+      "matchAny": [
+        "Dyson Airwrap"
+      ],
+      "excludeTerms": [
+        "opbergcase",
+        "hoes",
+        "etui",
+        "koffer",
+        "losse opzetstuk",
+        "opzetstuk",
+        "accessoire",
+        "imitatie"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Alleen complete originele Dyson Airwrap haarstyler, exacte generatie (bijv. i.d., Co-anda), accessoires, condition nieuw/refurb, kleur, garantie, NL bezorging en echte prijsverlaging apart beoordelen."
+    },
+    {
+      "id": "arcteryx-gamma-broek",
+      "name": "Arc'teryx Gamma herenbroek W32–W34",
+      "category": "Outdoor & kleding",
+      "keywords": [
+        "Arc'teryx Gamma Pant",
+        "Arcteryx Gamma Pant"
+      ],
+      "matchAny": [
+        "Arc'teryx Gamma Pant",
+        "Arc'teryx Gamma broek",
+        "Arcteryx Gamma Pant",
+        "Arcteryx Gamma broek"
+      ],
+      "excludeTerms": [
+        "jacket",
+        "hoody",
+        "hoodie",
+        "dames",
+        "women",
+        "womens",
+        "kids",
+        "junior",
+        "shorts"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Specifiek Gamma broek voor heren, W32/W33/W34 en juiste lengte; modelgeneratie, uitvoering, kleur, stock per maat en all-in NL leverprijs verplicht. Outlet apart."
+    },
+    {
+      "id": "arcteryx-werkbroek-alternatief",
+      "name": "Arc'teryx heren werk-/outdoorbroek vergelijkbaar met Gamma",
+      "category": "Outdoor & kleding",
+      "keywords": [
+        "Arc'teryx broek",
+        "Arcteryx pants"
+      ],
+      "matchAny": [
+        "Arc'teryx pants",
+        "Arc'teryx pant",
+        "Arc'teryx broek",
+        "Arcteryx pants",
+        "Arcteryx pant",
+        "Arcteryx broek"
+      ],
+      "excludeTerms": [
+        "dames",
+        "women",
+        "womens",
+        "kids",
+        "shorts",
+        "jacket",
+        "hoody",
+        "shirt",
+        "tee"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Alternatieve robuuste Arc'teryx herenbroek naast Gamma; W32/W33/W34, vergelijk model, slijtvastheid en pasvorm. Alternatief is niet identiek aan Gamma."
+    },
+    {
+      "id": "arcteryx-wit-logo-shirt",
+      "name": "Arc'teryx wit heren T-shirt met logo L/XL",
+      "category": "Outdoor & kleding",
+      "keywords": [
+        "Arc'teryx logo t-shirt white"
+      ],
+      "matchAny": [
+        "Arc'teryx T-shirt",
+        "Arc'teryx tee",
+        "Arcteryx T-shirt",
+        "Arcteryx tee"
+      ],
+      "excludeTerms": [
+        "dames",
+        "women",
+        "womens",
+        "kids",
+        "hoodie",
+        "jacket"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Uitsluitend wit Arc'teryx heren T-shirt met logo in L of XL. Kleur, logo, maat, pasvorm en voorraad expliciet bevestigen; andere kleuren niet als exacte match."
+    },
+    {
+      "id": "luxe-huisparfum-alternatief",
+      "name": "Betaalbare alternatieven voor luxe winkelparfum-huisgeuren",
+      "category": "Verzorging & huisgeur",
+      "keywords": [
+        "luxe huisparfum",
+        "geur diffuser"
+      ],
+      "matchAny": [
+        "luxe huisparfum",
+        "geurstokjes luxe",
+        "huisparfum diffuser",
+        "home fragrance diffuser"
+      ],
+      "excludeTerms": [
+        "autoparfum",
+        "autogeurtje",
+        "parfum eau de parfum"
+      ],
+      "region": "NL + EU",
+      "maxPriceEUR": null,
+      "notes": "Alternatieven voor Maison Berger met vergelijkbaar luxe geurprofiel maar lagere kosten. Vergelijk geurtype, gebruik (lamp/elektrisch/stokjes), inhoud, kwaliteit en prijs per 100 ml. Nooit als identiek Maison Berger-product of bewezen korting labelen."
     }
   ],
   "outdoorBrandAllowlist": [
@@ -403,5 +535,213 @@
     "doNotClaimVerifiedLowestPriceWithoutLiveComparableOffers": true,
     "alertOnlyForSubstantialRealSavings": true,
     "allowEUAndInternationalWhenShippingToNLAndTotalCostClear": true
-  }
+  },
+  "serviceProfiles": [
+    {
+      "id": "internet-tv",
+      "name": "Internet en TV",
+      "kind": "service",
+      "category": "Telecom & abonnementen",
+      "comparisonUnit": "totaalprijs eerste 12 maanden en daarna",
+      "notes": "Download/upload, glasvezel/kabel beschikbaarheid per postcode, TV-zenders en decoders, aansluitkosten, installatie, apparatuur, cashback en opzegkosten verifiëren.",
+      "automationStatus": "comparison_needed"
+    },
+    {
+      "id": "sim-only-onbeperkt",
+      "name": "Sim-only unlimited",
+      "kind": "service",
+      "category": "Telecom & abonnementen",
+      "comparisonUnit": "totale maand- en contractkosten",
+      "notes": "Werkelijke fair-use-datalimiet, roaming EU, snelheid (5G), contractduur, netwerkdekking, prijs na korting en overstapvoorwaarden vergelijken.",
+      "automationStatus": "comparison_needed"
+    },
+    {
+      "id": "gas-elektra",
+      "name": "Gas en elektra",
+      "kind": "service",
+      "category": "Energie",
+      "comparisonUnit": "verwachte netto jaarkosten",
+      "notes": "Verbruik en teruglevering, vaste/variabele tarieven, terugleverkosten, vastrecht, bonussen, looptijd en zonnepanelen op contractprofiel toetsen.",
+      "automationStatus": "comparison_needed"
+    }
+  ],
+  "searchProfiles": [
+    {
+      "position": 1,
+      "name": "Apple AirPods Pro",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-airpods-pro"
+      ]
+    },
+    {
+      "position": 2,
+      "name": "Apple AirPods ANC (alternatief)",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-airpods"
+      ]
+    },
+    {
+      "position": 3,
+      "name": "Maison Berger luxe geuren",
+      "kind": "product",
+      "wishlistIds": [
+        "lampe-berger-geuren"
+      ]
+    },
+    {
+      "position": 4,
+      "name": "Goedkopere luxe huisparfums",
+      "kind": "product",
+      "wishlistIds": [
+        "luxe-huisparfum-alternatief"
+      ]
+    },
+    {
+      "position": 5,
+      "name": "High-tech gadgets",
+      "kind": "product",
+      "wishlistIds": [
+        "hightech-gadgets"
+      ]
+    },
+    {
+      "position": 6,
+      "name": "MacBook Air",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-macbook"
+      ]
+    },
+    {
+      "position": 7,
+      "name": "MacBook Pro",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-macbook"
+      ]
+    },
+    {
+      "position": 8,
+      "name": "iMac",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-imac"
+      ]
+    },
+    {
+      "position": 9,
+      "name": "Baanbrekende USB-hubs",
+      "kind": "product",
+      "wishlistIds": [
+        "usb-hubs-premium"
+      ]
+    },
+    {
+      "position": 10,
+      "name": "HOKA Arahi",
+      "kind": "product",
+      "wishlistIds": [
+        "hoka-schoenen"
+      ]
+    },
+    {
+      "position": 11,
+      "name": "HOKA Kawana",
+      "kind": "product",
+      "wishlistIds": [
+        "hoka-schoenen"
+      ]
+    },
+    {
+      "position": 12,
+      "name": "Vergelijkbare stabiliteitsschoenen",
+      "kind": "product",
+      "wishlistIds": [
+        "hoka-schoenen"
+      ]
+    },
+    {
+      "position": 13,
+      "name": "Arc'teryx Gamma broek",
+      "kind": "product",
+      "wishlistIds": [
+        "arcteryx-gamma-broek"
+      ]
+    },
+    {
+      "position": 14,
+      "name": "Arc'teryx vergelijkbare werkbroek",
+      "kind": "product",
+      "wishlistIds": [
+        "arcteryx-werkbroek-alternatief"
+      ]
+    },
+    {
+      "position": 15,
+      "name": "Arc'teryx wit T-shirt logo",
+      "kind": "product",
+      "wishlistIds": [
+        "arcteryx-wit-logo-shirt"
+      ]
+    },
+    {
+      "position": 16,
+      "name": "Internet en TV",
+      "kind": "service",
+      "serviceId": "internet-tv"
+    },
+    {
+      "position": 17,
+      "name": "Sim only unlimited",
+      "kind": "service",
+      "serviceId": "sim-only-onbeperkt"
+    },
+    {
+      "position": 18,
+      "name": "Gas en elektra",
+      "kind": "service",
+      "serviceId": "gas-elektra"
+    },
+    {
+      "position": 19,
+      "name": "Dyson handstofzuiger",
+      "kind": "product",
+      "wishlistIds": [
+        "dyson-handstofzuiger"
+      ]
+    },
+    {
+      "position": 20,
+      "name": "Dyson Airwrap",
+      "kind": "product",
+      "wishlistIds": [
+        "dyson-airwrap"
+      ]
+    },
+    {
+      "position": 21,
+      "name": "Apple Watch Ultra",
+      "kind": "product",
+      "wishlistIds": [
+        "apple-watch-ultra"
+      ]
+    },
+    {
+      "position": 22,
+      "name": "JANZEN Earth",
+      "kind": "product",
+      "wishlistIds": [
+        "janzen-earth"
+      ]
+    },
+    {
+      "position": 23,
+      "name": "Bijzondere sample sales",
+      "kind": "event",
+      "researchTargetId": "event-sales"
+    }
+  ],
+  "sourceListImportedFrom": "Geplakte markdown.md (23 niet-lege regels, 2026-11-01)"
 }

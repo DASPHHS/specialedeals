@@ -1,0 +1,45 @@
+name: Publish Non-food Folders
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "integrations/weekdeals/publish_folders.py"
+      - ".github/workflows/publish-weekdeals-folders.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publish-weekdeals-folders
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and validate real folder index
+        run: python integrations/weekdeals/publish_folders.py
+      - name: Publish in GitHub Pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp weekdeals/folders.json "$RUNNER_TEMP/nonfood-folders.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+          mkdir -p weekdeals
+          cp "$RUNNER_TEMP/nonfood-folders.json" weekdeals/folders.json
+          git add weekdeals/folders.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Kruidvat Trekpleister Xenos folders [skip ci]"
+            git push origin HEAD:main
+          fi

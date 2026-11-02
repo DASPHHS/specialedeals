@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T14:45:58.444793+01:00",
+  "updatedAt": "2026-11-02T21:42:28.626018+01:00",
   "sourceSnapshots": [
     "2026-11-02T12:20:49+01:00",
-    "2026-11-01T14:09:31+01:00"
+    "2026-11-02T16:40:05+01:00"
   ],
   "wishCount": 23,
   "candidateCount": 0,
@@ -13,7 +13,7 @@
   "researchErrorCount": 0,
   "pricewatchCount": 0,
   "pricewatchErrorCount": 0,
-  "shopsSeen": 21,
+  "shopsSeen": 26,
   "shops": {
     "Albert Heijn": 2595,
     "PLUS": 1838,
@@ -32,10 +32,15 @@
     "MCD": 85,
     "Coop": 84,
     "coop": 62,
+    "Intratuin": 54,
+    "Etos": 40,
+    "Trekpleister": 40,
     "SPAR": 37,
     "dagwinkel": 37,
     "Lidl": 31,
-    "Action": 17
+    "DA": 24,
+    "Action": 17,
+    "Wibra": 11
   },
   "items": [
     {

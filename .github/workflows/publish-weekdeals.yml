@@ -2,7 +2,9 @@ name: Publish Weekdeals Bleiswijk
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 5 * * *"
+    # Three separated publication opportunities reduce missed daily refreshes.
+    # The publisher retains the previous file if upstream coverage is incomplete.
+    - cron: "45 5,11,17 * * *"
   push:
     branches: [main]
     paths:

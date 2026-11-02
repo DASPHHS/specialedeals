@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T12:05:59+01:00",
+  "updated_at": "2026-11-02T16:36:39+01:00",
   "source": "Folderwijzer",
   "attribution": "Folders via Folderwijzer",
   "source_url": "https://folderwijzer.nl/",
@@ -29,17 +29,6 @@
       "bron": "Folderwijzer"
     },
     {
-      "id": "xenos:2026-10-19:2026-11-01",
-      "winkel": "Xenos",
-      "categorie": "Wonen & huishoudelijk",
-      "van": "2026-10-19",
-      "tot": "2026-11-01",
-      "url": "https://folderwijzer.nl/folder/731/",
-      "aanbiedingen_aantal": 60,
-      "type": "folderlink",
-      "bron": "Folderwijzer"
-    },
-    {
       "id": "xenos:2026-10-19:2026-12-06",
       "winkel": "Xenos",
       "categorie": "Wonen & huishoudelijk",
@@ -51,17 +40,6 @@
       "bron": "Folderwijzer"
     },
     {
-      "id": "xenos:2026-10-19:2026-11-01",
-      "winkel": "Xenos",
-      "categorie": "Wonen & huishoudelijk",
-      "van": "2026-10-19",
-      "tot": "2026-11-01",
-      "url": "https://folderwijzer.nl/folder/770/",
-      "aanbiedingen_aantal": 69,
-      "type": "folderlink",
-      "bron": "Folderwijzer"
-    },
-    {
       "id": "xenos:2026-10-26:2027-01-03",
       "winkel": "Xenos",
       "categorie": "Wonen & huishoudelijk",
@@ -69,6 +47,17 @@
       "tot": "2027-01-03",
       "url": "https://folderwijzer.nl/folder/767/",
       "aanbiedingen_aantal": 234,
+      "type": "folderlink",
+      "bron": "Folderwijzer"
+    },
+    {
+      "id": "xenos:2026-11-02:2026-11-08",
+      "winkel": "Xenos",
+      "categorie": "Wonen & huishoudelijk",
+      "van": "2026-11-02",
+      "tot": "2026-11-08",
+      "url": "https://folderwijzer.nl/folder/794/",
+      "aanbiedingen_aantal": 53,
       "type": "folderlink",
       "bron": "Folderwijzer"
     }

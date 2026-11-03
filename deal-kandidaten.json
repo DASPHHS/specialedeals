@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:29:06.372414+00:00",
+  "updatedAt": "2026-11-03T17:49:36.237145+00:00",
   "items": [
     {
       "id": "856f5249b9cff07bf7d2",
@@ -7,7 +7,27 @@
       "url": "https://nl.pepper.com/aanbiedingen/xenos-sale-tot-70-halloween-snoep-11-gratis-online-winkel-424904",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-03T09:29:06.372414+00:00",
+      "detectedAt": "2026-11-03T17:49:36.237145+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "2f6dd3dd1b110f3e68aa",
+      "title": "Tijdelijk tot 30% korting op tv's - o.a. Philips 77 inch OLED, Sony Bravia 6 OLED en Hisense MiniLED @ Bol",
+      "url": "https://nl.pepper.com/aanbiedingen/black-friday-bij-bol-tvs-tot-30-goedkoper-dan-elders-oa-philips-77-inch-oled-sony-bravia-6-oled-en-hisense-miniled-424748",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-03T17:49:36.237145+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "ef46cc03fa9328a0f2b5",
+      "title": "Black Friday: tot 50% korting op dekbedovertrekken, dekbedden en hoeslakens @ Bol (o.a. Riviera Maison, Beddinghouse & Cinderella)",
+      "url": "https://nl.pepper.com/aanbiedingen/black-friday-korting-op-dekbedovertrekken-dekbedden-en-hoeslakens-at-bol-oa-riviera-maison-beddinghouse-cinderella-424765",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-03T17:49:36.237145+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

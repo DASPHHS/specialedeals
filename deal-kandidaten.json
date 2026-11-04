@@ -1,13 +1,15 @@
 {
-  "updatedAt": "2026-11-04T06:11:40.944648+00:00",
+  "updatedAt": "2026-11-04T14:27:33.103596+00:00",
   "items": [
     {
-      "id": "5dc31f157aebecbc9925",
-      "title": "HEMA bestaat 100 jaar: Volop 1+1 gratis & feestelijke verjaardagsaanbiedingen!",
-      "url": "https://nl.pepper.com/aanbiedingen/1-1-gratis-op-oogmake-up-en-andere-aanbiedingen-at-hema-424815",
+      "id": "a83246f139e6f903567c",
+      "title": "Dyson V12s Detect Slim Submarine draadloze steelstofzuiger met dweilkop @ Coolblue",
+      "url": "https://nl.pepper.com/aanbiedingen/dyson-v12s-detect-slim-submarine-draadloze-steelstofzuiger-met-dweilkop-at-coolblue-425196",
       "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-04T06:11:40.944648+00:00",
+      "wishlistMatches": [
+        "dyson-handstofzuiger"
+      ],
+      "detectedAt": "2026-11-04T14:27:33.103596+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

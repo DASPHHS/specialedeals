@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T14:27:33.103596+00:00",
+  "updatedAt": "2026-11-04T21:17:28.970973+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-11-04T14:27:33.103596+00:00",
-      "lastSeenAt": "2026-11-04T14:27:33.103596+00:00",
+      "discoveredAt": "2026-11-04T21:17:28.970973+00:00",
+      "lastSeenAt": "2026-11-04T21:17:28.970973+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-10-27; controleer opnieuw bij deelname"
     },
     {
@@ -43,8 +43,8 @@
       "kind": "contests",
       "source": "Wibra",
       "audience": "all",
-      "discoveredAt": "2026-11-04T14:27:33.103596+00:00",
-      "lastSeenAt": "2026-11-04T14:27:33.103596+00:00",
+      "discoveredAt": "2026-11-04T21:17:28.970973+00:00",
+      "lastSeenAt": "2026-11-04T21:17:28.970973+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-10-28; controleer opnieuw bij deelname"
     },
     {
@@ -66,8 +66,8 @@
       "source": "ANWB",
       "audience": "all",
       "score": 95,
-      "discoveredAt": "2026-11-04T14:27:33.103596+00:00",
-      "lastSeenAt": "2026-11-04T14:27:33.103596+00:00",
+      "discoveredAt": "2026-11-04T21:17:28.970973+00:00",
+      "lastSeenAt": "2026-11-04T21:17:28.970973+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-11-01; controleer opnieuw bij deelname"
     },
     {
@@ -85,13 +85,13 @@
       "audience": "all",
       "organizerVerified": false,
       "priceVerified": false,
-      "discoveredAt": "2026-11-04T14:27:33.103596+00:00",
-      "lastSeenAt": "2026-11-04T14:27:33.103596+00:00",
+      "discoveredAt": "2026-11-04T21:17:28.970973+00:00",
+      "lastSeenAt": "2026-11-04T21:17:28.970973+00:00",
       "status": "Evenementagenda vandaag opnieuw geraadpleegd; organisator niet geverifieerd",
       "description": "Dames-/heren-/meisjeskleding; toegang alleen met ticket, timeslots. Controleer beschikbaarheid, ticketvoorwaarden en daadwerkelijke maatprijzen bij de organisator.",
       "conditions": "Ticket vereist",
       "discountClaim": "tot 70% volgens evenementenagenda; niet onafhankelijk geverifieerd",
-      "sourceCheckedAt": "2026-11-04T14:27:33.103596+00:00",
+      "sourceCheckedAt": "2026-11-04T21:17:28.970973+00:00",
       "eventPageObserved": true,
       "wishlistMatches": []
     },
@@ -168,7 +168,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "SuperSales",
@@ -178,9 +178,8 @@
     },
     {
       "name": "Amac Apple aanbiedingen",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "Bever sale",
@@ -243,7 +242,7 @@
   "wishlistLastRead": "2026-11-01",
   "radarProfileLastRead": "2026-10-28",
   "minDealDiscountPercent": 10,
-  "dealCandidates": 1,
+  "dealCandidates": 2,
   "wishlistProducts": [
     {
       "id": "dyson-handstofzuiger",

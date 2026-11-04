@@ -1,15 +1,23 @@
 {
-  "updatedAt": "2026-11-04T14:27:33.103596+00:00",
+  "updatedAt": "2026-11-04T21:17:28.970973+00:00",
   "items": [
     {
-      "id": "a83246f139e6f903567c",
-      "title": "Dyson V12s Detect Slim Submarine draadloze steelstofzuiger met dweilkop @ Coolblue",
-      "url": "https://nl.pepper.com/aanbiedingen/dyson-v12s-detect-slim-submarine-draadloze-steelstofzuiger-met-dweilkop-at-coolblue-425196",
+      "id": "c7a00ffaed5e49b9b40c",
+      "title": "G-STAR jassen: tot 50% korting + 22% extra korting met code",
+      "url": "https://nl.pepper.com/aanbiedingen/g-star-jassen-tot-50-korting-22-extra-korting-met-code-425165",
       "source": "Pepper",
-      "wishlistMatches": [
-        "dyson-handstofzuiger"
-      ],
-      "detectedAt": "2026-11-04T14:27:33.103596+00:00",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-04T21:17:28.970973+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "e2e8a390ded282dd7e29",
+      "title": "Jeans Centre 30% korting, alleen vandaag!",
+      "url": "https://nl.pepper.com/aanbiedingen/jeans-centre-30-korting-alleen-vandaag-425187",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-04T21:17:28.970973+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

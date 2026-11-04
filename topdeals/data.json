@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T06:55:50.404064+01:00",
+  "generatedAt": "2026-11-04T15:16:31.305340+01:00",
   "timeZone": "Europe/Amsterdam",
   "sortPolicy": "Wishlist affinity, individual item price, source quality, advertised reference discount and source diversity. This is a ranked shortlist, NOT verified savings.",
   "coverage": "Only PrijsProfeet and selected FeedMyCart/DA/Intratuin sources; not all supermarkets, building-supply stores or webshops.",
@@ -17,7 +17,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-airpods-pro"
       ],
@@ -33,7 +33,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-airpods"
       ],
@@ -49,7 +49,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "lampe-berger-geuren"
       ],
@@ -65,7 +65,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "luxe-huisparfum-alternatief"
       ],
@@ -81,7 +81,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "hightech-gadgets"
       ],
@@ -97,7 +97,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -113,7 +113,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -129,7 +129,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-imac"
       ],
@@ -145,7 +145,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "usb-hubs-premium"
       ],
@@ -161,7 +161,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -177,7 +177,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -193,7 +193,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -209,7 +209,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "arcteryx-gamma-broek"
       ],
@@ -225,7 +225,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "arcteryx-werkbroek-alternatief"
       ],
@@ -241,7 +241,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "arcteryx-wit-logo-shirt"
       ],
@@ -299,7 +299,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "dyson-handstofzuiger"
       ],
@@ -315,7 +315,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "dyson-airwrap"
       ],
@@ -331,7 +331,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "apple-watch-ultra"
       ],
@@ -347,7 +347,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-04T06:55:50.404064+01:00",
+      "checkedAgainstFeedAt": "2026-11-04T15:16:31.305340+01:00",
       "trackedWishIds": [
         "janzen-earth"
       ],
@@ -376,25 +376,25 @@
   "sourceHealth": [
     {
       "source": "PrijsProfeet",
-      "sourceUpdatedAt": "2026-11-03T23:30:24+01:00",
-      "ageHours": 7.4,
+      "sourceUpdatedAt": "2026-11-04T14:17:09+01:00",
+      "ageHours": 1.0,
       "usable": true,
-      "offersInSnapshot": 13662
+      "offersInSnapshot": 12368
     },
     {
       "source": "FeedMyCart",
       "sourceUpdatedAt": "2026-11-03T15:04:03+01:00",
-      "ageHours": 15.9,
+      "ageHours": 24.2,
       "usable": true,
       "offersInSnapshot": 184
     }
   ],
   "discarded": {
-    "expired_or_bad_price": 5116,
+    "expired_or_bad_price": 729,
     "stale_source": 0,
-    "duplicates": 15
+    "duplicates": 29
   },
-  "eligibleCount": 8715,
+  "eligibleCount": 11794,
   "wishlistMatchedCount": 0,
   "categories": {
     "persoonlijk": {
@@ -404,7 +404,7 @@
     },
     "supermarkt": {
       "label": "Supermarkt & boodschappen",
-      "available": 7191,
+      "available": 9627,
       "top10": [
         {
           "id": "prijsprofeet:albert_heijn:ah_wi610596_2026-11-02",
@@ -631,46 +631,18 @@
           "rankScore": 31.88
         },
         {
-          "id": "prijsprofeet:dagwinkel:dagwinkel_folder_robijn-color-of-spa-sensation-wascapsules_2026-11-02",
-          "title": "Robijn Color of Spa Sensation wascapsules",
-          "shop": "dagwinkel",
+          "id": "prijsprofeet:hoogvliet:hoogvliet_712262000_2026-11-04",
+          "title": "Dr. Oetker Big americans cheese onions",
+          "shop": "Hoogvliet",
           "category": "supermarkt",
           "source": "PrijsProfeet",
-          "url": "https://www.lekkermakkelijk.nl/folders",
-          "priceEUR": 3.99,
-          "unitPriceEUR": 3.99,
-          "unit": "stuk",
-          "advertisedReferenceEUR": 10.49,
-          "advertisedDiscountPercent": 62.0,
+          "url": "https://hoogvliet.nl/product/dr-oetker-big-americans-cheese-onions-712262000",
+          "priceEUR": 1.89,
+          "unitPriceEUR": 4.91,
+          "unit": "kg",
+          "advertisedReferenceEUR": 4.99,
+          "advertisedDiscountPercent": 62.1,
           "offerType": "percentage",
-          "startDate": "2026-11-02",
-          "endDate": "2026-11-08",
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": null,
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 31.7
-        },
-        {
-          "id": "prijsprofeet:plus:plus_949501_2026-11-04",
-          "title": "Plus Keukenpapier 3-laags ultra",
-          "shop": "PLUS",
-          "category": "supermarkt",
-          "source": "PrijsProfeet",
-          "url": "https://www.plus.nl/product/plus-keukenpapier-3-laags-ultra-zak-2-st-949501",
-          "priceEUR": 1.0,
-          "unitPriceEUR": 0.5,
-          "unit": "stuk",
-          "advertisedReferenceEUR": 3.29,
-          "advertisedDiscountPercent": 69.6,
-          "offerType": "multi_buy",
           "startDate": "2026-11-04",
           "endDate": "2026-11-10",
           "dateEstimated": false,
@@ -684,7 +656,35 @@
           "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
           "directProductPage": false,
           "bundle": false,
-          "rankScore": 31.36
+          "rankScore": 31.73
+        },
+        {
+          "id": "prijsprofeet:hoogvliet:hoogvliet_678267000_2026-11-04",
+          "title": "Dr. Oetker Big americans pulled pork",
+          "shop": "Hoogvliet",
+          "category": "supermarkt",
+          "source": "PrijsProfeet",
+          "url": "https://hoogvliet.nl/product/dr-oetker-big-americans-pulled-pork-678267000",
+          "priceEUR": 1.89,
+          "unitPriceEUR": 4.5,
+          "unit": "kg",
+          "advertisedReferenceEUR": 4.99,
+          "advertisedDiscountPercent": 62.1,
+          "offerType": "percentage",
+          "startDate": "2026-11-04",
+          "endDate": "2026-11-10",
+          "dateEstimated": false,
+          "individualDateUnknown": false,
+          "observedAt": null,
+          "wishMatches": [],
+          "evidence": "Retailer promotion reference, not an independently verified discount",
+          "verifiedDeal": false,
+          "verifiedAllInPrice": false,
+          "shippingEUR": null,
+          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
+          "directProductPage": false,
+          "bundle": false,
+          "rankScore": 31.73
         }
       ]
     },
@@ -700,7 +700,7 @@
     },
     "drogisterij": {
       "label": "Drogisterij & verzorging",
-      "available": 1187,
+      "available": 1683,
       "top10": [
         {
           "id": "prijsprofeet:coop:coop_folder_axe-showergel_2026-11-02",
@@ -1110,7 +1110,7 @@
     },
     "huis": {
       "label": "Wonen & huishouden",
-      "available": 327,
+      "available": 474,
       "top10": [
         {
           "id": "prijsprofeet:albert_heijn:ah_wi615079_2026-11-02",

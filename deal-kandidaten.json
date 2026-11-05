@@ -1,23 +1,25 @@
 {
-  "updatedAt": "2026-11-05T02:23:40.559656+00:00",
+  "updatedAt": "2026-11-05T10:48:06.043458+00:00",
   "items": [
     {
-      "id": "69b4c28cbd9a2b0818cd",
-      "title": "G-Star Outlet: tot 60% korting + 22% extra met code SINGLES22 (dames & heren)",
-      "url": "https://nl.pepper.com/aanbiedingen/g-star-outlet-tot-60-korting-22-extra-met-code-singles22-dames-heren-425177",
+      "id": "4dca3ec4c2ae0de79a85",
+      "title": "Dyson PencilWash + goedkoopste ooit? (Nieuwsbrief +5% korting)",
+      "url": "https://nl.pepper.com/aanbiedingen/dyson-pencilwash-goedkoopste-ooit-nieuwsbrief-5-korting-425290",
       "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-05T02:23:40.559656+00:00",
+      "wishlistMatches": [
+        "dyson-handstofzuiger"
+      ],
+      "detectedAt": "2026-11-05T10:48:06.043458+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
-      "id": "c7a00ffaed5e49b9b40c",
-      "title": "G-STAR jassen: tot 50% korting + 22% extra korting met code",
-      "url": "https://nl.pepper.com/aanbiedingen/g-star-jassen-tot-50-korting-22-extra-korting-met-code-425165",
+      "id": "f06e5350a3065dc5c465",
+      "title": "[ING] 50% korting op Nook tafellampjes",
+      "url": "https://nl.pepper.com/aanbiedingen/ing-50-korting-op-nook-tafellampjes-425278",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-05T02:23:40.559656+00:00",
+      "detectedAt": "2026-11-05T10:48:06.043458+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

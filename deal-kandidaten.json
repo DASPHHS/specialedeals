@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-05T10:48:06.043458+00:00",
+  "updatedAt": "2026-11-05T18:42:33.858453+00:00",
   "items": [
+    {
+      "id": "f5f90a27bf37f51bc385",
+      "title": "Belsimpel Black Friday: sim only met cadeau of cashback, o.a. Apple AirPods 5 bij Lebara, Sony WH-1000XM6 bij KPN en Ben 7,5 GB met cashback",
+      "url": "https://nl.pepper.com/aanbiedingen/belsimpel-black-friday-sim-only-met-cadeau-of-cashback-oa-apple-airpods-5-bij-lebara-sony-wh-1000xm6-bij-kpn-en-ben-75-gb-met-cashback-425425",
+      "source": "Pepper",
+      "wishlistMatches": [
+        "apple-airpods"
+      ],
+      "detectedAt": "2026-11-05T18:42:33.858453+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
     {
       "id": "4dca3ec4c2ae0de79a85",
       "title": "Dyson PencilWash + goedkoopste ooit? (Nieuwsbrief +5% korting)",
@@ -9,17 +21,7 @@
       "wishlistMatches": [
         "dyson-handstofzuiger"
       ],
-      "detectedAt": "2026-11-05T10:48:06.043458+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "f06e5350a3065dc5c465",
-      "title": "[ING] 50% korting op Nook tafellampjes",
-      "url": "https://nl.pepper.com/aanbiedingen/ing-50-korting-op-nook-tafellampjes-425278",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-05T10:48:06.043458+00:00",
+      "detectedAt": "2026-11-05T18:42:33.858453+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

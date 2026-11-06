@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:42:33.858453+00:00",
+  "updatedAt": "2026-11-06T00:12:03.991993+00:00",
   "items": [
     {
       "id": "f5f90a27bf37f51bc385",
@@ -9,7 +9,7 @@
       "wishlistMatches": [
         "apple-airpods"
       ],
-      "detectedAt": "2026-11-05T18:42:33.858453+00:00",
+      "detectedAt": "2026-11-06T00:12:03.991993+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
@@ -21,7 +21,7 @@
       "wishlistMatches": [
         "dyson-handstofzuiger"
       ],
-      "detectedAt": "2026-11-05T18:42:33.858453+00:00",
+      "detectedAt": "2026-11-06T00:12:03.991993+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T12:52:57.795624+01:00",
+  "updatedAt": "2026-11-08T13:06:39.979182+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -13,7 +13,7 @@
     },
     {
       "wishId": "janzen-earth",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "JANZEN Earth",
       "leads": [],
       "status": "ok",
@@ -21,7 +21,7 @@
     },
     {
       "wishId": "hoka-schoenen",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "HOKA Arahi",
       "leads": [],
       "status": "ok",
@@ -29,7 +29,7 @@
     },
     {
       "wishId": "arcteryx-outdoor",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Arc'teryx",
       "leads": [],
       "status": "ok",
@@ -37,7 +37,7 @@
     },
     {
       "wishId": "apple-airpods",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Apple AirPods (standaardmodel)",
       "leads": [],
       "status": "ok",
@@ -45,18 +45,18 @@
     },
     {
       "wishId": "apple-airpods-pro",
-      "searchedAt": "2026-11-02T14:45:38.206348+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "AirPods Pro",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "apple-macbook",
-      "searchedAt": "2026-11-02T14:45:38.206348+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Apple MacBook",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -96,7 +96,7 @@
       "searchedAt": "2026-11-05T14:26:39.791239+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -104,7 +104,7 @@
       "searchedAt": "2026-11-05T14:26:39.791239+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "wishId": "premium-padel-balls",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "HEAD Padel Pro S+",
       "leads": [],
       "status": "ok",
@@ -162,7 +162,7 @@
     },
     {
       "wishId": "dyson-airwrap",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Dyson Airwrap",
       "leads": [],
       "status": "ok",
@@ -170,7 +170,7 @@
     },
     {
       "wishId": "arcteryx-gamma-broek",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Arc'teryx Gamma Pant",
       "leads": [],
       "status": "ok",
@@ -178,7 +178,7 @@
     },
     {
       "wishId": "arcteryx-werkbroek-alternatief",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Arc'teryx pants",
       "leads": [],
       "status": "ok",
@@ -186,7 +186,7 @@
     },
     {
       "wishId": "arcteryx-wit-logo-shirt",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "Arc'teryx T-shirt",
       "leads": [],
       "status": "ok",
@@ -194,7 +194,7 @@
     },
     {
       "wishId": "luxe-huisparfum-alternatief",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
       "query": "home fragrance diffuser",
       "leads": [],
       "status": "ok",

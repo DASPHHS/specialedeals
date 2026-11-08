@@ -1,16 +1,6 @@
 {
-  "updatedAt": "2026-11-07T22:42:32.638882+00:00",
+  "updatedAt": "2026-11-08T02:26:21.414956+00:00",
   "items": [
-    {
-      "id": "ed207e555644f5844c18",
-      "title": "[ANWB] Wegenwacht Nederland 30% korting! - 24/7 Auto pechhulp",
-      "url": "https://nl.pepper.com/aanbiedingen/anwb-wegenwacht-nederland-30-korting-425709",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-07T22:42:32.638882+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
     {
       "id": "67924292ea2d312fffb5",
       "title": "Dyson Spot+Scrub AI Robotstofzuigen met dweilfunctie Laasgte prijs ooit",
@@ -19,7 +9,17 @@
       "wishlistMatches": [
         "dyson-handstofzuiger"
       ],
-      "detectedAt": "2026-11-07T22:42:32.638882+00:00",
+      "detectedAt": "2026-11-08T02:26:21.414956+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "ed207e555644f5844c18",
+      "title": "[ANWB] Wegenwacht Nederland 30% korting! - 24/7 Auto pechhulp",
+      "url": "https://nl.pepper.com/aanbiedingen/anwb-wegenwacht-nederland-30-korting-425709",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-08T02:26:21.414956+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

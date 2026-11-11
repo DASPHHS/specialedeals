@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:16:49.539883+00:00",
+  "updatedAt": "2026-11-11T02:49:47.442452+00:00",
   "items": [
     {
       "id": "0ba66cc31ca7504900ee",
@@ -7,37 +7,7 @@
       "url": "https://nl.pepper.com/aanbiedingen/van-haren-black-week-50-korting-winkel-online-of-20-korting-op-alles-singels-day-426324",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-10T23:16:49.539883+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "5015bcc3ccb9ce78b0fc",
-      "title": "Charlotte Tilbury 1+1 gratis op o.a. cleanser, blush, palettes & meer",
-      "url": "https://nl.pepper.com/aanbiedingen/charlotte-tilbury-11-gratis-op-oa-cleanser-blush-palettes-meer-426265",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-10T23:16:49.539883+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "3c1559c7a425ed44553e",
-      "title": "Rituals: mini huisparfum & refills 25% korting + 15% extra korting",
-      "url": "https://nl.pepper.com/aanbiedingen/rituals-mini-huisparfum-refills-25-korting-426195",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-10T23:16:49.539883+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "dd0d7febc9e67684c937",
-      "title": "Philips Black Friday: tot 40% korting op o.a. koffiezetapparaten, keukenapparaten en meer (+10% extra korting via de nieuwsbrief)",
-      "url": "https://nl.pepper.com/aanbiedingen/philips-black-friday-tot-40-korting-op-oa-koffiezetapparaten-keukenapparaten-ect-426178",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-10T23:16:49.539883+00:00",
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
@@ -47,7 +17,57 @@
       "url": "https://nl.pepper.com/aanbiedingen/sony-black-friday-tijdelijk-tot-20-korting-op-audio-tot-30-extra-met-bundels-oa-wh-1000xm4c-the-collexion-wf-1000xm6-en-sa-sw3-426214",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-10T23:16:49.539883+00:00",
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "dd0d7febc9e67684c937",
+      "title": "Philips Black Friday: tot 40% korting op o.a. koffiezetapparaten, keukenapparaten en meer (+10% extra korting via de nieuwsbrief)",
+      "url": "https://nl.pepper.com/aanbiedingen/philips-black-friday-tot-40-korting-op-oa-koffiezetapparaten-keukenapparaten-ect-426178",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "ab85f9ccd81546d5a230",
+      "title": "Ring black friday deals: tot 60% korting op videodeurbel en camera’s",
+      "url": "https://nl.pepper.com/aanbiedingen/ring-black-friday-deals-tot-60-korting-426137",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "3c1559c7a425ed44553e",
+      "title": "Rituals: mini huisparfum & refills 25% korting + 15% extra korting",
+      "url": "https://nl.pepper.com/aanbiedingen/rituals-mini-huisparfum-refills-25-korting-426195",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "b8f56602fb7a659a7cd1",
+      "title": "Aula mechanisch toetsenborden | 50% korting bij aanschaf twee stuks @ Joybuy",
+      "url": "https://nl.pepper.com/aanbiedingen/aula-mechanisch-toetsenborden-50-korting-bij-aanschaf-twee-stuks-at-joybuy-426180",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "5015bcc3ccb9ce78b0fc",
+      "title": "Charlotte Tilbury 1+1 gratis op o.a. cleanser, blush, palettes & meer",
+      "url": "https://nl.pepper.com/aanbiedingen/charlotte-tilbury-11-gratis-op-oa-cleanser-blush-palettes-meer-426265",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-11T02:49:47.442452+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

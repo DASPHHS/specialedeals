@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T13:54:14.106574+01:00",
+  "updatedAt": "2026-11-12T14:56:16.647803+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -29,7 +29,7 @@
     },
     {
       "wishId": "arcteryx-outdoor",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Arc'teryx",
       "leads": [],
       "status": "ok",
@@ -37,7 +37,7 @@
     },
     {
       "wishId": "apple-airpods",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Apple AirPods (standaardmodel)",
       "leads": [],
       "status": "ok",
@@ -45,7 +45,7 @@
     },
     {
       "wishId": "apple-airpods-pro",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "AirPods Pro",
       "leads": [],
       "status": "ok",
@@ -53,7 +53,7 @@
     },
     {
       "wishId": "apple-macbook",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Apple MacBook",
       "leads": [],
       "status": "ok",
@@ -61,7 +61,7 @@
     },
     {
       "wishId": "apple-watch-ultra",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Watch Ultra",
       "leads": [],
       "status": "ok",
@@ -69,7 +69,7 @@
     },
     {
       "wishId": "rituals-homme",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Rituals Homme",
       "leads": [],
       "status": "ok",
@@ -77,7 +77,7 @@
     },
     {
       "wishId": "rituals-sport",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Rituals Sport",
       "leads": [],
       "status": "ok",
@@ -85,7 +85,7 @@
     },
     {
       "wishId": "giraffe-original",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Giraffe Original Blend",
       "leads": [],
       "status": "ok",
@@ -93,7 +93,7 @@
     },
     {
       "wishId": "ysl-m7",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
       "status": "ok",
@@ -101,7 +101,7 @@
     },
     {
       "wishId": "ysl-y",
-      "searchedAt": "2026-11-11T13:54:14.106574+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
       "status": "ok",
@@ -109,18 +109,31 @@
     },
     {
       "wishId": "apple-imac",
-      "searchedAt": "2026-11-06T14:09:46.860459+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Apple iMac",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "lampe-berger-geuren",
-      "searchedAt": "2026-11-06T14:09:46.860459+01:00",
+      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
       "query": "Lampe Berger",
-      "leads": [],
-      "status": "stale",
+      "leads": [
+        {
+          "title": "OFFICIAL LAMPE BERGER STORE - MAISON BERGER",
+          "url": "https://maison-berger.com/",
+          "domain": "maison-berger.com",
+          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
+        },
+        {
+          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER",
+          "url": "https://maison-berger.com/collections/all",
+          "domain": "maison-berger.com",
+          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
+        }
+      ],
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -160,7 +173,7 @@
       "searchedAt": "2026-11-09T15:14:35.538805+01:00",
       "query": "Arc'teryx Gamma Pant",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -168,7 +181,7 @@
       "searchedAt": "2026-11-09T15:14:35.538805+01:00",
       "query": "Arc'teryx pants",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -176,7 +189,7 @@
       "searchedAt": "2026-11-10T14:42:03.632632+01:00",
       "query": "Arc'teryx T-shirt",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -184,7 +197,7 @@
       "searchedAt": "2026-11-10T14:42:03.632632+01:00",
       "query": "home fragrance diffuser",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     }
   ],

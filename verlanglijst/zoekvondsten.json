@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T14:56:16.647803+01:00",
+  "updatedAt": "2026-11-13T14:21:48.978785+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -16,7 +16,7 @@
       "searchedAt": "2026-11-11T13:54:14.106574+01:00",
       "query": "JANZEN Earth",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -24,7 +24,7 @@
       "searchedAt": "2026-11-11T13:54:14.106574+01:00",
       "query": "HOKA Arahi",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "wishId": "apple-airpods-pro",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "AirPods Pro",
       "leads": [],
       "status": "ok",
@@ -53,7 +53,7 @@
     },
     {
       "wishId": "apple-macbook",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Apple MacBook",
       "leads": [],
       "status": "ok",
@@ -61,7 +61,7 @@
     },
     {
       "wishId": "apple-watch-ultra",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Watch Ultra",
       "leads": [],
       "status": "ok",
@@ -69,7 +69,7 @@
     },
     {
       "wishId": "rituals-homme",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Rituals Homme",
       "leads": [],
       "status": "ok",
@@ -77,7 +77,7 @@
     },
     {
       "wishId": "rituals-sport",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Rituals Sport",
       "leads": [],
       "status": "ok",
@@ -85,7 +85,7 @@
     },
     {
       "wishId": "giraffe-original",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Giraffe Original Blend",
       "leads": [],
       "status": "ok",
@@ -93,7 +93,7 @@
     },
     {
       "wishId": "ysl-m7",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
       "status": "ok",
@@ -101,7 +101,7 @@
     },
     {
       "wishId": "ysl-y",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
       "status": "ok",
@@ -109,7 +109,7 @@
     },
     {
       "wishId": "apple-imac",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Apple iMac",
       "leads": [],
       "status": "ok",
@@ -117,7 +117,7 @@
     },
     {
       "wishId": "lampe-berger-geuren",
-      "searchedAt": "2026-11-12T14:56:16.647803+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Lampe Berger",
       "leads": [
         {
@@ -127,7 +127,7 @@
           "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
         },
         {
-          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER",
+          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER USA",
           "url": "https://maison-berger.com/collections/all",
           "domain": "maison-berger.com",
           "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
@@ -138,18 +138,18 @@
     },
     {
       "wishId": "usb-hubs-premium",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Thunderbolt 4 dock",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "hightech-gadgets",
-      "searchedAt": "2026-11-07T12:52:57.795624+01:00",
+      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
       "query": "Matter smart home hub",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {

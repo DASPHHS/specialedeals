@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:57:44.841757+00:00",
+  "updatedAt": "2026-11-14T02:24:19.302331+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-11-13T21:57:44.841757+00:00",
-      "lastSeenAt": "2026-11-13T21:57:44.841757+00:00",
+      "discoveredAt": "2026-11-14T02:24:19.302331+00:00",
+      "lastSeenAt": "2026-11-14T02:24:19.302331+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-10-27; controleer opnieuw bij deelname"
     },
     {
@@ -43,8 +43,8 @@
       "source": "ANWB",
       "audience": "all",
       "score": 95,
-      "discoveredAt": "2026-11-13T21:57:44.841757+00:00",
-      "lastSeenAt": "2026-11-13T21:57:44.841757+00:00",
+      "discoveredAt": "2026-11-14T02:24:19.302331+00:00",
+      "lastSeenAt": "2026-11-14T02:24:19.302331+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-11-01; controleer opnieuw bij deelname"
     },
     {
@@ -62,13 +62,13 @@
       "audience": "all",
       "organizerVerified": false,
       "priceVerified": false,
-      "discoveredAt": "2026-11-13T21:57:44.841757+00:00",
-      "lastSeenAt": "2026-11-13T21:57:44.841757+00:00",
+      "discoveredAt": "2026-11-14T02:24:19.302331+00:00",
+      "lastSeenAt": "2026-11-14T02:24:19.302331+00:00",
       "status": "Evenementagenda vandaag opnieuw geraadpleegd; organisator niet geverifieerd",
       "description": "Dames-/heren-/meisjeskleding; toegang alleen met ticket, timeslots. Controleer beschikbaarheid, ticketvoorwaarden en daadwerkelijke maatprijzen bij de organisator.",
       "conditions": "Ticket vereist",
       "discountClaim": "tot 70% volgens evenementenagenda; niet onafhankelijk geverifieerd",
-      "sourceCheckedAt": "2026-11-13T21:57:44.841757+00:00",
+      "sourceCheckedAt": "2026-11-14T02:24:19.302331+00:00",
       "eventPageObserved": true,
       "wishlistMatches": []
     }
@@ -129,7 +129,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "SuperSales",
@@ -203,7 +203,7 @@
   "wishlistLastRead": "2026-11-01",
   "radarProfileLastRead": "2026-10-28",
   "minDealDiscountPercent": 10,
-  "dealCandidates": 3,
+  "dealCandidates": 4,
   "wishlistProducts": [
     {
       "id": "dyson-handstofzuiger",

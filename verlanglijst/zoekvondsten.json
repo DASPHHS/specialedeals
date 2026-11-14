@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:21:48.978785+01:00",
+  "updatedAt": "2026-11-14T13:26:08.502414+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -61,7 +61,7 @@
     },
     {
       "wishId": "apple-watch-ultra",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Watch Ultra",
       "leads": [],
       "status": "ok",
@@ -69,7 +69,7 @@
     },
     {
       "wishId": "rituals-homme",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Rituals Homme",
       "leads": [],
       "status": "ok",
@@ -77,7 +77,7 @@
     },
     {
       "wishId": "rituals-sport",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Rituals Sport",
       "leads": [],
       "status": "ok",
@@ -85,7 +85,7 @@
     },
     {
       "wishId": "giraffe-original",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Giraffe Original Blend",
       "leads": [],
       "status": "ok",
@@ -93,7 +93,7 @@
     },
     {
       "wishId": "ysl-m7",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
       "status": "ok",
@@ -101,7 +101,7 @@
     },
     {
       "wishId": "ysl-y",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
       "status": "ok",
@@ -109,7 +109,7 @@
     },
     {
       "wishId": "apple-imac",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Apple iMac",
       "leads": [],
       "status": "ok",
@@ -117,7 +117,7 @@
     },
     {
       "wishId": "lampe-berger-geuren",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Lampe Berger",
       "leads": [
         {
@@ -127,7 +127,7 @@
           "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
         },
         {
-          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER USA",
+          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER",
           "url": "https://maison-berger.com/collections/all",
           "domain": "maison-berger.com",
           "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
@@ -138,7 +138,7 @@
     },
     {
       "wishId": "usb-hubs-premium",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Thunderbolt 4 dock",
       "leads": [],
       "status": "ok",
@@ -146,7 +146,7 @@
     },
     {
       "wishId": "hightech-gadgets",
-      "searchedAt": "2026-11-13T14:21:48.978785+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Matter smart home hub",
       "leads": [],
       "status": "ok",
@@ -154,18 +154,18 @@
     },
     {
       "wishId": "premium-padel-balls",
-      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "HEAD Padel Pro S+",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "dyson-airwrap",
-      "searchedAt": "2026-11-08T13:06:39.979182+01:00",
+      "searchedAt": "2026-11-14T13:26:08.502414+01:00",
       "query": "Dyson Airwrap",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {

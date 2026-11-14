@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T22:53:46.910150+01:00",
+  "generatedAt": "2026-11-14T03:11:06.865255+01:00",
   "timeZone": "Europe/Amsterdam",
   "sortPolicy": "Wishlist affinity, individual item price, source quality, advertised reference discount and source diversity. This is a ranked shortlist, NOT verified savings.",
   "coverage": "Only PrijsProfeet and selected FeedMyCart/DA/Intratuin sources; not all supermarkets, building-supply stores or webshops.",
@@ -17,7 +17,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-airpods-pro"
       ],
@@ -33,7 +33,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-airpods"
       ],
@@ -49,7 +49,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "lampe-berger-geuren"
       ],
@@ -65,7 +65,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "luxe-huisparfum-alternatief"
       ],
@@ -81,7 +81,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "hightech-gadgets"
       ],
@@ -97,7 +97,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -113,7 +113,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -129,7 +129,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-imac"
       ],
@@ -145,7 +145,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "usb-hubs-premium"
       ],
@@ -161,7 +161,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -177,7 +177,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -193,7 +193,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -209,7 +209,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "arcteryx-gamma-broek"
       ],
@@ -225,7 +225,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "arcteryx-werkbroek-alternatief"
       ],
@@ -241,7 +241,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "arcteryx-wit-logo-shirt"
       ],
@@ -299,7 +299,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "dyson-handstofzuiger"
       ],
@@ -315,7 +315,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "dyson-airwrap"
       ],
@@ -331,7 +331,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "apple-watch-ultra"
       ],
@@ -347,7 +347,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-13T22:53:46.910150+01:00",
+      "checkedAgainstFeedAt": "2026-11-14T03:11:06.865255+01:00",
       "trackedWishIds": [
         "janzen-earth"
       ],
@@ -376,25 +376,25 @@
   "sourceHealth": [
     {
       "source": "PrijsProfeet",
-      "sourceUpdatedAt": "2026-11-13T14:26:10+01:00",
-      "ageHours": 8.5,
+      "sourceUpdatedAt": "2026-11-13T23:52:41+01:00",
+      "ageHours": 3.3,
       "usable": true,
       "offersInSnapshot": 13237
     },
     {
       "source": "FeedMyCart",
       "sourceUpdatedAt": "2026-11-13T15:29:27+01:00",
-      "ageHours": 7.4,
+      "ageHours": 11.7,
       "usable": true,
       "offersInSnapshot": 219
     }
   ],
   "discarded": {
-    "expired_or_bad_price": 3041,
+    "expired_or_bad_price": 3130,
     "stale_source": 0,
     "duplicates": 52
   },
-  "eligibleCount": 10363,
+  "eligibleCount": 10274,
   "wishlistMatchedCount": 0,
   "categories": {
     "persoonlijk": {
@@ -404,7 +404,7 @@
     },
     "supermarkt": {
       "label": "Supermarkt & boodschappen",
-      "available": 8532,
+      "available": 8524,
       "top10": [
         {
           "id": "prijsprofeet:vomar:vomar_folder_ambi-pur-toiletblokken_2026-11-08",
@@ -690,289 +690,8 @@
     },
     "tuin": {
       "label": "Tuin & buiten",
-      "available": 58,
-      "top10": [
-        {
-          "id": "intratuin:9214e1cef75ad712",
-          "title": "Intratuin sierkussen Jack ruit rood 45 x 45 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-sierkussen-jack-ruit-rood-45-x-45-cm.html",
-          "priceEUR": 8.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 14.99,
-          "advertisedDiscountPercent": 40.0,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 26.0
-        },
-        {
-          "id": "intratuin:768ccf36e75aa45d",
-          "title": "Black Box kunstkerstboom Charlton D 48 H 155 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/black-box-kunstkerstboom-charlton-d-48-h-155-cm.html",
-          "priceEUR": 24.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 39.99,
-          "advertisedDiscountPercent": 37.5,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 25.12
-        },
-        {
-          "id": "intratuin:c7c29eda9f458d5e",
-          "title": "Black Box kunstkerstboom Charlton D 76 H 120 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/black-box-kunstkerstboom-charlton-d-76-h-120-cm.html",
-          "priceEUR": 24.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 39.99,
-          "advertisedDiscountPercent": 37.5,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 25.12
-        },
-        {
-          "id": "intratuin:c175eb125a7ab874",
-          "title": "Intratuin kerstfiguur rendier met verlichting 59,5 x 24,5 x 95 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-kerstfiguur-rendier-met-verlichting-59-5-x-24-5-x-95-cm.html",
-          "priceEUR": 24.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 39.99,
-          "advertisedDiscountPercent": 37.5,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 25.12
-        },
-        {
-          "id": "intratuin:66268a86735259be",
-          "title": "Intratuin kerstfiguur vlinder met verlichting 40 x 1 x 33 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-kerstfiguur-vlinder-met-verlichting-40-x-1-x-33-cm.html",
-          "priceEUR": 9.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 14.99,
-          "advertisedDiscountPercent": 33.4,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.69
-        },
-        {
-          "id": "intratuin:f5893256e4766d45",
-          "title": "Intratuin lantaarn zwart 13 x 13 x 35 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-lantaarn-zwart-13-x-13-x-35-cm.html",
-          "priceEUR": 9.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 14.99,
-          "advertisedDiscountPercent": 33.4,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.69
-        },
-        {
-          "id": "intratuin:8a179128a8d84705",
-          "title": "Black Box kunstkerstboom Charlton D 53 H 185 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/black-box-kunstkerstboom-charlton-d-53-h-185-cm.html",
-          "priceEUR": 29.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 44.99,
-          "advertisedDiscountPercent": 33.3,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.65
-        },
-        {
-          "id": "intratuin:c00cbeb9de406fea",
-          "title": "Intratuin lantaarn zwart 23 x 23 x 60 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-lantaarn-zwart-23-x-23-x-60-cm.html",
-          "priceEUR": 29.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 44.99,
-          "advertisedDiscountPercent": 33.3,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.65
-        },
-        {
-          "id": "intratuin:66c239ef04318495",
-          "title": "Black Box kunstkerstboom Charlton D 91 H 155 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/black-box-kunstkerstboom-charlton-d-91-h-155-cm.html",
-          "priceEUR": 39.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 59.99,
-          "advertisedDiscountPercent": 33.3,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.65
-        },
-        {
-          "id": "intratuin:5bce846dc6094197",
-          "title": "Intratuin kerstfiguur rendier met verlichting 120 x 27 x 85 cm",
-          "shop": "Intratuin",
-          "category": "tuin",
-          "source": "Intratuin.nl",
-          "url": "https://www.intratuin.nl/intratuin-kerstfiguur-rendier-met-verlichting-120-x-27-x-85-cm.html",
-          "priceEUR": 99.99,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": 149.0,
-          "advertisedDiscountPercent": 32.9,
-          "offerType": null,
-          "startDate": null,
-          "endDate": null,
-          "dateEstimated": false,
-          "individualDateUnknown": false,
-          "observedAt": "2026-11-13",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 23.52
-        }
-      ]
+      "available": 0,
+      "top10": []
     },
     "bouwmarkt": {
       "label": "Bouwmarkt & klussen",
@@ -981,7 +700,7 @@
     },
     "drogisterij": {
       "label": "Drogisterij & verzorging",
-      "available": 1392,
+      "available": 1369,
       "top10": [
         {
           "id": "feedmycart:trekpleister:cb870a03cf9aa30a",

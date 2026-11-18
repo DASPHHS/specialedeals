@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:05:14.551568+00:00",
+  "updatedAt": "2026-11-18T21:24:40.015268+00:00",
   "items": [
     {
       "id": "1dec83bb08cb960e64e1",
@@ -7,49 +7,27 @@
       "url": "https://nl.pepper.com/aanbiedingen/van-der-valk-tot-40-korting-met-black-friday-deals-427409",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
+      "detectedAt": "2026-11-18T21:24:40.015268+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
-      "id": "f5f90a27bf37f51bc385",
-      "title": "Belsimpel Black Friday: sim only met cadeau of cashback, o.a. Sennheiser Momentum 5, AirPods 5 en Sony WH-1000XM6",
-      "url": "https://nl.pepper.com/aanbiedingen/belsimpel-black-friday-sim-only-met-cadeau-of-cashback-oa-apple-airpods-5-bij-lebara-sony-wh-1000xm6-bij-kpn-en-ben-75-gb-met-cashback-425425",
-      "source": "Pepper",
-      "wishlistMatches": [
-        "apple-airpods"
-      ],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "78544e3a4364c47a19c0",
-      "title": "KFC Stacker burger 1+1 gratis",
-      "url": "https://nl.pepper.com/aanbiedingen/kfc-stacker-burger-11-gratis-427488",
+      "id": "a4a8c4b9289884e49f73",
+      "title": "G-Star jassen: tot 50% korting + 10% extra (dames & heren)",
+      "url": "https://nl.pepper.com/aanbiedingen/g-star-jassen-tot-50-korting-10-extra-dames-heren-427669",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
+      "detectedAt": "2026-11-18T21:24:40.015268+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
-      "id": "b1750be831a30bc54f5d",
-      "title": "[H&M/APP] PRE-DEAL, black friday tot -70% korting",
-      "url": "https://nl.pepper.com/aanbiedingen/hmapp-pre-deal-black-friday-tot-70-korting-427407",
+      "id": "f81a0ab682f8d4d0173d",
+      "title": "[bijenkorf] Private Designer Sale 40% korting - vanaf 18 november voor member& premium leden - 19 t/m 22 november voor iedereen!",
+      "url": "https://nl.pepper.com/aanbiedingen/bijenkorf-private-designer-sale-40-korting-vanaf-18-november-voor-member-premium-leden-19-tm-22-november-voor-iedereen-427489",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "ae1edb5543178c03f142",
-      "title": "Samsung Galaxy Watch: tot 48% korting op Watch8 + 10% extra met BF26 + tot 30% bundelvoordeel + tot €250 inruil",
-      "url": "https://nl.pepper.com/aanbiedingen/samsung-galaxy-watch-tot-48-korting-op-watch8-10-extra-met-bf26-tot-eur250-inruilvoordeel-427597",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
+      "detectedAt": "2026-11-18T21:24:40.015268+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
@@ -59,7 +37,7 @@
       "url": "https://nl.pepper.com/aanbiedingen/uniqlo-sale-tot-35-korting-op-dames-en-herenmode-oa-jw-anderson-collectie-lamswol-kasjmier-427238",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-18T13:05:14.551568+00:00",
+      "detectedAt": "2026-11-18T21:24:40.015268+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

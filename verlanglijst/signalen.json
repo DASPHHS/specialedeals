@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:39:22.300337+01:00",
+  "updatedAt": "2026-11-18T04:34:30.170228+01:00",
   "sourceSnapshots": [
     "2026-11-17T15:54:10+01:00",
     "2026-11-17T16:54:51+01:00"
@@ -13,34 +13,29 @@
   "researchErrorCount": 0,
   "pricewatchCount": 0,
   "pricewatchErrorCount": 0,
-  "shopsSeen": 26,
+  "shopsSeen": 21,
   "shops": {
     "Albert Heijn": 2609,
-    "Jumbo": 1689,
-    "PLUS": 1283,
-    "Hoogvliet": 831,
+    "Jumbo": 1757,
     "Poiesz": 726,
     "DekaMarkt": 585,
-    "Ekoplaza": 394,
-    "Dirk": 355,
-    "Amazing Oriental": 285,
-    "Aldi": 208,
+    "Dirk": 382,
+    "Aldi": 203,
     "Nettorama": 165,
     "Vomar": 164,
     "boni": 157,
+    "Hoogvliet": 124,
     "Lidl": 105,
     "Boon's Markt": 85,
     "Coop": 84,
     "MCD": 84,
     "coop": 59,
-    "Intratuin": 58,
     "Etos": 40,
     "Trekpleister": 40,
     "SPAR": 31,
     "dagwinkel": 30,
-    "DA": 24,
     "Wibra": 14,
-    "Action": 8
+    "Ekoplaza": 3
   },
   "items": [
     {

@@ -1,53 +1,33 @@
 {
-  "updatedAt": "2026-11-19T03:21:37.605697+00:00",
+  "updatedAt": "2026-11-19T12:58:18.388166+00:00",
   "items": [
+    {
+      "id": "6c472495242035a285d4",
+      "title": "Overlap tussen 2 bordspelacties bij Bol (2e halve prijs + Black Friday aanbieding), bijv Kwakzalvers + Wingspan voor €45,36 ipv €60,48",
+      "url": "https://nl.pepper.com/aanbiedingen/overlap-tussen-2-bordspelacties-bij-bol-2e-halve-prijs-black-friday-aanbieding-427896",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
     {
       "id": "08bbb3a50432aca47877",
       "title": "[Black Friday] Zalando tot 70% korting én 10% extra!",
       "url": "https://nl.pepper.com/aanbiedingen/black-friday-zalando-tot-70-korting-en-10-extra-427819",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-19T03:21:37.605697+00:00",
+      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
-      "id": "1dec83bb08cb960e64e1",
-      "title": "Valk Exclusief: tot 40% korting • Black Friday Deals bij Van der Valk",
-      "url": "https://nl.pepper.com/aanbiedingen/van-der-valk-tot-40-korting-met-black-friday-deals-427409",
+      "id": "a9a3fff3e490080837fc",
+      "title": "Tot 30% korting op Yoto Players",
+      "url": "https://nl.pepper.com/aanbiedingen/tot-30-korting-op-yoto-players-427859",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-19T03:21:37.605697+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "f81a0ab682f8d4d0173d",
-      "title": "[bijenkorf] Private Designer Sale 40% korting - vanaf 18 november voor member& premium leden - 19 t/m 22 november voor iedereen!",
-      "url": "https://nl.pepper.com/aanbiedingen/bijenkorf-private-designer-sale-40-korting-vanaf-18-november-voor-member-premium-leden-19-tm-22-november-voor-iedereen-427489",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-19T03:21:37.605697+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "a4a8c4b9289884e49f73",
-      "title": "G-Star jassen: tot 50% korting + 10% extra (dames & heren)",
-      "url": "https://nl.pepper.com/aanbiedingen/g-star-jassen-tot-50-korting-10-extra-dames-heren-427669",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-19T03:21:37.605697+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "e00d10b6304beb3e5c6b",
-      "title": "Black friday sale 70% (bijv. Vitamine D & Veel Meer@ Holland & Barret",
-      "url": "https://nl.pepper.com/aanbiedingen/black-friday-sale-70-bijv-vitamine-d-veel-meer-at-holland-barret-427582",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-19T03:21:37.605697+00:00",
+      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

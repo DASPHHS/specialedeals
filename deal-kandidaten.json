@@ -1,33 +1,46 @@
 {
-  "updatedAt": "2026-11-19T12:58:18.388166+00:00",
+  "updatedAt": "2026-11-19T21:28:48.352691+00:00",
   "items": [
-    {
-      "id": "6c472495242035a285d4",
-      "title": "Overlap tussen 2 bordspelacties bij Bol (2e halve prijs + Black Friday aanbieding), bijv Kwakzalvers + Wingspan voor €45,36 ipv €60,48",
-      "url": "https://nl.pepper.com/aanbiedingen/overlap-tussen-2-bordspelacties-bij-bol-2e-halve-prijs-black-friday-aanbieding-427896",
-      "source": "Pepper",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
     {
       "id": "08bbb3a50432aca47877",
       "title": "[Black Friday] Zalando tot 70% korting én 10% extra!",
       "url": "https://nl.pepper.com/aanbiedingen/black-friday-zalando-tot-70-korting-en-10-extra-427819",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
+      "detectedAt": "2026-11-19T21:28:48.352691+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
     {
-      "id": "a9a3fff3e490080837fc",
-      "title": "Tot 30% korting op Yoto Players",
-      "url": "https://nl.pepper.com/aanbiedingen/tot-30-korting-op-yoto-players-427859",
+      "id": "423218e5451e9ef2d869",
+      "title": "DYSON Airwrap (van €449 naar €299)!",
+      "url": "https://nl.pepper.com/aanbiedingen/dyson-airwrap-van-eur449-naar-eur299-428092",
+      "source": "Pepper",
+      "wishlistMatches": [
+        "dyson-handstofzuiger",
+        "dyson-airwrap"
+      ],
+      "detectedAt": "2026-11-19T21:28:48.352691+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "6061d32ee27a85fd0f4d",
+      "title": "Bol | Tot 40% korting op sloffen en pantoffels",
+      "url": "https://nl.pepper.com/aanbiedingen/bol-tot-40-korting-op-sloffen-en-pantoffels-428069",
       "source": "Pepper",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-19T12:58:18.388166+00:00",
+      "detectedAt": "2026-11-19T21:28:48.352691+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "158b53a080c2eee9e4e0",
+      "title": "Uniqlo Sale: tot 35% korting op dames- en herenmode, o.a. JW Anderson-collectie, lamswol & kasjmier",
+      "url": "https://nl.pepper.com/aanbiedingen/uniqlo-sale-tot-35-korting-op-dames-en-herenmode-oa-jw-anderson-collectie-lamswol-kasjmier-427238",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-19T21:28:48.352691+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

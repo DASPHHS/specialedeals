@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T01:08:27.359081+01:00",
+  "updatedAt": "2026-11-23T09:51:37.255977+01:00",
   "provider": "Tweakers Pricewatch (undocumented public suggest endpoint)",
   "scope": "Undocumented endpoint returned non-JSON from GitHub Actions; automatic access disabled",
   "searchedThisRun": 0,

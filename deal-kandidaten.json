@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:40:28.933678+00:00",
+  "updatedAt": "2026-11-25T09:49:29.306499+00:00",
   "items": [
     {
       "id": "9ab2015e5ee0a1cd6ac5",
@@ -7,7 +7,7 @@
       "url": "https://www.allefolders.nl/zeeman-aanbiedingen/0db2657c-bb38-42c1-839f-8ae355ef9de9/19?offer=59c767b1-1a0b-4ada-9a2f-b92c495e8775",
       "source": "AlleFolders",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-25T00:40:28.933678+00:00",
+      "detectedAt": "2026-11-25T09:49:29.306499+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     },
@@ -17,7 +17,17 @@
       "url": "https://www.allefolders.nl/zeeman-aanbiedingen/0db2657c-bb38-42c1-839f-8ae355ef9de9/20?offer=723839be-0172-4e94-b519-4425357820ab",
       "source": "AlleFolders",
       "wishlistMatches": [],
-      "detectedAt": "2026-11-25T00:40:28.933678+00:00",
+      "detectedAt": "2026-11-25T09:49:29.306499+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "ede438514e40908e4e3c",
+      "title": "adidas Black Friday: tot 50% korting voor iedereen, o.a. Duitsland-thuisshirt, Ajax-uitshirt, Firebird-broek en Ultraboost 5",
+      "url": "https://nl.pepper.com/aanbiedingen/adidas-black-friday-early-access-tot-40-korting-voor-adiclub-leden-gratis-lid-oa-firebird-broek-adilette-en-denim-voor-kids-427191",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-25T09:49:29.306499+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

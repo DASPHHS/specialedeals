@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T16:56:34.057204+01:00",
+  "updatedAt": "2026-11-26T16:38:50.746062+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -32,7 +32,7 @@
       "searchedAt": "2026-11-23T17:22:33.726035+01:00",
       "query": "Arc'teryx",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -40,7 +40,7 @@
       "searchedAt": "2026-11-23T17:22:33.726035+01:00",
       "query": "Apple AirPods (standaardmodel)",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "wishId": "rituals-sport",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Rituals Sport",
       "leads": [],
       "status": "ok",
@@ -85,7 +85,7 @@
     },
     {
       "wishId": "giraffe-original",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Giraffe Original Blend",
       "leads": [],
       "status": "ok",
@@ -93,7 +93,7 @@
     },
     {
       "wishId": "ysl-m7",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
       "status": "ok",
@@ -101,7 +101,7 @@
     },
     {
       "wishId": "ysl-y",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
       "status": "ok",
@@ -109,7 +109,7 @@
     },
     {
       "wishId": "apple-imac",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Apple iMac",
       "leads": [],
       "status": "ok",
@@ -117,18 +117,12 @@
     },
     {
       "wishId": "lampe-berger-geuren",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Lampe Berger",
       "leads": [
         {
           "title": "OFFICIAL LAMPE BERGER STORE - MAISON BERGER",
           "url": "https://maison-berger.com/",
-          "domain": "maison-berger.com",
-          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
-        },
-        {
-          "title": "Products – OFFICIAL LAMPE BERGER STORE USA - MAISON BERGER USA",
-          "url": "https://maison-berger.com/collections/all",
           "domain": "maison-berger.com",
           "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
         }
@@ -138,7 +132,7 @@
     },
     {
       "wishId": "usb-hubs-premium",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Thunderbolt 4 dock",
       "leads": [],
       "status": "ok",
@@ -146,7 +140,7 @@
     },
     {
       "wishId": "hightech-gadgets",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Matter smart home hub",
       "leads": [],
       "status": "ok",
@@ -154,7 +148,7 @@
     },
     {
       "wishId": "premium-padel-balls",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "HEAD Padel Pro S+",
       "leads": [],
       "status": "ok",
@@ -162,7 +156,7 @@
     },
     {
       "wishId": "dyson-airwrap",
-      "searchedAt": "2026-11-25T16:56:34.057204+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Dyson Airwrap",
       "leads": [],
       "status": "ok",
@@ -170,18 +164,18 @@
     },
     {
       "wishId": "arcteryx-gamma-broek",
-      "searchedAt": "2026-11-20T15:17:31.723226+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Arc'teryx Gamma Pant",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "arcteryx-werkbroek-alternatief",
-      "searchedAt": "2026-11-20T15:17:31.723226+01:00",
+      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
       "query": "Arc'teryx pants",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {

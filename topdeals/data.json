@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T15:55:58.710704+01:00",
+  "generatedAt": "2026-11-27T00:40:14.205992+01:00",
   "timeZone": "Europe/Amsterdam",
   "sortPolicy": "Wishlist affinity, individual item price, source quality, advertised reference discount and source diversity. This is a ranked shortlist, NOT verified savings.",
   "coverage": "Only PrijsProfeet and selected FeedMyCart/DA/Intratuin sources; not all supermarkets, building-supply stores or webshops.",
@@ -17,7 +17,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-airpods-pro"
       ],
@@ -33,7 +33,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-airpods"
       ],
@@ -49,7 +49,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "lampe-berger-geuren"
       ],
@@ -65,7 +65,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "luxe-huisparfum-alternatief"
       ],
@@ -81,7 +81,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "hightech-gadgets"
       ],
@@ -97,7 +97,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -113,7 +113,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-macbook"
       ],
@@ -129,7 +129,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-imac"
       ],
@@ -145,7 +145,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "usb-hubs-premium"
       ],
@@ -161,7 +161,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -177,7 +177,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -193,7 +193,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "hoka-schoenen"
       ],
@@ -209,7 +209,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "arcteryx-gamma-broek"
       ],
@@ -225,7 +225,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "arcteryx-werkbroek-alternatief"
       ],
@@ -241,7 +241,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "arcteryx-wit-logo-shirt"
       ],
@@ -299,7 +299,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "dyson-handstofzuiger"
       ],
@@ -315,7 +315,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "dyson-airwrap"
       ],
@@ -331,7 +331,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "apple-watch-ultra"
       ],
@@ -347,7 +347,7 @@
       "state": "no_offer_in_feeds",
       "method": "Existing retailer/supermarket feed title-matching, not an exact SKU check",
       "note": "Geen passende actuele winkelprijs in aangesloten feeds; geen bewijs dat er elders geen aanbieding is.",
-      "checkedAgainstFeedAt": "2026-11-26T15:55:58.710704+01:00",
+      "checkedAgainstFeedAt": "2026-11-27T00:40:14.205992+01:00",
       "trackedWishIds": [
         "janzen-earth"
       ],
@@ -376,25 +376,25 @@
   "sourceHealth": [
     {
       "source": "PrijsProfeet",
-      "sourceUpdatedAt": "2026-11-26T02:10:23+01:00",
-      "ageHours": 13.8,
+      "sourceUpdatedAt": "2026-11-26T16:47:49+01:00",
+      "ageHours": 7.9,
       "usable": true,
-      "offersInSnapshot": 11778
+      "offersInSnapshot": 11928
     },
     {
       "source": "FeedMyCart",
-      "sourceUpdatedAt": "2026-11-25T18:06:37+01:00",
-      "ageHours": 21.8,
+      "sourceUpdatedAt": "2026-11-26T17:47:56+01:00",
+      "ageHours": 6.9,
       "usable": true,
-      "offersInSnapshot": 189
+      "offersInSnapshot": 188
     }
   ],
   "discarded": {
-    "expired_or_bad_price": 884,
+    "expired_or_bad_price": 930,
     "stale_source": 0,
-    "duplicates": 26
+    "duplicates": 43
   },
-  "eligibleCount": 11057,
+  "eligibleCount": 11143,
   "wishlistMatchedCount": 0,
   "categories": {
     "persoonlijk": {
@@ -404,7 +404,7 @@
     },
     "supermarkt": {
       "label": "Supermarkt & boodschappen",
-      "available": 9475,
+      "available": 9562,
       "top10": [
         {
           "id": "prijsprofeet:hoogvliet:hoogvliet_730628000_2026-11-24",
@@ -700,7 +700,7 @@
     },
     "drogisterij": {
       "label": "Drogisterij & verzorging",
-      "available": 1137,
+      "available": 1134,
       "top10": [
         {
           "id": "feedmycart:trekpleister:614b794c73dc4dc2",
@@ -719,7 +719,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -747,7 +747,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -775,7 +775,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -803,7 +803,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -859,7 +859,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -887,7 +887,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -915,7 +915,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -927,8 +927,8 @@
           "rankScore": 34.0
         },
         {
-          "id": "feedmycart:etos:8947888c2b87fef8",
-          "title": "Deoleen Derma-Ultra Anti-Transpirant 72H Deodorant Roller 50 ML",
+          "id": "feedmycart:etos:f7771fe9c800947a",
+          "title": "NIVEA Oogmake-up Remover Radiance Waterproof 125 ML",
           "shop": "Etos",
           "category": "drogisterij",
           "source": "FeedMyCart",
@@ -943,7 +943,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -996,7 +996,7 @@
     },
     "huis": {
       "label": "Wonen & huishouden",
-      "available": 437,
+      "available": 440,
       "top10": [
         {
           "id": "feedmycart:trekpleister:5ebca24fa3e543fd",
@@ -1015,7 +1015,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1043,7 +1043,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1071,7 +1071,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1099,7 +1099,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1282,7 +1282,7 @@
     },
     "overig": {
       "label": "Overige buitenkansjes",
-      "available": 8,
+      "available": 7,
       "top10": [
         {
           "id": "feedmycart:etos:5bc7f4fd9fece68c",
@@ -1301,7 +1301,35 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
+          "wishMatches": [],
+          "evidence": "Retailer promotion reference, not an independently verified discount",
+          "verifiedDeal": false,
+          "verifiedAllInPrice": false,
+          "shippingEUR": null,
+          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
+          "directProductPage": false,
+          "bundle": false,
+          "rankScore": 28.0
+        },
+        {
+          "id": "feedmycart:etos:fe3e7ad656617233",
+          "title": "Pampers Harmonie Maandbox Luiers Maat 4 9-14 kg 140 stuks",
+          "shop": "Etos",
+          "category": "overig",
+          "source": "FeedMyCart",
+          "url": "https://feedmycart.nl/en/countries/netherlands/etos/",
+          "priceEUR": 38.8,
+          "unitPriceEUR": null,
+          "unit": null,
+          "advertisedReferenceEUR": 96.99,
+          "advertisedDiscountPercent": 60.0,
+          "offerType": null,
+          "startDate": null,
+          "endDate": "2026-11-29",
+          "dateEstimated": false,
+          "individualDateUnknown": false,
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1329,7 +1357,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1357,7 +1385,7 @@
           "endDate": "2026-11-29",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1367,34 +1395,6 @@
           "directProductPage": false,
           "bundle": false,
           "rankScore": 28.0
-        },
-        {
-          "id": "feedmycart:action:e290d6d0ac137094",
-          "title": "Magnetische blokken 100 stuks",
-          "shop": "Action",
-          "category": "overig",
-          "source": "FeedMyCart",
-          "url": "https://feedmycart.nl/en/countries/netherlands/action/",
-          "priceEUR": 11.95,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": null,
-          "advertisedDiscountPercent": null,
-          "offerType": null,
-          "startDate": null,
-          "endDate": "2026-12-01",
-          "dateEstimated": false,
-          "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 7
         },
         {
           "id": "feedmycart:action:ee8dfe6acd77e2a6",
@@ -1413,7 +1413,7 @@
           "endDate": "2026-12-01",
           "dateEstimated": false,
           "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1441,7 +1441,7 @@
           "endDate": "2026-12-01",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,
@@ -1469,35 +1469,7 @@
           "endDate": "2026-12-01",
           "dateEstimated": false,
           "individualDateUnknown": false,
-          "observedAt": "2026-11-25",
-          "wishMatches": [],
-          "evidence": "Retailer promotion reference, not an independently verified discount",
-          "verifiedDeal": false,
-          "verifiedAllInPrice": false,
-          "shippingEUR": null,
-          "quality": "Bronoverzicht of externe productfeed; exacte productpagina/voorraad niet bevestigd",
-          "directProductPage": false,
-          "bundle": false,
-          "rankScore": 4
-        },
-        {
-          "id": "feedmycart:action:33c83b07676ffdce",
-          "title": "Parel- en kralenset in opbergdoos Diverse kleuren",
-          "shop": "Action",
-          "category": "overig",
-          "source": "FeedMyCart",
-          "url": "https://feedmycart.nl/en/countries/netherlands/action/",
-          "priceEUR": 1.49,
-          "unitPriceEUR": null,
-          "unit": null,
-          "advertisedReferenceEUR": null,
-          "advertisedDiscountPercent": null,
-          "offerType": null,
-          "startDate": null,
-          "endDate": "2026-12-01",
-          "dateEstimated": false,
-          "individualDateUnknown": true,
-          "observedAt": "2026-11-25",
+          "observedAt": "2026-11-26",
           "wishMatches": [],
           "evidence": "Retailer promotion reference, not an independently verified discount",
           "verifiedDeal": false,

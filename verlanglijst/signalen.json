@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T16:39:10.761006+01:00",
+  "updatedAt": "2026-11-27T00:40:02.358287+01:00",
   "sourceSnapshots": [
-    "2026-11-26T02:10:23+01:00",
-    "2026-11-25T18:06:37+01:00"
+    "2026-11-26T16:47:49+01:00",
+    "2026-11-26T17:47:56+01:00"
   ],
   "wishCount": 23,
   "candidateCount": 0,
@@ -20,25 +20,25 @@
     "PLUS": 1694,
     "Poiesz": 1031,
     "Hoogvliet": 621,
-    "DekaMarkt": 548,
-    "Dirk": 369,
+    "DekaMarkt": 584,
+    "Dirk": 387,
     "Ekoplaza": 338,
-    "Aldi": 187,
+    "Aldi": 193,
     "Amazing Oriental": 181,
-    "Lidl": 165,
-    "Vomar": 159,
+    "Vomar": 173,
+    "Lidl": 166,
     "Nettorama": 152,
     "boni": 147,
-    "Boon's Markt": 94,
-    "Coop": 92,
-    "MCD": 91,
+    "Boon's Markt": 98,
+    "Coop": 96,
+    "MCD": 95,
     "coop": 54,
     "Etos": 40,
     "Trekpleister": 40,
     "SPAR": 39,
     "dagwinkel": 33,
-    "Action": 14,
-    "Wibra": 13
+    "Wibra": 14,
+    "Action": 12
   },
   "items": [
     {

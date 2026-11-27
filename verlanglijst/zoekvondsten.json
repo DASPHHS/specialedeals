@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T16:38:50.746062+01:00",
+  "updatedAt": "2026-11-27T16:28:49.346783+01:00",
   "scope": "Selective Bing RSS research, not an ecommerce API or live price verification",
   "searchedThisRun": 12,
   "errors": [],
@@ -48,7 +48,7 @@
       "searchedAt": "2026-11-24T17:11:48.182854+01:00",
       "query": "AirPods Pro",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -56,7 +56,7 @@
       "searchedAt": "2026-11-24T17:11:48.182854+01:00",
       "query": "Apple MacBook",
       "leads": [],
-      "status": "ok",
+      "status": "stale",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
@@ -93,7 +93,7 @@
     },
     {
       "wishId": "ysl-m7",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Yves Saint Laurent M7",
       "leads": [],
       "status": "ok",
@@ -101,7 +101,7 @@
     },
     {
       "wishId": "ysl-y",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Yves Saint Laurent Y",
       "leads": [],
       "status": "ok",
@@ -109,7 +109,7 @@
     },
     {
       "wishId": "apple-imac",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Apple iMac",
       "leads": [],
       "status": "ok",
@@ -117,22 +117,15 @@
     },
     {
       "wishId": "lampe-berger-geuren",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Lampe Berger",
-      "leads": [
-        {
-          "title": "OFFICIAL LAMPE BERGER STORE - MAISON BERGER",
-          "url": "https://maison-berger.com/",
-          "domain": "maison-berger.com",
-          "status": "Externe zoekvondst — prijs, maat, voorraad en actualiteit niet gecontroleerd"
-        }
-      ],
+      "leads": [],
       "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "usb-hubs-premium",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Thunderbolt 4 dock",
       "leads": [],
       "status": "ok",
@@ -140,7 +133,7 @@
     },
     {
       "wishId": "hightech-gadgets",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Matter smart home hub",
       "leads": [],
       "status": "ok",
@@ -148,7 +141,7 @@
     },
     {
       "wishId": "premium-padel-balls",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "HEAD Padel Pro S+",
       "leads": [],
       "status": "ok",
@@ -156,7 +149,7 @@
     },
     {
       "wishId": "dyson-airwrap",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Dyson Airwrap",
       "leads": [],
       "status": "ok",
@@ -164,7 +157,7 @@
     },
     {
       "wishId": "arcteryx-gamma-broek",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Arc'teryx Gamma Pant",
       "leads": [],
       "status": "ok",
@@ -172,7 +165,7 @@
     },
     {
       "wishId": "arcteryx-werkbroek-alternatief",
-      "searchedAt": "2026-11-26T16:38:50.746062+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Arc'teryx pants",
       "leads": [],
       "status": "ok",
@@ -180,18 +173,18 @@
     },
     {
       "wishId": "arcteryx-wit-logo-shirt",
-      "searchedAt": "2026-11-21T14:39:25.361836+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "Arc'teryx T-shirt",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     },
     {
       "wishId": "luxe-huisparfum-alternatief",
-      "searchedAt": "2026-11-21T14:39:25.361836+01:00",
+      "searchedAt": "2026-11-27T16:28:49.346783+01:00",
       "query": "home fragrance diffuser",
       "leads": [],
-      "status": "stale",
+      "status": "ok",
       "searchSource": "Bing RSS webzoekresultaten"
     }
   ],

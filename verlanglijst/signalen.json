@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T16:29:08.310789+01:00",
+  "updatedAt": "2026-11-27T19:03:08.258809+01:00",
   "sourceSnapshots": [
-    "2026-11-27T02:09:47+01:00",
-    "2026-11-26T17:47:56+01:00"
+    "2026-11-27T16:35:58+01:00",
+    "2026-11-27T17:33:33+01:00"
   ],
   "wishCount": 23,
   "candidateCount": 0,
@@ -13,7 +13,7 @@
   "researchErrorCount": 0,
   "pricewatchCount": 0,
   "pricewatchErrorCount": 0,
-  "shopsSeen": 24,
+  "shopsSeen": 26,
   "shops": {
     "Albert Heijn": 2853,
     "Jumbo": 2114,
@@ -32,11 +32,13 @@
     "Boon's Markt": 98,
     "Coop": 96,
     "MCD": 95,
+    "Intratuin": 58,
     "coop": 54,
     "Etos": 40,
     "Trekpleister": 40,
     "SPAR": 39,
     "dagwinkel": 33,
+    "DA": 24,
     "Wibra": 14,
     "Action": 12
   },

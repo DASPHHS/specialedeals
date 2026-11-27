@@ -1,35 +1,23 @@
 {
-  "updatedAt": "2026-11-27T15:00:11.400805+00:00",
+  "updatedAt": "2026-11-27T23:25:34.773757+00:00",
   "items": [
     {
-      "id": "9ab2015e5ee0a1cd6ac5",
-      "title": "30% korting Geselecteerde heren jassen",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/0db2657c-bb38-42c1-839f-8ae355ef9de9/19?offer=59c767b1-1a0b-4ada-9a2f-b92c495e8775",
-      "source": "AlleFolders",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-27T15:00:11.400805+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "eecdaab88fc18df74dd6",
-      "title": "30% korting Dames jassen",
-      "url": "https://www.allefolders.nl/zeeman-aanbiedingen/0db2657c-bb38-42c1-839f-8ae355ef9de9/20?offer=723839be-0172-4e94-b519-4425357820ab",
-      "source": "AlleFolders",
-      "wishlistMatches": [],
-      "detectedAt": "2026-11-27T15:00:11.400805+00:00",
-      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
-      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
-    },
-    {
-      "id": "bf1830589cddf5d2ac14",
-      "title": "Apple AirPods Pro 3 @ Amazon DE (Laagste prijs ooit)",
-      "url": "https://nl.pepper.com/aanbiedingen/apple-airpods-pro-3-at-amazon-de-429628",
+      "id": "476a1c2f86cb10bb55c4",
+      "title": "UGG Black Friday: tot 60% korting op laarzen, pantoffels en sneakers voor dames, heren en kids",
+      "url": "https://nl.pepper.com/aanbiedingen/ugg-black-friday-tot-60-korting-op-laarzen-pantoffels-en-sneakers-voor-dames-heren-en-kids-428752",
       "source": "Pepper",
-      "wishlistMatches": [
-        "apple-airpods-pro"
-      ],
-      "detectedAt": "2026-11-27T15:00:11.400805+00:00",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-27T23:25:34.773757+00:00",
+      "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
+      "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
+    },
+    {
+      "id": "dec488ff82ebfd4d1640",
+      "title": "[Black Friday] Lindt Adventskalenders 1+1 Gratis | Lindt",
+      "url": "https://nl.pepper.com/aanbiedingen/black-friday-lindt-adventskalenders-11-gratis-lindt-429947",
+      "source": "Pepper",
+      "wishlistMatches": [],
+      "detectedAt": "2026-11-27T23:25:34.773757+00:00",
       "status": "Niet geverifieerd: actuele prijs en vergelijking ontbreken",
       "qualityGate": "Onderzoekslead; prijs, voorraad en besparing nog niet geverifieerd"
     }

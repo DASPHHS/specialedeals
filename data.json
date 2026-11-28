@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T07:41:38.967450+00:00",
+  "updatedAt": "2026-11-28T16:51:12.091096+00:00",
   "items": [
     {
       "id": "official-anwb-droomvakantie-2026",
@@ -20,8 +20,8 @@
       "kind": "contests",
       "source": "ANWB",
       "audience": "all",
-      "discoveredAt": "2026-11-28T07:41:38.967450+00:00",
-      "lastSeenAt": "2026-11-28T07:41:38.967450+00:00",
+      "discoveredAt": "2026-11-28T16:51:12.091096+00:00",
+      "lastSeenAt": "2026-11-28T16:51:12.091096+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-10-27; controleer opnieuw bij deelname"
     },
     {
@@ -43,8 +43,8 @@
       "source": "ANWB",
       "audience": "all",
       "score": 95,
-      "discoveredAt": "2026-11-28T07:41:38.967450+00:00",
-      "lastSeenAt": "2026-11-28T07:41:38.967450+00:00",
+      "discoveredAt": "2026-11-28T16:51:12.091096+00:00",
+      "lastSeenAt": "2026-11-28T16:51:12.091096+00:00",
       "status": "Voorwaarden handmatig gecontroleerd op 2026-11-01; controleer opnieuw bij deelname"
     },
     {
@@ -120,7 +120,7 @@
     {
       "name": "Pepper",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "SuperSales",
@@ -195,7 +195,7 @@
   "wishlistLastRead": "2026-11-01",
   "radarProfileLastRead": "2026-10-28",
   "minDealDiscountPercent": 10,
-  "dealCandidates": 2,
+  "dealCandidates": 1,
   "wishlistProducts": [
     {
       "id": "dyson-handstofzuiger",
